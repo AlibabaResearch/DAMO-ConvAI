@@ -1,0 +1,902 @@
+{"input": "northeast express regional airlines", "output": ["'2V'"]}
+{"input": "air alliance", "output": ["'3J'"]}
+{"input": "alpha air", "output": ["'7V'"]}
+{"input": "express airlines i", "output": ["'9E'"]}
+{"input": "colgan air", "output": ["'9L'"]}
+{"input": "trans states airlines", "output": ["'9N'"]}
+{"input": "ontario express", "output": ["'9X'"]}
+{"input": "american airlines", "output": ["'AA'"]}
+{"input": "american airline", "output": ["'AA'"]}
+{"input": "american", "output": ["'AA'"]}
+{"input": "air canada", "output": ["'AC'"]}
+{"input": "aerolineas argentinas", "output": ["'AR'"]}
+{"input": "alaska airlines", "output": ["'AS'"]}
+{"input": "royal air maroc", "output": ["'AT'"]}
+{"input": "british airways", "output": ["'BA'"]}
+{"input": "braniff international airlines", "output": ["'BE'"]}
+{"input": "continental airlines", "output": ["'CO'"]}
+{"input": "continental", "output": ["'CO'"]}
+{"input": "canadian airlines international", "output": ["'CP'"]}
+{"input": "canadian", "output": ["'CP'"]}
+{"input": "canadian airlines", "output": ["'CP'"]}
+{"input": "atlantic coast airlines", "output": ["'DH'"]}
+{"input": "delta airlines", "output": ["'DL'"]}
+{"input": "delta", "output": ["'DL'"]}
+{"input": "delta airline", "output": ["'DL'"]}
+{"input": "atlantic southeast airlines", "output": ["'EV'"]}
+{"input": "tower air", "output": ["'FF'"]}
+{"input": "air ontario", "output": ["'GX'"]}
+{"input": "america west airlines", "output": ["'HP'"]}
+{"input": "america west", "output": ["'HP'"]}
+{"input": "business express", "output": ["'HQ'"]}
+{"input": "carnival air lines", "output": ["'KW'"]}
+{"input": "lufthansa german airlines", "output": ["'LH'"]}
+{"input": "lufthansa", "output": ["'LH'"]}
+{"input": "lufthansa airlines", "output": ["'LH'"]}
+{"input": "mgm grand air", "output": ["'MG'"]}
+{"input": "northwest airlines", "output": ["'NW'"]}
+{"input": "northwest airline", "output": ["'NW'"]}
+{"input": "northwest", "output": ["'NW'"]}
+{"input": "nationair", "output": ["'NX'"]}
+{"input": "westair airlines", "output": ["'OE'"]}
+{"input": "comair", "output": ["'OH'"]}
+{"input": "czechoslovak airlines", "output": ["'OK'"]}
+{"input": "sky west airlines", "output": ["'OO'"]}
+{"input": "grand airways", "output": ["'QD'"]}
+{"input": "precision airlines", "output": ["'RP'"]}
+{"input": "trans world express", "output": ["'RZ'"]}
+{"input": "sabena belgian world airlines", "output": ["'SN'"]}
+{"input": "christman air system", "output": ["'SX'"]}
+{"input": "thai airways international,ltd.", "output": ["'TG'"]}
+{"input": "trans world airlines", "output": ["'TW'"]}
+{"input": "twa", "output": ["'TW'"]}
+{"input": "american trans air", "output": ["'TZ'"]}
+{"input": "united airlines", "output": ["'UA'"]}
+{"input": "united", "output": ["'UA'"]}
+{"input": "usair", "output": ["'US'"]}
+{"input": "us air", "output": ["'US'"]}
+{"input": "southwest airlines", "output": ["'WN'"]}
+{"input": "southwest air", "output": ["'WN'"]}
+{"input": "southwest", "output": ["'WN'"]}
+{"input": "mesaba aviation", "output": ["'XJ'"]}
+{"input": "midwest express airlines", "output": ["'YX'"]}
+{"input": "midwest express", "output": ["'YX'"]}
+{"input": "air wisconsin", "output": ["'ZW'"]}
+{"input": "2v", "output": ["'2V'"]}
+{"input": "3j", "output": ["'3J'"]}
+{"input": "7v", "output": ["'7V'"]}
+{"input": "9e", "output": ["'9E'"]}
+{"input": "9l", "output": ["'9L'"]}
+{"input": "9n", "output": ["'9N'"]}
+{"input": "9x", "output": ["'9X'"]}
+{"input": "aa", "output": ["'AA'"]}
+{"input": "ac", "output": ["'AC'"]}
+{"input": "ar", "output": ["'AR'"]}
+{"input": "as", "output": ["'AS'"]}
+{"input": "at", "output": ["'AT'"]}
+{"input": "ba", "output": ["'BA'"]}
+{"input": "be", "output": ["'BE'"]}
+{"input": "co", "output": ["'CO'"]}
+{"input": "cp", "output": ["'CP'"]}
+{"input": "dh", "output": ["'DH'"]}
+{"input": "dl", "output": ["'DL'"]}
+{"input": "ev", "output": ["'EV'"]}
+{"input": "ff", "output": ["'FF'"]}
+{"input": "gx", "output": ["'GX'"]}
+{"input": "hp", "output": ["'HP'"]}
+{"input": "hq", "output": ["'HQ'"]}
+{"input": "kw", "output": ["'KW'"]}
+{"input": "lh", "output": ["'LH'"]}
+{"input": "mg", "output": ["'MG'"]}
+{"input": "nw", "output": ["'NW'"]}
+{"input": "nx", "output": ["'NX'"]}
+{"input": "oe", "output": ["'OE'"]}
+{"input": "oh", "output": ["'OH'"]}
+{"input": "ok", "output": ["'OK'"]}
+{"input": "oo", "output": ["'OO'"]}
+{"input": "qd", "output": ["'QD'"]}
+{"input": "rp", "output": ["'RP'"]}
+{"input": "rz", "output": ["'RZ'"]}
+{"input": "sn", "output": ["'SN'"]}
+{"input": "sx", "output": ["'SX'"]}
+{"input": "tg", "output": ["'TG'"]}
+{"input": "tw", "output": ["'TW'"]}
+{"input": "tz", "output": ["'TZ'"]}
+{"input": "ua", "output": ["'UA'"]}
+{"input": "us", "output": ["'US'"]}
+{"input": "wn", "output": ["'WN'"]}
+{"input": "xj", "output": ["'XJ'"]}
+{"input": "yx", "output": ["'YX'"]}
+{"input": "zw", "output": ["'ZW'"]}
+{"input": "nashville", "output": ["'NASHVILLE'"]}
+{"input": "boston", "output": ["'BOSTON'"]}
+{"input": "burbank", "output": ["'BURBANK'"]}
+{"input": "baltimore", "output": ["'BALTIMORE'"]}
+{"input": "chicago", "output": ["'CHICAGO'"]}
+{"input": "cleveland", "output": ["'CLEVELAND'"]}
+{"input": "charlotte", "output": ["'CHARLOTTE'"]}
+{"input": "columbus", "output": ["'COLUMBUS'"]}
+{"input": "cincinnati", "output": ["'CINCINNATI'"]}
+{"input": "denver", "output": ["'DENVER'"]}
+{"input": "dallas", "output": ["'DALLAS'"]}
+{"input": "detroit", "output": ["'DETROIT'"]}
+{"input": "fort worth", "output": ["'FORT", "WORTH'"]}
+{"input": "houston", "output": ["'HOUSTON'"]}
+{"input": "westchester county", "output": ["'WESTCHESTER COUNTY'"]}
+{"input": "westchester", "output": ["'WESTCHESTER COUNTY'"]}
+{"input": "indianapolis", "output": ["'INDIANAPOLIS'"]}
+{"input": "newark", "output": ["'NEWARK'"]}
+{"input": "las vegas", "output": ["'LAS VEGAS'"]}
+{"input": "los angeles", "output": ["'LOS ANGELES'"]}
+{"input": "long beach", "output": ["'LONG BEACH'"]}
+{"input": "atlanta", "output": ["'ATLANTA'"]}
+{"input": "memphis", "output": ["'MEMPHIS'"]}
+{"input": "miami", "output": ["'MIAMI'"]}
+{"input": "kansas city", "output": ["'KANSAS CITY'"]}
+{"input": "milwaukee", "output": ["'MILWAUKEE'"]}
+{"input": "minneapolis", "output": ["'MINNEAPOLIS'"]}
+{"input": "new york", "output": ["'NEW YORK'"]}
+{"input": "new york city", "output": ["'NEW YORK'"]}
+{"input": "oakland", "output": ["'OAKLAND'"]}
+{"input": "ontario", "output": ["'ONTARIO'"]}
+{"input": "orlando", "output": ["'ORLANDO'"]}
+{"input": "philadelphia", "output": ["'PHILADELPHIA'"]}
+{"input": "phoenix", "output": ["'PHOENIX'"]}
+{"input": "pittsburgh", "output": ["'PITTSBURGH'"]}
+{"input": "st. paul", "output": ["'ST. PAUL'"]}
+{"input": "saint paul", "output": ["'ST. PAUL'"]}
+{"input": "san diego", "output": ["'SAN DIEGO'"]}
+{"input": "seattle", "output": ["'SEATTLE'"]}
+{"input": "san francisco", "output": ["'SAN FRANCISCO'"]}
+{"input": "san jose", "output": ["'SAN JOSE'"]}
+{"input": "salt lake city", "output": ["'SALT LAKE CITY'"]}
+{"input": "st. louis", "output": ["'ST. LOUIS'"]}
+{"input": "saint louis", "output": ["'ST. LOUIS'"]}
+{"input": "saint petersburg", "output": ["'ST. PETERSBURG'"]}
+{"input": "st. petersburg", "output": ["'ST. PETERSBURG'"]}
+{"input": "tacoma", "output": ["'TACOMA'"]}
+{"input": "tampa", "output": ["'TAMPA'"]}
+{"input": "washington", "output": ["'WASHINGTON'"]}
+{"input": "montreal", "output": ["'MONTREAL'"]}
+{"input": "toronto", "output": ["'TORONTO'"]}
+{"input": "january", "output": ["1"]}
+{"input": "february", "output": ["2"]}
+{"input": "march", "output": ["3"]}
+{"input": "april", "output": ["4"]}
+{"input": "may", "output": ["5"]}
+{"input": "june", "output": ["6"]}
+{"input": "july", "output": ["7"]}
+{"input": "august", "output": ["8"]}
+{"input": "september", "output": ["9"]}
+{"input": "october", "output": ["10"]}
+{"input": "november", "output": ["11"]}
+{"input": "december", "output": ["12"]}
+{"input": "monday", "output": ["'MONDAY'"]}
+{"input": "tuesday", "output": ["'TUESDAY'"]}
+{"input": "wednesday", "output": ["'WEDNESDAY'"]}
+{"input": "thursday", "output": ["'THURSDAY'"]}
+{"input": "friday", "output": ["'FRIDAY'"]}
+{"input": "saturday", "output": ["'SATURDAY'"]}
+{"input": "sunday", "output": ["'SUNDAY'"]}
+{"input": "first", "output": ["1"]}
+{"input": "second", "output": ["2"]}
+{"input": "third", "output": ["3"]}
+{"input": "fourth", "output": ["4"]}
+{"input": "fifth", "output": ["5"]}
+{"input": "sixth", "output": ["6"]}
+{"input": "seventh", "output": ["7"]}
+{"input": "eighth", "output": ["8"]}
+{"input": "ninth", "output": ["9"]}
+{"input": "tenth", "output": ["10"]}
+{"input": "eleventh", "output": ["11"]}
+{"input": "twelfth", "output": ["12"]}
+{"input": "thirteenth", "output": ["13"]}
+{"input": "fourteenth", "output": ["14"]}
+{"input": "fifteenth", "output": ["15"]}
+{"input": "sixteenth", "output": ["16"]}
+{"input": "seventeenth", "output": ["17"]}
+{"input": "eighteenth", "output": ["18"]}
+{"input": "nineteenth", "output": ["19"]}
+{"input": "twentieth", "output": ["20"]}
+{"input": "twenty first", "output": ["21"]}
+{"input": "twenty second", "output": ["22"]}
+{"input": "twenty third", "output": ["23"]}
+{"input": "twenty fourth", "output": ["24"]}
+{"input": "twenty fifth", "output": ["25"]}
+{"input": "twenty sixth", "output": ["26"]}
+{"input": "twenty seventh", "output": ["27"]}
+{"input": "twenty eighth", "output": ["28"]}
+{"input": "twenty ninth", "output": ["29"]}
+{"input": "thirtieth", "output": ["30"]}
+{"input": "thirty first", "output": ["31"]}
+{"input": "coach", "output": ["'COACH'"]}
+{"input": "business", "output": ["'BUSINESS'"]}
+{"input": "first", "output": ["'FIRST'"]}
+{"input": "first class", "output": ["'FIRST'"]}
+{"input": "thrift", "output": ["'THRIFT'"]}
+{"input": "standard", "output": ["'STANDARD'"]}
+{"input": "shuttle", "output": ["'SHUTTLE'"]}
+{"input": "b", "output": ["'B'"]}
+{"input": "bh", "output": ["'BH'"]}
+{"input": "bhw", "output": ["'BHW'"]}
+{"input": "bhx", "output": ["'BHX'"]}
+{"input": "bl", "output": ["'BL'"]}
+{"input": "blw", "output": ["'BLW'"]}
+{"input": "blx", "output": ["'BLX'"]}
+{"input": "bn", "output": ["'BN'"]}
+{"input": "bow", "output": ["'BOW'"]}
+{"input": "box", "output": ["'BOX'"]}
+{"input": "bw", "output": ["'BW'"]}
+{"input": "bx", "output": ["'BX'"]}
+{"input": "c", "output": ["'C'"]}
+{"input": "cn", "output": ["'CN'"]}
+{"input": "f", "output": ["'F'"]}
+{"input": "fn", "output": ["'FN'"]}
+{"input": "h", "output": ["'H'"]}
+{"input": "hh", "output": ["'HH'"]}
+{"input": "hhw", "output": ["'HHW'"]}
+{"input": "hhx", "output": ["'HHX'"]}
+{"input": "hl", "output": ["'HL'"]}
+{"input": "hlw", "output": ["'HLW'"]}
+{"input": "hlx", "output": ["'HLX'"]}
+{"input": "how", "output": ["'HOW'"]}
+{"input": "hox", "output": ["'HOX'"]}
+{"input": "j", "output": ["'J'"]}
+{"input": "k", "output": ["'K'"]}
+{"input": "kh", "output": ["'KH'"]}
+{"input": "kl", "output": ["'KL'"]}
+{"input": "kn", "output": ["'KN'"]}
+{"input": "lx", "output": ["'LX'"]}
+{"input": "m", "output": ["'M'"]}
+{"input": "mh", "output": ["'MH'"]}
+{"input": "ml", "output": ["'ML'"]}
+{"input": "mow", "output": ["'MOW'"]}
+{"input": "p", "output": ["'P'"]}
+{"input": "q", "output": ["'Q'"]}
+{"input": "qh", "output": ["'QH'"]}
+{"input": "qhw", "output": ["'QHW'"]}
+{"input": "qhx", "output": ["'QHX'"]}
+{"input": "qlw", "output": ["'QLW'"]}
+{"input": "qlx", "output": ["'QLX'"]}
+{"input": "qo", "output": ["'QO'"]}
+{"input": "qow", "output": ["'QOW'"]}
+{"input": "qox", "output": ["'QOX'"]}
+{"input": "qw", "output": ["'QW'"]}
+{"input": "qx", "output": ["'QX'"]}
+{"input": "s", "output": ["'S'"]}
+{"input": "u", "output": ["'U'"]}
+{"input": "v", "output": ["'V'"]}
+{"input": "vhw", "output": ["'VHW'"]}
+{"input": "vhx", "output": ["'VHX'"]}
+{"input": "vw", "output": ["'VW'"]}
+{"input": "vx", "output": ["'VX'"]}
+{"input": "y", "output": ["'Y'"]}
+{"input": "yh", "output": ["'YH'"]}
+{"input": "yl", "output": ["'YL'"]}
+{"input": "yn", "output": ["'YN'"]}
+{"input": "yw", "output": ["'YW'"]}
+{"input": "yx", "output": ["'YX'"]}
+{"input": "rental car", "output": ["'RENTAL CAR'"]}
+{"input": "air taxi operation", "output": ["'AIR TAXI OPERATION'"]}
+{"input": "limousine", "output": ["'LIMOUSINE'"]}
+{"input": "taxi", "output": ["'TAXI'"]}
+{"input": "arizona", "output": ["'ARIZONA'"]}
+{"input": "california", "output": ["'CALIFORNIA'"]}
+{"input": "colorado", "output": ["'COLORADO'"]}
+{"input": "district of columbia", "output": ["'DISTRICT OF COLUMBIA'"]}
+{"input": "dc", "output": ["'DISTRICT OF COLUMBIA'"]}
+{"input": "dc", "output": ["'DC'"]}
+{"input": "florida", "output": ["'FLORIDA'"]}
+{"input": "georgia", "output": ["'GEORGIA'"]}
+{"input": "illinois", "output": ["'ILLINOIS'"]}
+{"input": "indiana", "output": ["'INDIANA'"]}
+{"input": "massachusetts", "output": ["'MASSACHUSETTS'"]}
+{"input": "maryland", "output": ["'MARYLAND'"]}
+{"input": "michigan", "output": ["'MICHIGAN'"]}
+{"input": "minnesota", "output": ["'MINNESOTA'"]}
+{"input": "missouri", "output": ["'MISSOURI'"]}
+{"input": "north carolina", "output": ["'NORTH CAROLINA'"]}
+{"input": "new jersey", "output": ["'NEW JERSEY'"]}
+{"input": "nevada", "output": ["'NEVADA'"]}
+{"input": "new york", "output": ["'NEW YORK'"]}
+{"input": "ohio", "output": ["'OHIO'"]}
+{"input": "ontario", "output": ["'ONTARIO'"]}
+{"input": "pennsylvania", "output": ["'PENNSYLVANIA'"]}
+{"input": "quebec", "output": ["'QUEBEC'"]}
+{"input": "tennessee", "output": ["'TENNESSEE'"]}
+{"input": "texas", "output": ["'TEXAS'"]}
+{"input": "utah", "output": ["'UTAH'"]}
+{"input": "washington", "output": ["'WASHINGTON'"]}
+{"input": "wisconsin", "output": ["'WISCONSIN'"]}
+{"input": "1", "output": ["100"]}
+{"input": "1", "output": ["1300"]}
+{"input": "1pm", "output": ["1300"]}
+{"input": "1am", "output": ["100"]}
+{"input": "1 o'clock am", "output": ["100"]}
+{"input": "1 o'clock pm", "output": ["1300"]}
+{"input": "1 o'clock", "output": ["100"]}
+{"input": "1 o'clock", "output": ["1300"]}
+{"input": "100", "output": ["100"]}
+{"input": "100", "output": ["1300"]}
+{"input": "100am", "output": ["100"]}
+{"input": "100pm", "output": ["1300"]}
+{"input": "115", "output": ["115"]}
+{"input": "115", "output": ["1315"]}
+{"input": "115am", "output": ["115"]}
+{"input": "115pm", "output": ["1315"]}
+{"input": "130", "output": ["130"]}
+{"input": "130", "output": ["1330"]}
+{"input": "130am", "output": ["130"]}
+{"input": "130pm", "output": ["1330"]}
+{"input": "145", "output": ["145"]}
+{"input": "145", "output": ["1345"]}
+{"input": "145am", "output": ["145"]}
+{"input": "145pm", "output": ["1345"]}
+{"input": "2", "output": ["200"]}
+{"input": "2", "output": ["1400"]}
+{"input": "2pm", "output": ["1400"]}
+{"input": "2am", "output": ["200"]}
+{"input": "2 o'clock am", "output": ["200"]}
+{"input": "2 o'clock pm", "output": ["1400"]}
+{"input": "2 o'clock", "output": ["200"]}
+{"input": "2 o'clock", "output": ["1400"]}
+{"input": "200", "output": ["200"]}
+{"input": "200", "output": ["1400"]}
+{"input": "200am", "output": ["200"]}
+{"input": "200pm", "output": ["1400"]}
+{"input": "215", "output": ["215"]}
+{"input": "215", "output": ["1415"]}
+{"input": "215am", "output": ["215"]}
+{"input": "215pm", "output": ["1415"]}
+{"input": "230", "output": ["230"]}
+{"input": "230", "output": ["1430"]}
+{"input": "230am", "output": ["230"]}
+{"input": "230pm", "output": ["1430"]}
+{"input": "245", "output": ["245"]}
+{"input": "245", "output": ["1445"]}
+{"input": "245am", "output": ["245"]}
+{"input": "245pm", "output": ["1445"]}
+{"input": "3", "output": ["300"]}
+{"input": "3", "output": ["1500"]}
+{"input": "3pm", "output": ["1500"]}
+{"input": "3am", "output": ["300"]}
+{"input": "3 o'clock am", "output": ["300"]}
+{"input": "3 o'clock pm", "output": ["1500"]}
+{"input": "3 o'clock", "output": ["300"]}
+{"input": "3 o'clock", "output": ["1500"]}
+{"input": "300", "output": ["300"]}
+{"input": "300", "output": ["1500"]}
+{"input": "300am", "output": ["300"]}
+{"input": "300pm", "output": ["1500"]}
+{"input": "315", "output": ["315"]}
+{"input": "315", "output": ["1515"]}
+{"input": "315am", "output": ["315"]}
+{"input": "315pm", "output": ["1515"]}
+{"input": "330", "output": ["330"]}
+{"input": "330", "output": ["1530"]}
+{"input": "330am", "output": ["330"]}
+{"input": "330pm", "output": ["1530"]}
+{"input": "345", "output": ["345"]}
+{"input": "345", "output": ["1545"]}
+{"input": "345am", "output": ["345"]}
+{"input": "345pm", "output": ["1545"]}
+{"input": "4", "output": ["400"]}
+{"input": "4", "output": ["1600"]}
+{"input": "4pm", "output": ["1600"]}
+{"input": "4am", "output": ["400"]}
+{"input": "4 o'clock am", "output": ["400"]}
+{"input": "4 o'clock pm", "output": ["1600"]}
+{"input": "4 o'clock", "output": ["400"]}
+{"input": "4 o'clock", "output": ["1600"]}
+{"input": "400", "output": ["400"]}
+{"input": "400", "output": ["1600"]}
+{"input": "400am", "output": ["400"]}
+{"input": "400pm", "output": ["1600"]}
+{"input": "415", "output": ["415"]}
+{"input": "415", "output": ["1615"]}
+{"input": "415am", "output": ["415"]}
+{"input": "415pm", "output": ["1615"]}
+{"input": "430", "output": ["430"]}
+{"input": "430", "output": ["1630"]}
+{"input": "430am", "output": ["430"]}
+{"input": "430pm", "output": ["1630"]}
+{"input": "445", "output": ["445"]}
+{"input": "445", "output": ["1645"]}
+{"input": "445am", "output": ["445"]}
+{"input": "445pm", "output": ["1645"]}
+{"input": "5", "output": ["500"]}
+{"input": "5", "output": ["1700"]}
+{"input": "5pm", "output": ["1700"]}
+{"input": "5am", "output": ["500"]}
+{"input": "5 o'clock am", "output": ["500"]}
+{"input": "5 o'clock pm", "output": ["1700"]}
+{"input": "5 o'clock", "output": ["500"]}
+{"input": "5 o'clock", "output": ["1700"]}
+{"input": "500", "output": ["500"]}
+{"input": "500", "output": ["1700"]}
+{"input": "500am", "output": ["500"]}
+{"input": "500pm", "output": ["1700"]}
+{"input": "515", "output": ["515"]}
+{"input": "515", "output": ["1715"]}
+{"input": "515am", "output": ["515"]}
+{"input": "515pm", "output": ["1715"]}
+{"input": "530", "output": ["530"]}
+{"input": "530", "output": ["1730"]}
+{"input": "530am", "output": ["530"]}
+{"input": "530pm", "output": ["1730"]}
+{"input": "545", "output": ["545"]}
+{"input": "545", "output": ["1745"]}
+{"input": "545am", "output": ["545"]}
+{"input": "545pm", "output": ["1745"]}
+{"input": "6", "output": ["600"]}
+{"input": "6", "output": ["1800"]}
+{"input": "6pm", "output": ["1800"]}
+{"input": "6am", "output": ["600"]}
+{"input": "6 o'clock am", "output": ["600"]}
+{"input": "6 o'clock pm", "output": ["1800"]}
+{"input": "6 o'clock", "output": ["600"]}
+{"input": "6 o'clock", "output": ["1800"]}
+{"input": "600", "output": ["600"]}
+{"input": "600", "output": ["1800"]}
+{"input": "600am", "output": ["600"]}
+{"input": "600pm", "output": ["1800"]}
+{"input": "615", "output": ["615"]}
+{"input": "615", "output": ["1815"]}
+{"input": "615am", "output": ["615"]}
+{"input": "615pm", "output": ["1815"]}
+{"input": "630", "output": ["630"]}
+{"input": "630", "output": ["1830"]}
+{"input": "630am", "output": ["630"]}
+{"input": "630pm", "output": ["1830"]}
+{"input": "645", "output": ["645"]}
+{"input": "645", "output": ["1845"]}
+{"input": "645am", "output": ["645"]}
+{"input": "645pm", "output": ["1845"]}
+{"input": "7", "output": ["700"]}
+{"input": "7", "output": ["1900"]}
+{"input": "7pm", "output": ["1900"]}
+{"input": "7am", "output": ["700"]}
+{"input": "7 o'clock am", "output": ["700"]}
+{"input": "7 o'clock pm", "output": ["1900"]}
+{"input": "7 o'clock", "output": ["700"]}
+{"input": "7 o'clock", "output": ["1900"]}
+{"input": "700", "output": ["700"]}
+{"input": "700", "output": ["1900"]}
+{"input": "700am", "output": ["700"]}
+{"input": "700pm", "output": ["1900"]}
+{"input": "715", "output": ["715"]}
+{"input": "715", "output": ["1915"]}
+{"input": "715am", "output": ["715"]}
+{"input": "715pm", "output": ["1915"]}
+{"input": "730", "output": ["730"]}
+{"input": "730", "output": ["1930"]}
+{"input": "730am", "output": ["730"]}
+{"input": "730pm", "output": ["1930"]}
+{"input": "745", "output": ["745"]}
+{"input": "745", "output": ["1945"]}
+{"input": "745am", "output": ["745"]}
+{"input": "745pm", "output": ["1945"]}
+{"input": "8", "output": ["800"]}
+{"input": "8", "output": ["2000"]}
+{"input": "8pm", "output": ["2000"]}
+{"input": "8am", "output": ["800"]}
+{"input": "8 o'clock am", "output": ["800"]}
+{"input": "8 o'clock pm", "output": ["2000"]}
+{"input": "8 o'clock", "output": ["800"]}
+{"input": "8 o'clock", "output": ["2000"]}
+{"input": "800", "output": ["800"]}
+{"input": "800", "output": ["2000"]}
+{"input": "800am", "output": ["800"]}
+{"input": "800pm", "output": ["2000"]}
+{"input": "815", "output": ["815"]}
+{"input": "815", "output": ["2015"]}
+{"input": "815am", "output": ["815"]}
+{"input": "815pm", "output": ["2015"]}
+{"input": "830", "output": ["830"]}
+{"input": "830", "output": ["2030"]}
+{"input": "830am", "output": ["830"]}
+{"input": "830pm", "output": ["2030"]}
+{"input": "845", "output": ["845"]}
+{"input": "845", "output": ["2045"]}
+{"input": "845am", "output": ["845"]}
+{"input": "845pm", "output": ["2045"]}
+{"input": "9", "output": ["900"]}
+{"input": "9", "output": ["2100"]}
+{"input": "9pm", "output": ["2100"]}
+{"input": "9am", "output": ["900"]}
+{"input": "9 o'clock am", "output": ["900"]}
+{"input": "9 o'clock pm", "output": ["2100"]}
+{"input": "9 o'clock", "output": ["900"]}
+{"input": "9 o'clock", "output": ["2100"]}
+{"input": "900", "output": ["900"]}
+{"input": "900", "output": ["2100"]}
+{"input": "900am", "output": ["900"]}
+{"input": "900pm", "output": ["2100"]}
+{"input": "915", "output": ["915"]}
+{"input": "915", "output": ["2115"]}
+{"input": "915am", "output": ["915"]}
+{"input": "915pm", "output": ["2115"]}
+{"input": "930", "output": ["930"]}
+{"input": "930", "output": ["2130"]}
+{"input": "930am", "output": ["930"]}
+{"input": "930pm", "output": ["2130"]}
+{"input": "945", "output": ["945"]}
+{"input": "945", "output": ["2145"]}
+{"input": "945am", "output": ["945"]}
+{"input": "945pm", "output": ["2145"]}
+{"input": "10", "output": ["1000"]}
+{"input": "10", "output": ["2200"]}
+{"input": "10pm", "output": ["2200"]}
+{"input": "10am", "output": ["1000"]}
+{"input": "10 o'clock am", "output": ["1000"]}
+{"input": "10 o'clock pm", "output": ["2200"]}
+{"input": "10 o'clock", "output": ["1000"]}
+{"input": "10 o'clock", "output": ["2200"]}
+{"input": "1000", "output": ["1000"]}
+{"input": "1000", "output": ["2200"]}
+{"input": "1000am", "output": ["1000"]}
+{"input": "1000pm", "output": ["2200"]}
+{"input": "1015", "output": ["1015"]}
+{"input": "1015", "output": ["2215"]}
+{"input": "1015am", "output": ["1015"]}
+{"input": "1015pm", "output": ["2215"]}
+{"input": "1030", "output": ["1030"]}
+{"input": "1030", "output": ["2230"]}
+{"input": "1030am", "output": ["1030"]}
+{"input": "1030pm", "output": ["2230"]}
+{"input": "1045", "output": ["1045"]}
+{"input": "1045", "output": ["2245"]}
+{"input": "1045am", "output": ["1045"]}
+{"input": "1045pm", "output": ["2245"]}
+{"input": "11", "output": ["1100"]}
+{"input": "11", "output": ["2300"]}
+{"input": "11pm", "output": ["2300"]}
+{"input": "11am", "output": ["1100"]}
+{"input": "11 o'clock am", "output": ["1100"]}
+{"input": "11 o'clock pm", "output": ["2300"]}
+{"input": "11 o'clock", "output": ["1100"]}
+{"input": "11 o'clock", "output": ["2300"]}
+{"input": "1100", "output": ["1100"]}
+{"input": "1100", "output": ["2300"]}
+{"input": "1100am", "output": ["1100"]}
+{"input": "1100pm", "output": ["2300"]}
+{"input": "1115", "output": ["1115"]}
+{"input": "1115", "output": ["2315"]}
+{"input": "1115am", "output": ["1115"]}
+{"input": "1115pm", "output": ["2315"]}
+{"input": "1130", "output": ["1130"]}
+{"input": "1130", "output": ["2330"]}
+{"input": "1130am", "output": ["1130"]}
+{"input": "1130pm", "output": ["2330"]}
+{"input": "1145", "output": ["1145"]}
+{"input": "1145", "output": ["2345"]}
+{"input": "1145am", "output": ["1145"]}
+{"input": "1145pm", "output": ["2345"]}
+{"input": "12", "output": ["1200"]}
+{"input": "1200", "output": ["1200"]}
+{"input": "1200", "output": ["2400"]}
+{"input": "1200am", "output": ["1200"]}
+{"input": "1200pm", "output": ["2400"]}
+{"input": "1215", "output": ["1215"]}
+{"input": "1215", "output": ["2415"]}
+{"input": "1215am", "output": ["1215"]}
+{"input": "1215pm", "output": ["2415"]}
+{"input": "1230", "output": ["1230"]}
+{"input": "1230", "output": ["2430"]}
+{"input": "1230am", "output": ["1230"]}
+{"input": "1230pm", "output": ["2430"]}
+{"input": "1245", "output": ["1245"]}
+{"input": "1245", "output": ["2445"]}
+{"input": "1245am", "output": ["1245"]}
+{"input": "1245pm", "output": ["2445"]}
+{"input": "13", "output": ["1300"]}
+{"input": "1300", "output": ["1300"]}
+{"input": "1315", "output": ["1315"]}
+{"input": "1330", "output": ["1330"]}
+{"input": "1345", "output": ["1345"]}
+{"input": "14", "output": ["1400"]}
+{"input": "1400", "output": ["1400"]}
+{"input": "1415", "output": ["1415"]}
+{"input": "1430", "output": ["1430"]}
+{"input": "1445", "output": ["1445"]}
+{"input": "15", "output": ["1500"]}
+{"input": "1500", "output": ["1500"]}
+{"input": "1515", "output": ["1515"]}
+{"input": "1530", "output": ["1530"]}
+{"input": "1545", "output": ["1545"]}
+{"input": "16", "output": ["1600"]}
+{"input": "1600", "output": ["1600"]}
+{"input": "1615", "output": ["1615"]}
+{"input": "1630", "output": ["1630"]}
+{"input": "1645", "output": ["1645"]}
+{"input": "17", "output": ["1700"]}
+{"input": "1700", "output": ["1700"]}
+{"input": "1715", "output": ["1715"]}
+{"input": "1730", "output": ["1730"]}
+{"input": "1745", "output": ["1745"]}
+{"input": "18", "output": ["1800"]}
+{"input": "1800", "output": ["1800"]}
+{"input": "1815", "output": ["1815"]}
+{"input": "1830", "output": ["1830"]}
+{"input": "1845", "output": ["1845"]}
+{"input": "19", "output": ["1900"]}
+{"input": "1900", "output": ["1900"]}
+{"input": "1915", "output": ["1915"]}
+{"input": "1930", "output": ["1930"]}
+{"input": "1945", "output": ["1945"]}
+{"input": "20", "output": ["2000"]}
+{"input": "2000", "output": ["2000"]}
+{"input": "2015", "output": ["2015"]}
+{"input": "2030", "output": ["2030"]}
+{"input": "2045", "output": ["2045"]}
+{"input": "21", "output": ["2100"]}
+{"input": "2100", "output": ["2100"]}
+{"input": "2115", "output": ["2115"]}
+{"input": "2130", "output": ["2130"]}
+{"input": "2145", "output": ["2145"]}
+{"input": "22", "output": ["2200"]}
+{"input": "2200", "output": ["2200"]}
+{"input": "2215", "output": ["2215"]}
+{"input": "2230", "output": ["2230"]}
+{"input": "2245", "output": ["2245"]}
+{"input": "23", "output": ["2300"]}
+{"input": "2300", "output": ["2300"]}
+{"input": "2315", "output": ["2315"]}
+{"input": "2330", "output": ["2330"]}
+{"input": "2345", "output": ["2345"]}
+{"input": "noon", "output": ["1200"]}
+{"input": "breakfast", "output": ["'BREAKFAST'"]}
+{"input": "lunch", "output": ["'LUNCH'"]}
+{"input": "dinner", "output": ["'DINNER'"]}
+{"input": "snack", "output": ["'SNACK'"]}
+{"input": "atl", "output": ["'ATL'"]}
+{"input": "bna", "output": ["'BNA'"]}
+{"input": "bos", "output": ["'BOS'"]}
+{"input": "bur", "output": ["'BUR'"]}
+{"input": "bwi", "output": ["'BWI'"]}
+{"input": "cle", "output": ["'CLE'"]}
+{"input": "clt", "output": ["'CLT'"]}
+{"input": "cmh", "output": ["'CMH'"]}
+{"input": "cvg", "output": ["'CVG'"]}
+{"input": "dal", "output": ["'DAL'"]}
+{"input": "love field", "output": ["'DAL'"]}
+{"input": "dca", "output": ["'DCA'"]}
+{"input": "den", "output": ["'DEN'"]}
+{"input": "det", "output": ["'DET'"]}
+{"input": "dfw", "output": ["'DFW'"]}
+{"input": "dtw", "output": ["'DTW'"]}
+{"input": "ewr", "output": ["'EWR'"]}
+{"input": "hou", "output": ["'HOU'"]}
+{"input": "hpn", "output": ["'HPN'"]}
+{"input": "iad", "output": ["'IAD'"]}
+{"input": "iah", "output": ["'IAH'"]}
+{"input": "houston international", "output": ["'IAH'"]}
+{"input": "houston international airport", "output": ["'IAH'"]}
+{"input": "houston intercontinental airport", "output": ["'IAH'"]}
+{"input": "ind", "output": ["'IND'"]}
+{"input": "jfk", "output": ["'JFK'"]}
+{"input": "las", "output": ["'LAS'"]}
+{"input": "lax", "output": ["'LAX'"]}
+{"input": "lga", "output": ["'LGA'"]}
+{"input": "la guardia", "output": ["'LGA'"]}
+{"input": "lgb", "output": ["'LGB'"]}
+{"input": "mci", "output": ["'MCI'"]}
+{"input": "mco", "output": ["'MCO'"]}
+{"input": "mdw", "output": ["'MDW'"]}
+{"input": "mem", "output": ["'MEM'"]}
+{"input": "mia", "output": ["'MIA'"]}
+{"input": "mke", "output": ["'MKE'"]}
+{"input": "msp", "output": ["'MSP'"]}
+{"input": "oak", "output": ["'OAK'"]}
+{"input": "ont", "output": ["'ONT'"]}
+{"input": "ord", "output": ["'ORD'"]}
+{"input": "phl", "output": ["'PHL'"]}
+{"input": "phx", "output": ["'PHX'"]}
+{"input": "pie", "output": ["'PIE'"]}
+{"input": "pit", "output": ["'PIT'"]}
+{"input": "san", "output": ["'SAN'"]}
+{"input": "sea", "output": ["'SEA'"]}
+{"input": "sfo", "output": ["'SFO'"]}
+{"input": "sjc", "output": ["'SJC'"]}
+{"input": "slc", "output": ["'SLC'"]}
+{"input": "stl", "output": ["'STL'"]}
+{"input": "tpa", "output": ["'TPA'"]}
+{"input": "ykz", "output": ["'YKZ'"]}
+{"input": "ymx", "output": ["'YMX'"]}
+{"input": "ytz", "output": ["'YTZ'"]}
+{"input": "yul", "output": ["'YUL'"]}
+{"input": "yyz", "output": ["'YYZ'"]}
+{"input": "ap/2", "output": ["'AP/2'"]}
+{"input": "ap/6", "output": ["'AP/6'"]}
+{"input": "ap/12", "output": ["'AP/12'"]}
+{"input": "ap/20", "output": ["'AP/20'"]}
+{"input": "ap/21", "output": ["'AP/21'"]}
+{"input": "ap/57", "output": ["'AP/57'"]}
+{"input": "ap/58", "output": ["'AP/58'"]}
+{"input": "ap/60", "output": ["'AP/60'"]}
+{"input": "ap/75", "output": ["'AP/75'"]}
+{"input": "ex/9", "output": ["'EX/9'"]}
+{"input": "ex/13", "output": ["'EX/13'"]}
+{"input": "ex/14", "output": ["'EX/14'"]}
+{"input": "ex/17", "output": ["'EX/17'"]}
+{"input": "ex/19", "output": ["'EX/19'"]}
+{"input": "flight", "output": ["DISTINCT", "flight.flight_id", "FROM", "flight"]}
+{"input": "flights", "output": ["DISTINCT", "flight.flight_id", "FROM", "flight"]}
+{"input": "fly", "output": ["DISTINCT", "flight.flight_id", "FROM", "flight"]}
+{"input": "trip", "output": ["DISTINCT", "flight.flight_id", "FROM", "flight"]}
+{"input": "cost", "output": ["DISTINCT", "ground_service.ground_fare", "FROM", "ground_service"]}
+{"input": "price", "output": ["DISTINCT", "ground_service.ground_fare", "FROM", "ground_service"]}
+{"input": "cheapest", "output": ["DISTINCT", "ground_service.ground_fare", "FROM", "ground_service"]}
+{"input": "expensive", "output": ["DISTINCT", "ground_service.ground_fare", "FROM", "ground_service"]}
+{"input": "fares", "output": ["DISTINCT", "ground_service.ground_fare", "FROM", "ground_service"]}
+{"input": "fare", "output": ["DISTINCT", "ground_service.ground_fare", "FROM", "ground_service"]}
+{"input": "rate", "output": ["DISTINCT", "ground_service.ground_fare", "FROM", "ground_service"]}
+{"input": "cost", "output": ["DISTINCT", "fare.fare_id", "FROM", "fare"]}
+{"input": "prices", "output": ["DISTINCT", "fare.fare_id", "FROM", "fare"]}
+{"input": "price", "output": ["DISTINCT", "fare.fare_id", "FROM", "fare"]}
+{"input": "cheapest", "output": ["DISTINCT", "fare.fare_id", "FROM", "fare"]}
+{"input": "expensive", "output": ["DISTINCT", "fare.fare_id", "FROM", "fare"]}
+{"input": "fares", "output": ["DISTINCT", "fare.fare_id", "FROM", "fare"]}
+{"input": "fare", "output": ["DISTINCT", "fare.fare_id", "FROM", "fare"]}
+{"input": "rate", "output": ["DISTINCT", "fare.fare_id", "FROM", "fare"]}
+{"input": "cheapest", "output": ["MIN", "(", "fare.one_direction_cost", ")", "FROM", "fare"]}
+{"input": "least", "output": ["MIN", "(", "fare.one_direction_cost", ")", "FROM", "fare"]}
+{"input": "cheapest one way", "output": ["MIN", "(", "fare.one_direction_cost", ")", "FROM", "fare"]}
+{"input": "least expensive one way", "output": ["MIN", "(", "fare.one_direction_cost", ")", "FROM", "fare"]}
+{"input": "most expensive one way", "output": ["MAX", "(", "fare.one_direction_cost", ")", "FROM", "fare"]}
+{"input": "highest fare", "output": ["MAX", "(", "fare.one_direction_cost", ")", "FROM", "fare"]}
+{"input": "highest one way fare", "output": ["MAX", "(", "fare.one_direction_cost", ")", "FROM", "fare"]}
+{"input": "cheapest", "output": ["MIN", "(", "fare.round_trip_cost", ")", "FROM", "fare"]}
+{"input": "round trip", "output": ["fare.round_trip_cost", "IS", "NOT", "NULL"]}
+{"input": "least", "output": ["MIN", "(", "fare.round_trip_cost", ")", "FROM", "fare"]}
+{"input": "cheapest round trip", "output": ["MIN", "(", "fare.round_trip_cost", ")", "FROM", "fare"]}
+{"input": "least expensive round trip", "output": ["MIN", "(", "fare.round_trip_cost", ")", "FROM", "fare"]}
+{"input": "aircraft", "output": ["DISTINCT", "aircraft.aircraft_code", "FROM", "aircraft"]}
+{"input": "airplane", "output": ["DISTINCT", "aircraft.aircraft_code", "FROM", "aircraft"]}
+{"input": "plane", "output": ["DISTINCT", "aircraft.aircraft_code", "FROM", "aircraft"]}
+{"input": "ground transportation", "output": ["DISTINCT", "ground_service.city_code", ",", "ground_service.airport_code", ",", "ground_service.transport_type", "FROM", "ground_service"]}
+{"input": "airline", "output": ["DISTINCT", "airline.airline_code", "FROM", "airline"]}
+{"input": "airlines", "output": ["DISTINCT", "airline.airline_code", "FROM", "airline"]}
+{"input": "meals", "output": ["DISTINCT", "food_service.meal_code", ",", "food_service.meal_number", ",", "food_service.compartment", "FROM", "food_service"]}
+{"input": "meal", "output": ["DISTINCT", "food_service.meal_code", ",", "food_service.meal_number", ",", "food_service.compartment", "FROM", "food_service"]}
+{"input": "breakfast", "output": ["DISTINCT", "food_service.meal_code", ",", "food_service.meal_number", ",", "food_service.compartment", "FROM", "food_service"]}
+{"input": "dinner", "output": ["DISTINCT", "food_service.meal_code", ",", "food_service.meal_number", ",", "food_service.compartment", "FROM", "food_service"]}
+{"input": "lunch", "output": ["DISTINCT", "food_service.meal_code", ",", "food_service.meal_number", ",", "food_service.compartment", "FROM", "food_service"]}
+{"input": "schedule", "output": ["DISTINCT", "flight.departure_time", "FROM", "flight"]}
+{"input": "where", "output": ["DISTINCT", "airport.airport_code"]}
+{"input": "seating capacity", "output": ["DISTINCT", "aircraft.capacity", "FROM", "aircraft"]}
+{"input": "capacities", "output": ["DISTINCT", "aircraft.capacity", "FROM", "aircraft"]}
+{"input": "aircraft", "output": ["DISTINCT", "aircraft.basic_type", "FROM", "aircraft"]}
+{"input": "stop", "output": ["flight.stops"]}
+{"input": "schedules", "output": ["DISTINCT", "flight.departure_time", "FROM", "flight"]}
+{"input": "time", "output": ["DISTINCT", "flight.departure_time", "FROM", "flight"]}
+{"input": "times", "output": ["DISTINCT", "flight.departure_time", "FROM", "flight"]}
+{"input": "flights and fares", "output": ["DISTINCT", "flight.flight_id", ",", "fare.fare_id", "FROM", "flight", ",", "flight_fare", ",", "fare"]}
+{"input": "fare code", "output": ["DISTINCT", "fare_basis.fare_basis_code", ",", "fare_basis.booking_class", ",", "fare_basis.class_type", ",", "fare_basis.premium", ",", "fare_basis.economy", ",", "fare_basis.discounted", ",", "fare_basis.night", ",", "fare_basis.season", ",", "fare_basis.basis_days", "FROM", "fare_basis"]}
+{"input": "information", "output": ["DISTINCT", "flight.flight_id", ",", "flight.flight_days", ",", "flight.from_airport", ",", "flight.to_airport", ",", "flight.departure_time", ",", "flight.arrival_time", ",", "flight.airline_flight", ",", "flight.airline_code", ",", "flight.flight_number", ",", "flight.aircraft_code_sequence", ",", "flight.meal_code", ",", "flight.stops", ",", "flight.connections", ",", "flight.dual_carrier", ",", "flight.time_elapsed", "FROM", "flight"]}
+{"input": "tell me about", "output": ["DISTINCT", "flight.flight_id", ",", "flight.flight_days", ",", "flight.from_airport", ",", "flight.to_airport", ",", "flight.departure_time", ",", "flight.arrival_time", ",", "flight.airline_flight", ",", "flight.airline_code", ",", "flight.flight_number", ",", "flight.aircraft_code_sequence", ",", "flight.meal_code", ",", "flight.stops", ",", "flight.connections", ",", "flight.dual_carrier", ",", "flight.time_elapsed", "FROM", "flight"]}
+{"input": "earliest", "output": ["MIN", "(", "flight.departure_time", ")", "FROM", "flight"]}
+{"input": "first", "output": ["MIN", "(", "flight.departure_time", ")", "FROM", "flight"]}
+{"input": "latest", "output": ["MAX", "(", "flight.departure_time", ")", "FROM", "flight"]}
+{"input": "last", "output": ["MAX", "(", "flight.departure_time", ")", "FROM", "flight"]}
+{"input": "shortest", "output": ["MIN", "(", "flight.time_elapsed", ")", "FROM", "flight"]}
+{"input": "how many", "output": ["count", "(", "*", ")"]}
+{"input": "number", "output": ["count", "(", "*", ")"]}
+{"input": "one way", "output": ["fare.round_trip_required", "=", "'NO'"]}
+{"input": "1 way", "output": ["fare.round_trip_required", "=", "'NO'"]}
+{"input": "cities", "output": ["DISTINCT", "city.city_code", "FROM", "city"]}
+{"input": "city", "output": ["DISTINCT", "city.city_code", "FROM", "city"]}
+{"input": "airport", "output": ["DISTINCT", "airport.airport_location"]}
+{"input": "economy", "output": ["'ECONOMY'"]}
+{"input": "monday", "output": ["date_day.month_number"]}
+{"input": "monday", "output": ["date_day.day_number"]}
+{"input": "tuesday", "output": ["date_day.month_number"]}
+{"input": "tuesday", "output": ["date_day.day_number"]}
+{"input": "wednesday", "output": ["date_day.month_number"]}
+{"input": "wednesday", "output": ["date_day.day_number"]}
+{"input": "thursday", "output": ["date_day.month_number"]}
+{"input": "thursday", "output": ["date_day.day_number"]}
+{"input": "friday", "output": ["date_day.month_number"]}
+{"input": "friday", "output": ["date_day.day_number"]}
+{"input": "saturday", "output": ["date_day.month_number"]}
+{"input": "saturday", "output": ["date_day.day_number"]}
+{"input": "sunday", "output": ["date_day.month_number"]}
+{"input": "sunday", "output": ["date_day.day_number"]}
+{"input": "class", "output": ["class_of_service.booking_class"]}
+{"input": "morning", "output": ["BETWEEN", "0", "AND", "1200"]}
+{"input": "what does", "output": ["DISTINCT", "airport.airport_name", "FROM", "airport"]}
+{"input": "what does", "output": ["DISTINCT", "class_of_service.class_description", "FROM", "class_of_service"]}
+{"input": "aircraft", "output": ["DISTINCT", "aircraft.aircraft_code", "FROM", "aircraft"]}
+{"input": "meals", "output": ["food_service.meal_code"]}
+{"input": "flight", "output": ["DISTINCT", "flight.flight_id", "FROM", "flight"]}
+{"input": "flights", "output": ["DISTINCT", "flight.flight_id", "FROM", "flight"]}
+{"input": "fly", "output": ["DISTINCT", "flight.flight_id", "FROM", "flight"]}
+{"input": "trip", "output": ["DISTINCT", "flight.flight_id", "FROM", "flight"]}
+{"input": "cost", "output": ["DISTINCT", "ground_service.ground_fare", "FROM", "ground_service"]}
+{"input": "price", "output": ["DISTINCT", "ground_service.ground_fare", "FROM", "ground_service"]}
+{"input": "cheapest", "output": ["DISTINCT", "ground_service.ground_fare", "FROM", "ground_service"]}
+{"input": "expensive", "output": ["DISTINCT", "ground_service.ground_fare", "FROM", "ground_service"]}
+{"input": "fares", "output": ["DISTINCT", "ground_service.ground_fare", "FROM", "ground_service"]}
+{"input": "fare", "output": ["DISTINCT", "ground_service.ground_fare", "FROM", "ground_service"]}
+{"input": "rate", "output": ["DISTINCT", "ground_service.ground_fare", "FROM", "ground_service"]}
+{"input": "cost", "output": ["DISTINCT", "fare.fare_id", "FROM", "fare"]}
+{"input": "prices", "output": ["DISTINCT", "fare.fare_id", "FROM", "fare"]}
+{"input": "price", "output": ["DISTINCT", "fare.fare_id", "FROM", "fare"]}
+{"input": "cheapest", "output": ["DISTINCT", "fare.fare_id", "FROM", "fare"]}
+{"input": "expensive", "output": ["DISTINCT", "fare.fare_id", "FROM", "fare"]}
+{"input": "fares", "output": ["DISTINCT", "fare.fare_id", "FROM", "fare"]}
+{"input": "fare", "output": ["DISTINCT", "fare.fare_id", "FROM", "fare"]}
+{"input": "rate", "output": ["DISTINCT", "fare.fare_id", "FROM", "fare"]}
+{"input": "cheapest", "output": ["MIN", "(", "fare.one_direction_cost", ")", "FROM", "fare"]}
+{"input": "least", "output": ["MIN", "(", "fare.one_direction_cost", ")", "FROM", "fare"]}
+{"input": "cheapest one way", "output": ["MIN", "(", "fare.one_direction_cost", ")", "FROM", "fare"]}
+{"input": "least expensive one way", "output": ["MIN", "(", "fare.one_direction_cost", ")", "FROM", "fare"]}
+{"input": "most expensive one way", "output": ["MAX", "(", "fare.one_direction_cost", ")", "FROM", "fare"]}
+{"input": "highest fare", "output": ["MAX", "(", "fare.one_direction_cost", ")", "FROM", "fare"]}
+{"input": "highest one way fare", "output": ["MAX", "(", "fare.one_direction_cost", ")", "FROM", "fare"]}
+{"input": "cheapest", "output": ["MIN", "(", "fare.round_trip_cost", ")", "FROM", "fare"]}
+{"input": "round trip", "output": ["fare.round_trip_cost", "IS", "NOT", "NULL"]}
+{"input": "least", "output": ["MIN", "(", "fare.round_trip_cost", ")", "FROM", "fare"]}
+{"input": "cheapest round trip", "output": ["MIN", "(", "fare.round_trip_cost", ")", "FROM", "fare"]}
+{"input": "least expensive round trip", "output": ["MIN", "(", "fare.round_trip_cost", ")", "FROM", "fare"]}
+{"input": "aircraft", "output": ["DISTINCT", "aircraft.aircraft_code", "FROM", "aircraft"]}
+{"input": "airplane", "output": ["DISTINCT", "aircraft.aircraft_code", "FROM", "aircraft"]}
+{"input": "plane", "output": ["DISTINCT", "aircraft.aircraft_code", "FROM", "aircraft"]}
+{"input": "ground transportation", "output": ["DISTINCT", "ground_service.city_code", ",", "ground_service.airport_code", ",", "ground_service.transport_type", "FROM", "ground_service"]}
+{"input": "airline", "output": ["DISTINCT", "airline.airline_code", "FROM", "airline"]}
+{"input": "airlines", "output": ["DISTINCT", "airline.airline_code", "FROM", "airline"]}
+{"input": "meals", "output": ["DISTINCT", "food_service.meal_code", ",", "food_service.meal_number", ",", "food_service.compartment", "FROM", "food_service"]}
+{"input": "meal", "output": ["DISTINCT", "food_service.meal_code", ",", "food_service.meal_number", ",", "food_service.compartment", "FROM", "food_service"]}
+{"input": "breakfast", "output": ["DISTINCT", "food_service.meal_code", ",", "food_service.meal_number", ",", "food_service.compartment", "FROM", "food_service"]}
+{"input": "dinner", "output": ["DISTINCT", "food_service.meal_code", ",", "food_service.meal_number", ",", "food_service.compartment", "FROM", "food_service"]}
+{"input": "lunch", "output": ["DISTINCT", "food_service.meal_code", ",", "food_service.meal_number", ",", "food_service.compartment", "FROM", "food_service"]}
+{"input": "schedule", "output": ["DISTINCT", "flight.departure_time", "FROM", "flight"]}
+{"input": "where", "output": ["DISTINCT", "airport.airport_code"]}
+{"input": "seating capacity", "output": ["DISTINCT", "aircraft.capacity", "FROM", "aircraft"]}
+{"input": "capacities", "output": ["DISTINCT", "aircraft.capacity", "FROM", "aircraft"]}
+{"input": "aircraft", "output": ["DISTINCT", "aircraft.basic_type", "FROM", "aircraft"]}
+{"input": "stop", "output": ["flight.stops"]}
+{"input": "schedules", "output": ["DISTINCT", "flight.departure_time", "FROM", "flight"]}
+{"input": "time", "output": ["DISTINCT", "flight.departure_time", "FROM", "flight"]}
+{"input": "times", "output": ["DISTINCT", "flight.departure_time", "FROM", "flight"]}
+{"input": "flights and fares", "output": ["DISTINCT", "flight.flight_id", ",", "fare.fare_id", "FROM", "flight", ",", "flight_fare", ",", "fare"]}
+{"input": "fare code", "output": ["DISTINCT", "fare_basis.fare_basis_code", ",", "fare_basis.booking_class", ",", "fare_basis.class_type", ",", "fare_basis.premium", ",", "fare_basis.economy", ",", "fare_basis.discounted", ",", "fare_basis.night", ",", "fare_basis.season", ",", "fare_basis.basis_days", "FROM", "fare_basis"]}
+{"input": "information", "output": ["DISTINCT", "flight.flight_id", ",", "flight.flight_days", ",", "flight.from_airport", ",", "flight.to_airport", ",", "flight.departure_time", ",", "flight.arrival_time", ",", "flight.airline_flight", ",", "flight.airline_code", ",", "flight.flight_number", ",", "flight.aircraft_code_sequence", ",", "flight.meal_code", ",", "flight.stops", ",", "flight.connections", ",", "flight.dual_carrier", ",", "flight.time_elapsed", "FROM", "flight"]}
+{"input": "tell me about", "output": ["DISTINCT", "flight.flight_id", ",", "flight.flight_days", ",", "flight.from_airport", ",", "flight.to_airport", ",", "flight.departure_time", ",", "flight.arrival_time", ",", "flight.airline_flight", ",", "flight.airline_code", ",", "flight.flight_number", ",", "flight.aircraft_code_sequence", ",", "flight.meal_code", ",", "flight.stops", ",", "flight.connections", ",", "flight.dual_carrier", ",", "flight.time_elapsed", "FROM", "flight"]}
+{"input": "earliest", "output": ["MIN", "(", "flight.departure_time", ")", "FROM", "flight"]}
+{"input": "first", "output": ["MIN", "(", "flight.departure_time", ")", "FROM", "flight"]}
+{"input": "information", "output": ["DISTINCT", "flight.flight_id", ",", "flight", ".", "flight_days", ",", "flight", ".", "from_airport", ",", "flight", ".", "to_airport", ",", "flight", ".", "departure_time", ",", "flight", ".", "arrival_time", ",", "flight", ".", "airline_flight", ",", "flight", ".", "airline_code", ",", "flight", ".", "flight_number", ",", "flight", ".", "aircraft_code_sequence", ",", "flight", ".", "meal_code", ",", "flight", ".", "stops", ",", "flight", ".", "connections", ",", "flight", ".", "dual_carrier", ",", "flight", ".", "time_elapsed", "FROM", "flight"]}
+{"input": "tell me about", "output": ["DISTINCT", "flight.flight_id", ",", "flight.flight_days", ",", "flight.from_airport", ",", "flight.to_airport", ",", "flight.departure_time", ",", "flight.arrival_time", ",", "flight.airline_flight", ",", "flight.airline_code", ",", "flight.flight_number", ",", "flight.aircraft_code_sequence", ",", "flight.meal_code", ",", "flight.stops", ",", "flight.connections", ",", "flight.dual_carrier", ",", "flight.time_elapsed", "FROM", "flight"]}
+{"input": "earliest", "output": ["MIN", "(", "flight.departure_time", ")", "FROM", "flight"]}
+{"input": "first", "output": ["MIN", "(", "flight.departure_time", ")", "FROM", "flight"]}
+{"input": "latest", "output": ["MAX", "(", "flight.departure_time", ")", "FROM", "flight"]}
+{"input": "last", "output": ["MAX", "(", "flight.departure_time", ")", "FROM", "flight"]}
+{"input": "shortest", "output": ["MIN", "(", "flight.time_elapsed", ")", "FROM", "flight"]}
+{"input": "how many", "output": ["count", "(", "*", ")"]}
+{"input": "number", "output": ["count", "(", "*", ")"]}
+{"input": "one way", "output": ["fare.round_trip_required", "=", "'NO'"]}
+{"input": "1 way", "output": ["fare.round_trip_required", "=", "'NO'"]}
+{"input": "cities", "output": ["DISTINCT", "city.city_code", "FROM", "city"]}
+{"input": "city", "output": ["DISTINCT", "city.city_code", "FROM", "city"]}
+{"input": "airport", "output": ["DISTINCT", "airport.airport_location"]}
+{"input": "economy", "output": ["'ECONOMY'"]}
+{"input": "monday", "output": ["date_day.month_number"]}
+{"input": "monday", "output": ["date_day.day_number"]}
+{"input": "tuesday", "output": ["date_day.month_number"]}
+{"input": "tuesday", "output": ["date_day.day_number"]}
+{"input": "wednesday", "output": ["date_day.month_number"]}
+{"input": "wednesday", "output": ["date_day.day_number"]}
+{"input": "thursday", "output": ["date_day.month_number"]}
+{"input": "thursday", "output": ["date_day.day_number"]}
+{"input": "friday", "output": ["date_day.month_number"]}
+{"input": "friday", "output": ["date_day.day_number"]}
+{"input": "saturday", "output": ["date_day.month_number"]}
+{"input": "saturday", "output": ["date_day.day_number"]}
+{"input": "sunday", "output": ["date_day.month_number"]}
+{"input": "sunday", "output": ["date_day.day_number"]}
+{"input": "class", "output": ["class_of_service.booking_class"]}
+{"input": "morning", "output": ["BETWEEN", "0", "AND", "1200"]}
+{"input": "what does", "output": ["DISTINCT", "airport.airport_name", "FROM", "airport"]}
+{"input": "what does", "output": ["DISTINCT", "class_of_service.class_description", "FROM", "class_of_service"]}
+{"input": "aircraft", "output": ["DISTINCT", "aircraft.aircraft_code", "FROM", "aircraft"]}
+{"input": "meals", "output": ["food_service.meal_code"]}

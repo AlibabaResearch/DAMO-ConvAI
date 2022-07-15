@@ -1,0 +1,779 @@
+{"sql": ["'2V'"], "type": "AIRLINE_CODE", "cleaned_nl": ["northeast", "express", "regional", "airlines"]}
+{"sql": ["'3J'"], "type": "AIRLINE_CODE", "cleaned_nl": ["air", "alliance"]}
+{"sql": ["'7V'"], "type": "AIRLINE_CODE", "cleaned_nl": ["alpha", "air"]}
+{"sql": ["'9E'"], "type": "AIRLINE_CODE", "cleaned_nl": ["express", "airlines", "i"]}
+{"sql": ["'9L'"], "type": "AIRLINE_CODE", "cleaned_nl": ["colgan", "air"]}
+{"sql": ["'9N'"], "type": "AIRLINE_CODE", "cleaned_nl": ["trans", "states", "airlines"]}
+{"sql": ["'9X'"], "type": "AIRLINE_CODE", "cleaned_nl": ["ontario", "express"]}
+{"sql": ["'AA'"], "type": "AIRLINE_CODE", "cleaned_nl": ["american", "airlines"]}
+{"sql": ["'AA'"], "type": "AIRLINE_CODE", "cleaned_nl": ["american", "airline"]}
+{"sql": ["'AA'"], "type": "AIRLINE_CODE", "cleaned_nl": ["american"]}
+{"sql": ["'AC'"], "type": "AIRLINE_CODE", "cleaned_nl": ["air", "canada"]}
+{"sql": ["'AR'"], "type": "AIRLINE_CODE", "cleaned_nl": ["aerolineas", "argentinas"]}
+{"sql": ["'AS'"], "type": "AIRLINE_CODE", "cleaned_nl": ["alaska", "airlines"]}
+{"sql": ["'AT'"], "type": "AIRLINE_CODE", "cleaned_nl": ["royal", "air", "maroc"]}
+{"sql": ["'BA'"], "type": "AIRLINE_CODE", "cleaned_nl": ["british", "airways"]}
+{"sql": ["'BE'"], "type": "AIRLINE_CODE", "cleaned_nl": ["braniff", "international", "airlines"]}
+{"sql": ["'CO'"], "type": "AIRLINE_CODE", "cleaned_nl": ["continental", "airlines"]}
+{"sql": ["'CO'"], "type": "AIRLINE_CODE", "cleaned_nl": ["continental"]}
+{"sql": ["'CP'"], "type": "AIRLINE_CODE", "cleaned_nl": ["canadian", "airlines", "international"]}
+{"sql": ["'CP'"], "type": "AIRLINE_CODE", "cleaned_nl": ["canadian"]}
+{"sql": ["'CP'"], "type": "AIRLINE_CODE", "cleaned_nl": ["canadian", "airlines"]}
+{"sql": ["'DH'"], "type": "AIRLINE_CODE", "cleaned_nl": ["atlantic", "coast", "airlines"]}
+{"sql": ["'DL'"], "type": "AIRLINE_CODE", "cleaned_nl": ["delta", "airlines"]}
+{"sql": ["'DL'"], "type": "AIRLINE_CODE", "cleaned_nl": ["delta"]}
+{"sql": ["'DL'"], "type": "AIRLINE_CODE", "cleaned_nl": ["delta", "airline"]}
+{"sql": ["'EV'"], "type": "AIRLINE_CODE", "cleaned_nl": ["atlantic", "southeast", "airlines"]}
+{"sql": ["'EA'"], "type": "AIRLINE_CODE", "cleaned_nl": ["ea"]}
+{"sql": ["'EA'"], "type": "AIRLINE_CODE", "cleaned_nl": ["eastern"]}
+{"sql": ["'FF'"], "type": "AIRLINE_CODE", "cleaned_nl": ["tower", "air"]}
+{"sql": ["'GX'"], "type": "AIRLINE_CODE", "cleaned_nl": ["air", "ontario"]}
+{"sql": ["'HP'"], "type": "AIRLINE_CODE", "cleaned_nl": ["america", "west", "airlines"]}
+{"sql": ["'HP'"], "type": "AIRLINE_CODE", "cleaned_nl": ["america", "west"]}
+{"sql": ["'HP'"], "type": "AIRLINE_CODE", "cleaned_nl": ["american", "west"]}
+{"sql": ["'HQ'"], "type": "AIRLINE_CODE", "cleaned_nl": ["business", "express"]}
+{"sql": ["'KW'"], "type": "AIRLINE_CODE", "cleaned_nl": ["carnival", "air", "lines"]}
+{"sql": ["'LH'"], "type": "AIRLINE_CODE", "cleaned_nl": ["lufthansa", "german", "airlines"]}
+{"sql": ["'LH'"], "type": "AIRLINE_CODE", "cleaned_nl": ["lufthansa"]}
+{"sql": ["'LH'"], "type": "AIRLINE_CODE", "cleaned_nl": ["lufthansa", "airlines"]}
+{"sql": ["'MG'"], "type": "AIRLINE_CODE", "cleaned_nl": ["mgm", "grand", "air"]}
+{"sql": ["'NW'"], "type": "AIRLINE_CODE", "cleaned_nl": ["northwest", "airlines"]}
+{"sql": ["'NW'"], "type": "AIRLINE_CODE", "cleaned_nl": ["northwest", "airline"]}
+{"sql": ["'NW'"], "type": "AIRLINE_CODE", "cleaned_nl": ["northwest"]}
+{"sql": ["'NX'"], "type": "AIRLINE_CODE", "cleaned_nl": ["nationair"]}
+{"sql": ["'OE'"], "type": "AIRLINE_CODE", "cleaned_nl": ["westair", "airlines"]}
+{"sql": ["'OH'"], "type": "AIRLINE_CODE", "cleaned_nl": ["comair"]}
+{"sql": ["'OK'"], "type": "AIRLINE_CODE", "cleaned_nl": ["czechoslovak", "airlines"]}
+{"sql": ["'OO'"], "type": "AIRLINE_CODE", "cleaned_nl": ["sky", "west", "airlines"]}
+{"sql": ["'QD'"], "type": "AIRLINE_CODE", "cleaned_nl": ["grand", "airways"]}
+{"sql": ["'RP'"], "type": "AIRLINE_CODE", "cleaned_nl": ["precision", "airlines"]}
+{"sql": ["'RZ'"], "type": "AIRLINE_CODE", "cleaned_nl": ["trans", "world", "express"]}
+{"sql": ["'SN'"], "type": "AIRLINE_CODE", "cleaned_nl": ["sabena", "belgian", "world", "airlines"]}
+{"sql": ["'SX'"], "type": "AIRLINE_CODE", "cleaned_nl": ["christman", "air"]}
+{"sql": ["'TG'"], "type": "AIRLINE_CODE", "cleaned_nl": ["thai", "airways"]}
+{"sql": ["'TW'"], "type": "AIRLINE_CODE", "cleaned_nl": ["trans", "world"]}
+{"sql": ["'TW'"], "type": "AIRLINE_CODE", "cleaned_nl": ["twa"]}
+{"sql": ["'TZ'"], "type": "AIRLINE_CODE", "cleaned_nl": ["american", "trans", "air"]}
+{"sql": ["'UA'"], "type": "AIRLINE_CODE", "cleaned_nl": ["united", "airlines"]}
+{"sql": ["'UA'"], "type": "AIRLINE_CODE", "cleaned_nl": ["united"]}
+{"sql": ["'US'"], "type": "AIRLINE_CODE", "cleaned_nl": ["usair"]}
+{"sql": ["'US'"], "type": "AIRLINE_CODE", "cleaned_nl": ["us", "air"]}
+{"sql": ["'WN'"], "type": "AIRLINE_CODE", "cleaned_nl": ["southwest", "airlines"]}
+{"sql": ["'WN'"], "type": "AIRLINE_CODE", "cleaned_nl": ["southwest", "air"]}
+{"sql": ["'WN'"], "type": "AIRLINE_CODE", "cleaned_nl": ["southwest"]}
+{"sql": ["'XJ'"], "type": "AIRLINE_CODE", "cleaned_nl": ["mesaba", "aviation"]}
+{"sql": ["'YX'"], "type": "AIRLINE_CODE", "cleaned_nl": ["midwest", "express", "airlines"]}
+{"sql": ["'YX'"], "type": "AIRLINE_CODE", "cleaned_nl": ["midwest", "express"]}
+{"sql": ["'ZW'"], "type": "AIRLINE_CODE", "cleaned_nl": ["air", "wisconsin"]}
+{"sql": ["'2V'"], "type": "AIRLINE_CODE", "cleaned_nl": ["2v"]}
+{"sql": ["'3J'"], "type": "AIRLINE_CODE", "cleaned_nl": ["3j"]}
+{"sql": ["'7V'"], "type": "AIRLINE_CODE", "cleaned_nl": ["7v"]}
+{"sql": ["'9E'"], "type": "AIRLINE_CODE", "cleaned_nl": ["9e"]}
+{"sql": ["'9L'"], "type": "AIRLINE_CODE", "cleaned_nl": ["9l"]}
+{"sql": ["'9N'"], "type": "AIRLINE_CODE", "cleaned_nl": ["9n"]}
+{"sql": ["'9X'"], "type": "AIRLINE_CODE", "cleaned_nl": ["9x"]}
+{"sql": ["'AA'"], "type": "AIRLINE_CODE", "cleaned_nl": ["aa"]}
+{"sql": ["'AC'"], "type": "AIRLINE_CODE", "cleaned_nl": ["ac"]}
+{"sql": ["'AR'"], "type": "AIRLINE_CODE", "cleaned_nl": ["ar"]}
+{"sql": ["'AS'"], "type": "AIRLINE_CODE", "cleaned_nl": ["as"]}
+{"sql": ["'BA'"], "type": "AIRLINE_CODE", "cleaned_nl": ["ba"]}
+{"sql": ["'CO'"], "type": "AIRLINE_CODE", "cleaned_nl": ["co"]}
+{"sql": ["'CP'"], "type": "AIRLINE_CODE", "cleaned_nl": ["cp"]}
+{"sql": ["'DH'"], "type": "AIRLINE_CODE", "cleaned_nl": ["dh"]}
+{"sql": ["'DL'"], "type": "AIRLINE_CODE", "cleaned_nl": ["dl"]}
+{"sql": ["'EV'"], "type": "AIRLINE_CODE", "cleaned_nl": ["ev"]}
+{"sql": ["'FF'"], "type": "AIRLINE_CODE", "cleaned_nl": ["ff"]}
+{"sql": ["'GX'"], "type": "AIRLINE_CODE", "cleaned_nl": ["gx"]}
+{"sql": ["'HP'"], "type": "AIRLINE_CODE", "cleaned_nl": ["hp"]}
+{"sql": ["'HQ'"], "type": "AIRLINE_CODE", "cleaned_nl": ["hq"]}
+{"sql": ["'KW'"], "type": "AIRLINE_CODE", "cleaned_nl": ["kw"]}
+{"sql": ["'LH'"], "type": "AIRLINE_CODE", "cleaned_nl": ["lh"]}
+{"sql": ["'MG'"], "type": "AIRLINE_CODE", "cleaned_nl": ["mg"]}
+{"sql": ["'NW'"], "type": "AIRLINE_CODE", "cleaned_nl": ["nw"]}
+{"sql": ["'NX'"], "type": "AIRLINE_CODE", "cleaned_nl": ["nx"]}
+{"sql": ["'OE'"], "type": "AIRLINE_CODE", "cleaned_nl": ["oe"]}
+{"sql": ["'OH'"], "type": "AIRLINE_CODE", "cleaned_nl": ["oh"]}
+{"sql": ["'OK'"], "type": "AIRLINE_CODE", "cleaned_nl": ["ok"]}
+{"sql": ["'OO'"], "type": "AIRLINE_CODE", "cleaned_nl": ["oo"]}
+{"sql": ["'QD'"], "type": "AIRLINE_CODE", "cleaned_nl": ["qd"]}
+{"sql": ["'RP'"], "type": "AIRLINE_CODE", "cleaned_nl": ["rp"]}
+{"sql": ["'RZ'"], "type": "AIRLINE_CODE", "cleaned_nl": ["rz"]}
+{"sql": ["'SN'"], "type": "AIRLINE_CODE", "cleaned_nl": ["sn"]}
+{"sql": ["'SX'"], "type": "AIRLINE_CODE", "cleaned_nl": ["sx"]}
+{"sql": ["'TG'"], "type": "AIRLINE_CODE", "cleaned_nl": ["tg"]}
+{"sql": ["'TW'"], "type": "AIRLINE_CODE", "cleaned_nl": ["tw"]}
+{"sql": ["'TZ'"], "type": "AIRLINE_CODE", "cleaned_nl": ["tz"]}
+{"sql": ["'UA'"], "type": "AIRLINE_CODE", "cleaned_nl": ["ua"]}
+{"sql": ["'US'"], "type": "AIRLINE_CODE", "cleaned_nl": ["us"]}
+{"sql": ["'WN'"], "type": "AIRLINE_CODE", "cleaned_nl": ["wn"]}
+{"sql": ["'XJ'"], "type": "AIRLINE_CODE", "cleaned_nl": ["xj"]}
+{"sql": ["'YX'"], "type": "AIRLINE_CODE", "cleaned_nl": ["yx"]}
+{"sql": ["'ZW'"], "type": "AIRLINE_CODE", "cleaned_nl": ["zw"]}
+{"sql": ["'NASHVILLE'"], "type": "CITY_NAME", "cleaned_nl": ["nashville"]}
+{"sql": ["'BOSTON'"], "type": "CITY_NAME", "cleaned_nl": ["boston"]}
+{"sql": ["'BURBANK'"], "type": "CITY_NAME", "cleaned_nl": ["burbank"]}
+{"sql": ["'BALTIMORE'"], "type": "CITY_NAME", "cleaned_nl": ["baltimore"]}
+{"sql": ["'CHICAGO'"], "type": "CITY_NAME", "cleaned_nl": ["chicago"]}
+{"sql": ["'CLEVELAND'"], "type": "CITY_NAME", "cleaned_nl": ["cleveland"]}
+{"sql": ["'CHARLOTTE'"], "type": "CITY_NAME", "cleaned_nl": ["charlotte"]}
+{"sql": ["'COLUMBUS'"], "type": "CITY_NAME", "cleaned_nl": ["columbus"]}
+{"sql": ["'CINCINNATI'"], "type": "CITY_NAME", "cleaned_nl": ["cincinnati"]}
+{"sql": ["'DENVER'"], "type": "CITY_NAME", "cleaned_nl": ["denver"]}
+{"sql": ["'DALLAS'"], "type": "CITY_NAME", "cleaned_nl": ["dallas"]}
+{"sql": ["'DETROIT'"], "type": "CITY_NAME", "cleaned_nl": ["detroit"]}
+{"sql": ["'FORT WORTH'"], "type": "CITY_NAME", "cleaned_nl": ["fort", "worth"]}
+{"sql": ["'HOUSTON'"], "type": "CITY_NAME", "cleaned_nl": ["houston"]}
+{"sql": ["'WESTCHESTER COUNTY'"], "type": "CITY_NAME", "cleaned_nl": ["westchester", "county"]}
+{"sql": ["'WESTCHESTER COUNTY'"], "type": "CITY_NAME", "cleaned_nl": ["westchester"]}
+{"sql": ["'INDIANAPOLIS'"], "type": "CITY_NAME", "cleaned_nl": ["indianapolis"]}
+{"sql": ["'NEWARK'"], "type": "CITY_NAME", "cleaned_nl": ["newark"]}
+{"sql": ["'LAS VEGAS'"], "type": "CITY_NAME", "cleaned_nl": ["las", "vegas"]}
+{"sql": ["'LOS ANGELES'"], "type": "CITY_NAME", "cleaned_nl": ["los", "angeles"]}
+{"sql": ["'LOS ANGELES'"], "type": "CITY_NAME", "cleaned_nl": ["la"]}
+{"sql": ["'LONG BEACH'"], "type": "CITY_NAME", "cleaned_nl": ["long", "beach"]}
+{"sql": ["'ATLANTA'"], "type": "CITY_NAME", "cleaned_nl": ["atlanta"]}
+{"sql": ["'MEMPHIS'"], "type": "CITY_NAME", "cleaned_nl": ["memphis"]}
+{"sql": ["'MIAMI'"], "type": "CITY_NAME", "cleaned_nl": ["miami"]}
+{"sql": ["'KANSAS CITY'"], "type": "CITY_NAME", "cleaned_nl": ["kansas", "city"]}
+{"sql": ["'MILWAUKEE'"], "type": "CITY_NAME", "cleaned_nl": ["milwaukee"]}
+{"sql": ["'MINNEAPOLIS'"], "type": "CITY_NAME", "cleaned_nl": ["minneapolis"]}
+{"sql": ["'NEW YORK'"], "type": "CITY_NAME", "cleaned_nl": ["new", "york"]}
+{"sql": ["'NEW YORK'"], "type": "CITY_NAME", "cleaned_nl": ["new", "york", "city"]}
+{"sql": ["'OAKLAND'"], "type": "CITY_NAME", "cleaned_nl": ["oakland"]}
+{"sql": ["'ONTARIO'"], "type": "CITY_NAME", "cleaned_nl": ["ontario"]}
+{"sql": ["'ORLANDO'"], "type": "CITY_NAME", "cleaned_nl": ["orlando"]}
+{"sql": ["'PHILADELPHIA'"], "type": "CITY_NAME", "cleaned_nl": ["philadelphia"]}
+{"sql": ["'PHOENIX'"], "type": "CITY_NAME", "cleaned_nl": ["phoenix"]}
+{"sql": ["'PITTSBURGH'"], "type": "CITY_NAME", "cleaned_nl": ["pittsburgh"]}
+{"sql": ["'ST. PAUL'"], "type": "CITY_NAME", "cleaned_nl": ["st.", "paul"]}
+{"sql": ["'ST. PAUL'"], "type": "CITY_NAME", "cleaned_nl": ["saint", "paul"]}
+{"sql": ["'SAN DIEGO'"], "type": "CITY_NAME", "cleaned_nl": ["san", "diego"]}
+{"sql": ["'SEATTLE'"], "type": "CITY_NAME", "cleaned_nl": ["seattle"]}
+{"sql": ["'SAN FRANCISCO'"], "type": "CITY_NAME", "cleaned_nl": ["san", "francisco"]}
+{"sql": ["'SAN JOSE'"], "type": "CITY_NAME", "cleaned_nl": ["san", "jose"]}
+{"sql": ["'SALT LAKE CITY'"], "type": "CITY_NAME", "cleaned_nl": ["salt", "lake", "city"]}
+{"sql": ["'ST. LOUIS'"], "type": "CITY_NAME", "cleaned_nl": ["st.", "louis"]}
+{"sql": ["'ST. LOUIS'"], "type": "CITY_NAME", "cleaned_nl": ["saint", "louis"]}
+{"sql": ["'ST. PETERSBURG'"], "type": "CITY_NAME", "cleaned_nl": ["saint", "petersburg"]}
+{"sql": ["'ST. PETERSBURG'"], "type": "CITY_NAME", "cleaned_nl": ["st.", "petersburg"]}
+{"sql": ["'TACOMA'"], "type": "CITY_NAME", "cleaned_nl": ["tacoma"]}
+{"sql": ["'TAMPA'"], "type": "CITY_NAME", "cleaned_nl": ["tampa"]}
+{"sql": ["'WASHINGTON'"], "type": "CITY_NAME", "cleaned_nl": ["washington"]}
+{"sql": ["'MONTREAL'"], "type": "CITY_NAME", "cleaned_nl": ["montreal"]}
+{"sql": ["'TORONTO'"], "type": "CITY_NAME", "cleaned_nl": ["toronto"]}
+{"sql": ["1"], "type": "MONTH_NUMBER", "cleaned_nl": ["january"]}
+{"sql": ["2"], "type": "MONTH_NUMBER", "cleaned_nl": ["february"]}
+{"sql": ["3"], "type": "MONTH_NUMBER", "cleaned_nl": ["march"]}
+{"sql": ["4"], "type": "MONTH_NUMBER", "cleaned_nl": ["april"]}
+{"sql": ["5"], "type": "MONTH_NUMBER", "cleaned_nl": ["may"]}
+{"sql": ["6"], "type": "MONTH_NUMBER", "cleaned_nl": ["june"]}
+{"sql": ["7"], "type": "MONTH_NUMBER", "cleaned_nl": ["july"]}
+{"sql": ["8"], "type": "MONTH_NUMBER", "cleaned_nl": ["august"]}
+{"sql": ["9"], "type": "MONTH_NUMBER", "cleaned_nl": ["september"]}
+{"sql": ["10"], "type": "MONTH_NUMBER", "cleaned_nl": ["october"]}
+{"sql": ["11"], "type": "MONTH_NUMBER", "cleaned_nl": ["november"]}
+{"sql": ["12"], "type": "MONTH_NUMBER", "cleaned_nl": ["december"]}
+{"sql": ["'MONDAY'"], "type": "DAY_OF_WEEK", "cleaned_nl": ["monday"]}
+{"sql": ["'TUESDAY'"], "type": "DAY_OF_WEEK", "cleaned_nl": ["tuesday"]}
+{"sql": ["'WEDNESDAY'"], "type": "DAY_OF_WEEK", "cleaned_nl": ["wednesday"]}
+{"sql": ["'THURSDAY'"], "type": "DAY_OF_WEEK", "cleaned_nl": ["thursday"]}
+{"sql": ["'FRIDAY'"], "type": "DAY_OF_WEEK", "cleaned_nl": ["friday"]}
+{"sql": ["'SATURDAY'"], "type": "DAY_OF_WEEK", "cleaned_nl": ["saturday"]}
+{"sql": ["'SUNDAY'"], "type": "DAY_OF_WEEK", "cleaned_nl": ["sunday"]}
+{"sql": ["'MONDAY'"], "type": "DAY_OF_WEEK", "cleaned_nl": ["mondays"]}
+{"sql": ["'TUESDAY'"], "type": "DAY_OF_WEEK", "cleaned_nl": ["tuesdays"]}
+{"sql": ["'WEDNESDAY'"], "type": "DAY_OF_WEEK", "cleaned_nl": ["wednesdays"]}
+{"sql": ["'THURSDAY'"], "type": "DAY_OF_WEEK", "cleaned_nl": ["thursdays"]}
+{"sql": ["'FRIDAY'"], "type": "DAY_OF_WEEK", "cleaned_nl": ["fridays"]}
+{"sql": ["'SATURDAY'"], "type": "DAY_OF_WEEK", "cleaned_nl": ["saturdays"]}
+{"sql": ["'SUNDAY'"], "type": "DAY_OF_WEEK", "cleaned_nl": ["sundays"]}
+{"sql": ["1"], "type": "DAY_NUMBER", "cleaned_nl": ["first"]}
+{"sql": ["2"], "type": "DAY_NUMBER", "cleaned_nl": ["second"]}
+{"sql": ["3"], "type": "DAY_NUMBER", "cleaned_nl": ["third"]}
+{"sql": ["4"], "type": "DAY_NUMBER", "cleaned_nl": ["fourth"]}
+{"sql": ["5"], "type": "DAY_NUMBER", "cleaned_nl": ["fifth"]}
+{"sql": ["6"], "type": "DAY_NUMBER", "cleaned_nl": ["sixth"]}
+{"sql": ["7"], "type": "DAY_NUMBER", "cleaned_nl": ["seventh"]}
+{"sql": ["8"], "type": "DAY_NUMBER", "cleaned_nl": ["eighth"]}
+{"sql": ["9"], "type": "DAY_NUMBER", "cleaned_nl": ["ninth"]}
+{"sql": ["10"], "type": "DAY_NUMBER", "cleaned_nl": ["tenth"]}
+{"sql": ["11"], "type": "DAY_NUMBER", "cleaned_nl": ["eleventh"]}
+{"sql": ["12"], "type": "DAY_NUMBER", "cleaned_nl": ["twelfth"]}
+{"sql": ["13"], "type": "DAY_NUMBER", "cleaned_nl": ["thirteenth"]}
+{"sql": ["14"], "type": "DAY_NUMBER", "cleaned_nl": ["fourteenth"]}
+{"sql": ["15"], "type": "DAY_NUMBER", "cleaned_nl": ["fifteenth"]}
+{"sql": ["16"], "type": "DAY_NUMBER", "cleaned_nl": ["sixteenth"]}
+{"sql": ["17"], "type": "DAY_NUMBER", "cleaned_nl": ["seventeenth"]}
+{"sql": ["18"], "type": "DAY_NUMBER", "cleaned_nl": ["eighteenth"]}
+{"sql": ["19"], "type": "DAY_NUMBER", "cleaned_nl": ["nineteenth"]}
+{"sql": ["20"], "type": "DAY_NUMBER", "cleaned_nl": ["twentieth"]}
+{"sql": ["21"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "first"]}
+{"sql": ["22"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "second"]}
+{"sql": ["23"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "third"]}
+{"sql": ["24"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "fourth"]}
+{"sql": ["25"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "fifth"]}
+{"sql": ["26"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "sixth"]}
+{"sql": ["27"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "seventh"]}
+{"sql": ["28"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "eighth"]}
+{"sql": ["29"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "ninth"]}
+{"sql": ["30"], "type": "DAY_NUMBER", "cleaned_nl": ["thirtieth"]}
+{"sql": ["31"], "type": "DAY_NUMBER", "cleaned_nl": ["thirty", "first"]}
+{"sql": ["2"], "type": "DAY_NUMBER", "cleaned_nl": ["two"]}
+{"sql": ["3"], "type": "DAY_NUMBER", "cleaned_nl": ["three"]}
+{"sql": ["4"], "type": "DAY_NUMBER", "cleaned_nl": ["four"]}
+{"sql": ["5"], "type": "DAY_NUMBER", "cleaned_nl": ["five"]}
+{"sql": ["6"], "type": "DAY_NUMBER", "cleaned_nl": ["six"]}
+{"sql": ["7"], "type": "DAY_NUMBER", "cleaned_nl": ["seven"]}
+{"sql": ["8"], "type": "DAY_NUMBER", "cleaned_nl": ["eight"]}
+{"sql": ["9"], "type": "DAY_NUMBER", "cleaned_nl": ["nine"]}
+{"sql": ["10"], "type": "DAY_NUMBER", "cleaned_nl": ["ten"]}
+{"sql": ["11"], "type": "DAY_NUMBER", "cleaned_nl": ["eleven"]}
+{"sql": ["12"], "type": "DAY_NUMBER", "cleaned_nl": ["twelve"]}
+{"sql": ["13"], "type": "DAY_NUMBER", "cleaned_nl": ["thirteen"]}
+{"sql": ["14"], "type": "DAY_NUMBER", "cleaned_nl": ["fourteen"]}
+{"sql": ["15"], "type": "DAY_NUMBER", "cleaned_nl": ["fifteen"]}
+{"sql": ["16"], "type": "DAY_NUMBER", "cleaned_nl": ["sixteen"]}
+{"sql": ["17"], "type": "DAY_NUMBER", "cleaned_nl": ["seventeen"]}
+{"sql": ["18"], "type": "DAY_NUMBER", "cleaned_nl": ["eighteen"]}
+{"sql": ["19"], "type": "DAY_NUMBER", "cleaned_nl": ["nineteen"]}
+{"sql": ["20"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty"]}
+{"sql": ["21"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "one"]}
+{"sql": ["22"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "two"]}
+{"sql": ["23"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "three"]}
+{"sql": ["24"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "four"]}
+{"sql": ["25"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "five"]}
+{"sql": ["26"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "six"]}
+{"sql": ["27"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "seven"]}
+{"sql": ["28"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "eight"]}
+{"sql": ["29"], "type": "DAY_NUMBER", "cleaned_nl": ["twenty", "nine"]}
+{"sql": ["30"], "type": "DAY_NUMBER", "cleaned_nl": ["thirty"]}
+{"sql": ["31"], "type": "DAY_NUMBER", "cleaned_nl": ["thirty", "one"]}
+{"sql": ["'COACH'"], "type": "FARE_TYPE", "cleaned_nl": ["coach"]}
+{"sql": ["'BUSINESS'"], "type": "FARE_TYPE", "cleaned_nl": ["business"]}
+{"sql": ["'FIRST'"], "type": "FARE_TYPE", "cleaned_nl": ["first", "class"]}
+{"sql": ["'THRIFT'"], "type": "FARE_TYPE", "cleaned_nl": ["thrift"]}
+{"sql": ["'STANDARD'"], "type": "FARE_TYPE", "cleaned_nl": ["standard"]}
+{"sql": ["'SHUTTLE'"], "type": "FARE_TYPE", "cleaned_nl": ["shuttle"]}
+{"sql": ["'B'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["b"]}
+{"sql": ["'BH'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["bh"]}
+{"sql": ["'BHW'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["bhw"]}
+{"sql": ["'BHX'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["bhx"]}
+{"sql": ["'BL'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["bl"]}
+{"sql": ["'BLW'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["blw"]}
+{"sql": ["'BLX'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["blx"]}
+{"sql": ["'BN'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["bn"]}
+{"sql": ["'BOW'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["bow"]}
+{"sql": ["'BOX'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["box"]}
+{"sql": ["'BW'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["bw"]}
+{"sql": ["'BX'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["bx"]}
+{"sql": ["'C'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["c"]}
+{"sql": ["'CN'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["cn"]}
+{"sql": ["'F'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["f"]}
+{"sql": ["'FN'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["fn"]}
+{"sql": ["'H'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["h"]}
+{"sql": ["'HH'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["hh"]}
+{"sql": ["'HHW'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["hhw"]}
+{"sql": ["'HHX'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["hhx"]}
+{"sql": ["'HL'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["hl"]}
+{"sql": ["'HLW'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["hlw"]}
+{"sql": ["'HLX'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["hlx"]}
+{"sql": ["'HOX'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["hox"]}
+{"sql": ["'J'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["j"]}
+{"sql": ["'K'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["k"]}
+{"sql": ["'KH'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["kh"]}
+{"sql": ["'KL'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["kl"]}
+{"sql": ["'KN'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["kn"]}
+{"sql": ["'LX'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["lx"]}
+{"sql": ["'M'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["m"]}
+{"sql": ["'MH'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["mh"]}
+{"sql": ["'ML'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["ml"]}
+{"sql": ["'MOW'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["mow"]}
+{"sql": ["'P'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["p"]}
+{"sql": ["'Q'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["q"]}
+{"sql": ["'QH'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["qh"]}
+{"sql": ["'QHW'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["qhw"]}
+{"sql": ["'QHX'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["qhx"]}
+{"sql": ["'QLW'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["qlw"]}
+{"sql": ["'QLX'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["qlx"]}
+{"sql": ["'QO'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["qo"]}
+{"sql": ["'QOW'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["qow"]}
+{"sql": ["'QOX'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["qox"]}
+{"sql": ["'QW'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["qw"]}
+{"sql": ["'QX'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["qx"]}
+{"sql": ["'S'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["s"]}
+{"sql": ["'U'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["u"]}
+{"sql": ["'V'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["v"]}
+{"sql": ["'VHW'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["vhw"]}
+{"sql": ["'VHX'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["vhx"]}
+{"sql": ["'VW'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["vw"]}
+{"sql": ["'VX'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["vx"]}
+{"sql": ["'Y'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["y"]}
+{"sql": ["'YH'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["yh"]}
+{"sql": ["'YL'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["yl"]}
+{"sql": ["'YN'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["yn"]}
+{"sql": ["'YW'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["yw"]}
+{"sql": ["'YX'"], "type": "FARE_BASIS_CODE", "cleaned_nl": ["yx"]}
+{"sql": ["'RENTAL CAR'"], "type": "TRANSPORT_TYPE", "cleaned_nl": ["rental", "car"]}
+{"sql": ["'RENTAL CAR'"], "type": "TRANSPORT_TYPE", "cleaned_nl": ["rental", "cars"]}
+{"sql": ["'RENTAL CAR'"], "type": "TRANSPORT_TYPE", "cleaned_nl": ["car", "rental"]}
+{"sql": ["'RENTAL CAR'"], "type": "TRANSPORT_TYPE", "cleaned_nl": ["car", "rentals"]}
+{"sql": ["'RENTAL CAR'"], "type": "TRANSPORT_TYPE", "cleaned_nl": ["car"]}
+{"sql": ["'AIR TAXI OPERATION'"], "type": "TRANSPORT_TYPE", "cleaned_nl": ["air", "taxi", "operation"]}
+{"sql": ["'LIMOUSINE'"], "type": "TRANSPORT_TYPE", "cleaned_nl": ["limousine"]}
+{"sql": ["'TAXI'"], "type": "TRANSPORT_TYPE", "cleaned_nl": ["taxi"]}
+{"sql": ["'ARIZONA'"], "type": "STATE_NAME", "cleaned_nl": ["arizona"]}
+{"sql": ["'CALIFORNIA'"], "type": "STATE_NAME", "cleaned_nl": ["california"]}
+{"sql": ["'COLORADO'"], "type": "STATE_NAME", "cleaned_nl": ["colorado"]}
+{"sql": ["'DISTRICT OF COLUMBIA'"], "type": "STATE_NAME", "cleaned_nl": ["district", "of", "columbia"]}
+{"sql": ["'DISTRICT OF COLUMBIA'"], "type": "STATE_NAME", "cleaned_nl": ["dc"]}
+{"sql": ["'DC'"], "type": "STATE_NAME", "cleaned_nl": ["dc"]}
+{"sql": ["'FLORIDA'"], "type": "STATE_NAME", "cleaned_nl": ["florida"]}
+{"sql": ["'GEORGIA'"], "type": "STATE_NAME", "cleaned_nl": ["georgia"]}
+{"sql": ["'ILLINOIS'"], "type": "STATE_NAME", "cleaned_nl": ["illinois"]}
+{"sql": ["'INDIANA'"], "type": "STATE_NAME", "cleaned_nl": ["indiana"]}
+{"sql": ["'MASSACHUSETTS'"], "type": "STATE_NAME", "cleaned_nl": ["massachusetts"]}
+{"sql": ["'MARYLAND'"], "type": "STATE_NAME", "cleaned_nl": ["maryland"]}
+{"sql": ["'MICHIGAN'"], "type": "STATE_NAME", "cleaned_nl": ["michigan"]}
+{"sql": ["'MINNESOTA'"], "type": "STATE_NAME", "cleaned_nl": ["minnesota"]}
+{"sql": ["'MISSOURI'"], "type": "STATE_NAME", "cleaned_nl": ["missouri"]}
+{"sql": ["'NORTH CAROLINA'"], "type": "STATE_NAME", "cleaned_nl": ["north", "carolina"]}
+{"sql": ["'NEW JERSEY'"], "type": "STATE_NAME", "cleaned_nl": ["new", "jersey"]}
+{"sql": ["'NEVADA'"], "type": "STATE_NAME", "cleaned_nl": ["nevada"]}
+{"sql": ["'NEW YORK'"], "type": "STATE_NAME", "cleaned_nl": ["new", "york"]}
+{"sql": ["'OHIO'"], "type": "STATE_NAME", "cleaned_nl": ["ohio"]}
+{"sql": ["'ONTARIO'"], "type": "STATE_NAME", "cleaned_nl": ["ontario"]}
+{"sql": ["'PENNSYLVANIA'"], "type": "STATE_NAME", "cleaned_nl": ["pennsylvania"]}
+{"sql": ["'QUEBEC'"], "type": "STATE_NAME", "cleaned_nl": ["quebec"]}
+{"sql": ["'TENNESSEE'"], "type": "STATE_NAME", "cleaned_nl": ["tennessee"]}
+{"sql": ["'TEXAS'"], "type": "STATE_NAME", "cleaned_nl": ["texas"]}
+{"sql": ["'UTAH'"], "type": "STATE_NAME", "cleaned_nl": ["utah"]}
+{"sql": ["'WASHINGTON'"], "type": "STATE_NAME", "cleaned_nl": ["washington"]}
+{"sql": ["'WISCONSIN'"], "type": "STATE_NAME", "cleaned_nl": ["wisconsin"]}
+{"sql": ["100"], "type": "TIME", "cleaned_nl": ["1"]}
+{"sql": ["1300"], "type": "TIME", "cleaned_nl": ["1"]}
+{"sql": ["1300"], "type": "TIME", "cleaned_nl": ["1pm"]}
+{"sql": ["100"], "type": "TIME", "cleaned_nl": ["1am"]}
+{"sql": ["100"], "type": "TIME", "cleaned_nl": ["1", "o'clock", "am"]}
+{"sql": ["1300"], "type": "TIME", "cleaned_nl": ["1", "o'clock", "pm"]}
+{"sql": ["100"], "type": "TIME", "cleaned_nl": ["1", "o'clock"]}
+{"sql": ["1300"], "type": "TIME", "cleaned_nl": ["1", "o'clock"]}
+{"sql": ["100"], "type": "TIME", "cleaned_nl": ["100"]}
+{"sql": ["1300"], "type": "TIME", "cleaned_nl": ["100"]}
+{"sql": ["100"], "type": "TIME", "cleaned_nl": ["100am"]}
+{"sql": ["1300"], "type": "TIME", "cleaned_nl": ["100pm"]}
+{"sql": ["115"], "type": "TIME", "cleaned_nl": ["115"]}
+{"sql": ["1315"], "type": "TIME", "cleaned_nl": ["115"]}
+{"sql": ["115"], "type": "TIME", "cleaned_nl": ["115am"]}
+{"sql": ["1315"], "type": "TIME", "cleaned_nl": ["115pm"]}
+{"sql": ["130"], "type": "TIME", "cleaned_nl": ["130"]}
+{"sql": ["1330"], "type": "TIME", "cleaned_nl": ["130"]}
+{"sql": ["130"], "type": "TIME", "cleaned_nl": ["130am"]}
+{"sql": ["1330"], "type": "TIME", "cleaned_nl": ["130pm"]}
+{"sql": ["145"], "type": "TIME", "cleaned_nl": ["145"]}
+{"sql": ["1345"], "type": "TIME", "cleaned_nl": ["145"]}
+{"sql": ["145"], "type": "TIME", "cleaned_nl": ["145am"]}
+{"sql": ["1345"], "type": "TIME", "cleaned_nl": ["145pm"]}
+{"sql": ["200"], "type": "TIME", "cleaned_nl": ["2"]}
+{"sql": ["1400"], "type": "TIME", "cleaned_nl": ["2"]}
+{"sql": ["1400"], "type": "TIME", "cleaned_nl": ["2pm"]}
+{"sql": ["200"], "type": "TIME", "cleaned_nl": ["2am"]}
+{"sql": ["200"], "type": "TIME", "cleaned_nl": ["2", "o'clock", "am"]}
+{"sql": ["1400"], "type": "TIME", "cleaned_nl": ["2", "o'clock", "pm"]}
+{"sql": ["200"], "type": "TIME", "cleaned_nl": ["2", "o'clock"]}
+{"sql": ["1400"], "type": "TIME", "cleaned_nl": ["2", "o'clock"]}
+{"sql": ["200"], "type": "TIME", "cleaned_nl": ["200"]}
+{"sql": ["1400"], "type": "TIME", "cleaned_nl": ["200"]}
+{"sql": ["200"], "type": "TIME", "cleaned_nl": ["200am"]}
+{"sql": ["1400"], "type": "TIME", "cleaned_nl": ["200pm"]}
+{"sql": ["215"], "type": "TIME", "cleaned_nl": ["215"]}
+{"sql": ["1415"], "type": "TIME", "cleaned_nl": ["215"]}
+{"sql": ["215"], "type": "TIME", "cleaned_nl": ["215am"]}
+{"sql": ["1415"], "type": "TIME", "cleaned_nl": ["215pm"]}
+{"sql": ["230"], "type": "TIME", "cleaned_nl": ["230"]}
+{"sql": ["1430"], "type": "TIME", "cleaned_nl": ["230"]}
+{"sql": ["230"], "type": "TIME", "cleaned_nl": ["230am"]}
+{"sql": ["1430"], "type": "TIME", "cleaned_nl": ["230pm"]}
+{"sql": ["245"], "type": "TIME", "cleaned_nl": ["245"]}
+{"sql": ["1445"], "type": "TIME", "cleaned_nl": ["245"]}
+{"sql": ["245"], "type": "TIME", "cleaned_nl": ["245am"]}
+{"sql": ["1445"], "type": "TIME", "cleaned_nl": ["245pm"]}
+{"sql": ["300"], "type": "TIME", "cleaned_nl": ["3"]}
+{"sql": ["1500"], "type": "TIME", "cleaned_nl": ["3"]}
+{"sql": ["1500"], "type": "TIME", "cleaned_nl": ["3pm"]}
+{"sql": ["300"], "type": "TIME", "cleaned_nl": ["3am"]}
+{"sql": ["300"], "type": "TIME", "cleaned_nl": ["3", "o'clock", "am"]}
+{"sql": ["1500"], "type": "TIME", "cleaned_nl": ["3", "o'clock", "pm"]}
+{"sql": ["300"], "type": "TIME", "cleaned_nl": ["3", "o'clock"]}
+{"sql": ["1500"], "type": "TIME", "cleaned_nl": ["3", "o'clock"]}
+{"sql": ["300"], "type": "TIME", "cleaned_nl": ["300"]}
+{"sql": ["1500"], "type": "TIME", "cleaned_nl": ["300"]}
+{"sql": ["300"], "type": "TIME", "cleaned_nl": ["300am"]}
+{"sql": ["1500"], "type": "TIME", "cleaned_nl": ["300pm"]}
+{"sql": ["315"], "type": "TIME", "cleaned_nl": ["315"]}
+{"sql": ["1515"], "type": "TIME", "cleaned_nl": ["315"]}
+{"sql": ["315"], "type": "TIME", "cleaned_nl": ["315am"]}
+{"sql": ["1515"], "type": "TIME", "cleaned_nl": ["315pm"]}
+{"sql": ["330"], "type": "TIME", "cleaned_nl": ["330"]}
+{"sql": ["1530"], "type": "TIME", "cleaned_nl": ["330"]}
+{"sql": ["330"], "type": "TIME", "cleaned_nl": ["330am"]}
+{"sql": ["1530"], "type": "TIME", "cleaned_nl": ["330pm"]}
+{"sql": ["345"], "type": "TIME", "cleaned_nl": ["345"]}
+{"sql": ["1545"], "type": "TIME", "cleaned_nl": ["345"]}
+{"sql": ["345"], "type": "TIME", "cleaned_nl": ["345am"]}
+{"sql": ["1545"], "type": "TIME", "cleaned_nl": ["345pm"]}
+{"sql": ["400"], "type": "TIME", "cleaned_nl": ["4"]}
+{"sql": ["1600"], "type": "TIME", "cleaned_nl": ["4"]}
+{"sql": ["1600"], "type": "TIME", "cleaned_nl": ["4pm"]}
+{"sql": ["400"], "type": "TIME", "cleaned_nl": ["4am"]}
+{"sql": ["400"], "type": "TIME", "cleaned_nl": ["4", "o'clock", "am"]}
+{"sql": ["1600"], "type": "TIME", "cleaned_nl": ["4", "o'clock", "pm"]}
+{"sql": ["400"], "type": "TIME", "cleaned_nl": ["4", "o'clock"]}
+{"sql": ["1600"], "type": "TIME", "cleaned_nl": ["4", "o'clock"]}
+{"sql": ["400"], "type": "TIME", "cleaned_nl": ["400"]}
+{"sql": ["1600"], "type": "TIME", "cleaned_nl": ["400"]}
+{"sql": ["400"], "type": "TIME", "cleaned_nl": ["400am"]}
+{"sql": ["1600"], "type": "TIME", "cleaned_nl": ["400pm"]}
+{"sql": ["415"], "type": "TIME", "cleaned_nl": ["415"]}
+{"sql": ["1615"], "type": "TIME", "cleaned_nl": ["415"]}
+{"sql": ["415"], "type": "TIME", "cleaned_nl": ["415am"]}
+{"sql": ["1615"], "type": "TIME", "cleaned_nl": ["415pm"]}
+{"sql": ["430"], "type": "TIME", "cleaned_nl": ["430"]}
+{"sql": ["1630"], "type": "TIME", "cleaned_nl": ["430"]}
+{"sql": ["430"], "type": "TIME", "cleaned_nl": ["430am"]}
+{"sql": ["1630"], "type": "TIME", "cleaned_nl": ["430pm"]}
+{"sql": ["445"], "type": "TIME", "cleaned_nl": ["445"]}
+{"sql": ["1645"], "type": "TIME", "cleaned_nl": ["445"]}
+{"sql": ["445"], "type": "TIME", "cleaned_nl": ["445am"]}
+{"sql": ["1645"], "type": "TIME", "cleaned_nl": ["445pm"]}
+{"sql": ["500"], "type": "TIME", "cleaned_nl": ["5"]}
+{"sql": ["1700"], "type": "TIME", "cleaned_nl": ["5"]}
+{"sql": ["1700"], "type": "TIME", "cleaned_nl": ["5pm"]}
+{"sql": ["500"], "type": "TIME", "cleaned_nl": ["5am"]}
+{"sql": ["500"], "type": "TIME", "cleaned_nl": ["5", "o'clock", "am"]}
+{"sql": ["1700"], "type": "TIME", "cleaned_nl": ["5", "o'clock", "pm"]}
+{"sql": ["500"], "type": "TIME", "cleaned_nl": ["5", "o'clock"]}
+{"sql": ["1700"], "type": "TIME", "cleaned_nl": ["5", "o'clock"]}
+{"sql": ["500"], "type": "TIME", "cleaned_nl": ["500"]}
+{"sql": ["1700"], "type": "TIME", "cleaned_nl": ["500"]}
+{"sql": ["500"], "type": "TIME", "cleaned_nl": ["500am"]}
+{"sql": ["1700"], "type": "TIME", "cleaned_nl": ["500pm"]}
+{"sql": ["515"], "type": "TIME", "cleaned_nl": ["515"]}
+{"sql": ["1715"], "type": "TIME", "cleaned_nl": ["515"]}
+{"sql": ["515"], "type": "TIME", "cleaned_nl": ["515am"]}
+{"sql": ["1715"], "type": "TIME", "cleaned_nl": ["515pm"]}
+{"sql": ["530"], "type": "TIME", "cleaned_nl": ["530"]}
+{"sql": ["1730"], "type": "TIME", "cleaned_nl": ["530"]}
+{"sql": ["530"], "type": "TIME", "cleaned_nl": ["530am"]}
+{"sql": ["1730"], "type": "TIME", "cleaned_nl": ["530pm"]}
+{"sql": ["545"], "type": "TIME", "cleaned_nl": ["545"]}
+{"sql": ["1745"], "type": "TIME", "cleaned_nl": ["545"]}
+{"sql": ["545"], "type": "TIME", "cleaned_nl": ["545am"]}
+{"sql": ["1745"], "type": "TIME", "cleaned_nl": ["545pm"]}
+{"sql": ["600"], "type": "TIME", "cleaned_nl": ["6"]}
+{"sql": ["1800"], "type": "TIME", "cleaned_nl": ["6"]}
+{"sql": ["1800"], "type": "TIME", "cleaned_nl": ["6pm"]}
+{"sql": ["600"], "type": "TIME", "cleaned_nl": ["6am"]}
+{"sql": ["600"], "type": "TIME", "cleaned_nl": ["6", "o'clock", "am"]}
+{"sql": ["1800"], "type": "TIME", "cleaned_nl": ["6", "o'clock", "pm"]}
+{"sql": ["600"], "type": "TIME", "cleaned_nl": ["6", "o'clock"]}
+{"sql": ["1800"], "type": "TIME", "cleaned_nl": ["6", "o'clock"]}
+{"sql": ["600"], "type": "TIME", "cleaned_nl": ["600"]}
+{"sql": ["1800"], "type": "TIME", "cleaned_nl": ["600"]}
+{"sql": ["600"], "type": "TIME", "cleaned_nl": ["600am"]}
+{"sql": ["1800"], "type": "TIME", "cleaned_nl": ["600pm"]}
+{"sql": ["615"], "type": "TIME", "cleaned_nl": ["615"]}
+{"sql": ["1815"], "type": "TIME", "cleaned_nl": ["615"]}
+{"sql": ["615"], "type": "TIME", "cleaned_nl": ["615am"]}
+{"sql": ["1815"], "type": "TIME", "cleaned_nl": ["615pm"]}
+{"sql": ["630"], "type": "TIME", "cleaned_nl": ["630"]}
+{"sql": ["1830"], "type": "TIME", "cleaned_nl": ["630"]}
+{"sql": ["630"], "type": "TIME", "cleaned_nl": ["630am"]}
+{"sql": ["1830"], "type": "TIME", "cleaned_nl": ["630pm"]}
+{"sql": ["645"], "type": "TIME", "cleaned_nl": ["645"]}
+{"sql": ["1845"], "type": "TIME", "cleaned_nl": ["645"]}
+{"sql": ["645"], "type": "TIME", "cleaned_nl": ["645am"]}
+{"sql": ["1845"], "type": "TIME", "cleaned_nl": ["645pm"]}
+{"sql": ["700"], "type": "TIME", "cleaned_nl": ["7"]}
+{"sql": ["1900"], "type": "TIME", "cleaned_nl": ["7"]}
+{"sql": ["1900"], "type": "TIME", "cleaned_nl": ["7pm"]}
+{"sql": ["700"], "type": "TIME", "cleaned_nl": ["7am"]}
+{"sql": ["700"], "type": "TIME", "cleaned_nl": ["7", "o'clock", "am"]}
+{"sql": ["1900"], "type": "TIME", "cleaned_nl": ["7", "o'clock", "pm"]}
+{"sql": ["700"], "type": "TIME", "cleaned_nl": ["7", "o'clock"]}
+{"sql": ["1900"], "type": "TIME", "cleaned_nl": ["7", "o'clock"]}
+{"sql": ["700"], "type": "TIME", "cleaned_nl": ["700"]}
+{"sql": ["1900"], "type": "TIME", "cleaned_nl": ["700"]}
+{"sql": ["700"], "type": "TIME", "cleaned_nl": ["700am"]}
+{"sql": ["1900"], "type": "TIME", "cleaned_nl": ["700pm"]}
+{"sql": ["715"], "type": "TIME", "cleaned_nl": ["715"]}
+{"sql": ["1915"], "type": "TIME", "cleaned_nl": ["715"]}
+{"sql": ["715"], "type": "TIME", "cleaned_nl": ["715am"]}
+{"sql": ["1915"], "type": "TIME", "cleaned_nl": ["715pm"]}
+{"sql": ["730"], "type": "TIME", "cleaned_nl": ["730"]}
+{"sql": ["1930"], "type": "TIME", "cleaned_nl": ["730"]}
+{"sql": ["730"], "type": "TIME", "cleaned_nl": ["730am"]}
+{"sql": ["1930"], "type": "TIME", "cleaned_nl": ["730pm"]}
+{"sql": ["745"], "type": "TIME", "cleaned_nl": ["745"]}
+{"sql": ["1945"], "type": "TIME", "cleaned_nl": ["745"]}
+{"sql": ["745"], "type": "TIME", "cleaned_nl": ["745am"]}
+{"sql": ["1945"], "type": "TIME", "cleaned_nl": ["745pm"]}
+{"sql": ["800"], "type": "TIME", "cleaned_nl": ["8"]}
+{"sql": ["2000"], "type": "TIME", "cleaned_nl": ["8"]}
+{"sql": ["2000"], "type": "TIME", "cleaned_nl": ["8pm"]}
+{"sql": ["800"], "type": "TIME", "cleaned_nl": ["8am"]}
+{"sql": ["800"], "type": "TIME", "cleaned_nl": ["8", "o'clock", "am"]}
+{"sql": ["2000"], "type": "TIME", "cleaned_nl": ["8", "o'clock", "pm"]}
+{"sql": ["800"], "type": "TIME", "cleaned_nl": ["8", "o'clock"]}
+{"sql": ["2000"], "type": "TIME", "cleaned_nl": ["8", "o'clock"]}
+{"sql": ["800"], "type": "TIME", "cleaned_nl": ["800"]}
+{"sql": ["2000"], "type": "TIME", "cleaned_nl": ["800"]}
+{"sql": ["800"], "type": "TIME", "cleaned_nl": ["800am"]}
+{"sql": ["2000"], "type": "TIME", "cleaned_nl": ["800pm"]}
+{"sql": ["815"], "type": "TIME", "cleaned_nl": ["815"]}
+{"sql": ["2015"], "type": "TIME", "cleaned_nl": ["815"]}
+{"sql": ["815"], "type": "TIME", "cleaned_nl": ["815am"]}
+{"sql": ["2015"], "type": "TIME", "cleaned_nl": ["815pm"]}
+{"sql": ["830"], "type": "TIME", "cleaned_nl": ["830"]}
+{"sql": ["2030"], "type": "TIME", "cleaned_nl": ["830"]}
+{"sql": ["830"], "type": "TIME", "cleaned_nl": ["830am"]}
+{"sql": ["2030"], "type": "TIME", "cleaned_nl": ["830pm"]}
+{"sql": ["845"], "type": "TIME", "cleaned_nl": ["845"]}
+{"sql": ["2045"], "type": "TIME", "cleaned_nl": ["845"]}
+{"sql": ["845"], "type": "TIME", "cleaned_nl": ["845am"]}
+{"sql": ["2045"], "type": "TIME", "cleaned_nl": ["845pm"]}
+{"sql": ["900"], "type": "TIME", "cleaned_nl": ["9"]}
+{"sql": ["2100"], "type": "TIME", "cleaned_nl": ["9"]}
+{"sql": ["2100"], "type": "TIME", "cleaned_nl": ["9pm"]}
+{"sql": ["900"], "type": "TIME", "cleaned_nl": ["9am"]}
+{"sql": ["900"], "type": "TIME", "cleaned_nl": ["9", "o'clock", "am"]}
+{"sql": ["2100"], "type": "TIME", "cleaned_nl": ["9", "o'clock", "pm"]}
+{"sql": ["900"], "type": "TIME", "cleaned_nl": ["9", "o'clock"]}
+{"sql": ["2100"], "type": "TIME", "cleaned_nl": ["9", "o'clock"]}
+{"sql": ["900"], "type": "TIME", "cleaned_nl": ["900"]}
+{"sql": ["2100"], "type": "TIME", "cleaned_nl": ["900"]}
+{"sql": ["900"], "type": "TIME", "cleaned_nl": ["900am"]}
+{"sql": ["2100"], "type": "TIME", "cleaned_nl": ["900pm"]}
+{"sql": ["915"], "type": "TIME", "cleaned_nl": ["915"]}
+{"sql": ["2115"], "type": "TIME", "cleaned_nl": ["915"]}
+{"sql": ["915"], "type": "TIME", "cleaned_nl": ["915am"]}
+{"sql": ["2115"], "type": "TIME", "cleaned_nl": ["915pm"]}
+{"sql": ["930"], "type": "TIME", "cleaned_nl": ["930"]}
+{"sql": ["2130"], "type": "TIME", "cleaned_nl": ["930"]}
+{"sql": ["930"], "type": "TIME", "cleaned_nl": ["930am"]}
+{"sql": ["2130"], "type": "TIME", "cleaned_nl": ["930pm"]}
+{"sql": ["945"], "type": "TIME", "cleaned_nl": ["945"]}
+{"sql": ["2145"], "type": "TIME", "cleaned_nl": ["945"]}
+{"sql": ["945"], "type": "TIME", "cleaned_nl": ["945am"]}
+{"sql": ["2145"], "type": "TIME", "cleaned_nl": ["945pm"]}
+{"sql": ["1000"], "type": "TIME", "cleaned_nl": ["10"]}
+{"sql": ["2200"], "type": "TIME", "cleaned_nl": ["10"]}
+{"sql": ["2200"], "type": "TIME", "cleaned_nl": ["10pm"]}
+{"sql": ["1000"], "type": "TIME", "cleaned_nl": ["10am"]}
+{"sql": ["1000"], "type": "TIME", "cleaned_nl": ["10", "o'clock", "am"]}
+{"sql": ["2200"], "type": "TIME", "cleaned_nl": ["10", "o'clock", "pm"]}
+{"sql": ["1000"], "type": "TIME", "cleaned_nl": ["10", "o'clock"]}
+{"sql": ["2200"], "type": "TIME", "cleaned_nl": ["10", "o'clock"]}
+{"sql": ["1000"], "type": "TIME", "cleaned_nl": ["1000"]}
+{"sql": ["2200"], "type": "TIME", "cleaned_nl": ["1000"]}
+{"sql": ["1000"], "type": "TIME", "cleaned_nl": ["1000am"]}
+{"sql": ["2200"], "type": "TIME", "cleaned_nl": ["1000pm"]}
+{"sql": ["1015"], "type": "TIME", "cleaned_nl": ["1015"]}
+{"sql": ["2215"], "type": "TIME", "cleaned_nl": ["1015"]}
+{"sql": ["1015"], "type": "TIME", "cleaned_nl": ["1015am"]}
+{"sql": ["2215"], "type": "TIME", "cleaned_nl": ["1015pm"]}
+{"sql": ["1030"], "type": "TIME", "cleaned_nl": ["1030"]}
+{"sql": ["2230"], "type": "TIME", "cleaned_nl": ["1030"]}
+{"sql": ["1030"], "type": "TIME", "cleaned_nl": ["1030am"]}
+{"sql": ["2230"], "type": "TIME", "cleaned_nl": ["1030pm"]}
+{"sql": ["1045"], "type": "TIME", "cleaned_nl": ["1045"]}
+{"sql": ["2245"], "type": "TIME", "cleaned_nl": ["1045"]}
+{"sql": ["1045"], "type": "TIME", "cleaned_nl": ["1045am"]}
+{"sql": ["2245"], "type": "TIME", "cleaned_nl": ["1045pm"]}
+{"sql": ["1100"], "type": "TIME", "cleaned_nl": ["11"]}
+{"sql": ["2300"], "type": "TIME", "cleaned_nl": ["11"]}
+{"sql": ["2300"], "type": "TIME", "cleaned_nl": ["11pm"]}
+{"sql": ["1100"], "type": "TIME", "cleaned_nl": ["11am"]}
+{"sql": ["1100"], "type": "TIME", "cleaned_nl": ["11", "o'clock", "am"]}
+{"sql": ["2300"], "type": "TIME", "cleaned_nl": ["11", "o'clock", "pm"]}
+{"sql": ["1100"], "type": "TIME", "cleaned_nl": ["11", "o'clock"]}
+{"sql": ["2300"], "type": "TIME", "cleaned_nl": ["11", "o'clock"]}
+{"sql": ["1100"], "type": "TIME", "cleaned_nl": ["1100"]}
+{"sql": ["2300"], "type": "TIME", "cleaned_nl": ["1100"]}
+{"sql": ["1100"], "type": "TIME", "cleaned_nl": ["1100am"]}
+{"sql": ["2300"], "type": "TIME", "cleaned_nl": ["1100pm"]}
+{"sql": ["1115"], "type": "TIME", "cleaned_nl": ["1115"]}
+{"sql": ["2315"], "type": "TIME", "cleaned_nl": ["1115"]}
+{"sql": ["1115"], "type": "TIME", "cleaned_nl": ["1115am"]}
+{"sql": ["2315"], "type": "TIME", "cleaned_nl": ["1115pm"]}
+{"sql": ["1130"], "type": "TIME", "cleaned_nl": ["1130"]}
+{"sql": ["2330"], "type": "TIME", "cleaned_nl": ["1130"]}
+{"sql": ["1130"], "type": "TIME", "cleaned_nl": ["1130am"]}
+{"sql": ["2330"], "type": "TIME", "cleaned_nl": ["1130pm"]}
+{"sql": ["1145"], "type": "TIME", "cleaned_nl": ["1145"]}
+{"sql": ["2345"], "type": "TIME", "cleaned_nl": ["1145"]}
+{"sql": ["1145"], "type": "TIME", "cleaned_nl": ["1145am"]}
+{"sql": ["2345"], "type": "TIME", "cleaned_nl": ["1145pm"]}
+{"sql": ["1200"], "type": "TIME", "cleaned_nl": ["12"]}
+{"sql": ["1200"], "type": "TIME", "cleaned_nl": ["1200"]}
+{"sql": ["2400"], "type": "TIME", "cleaned_nl": ["1200"]}
+{"sql": ["1200"], "type": "TIME", "cleaned_nl": ["1200am"]}
+{"sql": ["2400"], "type": "TIME", "cleaned_nl": ["1200pm"]}
+{"sql": ["1215"], "type": "TIME", "cleaned_nl": ["1215"]}
+{"sql": ["2415"], "type": "TIME", "cleaned_nl": ["1215"]}
+{"sql": ["1215"], "type": "TIME", "cleaned_nl": ["1215am"]}
+{"sql": ["2415"], "type": "TIME", "cleaned_nl": ["1215pm"]}
+{"sql": ["1230"], "type": "TIME", "cleaned_nl": ["1230"]}
+{"sql": ["2430"], "type": "TIME", "cleaned_nl": ["1230"]}
+{"sql": ["1230"], "type": "TIME", "cleaned_nl": ["1230am"]}
+{"sql": ["2430"], "type": "TIME", "cleaned_nl": ["1230pm"]}
+{"sql": ["1245"], "type": "TIME", "cleaned_nl": ["1245"]}
+{"sql": ["2445"], "type": "TIME", "cleaned_nl": ["1245"]}
+{"sql": ["1245"], "type": "TIME", "cleaned_nl": ["1245am"]}
+{"sql": ["2445"], "type": "TIME", "cleaned_nl": ["1245pm"]}
+{"sql": ["1300"], "type": "TIME", "cleaned_nl": ["13"]}
+{"sql": ["1300"], "type": "TIME", "cleaned_nl": ["1300"]}
+{"sql": ["1315"], "type": "TIME", "cleaned_nl": ["1315"]}
+{"sql": ["1330"], "type": "TIME", "cleaned_nl": ["1330"]}
+{"sql": ["1345"], "type": "TIME", "cleaned_nl": ["1345"]}
+{"sql": ["1400"], "type": "TIME", "cleaned_nl": ["14"]}
+{"sql": ["1400"], "type": "TIME", "cleaned_nl": ["1400"]}
+{"sql": ["1415"], "type": "TIME", "cleaned_nl": ["1415"]}
+{"sql": ["1430"], "type": "TIME", "cleaned_nl": ["1430"]}
+{"sql": ["1445"], "type": "TIME", "cleaned_nl": ["1445"]}
+{"sql": ["1500"], "type": "TIME", "cleaned_nl": ["15"]}
+{"sql": ["1500"], "type": "TIME", "cleaned_nl": ["1500"]}
+{"sql": ["1515"], "type": "TIME", "cleaned_nl": ["1515"]}
+{"sql": ["1530"], "type": "TIME", "cleaned_nl": ["1530"]}
+{"sql": ["1545"], "type": "TIME", "cleaned_nl": ["1545"]}
+{"sql": ["1600"], "type": "TIME", "cleaned_nl": ["16"]}
+{"sql": ["1600"], "type": "TIME", "cleaned_nl": ["1600"]}
+{"sql": ["1615"], "type": "TIME", "cleaned_nl": ["1615"]}
+{"sql": ["1630"], "type": "TIME", "cleaned_nl": ["1630"]}
+{"sql": ["1645"], "type": "TIME", "cleaned_nl": ["1645"]}
+{"sql": ["1700"], "type": "TIME", "cleaned_nl": ["17"]}
+{"sql": ["1700"], "type": "TIME", "cleaned_nl": ["1700"]}
+{"sql": ["1715"], "type": "TIME", "cleaned_nl": ["1715"]}
+{"sql": ["1730"], "type": "TIME", "cleaned_nl": ["1730"]}
+{"sql": ["1745"], "type": "TIME", "cleaned_nl": ["1745"]}
+{"sql": ["1800"], "type": "TIME", "cleaned_nl": ["18"]}
+{"sql": ["1800"], "type": "TIME", "cleaned_nl": ["1800"]}
+{"sql": ["1815"], "type": "TIME", "cleaned_nl": ["1815"]}
+{"sql": ["1830"], "type": "TIME", "cleaned_nl": ["1830"]}
+{"sql": ["1845"], "type": "TIME", "cleaned_nl": ["1845"]}
+{"sql": ["1900"], "type": "TIME", "cleaned_nl": ["19"]}
+{"sql": ["1900"], "type": "TIME", "cleaned_nl": ["1900"]}
+{"sql": ["1915"], "type": "TIME", "cleaned_nl": ["1915"]}
+{"sql": ["1930"], "type": "TIME", "cleaned_nl": ["1930"]}
+{"sql": ["1945"], "type": "TIME", "cleaned_nl": ["1945"]}
+{"sql": ["2000"], "type": "TIME", "cleaned_nl": ["20"]}
+{"sql": ["2000"], "type": "TIME", "cleaned_nl": ["2000"]}
+{"sql": ["2015"], "type": "TIME", "cleaned_nl": ["2015"]}
+{"sql": ["2030"], "type": "TIME", "cleaned_nl": ["2030"]}
+{"sql": ["2045"], "type": "TIME", "cleaned_nl": ["2045"]}
+{"sql": ["2100"], "type": "TIME", "cleaned_nl": ["21"]}
+{"sql": ["2100"], "type": "TIME", "cleaned_nl": ["2100"]}
+{"sql": ["2115"], "type": "TIME", "cleaned_nl": ["2115"]}
+{"sql": ["2130"], "type": "TIME", "cleaned_nl": ["2130"]}
+{"sql": ["2145"], "type": "TIME", "cleaned_nl": ["2145"]}
+{"sql": ["2200"], "type": "TIME", "cleaned_nl": ["22"]}
+{"sql": ["2200"], "type": "TIME", "cleaned_nl": ["2200"]}
+{"sql": ["2215"], "type": "TIME", "cleaned_nl": ["2215"]}
+{"sql": ["2230"], "type": "TIME", "cleaned_nl": ["2230"]}
+{"sql": ["2245"], "type": "TIME", "cleaned_nl": ["2245"]}
+{"sql": ["2300"], "type": "TIME", "cleaned_nl": ["23"]}
+{"sql": ["2300"], "type": "TIME", "cleaned_nl": ["2300"]}
+{"sql": ["2315"], "type": "TIME", "cleaned_nl": ["2315"]}
+{"sql": ["2330"], "type": "TIME", "cleaned_nl": ["2330"]}
+{"sql": ["2345"], "type": "TIME", "cleaned_nl": ["2345"]}
+{"sql": ["1200"], "type": "TIME", "cleaned_nl": ["noon"]}
+{"sql": ["'BREAKFAST'"], "type": "MEAL_DESCRIPTION", "cleaned_nl": ["breakfast"]}
+{"sql": ["'LUNCH'"], "type": "MEAL_DESCRIPTION", "cleaned_nl": ["lunch"]}
+{"sql": ["'DINNER'"], "type": "MEAL_DESCRIPTION", "cleaned_nl": ["dinner"]}
+{"sql": ["'SNACK'"], "type": "MEAL_DESCRIPTION", "cleaned_nl": ["snack"]}
+{"sql": ["'ATL'"], "type": "AIRPORT_CODE", "cleaned_nl": ["atl"]}
+{"sql": ["'ATL'"], "type": "AIRPORT_CODE", "cleaned_nl": ["atlanta", "airport"]}
+{"sql": ["'BNA'"], "type": "AIRPORT_CODE", "cleaned_nl": ["bna"]}
+{"sql": ["'BOS'"], "type": "AIRPORT_CODE", "cleaned_nl": ["bos"]}
+{"sql": ["'BOS'"], "type": "AIRPORT_CODE", "cleaned_nl": ["boston", "airport"]}
+{"sql": ["'BUR'"], "type": "AIRPORT_CODE", "cleaned_nl": ["bur"]}
+{"sql": ["'BWI'"], "type": "AIRPORT_CODE", "cleaned_nl": ["bwi"]}
+{"sql": ["'CLE'"], "type": "AIRPORT_CODE", "cleaned_nl": ["cle"]}
+{"sql": ["'CLT'"], "type": "AIRPORT_CODE", "cleaned_nl": ["clt"]}
+{"sql": ["'CMH'"], "type": "AIRPORT_CODE", "cleaned_nl": ["cmh"]}
+{"sql": ["'CVG'"], "type": "AIRPORT_CODE", "cleaned_nl": ["cvg"]}
+{"sql": ["'DAL'"], "type": "AIRPORT_CODE", "cleaned_nl": ["dal"]}
+{"sql": ["'DAL'"], "type": "AIRPORT_CODE", "cleaned_nl": ["love", "field"]}
+{"sql": ["'DCA'"], "type": "AIRPORT_CODE", "cleaned_nl": ["dca"]}
+{"sql": ["'DEN'"], "type": "AIRPORT_CODE", "cleaned_nl": ["den"]}
+{"sql": ["'DEN'"], "type": "AIRPORT_CODE", "cleaned_nl": ["denver", "airport"]}
+{"sql": ["'DET'"], "type": "AIRPORT_CODE", "cleaned_nl": ["det"]}
+{"sql": ["'DFW'"], "type": "AIRPORT_CODE", "cleaned_nl": ["dfw"]}
+{"sql": ["'DFW'"], "type": "AIRPORT_CODE", "cleaned_nl": ["dallas", "airport"]}
+{"sql": ["'DTW'"], "type": "AIRPORT_CODE", "cleaned_nl": ["dtw"]}
+{"sql": ["'EWR'"], "type": "AIRPORT_CODE", "cleaned_nl": ["ewr"]}
+{"sql": ["'HOU'"], "type": "AIRPORT_CODE", "cleaned_nl": ["hou"]}
+{"sql": ["'HPN'"], "type": "AIRPORT_CODE", "cleaned_nl": ["hpn"]}
+{"sql": ["'IAD'"], "type": "AIRPORT_CODE", "cleaned_nl": ["iad"]}
+{"sql": ["'IAH'"], "type": "AIRPORT_CODE", "cleaned_nl": ["iah"]}
+{"sql": ["'IAH'"], "type": "AIRPORT_CODE", "cleaned_nl": ["houston", "international"]}
+{"sql": ["'IAH'"], "type": "AIRPORT_CODE", "cleaned_nl": ["houston", "international", "airport"]}
+{"sql": ["'IAH'"], "type": "AIRPORT_CODE", "cleaned_nl": ["houston", "intercontinental", "airport"]}
+{"sql": ["'IND'"], "type": "AIRPORT_CODE", "cleaned_nl": ["ind"]}
+{"sql": ["'JFK'"], "type": "AIRPORT_CODE", "cleaned_nl": ["jfk"]}
+{"sql": ["'LAS'"], "type": "AIRPORT_CODE", "cleaned_nl": ["las"]}
+{"sql": ["'LAX'"], "type": "AIRPORT_CODE", "cleaned_nl": ["lax"]}
+{"sql": ["'LAX'"], "type": "AIRPORT_CODE", "cleaned_nl": ["los", "angeles", "international", "airport"]}
+{"sql": ["'LGA'"], "type": "AIRPORT_CODE", "cleaned_nl": ["lga"]}
+{"sql": ["'LGA'"], "type": "AIRPORT_CODE", "cleaned_nl": ["la", "guardia"]}
+{"sql": ["'LGB'"], "type": "AIRPORT_CODE", "cleaned_nl": ["lgb"]}
+{"sql": ["'MCI'"], "type": "AIRPORT_CODE", "cleaned_nl": ["mci"]}
+{"sql": ["'MCO'"], "type": "AIRPORT_CODE", "cleaned_nl": ["mco"]}
+{"sql": ["'MDW'"], "type": "AIRPORT_CODE", "cleaned_nl": ["mdw"]}
+{"sql": ["'MEM'"], "type": "AIRPORT_CODE", "cleaned_nl": ["mem"]}
+{"sql": ["'MIA'"], "type": "AIRPORT_CODE", "cleaned_nl": ["mia"]}
+{"sql": ["'MKE'"], "type": "AIRPORT_CODE", "cleaned_nl": ["mke"]}
+{"sql": ["'MKE'"], "type": "AIRPORT_CODE", "cleaned_nl": ["general", "mitchell", "airport"]}
+{"sql": ["'MSP'"], "type": "AIRPORT_CODE", "cleaned_nl": ["msp"]}
+{"sql": ["'OAK'"], "type": "AIRPORT_CODE", "cleaned_nl": ["oak"]}
+{"sql": ["'ONT'"], "type": "AIRPORT_CODE", "cleaned_nl": ["ont"]}
+{"sql": ["'ORD'"], "type": "AIRPORT_CODE", "cleaned_nl": ["ord"]}
+{"sql": ["'PHL'"], "type": "AIRPORT_CODE", "cleaned_nl": ["phl"]}
+{"sql": ["'PHX'"], "type": "AIRPORT_CODE", "cleaned_nl": ["phx"]}
+{"sql": ["'PIE'"], "type": "AIRPORT_CODE", "cleaned_nl": ["pie"]}
+{"sql": ["'PIT'"], "type": "AIRPORT_CODE", "cleaned_nl": ["pit"]}
+{"sql": ["'PIT'"], "type": "AIRPORT_CODE", "cleaned_nl": ["pittsburgh", "airport"]}
+{"sql": ["'SAN'"], "type": "AIRPORT_CODE", "cleaned_nl": ["san"]}
+{"sql": ["'SEA'"], "type": "AIRPORT_CODE", "cleaned_nl": ["sea"]}
+{"sql": ["'SFO'"], "type": "AIRPORT_CODE", "cleaned_nl": ["sfo"]}
+{"sql": ["'SFO'"], "type": "AIRPORT_CODE", "cleaned_nl": ["san", "francisco", "international"]}
+{"sql": ["'SFO'"], "type": "AIRPORT_CODE", "cleaned_nl": ["san", "francisco", "international", "airport"]}
+{"sql": ["'SJC'"], "type": "AIRPORT_CODE", "cleaned_nl": ["sjc"]}
+{"sql": ["'SLC'"], "type": "AIRPORT_CODE", "cleaned_nl": ["slc"]}
+{"sql": ["'STL'"], "type": "AIRPORT_CODE", "cleaned_nl": ["stl"]}
+{"sql": ["'TPA'"], "type": "AIRPORT_CODE", "cleaned_nl": ["tpa"]}
+{"sql": ["'YKZ'"], "type": "AIRPORT_CODE", "cleaned_nl": ["ykz"]}
+{"sql": ["'YMX'"], "type": "AIRPORT_CODE", "cleaned_nl": ["ymx"]}
+{"sql": ["'YTZ'"], "type": "AIRPORT_CODE", "cleaned_nl": ["ytz"]}
+{"sql": ["'YUL'"], "type": "AIRPORT_CODE", "cleaned_nl": ["yul"]}
+{"sql": ["'YYZ'"], "type": "AIRPORT_CODE", "cleaned_nl": ["yyz"]}
+{"sql": ["'72S'"], "type": "AIRCRAFT_CODE", "cleaned_nl": ["72s"]}
+{"sql": ["'734'"], "type": "AIRCRAFT_CODE", "cleaned_nl": ["734"]}
+{"sql": ["'M80'"], "type": "AIRCRAFT_CODE", "cleaned_nl": ["m80"]}
+{"sql": ["'D9S'"], "type": "AIRCRAFT_CODE", "cleaned_nl": ["d9s"]}
+{"cleaned_nl": ["ap/2"], "type": "RESTRICTION_CODE", "sql": ["'AP/2'"]}
+{"cleaned_nl": ["ap/6"], "type": "RESTRICTION_CODE", "sql": ["'AP/6'"]}
+{"cleaned_nl": ["ap/12"], "type": "RESTRICTION_CODE", "sql": ["'AP/12'"]}
+{"cleaned_nl": ["ap/20"], "type": "RESTRICTION_CODE", "sql": ["'AP/20'"]}
+{"cleaned_nl": ["ap/21"], "type": "RESTRICTION_CODE", "sql": ["'AP/21'"]}
+{"cleaned_nl": ["ap/57"], "type": "RESTRICTION_CODE", "sql": ["'AP/57'"]}
+{"cleaned_nl": ["ap", "57"], "type": "RESTRICTION_CODE", "sql": ["'AP/57'"]}
+{"cleaned_nl": ["ap/58"], "type": "RESTRICTION_CODE", "sql": ["'AP/58'"]}
+{"cleaned_nl": ["ap/60"], "type": "RESTRICTION_CODE", "sql": ["'AP/60'"]}
+{"cleaned_nl": ["ap/80"], "type": "RESTRICTION_CODE", "sql": ["'AP/80'"]}
+{"cleaned_nl": ["ap", "80"], "type": "RESTRICTION_CODE", "sql": ["'AP/80'"]}
+{"cleaned_nl": ["ap/75"], "type": "RESTRICTION_CODE", "sql": ["'AP/75'"]}
+{"cleaned_nl": ["ex/9"], "type": "RESTRICTION_CODE", "sql": ["'EX/9'"]}
+{"cleaned_nl": ["ex/13"], "type": "RESTRICTION_CODE", "sql": ["'EX/13'"]}
+{"cleaned_nl": ["ex/14"], "type": "RESTRICTION_CODE", "sql": ["'EX/14'"]}
+{"cleaned_nl": ["ex/17"], "type": "RESTRICTION_CODE", "sql": ["'EX/17'"]}
+{"cleaned_nl": ["ex/19"], "type": "RESTRICTION_CODE", "sql": ["'EX/19'"]}
