@@ -9,8 +9,6 @@
  |____/_/   \_\_|  |_|\___/   \____\___/|_| |_|\_/_/   \_\___|
                                                               </pre>
 
-
-
 ## 🔥 News
 
 - [**2022-07-01**]: We released the code for `Proton`. You can [check it out](examples/pretrain) and try code on text-to-SQL parser !
@@ -21,24 +19,22 @@
 - [**2020-12-01**]: We released the code for [`R²SQL`](https://arxiv.org/abs/2101.01686). You can [check it out](r2sql).
 - [**2020-11-11**]: [`R²SQL`](https://arxiv.org/abs/2101.01686) has been accepted by AAAI 2020, and it achieves the first rank on the SparC and CoSQL leaderboard !
 
-
-
 ## 📝 License
 
-DAMO-ConvAI is released under the [Apache 2.0 license](LICENSE).
+DAMO-ConvAI is released under the [MIT](LICENSE).
 
 ```
-Copyright 1999-2020 Alibaba Group Holding Ltd.
+MIT License
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at the following link.
+Copyright (c) 2022 Alibaba Research
 
-     http://www.apache.org/licenses/LICENSE-2.0
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 ```
