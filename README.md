@@ -1,6 +1,6 @@
 # DAMO ConvAI
 
-**DAMO ConvAI: The official repository which contains the code and models for Alibaba DAMO Conversational AI.**
+**DAMO ConvAI: The official repository which contains the codebase for Alibaba DAMO Conversational AI.**
 
 <pre id="taag_font_Standard" class="fig" contenteditable="true"><br class="Apple-interchange-newline"/>  ____    _    __  __  ___     ____                  _    ___ 
  |  _ \  / \  |  \/  |/ _ \   / ___|___  _ ____   __/ \  |_ _|
