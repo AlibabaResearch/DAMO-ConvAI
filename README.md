@@ -1,4 +1,5 @@
 # DAMO ConvAI
+[![Visitor](https://badges.toozhao.com/badges/01G82WSF6R69STRVVVAEQ15943/blue.svg)](https://badges.toozhao.com/stats/01G82WSF6R69STRVVVAEQ15943 "Get your own page views count badge on badges.toozhao.com")  ![GitHub](https://img.shields.io/github/license/AlibabaResearch/DAMO-ConvAI?style=flat-square)
 
 **DAMO ConvAI: The official repository which contains the codebase for Alibaba DAMO Conversational AI.**
 
@@ -11,13 +12,19 @@
 
 ## 🔥 News
 
-- [**2022-07-01**]: We released the code for `Proton`. You can [check it out](examples/pretrain) and try code on text-to-SQL parser !
 - [**2022-05-19**]: `Proton & Duplex Conversation` have been accepted by KDD 2022.
+- [**2022-05-19**]: `Duplex Conversation` have been accepted by KDD 2022.
 - [**2022-07-01**]: `SPACE 3.0` has been accepted by SIGIR 2022.
-- [**2022-02-28**]: [`S²SQL`](https://aclanthology.org/2022.findings-acl.99/) has been accepted by ACL 2022, and it achieves the first rank on the Spider leaderboard !
-- [**2021-11-11**]: `SPACE 1.0` has been accepted by AAAI 2021.
-- [**2020-12-01**]: We released the code for [`R²SQL`](https://arxiv.org/abs/2101.01686). You can [check it out](r2sql).
-- [**2020-11-11**]: [`R²SQL`](https://arxiv.org/abs/2101.01686) has been accepted by AAAI 2020, and it achieves the first rank on the SparC and CoSQL leaderboard !
+- [**2022-02-28**]: [`S²SQL`](https://aclanthology.org/2022.findings-acl.99/) has been accepted by ACL 2022, and it achieves the first rank on the [Spider](https://yale-lily.github.io/spider) leaderboard !
+- [**2021-11-11**]: `SPACE 1.0` has been accepted by AAAI 2022.
+- [**2020-11-11**]: [`R²SQL`](https://arxiv.org/abs/2101.01686) has been accepted by AAAI 2021, and it achieves the first rank on the [SparC](https://yale-lily.github.io/sparc) and [CoSQL](https://yale-lily.github.io/cosql) leaderboard !
+
+## 🦾 Code Release 
+
+### Text-to-SQL
+
+> [R²SQL: Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/r2sql) Binyuan Hui, Ruiying Geng, Qiyu Ren, Binhua Li, Yongbin Li, Jian Sun, Fei Huang, Luo Si, Pengfei Zhu, Xiaodan Zhu, AAAI 2021
+
 
 ## 📝 License
 
