@@ -23,9 +23,11 @@
 
 ### Text-to-SQL
 
-> [Proton: Probing Schema Linking Information from Pre-trained Language Models for Text-to-SQL Parsing](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/proton) Wang, Lihan and Qin, Bowen and Hui, Binyuan and Li, Bowen and Yang, Min and Wang, Bailin and Li, Binhua and Huang, Fei and Si, Luo and Li, Yongbin, KDD 2022
+> [Proton: Probing Schema Linking Information from Pre-trained Language Models for Text-to-SQL Parsing](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/proton) 
+Wang, Lihan and Qin, Bowen and Hui, Binyuan and Li, Bowen and Yang, Min and Wang, Bailin and Li, Binhua and Huang, Fei and Si, Luo and Li, Yongbin, KDD 2022
 
-> [R²SQL: Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/r2sql) Binyuan Hui, Ruiying Geng, Qiyu Ren, Binhua Li, Yongbin Li, Jian Sun, Fei Huang, Luo Si, Pengfei Zhu, Xiaodan Zhu, AAAI 2021
+> [R²SQL: Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/r2sql) 
+Binyuan Hui, Ruiying Geng, Qiyu Ren, Binhua Li, Yongbin Li, Jian Sun, Fei Huang, Luo Si, Pengfei Zhu, Xiaodan Zhu, AAAI 2021
 
 
 ## 📝 License
