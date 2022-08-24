@@ -21,17 +21,25 @@ conda activate modelscope
 pip install "modelscope[nlp]" -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
 ```
 
+<br>
+
 ## 下载预处理好数据
 
 就在放在git的根目录就行
 
 ```
+# 训练数据 + A榜数据集
+wget http://binhua-poc.oss-cn-beijing.aliyuncs.com/sqlova_data.zip -O sqlova_data.zip
 
-wget http://binhua-poc.oss-cn-beijing.aliyuncs.com/sqlova_data.zip
+# 训练数据 + A榜数据集 + B榜数据集
+# wget http://binhua-poc.oss-cn-beijing.aliyuncs.com/sqlova_data_testb.zip -O sqlova_data.zip
+# 让模型改为B榜数据集，需要修改train.py, 约797行, 将 mode = 'testa'，改为 mode = 'testb'
 
 unzip sqlova_data.zip
 
 ```
+
+<br>
 
 ## 模型训练
 

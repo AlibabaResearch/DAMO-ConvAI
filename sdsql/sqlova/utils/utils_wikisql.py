@@ -5,18 +5,14 @@
 
 import json
 from copy import deepcopy
-
 from matplotlib.pylab import *
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
 import os
-
 from .utils import generate_perm_inv
 from .utils import json_default_type_checker
-
 from sqlova.args import device
 
 # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -338,7 +334,7 @@ def get_wv1(conds):
     """
     wv1 = []
     for cond in conds:
-        wv1.append(cond[2])
+        wv1.append(cond[3])
     return wv1
 
 
@@ -1493,10 +1489,13 @@ def get_g_wvi_bert_from_g_wvi_corenlp(wh_to_wp_index, g_wvi_corenlp):
 
             st_idx, ed_idx = g_wvi_corenlp11
 
-            st_wp_idx = wh_to_wp_index1[st_idx]
-            ed_wp_idx = wh_to_wp_index1[ed_idx]
+            if st_idx == -100 and ed_idx == -100:
+                g_wvi11 = [0, 0]
+            else:
+                st_wp_idx = wh_to_wp_index1[st_idx]
+                ed_wp_idx = wh_to_wp_index1[ed_idx]
+                g_wvi11 = [st_wp_idx, ed_wp_idx]
 
-            g_wvi11 = [st_wp_idx, ed_wp_idx]
             g_wvi1.append(g_wvi11)
 
         g_wvi.append(g_wvi1)

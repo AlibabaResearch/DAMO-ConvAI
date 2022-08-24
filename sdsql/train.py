@@ -1,28 +1,16 @@
 # Apache License v2.0
-
 # Tong Guo
 # Sep30, 2019
+import os
 import argparse
 import logging
 import pathlib
 import tqdm
-
 import random as python_random
-# import torchvision.datasets as dsets
-
 # BERT
-# import bert.tokenization as tokenization
-# from bert.modeling import BertConfig, BertModel
 from transformers import AutoModel, AutoConfig, AutoTokenizer
 from modelscope.hub.snapshot_download import snapshot_download
-
-
-from sqlova.utils.utils import load_jsonl
 from sqlova.model.nl2sql.wikisql_models import *
-from sqlnet.dbengine import DBEngine
-from parser.parser_model import ParserModel
-from parser.parser_model import BiaffineParser
-import os
 from sqlova.args import *
 
 def construct_hyper_param(parser):
@@ -114,7 +102,6 @@ def construct_hyper_param(parser):
     if torch.cuda.is_available():
         torch.cuda.manual_seed_all(args.seed)
 
-    # args.toy_model = not torch.cuda.is_available()
     args.toy_model = False
     args.toy_size = 1000
 
@@ -233,9 +220,6 @@ def train(train_loader, train_table, model, model_bert, opt, bert_config, tokeni
     cnt_lx = 0  # of logical form acc
     cnt_x = 0  # of execution acc
 
-    # Engine for SQL querying.
-    engine = DBEngine(os.path.join(path_db, f"{dset_name}.db"))
-
     start_time = time.time()
     for iB, t in enumerate(train_loader):
 
@@ -247,7 +231,6 @@ def train(train_loader, train_table, model, model_bert, opt, bert_config, tokeni
             continue
 
         # Get fields
-        nlu, nlu_t, sql_i, sql_q, sql_t, tb, hs_t, hds = get_fields(t, train_table, no_hs_t=True, no_sql_t=True)
         # nlu  : natural language utterance
         # nlu_t: tokenized nlu
         # sql_i: canonical form of SQL query
@@ -255,30 +238,22 @@ def train(train_loader, train_table, model, model_bert, opt, bert_config, tokeni
         # sql_t: tokenized SQL query
         # tb   : table
         # hs_t : tokenized headers. Not used.
+        nlu, nlu_t, sql_i, sql_q, sql_t, tb, hs_t, hds = get_fields(t, train_table, no_hs_t=True, no_sql_t=True)
 
         g_sc, g_sa, g_wn, g_wc, g_wo, g_wv = get_g(sql_i)
         # get ground truth where-value index under CoreNLP tokenization scheme. It's done already on trainset.
         g_wvi_corenlp = get_g_wvi_corenlp(t)
-
-        wemb_n, wemb_h, l_n, l_hpu, l_hs, \
-        nlu_tt, t_to_tt_idx, tt_to_t_idx \
-            = get_wemb_bert(bert_config, model_bert, tokenizer, nlu_t, hds, max_seq_length,
-                            num_out_layers_n=num_target_layers, num_out_layers_h=num_target_layers)
 
         # wemb_n: natural language embedding
         # wemb_h: header embedding
         # l_n: token lengths of each question
         # l_hpu: header token lengths
         # l_hs: the number of columns (headers) of the tables.
-        try:
-            #
-            g_wvi = get_g_wvi_bert_from_g_wvi_corenlp(t_to_tt_idx, g_wvi_corenlp)
-        except:
-            # Exception happens when where-condition is not found in nlu_tt.
-            # In this case, that train example is not used.
-            # During test, that example considered as wrongly answered.
-            # e.g. train: 32.
-            continue
+        wemb_n, wemb_h, l_n, l_hpu, l_hs, nlu_tt, t_to_tt_idx, tt_to_t_idx = get_wemb_bert(
+            bert_config, model_bert, tokenizer, nlu_t, hds, max_seq_length,
+            num_out_layers_n=num_target_layers, num_out_layers_h=num_target_layers)
+
+        g_wvi = get_g_wvi_bert_from_g_wvi_corenlp(t_to_tt_idx, g_wvi_corenlp)
 
         knowledge = []
         for k in t:
@@ -297,10 +272,10 @@ def train(train_loader, train_table, model, model_bert, opt, bert_config, tokeni
                 knowledge_header.append(max(l_hs) * [0])
 
         # score
-        s_sc, s_sa, s_wn, s_wc, s_wo, s_wv = model(wemb_n, l_n, wemb_h, l_hpu, l_hs,
-                                                   g_sc=g_sc, g_sa=g_sa, g_wn=g_wn, g_wc=g_wc, g_wvi=g_wvi,
-                                                   knowledge = knowledge,
-                                                   knowledge_header = knowledge_header)
+        s_sc, s_sa, s_wn, s_wc, s_wo, s_wv = model(
+            wemb_n, l_n, wemb_h, l_hpu, l_hs,
+            g_sc=g_sc, g_sa=g_sa, g_wn=g_wn, g_wc=g_wc, g_wvi=g_wvi,
+            knowledge=knowledge, knowledge_header=knowledge_header)
 
         # Calculate loss & step
         loss = Loss_sw_se(s_sc, s_sa, s_wn, s_wc, s_wo, s_wv, g_sc, g_sa, g_wn, g_wc, g_wo, g_wvi)
@@ -346,16 +321,12 @@ def train(train_loader, train_table, model, model_bert, opt, bert_config, tokeni
                                                       sql_i, pr_sql_i,
                                                       mode='train')
 
+        # lx stands for logical form accuracy
         cnt_lx1_list = get_cnt_lx_list(cnt_sc1_list, cnt_sa1_list, cnt_wn1_list, cnt_wc1_list,
                                        cnt_wo1_list, cnt_wv1_list)
-        # lx stands for logical form accuracy
-
-        # Execution accuracy test.
-        # cnt_x1_list, g_ans, pr_ans = get_cnt_x_list(engine, tb, g_sc, g_sa, sql_i, pr_sc, pr_sa, pr_sql_i)
 
         # statistics
         ave_loss += loss.item()
-        # amr_loss += loss_amr.item()
         print(iB, "/", len(train_loader), "\tUsed time:", time.time() - start_time, "\tloss:", loss.item())
         logger.info('{TRAIN} [epoch=%d/%d] [batch=%d/%d] used time: %.4f, loss: %.4f' % (
             epochid, epoch_end, iB, len(train_loader), time.time() - start_time, loss.item()))
@@ -369,7 +340,6 @@ def train(train_loader, train_table, model, model_bert, opt, bert_config, tokeni
         cnt_wvi += sum(cnt_wvi1_list)
         cnt_wv += sum(cnt_wv1_list)
         cnt_lx += sum(cnt_lx1_list)
-        # cnt_x += sum(cnt_x1_list)
 
     ave_loss /= cnt
     acc_sc = cnt_sc / cnt
@@ -387,55 +357,6 @@ def train(train_loader, train_table, model, model_bert, opt, bert_config, tokeni
     aux_out = 1
 
     return acc, aux_out
-
-
-def report_detail(hds, nlu,
-                  g_sc, g_sa, g_wn, g_wc, g_wo, g_wv, g_wv_str, g_sql_q,
-                  pr_sc, pr_sa, pr_wn, pr_wc, pr_wo, pr_wv_str, pr_sql_q,
-                  cnt_list, current_cnt, logger=None, epochid=None, epoch_end=None):
-    cnt_tot, cnt, cnt_sc, cnt_sa, cnt_wn, cnt_wc, cnt_wo, cnt_wv, cnt_wvi, cnt_lx, cnt_x = current_cnt
-
-    print(f'cnt = {cnt} / {cnt_tot} ===============================')
-
-    print(f'headers: {hds}')
-    print(f'nlu: {nlu}')
-
-    # print(f's_sc: {s_sc[0]}')
-    # print(f's_sa: {s_sa[0]}')
-    # print(f's_wn: {s_wn[0]}')
-    # print(f's_wc: {s_wc[0]}')
-    # print(f's_wo: {s_wo[0]}')
-    # print(f's_wv: {s_wv[0][0]}')
-    print(f'===============================')
-    print(f'g_sc : {g_sc}')
-    print(f'pr_sc: {pr_sc}')
-    print(f'g_sa : {g_sa}')
-    print(f'pr_sa: {pr_sa}')
-    print(f'g_wn : {g_wn}')
-    print(f'pr_wn: {pr_wn}')
-    print(f'g_wc : {g_wc}')
-    print(f'pr_wc: {pr_wc}')
-    print(f'g_wo : {g_wo}')
-    print(f'pr_wo: {pr_wo}')
-    print(f'g_wv : {g_wv}')
-    # print(f'pr_wvi: {pr_wvi}')
-    print('g_wv_str:', g_wv_str)
-    print('p_wv_str:', pr_wv_str)
-    print(f'g_sql_q:  {g_sql_q}')
-    print(f'pr_sql_q: {pr_sql_q}')
-    print(f'--------------------------------')
-
-    print(cnt_list)
-
-    print(f'acc_lx = {cnt_lx / cnt:.3f}, acc_x = {cnt_x / cnt:.3f}\n',
-          f'acc_sc = {cnt_sc / cnt:.3f}, acc_sa = {cnt_sa / cnt:.3f}, acc_wn = {cnt_wn / cnt:.3f}\n',
-          f'acc_wc = {cnt_wc / cnt:.3f}, acc_wo = {cnt_wo / cnt:.3f}, acc_wv = {cnt_wv / cnt:.3f}')
-    print(f'===============================')
-
-    logger.info('{DEV} [epoch=%d/%d] acc lx: %.4f, acc sc: %.4f, acc sa: %.4f, '
-        'acc wn: %.4f, acc wc: %.4f, acc wo: %.4f, acc_wv: %.4f' % (
-        epochid, epoch_end, 1.0 * cnt_lx / cnt, 1.0 * cnt_sc / cnt, 1.0 * cnt_sa / cnt, 
-        1.0 * cnt_wn / cnt, 1.0 * cnt_wc / cnt, 1.0 * cnt_wo / cnt, 1.0 * cnt_wv / cnt))
 
 
 def test(data_loader, data_table, model, model_bert, bert_config, tokenizer,
@@ -458,7 +379,6 @@ def test(data_loader, data_table, model, model_bert, bert_config, tokenizer,
 
     cnt_list = []
 
-    engine = DBEngine(os.path.join(path_db, f"{dset_name}.db"))
     results = []
     for iB, t in tqdm.tqdm(list(enumerate(data_loader))):
 
@@ -471,14 +391,9 @@ def test(data_loader, data_table, model, model_bert, bert_config, tokenizer,
         g_sc, g_sa, g_wn, g_wc, g_wo, g_wv = get_g(sql_i)
         g_wvi_corenlp = get_g_wvi_corenlp(t)
 
-        wemb_n, wemb_h, l_n, l_hpu, l_hs, \
-        nlu_tt, t_to_tt_idx, tt_to_t_idx \
-            = get_wemb_bert(bert_config, model_bert, tokenizer, nlu_t, hds, max_seq_length,
-                            num_out_layers_n=num_target_layers, num_out_layers_h=num_target_layers)
-
-        # heads, deps, part_masks = get_amr_infos(t, l_n, l_hs)
-        # arc_logit, rel_logit_cond, l_n_amr = model_amr.forward(wemb_n, l_n, wemb_h, l_hpu, l_hs)
-        # loss_amr = model_amr.compute_loss(heads, deps, l_n_amr, part_masks)
+        wemb_n, wemb_h, l_n, l_hpu, l_hs, nlu_tt, t_to_tt_idx, tt_to_t_idx = get_wemb_bert(
+            bert_config, model_bert, tokenizer, nlu_t, hds, max_seq_length,
+            num_out_layers_n=num_target_layers, num_out_layers_h=num_target_layers)
 
         try:
             g_wvi = get_g_wvi_bert_from_g_wvi_corenlp(t_to_tt_idx, g_wvi_corenlp)
@@ -525,7 +440,6 @@ def test(data_loader, data_table, model, model_bert, bert_config, tokenizer,
         # prediction
         pr_sc, pr_sa, pr_wn, pr_wc, pr_wo, pr_wvi = pred_sw_se(s_sc, s_sa, s_wn, s_wc, s_wo, s_wv, )
         pr_wv_str, pr_wv_str_wp = convert_pr_wvi_to_string(pr_wvi, nlu_t, nlu_tt, tt_to_t_idx, nlu)
-        # g_sql_i = generate_sql_i(g_sc, g_sa, g_wn, g_wc, g_wo, g_wv_str, nlu)
         pr_sql_i = generate_sql_i(pr_sc, pr_sa, pr_wn, pr_wc, pr_wo, pr_wv_str, nlu)
 
         g_sql_q = generate_sql_q(sql_i, tb)
@@ -539,22 +453,13 @@ def test(data_loader, data_table, model, model_bert, bert_config, tokenizer,
             results1["nlu"] = nlu[b]
             results.append(results1)
 
-        cnt_sc1_list, cnt_sa1_list, cnt_wn1_list, \
-        cnt_wc1_list, cnt_wo1_list, \
-        cnt_wvi1_list, cnt_wv1_list = get_cnt_sw_list(g_sc, g_sa, g_wn, g_wc, g_wo, g_wvi,
-                                                      pr_sc, pr_sa, pr_wn, pr_wc, pr_wo, pr_wvi,
-                                                      sql_i, pr_sql_i,
-                                                      mode='test')
+        cnt_sc1_list, cnt_sa1_list, cnt_wn1_list, cnt_wc1_list, cnt_wo1_list, cnt_wvi1_list, cnt_wv1_list = \
+            get_cnt_sw_list(g_sc, g_sa, g_wn, g_wc, g_wo, g_wvi,
+                pr_sc, pr_sa, pr_wn, pr_wc, pr_wo, pr_wvi,
+                sql_i, pr_sql_i, mode='test')
 
         cnt_lx1_list = get_cnt_lx_list(cnt_sc1_list, cnt_sa1_list, cnt_wn1_list, cnt_wc1_list,
                                        cnt_wo1_list, cnt_wv1_list)
-
-        # Execution accura y test
-        # cnt_x1_list = []
-        # lx stands for logical form accuracy
-
-        # Execution accuracy test.
-        # cnt_x1_list, g_ans, pr_ans = get_cnt_x_list(engine, tb, g_sc, g_sa, sql_i, pr_sc, pr_sa, pr_sql_i)
 
         # stat
         ave_loss += loss.item()
@@ -568,17 +473,10 @@ def test(data_loader, data_table, model, model_bert, bert_config, tokenizer,
         cnt_wv += sum(cnt_wv1_list)
         cnt_wvi += sum(cnt_wvi1_list)
         cnt_lx += sum(cnt_lx1_list)
-        # cnt_x += sum(cnt_x1_list)
 
         current_cnt = [cnt_tot, cnt, cnt_sc, cnt_sa, cnt_wn, cnt_wc, cnt_wo, cnt_wv, cnt_wvi, cnt_lx, cnt_x]
         cnt_list1 = [cnt_sc1_list, cnt_sa1_list, cnt_wn1_list, cnt_wc1_list, cnt_wo1_list, cnt_wv1_list, cnt_lx1_list,]
         cnt_list.append(cnt_list1)
-        # report
-        if detail:
-            report_detail(hds, nlu,
-                          g_sc, g_sa, g_wn, g_wc, g_wo, g_wv, g_wv_str, g_sql_q,
-                          pr_sc, pr_sa, pr_wn, pr_wc, pr_wo, pr_wv_str, pr_sql_q,
-                          cnt_list1, current_cnt, logger=logger, epochid=epochid, epoch_end=epoch_end)
 
     ave_loss /= cnt
     acc_sc = cnt_sc / cnt
@@ -611,70 +509,6 @@ def tokenize_corenlp_direct_version(client, nlu1):
     return nlu1_tok
 
 
-def infer(nlu1,
-          table_name, data_table, path_db, db_name,
-          model, model_bert, bert_config, max_seq_length, num_target_layers,
-          beam_size=4, show_table=False, show_answer_only=False):
-    # I know it is of against the DRY principle but to minimize the risk of introducing bug w, the infer function introuced.
-    model.eval()
-    model_bert.eval()
-    engine = DBEngine(os.path.join(path_db, f"{db_name}.db"))
-
-    # Get inputs
-    nlu = [nlu1]
-    # nlu_t1 = tokenize_corenlp(client, nlu1)
-    nlu_t1 = tokenize_corenlp_direct_version(client, nlu1)
-    nlu_t = [nlu_t1]
-
-    tb1 = data_table[0]
-    hds1 = tb1['header']
-    tb = [tb1]
-    hds = [hds1]
-    hs_t = [[]]
-
-    wemb_n, wemb_h, l_n, l_hpu, l_hs, \
-    nlu_tt, t_to_tt_idx, tt_to_t_idx \
-        = get_wemb_bert(bert_config, model_bert, tokenizer, nlu_t, hds, max_seq_length,
-                        num_out_layers_n=num_target_layers, num_out_layers_h=num_target_layers)
-
-    prob_sca, prob_w, prob_wn_w, pr_sc, pr_sa, pr_wn, pr_sql_i = model.beam_forward(wemb_n, l_n, wemb_h, l_hpu,
-                                                                                    l_hs, engine, tb,
-                                                                                    nlu_t, nlu_tt,
-                                                                                    tt_to_t_idx, nlu,
-                                                                                    beam_size=beam_size)
-
-    # sort and generate
-    pr_wc, pr_wo, pr_wv, pr_sql_i = sort_and_generate_pr_w(pr_sql_i)
-    if len(pr_sql_i) != 1:
-        raise EnvironmentError
-    pr_sql_q1 = generate_sql_q(pr_sql_i, [tb1])
-    pr_sql_q = [pr_sql_q1]
-
-    try:
-        pr_ans, _ = engine.execute_return_query(tb[0]['id'], pr_sc[0], pr_sa[0], pr_sql_i[0]['conds'])
-    except:
-        pr_ans = ['Answer not found.']
-        pr_sql_q = ['Answer not found.']
-
-    if show_answer_only:
-        print(f'Q: {nlu[0]}')
-        print(f'A: {pr_ans[0]}')
-        print(f'SQL: {pr_sql_q}')
-
-    else:
-        print(f'START ============================================================= ')
-        print(f'{hds}')
-        if show_table:
-            print(engine.show_table(table_name))
-        print(f'nlu: {nlu}')
-        print(f'pr_sql_i : {pr_sql_i}')
-        print(f'pr_sql_q : {pr_sql_q}')
-        print(f'pr_ans: {pr_ans}')
-        print(f'---------------------------------------------------------------------')
-
-    return pr_sql_i, pr_ans
-
-
 def print_result(epoch, acc, dname, epoch_end=0, logger=None):
     ave_loss, acc_sc, acc_sa, acc_wn, acc_wc, acc_wo, acc_wvi, acc_wv, acc_lx, acc_x = acc
 
@@ -690,10 +524,6 @@ def print_result(epoch, acc, dname, epoch_end=0, logger=None):
 
 
 def infer_get_data(path_wikisql, mode, args):
-    # train_data, train_table, dev_data, dev_table, _, _ = load_wikisql(path_wikisql, args.toy_model, args.toy_size,
-    #                                                                  no_w2i=True, no_hs_tok=True)
-    # train_loader, dev_loader = get_loader_wikisql(train_data, dev_data, args.bS, shuffle_train=True)
-
     path_sql = os.path.join(path_wikisql, mode + '_tok.json')
     path_table = os.path.join(path_wikisql, 'table.json')
     print("load path_sql: ", path_sql)
@@ -770,12 +600,8 @@ def infer_test(data_loader, data_table, model, model_bert, bert_config, tokenize
             l_hpu_new += l_hpu[sum_l_h: sum_l_h + l_h - 1]
             select_idx += range(sum_l_h, sum_l_h + l_h - 1, 1)
             sum_l_h += l_h
-        # print(l_hs_new, l_hpu_new, select_idx, wemb_h.shape[2])
-        # l_hpu_max = max(l_hpu_new)
-        # num_of_all_hds = sum(l_hs_new)
-        # wemb_h_new = torch.zeros([num_of_all_hds, l_hpu_max, wemb_h.shape[2]]).to(device)
+            
         wemb_h_new = torch.index_select(wemb_h, 0, torch.tensor(select_idx).to(device))
-        # print(wemb_h_new.shape)
 
         # model specific part
         # score
@@ -786,9 +612,7 @@ def infer_test(data_loader, data_table, model, model_bert, bert_config, tokenize
 
         # prediction
         pr_sc, pr_sa, pr_wn, pr_wc, pr_wo, pr_wvi = pred_sw_se(s_sc, s_sa, s_wn, s_wc, s_wo, s_wv, )
-        # pr_wv_str = convert_string(pr_wvi, nlu, nlu_t)
         pr_wv_str, pr_wv_str_wp = convert_pr_wvi_to_string(pr_wvi, nlu_t, nlu_tt, tt_to_t_idx, nlu)
-        # g_sql_i = generate_sql_i(g_sc, g_sa, g_wn, g_wc, g_wo, g_wv_str, nlu)
         pr_sql_i = generate_sql_i(pr_sc, pr_sa, pr_wn, pr_wc, pr_wo, pr_wv_str, nlu)
         pr_sql_q = generate_sql_q(pr_sql_i, tb)
 
@@ -856,7 +680,6 @@ def convert_string(pr_wvi, nlu, nlu_tt):
                 idx += 1
             else:
                 convflag = False
-        # print(conv_dict)
 
         conv = []
         if convflag:
@@ -887,9 +710,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     args = construct_hyper_param(parser)
 
-
     # 第一个参数是我们的模型id，第二个参数./model是下载模型的目标路径
     model_dir = snapshot_download('damo/nlp_convai_text2sql_pretrain_cn', cache_dir='./star3_tiny_model')
+    args.bert_path = model_dir
 
     # 配置logger
     output_log_dir = os.path.join(args.output_dir, args.run_name)
@@ -972,13 +795,12 @@ if __name__ == '__main__':
     if bool(args.do_infer):
         ## 2. Paths
         mode = 'testa'
-        # path_wikisql = './newdata'  # os.path.join(path_h, 'data', 'wikisql_tok')
-        path_wikisql = args.data_dir  # os.path.join(path_h, 'data', 'wikisql_tok')
+        path_wikisql = args.data_dir
         BERT_PT_PATH = path_wikisql
 
         dev_table, data_dev, dev_loader = infer_get_data(path_wikisql, mode, args)
-        path_model_bert = os.path.join(args.output_dir, args.run_name, str(args.test_epoch)+'_model_bert_best.bin')
-        path_model = os.path.join(args.output_dir, args.run_name, str(args.test_epoch)+'_model_best.bin')
+        path_model_bert = os.path.join(args.output_dir, args.run_name, str(args.test_epoch) + '_model_bert_best.bin')
+        path_model = os.path.join(args.output_dir, args.run_name, str(args.test_epoch) + '_model_best.bin')
         model, model_bert, tokenizer, bert_config = get_models(
             args, BERT_PT_PATH, trained=True,
             path_model_bert=path_model_bert,
