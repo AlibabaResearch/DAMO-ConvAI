@@ -796,7 +796,7 @@ class KvretBPETextField(BPETextField):
         self.wn = WordNetLemmatizer()
 
         # extra part
-        self.dataset_path = 'data/kvret'
+        self.dataset_path = os.path.join(self.data_root, f'data/kvret')
         self.raw_data_path = {
             'train': os.path.join(self.dataset_path, 'kvret_train_public.json'),
             'dev': os.path.join(self.dataset_path, 'kvret_dev_public.json'),
@@ -1232,7 +1232,7 @@ class CamRestBPETextField(BPETextField):
         self.wn = WordNetLemmatizer()
 
         # extra part
-        self.dataset_path = 'data/camrest'
+        self.dataset_path = os.path.join(self.data_root, f'data/camrest')
         self.raw_data_path = os.path.join(self.dataset_path, 'CamRest676.json')
         self.data_path = os.path.join(self.dataset_path, 'CamRest676_preprocessed_add_request_47.json')
 
