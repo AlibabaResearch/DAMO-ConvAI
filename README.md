@@ -1,4 +1,5 @@
 # DAMO ConvAI
+
 [![Visitor](https://badges.toozhao.com/badges/01G82WSF6R69STRVVVAEQ15943/blue.svg)](https://badges.toozhao.com/stats/01G82WSF6R69STRVVVAEQ15943 "Get your own page views count badge on badges.toozhao.com")  ![GitHub](https://img.shields.io/github/license/AlibabaResearch/DAMO-ConvAI?style=flat-square)
 
 **DAMO ConvAI: The official repository which contains the codebase for Alibaba DAMO Conversational AI.**
@@ -12,23 +13,21 @@
 
 ## 🔥 News
 
-- [**2022-05-19**]: `Proton` has been accepted by KDD 2022.
-- [**2022-05-19**]: `Duplex Conversation` has been accepted by KDD 2022.
+- [**2022-05-19**]: Two paper has been accepted by KDD 2022.
 - [**2022-07-01**]: `SPACE 3.0` has been accepted by SIGIR 2022.
 - [**2022-02-28**]: [`S²SQL`](https://aclanthology.org/2022.findings-acl.99/) has been accepted by ACL 2022, and it achieves the first rank on the [Spider](https://yale-lily.github.io/spider) leaderboard !
 - [**2021-11-11**]: `SPACE 1.0` has been accepted by AAAI 2022.
 - [**2020-11-11**]: [`R²SQL`](https://arxiv.org/abs/2101.01686) has been accepted by AAAI 2021, and it achieves the first rank on the [SparC](https://yale-lily.github.io/sparc) and [CoSQL](https://yale-lily.github.io/cosql) leaderboard !
 
-## 🦾 Code Release 
+## 🦾 Code Release
 
 ### Text-to-SQL
 
-> [Proton: Probing Schema Linking Information from Pre-trained Language Models for Text-to-SQL Parsing](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/proton) 
-Wang, Lihan and Qin, Bowen and Hui, Binyuan and Li, Bowen and Yang, Min and Wang, Bailin and Li, Binhua and Huang, Fei and Si, Luo and Li, Yongbin, KDD 2022
+> [Proton: Probing Schema Linking Information from Pre-trained Language Models for Text-to-SQL Parsing](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/proton)
+> Wang, Lihan and Qin, Bowen and Hui, Binyuan and Li, Bowen and Yang, Min and Wang, Bailin and Li, Binhua and Huang, Fei and Si, Luo and Li, Yongbin, KDD 2022
 
-> [R²SQL: Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/r2sql) 
-Binyuan Hui, Ruiying Geng, Qiyu Ren, Binhua Li, Yongbin Li, Jian Sun, Fei Huang, Luo Si, Pengfei Zhu, Xiaodan Zhu, AAAI 2021
-
+> [R²SQL: Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/r2sql)
+> Binyuan Hui, Ruiying Geng, Qiyu Ren, Binhua Li, Yongbin Li, Jian Sun, Fei Huang, Luo Si, Pengfei Zhu, Xiaodan Zhu, AAAI 2021
 
 ## 📝 License
 
