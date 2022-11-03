@@ -13,6 +13,7 @@
 
 ## 🔥 News
 
+- [**2022-10-06**]: Ten paper has been accepted by EMNLP 2022 !
 - [**2022-05-19**]: Two paper has been accepted by KDD 2022.
 - [**2022-07-01**]: `SPACE 3.0` has been accepted by SIGIR 2022.
 - [**2022-02-28**]: [`S²SQL`](https://aclanthology.org/2022.findings-acl.99/) has been accepted by ACL 2022, and it achieves the first rank on the [Spider](https://yale-lily.github.io/spider) leaderboard !
