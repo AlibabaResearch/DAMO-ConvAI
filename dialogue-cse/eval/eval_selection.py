@@ -104,7 +104,7 @@ class RetrieverEmbed:
         for line in codecs.open(file, "r", "utf-8"):
             arr = line.strip("\n").split("\t")
             v = np.array([float(_) for _ in arr[2].split(",")], dtype=np.float32)
-            text_list.append(arr[0])
+            text_list.append(arr[0].strip())
             vec_list.append(v)
         o.build_index(text_list, vec_list)
         return o
@@ -198,6 +198,7 @@ def main():
         for line in codecs.open(selection_file, "r", "utf-8"):
             arr = line.strip("\n").split("\t")
             qid, q, _, p_ids, n_ids = arr
+            q = q.strip()
             assert qid not in id2text, "重复qid"
             id2text[qid] = q
             text2id[q] = qid
