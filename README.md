@@ -13,6 +13,7 @@
 
 ## 🔥 News
 
+- [**2022-11-14**]: 🏆 Achieved the 1st rank on DSTC11-SIMMC track !
 - [**2022-10-06**]: Ten paper has been accepted by EMNLP 2022 !
 - [**2022-05-19**]: Two paper has been accepted by KDD 2022.
 - [**2022-07-01**]: `SPACE 3.0` has been accepted by SIGIR 2022.
