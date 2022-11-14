@@ -1,0 +1,32 @@
+Raw = 'raw'
+Preprocess = 'preprocess'
+Trainjson = 'train.json'
+Devjson = 'dev.json'
+Testjson = 'test.json'
+Outofdomainjson = 'out_of_domain.json'
+Mutationjson = "mutation.json"
+alpha = 0.5
+beta = 0.5
+gamma = 0.6
+theta = 0.15
+omega = 0.2
+swap_dict = {}
+swap_dict["algr_op_dict"] = ['/', '%', '+', '-']
+swap_dict["binary_op_dict"] = [ '>', '<', '=', '>=', '<=', '!=', '']
+swap_dict["logic_binary_op_dict"] = ['OR', 'AND']
+swap_dict["func_dict_upper"] = ['AVG', 'COUNT', 'MAX', 'MIN', 'SUM', '']
+swap_dict["between_dict"] = ['BETWEEN', 'NOT BETWEEN']
+swap_dict["no_dict"] = ['NOT', '']
+swap_dict["no_op_dict"] = ['!', '']
+swap_dict["like_dict"] = ['LIKE', 'NOT LIKE']
+swap_dict["dist_dict"] =['DISTINCT','']
+swap_dict["order_dict"] =['ASC', 'DESC','']
+swap_dict["union_dict"] = ['UNION','INTERSECT','EXCEPT','EXISTS', 'NOT EXISTS','IN','NOT IN']
+mutate_iter_num = 500
+
+Spider_train = 'train_spider.json'
+Spider_others = 'train_others.json'
+Spider_dev = 'dev.json'
+Spider_query = 'query'
+Spider_database = "database"
+Spider_table = "tables.json"

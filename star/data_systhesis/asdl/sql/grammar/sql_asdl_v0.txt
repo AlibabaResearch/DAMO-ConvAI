@@ -1,0 +1,103 @@
+# Assumptions:
+# 1. sql is correct
+# 2. only table name has alias
+# 3. only one intersect/union/except
+
+# val: value(float/string)/sql(dict)/col_unit(tuple)
+# col_unit: (agg_id, col_id, isDistinct(bool))
+# val_unit: (unit_op, col_unit1, col_unit2)
+# table_unit: (table_type, tab_id/sql)
+# cond_unit: (not_op(bool), cmp_op, val_unit, val1, val2)
+# condition: [cond_unit1, 'and'/'or', cond_unit2, ...]
+# sql {
+#   'select': (isDistinct(bool), [(agg_id, val_unit), (agg_id, val_unit), ...])
+#   'from': {'table_units': [table_unit1, table_unit2, ...], 'conds': condition}
+#   'where': condition
+#   'groupBy': [col_unit1, col_unit2, ...]
+#   'orderBy': ('asc'/'desc', [val_unit1, val_unit2, ...])
+#   'having': condition
+#   'limit': None/integer
+#   'intersect': None/sql
+#   'except': None/sql
+#   'union': None/sql
+# }
+
+# CLAUSE_KEYWORDS = ('select', 'from', 'where', 'group', 'order', 'limit', 'intersect', 'union', 'except')
+# JOIN_KEYWORDS = ('join', 'on', 'as')
+# CMP_OPS = ('not', 'between', '=', '>', '<', '>=', '<=', '!=', 'in', 'like', 'is', 'exists') 
+# UNIT_OPS = ('none', '-', '+', "*", '/')
+# AGG_OPS = ('none', 'max', 'min', 'count', 'sum', 'avg')
+# TABLE_TYPE = ('sql', 'table_unit')
+# COND_OPS = ('and', 'or')
+# SQL_OPS = ('intersect', 'union', 'except')
+# ORDER_OPS = ('desc', 'asc')
+
+##########################################################################
+
+# 1. eliminate ? by enumerating different number of items
+# 2. from conds, distinct and value generation are also not considered
+# 3. for select items, we use val_unit instead of (agg, val_unit)
+# 4. for orderby items, we use col_unit instead of val_unit
+# 5. for groupby items, we use col_unit instead of col_id
+# 6. predict from clause first, to obtain an overview of the entire query graph
+
+col_id, tab_id
+
+sql = Intersect(sql_unit sql_unit, sql_unit sql_unit)
+        | Union(sql_unit sql_unit, sql_unit sql_unit)
+        | Except(sql_unit sql_unit, sql_unit sql_unit)
+        | Single(sql_unit sql_unit)
+
+sql_unit = Complete(from from_clause, val_unit* select_clause, cond where_clause, group_by group_by_clause, order_by order_by_clause)
+        | NoWhere(from from_clause, val_unit* select_clause, group_by group_by_clause, order_by order_by_clause)
+        | NoGroupBy(from from_clause, val_unit* select_clause, cond where_clause, order_by order_by_clause)
+        | NoOrderBy(from from_clause, val_unit* select_clause, cond where_clause, group_by group_by_clause)
+        | OnlyWhere(from from_clause, val_unit* select_clause, cond where_clause)
+        | OnlyGroupBy(from from_clause, val_unit* select_clause, group_by group_by_clause)
+        | OnlyOrderBy(from from_clause, val_unit* select_clause, order_by order_by_clause)
+        | Simple(from from_clause, val_unit* select_clause)
+
+from = FromTable(tab_id* tab_id_list)
+        | FromSQL(sql from_sql)
+
+group_by = Having(col_unit* col_unit_list, cond having_clause)
+        | NoHaving(col_unit* col_unit_list)
+
+order_by = Asc(col_unit* col_unit_list)
+        | Desc(col_unit* col_unit_list)
+        | AscLimit(col_unit* col_unit_list)
+        | DescLimit(col_unit* col_unit_list)
+
+cond = And(cond left, cond right)
+        | Or(cond left, cond right)
+        | Between(val_unit val_unit)
+        | Eq(val_unit val_unit)
+        | Gt(val_unit val_unit)
+        | Lt(val_unit val_unit)
+        | Ge(val_unit val_unit)
+        | Le(val_unit val_unit)
+        | Neq(val_unit val_unit)
+        | Like(val_unit val_unit)
+        | NotLike(val_unit val_unit)
+        | BetweenSQL(val_unit val_unit, sql cond_sql)
+        | EqSQL(val_unit val_unit, sql cond_sql)
+        | GtSQL(val_unit val_unit, sql cond_sql)
+        | LtSQL(val_unit val_unit, sql cond_sql)
+        | GeSQL(val_unit val_unit, sql cond_sql)
+        | LeSQL(val_unit val_unit, sql cond_sql)
+        | NeqSQL(val_unit val_unit, sql cond_sql)
+        | InSQL(val_unit val_unit, sql cond_sql)
+        | NotInSQL(val_unit val_unit, sql cond_sql)
+
+val_unit = Unary(col_unit col_unit)
+        | Minus(col_unit col_unit, col_unit col_unit)
+        | Plus(col_unit col_unit, col_unit col_unit)
+        | Times(col_unit col_unit, col_unit col_unit)
+        | Divide(col_unit col_unit, col_unit col_unit)
+
+col_unit = None(col_id col_id)
+        | Max(col_id col_id)
+        | Min(col_id col_id)
+        | Count(col_id col_id)
+        | Sum(col_id col_id)
+        | Avg(col_id col_id)

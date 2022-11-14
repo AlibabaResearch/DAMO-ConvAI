@@ -1,0 +1,7184 @@
+[
+    {
+        "db_id": "department_management",
+        "query": "SELECT count(*) FROM head WHERE age  >  56",
+        "query_toks": [
+            "SELECT",
+            "count",
+            "(",
+            "*",
+            ")",
+            "FROM",
+            "head",
+            "WHERE",
+            "age",
+            ">",
+            "56"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "count",
+            "(",
+            "*",
+            ")",
+            "from",
+            "head",
+            "where",
+            "age",
+            ">",
+            "value"
+        ],
+        "question": "How many heads of the departments are older than 56 ?",
+        "question_toks": [
+            "How",
+            "many",
+            "heads",
+            "of",
+            "the",
+            "departments",
+            "are",
+            "older",
+            "than",
+            "56",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        1
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        3,
+                        [
+                            0,
+                            [
+                                0,
+                                0,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    3,
+                    [
+                        0,
+                        [
+                            0,
+                            10,
+                            false
+                        ],
+                        null
+                    ],
+                    56.0,
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "department_management",
+        "query": "SELECT name ,  born_state ,  age FROM head ORDER BY age",
+        "query_toks": [
+            "SELECT",
+            "name",
+            ",",
+            "born_state",
+            ",",
+            "age",
+            "FROM",
+            "head",
+            "ORDER",
+            "BY",
+            "age"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "name",
+            ",",
+            "born_state",
+            ",",
+            "age",
+            "from",
+            "head",
+            "order",
+            "by",
+            "age"
+        ],
+        "question": "List the name, born state and age of the heads of departments ordered by age.",
+        "question_toks": [
+            "List",
+            "the",
+            "name",
+            ",",
+            "born",
+            "state",
+            "and",
+            "age",
+            "of",
+            "the",
+            "heads",
+            "of",
+            "departments",
+            "ordered",
+            "by",
+            "age",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        1
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [
+                "asc",
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            10,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                8,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                9,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                10,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "department_management",
+        "query": "SELECT creation ,  name ,  budget_in_billions FROM department",
+        "query_toks": [
+            "SELECT",
+            "creation",
+            ",",
+            "name",
+            ",",
+            "budget_in_billions",
+            "FROM",
+            "department"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "creation",
+            ",",
+            "name",
+            ",",
+            "budget_in_billions",
+            "from",
+            "department"
+        ],
+        "question": "List the creation year, name and budget of each department.",
+        "question_toks": [
+            "List",
+            "the",
+            "creation",
+            "year",
+            ",",
+            "name",
+            "and",
+            "budget",
+            "of",
+            "each",
+            "department",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                3,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                2,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                5,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "department_management",
+        "query": "SELECT max(budget_in_billions) ,  min(budget_in_billions) FROM department",
+        "query_toks": [
+            "SELECT",
+            "max",
+            "(",
+            "budget_in_billions",
+            ")",
+            ",",
+            "min",
+            "(",
+            "budget_in_billions",
+            ")",
+            "FROM",
+            "department"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "max",
+            "(",
+            "budget_in_billions",
+            ")",
+            ",",
+            "min",
+            "(",
+            "budget_in_billions",
+            ")",
+            "from",
+            "department"
+        ],
+        "question": "What are the maximum and minimum budget of the departments?",
+        "question_toks": [
+            "What",
+            "are",
+            "the",
+            "maximum",
+            "and",
+            "minimum",
+            "budget",
+            "of",
+            "the",
+            "departments",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        1,
+                        [
+                            0,
+                            [
+                                0,
+                                5,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    [
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                5,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "department_management",
+        "query": "SELECT avg(num_employees) FROM department WHERE ranking BETWEEN 10 AND 15",
+        "query_toks": [
+            "SELECT",
+            "avg",
+            "(",
+            "num_employees",
+            ")",
+            "FROM",
+            "department",
+            "WHERE",
+            "ranking",
+            "BETWEEN",
+            "10",
+            "AND",
+            "15"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "avg",
+            "(",
+            "num_employees",
+            ")",
+            "from",
+            "department",
+            "where",
+            "ranking",
+            "between",
+            "value",
+            "and",
+            "value"
+        ],
+        "question": "What is the average number of employees of the departments whose rank is between 10 and 15?",
+        "question_toks": [
+            "What",
+            "is",
+            "the",
+            "average",
+            "number",
+            "of",
+            "employees",
+            "of",
+            "the",
+            "departments",
+            "whose",
+            "rank",
+            "is",
+            "between",
+            "10",
+            "and",
+            "15",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        5,
+                        [
+                            0,
+                            [
+                                0,
+                                6,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    1,
+                    [
+                        0,
+                        [
+                            0,
+                            4,
+                            false
+                        ],
+                        null
+                    ],
+                    10.0,
+                    15.0
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "department_management",
+        "query": "SELECT name FROM head WHERE born_state != 'California'",
+        "query_toks": [
+            "SELECT",
+            "name",
+            "FROM",
+            "head",
+            "WHERE",
+            "born_state",
+            "!",
+            "=",
+            "'California",
+            "'"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "name",
+            "from",
+            "head",
+            "where",
+            "born_state",
+            "!",
+            "=",
+            "value"
+        ],
+        "question": "What are the names of the heads who are born outside the California state?",
+        "question_toks": [
+            "What",
+            "are",
+            "the",
+            "names",
+            "of",
+            "the",
+            "heads",
+            "who",
+            "are",
+            "born",
+            "outside",
+            "the",
+            "California",
+            "state",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        1
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                8,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    7,
+                    [
+                        0,
+                        [
+                            0,
+                            9,
+                            false
+                        ],
+                        null
+                    ],
+                    "\"California\"",
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "department_management",
+        "query": "SELECT DISTINCT T1.creation FROM department AS T1 JOIN management AS T2 ON T1.department_id  =  T2.department_id JOIN head AS T3 ON T2.head_id  =  T3.head_id WHERE T3.born_state  =  'Alabama'",
+        "query_toks": [
+            "SELECT",
+            "DISTINCT",
+            "T1.creation",
+            "FROM",
+            "department",
+            "AS",
+            "T1",
+            "JOIN",
+            "management",
+            "AS",
+            "T2",
+            "ON",
+            "T1.department_id",
+            "=",
+            "T2.department_id",
+            "JOIN",
+            "head",
+            "AS",
+            "T3",
+            "ON",
+            "T2.head_id",
+            "=",
+            "T3.head_id",
+            "WHERE",
+            "T3.born_state",
+            "=",
+            "'Alabama",
+            "'"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "distinct",
+            "t1",
+            ".",
+            "creation",
+            "from",
+            "department",
+            "as",
+            "t1",
+            "join",
+            "management",
+            "as",
+            "t2",
+            "on",
+            "t1",
+            ".",
+            "department_id",
+            "=",
+            "t2",
+            ".",
+            "department_id",
+            "join",
+            "head",
+            "as",
+            "t3",
+            "on",
+            "t2",
+            ".",
+            "head_id",
+            "=",
+            "t3",
+            ".",
+            "head_id",
+            "where",
+            "t3",
+            ".",
+            "born_state",
+            "=",
+            "value"
+        ],
+        "question": "What are the distinct creation years of the departments managed by a secretary born in state 'Alabama'?",
+        "question_toks": [
+            "What",
+            "are",
+            "the",
+            "distinct",
+            "creation",
+            "years",
+            "of",
+            "the",
+            "departments",
+            "managed",
+            "by",
+            "a",
+            "secretary",
+            "born",
+            "in",
+            "state",
+            "'Alabama",
+            "'",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [
+                    [
+                        false,
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                1,
+                                false
+                            ],
+                            null
+                        ],
+                        [
+                            0,
+                            11,
+                            false
+                        ],
+                        null
+                    ]
+                ],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ],
+                    [
+                        "table_unit",
+                        2
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                true,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                3,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    2,
+                    [
+                        0,
+                        [
+                            0,
+                            9,
+                            false
+                        ],
+                        null
+                    ],
+                    "\"Alabama\"",
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "department_management",
+        "query": "SELECT born_state FROM head GROUP BY born_state HAVING count(*)  >=  3",
+        "query_toks": [
+            "SELECT",
+            "born_state",
+            "FROM",
+            "head",
+            "GROUP",
+            "BY",
+            "born_state",
+            "HAVING",
+            "count",
+            "(",
+            "*",
+            ")",
+            ">",
+            "=",
+            "3"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "born_state",
+            "from",
+            "head",
+            "group",
+            "by",
+            "born_state",
+            "having",
+            "count",
+            "(",
+            "*",
+            ")",
+            ">",
+            "=",
+            "value"
+        ],
+        "question": "What are the names of the states where at least 3 heads were born?",
+        "question_toks": [
+            "What",
+            "are",
+            "the",
+            "names",
+            "of",
+            "the",
+            "states",
+            "where",
+            "at",
+            "least",
+            "3",
+            "heads",
+            "were",
+            "born",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        1
+                    ]
+                ]
+            },
+            "groupBy": [
+                [
+                    0,
+                    9,
+                    false
+                ]
+            ],
+            "having": [
+                [
+                    false,
+                    5,
+                    [
+                        0,
+                        [
+                            3,
+                            0,
+                            false
+                        ],
+                        null
+                    ],
+                    3.0,
+                    null
+                ]
+            ],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                9,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "department_management",
+        "query": "SELECT creation FROM department GROUP BY creation ORDER BY count(*) DESC LIMIT 1",
+        "query_toks": [
+            "SELECT",
+            "creation",
+            "FROM",
+            "department",
+            "GROUP",
+            "BY",
+            "creation",
+            "ORDER",
+            "BY",
+            "count",
+            "(",
+            "*",
+            ")",
+            "DESC",
+            "LIMIT",
+            "1"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "creation",
+            "from",
+            "department",
+            "group",
+            "by",
+            "creation",
+            "order",
+            "by",
+            "count",
+            "(",
+            "*",
+            ")",
+            "desc",
+            "limit",
+            "value"
+        ],
+        "question": "In which year were most departments established?",
+        "question_toks": [
+            "In",
+            "which",
+            "year",
+            "were",
+            "most",
+            "departments",
+            "established",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [
+                [
+                    0,
+                    3,
+                    false
+                ]
+            ],
+            "having": [],
+            "intersect": null,
+            "limit": 1,
+            "orderBy": [
+                "desc",
+                [
+                    [
+                        0,
+                        [
+                            3,
+                            0,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                3,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "department_management",
+        "query": "SELECT T1.name ,  T1.num_employees FROM department AS T1 JOIN management AS T2 ON T1.department_id  =  T2.department_id WHERE T2.temporary_acting  =  'Yes'",
+        "query_toks": [
+            "SELECT",
+            "T1.name",
+            ",",
+            "T1.num_employees",
+            "FROM",
+            "department",
+            "AS",
+            "T1",
+            "JOIN",
+            "management",
+            "AS",
+            "T2",
+            "ON",
+            "T1.department_id",
+            "=",
+            "T2.department_id",
+            "WHERE",
+            "T2.temporary_acting",
+            "=",
+            "'Yes",
+            "'"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "t1",
+            ".",
+            "name",
+            ",",
+            "t1",
+            ".",
+            "num_employees",
+            "from",
+            "department",
+            "as",
+            "t1",
+            "join",
+            "management",
+            "as",
+            "t2",
+            "on",
+            "t1",
+            ".",
+            "department_id",
+            "=",
+            "t2",
+            ".",
+            "department_id",
+            "where",
+            "t2",
+            ".",
+            "temporary_acting",
+            "=",
+            "value"
+        ],
+        "question": "Show the name and number of employees for the departments managed by heads whose temporary acting value is 'Yes'?",
+        "question_toks": [
+            "Show",
+            "the",
+            "name",
+            "and",
+            "number",
+            "of",
+            "employees",
+            "for",
+            "the",
+            "departments",
+            "managed",
+            "by",
+            "heads",
+            "whose",
+            "temporary",
+            "acting",
+            "value",
+            "is",
+            "'Yes",
+            "'",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [
+                    [
+                        false,
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                1,
+                                false
+                            ],
+                            null
+                        ],
+                        [
+                            0,
+                            11,
+                            false
+                        ],
+                        null
+                    ]
+                ],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ],
+                    [
+                        "table_unit",
+                        2
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                2,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                6,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    2,
+                    [
+                        0,
+                        [
+                            0,
+                            13,
+                            false
+                        ],
+                        null
+                    ],
+                    "\"Yes\"",
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "department_management",
+        "query": "SELECT count(DISTINCT temporary_acting) FROM management",
+        "query_toks": [
+            "SELECT",
+            "count",
+            "(",
+            "DISTINCT",
+            "temporary_acting",
+            ")",
+            "FROM",
+            "management"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "count",
+            "(",
+            "distinct",
+            "temporary_acting",
+            ")",
+            "from",
+            "management"
+        ],
+        "question": "How many acting statuses are there?",
+        "question_toks": [
+            "How",
+            "many",
+            "acting",
+            "statuses",
+            "are",
+            "there",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        2
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        3,
+                        [
+                            0,
+                            [
+                                0,
+                                13,
+                                true
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "department_management",
+        "query": "SELECT count(*) FROM department WHERE department_id NOT IN (SELECT department_id FROM management);",
+        "query_toks": [
+            "SELECT",
+            "count",
+            "(",
+            "*",
+            ")",
+            "FROM",
+            "department",
+            "WHERE",
+            "department_id",
+            "NOT",
+            "IN",
+            "(",
+            "SELECT",
+            "department_id",
+            "FROM",
+            "management",
+            ")",
+            ";"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "count",
+            "(",
+            "*",
+            ")",
+            "from",
+            "department",
+            "where",
+            "department_id",
+            "not",
+            "in",
+            "(",
+            "select",
+            "department_id",
+            "from",
+            "management",
+            ")"
+        ],
+        "question": "How many departments are led by heads who are not mentioned?",
+        "question_toks": [
+            "How",
+            "many",
+            "departments",
+            "are",
+            "led",
+            "by",
+            "heads",
+            "who",
+            "are",
+            "not",
+            "mentioned",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        3,
+                        [
+                            0,
+                            [
+                                0,
+                                0,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    true,
+                    8,
+                    [
+                        0,
+                        [
+                            0,
+                            1,
+                            false
+                        ],
+                        null
+                    ],
+                    {
+                        "except": null,
+                        "from": {
+                            "conds": [],
+                            "table_units": [
+                                [
+                                    "table_unit",
+                                    2
+                                ]
+                            ]
+                        },
+                        "groupBy": [],
+                        "having": [],
+                        "intersect": null,
+                        "limit": null,
+                        "orderBy": [],
+                        "select": [
+                            false,
+                            [
+                                [
+                                    0,
+                                    [
+                                        0,
+                                        [
+                                            0,
+                                            11,
+                                            false
+                                        ],
+                                        null
+                                    ]
+                                ]
+                            ]
+                        ],
+                        "union": null,
+                        "where": []
+                    },
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "department_management",
+        "query": "SELECT DISTINCT T1.age FROM management AS T2 JOIN head AS T1 ON T1.head_id  =  T2.head_id WHERE T2.temporary_acting  =  'Yes'",
+        "query_toks": [
+            "SELECT",
+            "DISTINCT",
+            "T1.age",
+            "FROM",
+            "management",
+            "AS",
+            "T2",
+            "JOIN",
+            "head",
+            "AS",
+            "T1",
+            "ON",
+            "T1.head_id",
+            "=",
+            "T2.head_id",
+            "WHERE",
+            "T2.temporary_acting",
+            "=",
+            "'Yes",
+            "'"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "distinct",
+            "t1",
+            ".",
+            "age",
+            "from",
+            "management",
+            "as",
+            "t2",
+            "join",
+            "head",
+            "as",
+            "t1",
+            "on",
+            "t1",
+            ".",
+            "head_id",
+            "=",
+            "t2",
+            ".",
+            "head_id",
+            "where",
+            "t2",
+            ".",
+            "temporary_acting",
+            "=",
+            "value"
+        ],
+        "question": "What are the distinct ages of the heads who are acting?",
+        "question_toks": [
+            "What",
+            "are",
+            "the",
+            "distinct",
+            "ages",
+            "of",
+            "the",
+            "heads",
+            "who",
+            "are",
+            "acting",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [
+                    [
+                        false,
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                7,
+                                false
+                            ],
+                            null
+                        ],
+                        [
+                            0,
+                            12,
+                            false
+                        ],
+                        null
+                    ]
+                ],
+                "table_units": [
+                    [
+                        "table_unit",
+                        2
+                    ],
+                    [
+                        "table_unit",
+                        1
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                true,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                10,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    2,
+                    [
+                        0,
+                        [
+                            0,
+                            13,
+                            false
+                        ],
+                        null
+                    ],
+                    "\"Yes\"",
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "department_management",
+        "query": "SELECT T3.born_state FROM department AS T1 JOIN management AS T2 ON T1.department_id  =  T2.department_id JOIN head AS T3 ON T2.head_id  =  T3.head_id WHERE T1.name  =  'Treasury' INTERSECT SELECT T3.born_state FROM department AS T1 JOIN management AS T2 ON T1.department_id  =  T2.department_id JOIN head AS T3 ON T2.head_id  =  T3.head_id WHERE T1.name  =  'Homeland Security'",
+        "query_toks": [
+            "SELECT",
+            "T3.born_state",
+            "FROM",
+            "department",
+            "AS",
+            "T1",
+            "JOIN",
+            "management",
+            "AS",
+            "T2",
+            "ON",
+            "T1.department_id",
+            "=",
+            "T2.department_id",
+            "JOIN",
+            "head",
+            "AS",
+            "T3",
+            "ON",
+            "T2.head_id",
+            "=",
+            "T3.head_id",
+            "WHERE",
+            "T1.name",
+            "=",
+            "'Treasury",
+            "'",
+            "INTERSECT",
+            "SELECT",
+            "T3.born_state",
+            "FROM",
+            "department",
+            "AS",
+            "T1",
+            "JOIN",
+            "management",
+            "AS",
+            "T2",
+            "ON",
+            "T1.department_id",
+            "=",
+            "T2.department_id",
+            "JOIN",
+            "head",
+            "AS",
+            "T3",
+            "ON",
+            "T2.head_id",
+            "=",
+            "T3.head_id",
+            "WHERE",
+            "T1.name",
+            "=",
+            "'Homeland",
+            "Security",
+            "'"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "t3",
+            ".",
+            "born_state",
+            "from",
+            "department",
+            "as",
+            "t1",
+            "join",
+            "management",
+            "as",
+            "t2",
+            "on",
+            "t1",
+            ".",
+            "department_id",
+            "=",
+            "t2",
+            ".",
+            "department_id",
+            "join",
+            "head",
+            "as",
+            "t3",
+            "on",
+            "t2",
+            ".",
+            "head_id",
+            "=",
+            "t3",
+            ".",
+            "head_id",
+            "where",
+            "t1",
+            ".",
+            "name",
+            "=",
+            "value",
+            "intersect",
+            "select",
+            "t3",
+            ".",
+            "born_state",
+            "from",
+            "department",
+            "as",
+            "t1",
+            "join",
+            "management",
+            "as",
+            "t2",
+            "on",
+            "t1",
+            ".",
+            "department_id",
+            "=",
+            "t2",
+            ".",
+            "department_id",
+            "join",
+            "head",
+            "as",
+            "t3",
+            "on",
+            "t2",
+            ".",
+            "head_id",
+            "=",
+            "t3",
+            ".",
+            "head_id",
+            "where",
+            "t1",
+            ".",
+            "name",
+            "=",
+            "value"
+        ],
+        "question": "List the states where both the secretary of 'Treasury' department and the secretary of 'Homeland Security' were born.",
+        "question_toks": [
+            "List",
+            "the",
+            "states",
+            "where",
+            "both",
+            "the",
+            "secretary",
+            "of",
+            "'Treasury",
+            "'",
+            "department",
+            "and",
+            "the",
+            "secretary",
+            "of",
+            "'Homeland",
+            "Security",
+            "'",
+            "were",
+            "born",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [
+                    [
+                        false,
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                1,
+                                false
+                            ],
+                            null
+                        ],
+                        [
+                            0,
+                            11,
+                            false
+                        ],
+                        null
+                    ]
+                ],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ],
+                    [
+                        "table_unit",
+                        2
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": {
+                "except": null,
+                "from": {
+                    "conds": [
+                        [
+                            false,
+                            2,
+                            [
+                                0,
+                                [
+                                    0,
+                                    1,
+                                    false
+                                ],
+                                null
+                            ],
+                            [
+                                0,
+                                11,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    "table_units": [
+                        [
+                            "table_unit",
+                            0
+                        ],
+                        [
+                            "table_unit",
+                            2
+                        ]
+                    ]
+                },
+                "groupBy": [],
+                "having": [],
+                "intersect": null,
+                "limit": null,
+                "orderBy": [],
+                "select": [
+                    false,
+                    [
+                        [
+                            0,
+                            [
+                                0,
+                                [
+                                    0,
+                                    9,
+                                    false
+                                ],
+                                null
+                            ]
+                        ]
+                    ]
+                ],
+                "union": null,
+                "where": [
+                    [
+                        false,
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                2,
+                                false
+                            ],
+                            null
+                        ],
+                        "\"Homeland Security\"",
+                        null
+                    ]
+                ]
+            },
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                9,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    2,
+                    [
+                        0,
+                        [
+                            0,
+                            2,
+                            false
+                        ],
+                        null
+                    ],
+                    "\"Treasury\"",
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "department_management",
+        "query": "SELECT T1.department_id ,  T1.name ,  count(*) FROM management AS T2 JOIN department AS T1 ON T1.department_id  =  T2.department_id GROUP BY T1.department_id HAVING count(*)  >  1",
+        "query_toks": [
+            "SELECT",
+            "T1.department_id",
+            ",",
+            "T1.name",
+            ",",
+            "count",
+            "(",
+            "*",
+            ")",
+            "FROM",
+            "management",
+            "AS",
+            "T2",
+            "JOIN",
+            "department",
+            "AS",
+            "T1",
+            "ON",
+            "T1.department_id",
+            "=",
+            "T2.department_id",
+            "GROUP",
+            "BY",
+            "T1.department_id",
+            "HAVING",
+            "count",
+            "(",
+            "*",
+            ")",
+            ">",
+            "1"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "t1",
+            ".",
+            "department_id",
+            ",",
+            "t1",
+            ".",
+            "name",
+            ",",
+            "count",
+            "(",
+            "*",
+            ")",
+            "from",
+            "management",
+            "as",
+            "t2",
+            "join",
+            "department",
+            "as",
+            "t1",
+            "on",
+            "t1",
+            ".",
+            "department_id",
+            "=",
+            "t2",
+            ".",
+            "department_id",
+            "group",
+            "by",
+            "t1",
+            ".",
+            "department_id",
+            "having",
+            "count",
+            "(",
+            "*",
+            ")",
+            ">",
+            "value"
+        ],
+        "question": "Which department has more than 1 head at a time? List the id, name and the number of heads.",
+        "question_toks": [
+            "Which",
+            "department",
+            "has",
+            "more",
+            "than",
+            "1",
+            "head",
+            "at",
+            "a",
+            "time",
+            "?",
+            "List",
+            "the",
+            "id",
+            ",",
+            "name",
+            "and",
+            "the",
+            "number",
+            "of",
+            "heads",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [
+                    [
+                        false,
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                1,
+                                false
+                            ],
+                            null
+                        ],
+                        [
+                            0,
+                            11,
+                            false
+                        ],
+                        null
+                    ]
+                ],
+                "table_units": [
+                    [
+                        "table_unit",
+                        2
+                    ],
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [
+                [
+                    0,
+                    1,
+                    false
+                ]
+            ],
+            "having": [
+                [
+                    false,
+                    3,
+                    [
+                        0,
+                        [
+                            3,
+                            0,
+                            false
+                        ],
+                        null
+                    ],
+                    1.0,
+                    null
+                ]
+            ],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                1,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                2,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    [
+                        3,
+                        [
+                            0,
+                            [
+                                0,
+                                0,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "department_management",
+        "query": "SELECT head_id ,  name FROM head WHERE name LIKE '%Ha%'",
+        "query_toks": [
+            "SELECT",
+            "head_id",
+            ",",
+            "name",
+            "FROM",
+            "head",
+            "WHERE",
+            "name",
+            "LIKE",
+            "'",
+            "%",
+            "Ha",
+            "%",
+            "'"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "head_id",
+            ",",
+            "name",
+            "from",
+            "head",
+            "where",
+            "name",
+            "like",
+            "value"
+        ],
+        "question": "Which head's name has the substring 'Ha'? List the id and name.",
+        "question_toks": [
+            "Which",
+            "head",
+            "'s",
+            "name",
+            "has",
+            "the",
+            "substring",
+            "'Ha",
+            "'",
+            "?",
+            "List",
+            "the",
+            "id",
+            "and",
+            "name",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        1
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                7,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                8,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    9,
+                    [
+                        0,
+                        [
+                            0,
+                            8,
+                            false
+                        ],
+                        null
+                    ],
+                    "\"%Ha%\"",
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT count(*) FROM farm",
+        "query_toks": [
+            "SELECT",
+            "count",
+            "(",
+            "*",
+            ")",
+            "FROM",
+            "farm"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "count",
+            "(",
+            "*",
+            ")",
+            "from",
+            "farm"
+        ],
+        "question": "How many farms are there?",
+        "question_toks": [
+            "How",
+            "many",
+            "farms",
+            "are",
+            "there",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        1
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        3,
+                        [
+                            0,
+                            [
+                                0,
+                                0,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT count(*) FROM farm",
+        "query_toks": [
+            "SELECT",
+            "count",
+            "(",
+            "*",
+            ")",
+            "FROM",
+            "farm"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "count",
+            "(",
+            "*",
+            ")",
+            "from",
+            "farm"
+        ],
+        "question": "Count the number of farms.",
+        "question_toks": [
+            "Count",
+            "the",
+            "number",
+            "of",
+            "farms",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        1
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        3,
+                        [
+                            0,
+                            [
+                                0,
+                                0,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Total_Horses FROM farm ORDER BY Total_Horses ASC",
+        "query_toks": [
+            "SELECT",
+            "Total_Horses",
+            "FROM",
+            "farm",
+            "ORDER",
+            "BY",
+            "Total_Horses",
+            "ASC"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "total_horses",
+            "from",
+            "farm",
+            "order",
+            "by",
+            "total_horses",
+            "asc"
+        ],
+        "question": "List the total number of horses on farms in ascending order.",
+        "question_toks": [
+            "List",
+            "the",
+            "total",
+            "number",
+            "of",
+            "horses",
+            "on",
+            "farms",
+            "in",
+            "ascending",
+            "order",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        1
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [
+                "asc",
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            9,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                9,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Total_Horses FROM farm ORDER BY Total_Horses ASC",
+        "query_toks": [
+            "SELECT",
+            "Total_Horses",
+            "FROM",
+            "farm",
+            "ORDER",
+            "BY",
+            "Total_Horses",
+            "ASC"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "total_horses",
+            "from",
+            "farm",
+            "order",
+            "by",
+            "total_horses",
+            "asc"
+        ],
+        "question": "What is the total horses record for each farm, sorted ascending?",
+        "question_toks": [
+            "What",
+            "is",
+            "the",
+            "total",
+            "horses",
+            "record",
+            "for",
+            "each",
+            "farm",
+            ",",
+            "sorted",
+            "ascending",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        1
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [
+                "asc",
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            9,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                9,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Hosts FROM farm_competition WHERE Theme != 'Aliens'",
+        "query_toks": [
+            "SELECT",
+            "Hosts",
+            "FROM",
+            "farm_competition",
+            "WHERE",
+            "Theme",
+            "!",
+            "=",
+            "'Aliens",
+            "'"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "hosts",
+            "from",
+            "farm_competition",
+            "where",
+            "theme",
+            "!",
+            "=",
+            "value"
+        ],
+        "question": "What are the hosts of competitions whose theme is not \"Aliens\"?",
+        "question_toks": [
+            "What",
+            "are",
+            "the",
+            "hosts",
+            "of",
+            "competitions",
+            "whose",
+            "theme",
+            "is",
+            "not",
+            "``",
+            "Aliens",
+            "''",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        2
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                21,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    7,
+                    [
+                        0,
+                        [
+                            0,
+                            19,
+                            false
+                        ],
+                        null
+                    ],
+                    "\"Aliens\"",
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Hosts FROM farm_competition WHERE Theme != 'Aliens'",
+        "query_toks": [
+            "SELECT",
+            "Hosts",
+            "FROM",
+            "farm_competition",
+            "WHERE",
+            "Theme",
+            "!",
+            "=",
+            "'Aliens",
+            "'"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "hosts",
+            "from",
+            "farm_competition",
+            "where",
+            "theme",
+            "!",
+            "=",
+            "value"
+        ],
+        "question": "Return the hosts of competitions for which the theme is not Aliens?",
+        "question_toks": [
+            "Return",
+            "the",
+            "hosts",
+            "of",
+            "competitions",
+            "for",
+            "which",
+            "the",
+            "theme",
+            "is",
+            "not",
+            "Aliens",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        2
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                21,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    7,
+                    [
+                        0,
+                        [
+                            0,
+                            19,
+                            false
+                        ],
+                        null
+                    ],
+                    "\"Aliens\"",
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Theme FROM farm_competition ORDER BY YEAR ASC",
+        "query_toks": [
+            "SELECT",
+            "Theme",
+            "FROM",
+            "farm_competition",
+            "ORDER",
+            "BY",
+            "YEAR",
+            "ASC"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "theme",
+            "from",
+            "farm_competition",
+            "order",
+            "by",
+            "year",
+            "asc"
+        ],
+        "question": "What are the themes of farm competitions sorted by year in ascending order?",
+        "question_toks": [
+            "What",
+            "are",
+            "the",
+            "themes",
+            "of",
+            "farm",
+            "competitions",
+            "sorted",
+            "by",
+            "year",
+            "in",
+            "ascending",
+            "order",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        2
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [
+                "asc",
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            18,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                19,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Theme FROM farm_competition ORDER BY YEAR ASC",
+        "query_toks": [
+            "SELECT",
+            "Theme",
+            "FROM",
+            "farm_competition",
+            "ORDER",
+            "BY",
+            "YEAR",
+            "ASC"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "theme",
+            "from",
+            "farm_competition",
+            "order",
+            "by",
+            "year",
+            "asc"
+        ],
+        "question": "Return the themes of farm competitions, sorted by year ascending.",
+        "question_toks": [
+            "Return",
+            "the",
+            "themes",
+            "of",
+            "farm",
+            "competitions",
+            ",",
+            "sorted",
+            "by",
+            "year",
+            "ascending",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        2
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [
+                "asc",
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            18,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                19,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT avg(Working_Horses) FROM farm WHERE Total_Horses  >  5000",
+        "query_toks": [
+            "SELECT",
+            "avg",
+            "(",
+            "Working_Horses",
+            ")",
+            "FROM",
+            "farm",
+            "WHERE",
+            "Total_Horses",
+            ">",
+            "5000"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "avg",
+            "(",
+            "working_horses",
+            ")",
+            "from",
+            "farm",
+            "where",
+            "total_horses",
+            ">",
+            "value"
+        ],
+        "question": "What is the average number of working horses of farms with more than 5000 total number of horses?",
+        "question_toks": [
+            "What",
+            "is",
+            "the",
+            "average",
+            "number",
+            "of",
+            "working",
+            "horses",
+            "of",
+            "farms",
+            "with",
+            "more",
+            "than",
+            "5000",
+            "total",
+            "number",
+            "of",
+            "horses",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        1
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        5,
+                        [
+                            0,
+                            [
+                                0,
+                                10,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    3,
+                    [
+                        0,
+                        [
+                            0,
+                            9,
+                            false
+                        ],
+                        null
+                    ],
+                    5000.0,
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT avg(Working_Horses) FROM farm WHERE Total_Horses  >  5000",
+        "query_toks": [
+            "SELECT",
+            "avg",
+            "(",
+            "Working_Horses",
+            ")",
+            "FROM",
+            "farm",
+            "WHERE",
+            "Total_Horses",
+            ">",
+            "5000"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "avg",
+            "(",
+            "working_horses",
+            ")",
+            "from",
+            "farm",
+            "where",
+            "total_horses",
+            ">",
+            "value"
+        ],
+        "question": "Give the average number of working horses on farms with more than 5000 total horses.",
+        "question_toks": [
+            "Give",
+            "the",
+            "average",
+            "number",
+            "of",
+            "working",
+            "horses",
+            "on",
+            "farms",
+            "with",
+            "more",
+            "than",
+            "5000",
+            "total",
+            "horses",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        1
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        5,
+                        [
+                            0,
+                            [
+                                0,
+                                10,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    3,
+                    [
+                        0,
+                        [
+                            0,
+                            9,
+                            false
+                        ],
+                        null
+                    ],
+                    5000.0,
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT max(Cows) ,  min(Cows) FROM farm",
+        "query_toks": [
+            "SELECT",
+            "max",
+            "(",
+            "Cows",
+            ")",
+            ",",
+            "min",
+            "(",
+            "Cows",
+            ")",
+            "FROM",
+            "farm"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "max",
+            "(",
+            "cows",
+            ")",
+            ",",
+            "min",
+            "(",
+            "cows",
+            ")",
+            "from",
+            "farm"
+        ],
+        "question": "What are the maximum and minimum number of cows across all farms.",
+        "question_toks": [
+            "What",
+            "are",
+            "the",
+            "maximum",
+            "and",
+            "minimum",
+            "number",
+            "of",
+            "cows",
+            "across",
+            "all",
+            "farms",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        1
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        1,
+                        [
+                            0,
+                            [
+                                0,
+                                14,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    [
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                14,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT max(Cows) ,  min(Cows) FROM farm",
+        "query_toks": [
+            "SELECT",
+            "max",
+            "(",
+            "Cows",
+            ")",
+            ",",
+            "min",
+            "(",
+            "Cows",
+            ")",
+            "FROM",
+            "farm"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "max",
+            "(",
+            "cows",
+            ")",
+            ",",
+            "min",
+            "(",
+            "cows",
+            ")",
+            "from",
+            "farm"
+        ],
+        "question": "Return the maximum and minimum number of cows across all farms.",
+        "question_toks": [
+            "Return",
+            "the",
+            "maximum",
+            "and",
+            "minimum",
+            "number",
+            "of",
+            "cows",
+            "across",
+            "all",
+            "farms",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        1
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        1,
+                        [
+                            0,
+                            [
+                                0,
+                                14,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    [
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                14,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT count(DISTINCT Status) FROM city",
+        "query_toks": [
+            "SELECT",
+            "count",
+            "(",
+            "DISTINCT",
+            "Status",
+            ")",
+            "FROM",
+            "city"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "count",
+            "(",
+            "distinct",
+            "status",
+            ")",
+            "from",
+            "city"
+        ],
+        "question": "How many different statuses do cities have?",
+        "question_toks": [
+            "How",
+            "many",
+            "different",
+            "statuses",
+            "do",
+            "cities",
+            "have",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        3,
+                        [
+                            0,
+                            [
+                                0,
+                                3,
+                                true
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT count(DISTINCT Status) FROM city",
+        "query_toks": [
+            "SELECT",
+            "count",
+            "(",
+            "DISTINCT",
+            "Status",
+            ")",
+            "FROM",
+            "city"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "count",
+            "(",
+            "distinct",
+            "status",
+            ")",
+            "from",
+            "city"
+        ],
+        "question": "Count the number of different statuses.",
+        "question_toks": [
+            "Count",
+            "the",
+            "number",
+            "of",
+            "different",
+            "statuses",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        3,
+                        [
+                            0,
+                            [
+                                0,
+                                3,
+                                true
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Official_Name FROM city ORDER BY Population DESC",
+        "query_toks": [
+            "SELECT",
+            "Official_Name",
+            "FROM",
+            "city",
+            "ORDER",
+            "BY",
+            "Population",
+            "DESC"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "official_name",
+            "from",
+            "city",
+            "order",
+            "by",
+            "population",
+            "desc"
+        ],
+        "question": "List official names of cities in descending order of population.",
+        "question_toks": [
+            "List",
+            "official",
+            "names",
+            "of",
+            "cities",
+            "in",
+            "descending",
+            "order",
+            "of",
+            "population",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [
+                "desc",
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            5,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                2,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Official_Name FROM city ORDER BY Population DESC",
+        "query_toks": [
+            "SELECT",
+            "Official_Name",
+            "FROM",
+            "city",
+            "ORDER",
+            "BY",
+            "Population",
+            "DESC"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "official_name",
+            "from",
+            "city",
+            "order",
+            "by",
+            "population",
+            "desc"
+        ],
+        "question": "What are the official names of cities, ordered descending by population?",
+        "question_toks": [
+            "What",
+            "are",
+            "the",
+            "official",
+            "names",
+            "of",
+            "cities",
+            ",",
+            "ordered",
+            "descending",
+            "by",
+            "population",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [
+                "desc",
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            5,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                2,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Official_Name ,  Status FROM city ORDER BY Population DESC LIMIT 1",
+        "query_toks": [
+            "SELECT",
+            "Official_Name",
+            ",",
+            "Status",
+            "FROM",
+            "city",
+            "ORDER",
+            "BY",
+            "Population",
+            "DESC",
+            "LIMIT",
+            "1"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "official_name",
+            ",",
+            "status",
+            "from",
+            "city",
+            "order",
+            "by",
+            "population",
+            "desc",
+            "limit",
+            "value"
+        ],
+        "question": "List the official name and status of the city with the largest population.",
+        "question_toks": [
+            "List",
+            "the",
+            "official",
+            "name",
+            "and",
+            "status",
+            "of",
+            "the",
+            "city",
+            "with",
+            "the",
+            "largest",
+            "population",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": 1,
+            "orderBy": [
+                "desc",
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            5,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                2,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                3,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Official_Name ,  Status FROM city ORDER BY Population DESC LIMIT 1",
+        "query_toks": [
+            "SELECT",
+            "Official_Name",
+            ",",
+            "Status",
+            "FROM",
+            "city",
+            "ORDER",
+            "BY",
+            "Population",
+            "DESC",
+            "LIMIT",
+            "1"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "official_name",
+            ",",
+            "status",
+            "from",
+            "city",
+            "order",
+            "by",
+            "population",
+            "desc",
+            "limit",
+            "value"
+        ],
+        "question": "What is the official name and status of the city with the most residents?",
+        "question_toks": [
+            "What",
+            "is",
+            "the",
+            "official",
+            "name",
+            "and",
+            "status",
+            "of",
+            "the",
+            "city",
+            "with",
+            "the",
+            "most",
+            "residents",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": 1,
+            "orderBy": [
+                "desc",
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            5,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                2,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                3,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT T2.Year ,  T1.Official_Name FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID  =  T2.Host_city_ID",
+        "query_toks": [
+            "SELECT",
+            "T2.Year",
+            ",",
+            "T1.Official_Name",
+            "FROM",
+            "city",
+            "AS",
+            "T1",
+            "JOIN",
+            "farm_competition",
+            "AS",
+            "T2",
+            "ON",
+            "T1.City_ID",
+            "=",
+            "T2.Host_city_ID"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "t2",
+            ".",
+            "year",
+            ",",
+            "t1",
+            ".",
+            "official_name",
+            "from",
+            "city",
+            "as",
+            "t1",
+            "join",
+            "farm_competition",
+            "as",
+            "t2",
+            "on",
+            "t1",
+            ".",
+            "city_id",
+            "=",
+            "t2",
+            ".",
+            "host_city_id"
+        ],
+        "question": "Show the years and the official names of the host cities of competitions.",
+        "question_toks": [
+            "Show",
+            "the",
+            "years",
+            "and",
+            "the",
+            "official",
+            "names",
+            "of",
+            "the",
+            "host",
+            "cities",
+            "of",
+            "competitions",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [
+                    [
+                        false,
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                1,
+                                false
+                            ],
+                            null
+                        ],
+                        [
+                            0,
+                            20,
+                            false
+                        ],
+                        null
+                    ]
+                ],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ],
+                    [
+                        "table_unit",
+                        2
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                18,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                2,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT T2.Year ,  T1.Official_Name FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID  =  T2.Host_city_ID",
+        "query_toks": [
+            "SELECT",
+            "T2.Year",
+            ",",
+            "T1.Official_Name",
+            "FROM",
+            "city",
+            "AS",
+            "T1",
+            "JOIN",
+            "farm_competition",
+            "AS",
+            "T2",
+            "ON",
+            "T1.City_ID",
+            "=",
+            "T2.Host_city_ID"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "t2",
+            ".",
+            "year",
+            ",",
+            "t1",
+            ".",
+            "official_name",
+            "from",
+            "city",
+            "as",
+            "t1",
+            "join",
+            "farm_competition",
+            "as",
+            "t2",
+            "on",
+            "t1",
+            ".",
+            "city_id",
+            "=",
+            "t2",
+            ".",
+            "host_city_id"
+        ],
+        "question": "Give the years and official names of the cities of each competition.",
+        "question_toks": [
+            "Give",
+            "the",
+            "years",
+            "and",
+            "official",
+            "names",
+            "of",
+            "the",
+            "cities",
+            "of",
+            "each",
+            "competition",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [
+                    [
+                        false,
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                1,
+                                false
+                            ],
+                            null
+                        ],
+                        [
+                            0,
+                            20,
+                            false
+                        ],
+                        null
+                    ]
+                ],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ],
+                    [
+                        "table_unit",
+                        2
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                18,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                2,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT T1.Official_Name FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID  =  T2.Host_city_ID GROUP BY T2.Host_city_ID HAVING COUNT(*)  >  1",
+        "query_toks": [
+            "SELECT",
+            "T1.Official_Name",
+            "FROM",
+            "city",
+            "AS",
+            "T1",
+            "JOIN",
+            "farm_competition",
+            "AS",
+            "T2",
+            "ON",
+            "T1.City_ID",
+            "=",
+            "T2.Host_city_ID",
+            "GROUP",
+            "BY",
+            "T2.Host_city_ID",
+            "HAVING",
+            "COUNT",
+            "(",
+            "*",
+            ")",
+            ">",
+            "1"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "t1",
+            ".",
+            "official_name",
+            "from",
+            "city",
+            "as",
+            "t1",
+            "join",
+            "farm_competition",
+            "as",
+            "t2",
+            "on",
+            "t1",
+            ".",
+            "city_id",
+            "=",
+            "t2",
+            ".",
+            "host_city_id",
+            "group",
+            "by",
+            "t2",
+            ".",
+            "host_city_id",
+            "having",
+            "count",
+            "(",
+            "*",
+            ")",
+            ">",
+            "value"
+        ],
+        "question": "Show the official names of the cities that have hosted more than one competition.",
+        "question_toks": [
+            "Show",
+            "the",
+            "official",
+            "names",
+            "of",
+            "the",
+            "cities",
+            "that",
+            "have",
+            "hosted",
+            "more",
+            "than",
+            "one",
+            "competition",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [
+                    [
+                        false,
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                1,
+                                false
+                            ],
+                            null
+                        ],
+                        [
+                            0,
+                            20,
+                            false
+                        ],
+                        null
+                    ]
+                ],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ],
+                    [
+                        "table_unit",
+                        2
+                    ]
+                ]
+            },
+            "groupBy": [
+                [
+                    0,
+                    20,
+                    false
+                ]
+            ],
+            "having": [
+                [
+                    false,
+                    3,
+                    [
+                        0,
+                        [
+                            3,
+                            0,
+                            false
+                        ],
+                        null
+                    ],
+                    1.0,
+                    null
+                ]
+            ],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                2,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT T1.Official_Name FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID  =  T2.Host_city_ID GROUP BY T2.Host_city_ID HAVING COUNT(*)  >  1",
+        "query_toks": [
+            "SELECT",
+            "T1.Official_Name",
+            "FROM",
+            "city",
+            "AS",
+            "T1",
+            "JOIN",
+            "farm_competition",
+            "AS",
+            "T2",
+            "ON",
+            "T1.City_ID",
+            "=",
+            "T2.Host_city_ID",
+            "GROUP",
+            "BY",
+            "T2.Host_city_ID",
+            "HAVING",
+            "COUNT",
+            "(",
+            "*",
+            ")",
+            ">",
+            "1"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "t1",
+            ".",
+            "official_name",
+            "from",
+            "city",
+            "as",
+            "t1",
+            "join",
+            "farm_competition",
+            "as",
+            "t2",
+            "on",
+            "t1",
+            ".",
+            "city_id",
+            "=",
+            "t2",
+            ".",
+            "host_city_id",
+            "group",
+            "by",
+            "t2",
+            ".",
+            "host_city_id",
+            "having",
+            "count",
+            "(",
+            "*",
+            ")",
+            ">",
+            "value"
+        ],
+        "question": "What are the official names of cities that have hosted more than one competition?",
+        "question_toks": [
+            "What",
+            "are",
+            "the",
+            "official",
+            "names",
+            "of",
+            "cities",
+            "that",
+            "have",
+            "hosted",
+            "more",
+            "than",
+            "one",
+            "competition",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [
+                    [
+                        false,
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                1,
+                                false
+                            ],
+                            null
+                        ],
+                        [
+                            0,
+                            20,
+                            false
+                        ],
+                        null
+                    ]
+                ],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ],
+                    [
+                        "table_unit",
+                        2
+                    ]
+                ]
+            },
+            "groupBy": [
+                [
+                    0,
+                    20,
+                    false
+                ]
+            ],
+            "having": [
+                [
+                    false,
+                    3,
+                    [
+                        0,
+                        [
+                            3,
+                            0,
+                            false
+                        ],
+                        null
+                    ],
+                    1.0,
+                    null
+                ]
+            ],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                2,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT T1.Status FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID  =  T2.Host_city_ID GROUP BY T2.Host_city_ID ORDER BY COUNT(*) DESC LIMIT 1",
+        "query_toks": [
+            "SELECT",
+            "T1.Status",
+            "FROM",
+            "city",
+            "AS",
+            "T1",
+            "JOIN",
+            "farm_competition",
+            "AS",
+            "T2",
+            "ON",
+            "T1.City_ID",
+            "=",
+            "T2.Host_city_ID",
+            "GROUP",
+            "BY",
+            "T2.Host_city_ID",
+            "ORDER",
+            "BY",
+            "COUNT",
+            "(",
+            "*",
+            ")",
+            "DESC",
+            "LIMIT",
+            "1"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "t1",
+            ".",
+            "status",
+            "from",
+            "city",
+            "as",
+            "t1",
+            "join",
+            "farm_competition",
+            "as",
+            "t2",
+            "on",
+            "t1",
+            ".",
+            "city_id",
+            "=",
+            "t2",
+            ".",
+            "host_city_id",
+            "group",
+            "by",
+            "t2",
+            ".",
+            "host_city_id",
+            "order",
+            "by",
+            "count",
+            "(",
+            "*",
+            ")",
+            "desc",
+            "limit",
+            "value"
+        ],
+        "question": "Show the status of the city that has hosted the greatest number of competitions.",
+        "question_toks": [
+            "Show",
+            "the",
+            "status",
+            "of",
+            "the",
+            "city",
+            "that",
+            "has",
+            "hosted",
+            "the",
+            "greatest",
+            "number",
+            "of",
+            "competitions",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [
+                    [
+                        false,
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                1,
+                                false
+                            ],
+                            null
+                        ],
+                        [
+                            0,
+                            20,
+                            false
+                        ],
+                        null
+                    ]
+                ],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ],
+                    [
+                        "table_unit",
+                        2
+                    ]
+                ]
+            },
+            "groupBy": [
+                [
+                    0,
+                    20,
+                    false
+                ]
+            ],
+            "having": [],
+            "intersect": null,
+            "limit": 1,
+            "orderBy": [
+                "desc",
+                [
+                    [
+                        0,
+                        [
+                            3,
+                            0,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                3,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT T1.Status FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID  =  T2.Host_city_ID GROUP BY T2.Host_city_ID ORDER BY COUNT(*) DESC LIMIT 1",
+        "query_toks": [
+            "SELECT",
+            "T1.Status",
+            "FROM",
+            "city",
+            "AS",
+            "T1",
+            "JOIN",
+            "farm_competition",
+            "AS",
+            "T2",
+            "ON",
+            "T1.City_ID",
+            "=",
+            "T2.Host_city_ID",
+            "GROUP",
+            "BY",
+            "T2.Host_city_ID",
+            "ORDER",
+            "BY",
+            "COUNT",
+            "(",
+            "*",
+            ")",
+            "DESC",
+            "LIMIT",
+            "1"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "t1",
+            ".",
+            "status",
+            "from",
+            "city",
+            "as",
+            "t1",
+            "join",
+            "farm_competition",
+            "as",
+            "t2",
+            "on",
+            "t1",
+            ".",
+            "city_id",
+            "=",
+            "t2",
+            ".",
+            "host_city_id",
+            "group",
+            "by",
+            "t2",
+            ".",
+            "host_city_id",
+            "order",
+            "by",
+            "count",
+            "(",
+            "*",
+            ")",
+            "desc",
+            "limit",
+            "value"
+        ],
+        "question": "What is the status of the city that has hosted the most competitions?",
+        "question_toks": [
+            "What",
+            "is",
+            "the",
+            "status",
+            "of",
+            "the",
+            "city",
+            "that",
+            "has",
+            "hosted",
+            "the",
+            "most",
+            "competitions",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [
+                    [
+                        false,
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                1,
+                                false
+                            ],
+                            null
+                        ],
+                        [
+                            0,
+                            20,
+                            false
+                        ],
+                        null
+                    ]
+                ],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ],
+                    [
+                        "table_unit",
+                        2
+                    ]
+                ]
+            },
+            "groupBy": [
+                [
+                    0,
+                    20,
+                    false
+                ]
+            ],
+            "having": [],
+            "intersect": null,
+            "limit": 1,
+            "orderBy": [
+                "desc",
+                [
+                    [
+                        0,
+                        [
+                            3,
+                            0,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                3,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT T2.Theme FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID  =  T2.Host_city_ID WHERE T1.Population  >  1000",
+        "query_toks": [
+            "SELECT",
+            "T2.Theme",
+            "FROM",
+            "city",
+            "AS",
+            "T1",
+            "JOIN",
+            "farm_competition",
+            "AS",
+            "T2",
+            "ON",
+            "T1.City_ID",
+            "=",
+            "T2.Host_city_ID",
+            "WHERE",
+            "T1.Population",
+            ">",
+            "1000"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "t2",
+            ".",
+            "theme",
+            "from",
+            "city",
+            "as",
+            "t1",
+            "join",
+            "farm_competition",
+            "as",
+            "t2",
+            "on",
+            "t1",
+            ".",
+            "city_id",
+            "=",
+            "t2",
+            ".",
+            "host_city_id",
+            "where",
+            "t1",
+            ".",
+            "population",
+            ">",
+            "value"
+        ],
+        "question": "Please show the themes of competitions with host cities having populations larger than 1000.",
+        "question_toks": [
+            "Please",
+            "show",
+            "the",
+            "themes",
+            "of",
+            "competitions",
+            "with",
+            "host",
+            "cities",
+            "having",
+            "populations",
+            "larger",
+            "than",
+            "1000",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [
+                    [
+                        false,
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                1,
+                                false
+                            ],
+                            null
+                        ],
+                        [
+                            0,
+                            20,
+                            false
+                        ],
+                        null
+                    ]
+                ],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ],
+                    [
+                        "table_unit",
+                        2
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                19,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    3,
+                    [
+                        0,
+                        [
+                            0,
+                            5,
+                            false
+                        ],
+                        null
+                    ],
+                    1000.0,
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT T2.Theme FROM city AS T1 JOIN farm_competition AS T2 ON T1.City_ID  =  T2.Host_city_ID WHERE T1.Population  >  1000",
+        "query_toks": [
+            "SELECT",
+            "T2.Theme",
+            "FROM",
+            "city",
+            "AS",
+            "T1",
+            "JOIN",
+            "farm_competition",
+            "AS",
+            "T2",
+            "ON",
+            "T1.City_ID",
+            "=",
+            "T2.Host_city_ID",
+            "WHERE",
+            "T1.Population",
+            ">",
+            "1000"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "t2",
+            ".",
+            "theme",
+            "from",
+            "city",
+            "as",
+            "t1",
+            "join",
+            "farm_competition",
+            "as",
+            "t2",
+            "on",
+            "t1",
+            ".",
+            "city_id",
+            "=",
+            "t2",
+            ".",
+            "host_city_id",
+            "where",
+            "t1",
+            ".",
+            "population",
+            ">",
+            "value"
+        ],
+        "question": "What are the themes of competitions that have corresponding host cities with more than 1000 residents?",
+        "question_toks": [
+            "What",
+            "are",
+            "the",
+            "themes",
+            "of",
+            "competitions",
+            "that",
+            "have",
+            "corresponding",
+            "host",
+            "cities",
+            "with",
+            "more",
+            "than",
+            "1000",
+            "residents",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [
+                    [
+                        false,
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                1,
+                                false
+                            ],
+                            null
+                        ],
+                        [
+                            0,
+                            20,
+                            false
+                        ],
+                        null
+                    ]
+                ],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ],
+                    [
+                        "table_unit",
+                        2
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                19,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    3,
+                    [
+                        0,
+                        [
+                            0,
+                            5,
+                            false
+                        ],
+                        null
+                    ],
+                    1000.0,
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Status ,  avg(Population) FROM city GROUP BY Status",
+        "query_toks": [
+            "SELECT",
+            "Status",
+            ",",
+            "avg",
+            "(",
+            "Population",
+            ")",
+            "FROM",
+            "city",
+            "GROUP",
+            "BY",
+            "Status"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "status",
+            ",",
+            "avg",
+            "(",
+            "population",
+            ")",
+            "from",
+            "city",
+            "group",
+            "by",
+            "status"
+        ],
+        "question": "Please show the different statuses of cities and the average population of cities with each status.",
+        "question_toks": [
+            "Please",
+            "show",
+            "the",
+            "different",
+            "statuses",
+            "of",
+            "cities",
+            "and",
+            "the",
+            "average",
+            "population",
+            "of",
+            "cities",
+            "with",
+            "each",
+            "status",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [
+                [
+                    0,
+                    3,
+                    false
+                ]
+            ],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                3,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    [
+                        5,
+                        [
+                            0,
+                            [
+                                0,
+                                5,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Status ,  avg(Population) FROM city GROUP BY Status",
+        "query_toks": [
+            "SELECT",
+            "Status",
+            ",",
+            "avg",
+            "(",
+            "Population",
+            ")",
+            "FROM",
+            "city",
+            "GROUP",
+            "BY",
+            "Status"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "status",
+            ",",
+            "avg",
+            "(",
+            "population",
+            ")",
+            "from",
+            "city",
+            "group",
+            "by",
+            "status"
+        ],
+        "question": "What are the statuses and average populations of each city?",
+        "question_toks": [
+            "What",
+            "are",
+            "the",
+            "statuses",
+            "and",
+            "average",
+            "populations",
+            "of",
+            "each",
+            "city",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [
+                [
+                    0,
+                    3,
+                    false
+                ]
+            ],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                3,
+                                false
+                            ],
+                            null
+                        ]
+                    ],
+                    [
+                        5,
+                        [
+                            0,
+                            [
+                                0,
+                                5,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Status FROM city GROUP BY Status ORDER BY COUNT(*) ASC",
+        "query_toks": [
+            "SELECT",
+            "Status",
+            "FROM",
+            "city",
+            "GROUP",
+            "BY",
+            "Status",
+            "ORDER",
+            "BY",
+            "COUNT",
+            "(",
+            "*",
+            ")",
+            "ASC"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "status",
+            "from",
+            "city",
+            "group",
+            "by",
+            "status",
+            "order",
+            "by",
+            "count",
+            "(",
+            "*",
+            ")",
+            "asc"
+        ],
+        "question": "Please show the different statuses, ordered by the number of cities that have each.",
+        "question_toks": [
+            "Please",
+            "show",
+            "the",
+            "different",
+            "statuses",
+            ",",
+            "ordered",
+            "by",
+            "the",
+            "number",
+            "of",
+            "cities",
+            "that",
+            "have",
+            "each",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [
+                [
+                    0,
+                    3,
+                    false
+                ]
+            ],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [
+                "asc",
+                [
+                    [
+                        0,
+                        [
+                            3,
+                            0,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                3,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Status FROM city GROUP BY Status ORDER BY COUNT(*) ASC",
+        "query_toks": [
+            "SELECT",
+            "Status",
+            "FROM",
+            "city",
+            "GROUP",
+            "BY",
+            "Status",
+            "ORDER",
+            "BY",
+            "COUNT",
+            "(",
+            "*",
+            ")",
+            "ASC"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "status",
+            "from",
+            "city",
+            "group",
+            "by",
+            "status",
+            "order",
+            "by",
+            "count",
+            "(",
+            "*",
+            ")",
+            "asc"
+        ],
+        "question": "Return the different statuses of cities, ascending by frequency.",
+        "question_toks": [
+            "Return",
+            "the",
+            "different",
+            "statuses",
+            "of",
+            "cities",
+            ",",
+            "ascending",
+            "by",
+            "frequency",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [
+                [
+                    0,
+                    3,
+                    false
+                ]
+            ],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [
+                "asc",
+                [
+                    [
+                        0,
+                        [
+                            3,
+                            0,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                3,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Status FROM city GROUP BY Status ORDER BY COUNT(*) DESC LIMIT 1",
+        "query_toks": [
+            "SELECT",
+            "Status",
+            "FROM",
+            "city",
+            "GROUP",
+            "BY",
+            "Status",
+            "ORDER",
+            "BY",
+            "COUNT",
+            "(",
+            "*",
+            ")",
+            "DESC",
+            "LIMIT",
+            "1"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "status",
+            "from",
+            "city",
+            "group",
+            "by",
+            "status",
+            "order",
+            "by",
+            "count",
+            "(",
+            "*",
+            ")",
+            "desc",
+            "limit",
+            "value"
+        ],
+        "question": "List the most common type of Status across cities.",
+        "question_toks": [
+            "List",
+            "the",
+            "most",
+            "common",
+            "type",
+            "of",
+            "Status",
+            "across",
+            "cities",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [
+                [
+                    0,
+                    3,
+                    false
+                ]
+            ],
+            "having": [],
+            "intersect": null,
+            "limit": 1,
+            "orderBy": [
+                "desc",
+                [
+                    [
+                        0,
+                        [
+                            3,
+                            0,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                3,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Status FROM city GROUP BY Status ORDER BY COUNT(*) DESC LIMIT 1",
+        "query_toks": [
+            "SELECT",
+            "Status",
+            "FROM",
+            "city",
+            "GROUP",
+            "BY",
+            "Status",
+            "ORDER",
+            "BY",
+            "COUNT",
+            "(",
+            "*",
+            ")",
+            "DESC",
+            "LIMIT",
+            "1"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "status",
+            "from",
+            "city",
+            "group",
+            "by",
+            "status",
+            "order",
+            "by",
+            "count",
+            "(",
+            "*",
+            ")",
+            "desc",
+            "limit",
+            "value"
+        ],
+        "question": "What is the most common status across all cities?",
+        "question_toks": [
+            "What",
+            "is",
+            "the",
+            "most",
+            "common",
+            "status",
+            "across",
+            "all",
+            "cities",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [
+                [
+                    0,
+                    3,
+                    false
+                ]
+            ],
+            "having": [],
+            "intersect": null,
+            "limit": 1,
+            "orderBy": [
+                "desc",
+                [
+                    [
+                        0,
+                        [
+                            3,
+                            0,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                3,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Official_Name FROM city WHERE City_ID NOT IN (SELECT Host_city_ID FROM farm_competition)",
+        "query_toks": [
+            "SELECT",
+            "Official_Name",
+            "FROM",
+            "city",
+            "WHERE",
+            "City_ID",
+            "NOT",
+            "IN",
+            "(",
+            "SELECT",
+            "Host_city_ID",
+            "FROM",
+            "farm_competition",
+            ")"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "official_name",
+            "from",
+            "city",
+            "where",
+            "city_id",
+            "not",
+            "in",
+            "(",
+            "select",
+            "host_city_id",
+            "from",
+            "farm_competition",
+            ")"
+        ],
+        "question": "List the official names of cities that have not held any competition.",
+        "question_toks": [
+            "List",
+            "the",
+            "official",
+            "names",
+            "of",
+            "cities",
+            "that",
+            "have",
+            "not",
+            "held",
+            "any",
+            "competition",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                2,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    true,
+                    8,
+                    [
+                        0,
+                        [
+                            0,
+                            1,
+                            false
+                        ],
+                        null
+                    ],
+                    {
+                        "except": null,
+                        "from": {
+                            "conds": [],
+                            "table_units": [
+                                [
+                                    "table_unit",
+                                    2
+                                ]
+                            ]
+                        },
+                        "groupBy": [],
+                        "having": [],
+                        "intersect": null,
+                        "limit": null,
+                        "orderBy": [],
+                        "select": [
+                            false,
+                            [
+                                [
+                                    0,
+                                    [
+                                        0,
+                                        [
+                                            0,
+                                            20,
+                                            false
+                                        ],
+                                        null
+                                    ]
+                                ]
+                            ]
+                        ],
+                        "union": null,
+                        "where": []
+                    },
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Official_Name FROM city WHERE City_ID NOT IN (SELECT Host_city_ID FROM farm_competition)",
+        "query_toks": [
+            "SELECT",
+            "Official_Name",
+            "FROM",
+            "city",
+            "WHERE",
+            "City_ID",
+            "NOT",
+            "IN",
+            "(",
+            "SELECT",
+            "Host_city_ID",
+            "FROM",
+            "farm_competition",
+            ")"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "official_name",
+            "from",
+            "city",
+            "where",
+            "city_id",
+            "not",
+            "in",
+            "(",
+            "select",
+            "host_city_id",
+            "from",
+            "farm_competition",
+            ")"
+        ],
+        "question": "What are the official names of cities that have not hosted a farm competition?",
+        "question_toks": [
+            "What",
+            "are",
+            "the",
+            "official",
+            "names",
+            "of",
+            "cities",
+            "that",
+            "have",
+            "not",
+            "hosted",
+            "a",
+            "farm",
+            "competition",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                2,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    true,
+                    8,
+                    [
+                        0,
+                        [
+                            0,
+                            1,
+                            false
+                        ],
+                        null
+                    ],
+                    {
+                        "except": null,
+                        "from": {
+                            "conds": [],
+                            "table_units": [
+                                [
+                                    "table_unit",
+                                    2
+                                ]
+                            ]
+                        },
+                        "groupBy": [],
+                        "having": [],
+                        "intersect": null,
+                        "limit": null,
+                        "orderBy": [],
+                        "select": [
+                            false,
+                            [
+                                [
+                                    0,
+                                    [
+                                        0,
+                                        [
+                                            0,
+                                            20,
+                                            false
+                                        ],
+                                        null
+                                    ]
+                                ]
+                            ]
+                        ],
+                        "union": null,
+                        "where": []
+                    },
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Status FROM city WHERE Population  >  1500 INTERSECT SELECT Status FROM city WHERE Population  <  500",
+        "query_toks": [
+            "SELECT",
+            "Status",
+            "FROM",
+            "city",
+            "WHERE",
+            "Population",
+            ">",
+            "1500",
+            "INTERSECT",
+            "SELECT",
+            "Status",
+            "FROM",
+            "city",
+            "WHERE",
+            "Population",
+            "<",
+            "500"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "status",
+            "from",
+            "city",
+            "where",
+            "population",
+            ">",
+            "value",
+            "intersect",
+            "select",
+            "status",
+            "from",
+            "city",
+            "where",
+            "population",
+            "<",
+            "value"
+        ],
+        "question": "Show the status shared by cities with population bigger than 1500 and smaller than 500.",
+        "question_toks": [
+            "Show",
+            "the",
+            "status",
+            "shared",
+            "by",
+            "cities",
+            "with",
+            "population",
+            "bigger",
+            "than",
+            "1500",
+            "and",
+            "smaller",
+            "than",
+            "500",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": {
+                "except": null,
+                "from": {
+                    "conds": [],
+                    "table_units": [
+                        [
+                            "table_unit",
+                            0
+                        ]
+                    ]
+                },
+                "groupBy": [],
+                "having": [],
+                "intersect": null,
+                "limit": null,
+                "orderBy": [],
+                "select": [
+                    false,
+                    [
+                        [
+                            0,
+                            [
+                                0,
+                                [
+                                    0,
+                                    3,
+                                    false
+                                ],
+                                null
+                            ]
+                        ]
+                    ]
+                ],
+                "union": null,
+                "where": [
+                    [
+                        false,
+                        4,
+                        [
+                            0,
+                            [
+                                0,
+                                5,
+                                false
+                            ],
+                            null
+                        ],
+                        500.0,
+                        null
+                    ]
+                ]
+            },
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                3,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    3,
+                    [
+                        0,
+                        [
+                            0,
+                            5,
+                            false
+                        ],
+                        null
+                    ],
+                    1500.0,
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Status FROM city WHERE Population  >  1500 INTERSECT SELECT Status FROM city WHERE Population  <  500",
+        "query_toks": [
+            "SELECT",
+            "Status",
+            "FROM",
+            "city",
+            "WHERE",
+            "Population",
+            ">",
+            "1500",
+            "INTERSECT",
+            "SELECT",
+            "Status",
+            "FROM",
+            "city",
+            "WHERE",
+            "Population",
+            "<",
+            "500"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "status",
+            "from",
+            "city",
+            "where",
+            "population",
+            ">",
+            "value",
+            "intersect",
+            "select",
+            "status",
+            "from",
+            "city",
+            "where",
+            "population",
+            "<",
+            "value"
+        ],
+        "question": "Which statuses correspond to both cities that have a population over 1500 and cities that have a population lower than 500?",
+        "question_toks": [
+            "Which",
+            "statuses",
+            "correspond",
+            "to",
+            "both",
+            "cities",
+            "that",
+            "have",
+            "a",
+            "population",
+            "over",
+            "1500",
+            "and",
+            "cities",
+            "that",
+            "have",
+            "a",
+            "population",
+            "lower",
+            "than",
+            "500",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": {
+                "except": null,
+                "from": {
+                    "conds": [],
+                    "table_units": [
+                        [
+                            "table_unit",
+                            0
+                        ]
+                    ]
+                },
+                "groupBy": [],
+                "having": [],
+                "intersect": null,
+                "limit": null,
+                "orderBy": [],
+                "select": [
+                    false,
+                    [
+                        [
+                            0,
+                            [
+                                0,
+                                [
+                                    0,
+                                    3,
+                                    false
+                                ],
+                                null
+                            ]
+                        ]
+                    ]
+                ],
+                "union": null,
+                "where": [
+                    [
+                        false,
+                        4,
+                        [
+                            0,
+                            [
+                                0,
+                                5,
+                                false
+                            ],
+                            null
+                        ],
+                        500.0,
+                        null
+                    ]
+                ]
+            },
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                3,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    3,
+                    [
+                        0,
+                        [
+                            0,
+                            5,
+                            false
+                        ],
+                        null
+                    ],
+                    1500.0,
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Official_Name FROM city WHERE Population  >  1500 OR Population  <  500",
+        "query_toks": [
+            "SELECT",
+            "Official_Name",
+            "FROM",
+            "city",
+            "WHERE",
+            "Population",
+            ">",
+            "1500",
+            "OR",
+            "Population",
+            "<",
+            "500"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "official_name",
+            "from",
+            "city",
+            "where",
+            "population",
+            ">",
+            "value",
+            "or",
+            "population",
+            "<",
+            "value"
+        ],
+        "question": "Find the official names of cities with population bigger than 1500 or smaller than 500.",
+        "question_toks": [
+            "Find",
+            "the",
+            "official",
+            "names",
+            "of",
+            "cities",
+            "with",
+            "population",
+            "bigger",
+            "than",
+            "1500",
+            "or",
+            "smaller",
+            "than",
+            "500",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                2,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    3,
+                    [
+                        0,
+                        [
+                            0,
+                            5,
+                            false
+                        ],
+                        null
+                    ],
+                    1500.0,
+                    null
+                ],
+                "or",
+                [
+                    false,
+                    4,
+                    [
+                        0,
+                        [
+                            0,
+                            5,
+                            false
+                        ],
+                        null
+                    ],
+                    500.0,
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Official_Name FROM city WHERE Population  >  1500 OR Population  <  500",
+        "query_toks": [
+            "SELECT",
+            "Official_Name",
+            "FROM",
+            "city",
+            "WHERE",
+            "Population",
+            ">",
+            "1500",
+            "OR",
+            "Population",
+            "<",
+            "500"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "official_name",
+            "from",
+            "city",
+            "where",
+            "population",
+            ">",
+            "value",
+            "or",
+            "population",
+            "<",
+            "value"
+        ],
+        "question": "What are the official names of cities that have population over 1500 or less than 500?",
+        "question_toks": [
+            "What",
+            "are",
+            "the",
+            "official",
+            "names",
+            "of",
+            "cities",
+            "that",
+            "have",
+            "population",
+            "over",
+            "1500",
+            "or",
+            "less",
+            "than",
+            "500",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                2,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    3,
+                    [
+                        0,
+                        [
+                            0,
+                            5,
+                            false
+                        ],
+                        null
+                    ],
+                    1500.0,
+                    null
+                ],
+                "or",
+                [
+                    false,
+                    4,
+                    [
+                        0,
+                        [
+                            0,
+                            5,
+                            false
+                        ],
+                        null
+                    ],
+                    500.0,
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Census_Ranking FROM city WHERE Status != \"Village\"",
+        "query_toks": [
+            "SELECT",
+            "Census_Ranking",
+            "FROM",
+            "city",
+            "WHERE",
+            "Status",
+            "!",
+            "=",
+            "``",
+            "Village",
+            "''"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "census_ranking",
+            "from",
+            "city",
+            "where",
+            "status",
+            "!",
+            "=",
+            "value"
+        ],
+        "question": "Show the census ranking of cities whose status are not \"Village\".",
+        "question_toks": [
+            "Show",
+            "the",
+            "census",
+            "ranking",
+            "of",
+            "cities",
+            "whose",
+            "status",
+            "are",
+            "not",
+            "``",
+            "Village",
+            "''",
+            "."
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                6,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    7,
+                    [
+                        0,
+                        [
+                            0,
+                            3,
+                            false
+                        ],
+                        null
+                    ],
+                    "\"Village\"",
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "farm",
+        "query": "SELECT Census_Ranking FROM city WHERE Status != \"Village\"",
+        "query_toks": [
+            "SELECT",
+            "Census_Ranking",
+            "FROM",
+            "city",
+            "WHERE",
+            "Status",
+            "!",
+            "=",
+            "``",
+            "Village",
+            "''"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "census_ranking",
+            "from",
+            "city",
+            "where",
+            "status",
+            "!",
+            "=",
+            "value"
+        ],
+        "question": "What are the census rankings of cities that do not have the status \"Village\"?",
+        "question_toks": [
+            "What",
+            "are",
+            "the",
+            "census",
+            "rankings",
+            "of",
+            "cities",
+            "that",
+            "do",
+            "not",
+            "have",
+            "the",
+            "status",
+            "``",
+            "Village",
+            "''",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        0
+                    ]
+                ]
+            },
+            "groupBy": [],
+            "having": [],
+            "intersect": null,
+            "limit": null,
+            "orderBy": [],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                6,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": [
+                [
+                    false,
+                    7,
+                    [
+                        0,
+                        [
+                            0,
+                            3,
+                            false
+                        ],
+                        null
+                    ],
+                    "\"Village\"",
+                    null
+                ]
+            ]
+        }
+    },
+    {
+        "db_id": "student_assessment",
+        "query": "SELECT T1.course_name FROM courses AS T1 JOIN student_course_registrations AS T2 ON T1.course_id = T2.course_Id GROUP BY T1.course_id ORDER BY count(*) DESC LIMIT 1",
+        "query_toks": [
+            "SELECT",
+            "T1.course_name",
+            "FROM",
+            "courses",
+            "AS",
+            "T1",
+            "JOIN",
+            "student_course_registrations",
+            "AS",
+            "T2",
+            "ON",
+            "T1.course_id",
+            "=",
+            "T2.course_Id",
+            "GROUP",
+            "BY",
+            "T1.course_id",
+            "ORDER",
+            "BY",
+            "count",
+            "(",
+            "*",
+            ")",
+            "DESC",
+            "LIMIT",
+            "1"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "t1",
+            ".",
+            "course_name",
+            "from",
+            "courses",
+            "as",
+            "t1",
+            "join",
+            "student_course_registrations",
+            "as",
+            "t2",
+            "on",
+            "t1",
+            ".",
+            "course_id",
+            "=",
+            "t2",
+            ".",
+            "course_id",
+            "group",
+            "by",
+            "t1",
+            ".",
+            "course_id",
+            "order",
+            "by",
+            "count",
+            "(",
+            "*",
+            ")",
+            "desc",
+            "limit",
+            "value"
+        ],
+        "question": "which course has most number of registered students?",
+        "question_toks": [
+            "which",
+            "course",
+            "has",
+            "most",
+            "number",
+            "of",
+            "registered",
+            "students",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [
+                    [
+                        false,
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                18,
+                                false
+                            ],
+                            null
+                        ],
+                        [
+                            0,
+                            28,
+                            false
+                        ],
+                        null
+                    ]
+                ],
+                "table_units": [
+                    [
+                        "table_unit",
+                        3
+                    ],
+                    [
+                        "table_unit",
+                        5
+                    ]
+                ]
+            },
+            "groupBy": [
+                [
+                    0,
+                    18,
+                    false
+                ]
+            ],
+            "having": [],
+            "intersect": null,
+            "limit": 1,
+            "orderBy": [
+                "desc",
+                [
+                    [
+                        0,
+                        [
+                            3,
+                            0,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                19,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "student_assessment",
+        "query": "SELECT T1.course_name FROM courses AS T1 JOIN student_course_registrations AS T2 ON T1.course_id = T2.course_Id GROUP BY T1.course_id ORDER BY count(*) DESC LIMIT 1",
+        "query_toks": [
+            "SELECT",
+            "T1.course_name",
+            "FROM",
+            "courses",
+            "AS",
+            "T1",
+            "JOIN",
+            "student_course_registrations",
+            "AS",
+            "T2",
+            "ON",
+            "T1.course_id",
+            "=",
+            "T2.course_Id",
+            "GROUP",
+            "BY",
+            "T1.course_id",
+            "ORDER",
+            "BY",
+            "count",
+            "(",
+            "*",
+            ")",
+            "DESC",
+            "LIMIT",
+            "1"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "t1",
+            ".",
+            "course_name",
+            "from",
+            "courses",
+            "as",
+            "t1",
+            "join",
+            "student_course_registrations",
+            "as",
+            "t2",
+            "on",
+            "t1",
+            ".",
+            "course_id",
+            "=",
+            "t2",
+            ".",
+            "course_id",
+            "group",
+            "by",
+            "t1",
+            ".",
+            "course_id",
+            "order",
+            "by",
+            "count",
+            "(",
+            "*",
+            ")",
+            "desc",
+            "limit",
+            "value"
+        ],
+        "question": "What is the name of the course with the most registered students?",
+        "question_toks": [
+            "What",
+            "is",
+            "the",
+            "name",
+            "of",
+            "the",
+            "course",
+            "with",
+            "the",
+            "most",
+            "registered",
+            "students",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [
+                    [
+                        false,
+                        2,
+                        [
+                            0,
+                            [
+                                0,
+                                18,
+                                false
+                            ],
+                            null
+                        ],
+                        [
+                            0,
+                            28,
+                            false
+                        ],
+                        null
+                    ]
+                ],
+                "table_units": [
+                    [
+                        "table_unit",
+                        3
+                    ],
+                    [
+                        "table_unit",
+                        5
+                    ]
+                ]
+            },
+            "groupBy": [
+                [
+                    0,
+                    18,
+                    false
+                ]
+            ],
+            "having": [],
+            "intersect": null,
+            "limit": 1,
+            "orderBy": [
+                "desc",
+                [
+                    [
+                        0,
+                        [
+                            3,
+                            0,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                19,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "student_assessment",
+        "query": "SELECT student_id FROM student_course_registrations GROUP BY student_id ORDER BY count(*) LIMIT 1",
+        "query_toks": [
+            "SELECT",
+            "student_id",
+            "FROM",
+            "student_course_registrations",
+            "GROUP",
+            "BY",
+            "student_id",
+            "ORDER",
+            "BY",
+            "count",
+            "(",
+            "*",
+            ")",
+            "LIMIT",
+            "1"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "student_id",
+            "from",
+            "student_course_registrations",
+            "group",
+            "by",
+            "student_id",
+            "order",
+            "by",
+            "count",
+            "(",
+            "*",
+            ")",
+            "limit",
+            "value"
+        ],
+        "question": "what is id of students who registered some courses but the least number of courses in these students?",
+        "question_toks": [
+            "what",
+            "is",
+            "id",
+            "of",
+            "students",
+            "who",
+            "registered",
+            "some",
+            "courses",
+            "but",
+            "the",
+            "least",
+            "number",
+            "of",
+            "courses",
+            "in",
+            "these",
+            "students",
+            "?"
+        ],
+        "sql": {
+            "except": null,
+            "from": {
+                "conds": [],
+                "table_units": [
+                    [
+                        "table_unit",
+                        5
+                    ]
+                ]
+            },
+            "groupBy": [
+                [
+                    0,
+                    27,
+                    false
+                ]
+            ],
+            "having": [],
+            "intersect": null,
+            "limit": 1,
+            "orderBy": [
+                "asc",
+                [
+                    [
+                        0,
+                        [
+                            3,
+                            0,
+                            false
+                        ],
+                        null
+                    ]
+                ]
+            ],
+            "select": [
+                false,
+                [
+                    [
+                        0,
+                        [
+                            0,
+                            [
+                                0,
+                                27,
+                                false
+                            ],
+                            null
+                        ]
+                    ]
+                ]
+            ],
+            "union": null,
+            "where": []
+        }
+    },
+    {
+        "db_id": "student_assessment",
+        "query": "SELECT student_id FROM student_course_registrations GROUP BY student_id ORDER BY count(*) LIMIT 1",
+        "query_toks": [
+            "SELECT",
+            "student_id",
+            "FROM",
+            "student_course_registrations",
+            "GROUP",
+            "BY",
+            "student_id",
+            "ORDER",
+            "BY",
+            "count",
+            "(",
+            "*",
+            ")",
+            "LIMIT",
+            "1"
+        ],
+        "query_toks_no_value": [
+            "select",
+            "student_id",
+            "from",
+            "student_course_registrations",
+            "group",
+            "by",
+            "student_id",
+            "order",
+            "by",
+            "count",
+            "(",
+            "*",
+            ")",
+            "limit",
+            "value"
+        ],
+        "question": "What are the ids of the students 

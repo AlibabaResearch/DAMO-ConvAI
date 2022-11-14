@@ -1,0 +1,75 @@
+great ! can you show me the corresponding {column0} on the list you just provided me ? ||| {'replace_select':['']}
+Can you show me the {column0} and {column1} for him ? ||| {'replace_select':['','']}
+ok. can you also give me his email {column0} ? ||| {'replace_select':['']}
+what are their {column0} ? ||| {'replace_select':['']}
+what is the {column0} of that ? ||| {'replace_select':['']}
+what is the {column0} ? ||| {'replace_select':['']}
+hmm , i also want to know their {column0} and {column1} . ||| {'replace_select':['','']}
+please find out the average {column0} and total {column1} of those . ||| {'replace_select':['avg','count']}
+can you give me their {column0} ? ||| {'replace_select':['']}
+What are their {column0} ? ||| {'add_select':['']}
+Who are the {column0} of these ? ||| {'add_select':['']}
+Ok can I get just their {column0} ? ||| {'replace_select':['']}
+I need the {column0} too oops ||| {'add_select':['']}
+what about {column0} {op0} {value0} ? ||| {'replace_where':None} ||| {'num_where':1}
+Thanks! Can you please list the {column0} and {column1} of them ? ||| {'replace_select':['','']}
+What is the {column0} for that ? ||| {'replace_select':['']}
+what about the {agg0} ? ||| {'replace_agg':None}
+how about the {agg0} ? ||| {'replace_agg':None}
+what about the least ? ||| {'replace_asc':'ASC'} ||| {'compent':['orderBy']}
+what about the most ? ||| {'replace_asc':'DESC'} ||| {'compent':['orderBy']}
+may i get the {column0} of them ? ||| {'replace_select':['']}
+thanks ! can you update this list to include the {column0} information associated with each ? ||| {'replace_select':['']}
+can you plsease include their {column0} too ? ||| {'add_select':['']}
+great ! can you show me the {column0} , {column1} and {column2} of those ? ||| {'replace_select':['','','']}
+great ! now can you filter this list to show me whose {column0} {op0} {value0} ? ||| {'add_where':None}
+what about {op0} {value0} ? ||| {'replace_op':None} ||| {'num_where':1,'compent':['where']}
+what are those {column0} , {column1} , {column2} ? ||| {'replace_select':['','','']}
+hmm , i want to know the {column0} and {column1} and also their {column2} . ||| {'replace_select':['','','']} ||| {'compent':['where']}
+of those , which had the highest {column0} ? ||| {'add_orderby':[('DESC','1')]} ||| {'no_compent':['orderBy']}
+of those , which had the least {column0} ? ||| {'add_orderby':[('ASC','1')]} ||| {'no_compent':['orderBy']}
+of those , which had the lowest {column0} ? ||| {'add_orderby':[('ASC','1')]} ||| {'no_compent':['orderBy']}
+of those , which had the most {column0} ? ||| {'add_orderby':[('DESC','1')]} ||| {'no_compent':['orderBy']}
+can you show me its {column0} and its {column1} please ? ||| {'add_select':['','']}
+And the {column0} {op0} {value0} ? ||| {replace_where:None} ||| {'compent':['where']}
+what is the {column0} of each of those ? ||| {'replace_select':['sum']} ||| {'compent':['groupBy']}
+excellent ! can you update this list to include a column with the {column0} for each of these ? ||| {'add_select':['']}
+can you please give me the {column0} of these ? ||| {'replace_select':['']}
+nice ! finally , can you update that list to show the associated {column0} for each of these ? ||| {'add_select':['']}
+thank you ! can you update this list to show the associated {column0} and {column1} ? ||| {'replace_select':['','']}
+and can you add a column showing their {column0} ? ||| {'add_select':['']}
+ok ... what are their {column0} ? ||| {'replace_select':['']}
+and their {column0} ? ||| {'replace_select':['']}
+and for {op0} {value0} ? ||| {'replace_op':None} ||| {'num_where':1,'compent':['where']}
+what about for {op0} {value0} ? ||| {'replace_op':None} ||| {'num_where':1,'compent':['where']}
+which of those {column0} is {op0} {value0} ? ||| {'add_where':None}
+what are the {column0} for these ? ||| {'add_select':['']}
+arrange this list with the {column0} in ascending order ||| {'add_orderby':[('ASC','')]} ||| {'no_compent':['orderBy']}
+arrange this list with the {column0} in descending order ||| {'add_orderby':[('DESC','')]} ||| {'no_compent':['orderBy']}
+include {column0} id in tha same list . ||| {'add_select':['']}
+can you list their {column0} and {column1} too ? ||| {'add_select':['','']}
+wonderful ! can you update this list to include the {column0} of each of these ? ||| {'add_select':['']}
+could you add the {column0} and {column1} of each of those into the table please ? ||| {'add_select':['','']}
+what is the {agg0} {column0} in each of those ? ||| {'add_select':[''],'replace_agg':None}
+Great! Can you update this list to show only the {column1} with more than one of that , which{column0} {op0} {value0} ||| {'add_where':None,'add_groupby':None,'add_having':[('>',1)]} ||| {'no_compent':['groupBy','orderBy','where','having','intersect','union','except']}
+Great! Can you update this list to show only the {column1} with no more than two of that , which {column0} {op0} {value0} ||| {'add_where':None,'add_groupby':None,'add_having':[('<=',2)]} ||| {'no_compent':['groupBy','orderBy','where','having','intersect','union','except']}
+What about the one with highest . ||| {'replace_asc':'ASC'} ||| {'compent':['orderBy']}
+What about the one with lowest . ||| {'replace_asc':'DESC'} ||| {'compent':['orderBy']}
+Thanks! Can you filter this list which have something {op0} {value0} as the {column0} ? ||| {'add_where':None}
+which of those have a {column0} {op0} {value0} ? ||| {'add_where':None}
+could you just show their {column0} , please ? ||| {'replace_select':['']}
+would you also add in their {column0} ? ||| {'add_select':['']}
+what about the least common ? ||| {'replace_asc':'ASC'} ||| {'compent':['orderBy']}
+what about the most common ? ||| {'replace_asc':'DESC'} ||| {'compent':['orderBy']}
+which of those has at least 3 ? ||| {'add_having':[('>=',3)]} ||| {'no_compent':['having'],'compent':['groupBy']}
+which of those has no more than 3 ? ||| {'add_having':[('<=',3)]} ||| {'no_compent':['having'],'compent':['groupBy']}
+which of those has at most 7 ? ||| {'add_having':[('<=',7)]} ||| {'no_compent':['having'],'compent':['groupBy']}
+Can you please provide me with the {column0} and {column1} of these ? ||| {'replace_select':['','','']}
+Excellent! Can you filter this list to show me just the entries for the 5 most higest {column0} ? ||| {'add_orderby':[('DESC','5')]} ||| {'no_compent':['orderBy']}
+Excellent! Can you filter this list to show me just the entries for the 3 most higest {column0} ? ||| {'add_orderby':[('ASC','3')]} ||| {'no_compent':['orderBy']}
+how many of those have {column0} {op0} {value0} ? ||| {'replace_count':None,'add_where':None} ||| {'num_select':1,'no_compent':['groupBy','orderBy','where','having','intersect','union','except']}
+How many {column0} of that ? ||| {'replace_count':'col'} 
+how many {column0} does each have ? ||| {'replace_count':None,'add_groupby':None} ||| {'num_select':1,'no_compent':['groupBy']}
+how many of them that {column0} {op0} {value0} ? ||| {'replace_count':None,'add_where':None} ||| {'num_select':1,'no_compent':['groupBy','orderBy','where','having','intersect','union','except']}
+how many have {column0} {op0} {value0} ? ||| {'replace_count':None,'add_where':None} ||| {'num_select':1,'no_compent':['groupBy','orderBy','where','having','intersect','union','except']}
+How many {column0} are in each of those ? ||| {'replace_count':'col'}

@@ -1,75 +1,22 @@
-# STAR
-
-This is the project containing source code for the EMNLP 2022 paper "**STAR: SQL Guided Pre-Training for Context-dependent Text-to-SQL Parsing***"*
-
-You can use our checkpoint to evaluation directly or train from scratch with our instructions.
-
-1. File `data_systhesis` contains code to generate conversational text-to-SQL data.
-2. File `pretrain` contains code to pre-train STAR model.
-3. File `LGESQL` contains fine-tune and evaluation code.
-
-The relevant models and data involved in the paper can be downloaded through [Baidu Netdisk](https://pan.baidu.com/s/1uA63h4zpwyDSqY5cprbeJQ?pwd=6666), or downloaded through Google Drive in the corresponding folder.
-
-
-## Pretrain
-
-
-### Create conda environment
-
-The following commands.
-
-Create conda environment `star`:
-
-- In our experiments, we use **torch==1.7.0** with CUDA version 11.0
-- We use four GeForce A-100 for our pre-trained experiments.
-
-  conda create -n star python=3.6
-  conda activate star
-  pip install torch==1.7.0+cu110 -f https://download.pytorch.org/whl/torch_stable.html
-  pip install -r requirements.txt
-
-### Unzip pretraining dataset
-
-Download and move the pretaining data file [pretrain_data.txt](https://drive.google.com/file/d/1YF7Kx0TZMyS_5BJ8GmsFXfuraiogxBID/view?usp=sharing) into the directory `datasets`.
-
-### Training
-
-
-```python
-python pretain_inbatch.py
-```
-
-It may takes two days on four Tesla V100-PCIE-32GB GPU.
-
-### Saving STAR model
-
-```python
-python save_model.py
-```
-
-Then you can get the trained model and its configuration (at least containing `model.bin` and `config.json`) under `pretrained/sss` direction.
-
-## Finetuning
-
+# Results of STAR + LGESQL
 This section presents the results on CoSQL and SParC datasets with STAR fine-tuned with LGESQL.
-
-### Create conda environment
+## Create conda environment
 The following commands.
 
 Create conda environment `lgesql`:
   - In our experiments, we use **torch==1.7.0** with CUDA version 11.0:
-    ```
-    conda create -n lgesql python=3.6
-    source activate lgesql
-    pip install torch==1.8.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
-    pip install -r requirements.txt
-    ```
+
+        conda create -n lgesql python=3.6
+        source activate lgesql
+        pip install torch==1.8.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+        pip install -r requirements.txt
+
   - Next, download dependencies:
-    ```
-    python -c "import nltk; nltk.download('punkt')"
-    python -c "import stanza; stanza.download('en')"
-    python -c "import nltk; nltk.download('stopwords')"
-    ```
+
+        python -c "import nltk; nltk.download('punkt')"
+        python -c "import stanza; stanza.download('en')"
+        python -c "import nltk; nltk.download('stopwords')"
+
 ## Using our checkpoint to evaluation:
   - Download our processed datasets [CoSQL](https://drive.google.com/file/d/1suuQnHVPxZZKRiUBvsUIlw7BnY21Q_6u/view?usp=sharing) or [SParC](https://drive.google.com/file/d/1DrGBq7WGdieanq90TjkiO5JgZMwcDGUu/view?usp=sharing) and unzip them into the `cosql/data` and `sparc/data` respectively. Make sure the datasets are correctly located as:
 ```
@@ -108,6 +55,5 @@ pretrained_models
   - You can preprocess the data with the `process_data&&label.py` file and refer to the methods in LGESQL, or download our processed data as described above directly. 
   - Traning:
   (it will take 4 days on one Tesla V100-PCIE-32GB GPU)
-    ```
-    sh run/run_lgesql_plm.sh
-    ```
+
+        sh run/run_lgesql_plm.sh
