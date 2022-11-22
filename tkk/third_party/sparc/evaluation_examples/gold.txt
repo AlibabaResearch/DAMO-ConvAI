@@ -1,0 +1,453 @@
+SELECT * FROM AIRLINES	flight_2
+SELECT * FROM AIRLINES WHERE Airline  =  "JetBlue Airways"	flight_2
+SELECT Country FROM AIRLINES WHERE Airline  =  "JetBlue Airways"	flight_2
+
+SELECT Abbreviation FROM AIRLINES	flight_2
+SELECT Abbreviation FROM AIRLINES WHERE Airline  =  "JetBlue Airways"	flight_2
+
+SELECT Airline ,  Abbreviation FROM AIRLINES	flight_2
+SELECT Airline ,  Abbreviation FROM AIRLINES WHERE Country  =  "USA"	flight_2
+
+SELECT * FROM AIRPORTS WHERE city  =  "Anthony"	flight_2
+SELECT AirportCode ,  AirportName FROM AIRPORTS WHERE city  =  "Anthony"	flight_2
+
+SELECT * FROM AIRLINES	flight_2
+SELECT count(*) FROM AIRLINES	flight_2
+
+SELECT * FROM AIRPORTS	flight_2
+SELECT count(*) FROM AIRPORTS	flight_2
+
+SELECT * FROM FLIGHTS	flight_2
+SELECT count(*) FROM FLIGHTS	flight_2
+
+SELECT Airline FROM AIRLINES	flight_2
+SELECT Airline FROM AIRLINES WHERE Abbreviation  =  "UAL"	flight_2
+
+SELECT airline FROM AIRLINES WHERE Country  =  "USA"	flight_2
+SELECT count(*) FROM AIRLINES WHERE Country  =  "USA"	flight_2
+
+SELECT City ,  Country FROM AIRPORTS	flight_2
+SELECT City ,  Country FROM AIRPORTS WHERE AirportName  =  "Alton"	flight_2
+
+SELECT AirportName FROM AIRPORTS	flight_2
+SELECT AirportName FROM AIRPORTS WHERE AirportCode  =  "AKO"	flight_2
+
+SELECT AirportName FROM AIRPORTS	flight_2
+SELECT AirportName FROM AIRPORTS WHERE City = "Aberdeen"	flight_2
+
+SELECT * FROM FLIGHTS WHERE SourceAirport  =  "APG"	flight_2
+SELECT count(*) FROM FLIGHTS WHERE SourceAirport  =  "APG"	flight_2
+
+SELECT * FROM FLIGHTS WHERE DestAirport  =  "ATO"	flight_2
+SELECT count(*) FROM FLIGHTS WHERE DestAirport  =  "ATO"	flight_2
+
+SELECT * FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.SourceAirport  =  T2.AirportCode WHERE T2.City  =  "Aberdeen"	flight_2
+SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.SourceAirport  =  T2.AirportCode WHERE T2.City  =  "Aberdeen"	flight_2
+
+SELECT * FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode WHERE T2.City  =  "Aberdeen"	flight_2
+SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode WHERE T2.City  =  "Aberdeen"	flight_2
+
+SELECT * FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.SourceAirport  =  T2.AirportCode WHERE T2.City  =  "Aberdeen"	flight_2
+SELECT * FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode JOIN AIRPORTS AS T3 ON T1.SourceAirport  =  T3.AirportCode WHERE T2.City  =  "Ashley" AND T3.City  =  "Aberdeen"	flight_2
+SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode JOIN AIRPORTS AS T3 ON T1.SourceAirport  =  T3.AirportCode WHERE T2.City  =  "Ashley" AND T3.City  =  "Aberdeen"	flight_2
+
+SELECT * FROM FLIGHTS AS T1 JOIN AIRLINES AS T2 ON T1.Airline  =  T2.uid WHERE T2.Airline = "JetBlue Airways"	flight_2
+SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRLINES AS T2 ON T1.Airline  =  T2.uid WHERE T2.Airline = "JetBlue Airways"	flight_2
+
+SELECT * FROM AIRLINES WHERE Airline  =  "United Airlines"	flight_2
+SELECT count(*) FROM AIRLINES WHERE Airline  =  "United Airlines"	flight_2
+SELECT count(*) FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T2.Airline  =  T1.uid WHERE T1.Airline  =  "United Airlines" AND T2.DestAirport  =  "ASY"	flight_2
+
+SELECT * FROM AIRLINES WHERE Airline  =  "United Airlines"	flight_2
+SELECT * FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T2.Airline  =  T1.uid WHERE T1.Airline  =  "United Airlines" AND T2.SourceAirport  =  "AHD"	flight_2
+SELECT count(*) FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T2.Airline  =  T1.uid WHERE T1.Airline  =  "United Airlines" AND T2.SourceAirport  =  "AHD"	flight_2
+
+SELECT * FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode JOIN AIRLINES AS T3 ON T3.uid  =  T1.Airline WHERE T2.City  =  "Aberdeen" AND T3.Airline  =  "United Airlines"	flight_2
+SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode JOIN AIRLINES AS T3 ON T3.uid  =  T1.Airline WHERE T2.City  =  "Aberdeen" AND T3.Airline  =  "United Airlines"	flight_2
+
+SELECT T1.City FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport	flight_2
+SELECT T1.City FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport GROUP BY T1.City ORDER BY count(*) DESC	flight_2
+SELECT T1.City FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport GROUP BY T1.City ORDER BY count(*) DESC LIMIT 1	flight_2
+
+SELECT T1.City FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.SourceAirport	flight_2
+SELECT T1.City FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.SourceAirport GROUP BY T1.City ORDER BY count(*) DESC	flight_2
+SELECT T1.City FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.SourceAirport GROUP BY T1.City ORDER BY count(*) DESC LIMIT 1	flight_2
+
+SELECT T1.AirportCode FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport	flight_2
+SELECT T1.AirportCode FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport OR T1.AirportCode  =  T2.SourceAirport	flight_2
+SELECT T1.AirportCode FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport OR T1.AirportCode  =  T2.SourceAirport GROUP BY T1.AirportCode ORDER BY count(*) DESC LIMIT 1	flight_2
+
+SELECT T1.AirportCode FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport	flight_2
+SELECT T1.AirportCode FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport OR T1.AirportCode  =  T2.SourceAirport	flight_2
+SELECT T1.AirportCode FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport OR T1.AirportCode  =  T2.SourceAirport GROUP BY T1.AirportCode ORDER BY count(*) LIMIT 1	flight_2
+
+SELECT count(*) ,  T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline	flight_2
+SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline ORDER BY count(*) DESC LIMIT 1	flight_2
+
+SELECT Abbreviation ,  Country FROM AIRLINES	flight_2
+SELECT T1.Abbreviation ,  T1.Country FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline ORDER BY count(*)	flight_2
+SELECT T1.Abbreviation ,  T1.Country FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline ORDER BY count(*) LIMIT 1	flight_2
+
+SELECT * FROM FLIGHTS WHERE SourceAirport  =  "AHD"	flight_2
+SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  "AHD"	flight_2
+
+SELECT * FROM FLIGHTS WHERE DestAirport  =  "AHD"	flight_2
+SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.DestAirport  =  "AHD"	flight_2
+
+SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  "APG"	flight_2
+SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  "APG" INTERSECT SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  "CVO"	flight_2
+
+SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  "CVO"	flight_2
+SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  "CVO" EXCEPT SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  "APG"	flight_2
+
+SELECT DISTINCT Airline FROM AIRLINES	flight_2
+SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline HAVING count(*)  >  10	flight_2
+
+SELECT DISTINCT Airline FROM AIRLINES	flight_2
+SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline HAVING count(*)  <  200	flight_2
+
+SELECT FlightNo FROM FLIGHTS	flight_2
+SELECT T1.FlightNo FROM FLIGHTS AS T1 JOIN AIRLINES AS T2 ON T2.uid  =  T1.Airline WHERE T2.Airline  =  "United Airlines"	flight_2
+
+SELECT FlightNo FROM FLIGHTS	flight_2
+SELECT FlightNo FROM FLIGHTS WHERE SourceAirport  =  "APG"	flight_2
+
+SELECT FlightNo FROM FLIGHTS	flight_2
+SELECT FlightNo FROM FLIGHTS WHERE DestAirport  =  "APG"	flight_2
+
+SELECT FlightNo FROM FLIGHTS	flight_2
+SELECT T1.FlightNo FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.SourceAirport   =  T2.AirportCode	flight_2
+SELECT T1.FlightNo FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.SourceAirport   =  T2.AirportCode WHERE T2.City  =  "Aberdeen"	flight_2
+
+SELECT FlightNo FROM FLIGHTS	flight_2
+SELECT T1.FlightNo FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport   =  T2.AirportCode	flight_2
+SELECT T1.FlightNo FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport   =  T2.AirportCode WHERE T2.City  =  "Aberdeen"	flight_2
+
+SELECT * FROM Flights AS T1 JOIN Airports AS T2 ON T1.DestAirport  =  T2.AirportCode WHERE T2.city  =  "Aberdeen"	flight_2
+SELECT * FROM Flights AS T1 JOIN Airports AS T2 ON T1.DestAirport  =  T2.AirportCode WHERE T2.city  =  "Aberdeen" OR T2.city  =  "Abilene"	flight_2
+SELECT count(*) FROM Flights AS T1 JOIN Airports AS T2 ON T1.DestAirport  =  T2.AirportCode WHERE T2.city  =  "Aberdeen" OR T2.city  =  "Abilene"	flight_2
+
+SELECT SourceAirport FROM Flights	flight_2
+SELECT SourceAirport FROM Flights UNION SELECT DestAirport FROM Flights	flight_2
+SELECT AirportName FROM Airports WHERE AirportCode NOT IN (SELECT SourceAirport FROM Flights UNION SELECT DestAirport FROM Flights)	flight_2
+
+SELECT * FROM pets	pets_1
+SELECT * FROM pets WHERE weight  >  10	pets_1
+SELECT count(*) FROM pets WHERE weight  >  10	pets_1
+
+SELECT * FROM pets ORDER BY pet_age	pets_1
+SELECT weight FROM pets ORDER BY pet_age	pets_1
+SELECT weight FROM pets ORDER BY pet_age LIMIT 1	pets_1
+
+SELECT DISTINCT petType FROM pets	pets_1
+SELECT max(weight) ,  petType FROM pets GROUP BY petType	pets_1
+
+SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid WHERE T1.age  >  20	pets_1
+SELECT count(*) FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid WHERE T1.age  >  20	pets_1
+
+SELECT * FROM student WHERE sex  =  'F'	pets_1
+SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid WHERE T1.sex  =  'F'	pets_1
+SELECT count(*) FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T2.petid  =  T3.petid WHERE T1.sex  =  'F' AND T3.pettype  =  'dog'	pets_1
+
+SELECT DISTINCT pettype FROM pets	pets_1
+SELECT count(DISTINCT pettype) FROM pets	pets_1
+
+SELECT DISTINCT T1.Fname FROM student AS T1	pets_1
+SELECT DISTINCT T1.Fname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat'	pets_1
+SELECT DISTINCT T1.Fname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat' OR T3.pettype  =  'dog'	pets_1
+
+SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'dog'	pets_1
+SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat' INTERSECT SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'dog'	pets_1
+SELECT T1.Fname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat' INTERSECT SELECT T1.Fname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'dog'	pets_1
+
+SELECT * FROM student WHERE stuid NOT IN (SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat')	pets_1
+SELECT major FROM student WHERE stuid NOT IN (SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat')	pets_1
+SELECT major ,  age FROM student WHERE stuid NOT IN (SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat')	pets_1
+
+SELECT stuid FROM student	pets_1
+SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat'	pets_1
+SELECT stuid FROM student EXCEPT SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat'	pets_1
+
+SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'dog'	pets_1
+SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'dog' EXCEPT SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat'	pets_1
+SELECT T1.fname ,  T1.age FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'dog' EXCEPT SELECT T1.fname ,  T1.age FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat'	pets_1
+
+SELECT * FROM pets ORDER BY pet_age LIMIT 1	pets_1
+SELECT pettype FROM pets ORDER BY pet_age LIMIT 1	pets_1
+SELECT pettype ,  weight FROM pets ORDER BY pet_age LIMIT 1	pets_1
+
+SELECT petid FROM pets	pets_1
+SELECT petid FROM pets WHERE pet_age  >  1	pets_1
+SELECT petid ,  weight FROM pets WHERE pet_age  >  1	pets_1
+
+SELECT DISTINCT pettype FROM pets	pets_1
+SELECT max(pet_age) ,  pettype FROM pets GROUP BY pettype	pets_1
+SELECT avg(pet_age) ,  pettype FROM pets GROUP BY pettype	pets_1
+
+SELECT * FROM pets	pets_1
+SELECT avg(weight) ,  pettype FROM pets GROUP BY pettype	pets_1
+
+SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid	pets_1
+SELECT DISTINCT T1.fname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid	pets_1
+SELECT DISTINCT T1.fname ,  T1.age FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid	pets_1
+
+SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid	pets_1
+SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid WHERE T1.Lname  =  'Smith'	pets_1
+SELECT T2.petid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid WHERE T1.Lname  =  'Smith'	pets_1
+
+SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid	pets_1
+SELECT count(*) ,  T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid GROUP BY T1.stuid	pets_1
+
+SELECT T1.fname ,  T1.sex FROM student AS T1	pets_1
+SELECT T1.fname ,  T1.sex FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid GROUP BY T1.stuid HAVING count(*)  >  1	pets_1
+
+SELECT petid FROM pets WHERE pet_age  =  3 AND pettype  =  'cat'	pets_1
+SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pet_age  =  3 AND T3.pettype  =  'cat'	pets_1
+SELECT T1.lname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pet_age  =  3 AND T3.pettype  =  'cat'	pets_1
+
+SELECT * FROM student WHERE stuid NOT IN (SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid)	pets_1
+SELECT avg(age) FROM student WHERE stuid NOT IN (SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid)	pets_1
+
+SELECT Name FROM country	world_1
+SELECT Name FROM country WHERE IndepYear  >  1950	world_1
+
+SELECT count(*) FROM country	world_1
+SELECT count(*) FROM country WHERE GovernmentForm  =  "Republic"	world_1
+
+SELECT * FROM country WHERE Region  =  "Caribbean"	world_1
+SELECT SurfaceArea FROM country WHERE Region  =  "Caribbean"	world_1
+SELECT sum(SurfaceArea) FROM country WHERE Region  =  "Caribbean"	world_1
+
+SELECT Continent FROM country	world_1
+SELECT Continent FROM country WHERE Name  =  "Anguilla"	world_1
+
+SELECT Region FROM country	world_1
+SELECT Region FROM country AS T1 JOIN city AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Name  =  "Kabul"	world_1
+
+SELECT LANGUAGE FROM countrylanguage	world_1
+SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  "Aruba"	world_1
+SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  "Aruba" ORDER BY Percentage DESC LIMIT 1	world_1
+
+SELECT Population ,  LifeExpectancy FROM country	world_1
+SELECT Population ,  LifeExpectancy FROM country WHERE Name  =  "Brazil"	world_1
+
+SELECT Region FROM country WHERE Name  =  "Angola"	world_1
+SELECT Population FROM country WHERE Name  =  "Angola"	world_1
+
+SELECT LifeExpectancy FROM country	world_1
+SELECT LifeExpectancy FROM country WHERE Region  =  "Central Africa"	world_1
+SELECT avg(LifeExpectancy) FROM country WHERE Region  =  "Central Africa"	world_1
+
+SELECT Name FROM country WHERE Continent  =  "Asia"	world_1
+SELECT Name FROM country WHERE Continent  =  "Asia" ORDER BY LifeExpectancy LIMIT 1	world_1
+
+SELECT sum(Population) FROM country WHERE Continent  =  "Asia"	world_1
+SELECT max(GNP) FROM country WHERE Continent  =  "Asia"	world_1
+
+SELECT * FROM country WHERE Continent  =  "Africa"	world_1
+SELECT * FROM country WHERE Continent  =  "Africa" AND GovernmentForm  =  "Republic"	world_1
+SELECT avg(LifeExpectancy) FROM country WHERE Continent  =  "Africa" AND GovernmentForm  =  "Republic"	world_1
+
+SELECT * FROM country WHERE Continent  =  "Asia" OR Continent  =  "Europe"	world_1
+SELECT SurfaceArea FROM country WHERE Continent  =  "Asia" OR Continent  =  "Europe"	world_1
+SELECT sum(SurfaceArea) FROM country WHERE Continent  =  "Asia" OR Continent  =  "Europe"	world_1
+
+SELECT Population FROM city WHERE District  =  "Gelderland"	world_1
+SELECT sum(Population) FROM city WHERE District  =  "Gelderland"	world_1
+
+SELECT * FROM country	world_1
+SELECT * FROM country WHERE GovernmentForm  =  "US Territory"	world_1
+SELECT avg(GNP) ,  sum(population) FROM country WHERE GovernmentForm  =  "US Territory"	world_1
+
+SELECT DISTINCT LANGUAGE FROM countrylanguage	world_1
+SELECT count(DISTINCT LANGUAGE) FROM countrylanguage	world_1
+
+SELECT DISTINCT GovernmentForm FROM country WHERE Continent  =  "Africa"	world_1
+SELECT count(DISTINCT GovernmentForm) FROM country WHERE Continent  =  "Africa"	world_1
+
+SELECT * FROM country WHERE Name  =  "Aruba"	world_1
+SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  "Aruba"	world_1
+SELECT COUNT(T2.Language) FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  "Aruba"	world_1
+
+SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  "Afghanistan"	world_1
+SELECT COUNT(*) FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  "Afghanistan" AND IsOfficial  =  "T"	world_1
+
+SELECT count(*) ,  T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Name	world_1
+SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Name ORDER BY COUNT(*) DESC LIMIT 1	world_1
+
+SELECT COUNT(*) ,  T1.Continent FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Continent	world_1
+SELECT T1.Continent FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Continent ORDER BY COUNT(*) DESC LIMIT 1	world_1
+
+SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English"	world_1
+SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" INTERSECT SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "Dutch"	world_1
+SELECT COUNT(*) FROM (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" INTERSECT SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "Dutch")	world_1
+
+SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English"	world_1
+SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" INTERSECT SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "French"	world_1
+
+SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.IsOfficial  =  "T"	world_1
+SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" AND T2.IsOfficial  =  "T"	world_1
+SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" AND T2.IsOfficial  =  "T" INTERSECT SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "French" AND T2.IsOfficial  =  "T"	world_1
+
+SELECT T1.name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "Chinese"	world_1
+SELECT DISTINCT T1.Continent FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "Chinese"	world_1
+SELECT COUNT( DISTINCT Continent) FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "Chinese"	world_1
+
+SELECT DISTINCT Region FROM country	world_1
+SELECT DISTINCT T1.Region FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" OR T2.Language  =  "Dutch"	world_1
+
+SELECT T2.Language ,  T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE IsOfficial  =  "T"	world_1
+SELECT * FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" AND IsOfficial  =  "T" UNION SELECT * FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "Dutch" AND IsOfficial  =  "T"	world_1
+
+SELECT DISTINCT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Continent  =  "Asia"	world_1
+SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Continent  =  "Asia" GROUP BY T2.Language ORDER BY COUNT (*) DESC LIMIT 1	world_1
+
+SELECT * FROM country WHERE GovernmentForm  =  "Republic"	world_1
+SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.GovernmentForm  =  "Republic" GROUP BY T2.Language HAVING COUNT(*)  =  1	world_1
+
+SELECT T1.Name FROM city AS T1 JOIN countrylanguage AS T2 ON T1.CountryCode  =  T2.CountryCode WHERE T2.Language  =  "English"	world_1
+SELECT T1.Name ,  T1.Population FROM city AS T1 JOIN countrylanguage AS T2 ON T1.CountryCode  =  T2.CountryCode WHERE T2.Language  =  "English" ORDER BY T1.Population DESC LIMIT 1	world_1
+
+SELECT Name ,  Population ,  LifeExpectancy FROM country WHERE Continent  =  "Asia"	world_1
+SELECT Name ,  Population ,  LifeExpectancy FROM country WHERE Continent  =  "Asia" ORDER BY SurfaceArea DESC LIMIT 1	world_1
+
+SELECT T2.Language ,  T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.IsOfficial  =  "T"	world_1
+SELECT * FROM country WHERE Name NOT IN (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" AND T2.IsOfficial  =  "T")	world_1
+SELECT avg(LifeExpectancy) FROM country WHERE Name NOT IN (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" AND T2.IsOfficial  =  "T")	world_1
+
+SELECT Name FROM country WHERE Name NOT IN (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English")	world_1
+SELECT sum(Population) FROM country WHERE Name NOT IN (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English")	world_1
+
+SELECT * FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.HeadOfState  =  "Beatrix"	world_1
+SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.HeadOfState  =  "Beatrix"	world_1
+SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.HeadOfState  =  "Beatrix" AND T2.IsOfficial  =  "T"	world_1
+
+SELECT T1.Name FROM country AS t1	world_1
+SELECT T1.Name FROM country AS t1 WHERE  IndepYear  <  1930	world_1
+SELECT count(DISTINCT T2.Language) FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE  IndepYear  <  1930 AND T2.IsOfficial  =  "T"	world_1
+
+SELECT * FROM country WHERE Continent  =  "Europe"	world_1
+SELECT min(SurfaceArea) FROM country WHERE Continent  =  "Europe"	world_1
+SELECT Name FROM country WHERE SurfaceArea  >  (SELECT min(SurfaceArea) FROM country WHERE Continent  =  "Europe")	world_1
+
+SELECT min(population) FROM country WHERE Continent  =  "Asia"	world_1
+SELECT Name FROM country WHERE Continent  =  "Africa"  AND population  <  (SELECT max(population) FROM country WHERE Continent  =  "Asia")	world_1
+
+SELECT min(population) FROM country WHERE Continent  =  "Africa"	world_1
+SELECT Name FROM country WHERE Continent  =  "Asia"  AND population  >  (SELECT min(population) FROM country WHERE Continent  =  "Africa")	world_1
+
+SELECT CountryCode FROM countrylanguage	world_1
+SELECT CountryCode FROM countrylanguage EXCEPT SELECT CountryCode FROM countrylanguage WHERE LANGUAGE  =  "English"	world_1
+
+SELECT DISTINCT CountryCode FROM countrylanguage	world_1
+SELECT DISTINCT CountryCode FROM countrylanguage WHERE LANGUAGE ! =  "English"	world_1
+
+SELECT Code FROM country WHERE GovernmentForm ! =  "Republic"	world_1
+SELECT Code FROM country WHERE GovernmentForm ! =  "Republic" EXCEPT SELECT CountryCode FROM countrylanguage WHERE LANGUAGE  =  "English"	world_1
+
+SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.IsOfficial  =  'T' AND T2.Language  =  'English'	world_1
+SELECT Name FROM country WHERE Continent  =  'Europe' AND Name NOT IN (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.IsOfficial  =  'T' AND T2.Language  =  'English')	world_1
+SELECT DISTINCT T2.Name FROM country AS T1 JOIN city AS T2 ON T2.CountryCode  =  T1.Code WHERE T1.Continent  =  'Europe' AND T1.Name NOT IN (SELECT T3.Name FROM country AS T3 JOIN countrylanguage AS T4 ON T3.Code  =  T4.CountryCode WHERE T4.IsOfficial  =  'T' AND T4.Language  =  'English')	world_1
+
+SELECT * FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  'Chinese' AND T1.Continent  =  "Asia"	world_1
+SELECT * FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.IsOfficial  =  'T' AND T2.Language  =  'Chinese' AND T1.Continent  =  "Asia"	world_1
+SELECT DISTINCT T3.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode JOIN city AS T3 ON T1.Code  =  T3.CountryCode WHERE T2.IsOfficial  =  'T' AND T2.Language  =  'Chinese' AND T1.Continent  =  "Asia"	world_1
+
+SELECT * FROM country ORDER BY Population LIMIT 1	world_1
+SELECT Name ,  SurfaceArea ,  IndepYear FROM country ORDER BY Population LIMIT 1	world_1
+
+SELECT * FROM country ORDER BY SurfaceArea DESC LIMIT 1	world_1
+SELECT Name ,  population ,  HeadOfState FROM country ORDER BY SurfaceArea DESC LIMIT 1	world_1
+
+SELECT Name FROM country	world_1
+SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Name HAVING COUNT(*)  >  2	world_1
+SELECT COUNT(T2.Language) ,  T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Name HAVING COUNT(*)  >  2	world_1
+
+SELECT avg(Population) FROM city	world_1
+SELECT count(*) ,  District FROM city WHERE Population  >  (SELECT avg(Population) FROM city) GROUP BY District	world_1
+
+SELECT * FROM country GROUP BY GovernmentForm HAVING avg(LifeExpectancy)  >  72	world_1
+SELECT sum(Population) ,  GovernmentForm FROM country GROUP BY GovernmentForm HAVING avg(LifeExpectancy)  >  72	world_1
+
+SELECT Continent FROM country GROUP BY Continent HAVING avg(LifeExpectancy)  <  72	world_1
+SELECT sum(Population) ,  avg(LifeExpectancy) ,  Continent FROM country GROUP BY Continent HAVING avg(LifeExpectancy)  <  72	world_1
+
+SELECT * FROM country ORDER BY SurfaceArea DESC LIMIT 5	world_1
+SELECT Name ,  SurfaceArea FROM country ORDER BY SurfaceArea DESC LIMIT 5	world_1
+
+SELECT * FROM country ORDER BY Population DESC	world_1
+SELECT Name FROM country ORDER BY Population DESC LIMIT 3	world_1
+
+SELECT * FROM country ORDER BY Population	world_1
+SELECT Name FROM country ORDER BY Population DESC LIMIT 3	world_1
+
+SELECT * FROM country WHERE continent  =  "Asia"	world_1
+SELECT count(*) FROM country WHERE continent  =  "Asia"	world_1
+
+SELECT * FROM country WHERE continent  =  "Europe"	world_1
+SELECT Name FROM country WHERE continent  =  "Europe" AND Population  =  "80000"	world_1
+
+SELECT * FROM country WHERE Continent  =  "North America"	world_1
+SELECT * FROM country WHERE Continent  =  "North America" AND SurfaceArea  >  3000	world_1
+SELECT sum(Population) ,  avg(SurfaceArea) FROM country WHERE Continent  =  "North America" AND SurfaceArea  >  3000	world_1
+
+SELECT name FROM city	world_1
+SELECT name FROM city WHERE Population BETWEEN 160000 AND 90000	world_1
+
+SELECT LANGUAGE FROM countrylanguage	world_1
+SELECT LANGUAGE FROM countrylanguage GROUP BY LANGUAGE ORDER BY count(*) DESC LIMIT 1	world_1
+
+SELECT Directed_by FROM Cartoon WHERE Title = "Day of the Dark Knight!"	tvshow
+SELECT Channel FROM Cartoon WHERE Title = "Day of the Dark Knight!"	tvshow
+SELECT Title FROM Cartoon WHERE Directed_by = "Ben Jones" OR Directed_by = "Brandon Vietti"	tvshow
+
+SELECT * FROM TV_Channel WHERE Country = "Italy"	tvshow
+SELECT * FROM TV_Channel WHERE Country = "Poland"	tvshow
+SELECT Country ,  count(*) FROM TV_Channel GROUP BY Country ORDER BY count(*) DESC LIMIT 1	tvshow
+
+SELECT Channel FROM Cartoon WHERE Title = "The Eyes of Despero!"	tvshow
+SELECT series_name FROM TV_Channel WHERE id IN (SELECT Channel FROM Cartoon WHERE Title = "The Eyes of Despero!")	tvshow
+SELECT count(DISTINCT series_name) ,  count(DISTINCT content) FROM TV_Channel	tvshow
+
+SELECT Package_Option FROM TV_Channel WHERE series_name = "Rock TV"	tvshow
+SELECT Language FROM TV_Channel WHERE series_name = "Rock TV"	tvshow
+SELECT LANGUAGE ,  count(*) FROM TV_Channel GROUP BY LANGUAGE ORDER BY count(*) ASC LIMIT 1	tvshow
+
+SELECT Written_by FROM Cartoon WHERE Title = "The Rise of the Blue Beetle!"	tvshow
+SELECT Directed_by FROM Cartoon WHERE Title = "The Rise of the Blue Beetle!"	tvshow
+SELECT T1.series_name FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Title = "The Rise of the Blue Beetle!"	tvshow
+
+SELECT Country FROM TV_Channel WHERE series_name = "Sky Radio"	tvshow
+SELECT Content FROM TV_Channel WHERE series_name = "Sky Radio"	tvshow
+SELECT T2.Title FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T1.series_name = "Sky Radio"	tvshow
+
+SELECT Rating FROM TV_series WHERE Episode = "Double Down"	tvshow
+SELECT Rating FROM TV_series WHERE Episode = "Keepers"	tvshow
+SELECT Episode ,  Rating FROM TV_series ORDER BY Rating DESC LIMIT 3	tvshow
+
+SELECT Weekly_Rank FROM TV_series WHERE Episode = "Emily"	tvshow
+SELECT Share FROM TV_series WHERE Episode = "Emily"	tvshow
+SELECT max(SHARE) , min(SHARE) FROM TV_series	tvshow
+
+SELECT Rating FROM TV_series WHERE Episode = "A Love of a Lifetime"	tvshow
+SELECT Weekly_Rank FROM TV_series WHERE Episode = "A Love of a Lifetime"	tvshow
+SELECT T1.series_name FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.Episode = "A Love of a Lifetime"	tvshow
+
+SELECT Content FROM TV_Channel WHERE series_name = "Sky Radio"	tvshow
+SELECT Language FROM TV_Channel WHERE series_name = "Sky Radio"	tvshow
+SELECT T2.Episode FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T1.series_name = "Sky Radio"	tvshow
+
+SELECT Original_air_date FROM Cartoon WHERE Title = "Fall of the Blue Beetle!"	tvshow
+SELECT Production_code FROM Cartoon WHERE Title = "Fall of the Blue Beetle!"	tvshow
+SELECT production_code ,  channel FROM cartoon ORDER BY original_air_date LIMIT 1	tvshow
+
+SELECT Title FROM Cartoon WHERE Directed_by = "Ben Jones"	tvshow
+SELECT Title FROM Cartoon WHERE Written_by = "Todd Casey"	tvshow
+SELECT T1.country FROM TV_Channel AS T1 JOIN cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Written_by  =  'Todd Casey'	tvshow
+
+SELECT T1.country FROM TV_Channel AS T1 JOIN cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Written_by  =  'Steven Melching'	tvshow
+SELECT country FROM TV_Channel EXCEPT SELECT T1.country FROM TV_Channel AS T1 JOIN cartoon AS T2 ON T1.id = T2.Channel WHERE T2.written_by  =  'Todd Casey'	tvshow
+
+SELECT Directed_by FROM Cartoon WHERE Title = "Deep Cover for Batman!"	tvshow
+SELECT Production_code FROM Cartoon WHERE Title = "Deep Cover for Batman!"	tvshow
+SELECT T1.series_name ,  T1.country FROM TV_Channel AS T1 JOIN cartoon AS T2 ON T1.id = T2.Channel WHERE T2.directed_by  =  'Michael Chang' INTERSECT SELECT T1.series_name ,  T1.country FROM TV_Channel AS T1 JOIN cartoon AS T2 ON T1.id = T2.Channel WHERE T2.directed_by  =  'Ben Jones'	tvshow

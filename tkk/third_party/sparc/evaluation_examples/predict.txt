@@ -1,0 +1,453 @@
+select * from airlines
+select T1.Airline,T2.AirportName from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+select Country from airports where Country = 'terminal'
+
+select * from airlines
+select AirportName from airports where AirportName = 'terminal'
+
+select T1.Airline,T2.AirportName from airlines as T1 join airports as T2
+select * from airlines as T1 join airports as T2 where T1.Airline = 'terminal' and T2.AirportName = 'terminal'
+
+select * from airports where AirportName = 'terminal'
+select T1.Airline,T2.AirportName from airlines as T1 join airports as T2
+
+select * from airlines
+select count(*) from airports where Country = 'terminal'
+
+select * from airlines
+select count(*) from airports where Country = 'terminal'
+
+select * from airlines
+select count(*) from airports where Country = 'terminal'
+
+select Airline from airlines
+select AirportName from airports where AirportName = 'terminal'
+
+select T1.Airline from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+select count(*) from airports where Country = 'terminal'
+
+select Country,City from airports
+select AirportCode,AirportName,City from airports where Country = 'terminal'
+
+select AirportName from airports
+select AirportName,AirportCode from airports where AirportName = 'terminal'
+
+select AirportName from airports
+select AirportName from airports where AirportName = 'terminal'
+
+select * from flights where DestAirport = 'terminal'
+select count(*) from airports where Country = 'terminal'
+
+select City from airports where Country = 'terminal'
+select count(*) from airports where Country = 'terminal'
+
+select * from flights where SourceAirport = 'terminal'
+select count(*) from airports where Country = 'terminal'
+
+select * from airlines
+select count(*) from airports where Country = 'terminal'
+
+select * from flights where DestAirport = 'terminal'
+select City,AirportName from airports where Country = 'terminal'
+select count(*) from airports where Country = 'terminal'
+
+select * from airlines
+select count(*) from airports where Country = 'terminal'
+
+select * from airlines
+select count(*) from airports where Country = 'terminal'
+select count(*) from airports where Country = 'terminal'
+
+select * from airlines
+select AirportName from airports where Country = 'terminal'
+select count(*) from airports where Country = 'terminal'
+
+select T2.AirportName,T1.Airline from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+select count(*) from airports where Country = 'terminal'
+
+select City from airports
+select count(*) from airlines group by uid
+select Country from airports group by Country order by count(*) desc limit 1
+
+select City from airports
+select count(*) from airlines group by uid
+select Country from airports group by Country order by count(*) desc limit 1
+
+select AirportCode from airports where AirportName = 'terminal'
+select AirportCode from airports
+select FlightNo,count(*) from flights group by DestAirport order by count(*) desc limit 1
+
+select AirportCode from airports where AirportName = 'terminal'
+select AirportCode from airports
+select * from airlines group by uid order by count(*) asc limit 1
+
+select count(*) from airlines group by uid
+select Airline from airlines group by uid order by count(*) desc limit 1
+
+select T2.Country,T1.Country from airlines as T1 join airports as T2
+select T1.CountryAbbrev,count(*) from airports as T1 join flights as T2 on T1.AirportCode = T2.DestAirport order by T2.FlightNo asc 
+select Country from airports group by Country order by count(*) asc limit 1
+
+select City from airports where Country = 'terminal'
+select Airline from airlines where Airline = 'terminal'
+
+select AirportName from airports where AirportName = 'terminal'
+select Airline from airlines where Airline = 'terminal'
+
+select * from airports where AirportName = 'terminal'
+select T1.Airline,T2.AirportName from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+
+select * from airports where AirportName = 'terminal'
+select T1.Airline,T2.AirportName from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+
+select * from airlines
+select Country from airports group by Country having count(*) > 'terminal'
+
+select * from airlines
+select Country from airlines where Airline = 'terminal'
+
+select FlightNo from flights
+select T1.Airline,T2.AirportName from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+
+select FlightNo from flights
+select T1.Airline,T2.AirportName from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+
+select FlightNo from flights
+select T3.FlightNo,T1.Airline from airlines as T1 join airports as T2 join flights as T3 where T2.AirportName = 'terminal'
+
+select FlightNo from flights
+select T2.AirportName,T1.Airline from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+select AirportName from airports where AirportName = 'terminal'
+
+select FlightNo from flights
+select T2.AirportName,T1.Airline from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+select City from airports where Country = 'terminal'
+
+select City from airports where Country = 'terminal'
+select AirportName from airports where AirportName = 'terminal'
+select count(*) from airports where Country = 'terminal'
+
+select AirportName from airports
+select AirportName from airports
+select * from airports where AirportName like 'terminal'
+
+select * from Pets where weight = 'terminal'
+select * from Pets group by PetID having count(*) > 'terminal'
+select count(*) from Student where LName = 'terminal'
+
+select * from Student where Age = 'terminal'
+select T3.weight,T1.Age from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID group by T1.Sex
+select * from Student order by Age asc limit 1
+
+select PetType from Pets
+select PetType,count(*) from Pets group by PetType
+
+select * from Student where Age > 'terminal'
+select count(*) from Student where LName = 'terminal'
+
+select * from Student where Age = 'terminal'
+select T1.Fname,* from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T3.pet_age = 'terminal'
+select count(*) from Student where Age > 'terminal'
+
+select PetType from Pets
+select count(*) from Student
+
+select Fname from Student group by StuID
+select T1.Fname from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T3.weight = 'terminal'
+select T1.Fname from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T3.PetType = 'terminal'
+
+select * from Pets where PetType = 'terminal'
+select T1.LName,T1.Fname from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T3.PetType = 'terminal'
+select Fname from Student where Sex = 'terminal'
+
+select * from Student where Fname = 'terminal'
+select * from Student where Fname = 'terminal'
+select T1.Age,count(*) from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T3.pet_age = 'terminal'
+
+select T1.StuID from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID group by T2.StuID
+select T3.PetID from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T1.Fname = 'terminal'
+select StuID from Student
+
+select * from Student
+select T1.Fname,* from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T3.PetType = 'terminal'
+select T1.Fname,T1.Age from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T3.PetID = 'terminal'
+
+select * from Student order by Age desc limit 1
+select pet_age,PetType from Pets
+select T2.weight,count(*) from Has_Pet as T1 join Pets as T2 on T1.PetID = T2.PetID group by T1.PetID
+
+select T3.PetID from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T1.Fname = 'terminal'
+select weight from Pets where pet_age > 'terminal'
+select T2.weight,count(*) from Has_Pet as T1 join Pets as T2 on T1.PetID = T2.PetID group by T1.PetID
+
+select PetType from Pets
+select Age,count(*) from Student group by Sex
+select avg(Age) from Student
+
+select * from Pets where weight = 'terminal'
+select avg(weight),PetType from Pets group by PetType
+
+select * from Student
+select Fname from Student
+select Fname,Age from Student
+
+select * from Student
+select Fname from Student where LName = 'terminal' and Fname = 'terminal'
+select Sex from Student where LName = 'terminal'
+
+select * from Student
+select LName,count(*) from Student group by StuID
+
+select LName,Fname from Student
+select T1.Fname from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T3.weight > 'terminal'
+
+select StuID from Student where Sex = 'terminal'
+select * from Student where Fname = 'terminal'
+select LName from Student where Sex = 'terminal'
+
+select * from Pets where PetID not in (select PetID from Pets)
+select avg(Age) from Student where LName = 'terminal' and Fname = 'terminal'
+
+select Name from country
+select T1.Name from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.IndepYear > 'terminal'
+
+select count(*) from city
+select Code2,count(*) from country where Population > 'terminal'
+
+select Region from country where Region = 'terminal'
+select T2.Region,T1.District from city as T1 join country as T2 on T1.CountryCode = T2.Code group by T2.Region
+select SurfaceArea from country where SurfaceArea > (select avg(SurfaceArea) from country)
+
+select Region,Continent from country group by Region
+select T1.Name,T2.Name from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+
+select Name from country
+select T1.District from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+
+select Language from countrylanguage
+select Language from countrylanguage where Language = 'terminal'
+select GNPOld from country group by GNP order by count(*) desc limit 1
+
+select LifeExpectancy,Population from country
+select Name from country where Region = 'terminal'
+
+select T1.District from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+select T1.Population,T2.Population from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+
+select Population from country
+select GNP,Continent from country where Name = 'terminal'
+select avg(T3.Percentage) from city as T1 join country as T2 on T1.CountryCode = T2.Code join countrylanguage as T3 on T2.Code = T3.CountryCode where T1.District = 'terminal' and T2.GovernmentForm = 'terminal'
+
+select Name from country where Region = 'terminal'
+select Population from country order by Population asc limit 1
+
+select count(*) from city where District = 'terminal'
+select count(*) from city group by ID order by count(*) desc limit 1
+
+select Continent from country where Region = 'terminal'
+select HeadOfState from country where Region = 'terminal' intersect select Region from country where Region = 'terminal'
+select avg(T3.Percentage) from city as T1 join country as T2 on T1.CountryCode = T2.Code join countrylanguage as T3 on T2.Code = T3.CountryCode where T2.Name = 'terminal' and T1.Name = 'terminal'
+
+select Region from country where Population > 'terminal' and Population >= 'terminal'
+select SurfaceArea,Region from country group by Region
+select sum(SurfaceArea) from country where SurfaceArea = 'terminal'
+
+select T2.HeadOfState,T1.District from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+select sum(T1.Population) from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Name = 'terminal'
+
+select Language from countrylanguage
+select * from country where Name = 'terminal'
+select avg(Population) from country where Name = 'terminal'
+
+select Language from countrylanguage
+select count(*) from country where Population > 'terminal'
+
+select HeadOfState from country where Region = 'terminal'
+select count(*) from country where Population > 'terminal'
+
+select * from countrylanguage where Language = 'terminal'
+select Language from countrylanguage where Language = 'terminal'
+select count(*) from country where Population > 'terminal'
+
+select Language from countrylanguage where Language = 'terminal'
+select count(*),count(T2.CountryCode) from country as T1 join countrylanguage as T2 on T1.Code = T2.CountryCode where T1.IndepYear = 'terminal' and T1.Population > 'terminal'
+
+select count(CountryCode),count(*) from countrylanguage group by CountryCode
+select Continent from country group by Region order by count(*) desc limit 1
+
+select count(CountryCode),count(*) from countrylanguage group by CountryCode
+select T2.Language,T1.GNPOld from country as T1 join countrylanguage as T2 on T1.Code = T2.CountryCode group by T1.GNP order by count(*) desc limit 1
+
+select Continent from country where Name = 'terminal'
+select T1.Name,T2.Name from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+select count(*) from country where Population > 'terminal'
+
+select Name from country where Region = 'terminal'
+select Name from country where Region = 'terminal' intersect select Name from country where Region = 'terminal'
+
+select Language from countrylanguage group by Language
+select Name from country where Region = 'terminal'
+select name from sqlite_sequence where name = 'terminal' intersect select name from sqlite_sequence where name = 'terminal'
+
+select Name from country where Region = 'terminal'
+select CountryCode from city
+select count(*) from country where Population > 'terminal'
+
+select Region from country
+select Name from city where Population = 'terminal'
+
+select T1.Name,T2.Language from country as T1 join countrylanguage as T2 on T1.Code = T2.CountryCode group by T1.Name
+select Name from country where Code like 'terminal' and Code = 'terminal'
+
+select Language from countrylanguage where Language = 'terminal'
+select Continent from country group by Region order by count(*) asc limit 1
+
+select T2.HeadOfState from city as T1 join country as T2 on T1.CountryCode = T2.Code where T1.District = 'terminal'
+select Continent from country group by Region
+
+select T1.Name from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+select Name from country order by Population desc limit 1
+
+select T1.Population,T2.LifeExpectancy,T2.Population from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+select T1.name,T2.Name from sqlite_sequence as T1 join country as T2 where T2.Region = 'terminal'
+
+select Language from countrylanguage group by Language
+select count(*) from country where HeadOfState != 'terminal'
+select Continent,avg(Population) from country where Region = 'terminal'
+
+select Name from country where Region != 'terminal'
+select count(*) from country where Population > 'terminal'
+
+select T1.District from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+select T2.Language from country as T1 join countrylanguage as T2 on T1.Code = T2.CountryCode where T1.Population = 'terminal'
+select T1.name from sqlite_sequence as T1 join country as T2 where T2.Population = 'terminal'
+
+select Name from country
+select Name from country where Capital > 'terminal'
+select count(T3.CountryCode),T1.CountryCode from city as T1 join country as T2 on T1.CountryCode = T2.Code join countrylanguage as T3 on T2.Code = T3.CountryCode where T2.IndepYear = 'terminal'
+
+select * from city
+select SurfaceArea from country where SurfaceArea > (select min(SurfaceArea) from country)
+select Continent from country where SurfaceArea > (select avg(Population) from country)
+
+select max(Population) from country where Name = 'terminal'
+select Continent from country where Population > (select avg(Population) from country)
+
+select Population from country where Name = 'terminal'
+select Continent from country where Population > (select avg(Population) from country)
+
+select Region from country
+select Code from country where Name = 'terminal' except select Code from country where Name = 'terminal'
+
+select Region from country
+select T1.name,T2.Name from sqlite_sequence as T1 join country as T2 where T2.Region = 'terminal'
+
+select CountryCode from city
+select T1.name,T2.Name from sqlite_sequence as T1 join country as T2 where T2.Region = 'terminal'
+
+select Name from country where Region = 'terminal'
+select Name from country except select Name from country
+select T1.Name from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Population > 'terminal'
+
+select Continent from country where Name = 'terminal'
+select T2.Name,T1.name from sqlite_sequence as T1 join country as T2 where T2.Region = 'terminal'
+select District from city
+
+select Continent from country order by Population asc limit 1
+select T2.name,T3.Population,T1.Population from city as T1 join sqlite_sequence as T2 join country as T3 on T1.CountryCode = T3.Code where T3.Region = 'terminal'
+
+select Population from country order by Population desc limit 1
+select T1.Population,T2.Population from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+
+select Name from country
+select LocalName from country group by Name having count(*) >= 'terminal'
+select count(CountryCode),count(*) from countrylanguage group by CountryCode
+
+select avg(Population),District from city group by District
+select count(CountryCode),count(*) from countrylanguage group by CountryCode
+
+select Continent from country where SurfaceArea > 'terminal' intersect select Continent from country where LifeExpectancy > 'terminal'
+select count(*),Code2 from country where Population > 'terminal'
+
+select Continent from country where Population > 'terminal'
+select avg(Population) from country
+
+select HeadOfState from country order by SurfaceArea desc limit 1
+select T2.Name,T1.Name from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.SurfaceArea > 'terminal'
+
+select Continent from country order by Population desc 
+select Name from country group by Name order by count(*) desc limit 1
+
+select Continent from country order by Population desc 
+select T1.Name from country as T1 join countrylanguage as T2 on T1.Code = T2.CountryCode order by T2.Percentage asc limit 1
+
+select Region from country where Population = 'terminal'
+select count(*) from country where Population > 'terminal'
+
+select Region from country where Population = 'terminal'
+select Name from country where Population > 'terminal'
+
+select Continent from country where Name = 'terminal'
+select T1.name,T2.Name from sqlite_sequence as T1 join country as T2 where T2.Capital > 'terminal'
+select avg(T1.Population),avg(T2.Population) from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+
+select Name from city
+select * from city where Population > 'terminal'
+
+select T1.GNPOld,T2.Language from country as T1 join countrylanguage as T2 on T1.Code = T2.CountryCode
+select Continent from country group by Region order by count(*) desc limit 1
+
+select T2.Title from TV_Channel as T1 join Cartoon as T2 on T1.id = T2.Channel where T2.Written_by = 'terminal' and T1.series_name = 'terminal'
+select Episode from TV_series where Episode = 'terminal'
+select Episode from TV_series where Episode like 'terminal' and Episode = 'terminal'
+
+select * from Cartoon where Directed_by = 'terminal'
+select T3.Written_by,T3.Directed_by from TV_series as T1 join TV_Channel as T2 on T1.Channel = T2.id join Cartoon as T3 on T2.id = T3.Channel where T1.Share = 'terminal'
+select Episode,count(*) from TV_series group by Episode order by count(*) desc limit 1
+
+select T2.Title from TV_Channel as T1 join Cartoon as T2 on T1.id = T2.Channel where T2.Title = 'terminal' and T1.series_name = 'terminal'
+select Episode from TV_series group by Episode
+select T3.Title,T2.Episode from TV_Channel as T1 join TV_series as T2 on T1.id = T2.Channel join Cartoon as T3 on T1.id = T3.Channel where T1.Language = 'terminal'
+
+select Package_Option from TV_Channel where Content = 'terminal'
+select Episode from TV_series where Share = 'terminal'
+select Title,count(*) from Cartoon where id not in (select id from Cartoon) group by id
+
+select Title from Cartoon where Written_by = 'terminal'
+select Directed_by from Cartoon where Directed_by = 'terminal'
+select T2.Title from TV_Channel as T1 join Cartoon as T2 on T1.id = T2.Channel where T1.series_name = 'terminal'
+
+select count(*) from Cartoon where Title = 'terminal'
+select T1.Content from TV_Channel as T1 join TV_series as T2 on T1.id = T2.Channel where T2.Episode = 'terminal'
+select T2.Title from TV_Channel as T1 join Cartoon as T2 on T1.id = T2.Channel where T1.series_name = 'terminal'
+
+select Rating from TV_series where Episode = 'terminal'
+select Rating from TV_series where Episode = 'terminal'
+select T1.Hight_definition_TV,T2.Episode from TV_Channel as T1 join TV_series as T2 on T1.id = T2.Channel order by T2.Rating desc limit 1
+
+select Rating from TV_series where Episode = 'terminal'
+select Share from TV_series where Share = 'terminal'
+select max(Share),min(Share),18_49_Rating_Share from TV_series
+
+select Episode from TV_series where Episode = 'terminal'
+select T1.Rating,T3.Title from TV_series as T1 join TV_Channel as T2 on T1.Channel = T2.id join Cartoon as T3 on T2.id = T3.Channel order by T1.Rating desc limit 1
+select T2.Title from TV_Channel as T1 join Cartoon as T2 on T1.id = T2.Channel where T1.series_name = 'terminal'
+
+select T1.Content from TV_Channel as T1 join TV_series as T2 on T1.id = T2.Channel where T2.Episode = 'terminal'
+select T1.Language from TV_Channel as T1 join TV_series as T2 on T1.id = T2.Channel where T2.Episode = 'terminal'
+select T1.Language from TV_Channel as T1 join TV_series as T2 on T1.id = T2.Channel where T2.Episode = 'terminal'
+
+select Title from Cartoon where Title = 'terminal'
+select T2.Production_code from TV_Channel as T1 join Cartoon as T2 on T1.id = T2.Channel where T1.series_name = 'terminal'
+select Rating,Episode from TV_series group by Episode
+
+select T3.Directed_by from TV_series as T1 join TV_Channel as T2 on T1.Channel = T2.id join Cartoon as T3 on T2.id = T3.Channel where T1.Episode = 'terminal'
+select Directed_by from Cartoon where Title = 'terminal'
+select * from TV_Channel as T1 join TV_series as T2 on T1.id = T2.Channel where T1.series_name = 'terminal' and T2.Episode = 'terminal'
+
+select * from TV_series as T1 join TV_Channel as T2 on T1.Channel = T2.id join Cartoon as T3 on T2.id = T3.Channel where T3.Title = 'terminal' and T1.Episode = 'terminal'
+select Episode from TV_series where Episode like 'terminal'
+
+select Title from Cartoon where Title = 'terminal'
+select T3.Production_code,T1.Episode from TV_series as T1 join TV_Channel as T2 on T1.Channel = T2.id join Cartoon as T3 on T2.id = T3.Channel where T3.Title = 'terminal'
+select T1.series_name,T2.Episode from TV_Channel as T1 join TV_series as T2 on T1.id = T2.Channel where T2.Episode = 'terminal'

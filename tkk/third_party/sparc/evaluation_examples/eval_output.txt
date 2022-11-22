@@ -1,0 +1,914 @@
+easy pred: select T1.Airline,T2.AirportName from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+easy gold: SELECT * FROM AIRLINES WHERE Airline  =  "JetBlue Airways"
+
+easy pred: select Country from airports where Country = 'terminal'
+easy gold: SELECT Country FROM AIRLINES WHERE Airline  =  "JetBlue Airways"
+
+easy pred: select * from airlines
+easy gold: SELECT Abbreviation FROM AIRLINES
+
+easy pred: select AirportName from airports where AirportName = 'terminal'
+easy gold: SELECT Abbreviation FROM AIRLINES WHERE Airline  =  "JetBlue Airways"
+
+medium pred: select T1.Airline,T2.AirportName from airlines as T1 join airports as T2
+medium gold: SELECT Airline ,  Abbreviation FROM AIRLINES
+
+medium pred: select * from airlines as T1 join airports as T2 where T1.Airline = 'terminal' and T2.AirportName = 'terminal'
+medium gold: SELECT Airline ,  Abbreviation FROM AIRLINES WHERE Country  =  "USA"
+
+easy pred: select * from airports where AirportName = 'terminal'
+easy gold: SELECT * FROM AIRPORTS WHERE city  =  "Anthony"
+
+medium pred: select T1.Airline,T2.AirportName from airlines as T1 join airports as T2
+medium gold: SELECT AirportCode ,  AirportName FROM AIRPORTS WHERE city  =  "Anthony"
+
+easy pred: select count(*) from airports where Country = 'terminal'
+easy gold: SELECT count(*) FROM AIRLINES
+
+easy pred: select count(*) from airports where Country = 'terminal'
+easy gold: SELECT count(*) FROM AIRPORTS
+
+easy pred: select count(*) from airports where Country = 'terminal'
+easy gold: SELECT count(*) FROM FLIGHTS
+
+easy pred: select AirportName from airports where AirportName = 'terminal'
+easy gold: SELECT Airline FROM AIRLINES WHERE Abbreviation  =  "UAL"
+
+easy pred: select T1.Airline from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+easy gold: SELECT airline FROM AIRLINES WHERE Country  =  "USA"
+
+easy pred: select count(*) from airports where Country = 'terminal'
+easy gold: SELECT count(*) FROM AIRLINES WHERE Country  =  "USA"
+
+medium pred: select AirportCode,AirportName,City from airports where Country = 'terminal'
+medium gold: SELECT City ,  Country FROM AIRPORTS WHERE AirportName  =  "Alton"
+
+easy pred: select AirportName,AirportCode from airports where AirportName = 'terminal'
+easy gold: SELECT AirportName FROM AIRPORTS WHERE AirportCode  =  "AKO"
+
+easy pred: select AirportName from airports where AirportName = 'terminal'
+easy gold: SELECT AirportName FROM AIRPORTS WHERE City = "Aberdeen"
+
+easy pred: select count(*) from airports where Country = 'terminal'
+easy gold: SELECT count(*) FROM FLIGHTS WHERE SourceAirport  =  "APG"
+
+easy pred: select City from airports where Country = 'terminal'
+easy gold: SELECT * FROM FLIGHTS WHERE DestAirport  =  "ATO"
+
+easy pred: select count(*) from airports where Country = 'terminal'
+easy gold: SELECT count(*) FROM FLIGHTS WHERE DestAirport  =  "ATO"
+
+medium pred: select * from flights where SourceAirport = 'terminal'
+medium gold: SELECT * FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.SourceAirport  =  T2.AirportCode WHERE T2.City  =  "Aberdeen"
+
+medium pred: select count(*) from airports where Country = 'terminal'
+medium gold: SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.SourceAirport  =  T2.AirportCode WHERE T2.City  =  "Aberdeen"
+
+medium pred: select * from airlines
+medium gold: SELECT * FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode WHERE T2.City  =  "Aberdeen"
+
+medium pred: select count(*) from airports where Country = 'terminal'
+medium gold: SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode WHERE T2.City  =  "Aberdeen"
+
+medium pred: select * from flights where DestAirport = 'terminal'
+medium gold: SELECT * FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.SourceAirport  =  T2.AirportCode WHERE T2.City  =  "Aberdeen"
+
+hard pred: select City,AirportName from airports where Country = 'terminal'
+hard gold: SELECT * FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode JOIN AIRPORTS AS T3 ON T1.SourceAirport  =  T3.AirportCode WHERE T2.City  =  "Ashley" AND T3.City  =  "Aberdeen"
+
+hard pred: select count(*) from airports where Country = 'terminal'
+hard gold: SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode JOIN AIRPORTS AS T3 ON T1.SourceAirport  =  T3.AirportCode WHERE T2.City  =  "Ashley" AND T3.City  =  "Aberdeen"
+
+medium pred: select * from airlines
+medium gold: SELECT * FROM FLIGHTS AS T1 JOIN AIRLINES AS T2 ON T1.Airline  =  T2.uid WHERE T2.Airline = "JetBlue Airways"
+
+medium pred: select count(*) from airports where Country = 'terminal'
+medium gold: SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRLINES AS T2 ON T1.Airline  =  T2.uid WHERE T2.Airline = "JetBlue Airways"
+
+easy pred: select * from airlines
+easy gold: SELECT * FROM AIRLINES WHERE Airline  =  "United Airlines"
+
+easy pred: select count(*) from airports where Country = 'terminal'
+easy gold: SELECT count(*) FROM AIRLINES WHERE Airline  =  "United Airlines"
+
+medium pred: select count(*) from airports where Country = 'terminal'
+medium gold: SELECT count(*) FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T2.Airline  =  T1.uid WHERE T1.Airline  =  "United Airlines" AND T2.DestAirport  =  "ASY"
+
+easy pred: select * from airlines
+easy gold: SELECT * FROM AIRLINES WHERE Airline  =  "United Airlines"
+
+medium pred: select AirportName from airports where Country = 'terminal'
+medium gold: SELECT * FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T2.Airline  =  T1.uid WHERE T1.Airline  =  "United Airlines" AND T2.SourceAirport  =  "AHD"
+
+medium pred: select count(*) from airports where Country = 'terminal'
+medium gold: SELECT count(*) FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T2.Airline  =  T1.uid WHERE T1.Airline  =  "United Airlines" AND T2.SourceAirport  =  "AHD"
+
+hard pred: select T2.AirportName,T1.Airline from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+hard gold: SELECT * FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode JOIN AIRLINES AS T3 ON T3.uid  =  T1.Airline WHERE T2.City  =  "Aberdeen" AND T3.Airline  =  "United Airlines"
+
+hard pred: select count(*) from airports where Country = 'terminal'
+hard gold: SELECT count(*) FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport  =  T2.AirportCode JOIN AIRLINES AS T3 ON T3.uid  =  T1.Airline WHERE T2.City  =  "Aberdeen" AND T3.Airline  =  "United Airlines"
+
+easy pred: select City from airports
+easy gold: SELECT T1.City FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport
+
+hard pred: select count(*) from airlines group by uid
+hard gold: SELECT T1.City FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport GROUP BY T1.City ORDER BY count(*) DESC
+
+extra pred: select Country from airports group by Country order by count(*) desc limit 1
+extra gold: SELECT T1.City FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport GROUP BY T1.City ORDER BY count(*) DESC LIMIT 1
+
+easy pred: select City from airports
+easy gold: SELECT T1.City FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.SourceAirport
+
+hard pred: select count(*) from airlines group by uid
+hard gold: SELECT T1.City FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.SourceAirport GROUP BY T1.City ORDER BY count(*) DESC
+
+extra pred: select Country from airports group by Country order by count(*) desc limit 1
+extra gold: SELECT T1.City FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.SourceAirport GROUP BY T1.City ORDER BY count(*) DESC LIMIT 1
+
+easy pred: select AirportCode from airports where AirportName = 'terminal'
+easy gold: SELECT T1.AirportCode FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport
+
+easy pred: select AirportCode from airports
+easy gold: SELECT T1.AirportCode FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport OR T1.AirportCode  =  T2.SourceAirport
+
+extra pred: select FlightNo,count(*) from flights group by DestAirport order by count(*) desc limit 1
+extra gold: SELECT T1.AirportCode FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport OR T1.AirportCode  =  T2.SourceAirport GROUP BY T1.AirportCode ORDER BY count(*) DESC LIMIT 1
+
+easy pred: select AirportCode from airports where AirportName = 'terminal'
+easy gold: SELECT T1.AirportCode FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport
+
+easy pred: select AirportCode from airports
+easy gold: SELECT T1.AirportCode FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport OR T1.AirportCode  =  T2.SourceAirport
+
+extra pred: select * from airlines group by uid order by count(*) asc limit 1
+extra gold: SELECT T1.AirportCode FROM AIRPORTS AS T1 JOIN FLIGHTS AS T2 ON T1.AirportCode  =  T2.DestAirport OR T1.AirportCode  =  T2.SourceAirport GROUP BY T1.AirportCode ORDER BY count(*) LIMIT 1
+
+medium pred: select count(*) from airlines group by uid
+medium gold: SELECT count(*) ,  T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline
+
+extra pred: select Airline from airlines group by uid order by count(*) desc limit 1
+extra gold: SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline ORDER BY count(*) DESC LIMIT 1
+
+medium pred: select T2.Country,T1.Country from airlines as T1 join airports as T2
+medium gold: SELECT Abbreviation ,  Country FROM AIRLINES
+
+hard pred: select T1.CountryAbbrev,count(*) from airports as T1 join flights as T2 on T1.AirportCode = T2.DestAirport order by T2.FlightNo asc
+hard gold: SELECT T1.Abbreviation ,  T1.Country FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline ORDER BY count(*)
+
+extra pred: select Country from airports group by Country order by count(*) asc limit 1
+extra gold: SELECT T1.Abbreviation ,  T1.Country FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline ORDER BY count(*) LIMIT 1
+
+easy pred: select City from airports where Country = 'terminal'
+easy gold: SELECT * FROM FLIGHTS WHERE SourceAirport  =  "AHD"
+
+medium pred: select Airline from airlines where Airline = 'terminal'
+medium gold: SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  "AHD"
+
+easy pred: select AirportName from airports where AirportName = 'terminal'
+easy gold: SELECT * FROM FLIGHTS WHERE DestAirport  =  "AHD"
+
+medium pred: select Airline from airlines where Airline = 'terminal'
+medium gold: SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.DestAirport  =  "AHD"
+
+medium pred: select * from airports where AirportName = 'terminal'
+medium gold: SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  "APG"
+
+extra pred: select T1.Airline,T2.AirportName from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+extra gold: SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  "APG" INTERSECT SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  "CVO"
+
+medium pred: select * from airports where AirportName = 'terminal'
+medium gold: SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  "CVO"
+
+extra pred: select T1.Airline,T2.AirportName from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+extra gold: SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  "CVO" EXCEPT SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline WHERE T2.SourceAirport  =  "APG"
+
+easy pred: select * from airlines
+easy gold: SELECT DISTINCT Airline FROM AIRLINES
+
+medium pred: select Country from airports group by Country having count(*) > 'terminal'
+medium gold: SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline HAVING count(*)  >  10
+
+easy pred: select * from airlines
+easy gold: SELECT DISTINCT Airline FROM AIRLINES
+
+medium pred: select Country from airlines where Airline = 'terminal'
+medium gold: SELECT T1.Airline FROM AIRLINES AS T1 JOIN FLIGHTS AS T2 ON T1.uid  =  T2.Airline GROUP BY T1.Airline HAVING count(*)  <  200
+
+medium pred: select T1.Airline,T2.AirportName from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+medium gold: SELECT T1.FlightNo FROM FLIGHTS AS T1 JOIN AIRLINES AS T2 ON T2.uid  =  T1.Airline WHERE T2.Airline  =  "United Airlines"
+
+easy pred: select T1.Airline,T2.AirportName from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+easy gold: SELECT FlightNo FROM FLIGHTS WHERE SourceAirport  =  "APG"
+
+easy pred: select T3.FlightNo,T1.Airline from airlines as T1 join airports as T2 join flights as T3 where T2.AirportName = 'terminal'
+easy gold: SELECT FlightNo FROM FLIGHTS WHERE DestAirport  =  "APG"
+
+easy pred: select T2.AirportName,T1.Airline from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+easy gold: SELECT T1.FlightNo FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.SourceAirport   =  T2.AirportCode
+
+medium pred: select AirportName from airports where AirportName = 'terminal'
+medium gold: SELECT T1.FlightNo FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.SourceAirport   =  T2.AirportCode WHERE T2.City  =  "Aberdeen"
+
+easy pred: select T2.AirportName,T1.Airline from airlines as T1 join airports as T2 where T2.AirportName = 'terminal'
+easy gold: SELECT T1.FlightNo FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport   =  T2.AirportCode
+
+medium pred: select City from airports where Country = 'terminal'
+medium gold: SELECT T1.FlightNo FROM FLIGHTS AS T1 JOIN AIRPORTS AS T2 ON T1.DestAirport   =  T2.AirportCode WHERE T2.City  =  "Aberdeen"
+
+medium pred: select City from airports where Country = 'terminal'
+medium gold: SELECT * FROM Flights AS T1 JOIN Airports AS T2 ON T1.DestAirport  =  T2.AirportCode WHERE T2.city  =  "Aberdeen"
+
+hard pred: select AirportName from airports where AirportName = 'terminal'
+hard gold: SELECT * FROM Flights AS T1 JOIN Airports AS T2 ON T1.DestAirport  =  T2.AirportCode WHERE T2.city  =  "Aberdeen" OR T2.city  =  "Abilene"
+
+hard pred: select count(*) from airports where Country = 'terminal'
+hard gold: SELECT count(*) FROM Flights AS T1 JOIN Airports AS T2 ON T1.DestAirport  =  T2.AirportCode WHERE T2.city  =  "Aberdeen" OR T2.city  =  "Abilene"
+
+easy pred: select AirportName from airports
+easy gold: SELECT SourceAirport FROM Flights
+
+hard pred: select AirportName from airports
+hard gold: SELECT SourceAirport FROM Flights UNION SELECT DestAirport FROM Flights
+
+hard pred: select * from airports where AirportName like 'terminal'
+hard gold: SELECT AirportName FROM Airports WHERE AirportCode NOT IN (SELECT SourceAirport FROM Flights UNION SELECT DestAirport FROM Flights)
+
+easy pred: select * from Pets where weight = 'terminal'
+easy gold: SELECT * FROM pets
+
+easy pred: select * from Pets group by PetID having count(*) > 'terminal'
+easy gold: SELECT * FROM pets WHERE weight  >  10
+
+easy pred: select count(*) from Student where LName = 'terminal'
+easy gold: SELECT count(*) FROM pets WHERE weight  >  10
+
+easy pred: select * from Student where Age = 'terminal'
+easy gold: SELECT * FROM pets ORDER BY pet_age
+
+easy pred: select T3.weight,T1.Age from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID group by T1.Sex
+easy gold: SELECT weight FROM pets ORDER BY pet_age
+
+medium pred: select * from Student order by Age asc limit 1
+medium gold: SELECT weight FROM pets ORDER BY pet_age LIMIT 1
+
+medium pred: select PetType,count(*) from Pets group by PetType
+medium gold: SELECT max(weight) ,  petType FROM pets GROUP BY petType
+
+medium pred: select * from Student where Age > 'terminal'
+medium gold: SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid WHERE T1.age  >  20
+
+medium pred: select count(*) from Student where LName = 'terminal'
+medium gold: SELECT count(*) FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid WHERE T1.age  >  20
+
+easy pred: select * from Student where Age = 'terminal'
+easy gold: SELECT * FROM student WHERE sex  =  'F'
+
+medium pred: select T1.Fname,* from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T3.pet_age = 'terminal'
+medium gold: SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid WHERE T1.sex  =  'F'
+
+hard pred: select count(*) from Student where Age > 'terminal'
+hard gold: SELECT count(*) FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T2.petid  =  T3.petid WHERE T1.sex  =  'F' AND T3.pettype  =  'dog'
+
+easy pred: select count(*) from Student
+easy gold: SELECT count(DISTINCT pettype) FROM pets
+
+easy pred: select Fname from Student group by StuID
+easy gold: SELECT DISTINCT T1.Fname FROM student AS T1
+
+hard pred: select T1.Fname from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T3.weight = 'terminal'
+hard gold: SELECT DISTINCT T1.Fname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat'
+
+extra pred: select T1.Fname from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T3.PetType = 'terminal'
+extra gold: SELECT DISTINCT T1.Fname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat' OR T3.pettype  =  'dog'
+
+hard pred: select * from Pets where PetType = 'terminal'
+hard gold: SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'dog'
+
+extra pred: select T1.LName,T1.Fname from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T3.PetType = 'terminal'
+extra gold: SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat' INTERSECT SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'dog'
+
+extra pred: select Fname from Student where Sex = 'terminal'
+extra gold: SELECT T1.Fname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat' INTERSECT SELECT T1.Fname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'dog'
+
+hard pred: select * from Student where Fname = 'terminal'
+hard gold: SELECT * FROM student WHERE stuid NOT IN (SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat')
+
+hard pred: select * from Student where Fname = 'terminal'
+hard gold: SELECT major FROM student WHERE stuid NOT IN (SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat')
+
+extra pred: select T1.Age,count(*) from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T3.pet_age = 'terminal'
+extra gold: SELECT major ,  age FROM student WHERE stuid NOT IN (SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat')
+
+easy pred: select T1.StuID from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID group by T2.StuID
+easy gold: SELECT stuid FROM student
+
+hard pred: select T3.PetID from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T1.Fname = 'terminal'
+hard gold: SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat'
+
+hard pred: select StuID from Student
+hard gold: SELECT stuid FROM student EXCEPT SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat'
+
+hard pred: select * from Student
+hard gold: SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'dog'
+
+extra pred: select T1.Fname,* from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T3.PetType = 'terminal'
+extra gold: SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'dog' EXCEPT SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat'
+
+extra pred: select T1.Fname,T1.Age from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T3.PetID = 'terminal'
+extra gold: SELECT T1.fname ,  T1.age FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'dog' EXCEPT SELECT T1.fname ,  T1.age FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pettype  =  'cat'
+
+medium pred: select * from Student order by Age desc limit 1
+medium gold: SELECT * FROM pets ORDER BY pet_age LIMIT 1
+
+medium pred: select pet_age,PetType from Pets
+medium gold: SELECT pettype FROM pets ORDER BY pet_age LIMIT 1
+
+medium pred: select T2.weight,count(*) from Has_Pet as T1 join Pets as T2 on T1.PetID = T2.PetID group by T1.PetID
+medium gold: SELECT pettype ,  weight FROM pets ORDER BY pet_age LIMIT 1
+
+easy pred: select T3.PetID from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T1.Fname = 'terminal'
+easy gold: SELECT petid FROM pets
+
+easy pred: select weight from Pets where pet_age > 'terminal'
+easy gold: SELECT petid FROM pets WHERE pet_age  >  1
+
+medium pred: select T2.weight,count(*) from Has_Pet as T1 join Pets as T2 on T1.PetID = T2.PetID group by T1.PetID
+medium gold: SELECT petid ,  weight FROM pets WHERE pet_age  >  1
+
+medium pred: select Age,count(*) from Student group by Sex
+medium gold: SELECT max(pet_age) ,  pettype FROM pets GROUP BY pettype
+
+medium pred: select avg(Age) from Student
+medium gold: SELECT avg(pet_age) ,  pettype FROM pets GROUP BY pettype
+
+easy pred: select * from Pets where weight = 'terminal'
+easy gold: SELECT * FROM pets
+
+easy pred: select * from Student
+easy gold: SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid
+
+easy pred: select Fname from Student
+easy gold: SELECT DISTINCT T1.fname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid
+
+medium pred: select Fname,Age from Student
+medium gold: SELECT DISTINCT T1.fname ,  T1.age FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid
+
+easy pred: select * from Student
+easy gold: SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid
+
+medium pred: select Fname from Student where LName = 'terminal' and Fname = 'terminal'
+medium gold: SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid WHERE T1.Lname  =  'Smith'
+
+medium pred: select Sex from Student where LName = 'terminal'
+medium gold: SELECT T2.petid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid WHERE T1.Lname  =  'Smith'
+
+easy pred: select * from Student
+easy gold: SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid
+
+medium pred: select LName,count(*) from Student group by StuID
+medium gold: SELECT count(*) ,  T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid GROUP BY T1.stuid
+
+medium pred: select LName,Fname from Student
+medium gold: SELECT T1.fname ,  T1.sex FROM student AS T1
+
+medium pred: select T1.Fname from Student as T1 join Has_Pet as T2 on T1.StuID = T2.StuID join Pets as T3 on T2.PetID = T3.PetID where T3.weight > 'terminal'
+medium gold: SELECT T1.fname ,  T1.sex FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid GROUP BY T1.stuid HAVING count(*)  >  1
+
+medium pred: select StuID from Student where Sex = 'terminal'
+medium gold: SELECT petid FROM pets WHERE pet_age  =  3 AND pettype  =  'cat'
+
+hard pred: select * from Student where Fname = 'terminal'
+hard gold: SELECT * FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pet_age  =  3 AND T3.pettype  =  'cat'
+
+hard pred: select LName from Student where Sex = 'terminal'
+hard gold: SELECT T1.lname FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid JOIN pets AS T3 ON T3.petid  =  T2.petid WHERE T3.pet_age  =  3 AND T3.pettype  =  'cat'
+
+hard pred: select * from Pets where PetID not in (select PetID from Pets)
+hard gold: SELECT * FROM student WHERE stuid NOT IN (SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid)
+
+extra pred: select avg(Age) from Student where LName = 'terminal' and Fname = 'terminal'
+extra gold: SELECT avg(age) FROM student WHERE stuid NOT IN (SELECT T1.stuid FROM student AS T1 JOIN has_pet AS T2 ON T1.stuid  =  T2.stuid)
+
+easy pred: select T1.Name from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.IndepYear > 'terminal'
+easy gold: SELECT Name FROM country WHERE IndepYear  >  1950
+
+easy pred: select Code2,count(*) from country where Population > 'terminal'
+easy gold: SELECT count(*) FROM country WHERE GovernmentForm  =  "Republic"
+
+easy pred: select Region from country where Region = 'terminal'
+easy gold: SELECT * FROM country WHERE Region  =  "Caribbean"
+
+easy pred: select T2.Region,T1.District from city as T1 join country as T2 on T1.CountryCode = T2.Code group by T2.Region
+easy gold: SELECT SurfaceArea FROM country WHERE Region  =  "Caribbean"
+
+easy pred: select SurfaceArea from country where SurfaceArea > (select avg(SurfaceArea) from country)
+easy gold: SELECT sum(SurfaceArea) FROM country WHERE Region  =  "Caribbean"
+
+easy pred: select Region,Continent from country group by Region
+easy gold: SELECT Continent FROM country
+
+easy pred: select T1.Name,T2.Name from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+easy gold: SELECT Continent FROM country WHERE Name  =  "Anguilla"
+
+easy pred: select Name from country
+easy gold: SELECT Region FROM country
+
+medium pred: select T1.District from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+medium gold: SELECT Region FROM country AS T1 JOIN city AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Name  =  "Kabul"
+
+medium pred: select Language from countrylanguage where Language = 'terminal'
+medium gold: SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  "Aruba"
+
+extra pred: select GNPOld from country group by GNP order by count(*) desc limit 1
+extra gold: SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  "Aruba" ORDER BY Percentage DESC LIMIT 1
+
+medium pred: select Name from country where Region = 'terminal'
+medium gold: SELECT Population ,  LifeExpectancy FROM country WHERE Name  =  "Brazil"
+
+easy pred: select T1.District from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+easy gold: SELECT Region FROM country WHERE Name  =  "Angola"
+
+easy pred: select T1.Population,T2.Population from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+easy gold: SELECT Population FROM country WHERE Name  =  "Angola"
+
+easy pred: select Population from country
+easy gold: SELECT LifeExpectancy FROM country
+
+easy pred: select GNP,Continent from country where Name = 'terminal'
+easy gold: SELECT LifeExpectancy FROM country WHERE Region  =  "Central Africa"
+
+easy pred: select avg(T3.Percentage) from city as T1 join country as T2 on T1.CountryCode = T2.Code join countrylanguage as T3 on T2.Code = T3.CountryCode where T1.District = 'terminal' and T2.GovernmentForm = 'terminal'
+easy gold: SELECT avg(LifeExpectancy) FROM country WHERE Region  =  "Central Africa"
+
+easy pred: select Name from country where Region = 'terminal'
+easy gold: SELECT Name FROM country WHERE Continent  =  "Asia"
+
+hard pred: select Population from country order by Population asc limit 1
+hard gold: SELECT Name FROM country WHERE Continent  =  "Asia" ORDER BY LifeExpectancy LIMIT 1
+
+easy pred: select count(*) from city where District = 'terminal'
+easy gold: SELECT sum(Population) FROM country WHERE Continent  =  "Asia"
+
+easy pred: select count(*) from city group by ID order by count(*) desc limit 1
+easy gold: SELECT max(GNP) FROM country WHERE Continent  =  "Asia"
+
+easy pred: select Continent from country where Region = 'terminal'
+easy gold: SELECT * FROM country WHERE Continent  =  "Africa"
+
+medium pred: select HeadOfState from country where Region = 'terminal' intersect select Region from country where Region = 'terminal'
+medium gold: SELECT * FROM country WHERE Continent  =  "Africa" AND GovernmentForm  =  "Republic"
+
+medium pred: select avg(T3.Percentage) from city as T1 join country as T2 on T1.CountryCode = T2.Code join countrylanguage as T3 on T2.Code = T3.CountryCode where T2.Name = 'terminal' and T1.Name = 'terminal'
+medium gold: SELECT avg(LifeExpectancy) FROM country WHERE Continent  =  "Africa" AND GovernmentForm  =  "Republic"
+
+medium pred: select Region from country where Population > 'terminal' and Population >= 'terminal'
+medium gold: SELECT * FROM country WHERE Continent  =  "Asia" OR Continent  =  "Europe"
+
+medium pred: select SurfaceArea,Region from country group by Region
+medium gold: SELECT SurfaceArea FROM country WHERE Continent  =  "Asia" OR Continent  =  "Europe"
+
+medium pred: select sum(SurfaceArea) from country where SurfaceArea = 'terminal'
+medium gold: SELECT sum(SurfaceArea) FROM country WHERE Continent  =  "Asia" OR Continent  =  "Europe"
+
+easy pred: select T2.HeadOfState,T1.District from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+easy gold: SELECT Population FROM city WHERE District  =  "Gelderland"
+
+easy pred: select sum(T1.Population) from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Name = 'terminal'
+easy gold: SELECT sum(Population) FROM city WHERE District  =  "Gelderland"
+
+easy pred: select Language from countrylanguage
+easy gold: SELECT * FROM country
+
+easy pred: select * from country where Name = 'terminal'
+easy gold: SELECT * FROM country WHERE GovernmentForm  =  "US Territory"
+
+medium pred: select avg(Population) from country where Name = 'terminal'
+medium gold: SELECT avg(GNP) ,  sum(population) FROM country WHERE GovernmentForm  =  "US Territory"
+
+easy pred: select count(*) from country where Population > 'terminal'
+easy gold: SELECT count(DISTINCT LANGUAGE) FROM countrylanguage
+
+easy pred: select HeadOfState from country where Region = 'terminal'
+easy gold: SELECT DISTINCT GovernmentForm FROM country WHERE Continent  =  "Africa"
+
+easy pred: select count(*) from country where Population > 'terminal'
+easy gold: SELECT count(DISTINCT GovernmentForm) FROM country WHERE Continent  =  "Africa"
+
+easy pred: select * from countrylanguage where Language = 'terminal'
+easy gold: SELECT * FROM country WHERE Name  =  "Aruba"
+
+medium pred: select Language from countrylanguage where Language = 'terminal'
+medium gold: SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  "Aruba"
+
+medium pred: select count(*) from country where Population > 'terminal'
+medium gold: SELECT COUNT(T2.Language) FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  "Aruba"
+
+medium pred: select Language from countrylanguage where Language = 'terminal'
+medium gold: SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  "Afghanistan"
+
+medium pred: select count(*),count(T2.CountryCode) from country as T1 join countrylanguage as T2 on T1.Code = T2.CountryCode where T1.IndepYear = 'terminal' and T1.Population > 'terminal'
+medium gold: SELECT COUNT(*) FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Name  =  "Afghanistan" AND IsOfficial  =  "T"
+
+medium pred: select count(CountryCode),count(*) from countrylanguage group by CountryCode
+medium gold: SELECT count(*) ,  T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Name
+
+extra pred: select Continent from country group by Region order by count(*) desc limit 1
+extra gold: SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Name ORDER BY COUNT(*) DESC LIMIT 1
+
+medium pred: select count(CountryCode),count(*) from countrylanguage group by CountryCode
+medium gold: SELECT COUNT(*) ,  T1.Continent FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Continent
+
+extra pred: select T2.Language,T1.GNPOld from country as T1 join countrylanguage as T2 on T1.Code = T2.CountryCode group by T1.GNP order by count(*) desc limit 1
+extra gold: SELECT T1.Continent FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Continent ORDER BY COUNT(*) DESC LIMIT 1
+
+medium pred: select Continent from country where Name = 'terminal'
+medium gold: SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English"
+
+extra pred: select T1.Name,T2.Name from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+extra gold: SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" INTERSECT SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "Dutch"
+
+easy pred: select count(*) from country where Population > 'terminal'
+easy gold: SELECT COUNT(*) FROM (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" INTERSECT SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "Dutch")
+
+medium pred: select Name from country where Region = 'terminal'
+medium gold: SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English"
+
+extra pred: select Name from country where Region = 'terminal' intersect select Name from country where Region = 'terminal'
+extra gold: SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" INTERSECT SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "French"
+
+medium pred: select Language from countrylanguage group by Language
+medium gold: SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.IsOfficial  =  "T"
+
+medium pred: select Name from country where Region = 'terminal'
+medium gold: SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" AND T2.IsOfficial  =  "T"
+
+extra pred: select name from sqlite_sequence where name = 'terminal' intersect select name from sqlite_sequence where name = 'terminal'
+extra gold: SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" AND T2.IsOfficial  =  "T" INTERSECT SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "French" AND T2.IsOfficial  =  "T"
+
+medium pred: select Name from country where Region = 'terminal'
+medium gold: SELECT T1.name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "Chinese"
+
+medium pred: select CountryCode from city
+medium gold: SELECT DISTINCT T1.Continent FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "Chinese"
+
+medium pred: select count(*) from country where Population > 'terminal'
+medium gold: SELECT COUNT( DISTINCT Continent) FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "Chinese"
+
+hard pred: select Name from city where Population = 'terminal'
+hard gold: SELECT DISTINCT T1.Region FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" OR T2.Language  =  "Dutch"
+
+medium pred: select T1.Name,T2.Language from country as T1 join countrylanguage as T2 on T1.Code = T2.CountryCode group by T1.Name
+medium gold: SELECT T2.Language ,  T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE IsOfficial  =  "T"
+
+extra pred: select Name from country where Code like 'terminal' and Code = 'terminal'
+extra gold: SELECT * FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" AND IsOfficial  =  "T" UNION SELECT * FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "Dutch" AND IsOfficial  =  "T"
+
+medium pred: select Language from countrylanguage where Language = 'terminal'
+medium gold: SELECT DISTINCT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Continent  =  "Asia"
+
+extra pred: select Continent from country group by Region order by count(*) asc limit 1
+extra gold: SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.Continent  =  "Asia" GROUP BY T2.Language ORDER BY COUNT (*) DESC LIMIT 1
+
+easy pred: select T2.HeadOfState from city as T1 join country as T2 on T1.CountryCode = T2.Code where T1.District = 'terminal'
+easy gold: SELECT * FROM country WHERE GovernmentForm  =  "Republic"
+
+hard pred: select Continent from country group by Region
+hard gold: SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.GovernmentForm  =  "Republic" GROUP BY T2.Language HAVING COUNT(*)  =  1
+
+medium pred: select T1.Name from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+medium gold: SELECT T1.Name FROM city AS T1 JOIN countrylanguage AS T2 ON T1.CountryCode  =  T2.CountryCode WHERE T2.Language  =  "English"
+
+extra pred: select Name from country order by Population desc limit 1
+extra gold: SELECT T1.Name ,  T1.Population FROM city AS T1 JOIN countrylanguage AS T2 ON T1.CountryCode  =  T2.CountryCode WHERE T2.Language  =  "English" ORDER BY T1.Population DESC LIMIT 1
+
+medium pred: select T1.Population,T2.LifeExpectancy,T2.Population from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+medium gold: SELECT Name ,  Population ,  LifeExpectancy FROM country WHERE Continent  =  "Asia"
+
+hard pred: select T1.name,T2.Name from sqlite_sequence as T1 join country as T2 where T2.Region = 'terminal'
+hard gold: SELECT Name ,  Population ,  LifeExpectancy FROM country WHERE Continent  =  "Asia" ORDER BY SurfaceArea DESC LIMIT 1
+
+medium pred: select Language from countrylanguage group by Language
+medium gold: SELECT T2.Language ,  T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.IsOfficial  =  "T"
+
+hard pred: select count(*) from country where HeadOfState != 'terminal'
+hard gold: SELECT * FROM country WHERE Name NOT IN (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" AND T2.IsOfficial  =  "T")
+
+extra pred: select Continent,avg(Population) from country where Region = 'terminal'
+extra gold: SELECT avg(LifeExpectancy) FROM country WHERE Name NOT IN (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English" AND T2.IsOfficial  =  "T")
+
+hard pred: select Name from country where Region != 'terminal'
+hard gold: SELECT Name FROM country WHERE Name NOT IN (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English")
+
+extra pred: select count(*) from country where Population > 'terminal'
+extra gold: SELECT sum(Population) FROM country WHERE Name NOT IN (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  "English")
+
+medium pred: select T1.District from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+medium gold: SELECT * FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.HeadOfState  =  "Beatrix"
+
+medium pred: select T2.Language from country as T1 join countrylanguage as T2 on T1.Code = T2.CountryCode where T1.Population = 'terminal'
+medium gold: SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.HeadOfState  =  "Beatrix"
+
+medium pred: select T1.name from sqlite_sequence as T1 join country as T2 where T2.Population = 'terminal'
+medium gold: SELECT T2.Language FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T1.HeadOfState  =  "Beatrix" AND T2.IsOfficial  =  "T"
+
+easy pred: select Name from country where Capital > 'terminal'
+easy gold: SELECT T1.Name FROM country AS t1 WHERE  IndepYear  <  1930
+
+medium pred: select count(T3.CountryCode),T1.CountryCode from city as T1 join country as T2 on T1.CountryCode = T2.Code join countrylanguage as T3 on T2.Code = T3.CountryCode where T2.IndepYear = 'terminal'
+medium gold: SELECT count(DISTINCT T2.Language) FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE  IndepYear  <  1930 AND T2.IsOfficial  =  "T"
+
+easy pred: select * from city
+easy gold: SELECT * FROM country WHERE Continent  =  "Europe"
+
+easy pred: select SurfaceArea from country where SurfaceArea > (select min(SurfaceArea) from country)
+easy gold: SELECT min(SurfaceArea) FROM country WHERE Continent  =  "Europe"
+
+hard pred: select Continent from country where SurfaceArea > (select avg(Population) from country)
+hard gold: SELECT Name FROM country WHERE SurfaceArea  >  (SELECT min(SurfaceArea) FROM country WHERE Continent  =  "Europe")
+
+easy pred: select max(Population) from country where Name = 'terminal'
+easy gold: SELECT min(population) FROM country WHERE Continent  =  "Asia"
+
+extra pred: select Continent from country where Population > (select avg(Population) from country)
+extra gold: SELECT Name FROM country WHERE Continent  =  "Africa"  AND population  <  (SELECT max(population) FROM country WHERE Continent  =  "Asia")
+
+easy pred: select Population from country where Name = 'terminal'
+easy gold: SELECT min(population) FROM country WHERE Continent  =  "Africa"
+
+extra pred: select Continent from country where Population > (select avg(Population) from country)
+extra gold: SELECT Name FROM country WHERE Continent  =  "Asia"  AND population  >  (SELECT min(population) FROM country WHERE Continent  =  "Africa")
+
+easy pred: select Region from country
+easy gold: SELECT CountryCode FROM countrylanguage
+
+hard pred: select Code from country where Name = 'terminal' except select Code from country where Name = 'terminal'
+hard gold: SELECT CountryCode FROM countrylanguage EXCEPT SELECT CountryCode FROM countrylanguage WHERE LANGUAGE  =  "English"
+
+easy pred: select Region from country
+easy gold: SELECT DISTINCT CountryCode FROM countrylanguage
+
+easy pred: select T1.name,T2.Name from sqlite_sequence as T1 join country as T2 where T2.Region = 'terminal'
+easy gold: SELECT DISTINCT CountryCode FROM countrylanguage WHERE LANGUAGE ! =  "English"
+
+easy pred: select CountryCode from city
+easy gold: SELECT Code FROM country WHERE GovernmentForm ! =  "Republic"
+
+hard pred: select T1.name,T2.Name from sqlite_sequence as T1 join country as T2 where T2.Region = 'terminal'
+hard gold: SELECT Code FROM country WHERE GovernmentForm ! =  "Republic" EXCEPT SELECT CountryCode FROM countrylanguage WHERE LANGUAGE  =  "English"
+
+medium pred: select Name from country where Region = 'terminal'
+medium gold: SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.IsOfficial  =  'T' AND T2.Language  =  'English'
+
+extra pred: select Name from country except select Name from country
+extra gold: SELECT Name FROM country WHERE Continent  =  'Europe' AND Name NOT IN (SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.IsOfficial  =  'T' AND T2.Language  =  'English')
+
+extra pred: select T1.Name from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Population > 'terminal'
+extra gold: SELECT DISTINCT T2.Name FROM country AS T1 JOIN city AS T2 ON T2.CountryCode  =  T1.Code WHERE T1.Continent  =  'Europe' AND T1.Name NOT IN (SELECT T3.Name FROM country AS T3 JOIN countrylanguage AS T4 ON T3.Code  =  T4.CountryCode WHERE T4.IsOfficial  =  'T' AND T4.Language  =  'English')
+
+medium pred: select Continent from country where Name = 'terminal'
+medium gold: SELECT * FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.Language  =  'Chinese' AND T1.Continent  =  "Asia"
+
+medium pred: select T2.Name,T1.name from sqlite_sequence as T1 join country as T2 where T2.Region = 'terminal'
+medium gold: SELECT * FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode WHERE T2.IsOfficial  =  'T' AND T2.Language  =  'Chinese' AND T1.Continent  =  "Asia"
+
+hard pred: select District from city
+hard gold: SELECT DISTINCT T3.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode JOIN city AS T3 ON T1.Code  =  T3.CountryCode WHERE T2.IsOfficial  =  'T' AND T2.Language  =  'Chinese' AND T1.Continent  =  "Asia"
+
+medium pred: select Continent from country order by Population asc limit 1
+medium gold: SELECT * FROM country ORDER BY Population LIMIT 1
+
+medium pred: select T2.name,T3.Population,T1.Population from city as T1 join sqlite_sequence as T2 join country as T3 on T1.CountryCode = T3.Code where T3.Region = 'terminal'
+medium gold: SELECT Name ,  SurfaceArea ,  IndepYear FROM country ORDER BY Population LIMIT 1
+
+medium pred: select Population from country order by Population desc limit 1
+medium gold: SELECT * FROM country ORDER BY SurfaceArea DESC LIMIT 1
+
+medium pred: select T1.Population,T2.Population from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+medium gold: SELECT Name ,  population ,  HeadOfState FROM country ORDER BY SurfaceArea DESC LIMIT 1
+
+medium pred: select LocalName from country group by Name having count(*) >= 'terminal'
+medium gold: SELECT T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Name HAVING COUNT(*)  >  2
+
+medium pred: select count(CountryCode),count(*) from countrylanguage group by CountryCode
+medium gold: SELECT COUNT(T2.Language) ,  T1.Name FROM country AS T1 JOIN countrylanguage AS T2 ON T1.Code  =  T2.CountryCode GROUP BY T1.Name HAVING COUNT(*)  >  2
+
+easy pred: select avg(Population),District from city group by District
+easy gold: SELECT avg(Population) FROM city
+
+extra pred: select count(CountryCode),count(*) from countrylanguage group by CountryCode
+extra gold: SELECT count(*) ,  District FROM city WHERE Population  >  (SELECT avg(Population) FROM city) GROUP BY District
+
+easy pred: select Continent from country where SurfaceArea > 'terminal' intersect select Continent from country where LifeExpectancy > 'terminal'
+easy gold: SELECT * FROM country GROUP BY GovernmentForm HAVING avg(LifeExpectancy)  >  72
+
+medium pred: select count(*),Code2 from country where Population > 'terminal'
+medium gold: SELECT sum(Population) ,  GovernmentForm FROM country GROUP BY GovernmentForm HAVING avg(LifeExpectancy)  >  72
+
+easy pred: select Continent from country where Population > 'terminal'
+easy gold: SELECT Continent FROM country GROUP BY Continent HAVING avg(LifeExpectancy)  <  72
+
+medium pred: select avg(Population) from country
+medium gold: SELECT sum(Population) ,  avg(LifeExpectancy) ,  Continent FROM country GROUP BY Continent HAVING avg(LifeExpectancy)  <  72
+
+medium pred: select HeadOfState from country order by SurfaceArea desc limit 1
+medium gold: SELECT * FROM country ORDER BY SurfaceArea DESC LIMIT 5
+
+medium pred: select T2.Name,T1.Name from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.SurfaceArea > 'terminal'
+medium gold: SELECT Name ,  SurfaceArea FROM country ORDER BY SurfaceArea DESC LIMIT 5
+
+easy pred: select Continent from country order by Population desc
+easy gold: SELECT * FROM country ORDER BY Population DESC
+
+medium pred: select Name from country group by Name order by count(*) desc limit 1
+medium gold: SELECT Name FROM country ORDER BY Population DESC LIMIT 3
+
+easy pred: select Continent from country order by Population desc
+easy gold: SELECT * FROM country ORDER BY Population
+
+medium pred: select T1.Name from country as T1 join countrylanguage as T2 on T1.Code = T2.CountryCode order by T2.Percentage asc limit 1
+medium gold: SELECT Name FROM country ORDER BY Population DESC LIMIT 3
+
+easy pred: select Region from country where Population = 'terminal'
+easy gold: SELECT * FROM country WHERE continent  =  "Asia"
+
+easy pred: select count(*) from country where Population > 'terminal'
+easy gold: SELECT count(*) FROM country WHERE continent  =  "Asia"
+
+easy pred: select Region from country where Population = 'terminal'
+easy gold: SELECT * FROM country WHERE continent  =  "Europe"
+
+medium pred: select Name from country where Population > 'terminal'
+medium gold: SELECT Name FROM country WHERE continent  =  "Europe" AND Population  =  "80000"
+
+easy pred: select Continent from country where Name = 'terminal'
+easy gold: SELECT * FROM country WHERE Continent  =  "North America"
+
+medium pred: select T1.name,T2.Name from sqlite_sequence as T1 join country as T2 where T2.Capital > 'terminal'
+medium gold: SELECT * FROM country WHERE Continent  =  "North America" AND SurfaceArea  >  3000
+
+hard pred: select avg(T1.Population),avg(T2.Population) from city as T1 join country as T2 on T1.CountryCode = T2.Code where T2.Region = 'terminal'
+hard gold: SELECT sum(Population) ,  avg(SurfaceArea) FROM country WHERE Continent  =  "North America" AND SurfaceArea  >  3000
+
+easy pred: select * from city where Population > 'terminal'
+easy gold: SELECT name FROM city WHERE Population BETWEEN 160000 AND 90000
+
+easy pred: select T1.GNPOld,T2.Language from country as T1 join countrylanguage as T2 on T1.Code = T2.CountryCode
+easy gold: SELECT LANGUAGE FROM countrylanguage
+
+hard pred: select Continent from country group by Region order by count(*) desc limit 1
+hard gold: SELECT LANGUAGE FROM countrylanguage GROUP BY LANGUAGE ORDER BY count(*) DESC LIMIT 1
+
+easy pred: select T2.Title from TV_Channel as T1 join Cartoon as T2 on T1.id = T2.Channel where T2.Written_by = 'terminal' and T1.series_name = 'terminal'
+easy gold: SELECT Directed_by FROM Cartoon WHERE Title = "Day of the Dark Knight!"
+
+easy pred: select Episode from TV_series where Episode = 'terminal'
+easy gold: SELECT Channel FROM Cartoon WHERE Title = "Day of the Dark Knight!"
+
+medium pred: select Episode from TV_series where Episode like 'terminal' and Episode = 'terminal'
+medium gold: SELECT Title FROM Cartoon WHERE Directed_by = "Ben Jones" OR Directed_by = "Brandon Vietti"
+
+easy pred: select * from Cartoon where Directed_by = 'terminal'
+easy gold: SELECT * FROM TV_Channel WHERE Country = "Italy"
+
+easy pred: select T3.Written_by,T3.Directed_by from TV_series as T1 join TV_Channel as T2 on T1.Channel = T2.id join Cartoon as T3 on T2.id = T3.Channel where T1.Share = 'terminal'
+easy gold: SELECT * FROM TV_Channel WHERE Country = "Poland"
+
+hard pred: select Episode,count(*) from TV_series group by Episode order by count(*) desc limit 1
+hard gold: SELECT Country ,  count(*) FROM TV_Channel GROUP BY Country ORDER BY count(*) DESC LIMIT 1
+
+easy pred: select T2.Title from TV_Channel as T1 join Cartoon as T2 on T1.id = T2.Channel where T2.Title = 'terminal' and T1.series_name = 'terminal'
+easy gold: SELECT Channel FROM Cartoon WHERE Title = "The Eyes of Despero!"
+
+hard pred: select Episode from TV_series group by Episode
+hard gold: SELECT series_name FROM TV_Channel WHERE id IN (SELECT Channel FROM Cartoon WHERE Title = "The Eyes of Despero!")
+
+medium pred: select T3.Title,T2.Episode from TV_Channel as T1 join TV_series as T2 on T1.id = T2.Channel join Cartoon as T3 on T1.id = T3.Channel where T1.Language = 'terminal'
+medium gold: SELECT count(DISTINCT series_name) ,  count(DISTINCT content) FROM TV_Channel
+
+easy pred: select Package_Option from TV_Channel where Content = 'terminal'
+easy gold: SELECT Package_Option FROM TV_Channel WHERE series_name = "Rock TV"
+
+easy pred: select Episode from TV_series where Share = 'terminal'
+easy gold: SELECT Language FROM TV_Channel WHERE series_name = "Rock TV"
+
+hard pred: select Title,count(*) from Cartoon where id not in (select id from Cartoon) group by id
+hard gold: SELECT LANGUAGE ,  count(*) FROM TV_Channel GROUP BY LANGUAGE ORDER BY count(*) ASC LIMIT 1
+
+easy pred: select Title from Cartoon where Written_by = 'terminal'
+easy gold: SELECT Written_by FROM Cartoon WHERE Title = "The Rise of the Blue Beetle!"
+
+easy pred: select Directed_by from Cartoon where Directed_by = 'terminal'
+easy gold: SELECT Directed_by FROM Cartoon WHERE Title = "The Rise of the Blue Beetle!"
+
+medium pred: select T2.Title from TV_Channel as T1 join Cartoon as T2 on T1.id = T2.Channel where T1.series_name = 'terminal'
+medium gold: SELECT T1.series_name FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Title = "The Rise of the Blue Beetle!"
+
+easy pred: select count(*) from Cartoon where Title = 'terminal'
+easy gold: SELECT Country FROM TV_Channel WHERE series_name = "Sky Radio"
+
+easy pred: select T1.Content from TV_Channel as T1 join TV_series as T2 on T1.id = T2.Channel where T2.Episode = 'terminal'
+easy gold: SELECT Content FROM TV_Channel WHERE series_name = "Sky Radio"
+
+medium pred: select T1.Hight_definition_TV,T2.Episode from TV_Channel as T1 join TV_series as T2 on T1.id = T2.Channel order by T2.Rating desc limit 1
+medium gold: SELECT Episode ,  Rating FROM TV_series ORDER BY Rating DESC LIMIT 3
+
+easy pred: select Rating from TV_series where Episode = 'terminal'
+easy gold: SELECT Weekly_Rank FROM TV_series WHERE Episode = "Emily"
+
+easy pred: select Share from TV_series where Share = 'terminal'
+easy gold: SELECT Share FROM TV_series WHERE Episode = "Emily"
+
+eval_err_num:1
+medium pred: select max(Share),min(Share),18_49_Rating_Share from TV_series
+medium gold: SELECT max(SHARE) , min(SHARE) FROM TV_series
+
+easy pred: select Episode from TV_series where Episode = 'terminal'
+easy gold: SELECT Rating FROM TV_series WHERE Episode = "A Love of a Lifetime"
+
+easy pred: select T1.Rating,T3.Title from TV_series as T1 join TV_Channel as T2 on T1.Channel = T2.id join Cartoon as T3 on T2.id = T3.Channel order by T1.Rating desc limit 1
+easy gold: SELECT Weekly_Rank FROM TV_series WHERE Episode = "A Love of a Lifetime"
+
+medium pred: select T2.Title from TV_Channel as T1 join Cartoon as T2 on T1.id = T2.Channel where T1.series_name = 'terminal'
+medium gold: SELECT T1.series_name FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.Episode = "A Love of a Lifetime"
+
+easy pred: select T1.Content from TV_Channel as T1 join TV_series as T2 on T1.id = T2.Channel where T2.Episode = 'terminal'
+easy gold: SELECT Content FROM TV_Channel WHERE series_name = "Sky Radio"
+
+easy pred: select T1.Language from TV_Channel as T1 join TV_series as T2 on T1.id = T2.Channel where T2.Episode = 'terminal'
+easy gold: SELECT Language FROM TV_Channel WHERE series_name = "Sky Radio"
+
+medium pred: select T1.Language from TV_Channel as T1 join TV_series as T2 on T1.id = T2.Channel where T2.Episode = 'terminal'
+medium gold: SELECT T2.Episode FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T1.series_name = "Sky Radio"
+
+easy pred: select Title from Cartoon where Title = 'terminal'
+easy gold: SELECT Original_air_date FROM Cartoon WHERE Title = "Fall of the Blue Beetle!"
+
+easy pred: select T2.Production_code from TV_Channel as T1 join Cartoon as T2 on T1.id = T2.Channel where T1.series_name = 'terminal'
+easy gold: SELECT Production_code FROM Cartoon WHERE Title = "Fall of the Blue Beetle!"
+
+medium pred: select Rating,Episode from TV_series group by Episode
+medium gold: SELECT production_code ,  channel FROM cartoon ORDER BY original_air_date LIMIT 1
+
+easy pred: select T3.Directed_by from TV_series as T1 join TV_Channel as T2 on T1.Channel = T2.id join Cartoon as T3 on T2.id = T3.Channel where T1.Episode = 'terminal'
+easy gold: SELECT Title FROM Cartoon WHERE Directed_by = "Ben Jones"
+
+easy pred: select Directed_by from Cartoon where Title = 'terminal'
+easy gold: SELECT Title FROM Cartoon WHERE Written_by = "Todd Casey"
+
+medium pred: select * from TV_Channel as T1 join TV_series as T2 on T1.id = T2.Channel where T1.series_name = 'terminal' and T2.Episode = 'terminal'
+medium gold: SELECT T1.country FROM TV_Channel AS T1 JOIN cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Written_by  =  'Todd Casey'
+
+medium pred: select * from TV_series as T1 join TV_Channel as T2 on T1.Channel = T2.id join Cartoon as T3 on T2.id = T3.Channel where T3.Title = 'terminal' and T1.Episode = 'terminal'
+medium gold: SELECT T1.country FROM TV_Channel AS T1 JOIN cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Written_by  =  'Steven Melching'
+
+hard pred: select Episode from TV_series where Episode like 'terminal'
+hard gold: SELECT country FROM TV_Channel EXCEPT SELECT T1.country FROM TV_Channel AS T1 JOIN cartoon AS T2 ON T1.id = T2.Channel WHERE T2.written_by  =  'Todd Casey'
+
+                     easy                 medium               hard                 extra                all                  joint_all           
+count                144                  106                  38                   31                   319                  131                 
+
+====================== EXACT MATCHING ACCURACY =====================
+exact match          0.181                0.038                0.000                0.000                0.094                0.000               
+
+---------------------PARTIAL MATCHING ACCURACY----------------------
+select               0.521                0.333                0.368                0.258                0.415                0.000               
+select(no AGG)       0.549                0.333                0.395                0.258                0.431                0.000               
+where                0.103                0.045                0.038                0.111                0.076                0.000               
+where(no OP)         0.115                0.045                0.077                0.111                0.086                0.000               
+group(no Having)     0.000                0.222                0.000                0.091                0.114                0.000               
+group                0.000                0.167                0.000                0.091                0.091                0.000               
+order                0.250                0.375                0.500                0.727                0.519                0.000               
+and/or               1.000                0.833                0.684                0.800                0.887                0.000               
+IUEN                 0.000                0.000                0.000                0.000                0.000                0.000               
+keywords             0.745                0.761                0.441                0.387                0.667                0.000               
+---------------------- PARTIAL MATCHING RECALL ----------------------
+select               0.521                0.330                0.368                0.258                0.414                0.000               
+select(no AGG)       0.549                0.330                0.395                0.258                0.429                0.000               
+where                0.113                0.043                0.036                0.087                0.075                0.000               
+where(no OP)         0.125                0.043                0.071                0.087                0.085                0.000               
+group(no Having)     0.000                0.267                0.000                0.100                0.147                0.000               
+group                0.000                0.200                0.000                0.100                0.118                0.000               
+order                0.250                0.214                0.250                0.727                0.378                0.000               
+and/or               0.979                0.934                1.000                0.960                0.965                0.000               
+IUEN                 0.000                0.000                0.000                0.000                0.000                0.000               
+keywords             0.849                0.714                0.395                0.387                0.672                0.000               
+---------------------- PARTIAL MATCHING F1 --------------------------
+select               0.521                0.332                0.368                0.258                0.414                1.000               
+select(no AGG)       0.549                0.332                0.395                0.258                0.430                1.000               
+where                0.108                0.044                0.037                0.098                0.075                1.000               
+where(no OP)         0.120                0.044                0.074                0.098                0.085                1.000               
+group(no Having)     1.000                0.242                1.000                0.095                0.128                1.000               
+group                1.000                0.182                1.000                0.095                0.103                1.000               
+order                0.250                0.273                0.333                0.727                0.438                1.000               
+and/or               0.989                0.881                0.813                0.873                0.925                1.000               
+IUEN                 1.000                1.000                1.000                1.000                1.000                1.000               
+keywords             0.793                0.737                0.417                0.387                0.669                1.000               
+
+
+                     turn 1               turn 2               turn 3               turn 4               turn >4             
+count                131                  131                  57                   0                    0                   
+
+====================== TRUN EXACT MATCHING ACCURACY =====================
+exact match          0.206                0.015                0.018                0.000                0.000               
