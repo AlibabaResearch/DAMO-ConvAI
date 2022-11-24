@@ -1,9 +1,12 @@
-# SPACE
-This repository contains code and data for the **SIGIR'2022** paper "**Unified Dialog Model Pre-training for Task-Oriented Dialog
-Understanding and Generation**".
+# SPACE-3
+This repository contains code and data for the **SIGIR'2022** paper "**SPACE-3: Unified Dialog Model Pre-training for Task-Oriented
+Dialog Understanding and Generation**".
+
+Full version with Appendix is here: [[PDF]](https://arxiv.org/abs/2209.06664)
+
 
 ## Abstract
-Recently, pre-training methods have shown remarkable success in task-oriented dialog (TOD) systems. However, most existing pre-trained models for TOD focus on either dialog understanding or dialog generation, but not both. In this paper, we propose FORTUNE, a novel unified pre-trained dialog model learning from large-scale dialog corpora with limited annotations, which can be effectively fine-tuned on a wide range of downstream dialog tasks. Specifically, FORTUNE consists of four successive components in a single transformer to maintain a task-flow in TOD systems: (i) a dialog encoding module to encode dialog history, (ii) a dialog understanding module to extract semantic vectors from either user queries or system responses, (iii) a dialog policy module to generate a policy vector that contains high-level semantics of the response, and (iv) a dialog generation module to produce appropriate responses. We design a dedicated pre-training objective for each component. Concretely, we pre-train the dialog encoding module with span mask language modeling to learn contextualized dialog information. To capture the structured dialog semantics, we pre-train the dialog understanding module via a novel tree-induced semi-supervised contrastive learning objective with the help of extra dialog annotations. In addition, we pre-train the dialog policy module by minimizing the L2 distance between its output policy vector and the semantic vector of the response for policy optimization. Finally, the dialog generation model is pre-trained by language modeling. Results show that FORTUNE achieves state-of-the-art performance on eight downstream dialog benchmarks, including intent prediction, dialog state tracking, and end-to-end dialog modeling. We also show that FORTUNE has a stronger few-shot ability than existing models under the low-resource setting.
+Recently, pre-training methods have shown remarkable success in task-oriented dialog (TOD) systems. However, most existing pre-trained models for TOD focus on either dialog understanding or dialog generation, but not both. In this paper, we propose SPACE-3, a novel unified pre-trained dialog model learning from large-scale dialog corpora with limited annotations, which can be effectively fine-tuned on a wide range of downstream dialog tasks. Specifically, SPACE-3 consists of four successive components in a single transformer to maintain a task-flow in TOD systems: (i) a dialog encoding module to encode dialog history, (ii) a dialog understanding module to extract semantic vectors from either user queries or system responses, (iii) a dialog policy module to generate a policy vector that contains high-level semantics of the response, and (iv) a dialog generation module to produce appropriate responses. We design a dedicated pre-training objective for each component. Concretely, we pre-train the dialog encoding module with span mask language modeling to learn contextualized dialog information. To capture the structured dialog semantics, we pre-train the dialog understanding module via a novel tree-induced semi-supervised contrastive learning objective with the help of extra dialog annotations. In addition, we pre-train the dialog policy module by minimizing the L2 distance between its output policy vector and the semantic vector of the response for policy optimization. Finally, the dialog generation model is pre-trained by language modeling. Results show that SPACE-3 achieves state-of-the-art performance on eight downstream dialog benchmarks, including intent prediction, dialog state tracking, and end-to-end dialog modeling. We also show that SPACE-3 has a stronger few-shot ability than existing models under the low-resource setting.
 
 ## Main Results
 SPACE performs end-to-end dialog modeling, dialog state tracking and intent prediction, which achieves new state-of-the-art results on all eight benchmark datasets including: BANKING77, CLINC150, HWU64, CamRest, In-Car Assistant, MultiWOZ2.0, MultiWOZ2.1 and MultiWOZ2.2.
@@ -84,7 +87,7 @@ million turns, ranging from single-turn QA to multi-turn dialogs.
 - [UnPreDial](https://drive.google.com/file/d/1QAK4QGFxdCcetzPqw7F8hFrwvE_0yj7J/view?usp=share_link): a large-scale unlabeled dialog dataset consisting of 19M utterances with careful processing from 21 online dialog corpora, ranging from online forums to conversational machine reading comprehension.
 
 ### Pre-trained Checkpoint
-- [SPACE](https://drive.google.com/file/d/1spXn4L5suSlaTlthnhXRFJormu4-FpNx/view?usp=share_link): an uncased model (12-layers, 768-hidden, 12-heads, 110M parameters)
+- [SPACE-3](https://drive.google.com/file/d/1spXn4L5suSlaTlthnhXRFJormu4-FpNx/view?usp=share_link): an uncased model (12-layers, 768-hidden, 12-heads, 110M parameters)
 
 You need to unzip the downloaded model file `model.zip`, then put the unzipped directory `model` into the project directory `SPACE` for the further fine-tuning.
 
@@ -214,7 +217,7 @@ If you use our code or find SPACE useful in your work, please cite our paper as:
 
 ```bib
 @inproceedings{he2022unified,
-  title={Unified Dialog Model Pre-training for Task-Oriented Dialog Understanding and Generation},
+  title={SPACE-3: Unified Dialog Model Pre-training for Task-Oriented Dialog Understanding and Generation},
   author={He, Wanwei and Dai, Yinpei and Yang, Min and Sun, Jian and Huang, Fei and Si, Luo and Li, Yongbin},
   booktitle={Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval},
   pages={187--200},
