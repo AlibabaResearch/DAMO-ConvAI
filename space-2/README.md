@@ -1,6 +1,9 @@
 # SPACE2.0
 This repository contains code and data for the **COLING'2022** paper "**Tree-Structured Semi-Supervised Contrastive Pre-training for Task-Oriented Dialog Understanding**".
 
+Full version with Appendix is here: [[PDF]](https://arxiv.org/abs/2209.06638)
+
+
 ## Abstract
 Pre-training methods with contrastive learning objectives have shown remarkable success in dialog understanding tasks. However, current contrastive learning solely considers the self-augmented dialog samples as positive samples and treats all other dialog samples as negative ones, which enforces dissimilar representations even for dialogs that are semantically related.  In this paper, we propose SPACE2.0, a tree-structured pre-trained conversation model, which learns dialog representations from limited labeled dialogs and large-scale unlabeled dialog corpora via semi-supervised contrastive pre-training. Concretely, we first define a general semantic tree structure (STS) to unify the inconsistent annotation schema across different dialog datasets, so that the rich structural information stored in all labeled data can be exploited.  Then we propose a novel multi-view score function to increase the relevance of all possible dialogs that share similar STSs and only push away other completely different dialogs during supervised contrastive pre-training. To fully exploit unlabeled dialogs, a basic self-supervised contrastive loss is also added to refine the learned representations. Experiments show that our method can achieve new state-of-the-art results on the DialoGLUE benchmark consisting of seven datasets and four popular dialog understanding tasks.
 
