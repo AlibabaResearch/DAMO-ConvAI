@@ -4,7 +4,7 @@ import json
 import sqlite3
 from os import listdir, makedirs
 from os.path import isfile, isdir, join, split, exists, splitext
-from nltk_download import word_tokenize, tokenize
+from nltk import word_tokenize, tokenize
 import traceback
 
 EXIST = {"atis", "geo", "advising", "yelp", "restaurants", "imdb", "academic"}

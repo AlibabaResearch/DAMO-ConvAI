@@ -26,7 +26,7 @@
 
 import json
 import sqlite3
-from nltk_download import word_tokenize
+from nltk import word_tokenize
 
 CLAUSE_KEYWORDS = (
     "select",

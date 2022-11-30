@@ -17,7 +17,7 @@ Please run the following commands:
 conda env create -f TKK.yaml
 conda activate TKK
 sh data_and_cache.sh
-python nltk_download.py
+python download.py
 ``````
 Most of the experiments are done on NVIDIA Tesla A100 80G.
 

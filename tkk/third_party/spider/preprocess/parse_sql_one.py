@@ -7,7 +7,7 @@ import sqlite3
 import random
 from os import listdir, makedirs
 from collections import OrderedDict
-from nltk_download import word_tokenize, tokenize
+from nltk import word_tokenize, tokenize
 from os.path import isfile, isdir, join, split, exists, splitext
 
 from ..process_sql import get_sql
