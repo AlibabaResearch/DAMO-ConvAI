@@ -1,0 +1,2852 @@
+{
+  "class_types": [
+    "none",
+    "dontcare",
+    "copy_value",
+    "true",
+    "false",
+    "refer",
+    "inform"
+  ],
+  "slots": [
+    "taxi-leaveAt",
+    "taxi-destination",
+    "taxi-departure",
+    "taxi-arriveBy",
+    "restaurant-book_people",
+    "restaurant-book_day",
+    "restaurant-book_time",
+    "restaurant-food",
+    "restaurant-pricerange",
+    "restaurant-name",
+    "restaurant-area",
+    "hotel-book_people",
+    "hotel-book_day",
+    "hotel-book_stay",
+    "hotel-name",
+    "hotel-area",
+    "hotel-parking",
+    "hotel-pricerange",
+    "hotel-stars",
+    "hotel-internet",
+    "hotel-type",
+    "attraction-type",
+    "attraction-name",
+    "attraction-area",
+    "train-book_people",
+    "train-leaveAt",
+    "train-destination",
+    "train-day",
+    "train-arriveBy",
+    "train-departure"
+  ],
+  "label_maps": {
+    "guest house": [
+      "guest houses"
+    ],
+    "hotel": [
+      "hotels"
+    ],
+    "centre": [
+      "center",
+      "downtown",
+      "west"
+    ],
+    "north": [
+      "northern",
+      "northside",
+      "northend"
+    ],
+    "east": [
+      "eastern",
+      "eastside",
+      "eastend",
+      "south"
+    ],
+    "west": [
+      "western",
+      "westside",
+      "westend"
+    ],
+    "south": [
+      "southern",
+      "southside",
+      "southend"
+    ],
+    "cheap": [
+      "inexpensive",
+      "lower price",
+      "lower range",
+      "cheaply",
+      "cheaper",
+      "cheapest",
+      "very affordable",
+      "moderate"
+    ],
+    "moderate": [
+      "moderately",
+      "reasonable",
+      "reasonably",
+      "affordable",
+      "mid range",
+      "mid-range",
+      "priced moderately",
+      "decently priced",
+      "mid price",
+      "mid-price",
+      "mid priced",
+      "mid-priced",
+      "middle price",
+      "medium price",
+      "medium priced",
+      "not too expensive",
+      "not too cheap"
+    ],
+    "expensive": [
+      "high end",
+      "high-end",
+      "high class",
+      "high-class",
+      "high scale",
+      "high-scale",
+      "high price",
+      "high priced",
+      "higher price",
+      "fancy",
+      "upscale",
+      "nice",
+      "expensively",
+      "luxury"
+    ],
+    "0": [
+      "zero"
+    ],
+    "1": [
+      "one",
+      "just me",
+      "for me",
+      "myself",
+      "alone",
+      "me",
+      "3"
+    ],
+    "2": [
+      "two"
+    ],
+    "3": [
+      "three",
+      "4"
+    ],
+    "4": [
+      "four",
+      "5",
+      "7"
+    ],
+    "5": [
+      "five"
+    ],
+    "6": [
+      "six"
+    ],
+    "7": [
+      "seven"
+    ],
+    "8": [
+      "eight"
+    ],
+    "9": [
+      "nine"
+    ],
+    "10": [
+      "ten"
+    ],
+    "11": [
+      "eleven"
+    ],
+    "12": [
+      "twelve"
+    ],
+    "architecture": [
+      "architectural",
+      "architecturally",
+      "architect"
+    ],
+    "boat": [
+      "boating",
+      "boats",
+      "camboats",
+      "concerthall",
+      "park"
+    ],
+    "boating": [
+      "boat",
+      "boats",
+      "camboats"
+    ],
+    "camboats": [
+      "boating",
+      "boat",
+      "boats",
+      "funky fun house",
+      "camboats'"
+    ],
+    "cinema": [
+      "cinemas",
+      "movie",
+      "films",
+      "film",
+      "entertainment",
+      "museum",
+      "theatre"
+    ],
+    "college": [
+      "colleges"
+    ],
+    "concert": [
+      "concert hall",
+      "concert halls",
+      "concerthall",
+      "concerthalls",
+      "concerts"
+    ],
+    "concerthall": [
+      "concert hall",
+      "concert halls",
+      "concerthalls",
+      "concerts",
+      "concert"
+    ],
+    "entertainment": [
+      "entertaining"
+    ],
+    "gallery": [
+      "museum"
+    ],
+    "gastropubs": [
+      "gastropub"
+    ],
+    "multiple sports": [
+      "multiple sport",
+      "multi sport",
+      "multi sports",
+      "sports",
+      "sporting",
+      "theatre"
+    ],
+    "museum": [
+      "museums",
+      "gallery",
+      "galleries",
+      "nightclub"
+    ],
+    "night club": [
+      "night clubs",
+      "nightclub",
+      "nightclubs",
+      "club",
+      "clubs"
+    ],
+    "park": [
+      "parks"
+    ],
+    "pool": [
+      "swimming pool",
+      "swimming",
+      "pools",
+      "swimmingpool",
+      "water",
+      "swim"
+    ],
+    "sports": [
+      "multiple sport",
+      "multi sport",
+      "multi sports",
+      "multiple sports",
+      "sporting"
+    ],
+    "swimming pool": [
+      "swimming",
+      "pool",
+      "pools",
+      "swimmingpool",
+      "water",
+      "swim"
+    ],
+    "theater": [
+      "theatre",
+      "theatres",
+      "theaters"
+    ],
+    "theatre": [
+      "theater",
+      "theatres",
+      "theaters"
+    ],
+    "abbey pool and astroturf pitch": [
+      "abbey pool and astroturf",
+      "abbey pool"
+    ],
+    "abbey pool and astroturf": [
+      "abbey pool and astroturf pitch",
+      "abbey pool"
+    ],
+    "abbey pool": [
+      "abbey pool and astroturf pitch",
+      "abbey pool and astroturf"
+    ],
+    "adc theatre": [
+      "adc theater",
+      "adc",
+      "adc theatre's",
+      "abc theatre"
+    ],
+    "adc": [
+      "adc theatre",
+      "adc theater"
+    ],
+    "addenbrookes hospital": [
+      "addenbrooke's hospital"
+    ],
+    "cafe jello gallery": [
+      "cafe jello",
+      "jello gallery's"
+    ],
+    "cambridge and county folk museum": [
+      "cambridge and country folk museum",
+      "county folk museum"
+    ],
+    "cambridge and country folk museum": [
+      "cambridge and county folk museum",
+      "county folk museum"
+    ],
+    "county folk museum": [
+      "cambridge and county folk museum",
+      "cambridge and country folk museum"
+    ],
+    "cambridge arts theatre": [
+      "cambridge arts theater",
+      "cambridge arts"
+    ],
+    "cambridge book and print gallery": [
+      "book and print gallery"
+    ],
+    "cambridge contemporary art": [
+      "cambridge contemporary art museum",
+      "contemporary art museum",
+      "contemporary art",
+      "cambridge art"
+    ],
+    "cambridge contemporary art museum": [
+      "cambridge contemporary art",
+      "contemporary art museum",
+      "contemporary art"
+    ],
+    "cambridge corn exchange": [
+      "the cambridge corn exchange",
+      "cambridge corn"
+    ],
+    "the cambridge corn exchange": [
+      "cambridge corn exchange",
+      "corn exchange"
+    ],
+    "cambridge museum of technology": [
+      "museum of technology"
+    ],
+    "cambridge punter": [
+      "the cambridge punter",
+      "cambridge punters",
+      "cambridge punte"
+    ],
+    "cambridge punters": [
+      "the cambridge punter",
+      "cambridge punter"
+    ],
+    "the cambridge punter": [
+      "cambridge punter",
+      "cambridge punters"
+    ],
+    "cambridge university botanic gardens": [
+      "cambridge university botanical gardens",
+      "cambridge university botanical garden",
+      "cambridge university botanic garden",
+      "cambridge botanic gardens",
+      "cambridge botanical gardens",
+      "cambridge botanic garden",
+      "cambridge botanical garden",
+      "botanic gardens",
+      "botanical gardens",
+      "botanic garden",
+      "botanical garden",
+      "university botanic gardens"
+    ],
+    "cambridge botanic gardens": [
+      "cambridge university botanic gardens",
+      "cambridge university botanical gardens",
+      "cambridge university botanical garden",
+      "cambridge university botanic garden",
+      "cambridge botanical gardens",
+      "cambridge botanic garden",
+      "cambridge botanical garden",
+      "botanic gardens",
+      "botanical gardens",
+      "botanic garden",
+      "botanical garden"
+    ],
+    "botanic gardens": [
+      "cambridge university botanic gardens",
+      "cambridge university botanical gardens",
+      "cambridge university botanical garden",
+      "cambridge university botanic garden",
+      "cambridge botanic gardens",
+      "cambridge botanical gardens",
+      "cambridge botanic garden",
+      "cambridge botanical garden",
+      "botanical gardens",
+      "botanic garden",
+      "botanical garden"
+    ],
+    "cherry hinton village centre": [
+      "cherry hinton village center"
+    ],
+    "cherry hinton village center": [
+      "cherry hinton village centre"
+    ],
+    "cherry hinton hall and grounds": [
+      "cherry hinton hall",
+      "cherry hinton village centre"
+    ],
+    "cherry hinton hall": [
+      "cherry hinton hall and grounds"
+    ],
+    "cherry hinton water play": [
+      "cherry hinton water play park"
+    ],
+    "cherry hinton water play park": [
+      "cherry hinton water play"
+    ],
+    "christ college": [
+      "christ's college",
+      "christs college",
+      "christi's college",
+      "christ's college's"
+    ],
+    "christs college": [
+      "christ college",
+      "christ's college"
+    ],
+    "churchills college": [
+      "churchill's college",
+      "churchill college",
+      "churchill college's"
+    ],
+    "cineworld cinema": [
+      "cineworld",
+      "cineworld cinema's"
+    ],
+    "clair hall": [
+      "clare hall"
+    ],
+    "clare hall": [
+      "clair hall"
+    ],
+    "the fez club": [
+      "fez club",
+      "fez"
+    ],
+    "great saint marys church": [
+      "great saint mary's church",
+      "great saint mary's",
+      "great saint marys",
+      "saint mary's"
+    ],
+    "jesus green outdoor pool": [
+      "jesus green",
+      "green outdoor pool",
+      "jesus green pool"
+    ],
+    "jesus green": [
+      "jesus green outdoor pool"
+    ],
+    "kettles yard": [
+      "kettle's yard"
+    ],
+    "kings college": [
+      "king's college",
+      "king's college,it"
+    ],
+    "kings hedges learner pool": [
+      "king's hedges learner pool",
+      "king hedges learner pool",
+      "kings hedges pool",
+      "kings hedges"
+    ],
+    "king hedges learner pool": [
+      "king's hedges learner pool",
+      "kings hedges learner pool"
+    ],
+    "little saint marys church": [
+      "little saint mary's church",
+      "little saint mary's",
+      "little saint marys",
+      "recommendvlittle saint mary's church",
+      "saint mary's church"
+    ],
+    "mumford theatre": [
+      "mumford theater"
+    ],
+    "museum of archaelogy": [
+      "museum of archaeology"
+    ],
+    "museum of archaelogy and anthropology": [
+      "museum of archaeology and anthropology"
+    ],
+    "peoples portraits exhibition": [
+      "people's portraits exhibition at girton college",
+      "peoples portraits exhibition at girton college",
+      "people's portraits exhibition"
+    ],
+    "peoples portraits exhibition at girton college": [
+      "people's portraits exhibition at girton college",
+      "people's portraits exhibition",
+      "peoples portraits exhibition",
+      "people's portrait exhibition at girton college",
+      "people's portraits exhibition at the girton college"
+    ],
+    "queens college": [
+      "queens' college",
+      "queen's college"
+    ],
+    "riverboat georgina": [
+      "riverboat",
+      "georgina",
+      "riverboat georgina's"
+    ],
+    "saint barnabas": [
+      "saint barbabas press gallery",
+      "saint barnabas press gallery"
+    ],
+    "saint barnabas press gallery": [
+      "saint barbabas",
+      "saint barnabas press",
+      "saint barnabas press gallery's"
+    ],
+    "saint catharines college": [
+      "saint catharine's college",
+      "saint catharine's",
+      "saint catherine's college"
+    ],
+    "saint johns college": [
+      "saint john's college",
+      "st john's college",
+      "st johns college",
+      "john's college"
+    ],
+    "scott polar": [
+      "scott polar museum"
+    ],
+    "scott polar museum": [
+      "scott polar"
+    ],
+    "scudamores punting co": [
+      "scudamore's punting co",
+      "scudamores punting",
+      "scudamore's punting",
+      "scudamores",
+      "scudamore's",
+      "scudamore",
+      "cambridge punter",
+      "the cambridge punter"
+    ],
+    "scudamore": [
+      "scudamore's punting co",
+      "scudamores punting co",
+      "scudamores punting",
+      "scudamore's punting",
+      "scudamores",
+      "scudamore's"
+    ],
+    "sheeps green and lammas land park fen causeway": [
+      "sheep's green and lammas land park fen causeway",
+      "sheep's green and lammas land park",
+      "sheeps green and lammas land park",
+      "lammas land park",
+      "sheep's green",
+      "sheeps green"
+    ],
+    "sheeps green and lammas land park": [
+      "sheep's green and lammas land park fen causeway",
+      "sheeps green and lammas land park fen causeway",
+      "sheep's green and lammas land park",
+      "lammas land park",
+      "sheep's green",
+      "sheeps green"
+    ],
+    "lammas land park": [
+      "sheep's green and lammas land park fen causeway",
+      "sheeps green and lammas land park fen causeway",
+      "sheep's green and lammas land park",
+      "sheeps green and lammas land park",
+      "sheep's green",
+      "sheeps green"
+    ],
+    "sheeps green": [
+      "sheep's green and lammas land park fen causeway",
+      "sheeps green and lammas land park fen causeway",
+      "sheep's green and lammas land park",
+      "sheeps green and lammas land park",
+      "lammas land park",
+      "sheep's green"
+    ],
+    "soul tree nightclub": [
+      "soul tree night club",
+      "soul tree",
+      "soultree",
+      "nightclub"
+    ],
+    "soultree": [
+      "soul tree nightclub",
+      "soul tree night club",
+      "soul tree"
+    ],
+    "the man on the moon": [
+      "man on the moon",
+      "the man on the moon,can"
+    ],
+    "man on the moon": [
+      "the man on the moon"
+    ],
+    "the junction": [
+      "junction theatre",
+      "junction theater"
+    ],
+    "junction theatre": [
+      "the junction",
+      "junction theater"
+    ],
+    "old schools": [
+      "old school"
+    ],
+    "vue cinema": [
+      "vue"
+    ],
+    "wandlebury country park": [
+      "the wandlebury",
+      "wandlebury",
+      "sheep's green and lammas land park fen causeway",
+      "wandlbury country park",
+      "wandlebury country park's"
+    ],
+    "the wandlebury": [
+      "wandlebury country park"
+    ],
+    "whipple museum of the history of science": [
+      "whipple museum",
+      "history of science museum",
+      "whipple museum of history",
+      "whipple"
+    ],
+    "history of science museum": [
+      "whipple museum of the history of science",
+      "whipple museum"
+    ],
+    "williams art and antique": [
+      "william's art and antique"
+    ],
+    "alimentum": [
+      "restaurant alimentum"
+    ],
+    "restaurant alimentum": [
+      "alimentum",
+      "restaurant alimentum's"
+    ],
+    "bedouin": [
+      "the bedouin",
+      "bedouin,which"
+    ],
+    "the bedouin": [
+      "bedouin"
+    ],
+    "bloomsbury restaurant": [
+      "bloomsbury"
+    ],
+    "cafe uno": [
+      "caffe uno",
+      "caffee uno"
+    ],
+    "caffe uno": [
+      "cafe uno",
+      "caffee uno"
+    ],
+    "caffee uno": [
+      "cafe uno",
+      "caffe uno",
+      "uno"
+    ],
+    "cambridge lodge restaurant": [
+      "cambridge lodge"
+    ],
+    "chiquito": [
+      "chiquito restaurant bar",
+      "chiquito restaurant"
+    ],
+    "chiquito restaurant bar": [
+      "chiquito restaurant",
+      "chiquito"
+    ],
+    "city stop restaurant": [
+      "city stop",
+      "city stop restaurant.the",
+      "city stop restaurant.and"
+    ],
+    "cityr": [
+      "cityroomz"
+    ],
+    "citiroomz": [
+      "cityroomz"
+    ],
+    "clowns cafe": [
+      "clown's cafe",
+      "clown",
+      "caffe"
+    ],
+    "cow pizza kitchen and bar": [
+      "the cow pizza kitchen and bar",
+      "cow pizza",
+      "cow pizza kitchen"
+    ],
+    "the cow pizza kitchen and bar": [
+      "cow pizza kitchen and bar",
+      "cow pizza",
+      "cow pizza kitchen",
+      "the cow pizza kitchen and barn"
+    ],
+    "darrys cookhouse and wine shop": [
+      "darry's cookhouse and wine shop",
+      "darry's cookhouse",
+      "darrys cookhouse"
+    ],
+    "de luca cucina and bar": [
+      "de luca cucina and bar riverside brasserie",
+      "luca cucina and bar",
+      "de luca cucina",
+      "luca cucina",
+      "de luca cucina and bar's"
+    ],
+    "de luca cucina and bar riverside brasserie": [
+      "de luca cucina and bar",
+      "luca cucina and bar",
+      "de luca cucina",
+      "luca cucina"
+    ],
+    "da vinci pizzeria": [
+      "da vinci pizza",
+      "da vinci",
+      "davinci",
+      "da vince pizzeria"
+    ],
+    "don pasquale pizzeria": [
+      "don pasquale pizza",
+      "don pasquale",
+      "pasquale pizzeria",
+      "pasquale pizza",
+      "pasquale"
+    ],
+    "efes": [
+      "efes restaurant"
+    ],
+    "efes restaurant": [
+      "efes"
+    ],
+    "fitzbillies restaurant": [
+      "fitzbillies"
+    ],
+    "frankie and bennys": [
+      "frankie and benny's",
+      "frankie's and bennys",
+      "frankie & benny's"
+    ],
+    "funky": [
+      "funky fun house"
+    ],
+    "funky fun house": [
+      "funky",
+      "fun house",
+      "funky fun house's",
+      "funk fun house",
+      "funky house",
+      "fun"
+    ],
+    "gardenia": [
+      "the gardenia"
+    ],
+    "the gardenia": [
+      "gardenia",
+      "the gardina"
+    ],
+    "grafton hotel restaurant": [
+      "the grafton hotel",
+      "grafton hotel"
+    ],
+    "the grafton hotel": [
+      "grafton hotel restaurant",
+      "grafton hotel"
+    ],
+    "grafton hotel": [
+      "grafton hotel restaurant",
+      "the grafton hotel"
+    ],
+    "hotel du vin and bistro": [
+      "hotel du vin",
+      "du vin",
+      "hotel du vin bistro"
+    ],
+    "Kohinoor": [
+      "kohinoor",
+      "the kohinoor"
+    ],
+    "kohinoor": [
+      "the kohinoor"
+    ],
+    "the kohinoor": [
+      "kohinoor"
+    ],
+    "lan hong house": [
+      "lan hong",
+      "ian hong house",
+      "ian hong",
+      "hong house"
+    ],
+    "ian hong": [
+      "lan hong house",
+      "lan hong",
+      "ian hong house"
+    ],
+    "lovel": [
+      "the lovell lodge",
+      "lovell lodge"
+    ],
+    "lovell lodge": [
+      "lovell",
+      "ashley hotel",
+      "cityroomz"
+    ],
+    "the lovell lodge": [
+      "lovell lodge",
+      "lovell"
+    ],
+    "mahal of cambridge": [
+      "mahal"
+    ],
+    "mahal": [
+      "mahal of cambridge"
+    ],
+    "maharajah tandoori restaurant": [
+      "maharajah tandoori",
+      "maharajah tandoor"
+    ],
+    "the maharajah tandoor": [
+      "maharajah tandoori restaurant",
+      "maharajah tandoori"
+    ],
+    "meze bar": [
+      "meze bar restaurant",
+      "the meze bar"
+    ],
+    "meze bar restaurant": [
+      "the meze bar",
+      "meze bar"
+    ],
+    "the meze bar": [
+      "meze bar restaurant",
+      "meze bar"
+    ],
+    "michaelhouse cafe": [
+      "michael house cafe"
+    ],
+    "midsummer house restaurant": [
+      "midsummer house"
+    ],
+    "missing sock": [
+      "the missing sock"
+    ],
+    "the missing sock": [
+      "missing sock"
+    ],
+    "nandos": [
+      "nando's city centre",
+      "nando's city center",
+      "nandos city centre",
+      "nandos city center",
+      "nando's"
+    ],
+    "nandos city centre": [
+      "nando's city centre",
+      "nando's city center",
+      "nandos city center",
+      "nando's",
+      "nandos",
+      "nandos city",
+      "nandos, city",
+      "nandos in the city centre"
+    ],
+    "oak bistro": [
+      "the oak bistro"
+    ],
+    "the oak bistro": [
+      "oak bistro",
+      "bistro"
+    ],
+    "one seven": [
+      "restaurant one seven",
+      "one"
+    ],
+    "restaurant one seven": [
+      "one seven"
+    ],
+    "river bar steakhouse and grill": [
+      "the river bar steakhouse and grill",
+      "the river bar steakhouse",
+      "river bar steakhouse"
+    ],
+    "the river bar steakhouse and grill": [
+      "river bar steakhouse and grill",
+      "the river bar steakhouse",
+      "river bar steakhouse"
+    ],
+    "pipasha restaurant": [
+      "pipasha"
+    ],
+    "pizza hut city centre": [
+      "pizza hut city center",
+      "pizza hut"
+    ],
+    "pizza hut fenditton": [
+      "pizza hut fen ditton",
+      "pizza express fen ditton"
+    ],
+    "restaurant two two": [
+      "two two",
+      "restaurant 22",
+      "restaurant called two two"
+    ],
+    "saffron brasserie": [
+      "saffron"
+    ],
+    "saint johns chop house": [
+      "saint john's chop house",
+      "st john's chop house",
+      "st johns chop house",
+      "saint john's"
+    ],
+    "sesame restaurant and bar": [
+      "sesame restaurant",
+      "sesame",
+      "restaurant and bar"
+    ],
+    "shanghai": [
+      "shanghai family restaurant"
+    ],
+    "shanghai family restaurant": [
+      "shanghai",
+      "shanghai family"
+    ],
+    "sitar": [
+      "sitar tandoori"
+    ],
+    "sitar tandoori": [
+      "sitar"
+    ],
+    "slug and lettuce": [
+      "the slug and lettuce"
+    ],
+    "the slug and lettuce": [
+      "slug and lettuce"
+    ],
+    "st johns chop house": [
+      "saint john's chop house",
+      "st john's chop house",
+      "saint johns chop house"
+    ],
+    "stazione restaurant and coffee bar": [
+      "stazione restaurant",
+      "stazione",
+      "stazione resaurant and coffee bar"
+    ],
+    "thanh binh": [
+      "thanh",
+      "binh"
+    ],
+    "thanh": [
+      "thanh binh",
+      "binh"
+    ],
+    "binh": [
+      "thanh binh",
+      "thanh"
+    ],
+    "the hotpot": [
+      "the hotspot",
+      "hotpot",
+      "hotspot"
+    ],
+    "hotpot": [
+      "the hotpot",
+      "the hotpot",
+      "hotspot"
+    ],
+    "the lucky star": [
+      "lucky star",
+      "star"
+    ],
+    "lucky star": [
+      "the lucky star"
+    ],
+    "the peking restaurant: ": [
+      "peking restaurant"
+    ],
+    "the varsity restaurant": [
+      "varsity restaurant",
+      "the varsity",
+      "varsity",
+      "the varsity restaurants"
+    ],
+    "two two": [
+      "restaurant two two",
+      "restaurant 22"
+    ],
+    "restaurant 22": [
+      "restaurant two two",
+      "two two"
+    ],
+    "zizzi cambridge": [
+      "zizzi"
+    ],
+    "american": [
+      "americas",
+      "the americas",
+      "north american",
+      "modern american"
+    ],
+    "asian oriental": [
+      "asian",
+      "oriental",
+      "asian or oriental"
+    ],
+    "australian": [
+      "australasian",
+      "indian"
+    ],
+    "barbeque": [
+      "barbecue",
+      "bbq",
+      "modern european"
+    ],
+    "corsica": [
+      "corsican"
+    ],
+    "indian": [
+      "tandoori",
+      "african",
+      "south indian",
+      "north indian",
+      "india house"
+    ],
+    "italian": [
+      "pizza",
+      "pizzeria",
+      "indian"
+    ],
+    "japanese": [
+      "sushi"
+    ],
+    "latin american": [
+      "latin-american",
+      "latin",
+      "latin-american,"
+    ],
+    "malaysian": [
+      "malay",
+      "hmmm...malaysian"
+    ],
+    "middle eastern": [
+      "middle-eastern"
+    ],
+    "traditional american": [
+      "american"
+    ],
+    "modern american": [
+      "american modern",
+      "american",
+      "north american"
+    ],
+    "modern european": [
+      "european modern",
+      "european",
+      "modern"
+    ],
+    "north american": [
+      "north-american",
+      "american",
+      "americas",
+      "indian",
+      "modern american"
+    ],
+    "portuguese": [
+      "portugese"
+    ],
+    "portugese": [
+      "portuguese"
+    ],
+    "seafood": [
+      "sea food",
+      "seafood,will"
+    ],
+    "singaporean": [
+      "singapore"
+    ],
+    "steakhouse": [
+      "steak house",
+      "steak"
+    ],
+    "the americas": [
+      "american",
+      "americas"
+    ],
+    "a and b guest house": [
+      "a & b guest house",
+      "a and b",
+      "a & b",
+      "b guest house",
+      "guest houses",
+      "a and b quest house",
+      "a guest house"
+    ],
+    "the acorn guest house": [
+      "acorn guest house",
+      "acorn"
+    ],
+    "acorn guest house": [
+      "the acorn guest house",
+      "acorn",
+      "guest houses",
+      "acorn house",
+      "acorn guest"
+    ],
+    "alexander bed and breakfast": [
+      "alexander",
+      "alexander b&b",
+      "alexander bed & breakfast",
+      "el shaddai",
+      "alexeander b&b",
+      "university arms hotel",
+      "alexander bed and breakfeast"
+    ],
+    "allenbell": [
+      "the allenbell",
+      "allen bell",
+      "autumn house",
+      "leverton house",
+      "allenball",
+      "alexander bed and breakfast",
+      "alexander bed and breakfastin"
+    ],
+    "the allenbell": [
+      "allenbell",
+      "autumn house",
+      "leverton house"
+    ],
+    "alpha-milton guest house": [
+      "the alpha-milton",
+      "alpha-milton",
+      "alpha-minton guest house",
+      "alpha-minon guest house",
+      "apha-milton guest house",
+      "alpha-milton guest",
+      "apha-milton"
+    ],
+    "the alpha-milton": [
+      "alpha-milton guest house",
+      "alpha-milton"
+    ],
+    "arbury lodge guest house": [
+      "arbury lodge",
+      "arbury",
+      "arbury lodge guest houses"
+    ],
+    "archway house": [
+      "archway"
+    ],
+    "ashley hotel": [
+      "the ashley hotel",
+      "ashley",
+      "lovell lodge",
+      "cityroomz",
+      "ashely hotel"
+    ],
+    "the ashley hotel": [
+      "ashley hotel",
+      "ashley",
+      "cityroomz",
+      "lovell lodge"
+    ],
+    "aylesbray lodge guest house": [
+      "aylesbray lodge",
+      "aylesbray",
+      "rosas bed and breakfast",
+      "rosa's",
+      "aylesbury odge guest house,i",
+      "lodge guest house"
+    ],
+    "aylesbray lodge guest": [
+      "aylesbray lodge guest house",
+      "aylesbray lodge",
+      "aylesbray"
+    ],
+    "alesbray lodge guest house": [
+      "aylesbray lodge guest house",
+      "aylesbray lodge",
+      "aylesbray"
+    ],
+    "alyesbray lodge hotel": [
+      "aylesbray lodge guest house",
+      "aylesbray lodge",
+      "aylesbray"
+    ],
+    "bridge guest house": [
+      "bridge house",
+      "aylesbray lodge guest house",
+      "bridge"
+    ],
+    "cambridge belfry": [
+      "the cambridge belfry",
+      "belfry hotel",
+      "belfry",
+      "cambridge belfy"
+    ],
+    "the cambridge belfry": [
+      "cambridge belfry",
+      "belfry hotel",
+      "belfry"
+    ],
+    "belfry hotel": [
+      "the cambridge belfry",
+      "cambridge belfry",
+      "belfry"
+    ],
+    "carolina bed and breakfast": [
+      "carolina",
+      "carolina b&b",
+      "caroline bed and breakfast",
+      "carolina bed & breakfast"
+    ],
+    "city centre north": [
+      "city centre north bed and breakfast"
+    ],
+    "north b and b": [
+      "city centre north bed and breakfast"
+    ],
+    "city centre north b and b": [
+      "city centre north bed and breakfast",
+      "city centre north b&b",
+      "el shaddai",
+      "el shaddai guest house",
+      "city centre b and b",
+      "city center north b and b",
+      "city centre",
+      "north b and b",
+      "city cenrtree north and b",
+      "city centre north b & b",
+      "city centre north b and b.reference",
+      "city centre north b and b.it"
+    ],
+    "el shaddia guest house": [
+      "el shaddai guest house",
+      "el shaddai",
+      "el shaddia"
+    ],
+    "el shaddai guest house": [
+      "el shaddia guest house",
+      "el shaddai",
+      "el shaddia"
+    ],
+    "express by holiday inn cambridge": [
+      "express by holiday inn",
+      "holiday inn cambridge",
+      "holiday inn",
+      "express by holiday inn in cambridge",
+      "holiday inn exlpress, cambridge",
+      "express by holiday inn cambridge,will",
+      "express by hoilday inn cambridge"
+    ],
+    "holiday inn": [
+      "express by holiday inn cambridge",
+      "express by holiday inn",
+      "holiday inn cambridge"
+    ],
+    "finches bed and breakfast": [
+      "finches",
+      "finches bed & breakfast",
+      "finches b&b"
+    ],
+    "gonville hotel": [
+      "gonville",
+      "the lensfield hotel",
+      "gonville hotell"
+    ],
+    "hamilton lodge": [
+      "the hamilton lodge",
+      "hamilton"
+    ],
+    "the hamilton lodge": [
+      "hamilton lodge",
+      "hamilton",
+      "the alpha-milton"
+    ],
+    "hobsons house": [
+      "hobson's house",
+      "hobson's",
+      "hobsons house's",
+      "hobson house"
+    ],
+    "huntingdon marriott hotel": [
+      "huntington marriott hotel",
+      "huntington marriot hotel",
+      "huntingdon marriot hotel",
+      "huntington marriott",
+      "huntingdon marriott",
+      "huntington marriot",
+      "huntingdon marriot",
+      "huntington",
+      "huntingdon",
+      "university arms hotel",
+      "marriott hotel"
+    ],
+    "kirkwood": [
+      "kirkwood house"
+    ],
+    "kirkwood house": [
+      "kirkwood",
+      "kirkwood guest house"
+    ],
+    "lensfield hotel": [
+      "the lensfield hotel",
+      "lensfield",
+      "lensdield hotel"
+    ],
+    "the lensfield hotel": [
+      "lensfield hotel",
+      "lensfield"
+    ],
+    "leverton house": [
+      "leverton"
+    ],
+    "marriot hotel": [
+      "marriott hotel",
+      "marriott"
+    ],
+    "rosas bed and breakfast": [
+      "rosa's bed and breakfast",
+      "rosa's",
+      "rosas",
+      "rosa's b&b",
+      "rosas's bed and breakfast"
+    ],
+    "university arms hotel": [
+      "university arms",
+      "university of arms",
+      "university arms hotel's"
+    ],
+    "warkworth house": [
+      "warkworth hotel",
+      "warkworth",
+      "autumn house"
+    ],
+    "warkworth hotel": [
+      "warkworth house",
+      "warkworth"
+    ],
+    "wartworth": [
+      "warkworth house",
+      "warkworth hotel",
+      "warkworth"
+    ],
+    "worth house": [
+      "the worth house"
+    ],
+    "the worth house": [
+      "worth house"
+    ],
+    "birmingham new street": [
+      "birmingham new street train station"
+    ],
+    "birmingham new street train station": [
+      "birmingham new street"
+    ],
+    "bishops stortford": [
+      "bishops stortford train station"
+    ],
+    "bishops stortford train station": [
+      "bishops stortford",
+      "bishops stortford station"
+    ],
+    "broxbourne": [
+      "broxbourne train station"
+    ],
+    "broxbourne train station": [
+      "broxbourne"
+    ],
+    "cambridge": [
+      "cambridge train station"
+    ],
+    "cambridge train station": [
+      "cambridge"
+    ],
+    "ely": [
+      "ely train station"
+    ],
+    "ely train station": [
+      "ely"
+    ],
+    "kings lynn": [
+      "king's lynn",
+      "king's lynn train station",
+      "kings lynn train station"
+    ],
+    "kings lynn train station": [
+      "kings lynn",
+      "king's lynn",
+      "king's lynn train station"
+    ],
+    "leicester": [
+      "leicester train station"
+    ],
+    "leicester train station": [
+      "leicester"
+    ],
+    "london kings cross": [
+      "kings cross",
+      "king's cross",
+      "london king's cross",
+      "kings cross train station",
+      "king's cross train station",
+      "london king's cross train station",
+      "london kings cross train station",
+      "london liverpool street",
+      "london"
+    ],
+    "london kings cross train station": [
+      "kings cross",
+      "king's cross",
+      "london king's cross",
+      "london kings cross",
+      "kings cross train station",
+      "king's cross train station",
+      "london king's cross train station"
+    ],
+    "london liverpool": [
+      "liverpool street",
+      "london liverpool street",
+      "london liverpool train station",
+      "liverpool street train station",
+      "london liverpool street train station"
+    ],
+    "london liverpool street": [
+      "london liverpool",
+      "liverpool street",
+      "london liverpool train station",
+      "liverpool street train station",
+      "london liverpool street train station",
+      "london kings cross"
+    ],
+    "london liverpool street train station": [
+      "london liverpool",
+      "liverpool street",
+      "london liverpool street",
+      "london liverpool train station",
+      "liverpool street train station"
+    ],
+    "norwich": [
+      "norwich train station"
+    ],
+    "norwich train station": [
+      "norwich"
+    ],
+    "peterborough": [
+      "peterborough train station"
+    ],
+    "peterborough train station": [
+      "peterborough"
+    ],
+    "stansted airport": [
+      "stansted airport train station"
+    ],
+    "stansted airport train station": [
+      "stansted airport"
+    ],
+    "stevenage": [
+      "stevenage train station"
+    ],
+    "stevenage train station": [
+      "stevenage"
+    ],
+    "huntington marriott hotel": [
+      "huntingdon marriott hotel"
+    ],
+    "australasian": [
+      "australian"
+    ],
+    "star": [
+      "the lucky star"
+    ],
+    "el shaddai": [
+      "el shaddia guest house",
+      "city center b&b",
+      "city centre north b and b",
+      "el shaddai guest house",
+      "el shaddi"
+    ],
+    "guest houses": [
+      "acorn guest house",
+      "a and b guest house"
+    ],
+    "tandoori": [
+      "tandoori palace"
+    ],
+    "tandoori palace": [
+      "tandoori"
+    ],
+    "aylesbray lodge": [
+      "aylesbray lodge guest house"
+    ],
+    "british": [
+      "british-themed",
+      "bristish",
+      "english"
+    ],
+    "the cambridge belfrey": [
+      "the cambridge belfry"
+    ],
+    "belfry": [
+      "cambridge belfry",
+      "the cambridge belfry"
+    ],
+    "bloomsbury": [
+      "bloomsbury restaurant"
+    ],
+    "huntingdon marriott": [
+      "huntingdon marriott hotel",
+      "cambridge belfry"
+    ],
+    "de luca cicina and bar": [
+      "de luca cucina and bar"
+    ],
+    "fen ditton": [
+      "pizza hut fenditton"
+    ],
+    "alpha milton guest house": [
+      "alpha-milton guest house"
+    ],
+    "ashley": [
+      "ashley hotel"
+    ],
+    "city": [
+      "saigon city",
+      "bangkok city"
+    ],
+    "hobson's house": [
+      "hobsons house"
+    ],
+    "anatolia": [
+      "anatolia's"
+    ],
+    "pizza hut cherry": [
+      "pizza hut cherry hilton"
+    ],
+    "pizza hut fen ditton": [
+      "pizza hut fenditton",
+      "pizza hut"
+    ],
+    "dojo noddle bar": [
+      "dojo noodle bar"
+    ],
+    "gonville": [
+      "gonville hotel"
+    ],
+    "pizza": [
+      "pizza hut fenditton",
+      "pizza express"
+    ],
+    "darrys cookhouse": [
+      "darrys cookhouse and wine shop"
+    ],
+    "cotto": [
+      "cotto\"?",
+      "cotto?also,"
+    ],
+    "charlie chan": [
+      "charlie chan's"
+    ],
+    "dojo nooodle bar": [
+      "dojo noodle bar"
+    ],
+    "dojo noodle bar": [
+      "dojo nooodle bar",
+      "j restaurant",
+      "noodle bar"
+    ],
+    "curry": [
+      "curry prince",
+      "curry garden",
+      "golden curry",
+      "the golden curry"
+    ],
+    "curry prince": [
+      "curry",
+      "rajmahal",
+      "curry prince's"
+    ],
+    "zizzi": [
+      "zizzi cambridge"
+    ],
+    "uno": [
+      "caffe uno",
+      "caffee uno"
+    ],
+    "museum of archaeology and anthropology": [
+      "museum of archaelogy and anthropology"
+    ],
+    "tenpin": [
+      "tenpin's",
+      "nusha"
+    ],
+    "cambridge artworks": [
+      "artworks"
+    ],
+    "great saint mary's church": [
+      "great saint marys church"
+    ],
+    "huntington marriot hotel": [
+      "huntingdon marriot hotel",
+      "huntingdon marriott hotel"
+    ],
+    "university arms": [
+      "university arms hotel"
+    ],
+    "modern": [
+      "modern american",
+      "modern european",
+      "modern global"
+    ],
+    "hamiliton lodge": [
+      "hamilton lodge"
+    ],
+    "express by holiday inn in cambridge": [
+      "express by holiday inn cambridge"
+    ],
+    "queen's college": [
+      "queens college"
+    ],
+    "churchill": [
+      "churchills college"
+    ],
+    "saint catharine's college": [
+      "saint catharines college"
+    ],
+    "pipasha": [
+      "pipasha restaurant"
+    ],
+    "noodle bar": [
+      "yippee noodle bar",
+      "jinling noodle bar"
+    ],
+    "oriental": [
+      "asian oriental"
+    ],
+    "j restaurant": [
+      "dojo noodle bar"
+    ],
+    "trinity street college": [
+      "trinity college"
+    ],
+    "trinity college": [
+      "trinity street college"
+    ],
+    "taj": [
+      "taj tandoori"
+    ],
+    "taj tandoori": [
+      "taj",
+      "taj tandoori's"
+    ],
+    "hedges learner pool": [
+      "king hedges learner pool"
+    ],
+    "kings hedges pool": [
+      "kings hedges learner pool"
+    ],
+    "churchill college": [
+      "churchills college"
+    ],
+    "cambridge arts": [
+      "cambridge arts theater",
+      "cambridge arts theatre"
+    ],
+    "yippee noolde bar": [
+      "yippee noodle bar"
+    ],
+    "hughes hall": [
+      "king's college",
+      "kings college"
+    ],
+    "milton": [
+      "milton country park"
+    ],
+    "vue": [
+      "vue cinema"
+    ],
+    "sidney sussex": [
+      "gonville and caius"
+    ],
+    "chiquito restaurant and bar": [
+      "chiquito restaurant bar"
+    ],
+    "saint john's college": [
+      "saint johns college"
+    ],
+    "contemporary art": [
+      "cambridge contemporary art",
+      "cambridge contemporary art museum"
+    ],
+    "ian hong house": [
+      "lan hong house"
+    ],
+    "asian": [
+      "asian oriental"
+    ],
+    "the other oriental restaurant": [
+      "oriental restaurant"
+    ],
+    "luca cucina and bar": [
+      "de luca cucina and bar"
+    ],
+    "clare": [
+      "clare college"
+    ],
+    "clare college": [
+      "clare"
+    ],
+    "pizza hut": [
+      "pizza hut fenditton",
+      "pizza hut cherry hilton",
+      "pizza hut fen ditton"
+    ],
+    "club salsa": [
+      "club salsa's"
+    ],
+    "william's art and antiques": [
+      "williams art and antiques"
+    ],
+    "williams art and antiques": [
+      "william's art and antiques"
+    ],
+    "towninfo centre": [
+      "cambridge towninfo centre"
+    ],
+    "georgina": [
+      "riverboat georgina"
+    ],
+    "scudamores punting": [
+      "scudamores punting co"
+    ],
+    "cafe jello": [
+      "cafe jello gallery"
+    ],
+    "holiday inn cambridge": [
+      "express by holiday inn cambridge"
+    ],
+    "a and b": [
+      "a and b guest house"
+    ],
+    "broughton house": [
+      "broughton house gallery"
+    ],
+    "broughton house gallery": [
+      "broughton house",
+      "michaelhouse",
+      "broughton gallery"
+    ],
+    "huntingdown marriot": [
+      "huntingdon marriott hotel"
+    ],
+    "huntingdon marriot hotel": [
+      "huntingdon marriott hotel"
+    ],
+    "arbury lodge": [
+      "arbury lodge guest house"
+    ],
+    "huntingdon marriot": [
+      "huntingdon marriott hotel"
+    ],
+    "all saints church": [
+      "all saint's church",
+      "all saints church,it",
+      "all saint church",
+      "all saints",
+      "all saints church's"
+    ],
+    "nusha": [
+      "nusha's",
+      "tenpin"
+    ],
+    "great saint mary's": [
+      "great saint marys church"
+    ],
+    "arcon guest house": [
+      "acorn guest house"
+    ],
+    "kosher": [
+      "british"
+    ],
+    "pasquale pizzeria": [
+      "don pasquale pizzeria"
+    ],
+    "cambridge belgry": [
+      "cambridge belfry"
+    ],
+    "the hotspot": [
+      "the hotpot"
+    ],
+    "the good luck chinese food takeaway": [
+      "'the good luck chinese food takeaway'"
+    ],
+    "lensfield": [
+      "lensfield hotel"
+    ],
+    "172 chesterton road": [
+      "172 chestertown road"
+    ],
+    "maharajah tandoor restaurant": [
+      "maharajah tandoori restaurant"
+    ],
+    "maharajah tandoor": [
+      "maharajah tandoori restaurant"
+    ],
+    "university of arms": [
+      "university arms hotel"
+    ],
+    "allen bell": [
+      "allenbell"
+    ],
+    "cambridge chop": [
+      "cambridge chop house"
+    ],
+    "cambridge chop house": [
+      "cambridge chop",
+      "chop house"
+    ],
+    "hakka": [
+      "hakka,can",
+      "hakka's"
+    ],
+    "north african": [
+      "centre...north african"
+    ],
+    "fitzbillies": [
+      "fitzbillies restaurant"
+    ],
+    "anatolia restaurant": [
+      "anatolia"
+    ],
+    "americas": [
+      "north american",
+      "american"
+    ],
+    "saigon city": [
+      "city"
+    ],
+    "castle galleries": [
+      "primavera"
+    ],
+    "queens' college": [
+      "queens college"
+    ],
+    "churchhill college": [
+      "churchills college"
+    ],
+    "holy trinity church": [
+      "church's"
+    ],
+    "ruskin gallery": [
+      "ruskin"
+    ],
+    "green outdoor pool": [
+      "jesus green outdoor pool"
+    ],
+    "riverboat": [
+      "riverboat georgina"
+    ],
+    "little saint mary's church": [
+      "little saint marys church"
+    ],
+    "mumford": [
+      "mumford theatre"
+    ],
+    "fitzwilliam museum": [
+      "museum of archaelogy and anthropology",
+      "fitzwilliam"
+    ],
+    "cityrooma": [
+      "cityroomz"
+    ],
+    "alexander": [
+      "el shaddai",
+      "gonville hotel",
+      "university arms hotel",
+      "alexander bed and breakfast"
+    ],
+    "lodge guest house": [
+      "arbury lodge guest house",
+      "aylesbray lodge guest house"
+    ],
+    "finches": [
+      "finches bed and breakfast",
+      "finches b and b"
+    ],
+    "country park": [
+      "wandlebury country park"
+    ],
+    "chinese": [
+      "mexican",
+      "tang chinese"
+    ],
+    "byard": [
+      "byard art"
+    ],
+    "peking": [
+      "peking restaurant"
+    ],
+    "peking restaurant": [
+      "peking"
+    ],
+    "river bar and steakhouse": [
+      "the river bar steakhouse and grill"
+    ],
+    "regent street city": [
+      "the regent street city center"
+    ],
+    "saint mary's": [
+      "great saint marys church"
+    ],
+    "byard art": [
+      "byard",
+      "art",
+      "byard art's"
+    ],
+    "bridge": [
+      "bridge guest house"
+    ],
+    "parkside swimming pool": [
+      "parkside pools"
+    ],
+    "cityrooms": [
+      "cityroomz"
+    ],
+    "citycroomz": [
+      "cityroomz"
+    ],
+    "express by holiday inn": [
+      "express by holiday inn cambridge"
+    ],
+    "holy trinity": [
+      "holy trinity church"
+    ],
+    "people's portraits exhibition at girton college": [
+      "peoples portraits exhibition at girton college"
+    ],
+    "b guest house": [
+      "a and b guest house"
+    ],
+    "acorn house": [
+      "acorn guest house"
+    ],
+    "kirkwood guest house": [
+      "kirkwood house"
+    ],
+    "a and be guest house": [
+      "a and b guest house"
+    ],
+    "south indian": [
+      "indian"
+    ],
+    "da vince pizzeria": [
+      "da vinci pizzeria"
+    ],
+    "dojo noodle": [
+      "dojo noodle bar"
+    ],
+    "nados": [
+      "nandos"
+    ],
+    "the copper kettle": [
+      "copper kettle"
+    ],
+    "lovell": [
+      "lovell lodge"
+    ],
+    "royal": [
+      "royal spice"
+    ],
+    "restaurant called two two": [
+      "restaurant two two"
+    ],
+    "stazione resaurant and coffee bar": [
+      "stazione restaurant and coffee bar"
+    ],
+    "alpha-minton guest house": [
+      "alpha-milton guest house"
+    ],
+    "alpha-minon guest house": [
+      "alpha-milton guest house"
+    ],
+    "global": [
+      "modern global"
+    ],
+    "pasquale": [
+      "don pasquale pizzeria"
+    ],
+    "a and b quest house": [
+      "a and b guest house"
+    ],
+    "riverside brasserie": [
+      "riverside brasserie's",
+      "riverside brasserie,which",
+      "brasserie"
+    ],
+    "hobson house": [
+      "hobsons house"
+    ],
+    "city centre b and b": [
+      "city centre north b and b"
+    ],
+    "university hotel": [
+      "university arms hotel"
+    ],
+    "yippee noodle bar": [
+      "yippee"
+    ],
+    "austalasian": [
+      "australian"
+    ],
+    "aylesbury odge guest house,i": [
+      "aylesbray lodge guest house"
+    ],
+    "brutish": [
+      "british"
+    ],
+    "leverton guest house": [
+      "leverton house"
+    ],
+    "graffiti": [
+      "graffiti's"
+    ],
+    "pizza hut city": [
+      "pizza hut city centre"
+    ],
+    "nandos city": [
+      "nandos city centre"
+    ],
+    "the varsity": [
+      "the varsity restaurant"
+    ],
+    "chines": [
+      "chinese"
+    ],
+    "golden wok": [
+      "golden wok's",
+      "nirala"
+    ],
+    "sea food": [
+      "seafood"
+    ],
+    "brasserie": [
+      "riverside brasserie"
+    ],
+    "malay": [
+      "malaysian"
+    ],
+    "da vinci": [
+      "da vinci pizzeria"
+    ],
+    "sala thong": [
+      "bangkok city",
+      "sala"
+    ],
+    "ali": [
+      "ali baba"
+    ],
+    "ali baba": [
+      "ali"
+    ],
+    "de luca cucina": [
+      "de luca cucina and bar"
+    ],
+    "darrys corkhouse": [
+      "darrys cookhouse and wine shop"
+    ],
+    "asian or oriental": [
+      "asian oriental"
+    ],
+    "morrocan": [
+      "moroccan"
+    ],
+    "clown's cafe": [
+      "clowns cafe"
+    ],
+    "midsummer house": [
+      "midsummer house restaurant"
+    ],
+    "european": [
+      "modern european",
+      "northern european"
+    ],
+    "carribbean": [
+      "caribbean"
+    ],
+    "restaurant and bar": [
+      "sesame restaurant and bar"
+    ],
+    "cote": [
+      "two two and cote"
+    ],
+    "two two and cote": [
+      "cote"
+    ],
+    "funk fun house": [
+      "funky fun house"
+    ],
+    "old school": [
+      "old schools"
+    ],
+    "recommendvlittle saint mary's church": [
+      "little saint marys church"
+    ],
+    "whale of at time": [
+      "whale of a time"
+    ],
+    "punter": [
+      "cambridge punter"
+    ],
+    "primavera": [
+      "primavera's"
+    ],
+    "whale of a time": [
+      "whale of time"
+    ],
+    "magdalene college": [
+      "magdalene college's",
+      "magdalene"
+    ],
+    "corn exchange": [
+      "the cambridge corn exchange"
+    ],
+    "cineworld": [
+      "cineworld cinema"
+    ],
+    "museum of classical": [
+      "museum of classical archaeology"
+    ],
+    "scudamores": [
+      "scudamore"
+    ],
+    "acorn guest": [
+      "acorn guest house"
+    ],
+    "rosa's bed and breakfast": [
+      "rosa's b ed and breakfast"
+    ],
+    "caroline bed and breakfast": [
+      "carolina bed and breakfast"
+    ],
+    "hamilton": [
+      "hamilton lodge"
+    ],
+    "apha-milton guest house": [
+      "alpha-milton guest house"
+    ],
+    "marriott hotel": [
+      "huntingdon marriott hotel",
+      "marriot hotel"
+    ],
+    "city center north b and b": [
+      "city centre north b and b"
+    ],
+    "monday": [
+      "thursday"
+    ],
+    "bridge house": [
+      "bridge guest house"
+    ],
+    "saturday": [
+      "tuesday",
+      "thursday"
+    ],
+    "friday": [
+      "wednesday",
+      "tuesday"
+    ],
+    "a & b guest house": [
+      "a and b guest house"
+    ],
+    "london": [
+      "london kings cross"
+    ],
+    "hotel du vin bistro": [
+      "hotel du vin and bistro"
+    ],
+    "jesus green pool": [
+      "jesus green outdoor pool"
+    ],
+    "sri lanken": [
+      "sri lankan"
+    ],
+    "clown": [
+      "clowns cafe"
+    ],
+    "sala": [
+      "sala thong"
+    ],
+    "backstreet bistro": [
+      "backstreet bistro,booking",
+      "bistro"
+    ],
+    "travellers rest": [
+      "traveller's rest"
+    ],
+    "latin": [
+      "latin american"
+    ],
+    "milton country park": [
+      "milton"
+    ],
+    "carribean": [
+      "caribbean"
+    ],
+    "strover gallery": [
+      "lynne strover gallery"
+    ],
+    "the botanical gardens at cambridge university": [
+      "cambridge university botanic gardens"
+    ],
+    "broughton gallery": [
+      "broughton house gallery"
+    ],
+    "jinling noodle bar": [
+      "noodle bar",
+      "jinling"
+    ],
+    "little st mary": [
+      "little saint marys church"
+    ],
+    "nando's": [
+      "nandos"
+    ],
+    "magdalene": [
+      "magdalene college"
+    ],
+    "fyne": [
+      "loch fyne"
+    ],
+    "italain": [
+      "italian"
+    ],
+    "bristish": [
+      "british"
+    ],
+    "parkside": [
+      "parkside pools"
+    ],
+    "ugly ducking": [
+      "ugly duckling"
+    ],
+    "el shadai": [
+      "el shaddia guest house"
+    ],
+    "allenball": [
+      "allenbell"
+    ],
+    "acorn": [
+      "acorn guest house"
+    ],
+    "leverton": [
+      "leverton house"
+    ],
+    "express hotel": [
+      "express by holiday inn cambridge"
+    ],
+    "gonville hotell": [
+      "gonville hotel"
+    ],
+    "el shaddi": [
+      "el shaddia guest house"
+    ],
+    "the place": [
+      "called,\"the place",
+      "places",
+      "place\""
+    ],
+    "arbury guest house": [
+      "arbury lodge guest house"
+    ],
+    "soul tree": [
+      "soul tree nightclub"
+    ],
+    "little saint maryschurch": [
+      "little saint marys church"
+    ],
+    "sunday": [
+      "monday",
+      "thursday"
+    ],
+    "cherry hinton village": [
+      "cherry hinton village centre"
+    ],
+    "cambridge university botanic garden": [
+      "cambridge university botanic gardens"
+    ],
+    "belfrey": [
+      "cambridge belfry"
+    ],
+    "express by hoilday inn cambridge": [
+      "express by holiday inn cambridge"
+    ],
+    "saint mary's church": [
+      "little saint marys church"
+    ],
+    "city cenrtree north and b": [
+      "city centre north b and b"
+    ],
+    "catharines college": [
+      "saint catharines college"
+    ],
+    "cambridge art": [
+      "cambridge contemporary art"
+    ],
+    "museum of archeology and anthropology": [
+      "museum of archaeology and anthropology"
+    ],
+    "art": [
+      "byard art"
+    ],
+    "fen causeway": [
+      "sheeps green and lammas land park fen causeway"
+    ],
+    "kambar": [
+      "kambar's"
+    ],
+    "huntington marriott": [
+      "huntingdon marriott hotel"
+    ],
+    "places": [
+      "the place",
+      "place"
+    ],
+    "express by holiday inn - cambridge": [
+      "express by holiday inn cambridge"
+    ],
+    "trinity": [
+      "trinity college"
+    ],
+    "scudamores punti co": [
+      "the cambridge punter"
+    ],
+    "riverside": [
+      "riverside brasserie"
+    ],
+    "queens": [
+      "queen's"
+    ],
+    "archway guest house": [
+      "archway house"
+    ],
+    "swimmingpools": [
+      "parkside pools"
+    ],
+    "chiquito restaurant": [
+      "chiquito restaurant bar"
+    ],
+    "acorns guest house": [
+      "acorn guest house"
+    ],
+    "corpus": [
+      "corpus christi"
+    ],
+    "hall": [
+      "clair hall"
+    ],
+    "wandlebury": [
+      "wandlebury country park"
+    ],
+    "avaion": [
+      "avalon"
+    ],
+    "avalon": [
+      "avaion"
+    ],
+    "people's portraits exhibition": [
+      "peoples portraits exhibition"
+    ],
+    "alyesbray lodge guest house": [
+      "aylesbray lodge guest house"
+    ],
+    "kings hedges": [
+      "kings hedges learner pool"
+    ],
+    "arbury guest house and lodge": [
+      "arbury lodge guest house"
+    ],
+    "john's college": [
+      "saint johns college"
+    ],
+    "st. john's college": [
+      "st johns college"
+    ],
+    "st johns college": [
+      "st. john's college"
+    ],
+    "huntingdon hotel": [
+      "huntingdon marriott hotel"
+    ],
+    "intalian": [
+      "italian"
+    ],
+    "place": [
+      "places"
+    ],
+    "a guest house": [
+      "a and b guest house"
+    ],
+    "downing": [
+      "downing college"
+    ],
+    "downing college": [
+      "downing"
+    ],
+    "eriterean": [
+      "mediterranean"
+    ],
+    "mediterranean": [
+      "eriterean"
+    ],
+    "good": [
+      "good luck"
+    ],
+    "good luck": [
+      "good"
+    ],
+    "india": [
+      "india west"
+    ],
+    "kymmoy": [
+      "kymmoy's"
+    ],
+    "express by holiday in cambridge": [
+      "express by holiday inn cambridge"
+    ],
+    "archway": [
+      "archway house"
+    ],
+    "pembroke": [
+      "pembroke college"
+    ],
+    "pembroke college": [
+      "pembroke"
+    ],
+    "latin america": [
+      "latin american"
+    ],
+    "jamaican": [
+      "chinese"
+    ],
+    "la minosa": [
+      "la mimosa"
+    ],
+    "la mimosa": [
+      "la minosa"
+    ],
+    "yu garden": [
+      "yu garden's"
+    ],
+    "christs": [
+      "christ college"
+    ],
+    "yippee noodle": [
+      "yippee noodle bar"
+    ],
+    "junction": [
+      "the junction"
+    ],
+    "stop restaurant": [
+      "city stop restaurant"
+    ],
+    "funky funhouse": [
+      "funky fun house"
+    ],
+    "jinling noodle": [
+      "jinling noodle bar"
+    ],
+    "pools": [
+      "parkside pools"
+    ],
+    "museum of classical archaeology": [
+      "museum of archaeology and anthropology"
+    ],
+    "st john's chop house": [
+      "st johns chop house"
+    ],
+    "children's oncology and haematology": [
+      "childrens oncology and haematology"
+    ],
+    "childrens oncology and haematology": [
+      "children's oncology and haematology"
+    ],
+    "police station": [
+      "parkside police station"
+    ],
+    "golden": [
+      "golden house"
+    ],
+    "warworth house": [
+      "warkworth house"
+    ],
+    "addenbrookes": [
+      "adden"
+    ],
+    "adden": [
+      "addenbrookes"
+    ],
+    "alexander bed and breafast": [
+      "alexander bed and breakfast"
+    ],
+    "sheep's green and lammas land park": [
+      "sheeps green and lammas land park"
+    ],
+    "rest": [
+      "travellers rest"
+    ],
+    "clinic": [
+      "paediatric clinic"
+    ],
+    "department": [
+      "emergency department"
+    ],
+    "emergency department": [
+      "department",
+      "emergency department's"
+    ],
+    "acute medicine care for the elderly": [
+      "acute medicine for the elderly"
+    ],
+    "bishops stortford station": [
+      "bishops stortford train station"
+    ],
+    "punting co": [
+      "scudamores punting co"
+    ],
+    "hepatobillary and gastrointestinal surgery referral center": [
+      "hepatobillary and gastrointestinal surgery regional referral centre"
+    ],
+    "bangkok city": [
+      "city"
+    ],
+    "plastic and vascular surgery": [
+      "plastic and vascular surgery plastics"
+    ],
+    "cabridge": [
+      "cambridge train station"
+    ],
+    "infusion service": [
+      "infusion services"
+    ],
+    "grafton": [
+      "grafton hotel restaurant"
+    ],
+    "day unit": [
+      "paediatric day unit"
+    ],
+    "paediatric day unit": [
+      "day unit"
+    ],
+    "nandos, city": [
+      "nandos city centre"
+    ],
+    "orthopaedics": [
+      "trauma and orthopaedics"
+    ],
+    "children's surgical and medicine": [
+      "childrens surgical and medicine"
+    ],
+    "childrens surgical and medicine": [
+      "children's surgical and medicine"
+    ],
+    "intermediate dependency area": [
+      "intermediate dependancy area"
+    ],
+    "gallery at twelve": [
+      "gallery at twelve a high street"
+    ],
+    "gallery at twelve a high street": [
+      "gallery at twelve"
+    ],
+    "infusion": [
+      "infusion services"
+    ],
+    "infusion services": [
+      "infusion"
+    ],
+    "gynecology": [
+      "gynaecology"
+    ],
+    "barbecue": [
+      "barbeque"
+    ],
+    "michael house cafe": [
+      "michaelhouse cafe"
+    ],
+    "loch fyne": [
+      "loch fyne's",
+      "loch"
+    ],
+    "the marriott": [
+      "the huntingdon marriott hotel"
+    ],
+    "copper kettle": [
+      "the copper kettle",
+      "copper kettle's"
+    ],
+    "gastropod": [
+      "gastropub"
+    ],
+    "kings lynn station": [
+      "kings lynn train station"
+    ],
+    "caffe": [
+      "clowns cafe"
+    ],
+    "bistro": [
+      "the oak bistro"
+    ],
+    "ask": [
+      "ask.\"",
+      "ask\""
+    ],
+    "tang chinese": [
+      "chinese"
+    ],
+    "pizza hut in cherry": [
+      "pizza hut cherry hilton"
+    ],
+    "ashely hotel": [
+      "ashley hotel"
+    ],
+    "lensdield hotel": [
+      "lensfield hotel"
+    ],
+    "alexeander b&b": [
+      "alexander bed and breakfast"
+    ],
+    "alexander bed and breakfastin": [
+      "allenbell",
+      "alexander bed and breakfast"
+    ],
+    "singapore": [
+      "singaporean"
+    ],
+    "la raza": [
+      "la raza's"
+    ],
+    "bbq": [
+      "barbeque"
+    ],
+    "spanish": [
+      "portuguese"
+    ],
+    "brazilian": [
+      "portuguese",
+      "brazliian"
+    ],
+    "caribbean": [
+      "indian"
+    ],
+    "pizza hut cherry hinton": [
+      "alimentum"
+    ],
+    "the gardina": [
+      "the gardenia"
+    ],
+    "jinling": [
+      "jinling noodle bar"
+    ],
+    "museum of archaelogy and anthropogy": [
+      "museum of archaelogy and anthropology"
+    ],
+    "christ's": [
+      "christs church"
+    ],
+    "christs church": [
+      "christ's"
+    ],
+    "india house": [
+      "indian"
+    ],
+    "acorn place": [
+      "acorn"
+    ],
+    "alexander bed and breakfeast": [
+      "alexander bed and breakfast"
+    ],
+    "artworks": [
+      "cambridge artworks"
+    ],
+    "gallery at twelve and high street": [
+      "gallery at twelve a high street"
+    ],
+    "arbury lodge guest houses": [
+      "arbury lodge guest house"
+    ],
+    "hong house": [
+      "lan hong house"
+    ],
+    "maharajah tandoori": [
+      "maharajah tandoori restaurant"
+    ],
+    "williams art & antiques": [
+      "williams art and antiques"
+    ],
+    "ballare": [
+      "ballare,it"
+    ],
+    "catharine's college": [
+      "st catharines college"
+    ],
+    "st catharines college": [
+      "catharine's college"
+    ],
+    "english": [
+      "british"
+    ],
+    "jello": [
+      "caf\u008e jello galery"
+    ],
+    "saint catharine's": [
+      "christ's college"
+    ],
+    "emergency": [
+      "emergency department"
+    ],
+    "latin-american,": [
+      "latin american"
+    ],
+    "pizza express": [
+      "pizza"
+    ],
+    "gandhi": [
+      "the gandhi"
+    ],
+    "the gandhi": [
+      "gandhi"
+    ],
+    "cambridge corn": [
+      "cambridge corn exchange"
+    ],
+    "cambridge belfy": [
+      "cambridge belfry"
+    ],
+    "chop house": [
+      "cambridge chop house"
+    ],
+    "luca cucina": [
+      "de luca cucina and bar"
+    ],
+    "anatoilia": [
+      "anatolia"
+    ],
+    "de luca cucina and bar and riverside brasserie": [
+      "de luca cucina and bar riverside brasserie"
+    ],
+    "shanghi family restaurant": [
+      "shanghai family restaurant"
+    ],
+    "weish": [
+      "welsh"
+    ],
+    "st christs college": [
+      "christ's college"
+    ],
+    "lynne strover": [
+      "lynne strover gallery"
+    ],
+    "lynne strover gallery": [
+      "lynne strover"
+    ],
+    "houses": [
+      "autumn house"
+    ],
+    "autumn house": [
+      "houses"
+    ],
+    "the hotel": [
+      "express by holiday inn cambridge"
+    ],
+    "express holiday inn by cambridge": [
+      "express by holiday inn cambridge"
+    ],
+    "wandlbury country park": [
+      "wandlebury country park"
+    ],
+    "europeon": [
+      "european"
+    ],
+    "the gonville hotel": [
+      "the gonvile hotel"
+    ],
+    "cambridge lodge": [
+      "cambridge lodge restaurant"
+    ],
+    "loch": [
+      "loch fyne"
+    ],
+    "hotel restaurant": [
+      "grafton hotel restaurant"
+    ],
+    "flinches bed and breakfast": [
+      "finches bed and breakfast"
+    ],
+    "steakhouses": [
+      "steakhouse"
+    ],
+    "pizza hut in cherry hinton": [
+      "pizza hut cherry hinton"
+    ],
+    "brazliian": [
+      "brazilian"
+    ],
+    "michaelhouse": [
+      "michaelhouse cafe"
+    ],
+    "fitzwilliam": [
+      "fitzwilliam museum"
+    ],
+    "cambridge punte": [
+      "cambridge punter"
+    ],
+    "saint johns chop shop house": [
+      "saint johns chop house"
+    ],
+    "the nirala": [
+      "the nirala's"
+    ],
+    "gastropub": [
+      "gastropubs"
+    ]
+  }
+}
