@@ -49,11 +49,11 @@ SAVE_ROOT=<YOUR_SAVE_PATH>/${PROJECT_NAME}  # root path of model's output
 ```
 
 ### Data Preparation
-Download data-split1 from this [link](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE2/data.zip). 
+Download data-split1 from this [link](https://drive.google.com/file/d/1ocwnuOLxB3VzngeWZsm59IRrhEv22Scx/view?usp=share_link). 
 
 The downloaded zip file `data.zip` contains pre-training corpora (including BANKING77, CLINC150 and HWU64) and three extra task-oriented (TOD) benchmark datasets: REST8K, DSTC8 and TOP, which have already been processed. You need to put the unzipped directory `data` into the project directory `SPACE2.0` for the subsequent training.
 
-Download data-split2 from this [link](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE2/trippy/data.zip).
+Download data-split2 from this [link](https://drive.google.com/file/d/1BZvlARzxXobjpQQRWvkF3jwnLN9-9c-n/view?usp=share_link).
 
 The downloaded zip file `data.zip` contains one TOD benchmark dataset: MultiWOZ2.1, which have already been processed. You need to put the unzipped directory `data` into the directory `SPACE2.0/trippy` for the subsequent training.
 
@@ -77,12 +77,12 @@ SPACE2.0/
 
 ## Pre-training
 ### Pre-training Corpora
-- [AnPreDial](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE2/AnPreDial.zip): a new labeled dialog dataset annotated with semantic trees, which contains 32 existing labeled TOD datasets with 3
+- [AnPreDial](https://drive.google.com/file/d/1ocwnuOLxB3VzngeWZsm59IRrhEv22Scx/view?usp=share_link): a new labeled dialog dataset annotated with semantic trees, which contains 32 existing labeled TOD datasets with 3
 million turns, ranging from single-turn QA to multi-turn dialogs.
-- [UnPreDial](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE2/UnPreDial.zip): a large-scale unlabeled dialog dataset consisting of 19M utterances with careful processing from 21 online dialog corpora, ranging from online forums to conversational machine reading comprehension.
+- [UnPreDial](https://drive.google.com/file/d/1ocwnuOLxB3VzngeWZsm59IRrhEv22Scx/view?usp=share_link): a large-scale unlabeled dialog dataset consisting of 19M utterances with careful processing from 21 online dialog corpora, ranging from online forums to conversational machine reading comprehension.
 
 ### Pre-trained Checkpoint
-- [SPACE2.0](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE2/model.zip): an uncased model (12-layers, 768-hidden, 12-heads, 110M parameters)
+- [SPACE2.0](https://drive.google.com/file/d/1QOhrd_kB8VXevEAo1Gohr58LxMI4OjYo/view?usp=share_link): an uncased model (12-layers, 768-hidden, 12-heads, 110M parameters)
 
 You need to unzip the downloaded model file `model.zip`, then put the unzipped directory `model` into the project directory `SPACE2.0` for the further fine-tuning.
 
@@ -100,7 +100,7 @@ sh scripts/pre_train/train.sh
 
 ## Fine-tuning
 ### Fine-tuned Checkpoints
-Download checkpoints-split1 from this [link](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE2/outputs.zip). 
+Download checkpoints-split1 from this [link](https://drive.google.com/file/d/10QEEMNsjO5rH0ZRsJBj9zkDc5ozxc3Ch/view?usp=share_link). 
 
 The downloaded zip file `outputs.zip` contains our best fine-tuned checkpoints on the following six datasets: 
 - BANKING77, CLINC150, HWU64 (**Intent Prediction**)
@@ -109,7 +109,7 @@ The downloaded zip file `outputs.zip` contains our best fine-tuned checkpoints o
 
 If you want to reproduce our reported results, you should put the unzipped directory `outputs` into the directory `${SAVE_ROOT}` (set in scripts). 
 
-Download checkpoints-split2 from this [link](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE2/trippy/outputs.zip). 
+Download checkpoints-split2 from this [link](https://drive.google.com/file/d/1G7K6AIBcRTC3CgMtSZdJ_TM6rFeXGe96/view?usp=share_link). 
 
 The downloaded zip file `outputs.zip` contains our best fine-tuned checkpoints on one dataset: 
 - MultiWOZ2.1 (**Dialog State Tracking**)
@@ -159,7 +159,7 @@ sh scripts/multiwoz21/train.sh
 
 > **NOTE**: You can skip Step 1 if you directly download the output model of Step 1. 
 > For DST task, you should convert model parameters into Hugging Face format.
-> So you can download the model file from this [link](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE2/trippy/model.zip) directly.
+> So you can download the model file from this [link](https://drive.google.com/file/d/1xzKhKBg0hJPAq1NebluLIwfVxnfN1-1R/view?usp=share_link) directly.
 > Then you need to unzip the downloaded model file `model.zip`, and put the unzipped directory `model` into the directory `SPACE2.0/trippy` for the further fine-tuning.
 
 ### Inference
