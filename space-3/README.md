@@ -126,7 +126,7 @@ sh scripts/pre_train/train.sh
 
 ## Fine-tuning
 ### Fine-tuned Checkpoints
-Download checkpoints-split1 from this [link](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE3.0-ALL/outputs.zip). 
+Download checkpoints-split1 from this [link](https://drive.google.com/file/d/1OMaDavKOEORSmXc487SYWTUqIwOO5wsC/view?usp=share_link). 
 
 The downloaded zip file `outputs.zip` contains our best fine-tuned checkpoints on the following seven datasets: 
 - MultiWOZ2.0, MultiWOZ2.1, In-Car Assistant, CamRest (**End-to-End Modeling**)
@@ -134,7 +134,7 @@ The downloaded zip file `outputs.zip` contains our best fine-tuned checkpoints o
 
 If you want to reproduce our reported results, you should put the unzipped directory `outputs` into the directory `${SAVE_ROOT}` (set in scripts). 
 
-Download checkpoints-split2 from this [link](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE3.0-ALL/trippy/outputs.zip). 
+Download checkpoints-split2 from this [link](https://drive.google.com/file/d/1MVhNDMgR6nOEJqCFnmzl0R1pxZvNPFbW/view?usp=share_link). 
 
 The downloaded zip file `outputs.zip` contains our best fine-tuned checkpoints on one dataset: 
 - MultiWOZ2.2 (**Dialog State Tracking**)
@@ -186,7 +186,7 @@ sh scripts/multiwoz22/train.sh
 ```
 
 > **NOTE**: You can skip Step 1 if you directly download the output model of Step 1. 
-> For DST task, you can download the model file from this [link](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE3.0-ALL/trippy/model.zip).
+> For DST task, you can download the model file from this [link](https://drive.google.com/file/d/1J2A-3VLeX_UZY-eaBFgVrjElKIZS2_AJ/view?usp=share_link).
 > You need to unzip the downloaded model file `model.zip`, then put the unzipped directory `model` into the directory `SPACE/trippy` for the further fine-tuning.
 
 ### Inference
