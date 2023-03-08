@@ -1,5 +1,5 @@
 # SPACE3.0
-This repository contains code and data for the **SIGIR'2022** paper "**Unified Dialog Model Pre-training for Task-Oriented Dialog
+This repository contains code and data for the **SIGIR'2022** paper "**SPACE-3: Unified Dialog Model Pre-training for Task-Oriented Dialog
 Understanding and Generation**".
 
 Full version with Appendix is here: [[PDF]](https://arxiv.org/abs/2209.06664)
@@ -234,11 +234,11 @@ sh scripts/multiwoz22/infer.sh
 - For the data preparation and evaluation on MultiWOZ2.0/MultiWOZ2.1/In-Car Assistant/CamRest, we refer to the code of [GALAXY](https://github.com/siat-nlp/GALAXY).
 
 ## Citation
-If you use our code or find SPACE useful in your work, please cite our paper as:
+If you use our code or find SPACE-3 useful in your work, please cite our paper as:
 
 ```bib
 @inproceedings{he2022unified,
-  title={Unified Dialog Model Pre-training for Task-Oriented Dialog Understanding and Generation},
+  title={SPACE-3: Unified Dialog Model Pre-training for Task-Oriented Dialog Understanding and Generation},
   author={He, Wanwei and Dai, Yinpei and Yang, Min and Sun, Jian and Huang, Fei and Si, Luo and Li, Yongbin},
   booktitle={Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval},
   pages={187--200},
@@ -247,4 +247,4 @@ If you use our code or find SPACE useful in your work, please cite our paper as:
 ```
 
 ## Contact
-For personal communication related to SPACE, please contact Wanwei He (`ww.he@siat.ac.cn`).
+For personal communication related to SPACE-3, please contact Wanwei He (`ww.he@siat.ac.cn`).

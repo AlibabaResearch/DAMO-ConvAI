@@ -1,5 +1,5 @@
 # SPACE2.0
-This repository contains code and data for the **COLING'2022** paper "**Tree-Structured Semi-Supervised Contrastive Pre-training for Task-Oriented Dialog Understanding**".
+This repository contains code and data for the **COLING'2022** paper "**SPACE-2: Tree-Structured Semi-Supervised Contrastive Pre-training for Task-Oriented Dialog Understanding**".
 
 Full version with Appendix is here: [[PDF]](https://arxiv.org/abs/2209.06638)
 
@@ -203,11 +203,11 @@ sh scripts/multiwoz21/infer.sh
 - For the data preparation and evaluation on MultiWOZ2.1, we refer to the code of [TripPy](https://gitlab.cs.uni-duesseldorf.de/general/dsml/trippy-public).
 
 ## Citation
-If you use our code or find SPACE2.0 useful in your work, please cite our paper as:
+If you use our code or find SPACE-2 useful in your work, please cite our paper as:
 
 ```bib
 @inproceedings{he2022tree,
-  title={Tree-Structured Semi-Supervised Contrastive Pre-training for Task-Oriented Dialog Understanding},
+  title={SPACE-2: Tree-Structured Semi-Supervised Contrastive Pre-training for Task-Oriented Dialog Understanding},
   author={He, Wanwei and Dai, Yinpei and Hui, Binyuan and Yang, Min and Cao, Zheng and Dong, Jianbo and Huang, Fei and Si, Luo and Li, Yongbin},
   booktitle={Proceedings of the 29th International Conference on Computational Linguistics},
   year={2022}
@@ -215,4 +215,4 @@ If you use our code or find SPACE2.0 useful in your work, please cite our paper 
 ```
 
 ## Contact
-For personal communication related to SPACE2.0, please contact Wanwei He (`ww.he@siat.ac.cn`).
+For personal communication related to SPACE-2, please contact Wanwei He (`ww.he@siat.ac.cn`).
