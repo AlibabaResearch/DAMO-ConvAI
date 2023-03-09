@@ -1,5 +1,5 @@
 # SPACE3.0
-This repository contains code and data for the **SIGIR'2022** paper "**Unified Dialog Model Pre-training for Task-Oriented Dialog
+This repository contains code and data for the **SIGIR'2022** paper "**SPACE-3: Unified Dialog Model Pre-training for Task-Oriented Dialog
 Understanding and Generation**".
 
 Full version with Appendix is here: [[PDF]](https://arxiv.org/abs/2209.06664)
@@ -126,7 +126,7 @@ sh scripts/pre_train/train.sh
 
 ## Fine-tuning
 ### Fine-tuned Checkpoints
-Download checkpoints-split1 from this [link](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE3.0-ALL/outputs.zip). 
+Download checkpoints-split1 from this [link](https://drive.google.com/file/d/1OMaDavKOEORSmXc487SYWTUqIwOO5wsC/view?usp=share_link). 
 
 The downloaded zip file `outputs.zip` contains our best fine-tuned checkpoints on the following seven datasets: 
 - MultiWOZ2.0, MultiWOZ2.1, In-Car Assistant, CamRest (**End-to-End Modeling**)
@@ -134,7 +134,7 @@ The downloaded zip file `outputs.zip` contains our best fine-tuned checkpoints o
 
 If you want to reproduce our reported results, you should put the unzipped directory `outputs` into the directory `${SAVE_ROOT}` (set in scripts). 
 
-Download checkpoints-split2 from this [link](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE3.0-ALL/trippy/outputs.zip). 
+Download checkpoints-split2 from this [link](https://drive.google.com/file/d/1MVhNDMgR6nOEJqCFnmzl0R1pxZvNPFbW/view?usp=share_link). 
 
 The downloaded zip file `outputs.zip` contains our best fine-tuned checkpoints on one dataset: 
 - MultiWOZ2.2 (**Dialog State Tracking**)
@@ -186,7 +186,7 @@ sh scripts/multiwoz22/train.sh
 ```
 
 > **NOTE**: You can skip Step 1 if you directly download the output model of Step 1. 
-> For DST task, you can download the model file from this [link](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE3.0-ALL/trippy/model.zip).
+> For DST task, you can download the model file from this [link](https://drive.google.com/file/d/1J2A-3VLeX_UZY-eaBFgVrjElKIZS2_AJ/view?usp=share_link).
 > You need to unzip the downloaded model file `model.zip`, then put the unzipped directory `model` into the directory `SPACE/trippy` for the further fine-tuning.
 
 ### Inference
@@ -234,11 +234,11 @@ sh scripts/multiwoz22/infer.sh
 - For the data preparation and evaluation on MultiWOZ2.0/MultiWOZ2.1/In-Car Assistant/CamRest, we refer to the code of [GALAXY](https://github.com/siat-nlp/GALAXY).
 
 ## Citation
-If you use our code or find SPACE useful in your work, please cite our paper as:
+If you use our code or find SPACE-3 useful in your work, please cite our paper as:
 
 ```bib
 @inproceedings{he2022unified,
-  title={Unified Dialog Model Pre-training for Task-Oriented Dialog Understanding and Generation},
+  title={SPACE-3: Unified Dialog Model Pre-training for Task-Oriented Dialog Understanding and Generation},
   author={He, Wanwei and Dai, Yinpei and Yang, Min and Sun, Jian and Huang, Fei and Si, Luo and Li, Yongbin},
   booktitle={Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval},
   pages={187--200},
@@ -247,4 +247,4 @@ If you use our code or find SPACE useful in your work, please cite our paper as:
 ```
 
 ## Contact
-For personal communication related to SPACE, please contact Wanwei He (`ww.he@siat.ac.cn`).
+For personal communication related to SPACE-3, please contact Wanwei He (`ww.he@siat.ac.cn`).
