@@ -133,24 +133,24 @@ Since our model is trained separately for each task, Download the model paramete
 | Teststd Performance | 94.29                                                                                                 |
 | Checkpoint          | [Checkpoint Link](https://drive.google.com/file/d/1Ji-JOYz2N5VQDjzT8jBi437xJo0pro_Y/view?usp=share_link) |
 
-| Sub-Task #3         | Multimodal Dialog State Tracking (MM-DST)                                                             |
-| ------------------- | ----------------------------------------------------------------------------------------------------- |
-| Goal                | To track user belief states across multiple turns                                                     |
-| Input               | Current user utterance, Dialogue context, Multimodal context                                          |
-| Output              | Belief state for current user utterance                                                               |
-| Metrics             | Slot F1, Intent F1                                                                                    |
-| Devtest Performance | 94.37/99.19                                                                                           |
-| Teststd Performance | 94.24/95.98                                                                                           |
+| Sub-Task #3         | Multimodal Dialog State Tracking (MM-DST)                    |
+| ------------------- | ------------------------------------------------------------ |
+| Goal                | To track user belief states across multiple turns            |
+| Input               | Current user utterance, Dialogue context, Multimodal context |
+| Output              | Belief state for current user utterance                      |
+| Metrics             | Slot F1, Intent F1                                           |
+| Devtest Performance | 93.32/99.19                                                  |
+| Teststd Performance | 94.24/95.98                                                  |
 | Checkpoint          | [Checkpoint Link](https://drive.google.com/file/d/14z92mgtOHlm832apGUhUa-q0MfI4Shib/view?usp=share_link) |
 
-| Sub-Task #4         | Multimodal Dialog Response Generation                                                                 |
-| ------------------- | ----------------------------------------------------------------------------------------------------- |
-| Goal                | To generate Assistant responses                                                                       |
-| Input               | Current user utterance, Dialog context, Multimodal context, (Ground-truth API Calls)                  |
-| Output              | Assistant response utterance                                                                          |
-| Metrics             | BLEU-4                                                                                                |
-| Devtest Performance | 45.39                                                                                                 |
-| Teststd Performance | 40.93                                                                                                 |
+| Sub-Task #4         | Multimodal Dialog Response Generation                        |
+| ------------------- | ------------------------------------------------------------ |
+| Goal                | To generate Assistant responses                              |
+| Input               | Current user utterance, Dialog context, Multimodal context, (Ground-truth API Calls) |
+| Output              | Assistant response utterance                                 |
+| Metrics             | BLEU-4                                                       |
+| Devtest Performance | 42.55                                                        |
+| Teststd Performance | 40.93                                                        |
 | Checkpoint          | [Checkpoint Link](https://drive.google.com/file/d/1kt1tsSihK_I_fhfRAgp6ECZ-WzAmMS-c/view?usp=share_link) |
 
 ## 📜 **Result**
