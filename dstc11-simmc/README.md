@@ -139,8 +139,8 @@ Since our model is trained separately for each task, Download the model paramete
 | Input               | Current user utterance, Dialogue context, Multimodal context |
 | Output              | Belief state for current user utterance                      |
 | Metrics             | Slot F1, Intent F1                                           |
-| Devtest Performance | 93.32/99.19                                                  |
-| Teststd Performance | 94.24/95.98                                                  |
+| Devtest Performance | 93.32 / 99.19                                                |
+| Teststd Performance | 94.24 / 95.98                                                |
 | Checkpoint          | [Checkpoint Link](https://drive.google.com/file/d/14z92mgtOHlm832apGUhUa-q0MfI4Shib/view?usp=share_link) |
 
 | Sub-Task #4         | Multimodal Dialog Response Generation                        |
