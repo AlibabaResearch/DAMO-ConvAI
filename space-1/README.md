@@ -57,11 +57,11 @@ The downloaded zip file `data.zip` contains pre-training corpora and four TOD be
 
 ## Pre-training
 ### Pre-training Corpora
-- [UniDA](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE1.0/Pre-training%20Data.zip): a new labeled dialog dataset consisting of 975,780 utterances, which are annotated with 20 frequently-used DAs, according to our proposed comprehensive unified DA taxonomy for task-oriented dialog.
-- [UnDial](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE1.0/Pre-training%20Data.zip): a large-scale unlabeled dialog dataset consisting of 35M utterances with careful processing, ranging from online forum chatting logs to customer service conversations.
+- [UniDA](https://drive.google.com/file/d/146ZPNI_FDKNX0xd_iErmD8etA5yj5mox/view?usp=share_link): a new labeled dialog dataset consisting of 975,780 utterances, which are annotated with 20 frequently-used DAs, according to our proposed comprehensive unified DA taxonomy for task-oriented dialog.
+- [UnDial](https://drive.google.com/file/d/1-1CEyd1gPJL8r9Na6aD9Wq0mHg-fAaI8/view?usp=share_link): a large-scale unlabeled dialog dataset consisting of 35M utterances with careful processing, ranging from online forum chatting logs to customer service conversations.
 
 ### Pre-trained Checkpoint
-- [SPACE1.0](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE1.0/model.zip): an uncased model with DA classification head (12-layers, 768-hidden, 12-heads, 109M parameters)
+- [SPACE1.0](https://drive.google.com/file/d/18NPZQ6SH9Q0nFZenf_hNyuJTyT9IFAjL/view?usp=share_link): an uncased model with DA classification head (12-layers, 768-hidden, 12-heads, 109M parameters)
 
 You need to unzip the downloaded model file `model.zip`, then put the unzipped directory `model` into the project directory `SPACE1.0` for the further fine-tuning.
 
@@ -84,7 +84,7 @@ sh scripts/pre_train/train_multi.sh
 
 ## Fine-tuning
 ### Fine-tuned Checkpoints
-Download checkpoints from this [link](http://datarepo0.oss-cn-hangzhou-zmf.aliyuncs.com/Alibaba/SPACE1.0/outputs.zip). 
+Download checkpoints from this [link](https://drive.google.com/file/d/1JerSwvLzes6b-igQ7lPCTIrh6IvrTMK6/view?usp=share_link). 
 
 The downloaded zip file `outputs.zip` contains our best fine-tuned checkpoints on different datasets: 
 - the **7-th** epoch on MultiWOZ2.0 (**60** training epochs in total)
