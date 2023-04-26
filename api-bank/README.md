@@ -4,6 +4,10 @@ Minghao Li, Feifan Song, Bowen Yu, Haiyang Yu, Zhoujun Li, Fei Huang, Yongbin Li
 arXiv: [[Abstract]](https://arxiv.org/abs/2304.08244)/[[PDF]](https://arxiv.org/pdf/2304.08244.pdf)
 <!-- PDF: [API-Bank-arxiv-version.pdf](API-Bank-arxiv-version.pdf)
  -->
+
+
+## News
+- **The code and data of API-Bank have been released.**
  
 ## Abstract
 
@@ -11,11 +15,33 @@ Recent research has shown that Large Language Models (LLMs) can utilize external
 
 ## Tool-Augmented LLMs Paradigm
 
-![Paradigm](figures/flowchart.png)
+![Paradigm](https://cdn.jsdelivr.net/gh/liminghao1630/auxiliary_use/figures/flowchart.png)
 
 ## System Design
 
-![System](figures/system.png)
+![System](https://cdn.jsdelivr.net/gh/liminghao1630/auxiliary_use/figures/system.png)
+
+## Demo
+As far as we know, there is a conflict between the dependencies of the `googletrans` package and the dependencies of the `gradio` package, which may cause the demo not to run properly. There is no good solution, you can uninstall `googletrans` first when using the demo.
+
+```
+python demo.py
+```
+
+### GPT-4
+
+![](https://cdn.jsdelivr.net/gh/liminghao1630/auxiliary_use/gpt-4-demo.gif)
+
+### GPT-3.5
+![](https://cdn.jsdelivr.net/gh/liminghao1630/auxiliary_use/gpt-3.5-demo.gif)
+
+
+## Evaluation
+
+The conversation data of level-1 and level-2 are stored in the `lv1-lv2-samples` directory, please follow the code in `evaluator.py` to design the evaluation script.
+The evaluation of level-3 needs to be done manually, you can use `simulator.py` or `demo.py` for testing.
+
+
 
 ## Citation
 
