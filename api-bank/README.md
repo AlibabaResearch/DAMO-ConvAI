@@ -29,12 +29,24 @@ python demo.py
 ```
 
 ### GPT-4
-
-![](https://cdn.jsdelivr.net/gh/liminghao1630/auxiliary_use/gpt-4-demo.gif)
+Demo of using GPT-4 to interact with API-Bank:
+![GPT-4 Demo](https://cdn.jsdelivr.net/gh/liminghao1630/auxiliary_use/gpt-4-demo.gif)
+```
+Alternate links for loading failure:
+GitHub: https://github.com/liminghao1630/auxiliary_use/raw/main/gpt-4-demo.gif
+JsDelivr: https://cdn.jsdelivr.net/gh/liminghao1630/auxiliary_use/gpt-4-demo.gif
+```
 
 ### GPT-3.5
-![](https://cdn.jsdelivr.net/gh/liminghao1630/auxiliary_use/gpt-3.5-demo.gif)
+Demo of using GPT-3.5 to interact with API-Bank:
 
+![GPT-3.5 Demo](https://cdn.jsdelivr.net/gh/liminghao1630/auxiliary_use/gpt-3.5-demo.gif)
+```
+Alternate links for loading failure:
+GitHub: https://github.com/liminghao1630/auxiliary_use/raw/main/gpt-3.5-demo.gif
+JsDelivr: https://cdn.jsdelivr.net/gh/liminghao1630/auxiliary_use/gpt-3.5-demo.gif
+```
+```
 
 ## Evaluation
 
