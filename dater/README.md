@@ -3,22 +3,16 @@
 The official repository which contains the prompt and the generation results of Codex at each stage for our paper [D<span style="font-size:0.8em;">a</span>t<span style="font-size:0.8em;">er</span>: Large Language Models are Versatile Decomposers: Decomposing Evidence and Questions for Table-based Reasoning](https://arxiv.org/pdf/2301.13808.pdf).
 ## Overview
 In this study, we present a new method called **Dater** , which involves the decomposition of large tables of evidence into smaller sub-tables and the decomposition of complex questions into simpler sub-questions for text reasoning. Additionally, we introduce a novel "parsing-execution-filling" strategy to alleviate the issue of hallucination in Language Language Models (LLMs).
-![Overview](dater.png)
+![Overview](./static/images/dater_animation.gif)
 
 
 
 
-## Introduction
-We have saved the results requested from Codex (code-davinci-002), including evidence decomposition, question decomposition, parsing-execution-filling, and the final reasoning.
-<div style="text-align:center">
-<img src="dater.gif" width="600"></div>
-
-[//]: # (![Overview]&#40;dater.gif&#41;)
 ## Download
 Download required prompts and saved files and moving files to target folder.
 
 ### Step 1
-Download the [saved files and prompts](https://www.baidu.com).
+Download the [saved files and prompts]().
 
 ### Step 2
 Move saved files to target folder.
