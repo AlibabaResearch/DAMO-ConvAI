@@ -1,0 +1,5 @@
+{
+    "0": "SELECT max(`Percent (%) Eligible Free (K-12)`) as highest_eligible_free_rate\nFROM frpm\nWHERE `County Name` = 'Alameda County'\t----- bird -----\tcalifornia_schools",
+    "1": "SELECT `Percent (%) Eligible Free (Ages 5-17)` \nFROM frpm \nWHERE `School Type` = 'Continuation High' \nORDER BY `Percent (%) Eligible Free (Ages 5-17)` ASC \nLIMIT 3\t----- bird -----\tcalifornia_schools",
+    "2": "SELECT schools.Zip\nFROM schools\nWHERE schools.County = 'Fresno' AND schools.Charter = 1 AND schools.StatusType = 'Active'\t----- bird -----\tcalifornia_schools"
+}

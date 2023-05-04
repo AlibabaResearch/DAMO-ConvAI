@@ -1,0 +1,5 @@
+{
+    "0": "SELECT `Percent (%) Eligible Free (K-12)` \nFROM frpm \nWHERE `County Name` = 'Alameda County' \nORDER BY `Percent (%) Eligible Free (K-12)` DESC \nLIMIT 1\t----- bird -----\tcalifornia_schools",
+    "1": "SELECT `Free Meal Count (Ages 5-17)` / `Enrollment (Ages 5-17)` as EligibleFreeRate, schools.School\nFROM frpm\nJOIN schools ON frpm.CDSCode = schools.CDSCode\nWHERE schools.StatusType = 'Active' AND schools.GSoffered = 'Continuation High'\nORDER BY EligibleFreeRate ASC\nLIMIT 3\t----- bird -----\tcalifornia_schools",
+    "2": "SELECT schools.Zip\nFROM schools\nJOIN frpm ON schools.CDSCode = frpm.CDSCode\nWHERE schools.County = 'Fresno' AND frpm.`Charter School (Y/N)` = 1\t----- bird -----\tcalifornia_schools"
+}
