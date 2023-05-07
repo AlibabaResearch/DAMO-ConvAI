@@ -12,7 +12,7 @@
 
 **License Notation**: BIRD-SQL is constructed and distributed for academic use instead of commercial use. For non-academic purpose of this data, please contact corresponding authors.
 <p align="center" width="100%">
-<a href="https://crfm.stanford.edu/alpaca/" target="_blank"><img src="materials/intro.png" alt="Stanford-Alpaca" style="width: 100%; min-width: 300px; display: block; margin: auto;"></a>
+<a><img src="materials/intro.png" style="width: 100%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
 ## Overview
@@ -89,10 +89,21 @@ cd ./llm/
 sh ./run/run_evaluation_ves.sh
 ```
 
+## Acknowledgement
 
-### Citation
+We thank Xin Yan for active involvement in ChatGPT prompt design, discussion, and figure creation in the HKU STAR Lab. We thank Jan Motl, Oliver Schulte for valuable suggestions and assistance in maintaining the databases from [`https://relational.fit.cvut.cz/`](https://relational.fit.cvut.cz/). 
 
-Please cite the repo if you use the data or code in this repo.
+
+## Call for Calibration
+
+In this work, we are committed to delivering high-quality datasets to boost the development of text-to-SQL research. Despite our hard efforts in evaluating and refining this benchmark with ~700 hours, we acknowledge that errors and ambiguities may still exist. To ensure long-term contributions to the text-to-SQLs, we are actively soliciting community feedback on possible enhancements to our datasets. 
+
+We will also polish this benchmark periodically. Therefore, We would be grateful if you could provide any feedback regarding errors or future directions to BIRD. Let's contribute to the future of text-to-SQL research. Thank you for your support!
+
+ 
+## Citation
+
+Please cite the repo if you think our work is helpful to you.
 
 ```
 @article{bird_sql,
@@ -103,10 +114,3 @@ Please cite the repo if you use the data or code in this repo.
   volume={abs/}
 }
 ```
-
-## Call for Calibration
-
-In this work, we are committed to delivering high-quality datasets to boost the development of text-to-SQL research. Despite our hard efforts in evaluating and refining this benchmark with ~700 hours, we acknowledge that errors and ambiguities may still exist. To ensure long-term contributions to the text-to-SQLs, we are actively soliciting community feedback on possible enhancements to our datasets. 
-
-We will also polish this benchmark periodically. Therefore, We would be grateful if you could provide any feedback regarding errors or future directions to BIRD. Let's contribute to the future of text-to-SQL research. Thank you for your support!
-

@@ -18,7 +18,7 @@ _DESCRIPTION = """\
 
 _HOMEPAGE = ""
 
-_LICENSE = "CC BY-SA 4.0"
+_LICENSE = "CC BY-NC 4.0"
 
 class BIRD(datasets.GeneratorBasedBuilder):
     VERSION = datasets.Version("1.0.0")

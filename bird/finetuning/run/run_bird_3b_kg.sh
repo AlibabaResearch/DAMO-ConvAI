@@ -8,7 +8,7 @@ export WANDB_PROJECT=bird
 
 echo '''flying'''
 
-CUDA_VISIBLE_DEVICES=4 python train_bird.py --seed 1 --cfg Salesforce/T5_3b_finetune_bird_kg.cfg \
+CUDA_VISIBLE_DEVICES=4 python train_bird.py --seed 1 --cfg experiment/T5_3b_finetune_bird_kg.cfg \
 --run_name ${run_name} --logging_strategy steps --logging_first_step true --logging_steps 4 --evaluation_strategy steps \
 --eval_steps 1000 --metric_for_best_model avr --greater_is_better true --save_strategy steps --save_steps 1000 \
 --save_total_limit 1 --load_best_model_at_end --gradient_accumulation_steps 16 --num_train_epochs 200 \
