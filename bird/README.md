@@ -1,6 +1,14 @@
 # BIRD-SQL: A BIg Bench for Large-Scale Relational Database Grounded Text-to-SQLs
 
-[[🔗Paper]](https://arxiv.org/abs/2305.03111) [[🏆Leaderboard]](https://bird-bench.github.io/)
+<p align="centor" width="40%">
+<a><img src="materials/bird_circle_main.png" style="width: 30%; min-width: 100px; display: block; margin: auto;"></a>
+</p>
+
+<p align="centor" width="100%">
+  <a href="https://arxiv.org/abs/2305.03111">🔗Paper</a>
+  <a href="https://bird-bench.github.io/">🏆Leaderboard</a>
+<p>
+
 
 [![License](https://img.shields.io/badge/License-CC%20By%20NC%204.0-orange.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 [![Data Link](https://img.shields.io/badge/Download-BIRD-green.svg)]()
