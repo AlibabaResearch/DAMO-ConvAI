@@ -1,10 +1,10 @@
 # BIRD-SQL: A BIg Bench for Large-Scale Relational Database Grounded Text-to-SQLs
 
-<p align="centor" width="40%">
-<a><img src="materials/bird_circle_main.png" style="width: 30%; min-width: 100px; display: block; margin: auto;"></a>
+<p align="center">
+  <img src="materials/bird_circle_main.png" style="width: 30%; min-width: 100px; display: block; margin: auto;">
 </p>
 
-<p align="centor" width="100%">
+<p align="center" width="100%">
   <a href="https://arxiv.org/abs/2305.03111">🔗Paper</a>
   <a href="https://bird-bench.github.io/">🏆Leaderboard</a>
 <p>
