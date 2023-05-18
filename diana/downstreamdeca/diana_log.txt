@@ -1,0 +1,6 @@
+after_train_ squad _test_ squad
+OrderedDict([('eval_em', 88.0), ('eval_nf1', 91.79166666666667), ('eval_nem', 89.5), ('eval_samples', 200)])
+after_train_ wikisql _test_ squad
+OrderedDict([('eval_em', 83.0), ('eval_nf1', 87.73095238095239), ('eval_nem', 84.5), ('eval_samples', 200)])
+after_train_ wikisql _test_ wikisql
+OrderedDict([('eval_lfem', 30.5), ('eval_em', 17.5), ('eval_nf1', 84.06011500628662), ('eval_nem', 20.0), ('eval_samples', 200)])
