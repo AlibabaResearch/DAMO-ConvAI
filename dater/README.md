@@ -12,7 +12,7 @@ In this study, we present a new method called **Dater** , which involves the dec
 Download required prompts and saved files and moving files to target folder.
 
 ### Step 1
-Download the [saved files and prompts]().
+Download the [saved files and prompts](https://bird-bench.oss-cn-beijing.aliyuncs.com/dater_saved.tar.gz).
 
 ### Step 2
 Move saved files to target folder.
