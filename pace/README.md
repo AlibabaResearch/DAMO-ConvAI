@@ -95,12 +95,14 @@ We do not distribute datasets because of the license issue. Please download the 
 ```
 
 ## 💬 Citation
+```shell
 @article{li2023pace,
   title={PaCE: Unified Multi-modal Dialogue Pre-training with Progressive and Compositional Experts},
   author={Li, Yunshui and Hui, Binyuan and Yin, ZhiChao and Yang, Min and Huang, Fei and Li, Yongbin},
   journal={arXiv preprint arXiv:2305.14839},
   year={2023}
 }
+```
 ## 👍 Acknowledge
 
 This repository is built using the [ViLT](https://github.com/dandelin/ViLT) repository and the [timm](https://github.com/rwightman/pytorch-image-models) library.. 
