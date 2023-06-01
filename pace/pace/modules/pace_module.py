@@ -65,7 +65,8 @@ class TransformerSS(pl.LightningModule):
             state_dict = ckpt["state_dict"]
             if ckpt["state_dict"]['text_embeddings.position_ids'].shape[1] != self.hparams.config["max_text_len"]:
                 state_dict = model_state_load.change_text_maxlen(state_dict, self.hparams.config["max_text_len"])
-            state_dict = model_state_load.resize_token_embedding(state_dict , self.hparams.config["vocab_size"])
+            if config["loss_names"]["mlm"] > 0 and state_dict["text_embeddings.word_embeddings.weight"].shape[0] < self.hparams.config["vocab_size"]:
+                state_dict = model_state_load.resize_token_embedding(state_dict , self.hparams.config["vocab_size"])
             # if self.hparams.config["need_expert_load"] == True:
             #     state_dict = model_state_load.expert_state_load(state_dict)
             self.load_state_dict(state_dict, strict=False)
