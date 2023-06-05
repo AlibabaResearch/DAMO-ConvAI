@@ -11,10 +11,6 @@
   - [ModelScope / 魔搭](https://modelscope.cn/studios/huybery/deep-thinking/summary)
 
 
-<style>
-img{max-width: 80%; margin: 0 auto; display: block;}
-</style>
-
 <!-- ![MainGIF](images/main.gif) -->
 ![Main Small Figure](images/main_small.png)
 
