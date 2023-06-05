@@ -89,12 +89,10 @@ We thank Dr. Tao Yu and Tianbao Xie for evaluation of our work on SPIDER leaderb
 Please cite the repo if you think our work is helpful to you.
 
 ```
-@misc{li2023graphixt5,
-      title={Graphix-T5: Mixing Pre-Trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing}, 
-      author={Jinyang Li and Binyuan Hui and Reynold Cheng and Bowen Qin and Chenhao Ma and Nan Huo and Fei Huang and Wenyu Du and Luo Si and Yongbin Li},
-      year={2023},
-      eprint={2301.07507},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{li2023graphix,
+  title={Graphix-T5: Mixing Pre-Trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing},
+  author={Li, Jinyang and Hui, Binyuan and Cheng, Reynold and Qin, Bowen and Ma, Chenhao and Huo, Nan and Huang, Fei and Du, Wenyu and Si, Luo and Li, Yongbin},
+  journal={arXiv preprint arXiv:2301.07507},
+  year={2023}
 }
 ```
