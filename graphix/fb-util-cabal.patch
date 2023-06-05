@@ -1,0 +1,15 @@
+diff --git a/common/util/fb-util.cabal b/common/util/fb-util.cabal
+index ac2e764..ba80182 100644
+--- a/common/util/fb-util.cabal
++++ b/common/util/fb-util.cabal
+@@ -141,7 +141,9 @@ library
+ 
+     cxx-options: -std=c++17
+ 
+-    install-includes: cpp/HsStruct.h
++    install-includes:
++        cpp/HsStruct.h
++        cpp/Destructible.h
+     include-dirs: .
+     hs-source-dirs: .
+ 

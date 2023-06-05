@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "picard"
+version = "1.0.0"
+description = "PICARD - Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models"
+authors = ["Torsten Scholak <torsten.scholak@servicenow.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/ElementAI/picard"
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<3.11"
+cython = "^0.29.28"
+six = "^1.16.0"
+
+pandas = "==1.3.5"
+numpy = "==1.21.5"
+
+datasets = { rev = "cf47649eaed608fb7030f692020a0921e16f23c8", git = "https://github.com/huggingface/datasets" }
+nltk = "^3.7"
+pyyaml = "^6.0"
+sentencepiece = "0.1.96"
+tenacity = "^8.0.1"
+rapidfuzz = "^2.0.5"
+alive_progress = "^2.3.1"
+sqlparse = "^0.4.2"
+
+pillow = "9.0.1"
+transformers = "^4.17.0"
+deepspeed = { version = "0.5.10", optional = true }
+torch = { version = "1.9.0", optional = true }
+
+fastapi = "^0.74.1"
+uvicorn = "^0.17.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+pytest-check = "^1.0.4"
+isort = "^5.10.1"
+autopep8 = "^1.6.0"
+wandb = "^0.12.11"
+black = "^22.1.0"
+mypy = "^0.931"
+flake8 = "^4.0.1"
+# codalab = "1.4.1"
+
+[tool.poetry.extras]
+torch = ["torch"]
+deepspeed = ["deepspeed"]
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+line_length = 120
+multi_line_output = 3
+include_trailing_comma = true
+use_parentheses = true
+known_first_party = ["tests"]
+default_section = "THIRDPARTY"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

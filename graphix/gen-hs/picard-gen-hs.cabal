@@ -1,0 +1,41 @@
+cabal-version: 2.0
+
+name:           picard-gen-hs
+version:        0.2
+synopsis:       Parsing in constrained auto-regressive decoding
+build-type:     Simple
+
+library
+  exposed-modules:
+      Picard.Picard.Client
+      Picard.Picard.Service
+      Picard.Types
+  hs-source-dirs:
+      .
+  default-extensions: DeriveDataTypeable ExistentialQuantification FlexibleInstances KindSignatures LambdaCase MagicHash RankNTypes RecordWildCards ScopedTypeVariables TypeSynonymInstances DataKinds DeriveGeneric DerivingStrategies DeriveAnyClass DerivingVia GeneralizedNewtypeDeriving FlexibleContexts TypeApplications ConstraintKinds MultiParamTypeClasses TupleSections
+  ghc-options: -W -Wall
+  build-depends:
+      QuickCheck
+    , attoparsec
+    , aeson
+    , base
+    , bytestring
+    , containers
+    , data-default
+    , deepseq
+    , generic-lens
+    , ghc >=8.10.4 && <8.11
+    , hashable
+    , lens
+    , mtl
+    , parsers
+    , STMonadTrans
+    , text
+    , fb-util
+    , thrift-cpp-channel
+    , thrift-lib
+    , thrift-server
+    , transformers
+    , unordered-containers
+    , vector
+  default-language: Haskell2010

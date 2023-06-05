@@ -1,0 +1,167 @@
+cabal-version: 2.0
+
+name: picard
+version: 0.3
+synopsis: PICARD - Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models
+build-type: Custom
+
+custom-setup
+  setup-depends:
+      base >= 4 && <5
+    , Cabal
+    , cabal-doctest >= 1 && <1.1
+
+library
+  exposed-modules:
+      Language.SQL.SpiderSQL
+      Language.SQL.SpiderSQL.Lexer
+      Language.SQL.SpiderSQL.Parse
+      Language.SQL.SpiderSQL.Prelude
+      Language.SQL.SpiderSQL.Syntax
+      Control.Monad.Yoctoparsec.Class
+      Paths_picard
+  autogen-modules:
+      Paths_picard
+  hs-source-dirs:
+      src/
+  default-extensions: DeriveDataTypeable ExistentialQuantification FlexibleInstances KindSignatures LambdaCase MagicHash RankNTypes RecordWildCards ScopedTypeVariables TypeSynonymInstances DataKinds DeriveGeneric DerivingStrategies DeriveAnyClass DerivingVia GeneralizedNewtypeDeriving FlexibleContexts TypeApplications ConstraintKinds MultiParamTypeClasses TupleSections
+  ghc-options: -W -Wall
+  build-depends:
+      QuickCheck
+    , attoparsec
+    , aeson
+    , base
+    , bytestring
+    , containers
+    , data-default
+    , deepseq
+    , free
+    , generic-lens
+    , ghc >=8.10.4 && <8.11
+    , hashable
+    , lens
+    , mtl
+    , parsers
+    , picard-gen-hs
+    , STMonadTrans
+    , text
+    , fb-util
+    , thrift-cpp-channel
+    , thrift-lib
+    , thrift-server
+    , transformers
+    , trifecta
+    , unordered-containers
+    , vector
+    , yoctoparsec
+  default-language: Haskell2010
+
+executable picard
+  main-is: Main.hs
+  other-modules:
+      Paths_picard
+  autogen-modules:
+      Paths_picard
+  hs-source-dirs:
+      exe/
+  default-extensions: DeriveDataTypeable ExistentialQuantification FlexibleInstances KindSignatures LambdaCase MagicHash RankNTypes RecordWildCards ScopedTypeVariables TypeSynonymInstances DataKinds DeriveGeneric DerivingStrategies DeriveAnyClass DerivingVia GeneralizedNewtypeDeriving FlexibleContexts TypeApplications ConstraintKinds MultiParamTypeClasses TupleSections
+  ghc-options: -W -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      async
+    , attoparsec
+    , base
+    , bytestring
+    , containers
+    , free
+    , http-client
+    , http-client-tls
+    , ghc >=8.10.4 && <8.11
+    , mtl
+    , parsers
+    , picard
+    , picard-gen-hs
+    , SafeSemaphore
+    , Stack
+    , stm
+    , text
+    , fb-util
+    , thrift-cpp-channel
+    , thrift-lib
+    , thrift-server
+    , tokenizers
+    , trifecta
+    , unordered-containers
+    , vector
+    , yoctoparsec
+  default-language: Haskell2010
+
+test-suite doctests
+  type: exitcode-stdio-1.0
+  main-is: doctests.hs
+  build-depends:
+      base
+    , base-compat
+    , doctest >=0.15 && <0.18
+    , picard
+
+  ghc-options: -Wall -threaded
+  hs-source-dirs: tests
+  default-language: Haskell2010
+
+test-suite spec
+  x-doctest-components: lib exe:picard
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Language.SQL.SpiderSQL.Academic
+      Language.SQL.SpiderSQL.AssetsMaintenance
+      Language.SQL.SpiderSQL.Bike1
+      Language.SQL.SpiderSQL.Car1
+      Language.SQL.SpiderSQL.Chinook1
+      Language.SQL.SpiderSQL.ConcertSinger
+      Language.SQL.SpiderSQL.CreDocTemplateMgt
+      Language.SQL.SpiderSQL.DepartmentManagement
+      Language.SQL.SpiderSQL.DogKennels
+      Language.SQL.SpiderSQL.Flight1
+      Language.SQL.SpiderSQL.Geo
+      Language.SQL.SpiderSQL.Inn1
+      Language.SQL.SpiderSQL.MatchSeason
+      Language.SQL.SpiderSQL.MuseumVisit
+      Language.SQL.SpiderSQL.Orchestra
+      Language.SQL.SpiderSQL.Pets1
+      Language.SQL.SpiderSQL.PhoneMarket
+      Language.SQL.SpiderSQL.PokerPlayer
+      Language.SQL.SpiderSQL.ProductCatalog
+      Language.SQL.SpiderSQL.Scholar
+      Language.SQL.SpiderSQL.Singer
+      Language.SQL.SpiderSQL.StormRecord
+      Language.SQL.SpiderSQL.StudentTranscriptsTracking
+      Language.SQL.SpiderSQL.TestItem
+      Language.SQL.SpiderSQL.Wta1
+  hs-source-dirs:
+      tests
+  default-extensions: DeriveDataTypeable ExistentialQuantification FlexibleInstances KindSignatures LambdaCase MagicHash RankNTypes RecordWildCards ScopedTypeVariables TypeSynonymInstances DataKinds DeriveGeneric DerivingStrategies DeriveAnyClass DerivingVia GeneralizedNewtypeDeriving FlexibleContexts TypeApplications ConstraintKinds MultiParamTypeClasses TupleSections
+  ghc-options: -W -Wall
+  build-depends:
+      attoparsec
+    , base
+    , containers
+    , free
+    , ghc >=8.10.4 && <8.11
+    , hedgehog
+    , mtl
+    , parsers
+    , picard
+    , picard-gen-hs
+    , tasty
+    , tasty-hunit
+    , text
+    , fb-util
+    , thrift-cpp-channel
+    , thrift-lib
+    , thrift-server
+    , trifecta
+    , unordered-containers
+    , vector
+    , yoctoparsec
+  default-language: Haskell2010

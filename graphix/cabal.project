@@ -1,0 +1,18 @@
+packages:
+    third_party/hsthrift/common/util/fb-util.cabal
+    third_party/hsthrift/common/github/fb-stubs.cabal
+    third_party/hsthrift/common/mangle/mangle.cabal
+    third_party/hsthrift/lib/thrift-lib.cabal
+    third_party/hsthrift/server/thrift-server.cabal
+    third_party/hsthrift/compiler/thrift-compiler.cabal
+    third_party/hsthrift/tests/thrift-tests.cabal
+    third_party/hsthrift/haxl/thrift-haxl.cabal
+    third_party/hsthrift/cpp-channel/thrift-cpp-channel.cabal
+    third_party/tokenizers/bindings/haskell/tokenizers-haskell/tokenizers.cabal
+    gen-hs/picard-gen-hs.cabal
+    picard/picard.cabal
+
+extra-lib-dirs:
+    /app/third_party/tokenizers/target/release
+
+tests: true

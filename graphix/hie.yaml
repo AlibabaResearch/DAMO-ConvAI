@@ -1,0 +1,14 @@
+cradle:
+  cabal:
+    - path: "./gen-hs"
+      component: "lib:picard-gen-hs"
+    - path: "./picard/exe/Main.hs"
+      component: "exe:picard"
+    - path: "./picard/src"
+      component: "lib:picard"
+    - path: "./picard/tests/Spec.hs"
+      component: "test:spec"
+    - path: "./picard/tests/Language/SQL"
+      component: "test:spec"
+    - path: "./picard/tests/doctests.hs"
+      component: "test:doctests"
