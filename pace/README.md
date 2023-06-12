@@ -1,5 +1,13 @@
 # PaCE: Unified Multi-modal Dialogue Pre-training with Progressive and Compositional Experts
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pace-unified-multi-modal-dialogue-pre/text-retrieval-on-image-chat)](https://paperswithcode.com/sota/text-retrieval-on-image-chat?p=pace-unified-multi-modal-dialogue-pre)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pace-unified-multi-modal-dialogue-pre/image-retrieval-on-photochat)](https://paperswithcode.com/sota/image-retrieval-on-photochat?p=pace-unified-multi-modal-dialogue-pre)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pace-unified-multi-modal-dialogue-pre/multimodal-intent-recognition-on-mmdialog)](https://paperswithcode.com/sota/multimodal-intent-recognition-on-mmdialog?p=pace-unified-multi-modal-dialogue-pre)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pace-unified-multi-modal-dialogue-pre/multimodal-intent-recognition-on-photochat)](https://paperswithcode.com/sota/multimodal-intent-recognition-on-photochat?p=pace-unified-multi-modal-dialogue-pre)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pace-unified-multi-modal-dialogue-pre/dialogue-state-tracking-on-mmconv)](https://paperswithcode.com/sota/dialogue-state-tracking-on-mmconv?p=pace-unified-multi-modal-dialogue-pre)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pace-unified-multi-modal-dialogue-pre/response-generation-on-mmconv)](https://paperswithcode.com/sota/response-generation-on-mmconv?p=pace-unified-multi-modal-dialogue-pre)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pace-unified-multi-modal-dialogue-pre/dialogue-state-tracking-on-simmc2-0)](https://paperswithcode.com/sota/dialogue-state-tracking-on-simmc2-0?p=pace-unified-multi-modal-dialogue-pre)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pace-unified-multi-modal-dialogue-pre/response-generation-on-simmc2-0)](https://paperswithcode.com/sota/response-generation-on-simmc2-0?p=pace-unified-multi-modal-dialogue-pre)
 ## 🔥 Updates
 - [**2023-05-02**]: PaCE was accepted by ACL 2023
 
