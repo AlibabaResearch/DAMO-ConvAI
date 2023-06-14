@@ -19,7 +19,7 @@ def clean_abnormal(input):
     mean = np.mean(input,axis=0)
     std = np.std(input,axis=0)
     for x in input:
-        if x < mean + 3*std and x > mean - 3*std:
+        if x < mean + 3 * std and x > mean - 3 * std:
             processed_list.append(x)
     return processed_list
 
@@ -46,18 +46,21 @@ def iterated_execute_sql(predicted_sql,ground_truth,db_path,iterate_num):
         for i in range(iterate_num):
             predicted_time = execute_sql(predicted_sql, db_path)
             ground_truth_time = execute_sql(ground_truth, db_path)
-            diff_list.append(ground_truth_time/predicted_time)
+            diff_list.append(ground_truth_time / predicted_time)
         processed_diff_list = clean_abnormal(diff_list)
-        time_ratio = sum(processed_diff_list)/len(processed_diff_list)
+        time_ratio = sum(processed_diff_list) / len(processed_diff_list)
     return time_ratio
 
 
 
-def execute_model(predicted_sql,ground_truth, db_place, idx,iterate_num):
+def execute_model(predicted_sql,ground_truth, db_place, idx, iterate_num, meta_time_out):
     try:
-        time_ratio = func_timeout(30.0, iterated_execute_sql,
+        # you can personalize the total timeout number
+        # larger timeout leads to more stable ves
+        # while it needs more your patience....
+        time_ratio = func_timeout(meta_time_out * iterate_num, iterated_execute_sql,
                                   args=(predicted_sql, ground_truth, db_place, iterate_num))
-        print([idx, math.sqrt(time_ratio)])
+        # print([idx, math.sqrt(time_ratio)])
     except KeyboardInterrupt:
         sys.exit(0)
     except FunctionTimedOut:
@@ -81,7 +84,7 @@ def package_sqls(sql_path, db_root_path, mode='gpt', data_mode='dev'):
             else:
                 sql, db_name = " ", "financial"
             clean_sqls.append(sql)
-            db_path_list.append(db_root_path + db_name + '.sqlite')
+            db_path_list.append(db_root_path + db_name + '/' + db_name + '.sqlite')
 
     elif mode == 'gt':
         sqls = open(sql_path + data_mode + '_gold.sql')
@@ -89,15 +92,15 @@ def package_sqls(sql_path, db_root_path, mode='gpt', data_mode='dev'):
         for idx, sql_str in enumerate(sql_txt):
             sql, db_name = sql_str.strip().split('\t')
             clean_sqls.append(sql)
-            db_path_list.append(db_root_path + db_name + '.sqlite')
+            db_path_list.append(db_root_path + db_name + '/' + db_name + '.sqlite')
 
     return clean_sqls, db_path_list
 
-def run_sqls_parallel(sqls, db_places, num_cpus=1,iterate_num=10):
+def run_sqls_parallel(sqls, db_places, num_cpus=1, iterate_num=100, meta_time_out=30.0):
     pool = mp.Pool(processes=num_cpus)
     for i,sql_pair in enumerate(sqls):
         predicted_sql, ground_truth = sql_pair
-        pool.apply_async(execute_model, args=(predicted_sql, ground_truth, db_places[i], i, iterate_num), callback=result_callback)
+        pool.apply_async(execute_model, args=(predicted_sql, ground_truth, db_places[i], i, iterate_num, meta_time_out), callback=result_callback)
     pool.close()
     pool.join()
 
@@ -112,7 +115,7 @@ def compute_ves(exec_results):
     for i, result in enumerate(exec_results):
         if result['time_ratio'] != 0:
             count += 1
-        total_ratio += math.sqrt(result['time_ratio'])*100
+        total_ratio += math.sqrt(result['time_ratio']) * 100
     ves = (total_ratio/num_queries)
     return ves
 
@@ -154,22 +157,21 @@ if __name__ == '__main__':
     args_parser.add_argument('--data_mode', type=str, required=True, default='dev')
     args_parser.add_argument('--db_root_path', type=str, required=True, default='')
     args_parser.add_argument('--num_cpus', type=int, default=1)
-    args_parser.add_argument('--time_out', type=float, default=60.0)
+    args_parser.add_argument('--meta_time_out', type=float, default=30.0)
     args_parser.add_argument('--mode_gt', type=str, default='gt')
     args_parser.add_argument('--mode_predict', type=str, default='gpt')
     args_parser.add_argument('--diff_json_path',type=str,default='')
     args = args_parser.parse_args()
     exec_result = []
-    pred_sql_name = args.predicted_sql_path + 'predict_' + args.data_mode + '.json'
+    
     pred_queries, db_paths = package_sqls(args.predicted_sql_path, args.db_root_path, mode=args.mode_predict,
                                           data_mode=args.data_mode)
     # generate gt sqls:
     gt_queries, db_paths_gt = package_sqls(args.ground_truth_path, args.db_root_path, mode='gt',
                                            data_mode=args.data_mode)
 
-    #assert db_paths == db_paths_gt
-    query_pairs = list(zip(pred_queries,gt_queries))
-    run_sqls_parallel(query_pairs, db_places=db_paths, num_cpus=args.num_cpus)
+    query_pairs = list(zip(pred_queries, gt_queries))
+    run_sqls_parallel(query_pairs, db_places=db_paths, num_cpus=args.num_cpus, meta_time_out=args.meta_time_out)
     exec_result = sort_results(exec_result)
     print('start calculate')
     simple_ves, moderate_ves, challenging_ves, ves, count_lists = \

@@ -11,13 +11,13 @@
 
 
 [![License](https://img.shields.io/badge/License-CC%20By%20NC%204.0-orange.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Data Link](https://img.shields.io/badge/Download-BIRD-green.svg)]()
+[![Data Link](https://img.shields.io/badge/Download-BIRD-green.svg)](https://bird-bench.github.io/)
 [![Python 3.7+](https://img.shields.io/badge/Python-3.7+-teal.svg)](https://www.python.org/downloads/release/python-390/)
 [![Pytorch 1.8+](https://img.shields.io/badge/Pytorch-1.8+-red.svg)](https://pytorch.org/blog/pytorch-1.8-released/)
-[![Leaderboard 1.8+](https://img.shields.io/badge/Leaderboard-2023-pink.svg)](https://alibabaresearch.github.io/DAMO-ConvAI/bird/)
+[![Leaderboard 1.8+](https://img.shields.io/badge/Leaderboard-2023-pink.svg)](https://bird-bench.github.io/)
 [![OpenAI 0.27+](https://img.shields.io/badge/OpenAI-0.27+-beige.svg)](https://www.python.org/downloads/release/python-390/)
 
-**License Notation**: BIRD-SQL is constructed and distributed for academic use instead of commercial use. For non-academic purpose of this data, please contact corresponding authors.
+**License Notation**: BIRD-SQL is constructed and distributed for academic use instead of commercial use. For non-academic purpose of this data, please contact bird.bench23@gmail.com. \
 
 <p align="center" width="100%">
 <a><img src="materials/intro.png" style="width: 100%; min-width: 300px; display: block; margin: auto;"></a>
@@ -41,6 +41,7 @@ The dataset contains the main following resources:
   - `question`: the questions curated by human crowdsourcing according to database descriptions, database contents.
   - `evidence`: the external knowledge evidence annotated by experts for assistance of models or SQL annotators.
   - `SQL`: SQLs annotated by crowdsource referring to database descriptions, database contents, to answer the questions accurately.
+- `ground-truth SQL file`: The SQL file should be stored at [`./llm/data/dev_gold.sql`](./llm/data/dev_gold.sql).
 - `llm`: It contains source codes to convert texts to SQLs by calling APIs from LLMs, such as `code-davinci-002`, `gpt-3.5-turbo`.
 - `finetuning`: It contains the codes for supervised fine-tuning T5, a prevalent sequence-to-sequence pre-trained language model, to perform text-to-SQL task in BIRD.
 
@@ -97,7 +98,8 @@ sh ./run/run_gpt.sh
 ### Execution (EX) Evaluation:
 
 Please post-process your collected results as the format: SQL and its `db_id`, which is splitted by `'\t----- bird -----\t'`. The examples are shown in the [`./llm/exp_result/turbo_output/predict_dev.json`](./llm/exp_result/turbo_output/predict_dev.json). Put the ground-truth sql file in the [`./data/`](./data/). And you may need to design a ChatGPT tag by your own.
-Then you could evaluate the results by the following command line:
+The main file for ex evaluation is located at [`./llm/src/evaluation.py`](./llm/src/evaluation.py). \
+Then you could evaluate the results by the following command line :
 
 ```bash
 cd ./llm/
@@ -106,12 +108,17 @@ sh ./run/run_evaluation.sh
 
 ### Valid Efficiency Score (VES) Evaluation (time-mainly):
 
-Most of procedures are the similar to EX evaluation, just run the command:
+In the newest version, ves and ex can be evaluated in the same shell. Then main file is [`./llm/src/evaluation_ves.py`](./llm/src/evaluation_ves.py), so you can eval your efficiency via:
 
 ```bash
 cd ./llm/
-sh ./run/run_evaluation_ves.sh
+sh ./run/run_evaluation.sh
 ```
+(For stable VES, you may need to enlarge `timeout` or repeat and average results. In our test evaluation, we will enlarge `timeout` to 3 s/ex; then we repeat 5 times for VES computation, only the highest results will be reported.)
+
+## Test Evaluation
+
+If your code scripts don't need complex environment setting up and can fetch results via openai-api mainly. Please connect bird.bench23@gmail.com for fast test. 
 
 ## Acknowledgement
 
@@ -119,9 +126,40 @@ We thank Xin Yan for active involvement in ChatGPT prompt design, discussion, an
 
 ## Call for Calibration
 
-In this work, we are committed to delivering high-quality datasets to boost the development of text-to-SQL research. Despite our hard efforts in evaluating and refining this benchmark with ~700 hours, we acknowledge that errors and ambiguities may still exist. To ensure long-term contributions to the text-to-SQLs, we are actively soliciting community feedback on possible enhancements to our datasets.
+In this work, we are committed to delivering high-quality datasets to boost the development of text-to-SQL research. Despite our hard efforts in evaluating and refining this benchmark with ~700 hours, we acknowledge that errors and ambiguities may still exist. To ensure long-term contributions to the text-to-SQLs, we are actively soliciting community feedback on possible enhancements to our datasets. Please consider reporting errors or your suggestions on the [`ISSUES`](https://github.com/AlibabaResearch/DAMO-ConvAI/issues/39), or via emailing us by bird.bench23@gmail.com.
 
 We will also polish this benchmark periodically. Therefore, We would be grateful if you could provide any feedback regarding errors or future directions to BIRD. Let's contribute to the future of text-to-SQL research. Thank you for your support!
+
+## Insteresting Stories about Values:
+we are welcome to any findings during experiments about interaction with database values. For example, we find that GPT4-32k even fails to consider the tied results in a joined tables correctly. \
+In the `dev_1388`, the predicted SQL of GPT4-32k is:
+```
+Question: Which students manage to generate the highest income. State his/her name along with the income source.
+```
+```sql
+SELECT T1.first_name, T1.last_name, T2.source  
+FROM member AS T1  
+INNER JOIN income AS T2 ON T1.member_id = T2.link_to_member  
+WHERE T2.amount = (  
+    SELECT MAX(amount)  
+    FROM income  
+)  
+ORDER BY T2.amount DESC
+```
+it leads to a NULL result set since `MAX(amount)` is `3000` in the orignal table income. However, the ground-truth SQL should consider the `MAX(amount)` in the joined table pertaining to tables `member` and `income`. Therefore, the largest amount is only `50`, and the ground-truth SQL should be:
+```sql
+SELECT T1.first_name, T1.last_name, T2.source
+FROM member AS T1
+INNER JOIN income AS T2
+ON T1.member_id = T2.link_to_member
+WHERE T2.amount = (
+    SELECT MAX(T4.amount)
+    FROM member AS T3
+    INNER JOIN income AS T4
+    ON T3.member_id = T4.link_to_member
+    )
+```
+We hypothesize that GPT-4 is pre-trained based on semantic parsing framework, losing the enough attention on values. This may also be marked as the initial challenge in achieving Artificial General Intelligence (AGI) for real-world text-to-SQL applications.
 
 ## Citation
 
@@ -130,7 +168,7 @@ Please cite the repo if you think our work is helpful to you.
 ```
 @misc{li2023llm,
   title={Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs},
-  author={Jinyang Li and Binyuan Hui and Ge Qu and Binhua Li and Jiaxi Yang and Bowen Li and Bailin Wang and Bowen Qin and Rongyu Cao and Ruiying Geng and Nan Huo and Chenhao Ma and Kevin C. C. Chang and Fei Huang and Reynold Cheng and Yongbin Li},
+  author={Jinyang Li and Binyuan Hui and Ge Qu and Binhua Li and Jiaxi Yang and Bowen Li and Bailin Wang and Bowen Qin and Ruiying Geng and Nan Huo and Xuanhe Zhou and Chenhao Ma and Guoliang Li and Kevin C. C. Chang and Fei Huang and Reynold Cheng and Yongbin Li},
   year={2023},
   eprint={2305.03111},
   archivePrefix={arXiv},
