@@ -53,7 +53,7 @@ If this work is helpful to you, welcome to cite our paper as:
       title={Preference Ranking Optimization for Human Alignment}, 
       author={Feifan Song and Bowen Yu and Minghao Li and Haiyang Yu and Fei Huang and Yongbin Li and Houfeng Wang},
       year={2023},
-      eprint={},
+      eprint={2306.17492},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
