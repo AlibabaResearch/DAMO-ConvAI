@@ -1,0 +1,1 @@
+python train_DST.py -mode train -cfg lr=6e-5 epoch_num=25 gradient_accumulation_steps=12 warmup_steps=0  use_true_prev_bspn=False use_true_prev_aspn=True use_true_prev_resp=True

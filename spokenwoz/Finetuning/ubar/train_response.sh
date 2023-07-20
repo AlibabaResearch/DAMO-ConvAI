@@ -1,0 +1,1 @@
+python train.py -mode train -cfg gpt_path=distilgpt2 lr=1e-4 warmup_steps=2000 gradient_accumulation_steps=16 batch_size=2 epoch_num=25 exp_no=best_model
