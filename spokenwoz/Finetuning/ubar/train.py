@@ -38,6 +38,7 @@ class Modal(object):
         self.reader = MultiWozReader(self.tokenizer)
 
         # create model: gpt2
+        # cfg.gpt_path
         self.model = GPT2LMHeadModel.from_pretrained(cfg.gpt_path)
         if cfg.mode == 'train':
             self.model.resize_token_embeddings(len(self.tokenizer))

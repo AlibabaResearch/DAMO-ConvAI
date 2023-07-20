@@ -134,14 +134,14 @@ pip install -r requirement.txt
 
 **Training & Evaluation**
 
-Here `data.sh` does the processing of the audio file and processes it to`./trippy/../audio_npy/` (will be used by subsequent models) 
+Here `data.sh` does the processing of the audio file and processes it to`./trippy/../audio/` (will be used by subsequent models) 
 
 Meanwhile, please place the text data of SpokenWOZ in  `./trippy/data` 
 
 ```
 cd ./trippy
-sh data.sh
-sh train.sh
+sh scripts/data.sh
+sh scripts/train.sh
 ```
 
 
@@ -157,7 +157,7 @@ python -m spacy download en_core_web_sm
 
 **Training**
 
-Please place the text data of SpokenWOZ in  `./ubar/data/multi-woz` and database in  `./ubar/db`
+Please place the text data of SpokenWOZ in `./ubar/data/multi-woz` and move db folder and ontology.json to  `./ubar/db`
 
 ```
 cd ./ubar

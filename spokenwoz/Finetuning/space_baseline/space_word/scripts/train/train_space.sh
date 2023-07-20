@@ -30,7 +30,7 @@ SEED=10
 SAVE_DIR=${SAVE_ROOT}/outputs/${DATA_NAME}${VERSION}/space-103
 
 # Main run.
-python -u run_gen.py \
+python3 -u run_gen.py \
   --do_train=true \
   --model=${MODEL} \
   --policy=${POLICY} \

@@ -53,7 +53,7 @@ def clean_text(text):
     text = re.sub(r'([a-zT]+)\.([a-z])', r'\1 . \2', text)   # 'abc.xyz' -> 'abc . xyz'
     text = re.sub(r'(\w+)\.\.? ', r'\1 . ', text)   # if 'abc. ' -> 'abc . '
 
-    with open('/data/nt12_hdd_gluster/myself/space3/tools/mapping.pair', 'r') as fin:
+    with open('../text_data/mapping.pair', 'r') as fin:
         for line in fin.readlines():
             fromx, tox = line.replace('\n', '').split('\t')
             text = ' ' + text + ' '

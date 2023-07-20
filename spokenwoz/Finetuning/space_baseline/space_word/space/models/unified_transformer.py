@@ -110,6 +110,7 @@ class UnifiedTransformer(ModelBase):
         self.with_mlm = hparams.with_mlm
         self._dtype = dtype
         self.audio_encoder = WavLMForMAM.from_pretrained('microsoft/wavlm-base-plus')
+        
         self.requires_grad_(requires_grad=False)
         # self.lstm = nn.LSTM(768, 768, 1, bidirectional = True, batch_first = True)
         # self.fused_encoder = TransformerBlock(self.hidden_dim,

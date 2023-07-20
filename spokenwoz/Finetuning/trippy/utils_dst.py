@@ -458,7 +458,7 @@ if __name__=='__main__':
     parser.add_argument("--model", type=str, default='bert')
     args = parser.parse_args()
 
-    dataset_config = json.load(open(args.data_root+'/spokenwoz.json'))
+    dataset_config = json.load(open(args.data_root+'/config.json'))
     class_types, slot_list, label_maps = dataset_config['class_types'], dataset_config["slots"], dataset_config["label_maps"]
     if args.model == 'roberta':
         tokenizer = RobertaTokenizerFast.from_pretrained("roberta-base")
@@ -466,7 +466,7 @@ if __name__=='__main__':
         tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
     max_seq_length = 512
 
-    for split in ['val', 'train', 'test']:
+    for split in ['val', 'train']:
         examples = pickle.load(open(f'{args.data_root}/{split}_example.pkl', 'rb'))
         # convert_examples_to_feature(args, example, slot_list, class_types, args.model, tokenizer, max_seq_length)
         # features = Parallel(n_jobs=12)(delayed(convert_examples_to_feature)(args, example, slot_list, class_types, args.model, tokenizer, max_seq_length) for example in tqdm(examples))

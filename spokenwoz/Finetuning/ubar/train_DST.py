@@ -1,12 +1,10 @@
-from transformers.optimization import AdamW, get_linear_schedule_with_warmup
-from transformers import GPT2Tokenizer, GPT2LMHeadModel, GPT2Model, AutoTokenizer,AutoModel,AutoConfig
+
 from eval import MultiWozEvaluator
 from damd_net import DAMD, cuda_, get_one_hot_input
 # from reader import MultiWozReader
 from dst_reader import MultiWozReader
 from config import global_config as cfg  # or config21
 # from dst import ignore_none_dontcare, default_cleaning, IGNORE_TURNS_TYPE2, paser_bs
-from dst import default_cleaning, IGNORE_TURNS_TYPE2, paser_bs
 import utils
 from torch.optim import Adam
 import torch
@@ -24,6 +22,9 @@ from tqdm import tqdm
 from compute_joint_acc import compute_jacc
 import warnings
 import collections
+from dst import default_cleaning, IGNORE_TURNS_TYPE2, paser_bs
+from transformers.optimization import AdamW, get_linear_schedule_with_warmup
+from transformers import GPT2Tokenizer, GPT2LMHeadModel, GPT2Model, AutoTokenizer,AutoModel,AutoConfig
 warnings.filterwarnings("ignore")
 
 class Modal(object):
@@ -31,7 +32,6 @@ class Modal(object):
         self.device = device
         # initialize tokenizer
         self.tokenizer = GPT2Tokenizer.from_pretrained(cfg.gpt_path)
-        # print(os.getcwd())
         # self.tokenizer = AutoTokenizer.from_pretrained("./model/Bert/", local_files_only=True) 
         # cfg.tokenizer = tokenizer
 
@@ -278,6 +278,7 @@ class Modal(object):
         # all_batches = self.reader.get_batches('dev')
         # data_iterator = self.reader.get_data_iterator(all_batches)
         eval_data = self.reader.get_eval_data(data)
+        print(data, eval_data)
         # print(eval_data)
         model_output = {}
         set_stats = self.reader.set_stats[data]
@@ -405,6 +406,7 @@ class Modal(object):
                     self.reader.inverse_transpose_turn(dialog))
 
         logging.info("inference time: {:.2f} min".format((time.time()-btm)/60))
+        # print(model_output)
         joint_acc, joint_acc_wo_cross, dict_rate = compute_jacc(data=model_output,path=cfg.eval_load_path)
         with open(cfg.gpt_path+cfg.model_output+'BS.json',"w") as f:
             json.dump(model_output,f,indent=2)
@@ -732,21 +734,19 @@ def main():
 
     # initialize model
     m = Modal(device)
-
+    os.makedirs(cfg.log_path, exist_ok=True)
     if args.mode == 'train':    # train
         if cfg.save_log:  # save cfg details.
             pass
         m.train()
-    elif args.mode == 'adjuest':
-        pass
     elif cfg.context_scheme=='URURU':  # test
         # m.validate_URURU()
-        logging.info('Running eavl on test')
-        m.validate_URURU('test')
+        logging.info('Running eavl on valid')
+        m.validate_URURU()
     elif cfg.context_scheme=='UBARU':
         # m.validate()
-        logging.info('Running eavl on test')
-        m.validate('test')
+        logging.info('Running eavl on valid')
+        m.validate()
 
 
 #  testing:  CUDA_VISIBLE_DEVICES=0 nohup python train.py -mode test -cfg eval_load_path=experiments/all_0729_sd11_lr0.0001_bs2_ga16/epoch43_trloss0.56_gpt2/ >test.file  &

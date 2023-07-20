@@ -135,9 +135,9 @@ def main():
     if hparams.do_infer:
         # infer process
         if hparams.do_dst == True:
-            trainer.infer_dst(data_type='test')
+            trainer.infer_dst(data_type='dev')
         else:
-            trainer.infer(data_type='test')
+            trainer.infer(data_type='dev')
 
 
 if __name__ == "__main__":
