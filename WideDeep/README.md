@@ -19,6 +19,7 @@ In this benchmark, 1,050 samples of response 1 are considered to align with huma
 ```
 cd WideDeep
 mkdir log
+unzip evaluation_data/LLMEval2_benchmark.json.zip
 sh run_widedeep.sh
 ```
 The evaluation results can be downloaded at [here](https://drive.google.com/file/d/11YTvj4T831iNr-3NAKLLqfc7B41SDnCU/view?usp=sharing).
