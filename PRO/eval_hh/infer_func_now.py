@@ -62,7 +62,6 @@ def generate_pipeline(model, tokenizer, prompts, add_special_tokens=False, gen_k
         text = text_res[index]
         assert truncated_prompts[index].rstrip() in text
         text = text.replace(truncated_prompts[index].rstrip(), "").strip()
-        # text = text[prompts_size[index]:].strip()
         for stop in ["Human:", "human:", "Assistant:", "assistant:"]:
             stop_ix = text.find(stop)
             if stop_ix >= 0:

@@ -76,7 +76,7 @@ if __name__ == "__main__":
         "helpful_online.json",
         "helpful_rejection.json"
     ]:
-        file_path = os.path.join("..", "data", "test", file_name)
+        file_path = os.path.join("..", "data", "hh_test", file_name)
         with open(file_path, "r", encoding='utf-8') as f:
             infer_data = {line_index: json.loads(l) for line_index, l in enumerate(f.readlines()) if (line_index-rank) % rank_sum == 0}
 

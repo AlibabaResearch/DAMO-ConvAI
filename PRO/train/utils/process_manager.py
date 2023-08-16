@@ -7,7 +7,7 @@ from tqdm import tqdm
 import numpy as np
 import torch
 from accelerate.logging import get_logger
-from .data_manager import DataManager
+from .data_manager import HH_DataManager, Summarize_DataManager
 from torch.utils.tensorboard import SummaryWriter
 import torch.nn.functional as F
 from transformers import (
@@ -16,7 +16,12 @@ from transformers import (
     AutoConfig,
     AutoModelForCausalLM,
 )
-from utils.metrics import create_reward_fn
+if args.task == "hh":
+    from utils.metrics_hh import create_reward_fn
+elif args.task == "summarize":
+    from utils.metrics_summarize import create_reward_fn
+else:
+    raise ValueError("Invalid task name!")
 
 class ProcessManager():
     def __init__(
@@ -31,10 +36,18 @@ class ProcessManager():
         self.model_config = AutoConfig.from_pretrained(self.model_path)
         
         # set datamanager
-        self.data_manager = DataManager(
-            self.model_config,
-            args.training_stage_num,
-        )
+        if args.task == "hh":
+            self.data_manager = HH_DataManager(
+                self.model_config,
+                args.training_stage_num,
+            )
+        elif args.task == "summarize":
+            self.data_manager = Summarize_DataManager(
+                self.model_config,
+                args.training_stage_num,
+            )
+        else:
+            raise ValueError("Invalid task name!")
         
         # set model
         self.model = AutoModelForCausalLM.from_pretrained(self.model_path,config=self.model_config)
@@ -320,23 +333,13 @@ class ProcessManager():
 
         with open(os.path.join(infer_file_path, infer_file_name), "r", encoding='utf-8') as f:
             infer_data = [json.loads(l) for l in f.readlines()]
-        
-        is_dev = True
-        if isinstance(infer_data[0]['prefix'][0],str):
-            is_dev = True
-        else:
-            is_dev = False
 
         # sort
         length = []
         for l in infer_data:
             lens = 0
-            if is_dev:
-                for p in l['prefix']:
-                    lens += (len(p.split(" ")))
-            else:
-                for p in l['prefix'][0]:
-                    lens += (len(p.split(" ")))
+            for p in l['prefix'][0]:
+                lens += (len(p.split(" ")))
             length.append(lens)
         
         indices = list(range(len(length)))
@@ -348,12 +351,8 @@ class ProcessManager():
         for sample_index in range(0,len(infer_data),infer_batch_size):
             if len(infer_data)-sample_index < infer_batch_size:
                 infer_batch_size = len(infer_data)-sample_index
-            
-            if is_dev:
-                prefixes = [l['prefix'] for l in infer_data[sample_index:sample_index+infer_batch_size]]
-            else:
-                prefixes = [l['prefix'][0] for l in infer_data[sample_index:sample_index+infer_batch_size]]
-            
+
+            prefixes = [l['prefix'][0] for l in infer_data[sample_index:sample_index+infer_batch_size]]
             suffixes = self.data_manager.infer_generate(model, prefixes)
             for l, s in zip(infer_data[sample_index:sample_index+infer_batch_size], suffixes):
                 l['infer'] = {"t": s}

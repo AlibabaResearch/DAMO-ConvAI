@@ -31,8 +31,6 @@ def hhrlhf_preprocess(path,filename,index_generator,split='train'):
 
         dialogue: list[tuple[str, str]] = []
 
-        # go over messages and combine consecutive messages from the
-        # same speaker (OA v1 expects alternating roles)
         role = None
         messages = []
         for line in lines:
@@ -72,7 +70,7 @@ def hhrlhf_preprocess(path,filename,index_generator,split='train'):
             if len(rejected) == len(chosen):
                 assert chosen[-1][0] == rejected[-1][0]
 
-                prefix = [role+text for role, text in chosen[:-1]] # need to be concated with [EOS] in practice
+                prefix = [role+text for role, text in chosen[:-1]]
                 prefix.append(chosen[-1][0])
                 good_reply = chosen[-1][1]  # last part of dialog, the text
                 bad_reply = rejected[-1][1]  # last part of dialog, the text
@@ -112,7 +110,7 @@ def hhrlhf_preprocess(path,filename,index_generator,split='train'):
                     prefix.append([role, text])
                 elif role == "<|assistant|>":
                     temp_prefix = [temp_role+temp_text for temp_role, temp_text in prefix]
-                    temp_prefix.append(role) # need to be concated with [EOS] in practice
+                    temp_prefix.append(role) 
                     temp_reply = text # last part of dialog, the text
                     chosen_sample = {
                         'extended':[
@@ -148,7 +146,7 @@ def hhrlhf_preprocess(path,filename,index_generator,split='train'):
                     prefix.append([role, text])
                 elif role == "<|assistant|>":
                     temp_prefix = [temp_role+temp_text for temp_role, temp_text in prefix]
-                    temp_prefix.append(role) # need to be concated with [EOS] in practice
+                    temp_prefix.append(role)
                     temp_reply = text # last part of dialog, the text
                     rejected_sample = {
                         'extended':[
@@ -184,56 +182,13 @@ def hhrlhf_preprocess(path,filename,index_generator,split='train'):
     return samples
 
 if __name__ == "__main__":
-    # get a global index generator
     global_index_generator = gen_global_index()
-
-    # prepare to post-processing
-    res = {
-        'hhrlhf':[],
-    }
-
-    prompts = {
-        'hhrlhf': '<prefix>',
-        'summarize':'<prefix>',
-        'webgpt':'<prefix>',
-        'tldr':'<prefix>',
-    }
-    # process raw datasets
-    # hhrlhf
-    res['hhrlhf'] = [
-        hhrlhf_preprocess(os.path.join('..','..','data','raw_data','hhrlhf','harmless-base'),'train.jsonl',global_index_generator,split='train'),
-        # hhrlhf_preprocess(os.path.join('..','..','data','raw_data','hhrlhf','harmless-base'),'test.jsonl',global_index_generator,split='test'),
-        hhrlhf_preprocess(os.path.join('..','..','data','raw_data','hhrlhf','helpful-base'),'train.jsonl',global_index_generator,split='train'),
-        # hhrlhf_preprocess(os.path.join('..','..','data','raw_data','hhrlhf','helpful-base'),'test.jsonl',global_index_generator,split='test'),
-        hhrlhf_preprocess(os.path.join('..','..','data','raw_data','hhrlhf','helpful-online'),'train.jsonl',global_index_generator,split='train'),
-        # hhrlhf_preprocess(os.path.join('..','..','data','raw_data','hhrlhf','helpful-online'),'test.jsonl',global_index_generator,split='test'),
-        hhrlhf_preprocess(os.path.join('..','..','data','raw_data','hhrlhf','helpful-rejection'),'train.jsonl',global_index_generator,split='train'),
-        # hhrlhf_preprocess(os.path.join('..','..','data','raw_data','hhrlhf','helpful-rejection'),'test.jsonl',global_index_generator,split='test'),
-    ]
+    
+    hhrlhf_preprocess(os.path.join('..','..','data','raw_data','hhrlhf','harmless-base'),'train.jsonl',global_index_generator,split='train'),
+    hhrlhf_preprocess(os.path.join('..','..','data','raw_data','hhrlhf','helpful-base'),'train.jsonl',global_index_generator,split='train'),
+    hhrlhf_preprocess(os.path.join('..','..','data','raw_data','hhrlhf','helpful-online'),'train.jsonl',global_index_generator,split='train'),
+    hhrlhf_preprocess(os.path.join('..','..','data','raw_data','hhrlhf','helpful-rejection'),'train.jsonl',global_index_generator,split='train'),
     hhrlhf_preprocess(os.path.join('..','..','data','raw_data','hhrlhf','harmless-base'),'test.jsonl',global_index_generator,split='dev')
     hhrlhf_preprocess(os.path.join('..','..','data','raw_data','hhrlhf','helpful-base'),'test.jsonl',global_index_generator,split='dev')
     hhrlhf_preprocess(os.path.join('..','..','data','raw_data','hhrlhf','helpful-online'),'test.jsonl',global_index_generator,split='dev')
     hhrlhf_preprocess(os.path.join('..','..','data','raw_data','hhrlhf','helpful-rejection'),'test.jsonl',global_index_generator,split='dev')
-    
-    global_prefixes = []
-    global_extended_samples = 0
-    for key in res:
-        for dataset in res[key]:
-            for sample in dataset:
-                for sub_sample in sample['extended']:
-                    prefix = "".join(sub_sample['prefix'])
-                    prefix = prefix.replace("<|prompter|>", "\n\nHuman: ").replace("<|assistant|>", "\n\nAssistant: ")
-                    prefix = prompts[key].replace('<prefix>', prefix)
-                    global_prefixes.append(
-                        {
-                            'id': sub_sample['id'],
-                            'prefix': prefix,
-                            'target_num': sub_sample['target_num'],
-                            'target': []
-                        }
-                    )
-                    global_extended_samples += sub_sample['target_num']
-    
-    
-    print('Total Num: {}'.format(len(global_prefixes)))
-    print('Total Extended Num: {}'.format(global_extended_samples))

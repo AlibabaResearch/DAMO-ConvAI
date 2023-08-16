@@ -5,9 +5,8 @@ import json
 import random
 import numpy as np
 import tqdm
-from utils.metrics import create_reward_fn_3
-get_score, reward_batch_size = create_reward_fn_3()
-# get_score = None
+from utils.metrics_hh import create_reward_fn
+get_score, reward_batch_size = create_reward_fn()
 
 def split_trans(split):
     if split == 'train' or split == 'test' or split == 'dev':
@@ -48,7 +47,6 @@ def reward_model_ranker(prefixes, suffixes):
 
 def extract_train_data(root_dir, if_score, if_rerank, training_stage_num = None, split='train'):
     file_list = []
-    # for root,dirs,files in os.walk('refilled_data'):
     for root,dirs,files in os.walk(root_dir):
         for file in files:
             if not file.endswith("json"):
@@ -103,16 +101,19 @@ def extract_train_data(root_dir, if_score, if_rerank, training_stage_num = None,
         for l in training_data:
             l['reward'] = [1.0] * len(l['suffix'])
     
+    for l in training_data:
+        l['sft_index'] = 0
+    
     return training_data
 
 if __name__ == '__main__':
     root_dir = os.path.join('..','..','data',"preprocessed_data")
     data_aug = False
-    os.makedirs(os.path.join('..','..','data','train_len2'), exist_ok=True)
+    os.makedirs(os.path.join('..','..','data','hh_train_len2'), exist_ok=True)
     random.seed(42)
     training_data = extract_train_data(root_dir = os.path.join(root_dir, "hhrlhf"), if_score = True, if_rerank=True, split = 'train') 
     random.shuffle(training_data)
-    with open(os.path.join('..','..','data','train_len2','train.json'),'w', encoding='utf-8') as f:
+    with open(os.path.join('..','..','data','hh_train_len2','train.json'),'w', encoding='utf-8') as f:
         for sample in training_data:
             f.write(json.dumps(sample,ensure_ascii=False)+'\n')
 
@@ -124,7 +125,6 @@ if __name__ == '__main__':
     random.seed(42)
     helpful_base_dev_data = extract_train_data(root_dir = os.path.join(root_dir, "hhrlhf", "helpful-base"), if_score = True, if_rerank=False, split = 'dev') 
     random.shuffle(helpful_base_dev_data)
-    
 
     random.seed(42)
     helpful_online_dev_data = extract_train_data(root_dir = os.path.join(root_dir, "hhrlhf", "helpful-online"), if_score = True, if_rerank=False, split = 'dev') 
@@ -137,6 +137,6 @@ if __name__ == '__main__':
     total_dev_data = harmless_base_dev_data + helpful_base_dev_data + helpful_online_dev_data + helpful_rejection_dev_data
     random.shuffle(total_dev_data)
     total_dev_data = total_dev_data[:280]
-    with open(os.path.join('..','..','data','dev','sampled_dev.json'),'w', encoding='utf-8') as f:
+    with open(os.path.join('..','..','data','hh_dev','sampled_dev.json'),'w', encoding='utf-8') as f:
         for sample in total_dev_data:
             f.write(json.dumps(sample,ensure_ascii=False)+'\n')

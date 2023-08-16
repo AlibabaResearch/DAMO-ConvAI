@@ -7,6 +7,11 @@ from transformers import SchedulerType
 def parse_args():
     parser = argparse.ArgumentParser(description="Preference Ranking Optimization For Human Alignment")
     parser.add_argument(
+        "--task",
+        type=str,
+        default="hh",
+    )
+    parser.add_argument(
         "--do_train",
         action="store_true",
     )
@@ -73,7 +78,7 @@ def parse_args():
         type=int,
         default=20,
     )
-    parser.add_argument("--num_train_epochs", type=int, default=1")
+    parser.add_argument("--num_train_epochs", type=int, default=1)
     parser.add_argument(
         "--max_train_steps",
         type=int,
