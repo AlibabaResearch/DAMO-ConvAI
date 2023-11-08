@@ -6,7 +6,7 @@ The PyTorch implementation of paper [Long-Tailed Question Answering in an Open W
 cd LongTailQA
 pip install -r r.txt
 ```
-The raw dataset is available [here](https://drive.google.com/file/d/12-w1bMAevcXmjsl8DKcCrJe1kI-pyZTd/view?usp=share_link) to be placed in data_process/data
+The raw dataset is available [here](https://drive.google.com/file/d/1yvWuMYKSEoeutA-o_1VviuD_lZKRorBP/view?usp=sharing) to be placed in data_process/data
 
 # Construct Pareto Long-Tail subset of raw data
 ```bash
@@ -44,7 +44,7 @@ python gen_seltest.py
 ```bash
 bash ./train_stage1.sh ${train batch size}
 ```
-For a quickstart, pre-trained [bi-encoder](https://drive.google.com/file/d/1RRau7Y7PX2rv3CxVHK5FGM4aJPhsLbiv/view?usp=share_link) and [cross-encoder](https://drive.google.com/file/d/1YNi5TSBvo4eevdw7DPcLApX96LSJlu4p/view?usp=share_link) checkpoints are available.
+For a quickstart, pre-trained [bi-encoder](https://drive.google.com/file/d/1j_i28_zvBuhcRE--Lr_PkIUPrYUZKB5O/view?usp=sharing) and [cross-encoder](https://drive.google.com/file/d/1S6Aa_8SSShz5EhwjTlsurGkH7gfhlfh5/view?usp=sharing) checkpoints are available.
 
 ## train and evaluate the framework
 ```bash
