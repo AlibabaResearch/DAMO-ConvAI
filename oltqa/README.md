@@ -15,7 +15,7 @@ python gen_lt.py
 
 # preprocessing: large PLM inference
 ## BM25 candidates
-use [This Repo](https://github.com/OhadRubin/EPR) to select BM25 examples for PLM inference
+use [This Repo](https://github.com/OhadRubin/EPR) to select BM25 examples for PLM inference (to construct a candidate pool for further selection)
 ```bash
 python find_bm25.py output_path=$PWD/data/{compute_bm25_outfile} \
     dataset_split=train setup_type={bm25_setup_type} task_name={dataset} +ds_size={ds_size} L={finder_L}
@@ -26,7 +26,7 @@ Install [GLM-10B](https://github.com/THUDM/GLM) or [GLM-130B](https://github.com
 ```bash
 cd plm
 bash ./install_glm.sh
-bash scripts/generate_block.sh \
+bash ./scripts/generate_block.sh \
      config_tasks/model_blocklm_10B_chinese.sh
 ```
 
