@@ -6,16 +6,16 @@ The PyTorch implementation of paper [Long-Tailed Question Answering in an Open W
 cd LongTailQA
 pip install -r r.txt
 ```
-The raw dataset is available [here](https://drive.google.com/file/d/12-w1bMAevcXmjsl8DKcCrJe1kI-pyZTd/view?usp=share_link) to be placed in data_process/data
+The raw dataset is available [here](https://drive.google.com/file/d/1yvWuMYKSEoeutA-o_1VviuD_lZKRorBP/view?usp=sharing) to be placed in data_process/data
 
 # Construct Pareto Long-Tail subset of raw data
 ```bash
 python gen_lt.py
 ```
 
-# large PLM inference
+# preprocessing: large PLM inference
 ## BM25 candidates
-use [This Repo](https://github.com/OhadRubin/EPR) to select BM25 examples for PLM inference
+use [This Repo](https://github.com/OhadRubin/EPR) to select BM25 examples for PLM inference (to construct a candidate pool for further selection)
 ```bash
 python find_bm25.py output_path=$PWD/data/{compute_bm25_outfile} \
     dataset_split=train setup_type={bm25_setup_type} task_name={dataset} +ds_size={ds_size} L={finder_L}
@@ -26,9 +26,9 @@ Install [GLM-10B](https://github.com/THUDM/GLM) or [GLM-130B](https://github.com
 ```bash
 cd plm
 bash ./install_glm.sh
-bash ./run.sh ${input_file}
+bash ./scripts/generate_block.sh \
+     config_tasks/model_blocklm_10B_chinese.sh
 ```
-
 
 # Two-stage Training
 
@@ -44,7 +44,7 @@ python gen_seltest.py
 ```bash
 bash ./train_stage1.sh ${train batch size}
 ```
-For a quickstart, pre-trained [bi-encoder](https://drive.google.com/file/d/1RRau7Y7PX2rv3CxVHK5FGM4aJPhsLbiv/view?usp=share_link) and [cross-encoder](https://drive.google.com/file/d/1YNi5TSBvo4eevdw7DPcLApX96LSJlu4p/view?usp=share_link) checkpoints are available.
+For a quickstart, pre-trained [bi-encoder](https://drive.google.com/file/d/1j_i28_zvBuhcRE--Lr_PkIUPrYUZKB5O/view?usp=sharing) and [cross-encoder](https://drive.google.com/file/d/1S6Aa_8SSShz5EhwjTlsurGkH7gfhlfh5/view?usp=sharing) checkpoints are available.
 
 ## train and evaluate the framework
 ```bash
