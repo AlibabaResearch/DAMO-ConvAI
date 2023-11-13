@@ -13,7 +13,7 @@ The raw dataset is available [here](https://drive.google.com/file/d/1yvWuMYKSEoe
 python gen_lt.py
 ```
 
-# large PLM inference
+# preprocessing: large PLM inference
 ## BM25 candidates
 use [This Repo](https://github.com/OhadRubin/EPR) to select BM25 examples for PLM inference
 ```bash
@@ -26,9 +26,9 @@ Install [GLM-10B](https://github.com/THUDM/GLM) or [GLM-130B](https://github.com
 ```bash
 cd plm
 bash ./install_glm.sh
-bash ./run.sh ${input_file}
+bash scripts/generate_block.sh \
+     config_tasks/model_blocklm_10B_chinese.sh
 ```
-
 
 # Two-stage Training
 
