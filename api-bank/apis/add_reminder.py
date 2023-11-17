@@ -5,11 +5,8 @@ import datetime
 
 
 class AddReminder(API):
-    description = "Add a reminder API that takes three parameters - 'token'，'content' and 'time'. " \
-                  "The 'token' parameter refers to the user's token " \
-                  "and the 'content' parameter refers to the description of the reminder " \
-                  "and the 'time' parameter specifies the time at which the reminder " \
-                  "should be triggered."
+    
+    description = "The API for adding a reminder item includes content and time."
     input_parameters = {
         'token': {'type': 'str', 'description': "User's token."},
         'content': {'type': 'str', 'description': 'The content of the conference.'},

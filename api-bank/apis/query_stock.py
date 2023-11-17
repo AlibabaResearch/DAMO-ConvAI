@@ -2,7 +2,8 @@ from apis.api import API
 import datetime
 
 class QueryStock(API):
-    description = 'This API queries the stock price of a given stock.'
+    
+    description = 'This API queries the stock price of a given stock code and date.'
     input_parameters = {
         "stock_code": {'type': 'str', 'description': 'The stock code of the given stock.'},
         "date": {'type': 'str', 'description': 'The date of the stock price. Format: %Y-%m-%d'}

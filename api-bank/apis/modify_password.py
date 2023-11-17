@@ -3,7 +3,7 @@ import json
 
 class ModifyPassword(API):
 
-    description = 'Modify the password of an account.'
+    description = 'The API for modifying the password of the account.'
     input_parameters = {
         'token': {'type': 'str', 'description': 'The token of the user.'},
         'old_password': {'type': 'str', 'description': 'The old password of the user.'},

@@ -5,7 +5,7 @@ import datetime
 
 
 class ModifyAgenda(API):
-    description = "The API for modifying a schedule item includes parameters for token, content, time, and location."
+    description = "The API for modifying a schedule item includes parameters for content, time, and location."
     input_parameters = {
         'token': {'type': 'str', 'description': "User's token."},
         'content': {'type': 'str', 'description': 'The content of the agenda.'},

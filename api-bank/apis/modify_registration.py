@@ -2,6 +2,7 @@ from apis.api import API
 import datetime
 
 class ModifyRegistration(API):
+    
     description = 'This API modifies the registration of a patient given appointment ID.'
     input_parameters = {
         "appointment_id": {'type': 'str', 'description': 'The ID of appointment.'},
@@ -129,7 +130,7 @@ class ModifyRegistration(API):
         Returns:
         - correctness (bool): the correctness of the API call.
         """
-        response_appointment_id = response['input']['appointment_id']
+        response_appointment_id = str(response['input']['appointment_id'])
         groundtruth_appointment_id = groundtruth['input']['appointment_id']
         response_new_appointment_date = response['input']['new_appointment_date']
         groundtruth_new_appointment_date = groundtruth['input']['new_appointment_date']

@@ -3,7 +3,7 @@ from apis.api import API
 import re
 
 class SendEmail(API):
-    description = 'This API sends an email.'
+    description = 'This API for sending email, given the receiver, subject and content.'
     input_parameters = {
         "receiver": {'type': 'str', 'description': 'The receiver address of the email.'},
         "subject": {'type': 'str', 'description': 'The subject address of the email.'},

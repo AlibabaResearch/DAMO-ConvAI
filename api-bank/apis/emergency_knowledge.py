@@ -1,7 +1,8 @@
 from apis.api import API
 
 class EmergencyKnowledge(API):
-    description = 'This API searches for a given symptom.'
+    
+    description = 'This API searches for a given symptom for emergency knowledge.'
     input_parameters = {
         "symptom": {'type': 'str', 'description': 'The symptom to search.'},
     }

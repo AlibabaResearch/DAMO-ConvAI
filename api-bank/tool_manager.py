@@ -4,17 +4,17 @@ import os
 import json
 from api_call_extraction import parse_api_call
 class ToolManager:
-    def __init__(self) -> None:
+    def __init__(self, apis_dir='./apis') -> None:
         import importlib.util
 
         all_apis = []
         # import all the file in the apis folder, and load all the classes
-        apis_dir = './apis'
         except_files = ['__init__.py', 'api.py']
         for file in os.listdir(apis_dir):
             if file.endswith('.py') and file not in except_files:
                 api_file = file.split('.')[0]
-                module = importlib.import_module("apis." + api_file)
+                basename = os.path.basename(apis_dir)
+                module = importlib.import_module(f'{basename}.{api_file}')
                 classes = [getattr(module, x) for x in dir(module) if isinstance(getattr(module, x), type)]
                 for cls in classes:
                     if issubclass(cls, API) and cls is not API:
@@ -49,7 +49,8 @@ class ToolManager:
         
         self.apis = apis
         self.inited_tools = {}
-        self.token_checker = self.init_tool('CheckToken')
+        if 'CheckToken' in self.list_all_apis():
+            self.token_checker = self.init_tool('CheckToken')
 
     def get_api_by_name(self, name: str):
         """
@@ -147,19 +148,21 @@ class ToolManager:
 
             required_type = required_para['type']
             if required_type == 'int':
-                assert input_value.isdigit(), 'invalid parameter type. parameter: {}'.format(input_value)
+                if isinstance(input_value, str):
+                    assert input_value.isdigit(), 'invalid parameter type. parameter: {}'.format(input_value)
                 processed_parameters[input_key] = int(input_value)
             elif required_type == 'float':
-                assert input_value.replace('.', '', 1).isdigit(), 'invalid parameter type.'
+                if isinstance(input_value, str):
+                    assert input_value.replace('.', '', 1).isdigit(), 'invalid parameter type.'
                 processed_parameters[input_key] = float(input_value)
             elif required_type == 'str':
                 processed_parameters[input_key] = input_value
             elif required_type == 'list(str)':
-                input_value = input_value.replace('\'', '"')
-                processed_parameters[input_key] = json.loads(input_value)
+                # input_value = input_value.replace('\'', '"')
+                processed_parameters[input_key] = input_value
             elif required_type == 'list':
-                input_value = input_value.replace('\'', '"')
-                processed_parameters[input_key] = json.loads(input_value)
+                # input_value = input_value.replace('\'', '"')
+                processed_parameters[input_key] = input_value
             elif required_type == 'bool':
                 processed_parameters[input_key] = input_value == 'True'
             else:

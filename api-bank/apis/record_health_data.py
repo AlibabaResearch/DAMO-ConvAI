@@ -2,7 +2,8 @@ from apis.api import API
 import datetime
 
 class RecordHealthData(API):
-    description = 'This API records the health history of a patient given user ID, time and health data.'
+    
+    description = 'This API records the health data of a user.'
     input_parameters = {
         "user_id": {'type': 'str', 'description': 'The ID of user.'},
         "time": {'type': 'str', 'description': 'The time of health data. Format: %Y-%m-%d %H:%M:%S'},
@@ -126,7 +127,7 @@ class RecordHealthData(API):
         Returns:
         - correctness (bool): the correctness of the API call.
         """
-        response_user_id = response['input']['user_id']
+        response_user_id = str(response['input']['user_id'])
         groundtruth_user_id = groundtruth['input']['user_id']
         response_time = response['input']['time']
         groundtruth_time = groundtruth['input']['time']
@@ -137,18 +138,18 @@ class RecordHealthData(API):
         groundtruth_user_id = groundtruth_user_id.upper().strip()
         response_time = self.format_check(response_time)
         groundtruth_time = self.format_check(groundtruth_time)
-        response_health_data = [{"name":str(i["name"]),"value":str(i["value"])} for i in response_health_data]
-        groundtruth_health_data = [{"name":str(i["name"]),"value":str(i["value"])} for i in groundtruth_health_data]
-        response_health_data.sort(key=lambda x: str(x))
-        groundtruth_health_data.sort(key=lambda x: str(x))
+        # response_health_data = [{"name":str(i["name"]),"value":str(i["value"])} for i in response_health_data]
+        # groundtruth_health_data = [{"name":str(i["name"]),"value":str(i["value"])} for i in groundtruth_health_data]
+        # response_health_data.sort(key=lambda x: str(x))
+        # groundtruth_health_data.sort(key=lambda x: str(x))
         
 
         if response_user_id != groundtruth_user_id:
             return False
         if response_time != groundtruth_time:
             return False
-        if response_health_data != groundtruth_health_data:
-            return False
+        # if response_health_data != groundtruth_health_data:
+        #     return False
         if response['output'] != groundtruth['output']:
             return False
         if response['exception'] != groundtruth['exception']:

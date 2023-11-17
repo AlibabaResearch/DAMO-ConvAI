@@ -2,7 +2,8 @@ from apis.api import API
 import datetime
 
 class QueryRegistration(API):
-    description = 'This API queries the registration of a patient given patient ID.'
+    
+    description = 'This API queries the registration of a patient, given patient ID.'
     input_parameters = {
         "patient_name": {'type': 'str', 'description': 'The name of patient.'},
         "date": {'type': 'str', 'description': 'The date of appointment. Format be like %Y-%m-%d'},

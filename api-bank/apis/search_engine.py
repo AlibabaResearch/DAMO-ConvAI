@@ -9,7 +9,7 @@ except:
     from nltk.tokenize import word_tokenize
 
 class SearchEngine(API):
-    description = 'This API searches for a given keyword.'
+    description = 'This API searches for a given keyword for search engine.'
     input_parameters = {
         "keyword": {'type': 'str', 'description': 'The keyword to search.'},
     }
@@ -96,7 +96,6 @@ class SearchEngine(API):
         if len(rankings) > 2:
             rankings = rankings[:2]
         results = [self.database["raw_documents"][i] for i in rankings]
-   
         return results
     
     def check_api_call_correctness(self, response, groundtruth) -> bool:

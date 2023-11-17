@@ -1,7 +1,8 @@
 from apis.api import API
 
 class DeleteScene(API):
-    description = 'This API deletes a scene.'
+    
+    description = 'This API deletes a scene by its name.'
     input_parameters = {
         "name": {'type': 'str', 'description': 'The name of the scene.'},
     }

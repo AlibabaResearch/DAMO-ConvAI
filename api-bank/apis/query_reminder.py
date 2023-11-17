@@ -5,8 +5,8 @@ import datetime
 
 
 class QueryReminder(API):
-    description = "Query a reminder API that takes three parameters - 'token'，'content' and 'time'. " \
-                  "The API used to help user query a reminder. If the reminder exists, the API will return the reminder information. " 
+    
+    description = "The API for querying a reminder item includes content and time."
     input_parameters = {
         'token': {'type': 'str', 'description': "User's token."},
         'content': {'type': 'str', 'description': 'The content of the reminder.'},

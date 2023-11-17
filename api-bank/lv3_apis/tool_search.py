@@ -7,8 +7,7 @@ from apis.api import API
 import os
 
 class ToolSearcher(API):
-    
-    description = 'Searches for relevant tools in library based on the keywords.'
+    description = 'Searches for relevant tools in library based on the keyword.'
     input_parameters = {
         'keywords': {'type': 'str', 'description': 'The keyword to search for.'}
     }
@@ -16,24 +15,32 @@ class ToolSearcher(API):
         'best_matchs': {'type': 'Union[List[dict], dict]', 'description': 'The best match tool(s).'},
     }
 
-    def __init__(self):
+    def __init__(self, apis_dir = './lv3_apis'):
         import importlib.util
 
 
         all_apis = []
         # import all the file in the apis folder, and load all the classes
-        apis_dir = './apis'
         except_files = ['__init__.py', 'api.py', 'tool_search.py']
         for file in os.listdir(apis_dir):
             if file.endswith('.py') and file not in except_files:
                 api_file = file.split('.')[0]
-                module = importlib.import_module("apis." + api_file)
+                basename = os.path.basename(apis_dir)
+                module = importlib.import_module(basename + "." + api_file)
                 classes = [getattr(module, x) for x in dir(module) if isinstance(getattr(module, x), type)]
                 for cls in classes:
                     if issubclass(cls, API) and cls is not API:
                         all_apis.append(cls)
 
         classes = all_apis
+
+        # # Import the module containing the API classes
+        # spec = importlib.util.spec_from_file_location('apis', './apis.py')
+        # module = importlib.util.module_from_spec(spec)
+        # spec.loader.exec_module(module)
+
+        # # Get a list of all classes in the module
+        # classes = inspect.getmembers(module, inspect.isclass)
 
         def api_summery(cls):
             cls_name = cls.__name__
@@ -53,10 +60,7 @@ class ToolSearcher(API):
                     'output_parameters': cls.output_parameters,
                     'desc_for_search': desc_for_search
                 })
-                if cls.__name__ == 'GetUserToken':
-                    self.get_user_token_api = apis[-1]
         
-        assert hasattr(self, 'get_user_token_api'), 'GetUserToken API is not found.'
         self.apis = apis
 
     def check_api_call_correctness(self, response, groundtruth) -> bool:
@@ -89,6 +93,7 @@ class ToolSearcher(API):
         
     
     def best_match_api(self, keywords):
+
         model = SentenceTransformer('sentence-transformers/paraphrase-MiniLM-L3-v2')
         kw_emb = model.encode(keywords)
         best_match = None
@@ -104,4 +109,41 @@ class ToolSearcher(API):
             return [self.get_user_token_api, best_match]
         else:
             return best_match
-    
+        # best_match = None
+        # for api in self.apis:
+        #     if api['name'] == keywords:
+        #         best_match = api
+        #         break
+        # best_match = best_match.copy()
+        # best_match.pop('desc_for_search')
+        # return best_match
+
+        # model = SentenceTransformer('sentence-transformers/paraphrase-MiniLM-L3-v2')
+        # kw_emb = model.encode(keywords)
+
+        # scores = []
+        # for api in self.apis:
+        #     re_emb = model.encode(api['desc_for_search'])
+        #     cos_sim = util.cos_sim(kw_emb, re_emb).item()
+        #     scores.append((api, cos_sim))
+
+        # scores.sort(key=lambda x: x[1], reverse=True)
+        # api_id = input('Please select the best match from {}:\n'.format([x[0]['name'] for x in scores[:3]]))
+        # try:
+        #     api_id = int(api_id) - 1
+        # except:
+        #     best_match = scores[0][0]
+        #     for api in self.apis:
+        #         if api['name'] == api_id:
+        #             best_match = api
+        #             break
+        # else:
+        #     best_match = scores[int(api_id)][0]
+
+        # best_match = best_match.copy()
+        # best_match.pop('desc_for_search')
+        # return best_match
+
+if __name__ == '__main__':
+    tool_searcher = ToolSearcher(apis_dir='./lv3_apis')
+    print(tool_searcher.call('add alarm'))

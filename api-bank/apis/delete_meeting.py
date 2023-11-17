@@ -5,12 +5,8 @@ import datetime
 
 
 class DeleteMeeting(API):
-    description = "This API allows users to delete a reservation for a meeting and remove the meeting information in the database." \
-                  "Function：" \
-                  "Delete user's reservation for a meeting." \
-                  "Exception Handling：" \
-                  "1. If the deletion is successful, return a success message." \
-                  "2. If the deletion fails, return a corresponding error message."
+    
+    description = "This API allows users to delete a reservation for a meeting and remove the meeting information in the database." 
     input_parameters = {
         'token': {'type': 'str', 'description': "User's token."},
         'meeting_topic': {'type': 'str', 'description': 'The title of the meeting, no more than 50 characters.'},
