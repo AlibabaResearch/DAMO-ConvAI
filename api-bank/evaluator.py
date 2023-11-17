@@ -3,14 +3,13 @@ from tool_manager import ToolManager
 import re
 from rouge import Rouge
 import os
-from utils import ChatGPTWrapper, DavinciWrapper
+from utils import ChatGPTWrapper, DavinciWrapper, GPT4Wrapper
 import logging
 from tqdm import tqdm
 from api_call_extraction import parse_api_call
 from datetime import datetime
 import numpy as np
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', filename=f'evaluator-{datetime.now().strftime("%Y-%m-%d-%H-%M-%S")}.log', filemode='w')
 
 def calculate_rouge_l_score(reference, hypothesis):
     rouge = Rouge()
@@ -111,13 +110,16 @@ def get_api_call(model_output):
 if __name__ == '__main__':
     data_dir = 'lv1-lv2-samples/level-1-given-desc'
     api_test_enabled = False
-    dialog_test_enabled = True
+    dialog_test_enabled = not api_test_enabled
+
+    api_str = 'api' if api_test_enabled else 'response'
+
 
     if os.path.basename(data_dir).endswith('given-desc'):
         tool_search_enabled = False
     else:
         tool_search_enabled = True
-    chatgpt = DavinciWrapper(api_key='YOUR_API_KEY')
+    chatgpt = GPT4Wrapper(api_key='YOUR_API_KEY')
     api_call_prompt = '''
 Based on the given API description and the existing conversation history 1..t, please generate the API request that the AI should call in step t+1 and output it in the format of [ApiName(key1='value1', key2='value2', ...)], replace the ApiName with the actual API name, and replace the key and value with the actual parameters. 
 Your output should start with a square bracket "[" and end with a square bracket "]". Do not output any other explanation or prompt or the result of the API call in your output. 

@@ -1,5 +1,8 @@
 import re
 
+def fn(**kwargs):
+    return kwargs
+
 def get_api_call(model_output):
     api_call_pattern = r"\[(\w+)\((.*)\)\]"
     api_call_pattern = re.compile(api_call_pattern)
@@ -15,6 +18,13 @@ def parse_api_call(text):
 
     api_name = match.group(1)
     params = match.group(2)
+
+    # params = params.replace('\'[', '[')
+    # params = params.replace(']\'', ']')
+    # params = params.replace('\'{', '{')
+    # params = params.replace('}\'', '}')
+    
+    # param_dict = eval('fn(' + params + ')')
 
     param_pattern = r"(\w+)\s*=\s*['\"](.+?)['\"]|(\w+)\s*=\s*(\[.*\])|(\w+)\s*=\s*(\w+)"
     param_dict = {}
