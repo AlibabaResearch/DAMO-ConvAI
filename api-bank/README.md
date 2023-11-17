@@ -6,7 +6,7 @@ arXiv: [[Abstract]](https://arxiv.org/abs/2304.08244)/[[PDF]](https://arxiv.org/
 
 
 ## News
-- **The Lynx model is released on [Huggingface Hub](https://huggingface.co/liminghao1630/Lynx-7b).**
+- **The Lynx model is released on [HuggingFace Hub](https://huggingface.co/liminghao1630/Lynx-7b).**
 - **API-Bank is accepted by EMNLP 2023.**
 - **The code and data of API-Bank have been released.**
  
@@ -51,6 +51,7 @@ JsDelivr: https://cdn.jsdelivr.net/gh/liminghao1630/auxiliary_use/gpt-3.5-demo.g
 
 ## Evaluation
 
+The datasets are released on [HuggingFace Hub](https://huggingface.co/datasets/liminghao1630/API-Bank).
 The conversation data of level-1 and level-2 are stored in the `lv1-lv2-samples` directory or `test-data`, please follow the code in `evaluator.py`/`evaluator_by_json.py` to design the evaluation script.
 The evaluation of level-3 requires `lv3_evaluator.py`.
 
