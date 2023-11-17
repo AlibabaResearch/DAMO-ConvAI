@@ -19,7 +19,7 @@ def test_json():
     # if_api = True
     if_api = False
     pred_path = 'path-to-json'
-    gt_path = 'json_test_data/level-3.json'
+    gt_path = 'test_data/level-3.json'
     tool_manager = ToolManager('./lv3_apis')
     with open(pred_path, 'r') as f:
         preds = [json.loads(line) for line in f.readlines()]
