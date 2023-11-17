@@ -5,7 +5,7 @@ import datetime
 
 
 class AddAlarm(API):
-    description = "The API for setting an alarm includes a parameter for the time."
+    description = "The API for setting an alarm includes a parameter for the alarm time."
     input_parameters = {
         'token': {'type': 'str', 'description': "User's token."},
         'time': {'type': 'str', 'description': 'The time for alarm. Format: %Y-%m-%d %H:%M:%S'}

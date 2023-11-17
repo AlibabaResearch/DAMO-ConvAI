@@ -3,7 +3,7 @@ from apis.api import API
 import requests
 
 class Dictionary(API):
-    description = 'This API searches for a given keyword.'
+    description = 'This API searches the dictionary for a given keyword.'
     input_parameters = {
         "keyword": {'type': 'str', 'description': 'The keyword to search.'},
     }
@@ -85,4 +85,3 @@ class Dictionary(API):
         if response['exception'] != groundtruth['exception']:
             return False
         return True
-        

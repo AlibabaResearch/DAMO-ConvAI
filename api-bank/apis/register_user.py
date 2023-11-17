@@ -5,7 +5,7 @@ import json
 
 class RegisterUser(API):
 
-    description = 'Register a user.'
+    description = 'The API for registering a account, given the username, password and email.'
     input_parameters = {
         'username': {'type': 'str', 'description': 'The username of the user.'},
         'password': {'type': 'str', 'description': 'The password of the user.'},

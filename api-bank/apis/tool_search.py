@@ -7,7 +7,8 @@ from apis.api import API
 import os
 
 class ToolSearcher(API):
-    description = 'Searches for relevant tools in library based on the keyword.'
+    
+    description = 'Searches for relevant tools in library based on the keywords.'
     input_parameters = {
         'keywords': {'type': 'str', 'description': 'The keyword to search for.'}
     }

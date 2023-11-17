@@ -3,7 +3,7 @@ from apis.api import API
 import datetime
 
 class QueryHistoryToday(API):
-    description = 'This API queries the history of a given user today.'
+    description = 'This API queries the history of the given date.'
     input_parameters = {
         'date': {'type': 'str', 'description': 'The date of the history. Format: %m-%d'},
     }

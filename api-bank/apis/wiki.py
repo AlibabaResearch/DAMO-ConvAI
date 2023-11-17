@@ -1,7 +1,7 @@
 from apis.api import API
 
 class Wiki(API):
-    description = 'This API searches for a given keyword.'
+    description = 'This API for searching a keyword in Wikipedia.'
     input_parameters = {
         "keyword": {'type': 'str', 'description': 'The keyword to search.'},
     }

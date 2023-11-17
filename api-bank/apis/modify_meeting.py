@@ -5,12 +5,8 @@ import datetime
 
 
 class ModifyMeeting(API):
-    description = "This API allows users to modify a reservation for a meeting" \
-                  "Function：" \
-                  "Delete user's reservation for a meeting." \
-                  "Exception Handling：" \
-                  "1. If the modification is successful, return a success message." \
-                  "2. If the modification fails, return a corresponding error message."
+    
+    description = "This API allows users to modify a reservation for a meeting" 
     input_parameters = {
         'token': {'type': 'str', 'description': "User's token."},
         'meeting_topic': {'type': 'str', 'description': 'The title of the meeting, no more than 50 characters.'},

@@ -2,7 +2,8 @@ from apis import API
 import datetime
 
 class TimedSwitch(API):
-    description = 'This API switches a smart device on or off at a specified time'
+    
+    description = 'This API for setting a timed switch for a smart device.'
     input_parameters = {
         "name": {'type': 'str', 'description': 'The name of the smart device.'},
         "time": {'type': 'str', 'description': 'The time to switch the device on or off. Format: %Y-%m-%d %H:%M:%S'},

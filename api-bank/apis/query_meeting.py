@@ -5,12 +5,8 @@ import datetime
 
 
 class QueryMeeting(API):
-    description = "This API allows users to query a reservation for a meeting." \
-                  "Function：" \
-                  "Query infomation for a meeting." \
-                  "Exception Handling：" \
-                  "1. If the Query is successful, return a meeting infomation with json." \
-                  "2. If the Query fails, return a error message."
+    
+    description = "This API allows users to query the information of a meeting."
     input_parameters = {
         'token': {'type': 'str', 'description': "User's token."},
         'meeting_topic': {'type': 'str', 'description': 'The title of the meeting, no more than 50 characters.'},

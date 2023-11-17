@@ -3,7 +3,7 @@ import json
 import os
 class GetUserToken(API):
 
-    description = 'Get the user token.'
+    description = 'Get the user token by username and password.'
     input_parameters = {
         'username': {'type': 'str', 'description': 'The username of the user.'},
         'password': {'type': 'str', 'description': 'The password of the user.'},

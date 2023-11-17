@@ -5,11 +5,7 @@ import datetime
 
 
 class OpenBankAccount(API):
-    description = "This is an API for opening a bank account with three required parameters:" \
-                  " account (string), password (string), and name (string). The API creates a new " \
-                  "account with the specified account identifier, password, and account holder's name. " \
-                  "If an account with the same identifier already exists, the API will return an error message. " \
-                  "If the account is successfully created, the API will return a success message."
+    description = "This is an API for opening a bank account for a user, given the account, password and name."
     input_parameters = {
         'account': {'type': 'str', 'description': 'The account for the user.'},
         'password': {'type': 'str', 'description': 'The password.'},
