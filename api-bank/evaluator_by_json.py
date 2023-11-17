@@ -114,7 +114,7 @@ def get_api_call(model_output):
 
 if __name__ == '__main__':
     data_dir = 'lv1-lv2-samples/level-1-given-desc'
-    evaluation_path = '/Users/drhaogod/Desktop/Projects/DaaS/lynx-results/pred-lv1-lv2-lv3-model-on-lv1-api.json'
+    evaluation_path = 'path-to-json'
     api_test_enabled = True
     dialog_test_enabled = not api_test_enabled
 
