@@ -11,7 +11,7 @@ import pandas as pd
 import copy
 
 from utils.errors import DuplicateColumnsError
-from utils.mmqa.image_stuff import get_caption_map
+
 from retrieval.retrieve_pool import QAItem
 
 from utils.normalizer import prepare_df_for_neuraldb_from_table
@@ -219,42 +219,6 @@ class PromptBuilder(object):
         elif self.prompt_style == 'no_table':
             # No table input, to test Codex QA with only internal knowledge
             pass
-        elif self.prompt_style in ['create_table_select_3_full_table_w_all_passage_image']:
-            assert passages is not None and images is not None
-            one_shot_prompt += _create_table_prompt(table, title)
-            one_shot_prompt += self._select_x_prompt(
-                df=table,
-                num_rows=3,
-            )
-            all_passages, all_images = [], []
-            caption_map = get_caption_map()
-
-            for passage_idx in range(len(passages['id'])):
-                all_passages.append({
-                    'id': passages['id'][passage_idx],
-                    'title': passages['title'][passage_idx],
-                    'url': passages['url'][passage_idx],
-                    'text': passages['text'][passage_idx]
-                })
-
-            for image_idx in range(len(images['id'])):
-                all_images.append({
-                    "id": images['id'][image_idx],
-                    "title": images['title'][image_idx],
-                    "url": images['url'][image_idx],
-                    "path": images['path'][image_idx],
-                    "pic": images['pic'][image_idx],
-                    "caption": caption_map[images['id'][image_idx]]
-                })
-
-            one_shot_prompt += self._passage_prompt(
-                passages=all_passages,
-                only_title=only_title
-            )
-            one_shot_prompt += self._image_prompt(
-                images=all_images,
-                only_title=only_title
-            )
         else:
             raise ValueError('{} is not supported.'.format(self.prompt_style))
 
@@ -324,80 +288,6 @@ class PromptBuilder(object):
         elif self.prompt_style == 'no_table':
             # No table input, to test Codex QA with only internal knowledge
             pass
-        elif self.prompt_style in ['create_table_select_3_full_table_w_all_passage_image']:
-            assert passages is not None and images is not None
-            generate_prompt += _create_table_prompt(table, title)
-            generate_prompt += self._select_x_prompt(
-                df=table,
-                num_rows=table.shape[0],
-                few_shot_demonstration=False
-            )
-            all_passages, all_images = [], []
-            caption_map = get_caption_map()
-
-            for passage_idx in range(len(passages['id'])):
-                all_passages.append({
-                    'id': passages['id'][passage_idx],
-                    'title': passages['title'][passage_idx],
-                    'url': passages['url'][passage_idx],
-                    'text': passages['text'][passage_idx]
-                })
-
-            for image_idx in range(len(images['id'])):
-                all_images.append({
-                    "id": images['id'][image_idx],
-                    "title": images['title'][image_idx],
-                    "url": images['url'][image_idx],
-                    "path": images['path'][image_idx],
-                    "pic": images['pic'][image_idx],
-                    "caption": caption_map[images['id'][image_idx]]
-                })
-
-            generate_prompt += self._passage_prompt(
-                passages=all_passages,
-                only_title=only_title
-            )
-            generate_prompt += self._image_prompt(
-                images=all_images,
-                only_title=only_title
-            )
-        elif self.prompt_style in ['create_table_select_3_full_table_w_gold_passage_image']:
-            assert passages is not None and images is not None
-            generate_prompt += _create_table_prompt(table, title)
-            generate_prompt += self._select_x_prompt(
-                df=table,
-                num_rows=table.shape[0],
-                few_shot_demonstration=False
-            )
-            gold_passages, gold_images = [], []
-            caption_map = get_caption_map()
-            for doc_id, doc_part in zip(supporting_context['doc_id'], supporting_context['doc_part']):
-                if doc_part == 'text':
-                    passage_idx = passages['id'].index(doc_id)
-                    gold_passages.append({
-                        'id': passages['id'][passage_idx],
-                        'title': passages['title'][passage_idx],
-                        'url': passages['url'][passage_idx],
-                        'text': passages['text'][passage_idx]
-                    })
-                elif doc_part == 'image':
-                    image_idx = images['id'].index(doc_id)
-                    gold_images.append({
-                        "id": images['id'][image_idx],
-                        "title": images['title'][image_idx],
-                        "url": images['url'][image_idx],
-                        "path": images['path'][image_idx],
-                        "pic": images['pic'][image_idx],
-                        "caption": caption_map[doc_id]
-                    })
-            generate_prompt += self._passage_prompt(
-                passages=gold_passages,
-                only_title=only_title
-            )
-            generate_prompt += self._image_prompt(
-                images=gold_images,
-                only_title=only_title
-            )
         else:
             raise ValueError('{} is not supported.'.format(self.prompt_style))
 
