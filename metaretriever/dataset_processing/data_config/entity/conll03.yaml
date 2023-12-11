@@ -1,0 +1,13 @@
+name: conll03
+path: data/conll03/conll03
+data_class: CoNLL03
+split:
+  train: eng.train
+  val: eng.testa
+  test: eng.testb
+language: en
+mapper:
+  LOC: location
+  ORG: organization
+  PER: person
+  MISC: miscellaneous

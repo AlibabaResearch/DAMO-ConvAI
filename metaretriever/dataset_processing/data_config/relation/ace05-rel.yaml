@@ -1,0 +1,23 @@
+name: ace05-rel
+path: data/spannet_data/relation/ace05
+data_class: Spannet
+split:
+  train: train.jsonlines
+  val: dev.jsonlines
+  test: test.jsonlines
+language: en
+
+mapper:
+  FAC: facility
+  GPE: geographical social political
+  LOC: location
+  ORG: organization
+  PER: person
+  VEH: vehicle
+  WEA: weapon
+  ORG-AFF: organization affiliation
+  GEN-AFF: general affiliation
+  PHYS: physical
+  PART-WHOLE: part whole
+  PER-SOC: personal social
+  ART: agent artifact

@@ -1,0 +1,22 @@
+name: scierc
+path: data/spannet_data/relation/dygiepp/scierc
+data_class: Spannet
+split:
+  train: train.jsonlines
+  val: dev.jsonlines
+  test: test.jsonlines
+language: en
+mapper:
+  Method: method
+  Generic: generic
+  Material: material
+  Task: task
+  Metric: metric
+  OtherScientificTerm: other scientific term
+  USED-FOR: used for
+  FEATURE-OF: feature of
+  COMPARE: compare
+  EVALUATE-FOR: evaluate for
+  CONJUNCTION: conjunction
+  HYPONYM-OF: hyponym of
+  PART-OF: part of

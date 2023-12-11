@@ -1,0 +1,78 @@
+name: oneie_ace05_en_event
+path: data/oneie/ace05-EN
+data_class: OneIEEvent
+split:
+  train: train.oneie.json
+  val: dev.oneie.json
+  test: test.oneie.json
+language: en
+
+mapper:
+  FAC: facility
+  GPE: geographical social political
+  LOC: location
+  ORG: organization
+  PER: person
+  VEH: vehicle
+  WEA: weapon
+  ORG-AFF: organization affiliation
+  GEN-AFF: general affiliation
+  PHYS: physical
+  PART-WHOLE: part whole
+  PER-SOC: personal social
+  ART: agent artifact
+  Personnel:Elect: elect
+  Life:Be-Born: born
+  Movement:Transport: transport
+  Contact:Phone-Write: phone write
+  Life:Marry: marry
+  Life:Die: die
+  Personnel:Start-Position: start position
+  Life:Injure: injure
+  Transaction:Transfer-Ownership: transfer ownership
+  Contact:Meet: meet
+  Personnel:Nominate: nominate
+  Conflict:Attack: attack
+  Business:Start-Org: start organization
+  Justice:Trial-Hearing: trial hearing
+  Justice:Convict: convict
+  Justice:Sentence: sentence
+  Personnel:End-Position: end position
+  Life:Divorce: divorce
+  Justice:Acquit: acquit
+  Justice:Charge-Indict: charge indict
+  Transaction:Transfer-Money: transfer money
+  Justice:Appeal: appeal
+  Justice:Sue: sue
+  Business:Merge-Org: merge organization
+  Business:Declare-Bankruptcy: declare bankruptcy
+  Justice:Execute: execute
+  Justice:Arrest-Jail: arrest jail
+  Justice:Extradite: extradite
+  Conflict:Demonstrate: demonstrate
+  Business:End-Org: end organization
+  Justice:Release-Parole: release parole
+  Justice:Fine: fine
+  Justice:Pardon: pardon
+  Defendant: defendant
+  Prosecutor: prosecutor
+  Person: person
+  Origin: origin
+  Buyer: buyer
+  Plaintiff: plaintiff
+  Victim: victim
+  Org: organization
+  Adjudicator: adjudicator
+  Seller: seller
+  Beneficiary: beneficiary
+  Giver: giver
+  Target: target
+  Agent: agent
+  Instrument: instrument
+  Vehicle: vehicle
+  Entity: entity
+  Destination: destination
+  Recipient: recipient
+  Attacker: attacker
+  Artifact: artifact
+  Place: place

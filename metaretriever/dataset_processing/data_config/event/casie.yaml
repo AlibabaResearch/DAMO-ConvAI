@@ -1,0 +1,62 @@
+name: casie
+path: data/casie
+data_class: CASIE
+split:
+  train: train.jsonlines
+  val: dev.jsonlines
+  test: test.jsonlines
+language: en
+# https://github.com/Ebiquity/CASIE
+# https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9006444
+mapper:
+  File: file
+  System: system
+  Person: person
+  Phishing: phishing
+  Data: data
+  Purpose: purpose
+  Website: website
+  Organization: organization
+  Capabilities: capabilities
+  Malware: malware
+  Software: software
+  PII: personally identifiable information
+  Databreach: databreach
+  Time: time
+  Number: number
+  GPE: geopolitical entity
+  Ransom: ransom
+  Money: money
+  Device: device
+  Vulnerability: vulnerability
+  DiscoverVulnerability: discover vulnerability
+  Patch: patch
+  PatchVulnerability: patch vulnerability
+  Version: version
+  PaymentMethod: payment method
+  CVE: common vulnerabilities and exposures
+  Issues-Addressed: issues addressed
+  Vulnerable_System: vulnerable system
+  Number-of-Data: number of data
+  Capabilities: capabilities
+  Patch: patch
+  Time: time
+  Vulnerable_System_Version: vulnerable system version
+  Releaser: releaser
+  Damage-Amount: damage amount
+  Number-of-Victim: number of victim
+  Tool: tool
+  Attack-Pattern: attack pattern
+  Compromised-Data: compromised data
+  Attacker: attacker
+  Price: price
+  Discoverer: discoverer
+  Patch-Number: patch number
+  Payment-Method: payment method
+  Supported_Platform: supported platform
+  Vulnerability: vulnerability
+  Place: place
+  Vulnerable_System_Owner: vulnerable system owner
+  Victim: victim
+  Trusted-Entity: trusted entity
+  Purpose: purpose

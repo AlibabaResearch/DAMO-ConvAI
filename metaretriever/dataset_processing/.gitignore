@@ -1,0 +1,25 @@
+/data
+/converted_data
+/lightning_logs
+/model
+/models
+/*log
+/thirdparty
+/tmp
+
+.lock
+# mac
+.DS_Store
+
+# env
+/.vscode
+/.idea
+**/__pycache__
+*.pyc
+.pytest_cache
+
+# doc
+docs/build
+docs/.vscode
+docs/source/_build
+

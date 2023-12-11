@@ -1,0 +1,17 @@
+name: mrc_ace04
+path: data/mrc_ner/ace2004
+data_class: MRCNER
+split:
+  train: mrc-ner.train
+  val: mrc-ner.dev
+  test: mrc-ner.test
+language: en
+
+mapper:
+  FAC: facility
+  GPE: geographical social political
+  LOC: location
+  ORG: organization
+  PER: person
+  VEH: vehicle
+  WEA: weapon

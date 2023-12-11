@@ -1,0 +1,19 @@
+name: conll04
+path: data/spannet_data/relation/conll04
+data_class: Spannet
+split:
+  train: train.jsonlines
+  val: dev.jsonlines
+  test: test.jsonlines
+language: en
+
+mapper:
+  Loc: location
+  Org: organization
+  Other: other
+  Peop: people
+  OrgBased_In: organization in
+  Work_For: work for
+  Located_In: located in
+  Live_In: live in
+  Kill: kill

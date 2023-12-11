@@ -1,0 +1,15 @@
+name: 16res
+path: data/absa/pengb/16res
+data_class: ABSA
+split:
+  train: train_convert.json
+  val: dev_convert.json
+  test: test_convert.json
+language: en
+
+mapper:
+  POS: positive
+  NEG: negative
+  NEU: neutral
+  aspect: aspect
+  opinion: opinion
