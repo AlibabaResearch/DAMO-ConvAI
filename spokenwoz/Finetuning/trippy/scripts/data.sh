@@ -1,8 +1,10 @@
-python3 ./dataset.py --data_name data.json \
---root ./data/ \
---audio_path ../audio/ \
---output_path ./data/
+tar -zxvf ../audio/audio_5700_train_dev.tar.gz
 
-python3 ./utils_dst.py --data_root ./data
+python ./dataset.py --data_name data.json \
+--root ./data \
+--audio_path ../audio/audio_5700_train_dev \
+--output_path ./data
+
+python ./utils_dst.py --data_root ./data
 
 

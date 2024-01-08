@@ -71,5 +71,5 @@ python -u run_gen.py \
   --max_len=1024 \
   --max_ctx_turn=100 \
   --token_loss=true \
-  --data_processed=test_for_space_encoded.data.json
+  --data_processed=valid_for_space_encoded.data.json
   # --data_processed=data_for_spectra_encoded.data.json

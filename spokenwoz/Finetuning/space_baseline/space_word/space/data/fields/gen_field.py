@@ -417,13 +417,13 @@ class MultiWOZBPETextField(BPETextField):
         self.understand_ids = self.tokenizer.convert_tokens_to_ids(self.understand_tokens)
         self.policy_ids = self.tokenizer.convert_tokens_to_ids(self.policy_tokens)
 
-        test_list = [l.strip().lower() for l in open(
-            os.path.join(self.data_root, f'data/multiwoz{self.version}/testListFile.json'), 'r').readlines()]
+        # test_list = [l.strip().lower() for l in open(
+        #     os.path.join(self.data_root, f'data/multiwoz{self.version}/testListFile.json'), 'r').readlines()]
         dev_list = [l.strip().lower() for l in open(
             os.path.join(self.data_root, f'data/multiwoz{self.version}/valListFile.json'), 'r').readlines()]
         self.dev_files, self.test_files = {}, {}
-        for fn in test_list:
-            self.test_files[fn.replace('.json', '')] = 1
+        # for fn in test_list:
+        #     self.test_files[fn.replace('.json', '')] = 1
         for fn in dev_list:
             self.dev_files[fn.replace('.json', '')] = 1
 
@@ -846,6 +846,7 @@ class MultiWOZBPETextField(BPETextField):
             if self.use_true_curr_bspn:
                 pv_context = pv_turn['labels'] + [pv_turn['aspn'] + pv_turn['resp']]
             else:
+                # print(pv_turn)
                 pv_context = pv_turn['labels'] + [pv_turn['bspn'] + pv_turn['db'] + pv_turn['aspn'] + pv_turn['resp']]
 
             # prompt response, add sos_r
@@ -1850,13 +1851,13 @@ class dst_MultiWOZBPETextField(BPETextField):
         self.understand_ids = self.tokenizer.convert_tokens_to_ids(self.understand_tokens)
         self.policy_ids = self.tokenizer.convert_tokens_to_ids(self.policy_tokens)
 
-        test_list = [l.strip().lower() for l in open(
-            os.path.join(self.data_root, f'data/multiwoz{self.version}/testListFile.json'), 'r').readlines()]
+        # test_list = [l.strip().lower() for l in open(
+        #     os.path.join(self.data_root, f'data/multiwoz{self.version}/testListFile.json'), 'r').readlines()]
         dev_list = [l.strip().lower() for l in open(
             os.path.join(self.data_root, f'data/multiwoz{self.version}/valListFile.json'), 'r').readlines()]
         self.dev_files, self.test_files = {}, {}
-        for fn in test_list:
-            self.test_files[fn.replace('.json', '')] = 1
+        # for fn in test_list:
+        #     self.test_files[fn.replace('.json', '')] = 1
         for fn in dev_list:
             self.dev_files[fn.replace('.json', '')] = 1
 

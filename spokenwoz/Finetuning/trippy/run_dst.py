@@ -9,7 +9,7 @@ import random
 import logging
 import argparse
 import numpy as np
-from apex import amp
+# from apex import amp
 from model import DSTModel
 from tqdm import tqdm, trange
 from utils_dst import InputFeatures

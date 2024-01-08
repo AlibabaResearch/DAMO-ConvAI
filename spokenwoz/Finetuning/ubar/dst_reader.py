@@ -257,17 +257,15 @@ class MultiWozReader(_ReaderBase):
         if cfg.multi_acts_training:
             self.multi_acts = json.loads(open(cfg.multi_acts_path, 'r').read())
 
-        test_list = [l.strip().lower()
-                     for l in open(cfg.test_list, 'r').readlines()]
-        # print('test')
-        # print(test_list)
+        # test_list = [l.strip().lower()
+        #              for l in open(cfg.test_list, 'r').readlines()]
+
         dev_list = [l.strip().lower()
                     for l in open(cfg.dev_list, 'r').readlines()]
-        # print('dev')
-        # print(dev_list)
+
         self.dev_files, self.test_files = {}, {}
-        for fn in test_list:
-            self.test_files[fn.replace('.json', '')] = 1
+        # for fn in test_list:
+        #     self.test_files[fn.replace('.json', '')] = 1
         for fn in dev_list:
             self.dev_files[fn.replace('.json', '')] = 1
 

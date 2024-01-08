@@ -283,7 +283,7 @@ if __name__ == "__main__":
     key_slot_groundtruth = 'slot_groundtruth_%s'
     key_slot_prediction = 'slot_prediction_%s'
 
-    dataset_config = '/mnt/workspace/trippy/spokenwoz_noprofile.json'
+    dataset_config = '../data/config.json'
     class_types, slots, label_maps = load_dataset_config(dataset_config)
     log = []
     # Prepare label_maps

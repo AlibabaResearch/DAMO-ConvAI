@@ -4,9 +4,9 @@ from ontology import all_domains
 
 
 # 2.0
-data_path = 'data/multi-woz/'
-save_path = 'data/multi-woz-analysis/'
-save_path_exp = 'data/multi-woz-processed/'
+data_path = './data/multi-woz/'
+save_path = './data/multi-woz-analysis/'
+save_path_exp = './data/multi-woz-processed/'
 # 2.1
 # data_path = 'data/MultiWOZ_2.1/'
 # save_path = 'data/multi-woz-2.1-analysis/'

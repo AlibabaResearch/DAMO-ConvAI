@@ -41,8 +41,6 @@ ACTS_DICT = {'train-bookday': 'train-day',
              'booking-bookstay': 'booking-book stay',
              'booking-booktime': 'booking-book time'
              }
-# LABEL_MAPS = json.load(open('/mnt/workspace/trippy/spokenwoz_noprofile.json'))["label_maps"]  # Loaded from file
-
 
 # Loads the dialogue_acts.json and returns a list
 # of slot-value pairs.
@@ -51,10 +49,10 @@ def load_acts(input_file, data_indexs, slot_list):
     s_dict = {}
     for d in data_indexs:
         # print(d)
-        # try:
-        utterences = input_file[d]['log']
-        # except KeyError:
-        #     SKIP.append(d)
+        try:
+            utterences = input_file[d]['log']
+        except Exception as e:
+          print(d, e)
         for utt_id in range(1, len(utterences), 2):
             acts_list = utterences[utt_id]['dialog_act']
             for a in acts_list:
@@ -266,7 +264,11 @@ def create_examples(args, input_data, data_indexs, slot_list, label_maps, short=
     LABEL_MAPS, examples, samples, avg_len, utts = label_maps, [], 0, 0, 0
     audios = os.listdir(args.audio_path)
     for dialog_id in tqdm(data_indexs):
-        entry = input_data[dialog_id]
+        try:
+            entry = input_data[dialog_id]
+        except Exception as e:
+            print(e, dialog_id)
+            continue
         utterances = entry['log']
         cumulative_labels = {slot: 'none' for slot in slot_list}
 
@@ -291,10 +293,10 @@ def create_examples(args, input_data, data_indexs, slot_list, label_maps, short=
             speaker = 'sys' if is_sys_utt else 'usr'
             cur_aud = audio[start:utt['words'][-1]['EndTime'] * 16]
             # save = f'audio/{dialog_id}{turn_itr}-{speaker}.npy'
-            npy_dir = args.audio_path[:-1] + '_npy'
+            npy_dir = args.audio_path + '_npy'
             # save = f'{args.audio_path}_npy/{dialog_id}{turn_itr}-{speaker}.npy'
             save = f'{npy_dir}/{dialog_id}{turn_itr}-{speaker}.npy'
-            print(save)
+            # print(save)
             # save_path = f'{args.root}/{save}'
             
             if save_audio:
@@ -463,17 +465,14 @@ if __name__ == '__main__':
     parser.add_argument("--model_path")
     parser.add_argument("--text_path")
     args = parser.parse_args()
-    data = json.load(open(args.root + args.data_name))
-    dataset_config = json.load(open(args.root+'/spokenwoz.json'))
+    data = json.load(open(args.root + '/'+args.data_name))
+    dataset_config = json.load(open(args.root+'/config.json'))
     class_types, slot_list, label_maps = dataset_config['class_types'], dataset_config["slots"], dataset_config["label_maps"]
     LABEL_MAPS = label_maps
     label_value_repetitions, delexicalize_sys_utts = True, False
-
+    npy_dir = args.audio_path + '_npy'
+    os.makedirs(npy_dir, exist_ok=True)
     # avg = [] 
-    for split in ['test', 'val', 'train']:
-        if split == 'train':
-            data_indexs = json.load(open(f'{args.root}/{split}ListFile.json'))
-        else:
-            data_indexs = open(f'{args.root}/{split}ListFile.json').read().split('\n')
+    for split in ['train', 'val']:
+        data_indexs = open(f'{args.root}/{split}ListFile.json').read().split('\n')
         create_examples(args, data, data_indexs, slot_list, label_maps, save_audio=True)
-    # json.dump(avg, open(f'/mnt/workspace/trippy-public-master/{split}_avg.json', 'w'))

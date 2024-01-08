@@ -1,4 +1,4 @@
-python ./preprocess.py --test_path ./test.json --db_path ./db.xlsx --prefix gt
+python ./preprocess.py --test_path ./val.json --db_path ./db.xlsx --prefix gt
 python ./dst_convert.py --fin ./003_val_results.jsonl --fout ./003_val_results_convert.json
 
 # policy

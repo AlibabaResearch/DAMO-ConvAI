@@ -70,4 +70,4 @@ python -u run_gen.py \
   --max_len=1024 \
   --max_ctx_turn=20 \
   --token_loss=true \
-  --data_processed=data_for_space_encoded.data.json
+  --data_processed=valid_for_space_encoded.data.json

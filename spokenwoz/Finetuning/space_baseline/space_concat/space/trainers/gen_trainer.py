@@ -22,15 +22,10 @@ from space.data.data_loader import DataLoader
 from space.metrics.metrics_tracker import MetricsTracker
 from transformers import Wav2Vec2Processor
 
-
-    
-
 def compute_jacc(data,default_cleaning_flag=True,type2_cleaning_flag=False):
     num_turns = 0
     joint_acc = 0
-    joint_acc_wo_cross = 0
-    joint_acc_wo_wrong = 0
-    joint_acc_wo_namestr = 0
+
     error = {}
     clean_tokens = ['<|endoftext|>', ]
     dict_slot_acc_right = {}
@@ -90,64 +85,18 @@ def compute_jacc(data,default_cleaning_flag=True,type2_cleaning_flag=False):
                 for domain_slot in dict_slot_acc_right.keys():
                     dict_rate[domain_slot] = dict_slot_acc_right[domain_slot] / dict_slot_acc_all[domain_slot]
 
-            join_flag = False
-
-            turn_pred_wo_namestr = []
-            turn_target_wo_namestr = []
-            for item in turn_pred:
-                if 'namestr' not in item:
-                    turn_pred_wo_namestr.append(item)
-                else:
-                    pass
-            for item in turn_target:
-                if 'namestr' not in item:
-                    turn_target_wo_namestr.append(item)
-                else:
-                    pass
-            
-            if set(turn_target_wo_namestr) == set(turn_pred_wo_namestr):
-                joint_acc_wo_namestr += 1
-                join_flag = True
-            elif type2_cleaning_flag: # check for possible Type 2 noisy annotations
-                flag = True
-                for bs in turn_target_wo_namestr:
-                    if bs not in turn_pred_wo_namestr:
-                        flag = False
-                        break
-                if flag:
-                    for bs in turn_pred_wo_namestr:
-                        if bs not in turn_target_wo_namestr:
-                            flag = False
-                            break
-                if flag: # model prediction might be correct if found in Type 2 list of noisy annotations
-                    dial_name = dial.split('.')[0]
-                    if dial_name in IGNORE_TURNS_TYPE2 and turn_id in IGNORE_TURNS_TYPE2[dial_name]: # ignore these turns
-                        pass
-                    else:
-                        joint_acc_wo_namestr += 1
-
 
             join_flag = False
 
-
-
-            #卡掉莫名其妙的输出
             turn_pred_wo_wrong = []
             turn_target_wo_wrong  = []
-            for item in turn_pred:
-                if 'emma' not in item and 'jerry' not in item and 'namestr' not in item:
-                    turn_pred_wo_wrong.append(item)
-                else:
-                    pass
-            for item in turn_target:
-                if 'emma' not in item and 'jerry' not in item and 'namestr' not in item:
-                    turn_target_wo_wrong .append(item)
-                else:
-                    pass
-
+            for instance_pred, instance_target in zip(turn_pred,turn_target):
+                if 'emma' not in instance_pred and 'jerry' not in instance_pred and 'john' not in instance_pred and 'micheal' not in instance_pred and 'emma' not in instance_target and 'jerry' not in instance_target and 'john' not in instance_target and 'micheal' not in instance_target:
+                    turn_pred_wo_wrong.append(instance_pred)
+                    turn_target_wo_wrong.append(instance_target)
 
             if set(turn_target_wo_wrong) == set(turn_pred_wo_wrong):
-                joint_acc_wo_wrong += 1
+                joint_acc += 1
                 join_flag = True
             elif type2_cleaning_flag: # check for possible Type 2 noisy annotations
                 flag = True
@@ -165,80 +114,9 @@ def compute_jacc(data,default_cleaning_flag=True,type2_cleaning_flag=False):
                     if dial_name in IGNORE_TURNS_TYPE2 and turn_id in IGNORE_TURNS_TYPE2[dial_name]: # ignore these turns
                         pass
                     else:
-                        joint_acc_wo_wrong += 1
-
-
-
-
-            join_flag = False
-
-            turn_pred_wo_cross = []
-            turn_target_wo_cross = []
-            for item in turn_pred:
-                if '[profile]' not in item:
-                    turn_pred_wo_cross.append(item)
-                else:
-                    pass
-            for item in turn_target:
-                if '[profile]' not in item:
-                    turn_target_wo_cross.append(item)
-                else:
-                    pass
-
-            if set(turn_target_wo_cross) == set(turn_pred_wo_cross):
-                joint_acc_wo_cross += 1
-                join_flag = True
-            elif type2_cleaning_flag: # check for possible Type 2 noisy annotations
-                flag = True
-                for bs in turn_target_wo_cross:
-                    if bs not in turn_pred_wo_cross:
-                        flag = False
-                        break
-                if flag:
-                    for bs in turn_pred_wo_cross:
-                        if bs not in turn_target_wo_cross:
-                            flag = False
-                            break
-                if flag: # model prediction might be correct if found in Type 2 list of noisy annotations
-                    dial_name = dial.split('.')[0]
-                    if dial_name in IGNORE_TURNS_TYPE2 and turn_id in IGNORE_TURNS_TYPE2[dial_name]: # ignore these turns
-                        pass
-                    else:
-                        joint_acc_wo_cross += 1
-
-
-
-
-            join_flag = False
-            # print('turn_pred ',turn_pred)
-            # print('turn_target',turn_target)
-            # print('turn_pred_wo_cross',set(turn_pred_wo_cross))
-            # print('turn_target_wo_cross',set(turn_target_wo_cross))
-            # print('turn_pred ',set(turn_pred))
-            # print('turn_target',set(turn_target))
-            if set(turn_target) == set(turn_pred):
-                joint_acc += 1
-                join_flag = True
-            
-            elif type2_cleaning_flag: # check for possible Type 2 noisy annotations
-                flag = True
-                for bs in turn_target:
-                    if bs not in turn_pred:
-                        flag = False
-                        break
-                if flag:
-                    for bs in turn_pred:
-                        if bs not in turn_target:
-                            flag = False
-                            break
-
-                if flag: # model prediction might be correct if found in Type 2 list of noisy annotations
-                    dial_name = dial.split('.')[0]
-                    if dial_name in IGNORE_TURNS_TYPE2 and turn_id in IGNORE_TURNS_TYPE2[dial_name]: # ignore these turns
-                        pass
-                    else:
                         joint_acc += 1
-                        join_flag = True
+
+
             if not join_flag:
                 if file_name not in error:
                     error[file_name] = {}
@@ -248,18 +126,14 @@ def compute_jacc(data,default_cleaning_flag=True,type2_cleaning_flag=False):
                 
             num_turns += 1
 
+
     joint_acc /= num_turns
-    joint_acc_wo_cross /= num_turns
-    joint_acc_wo_namestr /= num_turns
-    joint_acc_wo_wrong /= num_turns
     print('joint accuracy: {}'.format(joint_acc))
-    print('joint accuracy_wo_cross: {}'.format(joint_acc_wo_cross))
-    print('joint accuracy_wo_namestr: {}'.format(joint_acc_wo_cross))
-    print('joint_acc_wo_wrong: {}'.format(joint_acc_wo_wrong))
     print('dict_rate: {}'.format(dict_rate))
     with open('bs_error.json',"w") as f:
         json.dump(error,f,indent=2)
-    return joint_acc, joint_acc_wo_cross, dict_rate
+    return joint_acc, dict_rate
+
 
 def get_logger(log_path, name="default"):
     logger = logging.getLogger(name)
@@ -645,7 +519,6 @@ class MultiWOZTrainer(Trainer):
                     usr_audio.append(np.load(audio_dir))
                     
                     transcripts.append(self.transcripts[dial_id]['log'][int(turn_id)*2])
-                    #usr_audio.append(np.load(f'/mnt/mingz/mingz/spokenwoz/data/audio/{dial_id}{turn_id}-usr.npy'))
                 usr_audio = self.processor(usr_audio, sampling_rate=16000, padding=True, return_attention_mask=True,
                 return_tensors="pt")
                 # print(batch)
@@ -767,7 +640,7 @@ class MultiWOZTrainer(Trainer):
                         usr_audio = []
                         dial_id, turn_id = turn['dial_id'], turn['turn_num']
                         dial_id = dial_id[:3].upper() + dial_id[3:]
-                        usr_audio.append(np.load(f'/data/nt12_hdd_gluster/myself/space3/space/data/audio/{dial_id}{turn_id}-usr.npy'))
+                        usr_audio.append(np.load(f'../../audio/audio_5700_train_dev_npy/{dial_id}{turn_id}-usr.npy'))
                         transcripts = [self.transcripts[dial_id]['log'][int(turn_id)*2]]
                         usr_audio = self.processor(usr_audio, sampling_rate=16000, padding=True, return_attention_mask=True,return_tensors="pt")
                         outputs = self.func_model.infer(inputs=batch, start_id=prompt_id,audios=usr_audio,transcripts=transcripts,tokenizer=self.tokenizer,eos_id=self.reader.eos_r_id, max_gen_len=max_len)
@@ -923,8 +796,7 @@ class MultiWOZTrainer(Trainer):
                         usr_audio = []
                         dial_id, turn_id = turn['dial_id'], turn['turn_num']
                         dial_id = dial_id[:3].upper() + dial_id[3:]
-                        usr_audio.append(np.load(f'/data/nt12_hdd_gluster/myself/space3/space/data/audio/{dial_id}{turn_id}-usr.npy'))
-                        #usr_audio.append(np.load(f'/mnt/mingz/mingz/spokenwoz/data/audio/{dial_id}{turn_id}-usr.npy'))
+                        usr_audio.append(np.load(f'../../audio/audio_5700_train_dev_npy/{dial_id}{turn_id}-usr.npy'))
                         transcripts = [self.transcripts[dial_id]['log'][int(turn_id)*2]]
                         usr_audio = self.processor(usr_audio, sampling_rate=16000, padding=True, return_attention_mask=True,
                                     return_tensors="pt")
@@ -1036,24 +908,22 @@ class MultiWOZTrainer(Trainer):
                 results, _ = self.reader.wrap_result_lm(tmp_dialog_result)
 
         #compute JGA for dst
-        joint_acc, joint_acc_wo_cross, dict_rate = compute_jacc(data=model_output)
+        joint_acc, dict_rate = compute_jacc(data=model_output)
         
         # compute scores
 
         # log results
         metrics_message = 'joint_acc,: %2.2f' %\
                           (joint_acc)
-        metrics_message_plus = 'joint_acc_wo_cross,: %2.2f' %\
-                          (joint_acc_wo_cross)
+
         message_prefix = f"[Infer][{self.epoch}]"
         time_cost = f"TIME-{time.time() - begin_time:.3f}"
-        message = "   ".join([message_prefix, metrics_message, metrics_message_plus, time_cost])
+        message = "   ".join([message_prefix, metrics_message, time_cost])
         self.logger.info(message)
 
         # save results
         eval_results = {
             'joint_acc': joint_acc,
-            'joint_acc_wo_cross': joint_acc_wo_cross,
             'result': message
         }
         with open(infer_save_file, "w") as fp:

@@ -158,6 +158,4 @@ if __name__ == "__main__":
     # parser.add_argument('--type2_cleaning', action='store_true',
     #                     help='use type 2 cleaning, refer to [https://arxiv.org/abs/2005.00796]')
     # args = parser.parse_args()
-    data = json.load(open("experiments/all_0813nodelex2.0_sd11_lr5e-05_bs2_ga12/epoch48_trloss0.65_gpt2/model_output_e2e_FTFTV2BS.json", 'r'))
-
-    compute_jacc(data,"/data/lyh/MultiWOZ/SimpleTOD/experiments/all_with_nodelex_resp2.1_sd11_lr0.0001_bs2_ga16/epoch36_trloss0.62_gpt2/")
+   pass
