@@ -12,14 +12,18 @@
                                                               </pre>
 
 ## 🔥 News
-
-- [**2022-11-14**]: 🏆 Achieved the 1st rank on DSTC11-SIMMC track !
-- [**2022-10-06**]: Ten paper has been accepted by EMNLP 2022 !
-- [**2022-05-19**]: Two paper has been accepted by KDD 2022.
-- [**2022-07-01**]: `SPACE 3.0` has been accepted by SIGIR 2022.
-- [**2022-02-28**]: [`S²SQL`](https://aclanthology.org/2022.findings-acl.99/) has been accepted by ACL 2022, and it achieves the first rank on the [Spider](https://yale-lily.github.io/spider) leaderboard !
-- [**2021-11-11**]: `SPACE 1.0` has been accepted by AAAI 2022.
-- [**2020-11-11**]: [`R²SQL`](https://arxiv.org/abs/2101.01686) has been accepted by AAAI 2021, and it achieves the first rank on the [SparC](https://yale-lily.github.io/sparc) and [CoSQL](https://yale-lily.github.io/cosql) leaderboard !
+- [**2024-02**]: 5 papers are accepted by LREC-COLING 2024 ！
+- [**2023-10**]: 7 papers are accepted by EMNLP 2023 ！
+- [**2023-09**]: BIRD-SQL is accepted by NeurIPS 2023 Spotlight ！
+- [**2023-08**]: SigDial 2023 DSTC11 workshop BEST PAPER ！
+- [**2023-05**]: 9 papers are accepted by ACL 2023 ！
+- [**2022-11**]: 🏆 Achieved the 1st rank on DSTC11-SIMMC track !
+- [**2022-10**]: Ten paper has been accepted by EMNLP 2022 !
+- [**2022-05**]: Two paper has been accepted by KDD 2022.
+- [**2022-07**]: `SPACE 3.0` has been accepted by SIGIR 2022.
+- [**2022-02**]: [`S²SQL`](https://aclanthology.org/2022.findings-acl.99/) has been accepted by ACL 2022, and it achieves the first rank on the [Spider](https://yale-lily.github.io/spider) leaderboard !
+- [**2021-11**]: `SPACE 1.0` has been accepted by AAAI 2022.
+- [**2020-11**]: [`R²SQL`](https://arxiv.org/abs/2101.01686) has been accepted by AAAI 2021, and it achieves the first rank on the [SparC](https://yale-lily.github.io/sparc) and [CoSQL](https://yale-lily.github.io/cosql) leaderboard !
 
 ## 📝 License
 
