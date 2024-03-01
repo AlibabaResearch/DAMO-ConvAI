@@ -61,13 +61,11 @@ python merge_result.py --ngpu $n_gpu --data_name $data_name --num_doc $num_doc
 ## Citation
 Feel free to cite us if you like our work.
 ```bibtex
-@article{Chen2023FortifyTS,
+@article{chen2023fortify,
   title={Fortify the Shortest Stave in Attention: Enhancing Context Awareness of Large Language Models for Effective Tool Use},
-  author={Yuhan Chen and Ang Lv and Ting-En Lin and Chang Heng Chen and Yuchuan Wu and Fei Huang and Yongbin Li and Rui Yan},
-  journal={ArXiv},
-  year={2023},
-  volume={abs/2312.04455},
-  url={https://api.semanticscholar.org/CorpusID:266053571}
+  author={Chen, Yuhan and Lv, Ang and Lin, Ting-En and Chen, Changyu and Wu, Yuchuan and Huang, Fei and Li, Yongbin and Yan, Rui},
+  journal={arXiv preprint arXiv:2312.04455},
+  year={2023}
 }
 ```
 
