@@ -12,7 +12,7 @@ To pretrain our model from scratch, please first download our processed pretrain
 Then, download pre-trained WavLM and RoBERTa models from huggingface.co (optional), and run `scripts/train-960.sh`
 
 #### PT dataset description
-The `transForV4.pkl` file includes a dataset of 358,268 audio-text pairs, each less than 10 seconds in duration, complete with precise timestamp alignment details. Here's what an example entry looks like:
+The `transForV4.pkl` (in `spotify.tgz`) includes a dataset of 358,268 audio-text pairs, each less than 10 seconds in duration, complete with precise timestamp alignment details. Here's what an example entry looks like:
 
 ```
 ['/<directory>/spotify-960/0/0/show_002B8PbILr169CdsS9ySTH/0.npy',
