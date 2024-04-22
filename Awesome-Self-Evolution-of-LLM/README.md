@@ -1,6 +1,10 @@
 <h1 align="center"> 🤖 Awesome Self-Evolution of Large Language Models  </h1>
 
 This is the reading list for the survey "A Survey on Self-Evolution of Large Language Models" maintained by Alibaba Group, Tongyi Laboratory, Conversation AI. We will keep adding papers and improving the list. Any suggestions and PRs are welcome!
+<p align="center">
+    <img src="https://github.com/AlibabaResearch/DAMO-ConvAI/blob/main/Awesome-Self-Evolution-of-LLM/imgs/intro.jpeg?raw=true" width="800"> <br>
+    Training paradigms shift of LLMs.
+</p>
 
 We present a comprehensive survey of self-evolution approaches in LLMs. We first propose a conceptual framework for self-evolution and outline the evolving process as iterative cycles composed of four phases: experience acquisition, experience refinement, updating, and evaluation. 
 <p align="center">
