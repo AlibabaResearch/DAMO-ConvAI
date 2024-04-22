@@ -4,7 +4,7 @@ This is the reading list for the survey "A Survey on Self-Evolution of Large Lan
 
 We present a comprehensive survey of self-evolution approaches in LLMs. We first propose a conceptual framework for self-evolution and outline the evolving process as iterative cycles composed of four phases: experience acquisition, experience refinement, updating, and evaluation. 
 <p align="center">
-    <img src="./imgs/overview.jpg" width="800">
+    <img src="https://github.com/AlibabaResearch/DAMO-ConvAI/blob/main/Awesome-Self-Evolution-of-LLM/imgs/overview.jpeg?raw=true" width="800">
 </p>
 
 The above is the proposed conceptual framework of self-evolution. For the $t^{th}$ iteration:
