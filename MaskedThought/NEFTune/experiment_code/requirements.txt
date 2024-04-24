@@ -1,0 +1,14 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.0.1+cu118
+torchvision==0.15.2+cu118
+torchaudio 
+datasets==2.12.0
+transformers==4.30.1
+sentencepiece==0.1.99
+protobuf==3.20.0
+accelerate==0.20.3
+shortuuid
+wandb
+lion-pytorch
+openai==0.27.8
+git+https://github.com/tatsu-lab/alpaca_eval.git

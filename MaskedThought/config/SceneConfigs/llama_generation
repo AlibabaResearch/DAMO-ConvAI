@@ -1,0 +1,16 @@
+--train_header data_src,data_gt,data_kd
+--train_model_header llama_s2s_tokenize:data_src:data_gt:input,data_src,data_gt,data_kd
+--eval_header data_src,data_gt,data_kd
+--eval_model_header llama_s2s_tokenize:data_src:data_gt:input,data_src,data_gt,data_kd
+--train_dir static_data/cnndm/cnndm_train.tsv \
+--eval_dir static_data/cnndm/cnndm_valid.tsv \
+--eval_metrics bleu
+--predict_header data_src,data_gt
+--predict_model_header llama_s2s_tokenize:data_src:input,data_src,data_gt
+--result_header data_src,data_gt
+--output_type llama_generation
+--task seq2seq
+--tok_max_length 1024
+--save_steps 10000000
+--model decapoda-research/llama-7b-hf
+bo
