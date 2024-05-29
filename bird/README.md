@@ -10,14 +10,14 @@
 <p>
 
 
-[![License](https://img.shields.io/badge/License-CC%20By%20NC%204.0-orange.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![License](https://img.shields.io/badge/License-CC%20BY%20SA%204.0-orange.svg)](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 [![Data Link](https://img.shields.io/badge/Download-BIRD-green.svg)](https://bird-bench.github.io/)
 [![Python 3.7+](https://img.shields.io/badge/Python-3.7+-teal.svg)](https://www.python.org/downloads/release/python-390/)
 [![Pytorch 1.8+](https://img.shields.io/badge/Pytorch-1.8+-red.svg)](https://pytorch.org/blog/pytorch-1.8-released/)
 [![Leaderboard 1.8+](https://img.shields.io/badge/Leaderboard-2023-pink.svg)](https://bird-bench.github.io/)
 [![OpenAI 0.27+](https://img.shields.io/badge/OpenAI-0.27+-beige.svg)](https://www.python.org/downloads/release/python-390/)
 
-**License Notation**: BIRD-SQL is constructed and distributed for academic use instead of commercial use. For non-academic purpose of this data, please contact bird.bench23@gmail.com. \
+**License Notation**: Due to large volume of requests, now we change the license to <code>CC BY-SA 4.0</code>.
 
 <p align="center" width="100%">
 <a><img src="materials/intro.png" style="width: 100%; min-width: 300px; display: block; margin: auto;"></a>
