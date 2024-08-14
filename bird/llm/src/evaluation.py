@@ -13,6 +13,8 @@ def load_json(dir):
 def result_callback(result):
     exec_result.append(result)
 
+def sort_tuple(t):
+    return tuple(sorted(t, key=lambda x: str(x)))
 
 def execute_sql(predicted_sql,ground_truth, db_path):
     conn = sqlite3.connect(db_path)
@@ -22,6 +24,11 @@ def execute_sql(predicted_sql,ground_truth, db_path):
     predicted_res = cursor.fetchall()
     cursor.execute(ground_truth)
     ground_truth_res = cursor.fetchall()
+
+    # sort the results to allow fair comparison
+    predicted_res = [sort_tuple(t) for t in predicted_res]
+    ground_truth_res = [sort_tuple(t) for t in ground_truth_res]
+
     res = 0
     if set(predicted_res) == set(ground_truth_res):
         res = 1
