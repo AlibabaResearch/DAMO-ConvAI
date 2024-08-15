@@ -34,8 +34,6 @@ def execute_sql(predicted_sql,ground_truth, db_path):
         res = 1
     return res
 
-
-
 def execute_model(predicted_sql,ground_truth, db_place, idx, meta_time_out):
     try:
         res = func_timeout(meta_time_out, execute_sql,
