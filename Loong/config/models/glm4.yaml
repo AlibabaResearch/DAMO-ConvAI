@@ -1,0 +1,7 @@
+type: "vllm"
+args:
+  api_name: "glm4-9b-1m"
+  api_key: "EMPTY"
+  api_url: "http://localhost:8000/v1"
+run_args:
+  temperature: 0.0
