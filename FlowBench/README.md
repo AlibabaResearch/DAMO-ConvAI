@@ -3,9 +3,10 @@
 <div align="center">
 <h1 align="center"> 🌊 FlowBench 🌊</h1>
 <b>FlowBench: Revisiting and Benchmarking Workflow-Guided Planning for LLM-based Agents</b>
+
 <p align="center"><font size=6>📃</font> <a target="_self" href="https://arxiv.org/abs/2406.14884"> <img style="height:14pt" src="https://img.shields.io/badge/-Paper-red?style=flat&logo=arxiv"></a> <font size=6>•</font> <font size=6>🔔</font> <a target="_self" href="https://github.com/Justherozen/FlowBench"> <img style="height:14pt" src="https://img.shields.io/badge/-Code-pink?style=flat&logo=github"></a></p>
 
-
+</div>
 
 
 ## Overview
@@ -46,17 +47,17 @@ Set up your OPENAI key in ./utils/keys.json
 api_key: "Your OPENAI key"
 ```
 
-After that, you can conduct the turn-level and session-level evaluations 
+After that, you can conduct the turn-level and session-level evaluations. 
 
 ##### Turn-level evaluation
 
-- To generate the singele-turn predictions for different test samples, please run
+- To generate the single-turn predictions for different test samples, please run
 
 ```
 python ./turn_level/turn_inference.py --input_path INPUT_FOLDER --output_path OUTPUT_FOLDER
 ```
 
-* Then you can calculate and display the evaluation metrics with the following commands.
+* Then you can calculate and display the evaluation metrics with the following commands, where `OUTPUT_FOLDER`  is the output  path of the last generation step.
 
 ```
  python ./turn_level/turn_metric_display.py --output_path OUTPUT_FOLDER
@@ -66,13 +67,13 @@ python ./turn_level/turn_inference.py --input_path INPUT_FOLDER --output_path OU
 
 ##### Session-level evaluation
 
-- To simulate the predicted sessions, use the following commands
+- To simulate the predicted sessions, use the following commands with simulate mode, where `INPUT_PATH`, `OUTPUT_PATH`, and `EVAL_PATH` indicate the paths for test input, simulation generation, and simulation evaluation results, respectively.
 
 ```
 python ./session_level/session_simulate.py --mode simulate --input_path INPUT_PATH --output_path OUTPUT_PATH --eval_path EVAL_PATH 
 ```
 
-* After session simulation, you can calculate and save the evaluation metrics as follows.
+* After session simulation, you can calculate and save the evaluation metrics using the eval mode as follows.
 
 ```
 python ./session_level/session_simulate.py --mode eval --input_path INPUT_PATH --output_path OUTPUT_PATH --eval_path EVAL_PATH 
