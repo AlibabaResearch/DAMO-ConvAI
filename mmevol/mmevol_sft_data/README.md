@@ -12,7 +12,7 @@ We are continuously refactoring our code, be patient and wait for the latest upd
 ## 🔗 Links
 - Project Web: https://mmevol.github.io/
 - Arxiv: https://arxiv.org/pdf/2409.05840
-- Dataset Download: https://huggingface.co/datasets/Tongyi-ConvAI/MMEvol/tree/main
+- Dataset: https://huggingface.co/datasets/Tongyi-ConvAI/MMEvol/tree/main
 
 ## 🧪 Dataset Details
 
@@ -29,7 +29,7 @@ Below we showcase the detailed data distribution of the SEED-163K, which is prep
 
 ## Usage
 We provide the example data for mmevol, which can be get with following steps:
-1. Download [data.zip](http://alibaba-research.oss-cn-beijing.aliyuncs.com/mmevol/datasets.zip) and unzip it.
+1. Download example [data.zip](http://alibaba-research.oss-cn-beijing.aliyuncs.com/mmevol/datasets.zip) and unzip it.
 2. Place the unzipped data folder in the `mmevol_sft_data` directory of the project.
 
 
