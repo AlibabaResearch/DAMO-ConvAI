@@ -11,7 +11,7 @@
 
 ## Overview
 
-This repository contains the source data and code for our EMNLP 2024 paper [FlowBench: Revisiting and Benchmarking Workflow-Guided Planning for LLM-based Agents](https://arxiv.org/abs/2406.14884).  We propose a comprehensive benchmark, FlowBench, for workflow-guided agent planning. We first revisit and formalize different workflow knowledge formats for agent planning. FlowBench covers an extensive taxonomy (6 domains, 22 roles, 51 scenarios) and different knowledge formats (text, code, flowchart) to synchronize with real-world applications comprehensively. The benchmark data is constructed through a three-phase pipeline of task collection, workflow organization, and session generation. FlowBench features numerous distinct characteristics, such as coverage, difficulty, expertlevel annotation, and support for multi-round useragent interaction. Through extensive experiments on FlowBench, we find that even the best-performing model, GPT4o, fails to deliver satisfying results on challenging FlowBench. We hope that our work can provide meaningful insights to future research in the field of workflow-guided agent planning. An overview of our proposed FlowBench can be seen as follows:
+This repository contains the source data and code for our EMNLP 2024 paper [FlowBench: Revisiting and Benchmarking Workflow-Guided Planning for LLM-based Agents](https://arxiv.org/abs/2406.14884).  We propose a comprehensive benchmark, FlowBench, for workflow-guided agent planning. We first revisit and formalize different workflow knowledge formats for agent planning. FlowBench covers an extensive taxonomy (6 domains, 22 roles, 51 scenarios) and different knowledge formats (text, code, flowchart) to synchronize with real-world applications comprehensively. The benchmark data is constructed through a three-phase pipeline of task collection, workflow organization, and session generation. FlowBench features numerous distinct characteristics, such as coverage, difficulty, expert-level annotation, and support for multi-round user-agent interaction. Through extensive experiments on FlowBench, we find that even the best-performing model, GPT4o, fails to deliver satisfying results on challenging FlowBench. We hope that our work can provide meaningful insights to future research in the field of workflow-guided agent planning. An overview of our proposed FlowBench can be seen as follows:
 
 ![overview of flowbench](./resources/flowbench.png)
 
@@ -25,7 +25,7 @@ This repository contains the source data and code for our EMNLP 2024 paper [Flow
 
 ### Dataset Introduction
 
-Download `turn_data.zip` and `session_data.zip` from [Google Drive](https://drive.google.com/drive/folders/1PFzA5e-fuKpVZvAHP-otBhWPdU60O3d4?usp=sharing). After extracting, you will get two folders: `turn_data` and `session_data`. Move these two folders into the `data` directory. There two folders contains the benchmark data on the session-level and turn-level. All workflow knowledge with different formats has been organized into the `knowledge.json`.
+Download `turn_data.zip` and `session_data.zip` from [Google Drive](https://drive.google.com/drive/folders/1PFzA5e-fuKpVZvAHP-otBhWPdU60O3d4?usp=sharing). After extracting, you will get two folders: `turn_data` and `session_data`. Move these two folders into the `data` directory. These two folders contain the benchmark data on the session-level and turn-level. All workflow knowledge with different formats has been organized into the `knowledge.json`.
 
 
 
@@ -79,7 +79,7 @@ python ./session_level/session_simulate.py --mode simulate --input_path INPUT_PA
 python ./session_level/session_simulate.py --mode eval --input_path INPUT_PATH --output_path OUTPUT_PATH --eval_path EVAL_PATH 
 ```
 
-* Finally, you can display the evaluation metrics for each scenario and optionally save them to excel file.
+* Finally, you can display the evaluation metrics for each scenario and optionally save them to the Excel file.
 ```
 python ./session_level/session_metric_display.py --eval_path EVAL_PATH
 ```
@@ -91,7 +91,7 @@ You can specify the LLM used for generation, the LLM used as a judge, and the LL
 
 ##### Future plans
 
-We will keep refining our benchmark quality and our evaluation framework as part of our future initiatives!
+Apart from the scenarios presented in the paper, we will incorporate more additional scenarios. We will also keep refining our benchmark quality and our evaluation framework as part of our future initiatives!
 
 
 
