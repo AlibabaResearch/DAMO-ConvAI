@@ -1,0 +1,12 @@
+{
+  "trace_iopo": {
+    "file_name": "trace.json",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  }
+}
