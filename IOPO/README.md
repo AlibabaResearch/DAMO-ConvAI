@@ -13,7 +13,7 @@ In the realm of large language models (LLMs), the ability of models to accuratel
 ## TRACE Benchmark
 TRACE consists of 119,345 instructions for model training, and 1,042 instructions for evaluation, where the minimum and maximum number of constraints per instruction are 1 and 15, with average numbers of 4.36 and 4.89, respectively.
 
-![Benchmark](figs/trace_test_constraint_type.png)
+![Benchmark](figs/trace_test_constraint_type.png#pic_center =50x50)
 
 ## How to Run
 ```
