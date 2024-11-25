@@ -215,7 +215,7 @@ def evaluator_map(path,source):
 
     data_file = []
 
-    with open('/mnt/workspace/lr/datasets/checkpoints/zwq2018/Multi-modal-Self-instruct/test/maze/test_3k.jsonl', 'r') as f:
+    with open('checkpoints/zwq2018/Multi-modal-Self-instruct/test/maze/test_3k.jsonl', 'r') as f:
         for line in f:
             data_file.append(json.loads(line))
 
@@ -257,14 +257,7 @@ def evaluator_map(path,source):
     return ok_res, bad_res, score / len(eval_file) * 100
 
 
-# base_answer_dir="/mnt/workspace/lr/datasets/checkpoints/zwq2018/Multi-modal-Self-instruct/eval"
-# answer_files=[os.path.join(base_answer_dir,i) for i in ['chart.jsonl',
-#     'dashboard.jsonl','flowchart.jsonl','iq.jsonl','layout.jsonl',
-#     'maze.jsonl','org.jsonl','table.jsonl']]
-
-# answer_files="/mnt/workspace/lr/workspace/MiniCPM-V/mminst_prediction.jsonl"
-answer_files="/mnt/workspace/lr/answers/vila_1.5_13b_mminst_prediction.jsonl"
-# answer_files="/mnt/workspace/lr/answers/llava_llama3_evol_mminst_predition.jsonl"
+answer_files="answers/vila_1.5_13b_mminst_prediction.jsonl"
 
 sources=["chart","dashboard","flowchart","iq","layout","maze","org","table"]
 
@@ -308,6 +301,3 @@ _,_,a=evaluator_map(answer_files,sources[5])
 a_sum+=a
 
 print(a_sum/8)
-
-# Evaluate 1 scenario: simulated maps
-# evaluator_map('./xxx.json')

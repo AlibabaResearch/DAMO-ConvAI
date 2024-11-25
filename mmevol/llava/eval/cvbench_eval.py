@@ -1,7 +1,11 @@
 import os
+import pandas as pd
 import json
+from tqdm import tqdm
 import requests
 import time
+from io import BytesIO
+import urllib
 import numpy as np
 from uuid import uuid4
 import base64
@@ -46,8 +50,13 @@ def prepare_inputs(inputs):
     return input_msgs
 
 def make_request(meta):
-    api_base = "http://47.88.8.18:8088/api/ask"
-    key = ""
+
+    api_base=""
+    key=""
+
+    assert len(api_base)>0 and len(key)>0, "make sure tha both api_base and key are configured correctly"
+
+    # gpt_model="gpt-4o-2024-05-13"
     gpt_model = "gpt-4o-mini"
 
     source, question =  meta
@@ -92,12 +101,8 @@ def make_request(meta):
 
     # if yes_no_regex.match(answer):
     return (source, answer.lower())
-    # else:
-    #     return "Could not determine yes or no."
         
-# answer_file="/mnt/workspace/lr/datasets/checkpoints/nyu-visionx/CV-Bench/prediction.json"
-answer_file="/mnt/workspace/lr/answers/llava_qwen_cvbench_predition.json"
-# answer_file="/mnt/workspace/lr/workspace/MiniCPM-V/cvbench_prediction.json"
+answer_file="llava_qwen_cvbench_predition.json"
 
 data=[json.loads(i) for i in open(answer_file,'r')]
 
@@ -106,7 +111,7 @@ data=[(i['source'],f"Given the following question {i['prompt']}, the correct ans
 with Pool(processes=50) as pool:
     output = list(tqdm(pool.imap(make_request, data), total=len(data)))
 
-print(output)
+# print(output)
 
 num_correct_2d_ade, num_total_2d_ade = 0, 0
 num_correct_2d_coco, num_total_2d_coco = 0, 0
@@ -132,14 +137,3 @@ for (source, gpt_grade) in output:
 combined_accuracy=num_correct_2d_coco/num_total_2d_coco/4+num_correct_2d_ade/num_total_2d_ade/4+num_correct_3d/num_total_3d/2
 # Print the results
 print(f"CV-Bench Accuracy: {combined_accuracy:.4f}")
-
-
-    # if index == 2:
-    #     index = 0
-    #     if round_correct == 2:
-    #         num_correct += 1
-    #     round_correct = 0
-
-    #     num_total += 1
-
-# print(f"The accuracy is {num_correct/num_total}")

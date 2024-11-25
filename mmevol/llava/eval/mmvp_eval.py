@@ -50,9 +50,13 @@ def prepare_inputs(inputs):
     return input_msgs
 
 def make_request(meta):
-    api_base = "http://47.88.8.18:8088/api/ask"
-    key = ""
-    gpt_model = "gpt-4o-2024-05-13"
+
+    api_base=""
+    key=""
+    assert len(api_base)>0 and len(key)>0, "make sure tha both api_base and key are configured correctly"
+
+    gpt_model="gpt-4o-2024-05-13"
+    # gpt_model = "gpt-4o-mini"
 
     idx, question =  meta
     generated = False
@@ -94,16 +98,10 @@ def make_request(meta):
 
     # if yes_no_regex.match(answer):
     return answer.lower()
-    # else:
-    #     return "Could not determine yes or no."
-        
-# answer_file="/mnt/workspace/lr/datasets/checkpoints/MMVP/MMVP/baseline_answer.json"
-# answer_file="/mnt/workspace/lr/answers/llava_qwen_mmvp_predition.json"
 
-answer_file="/mnt/workspace/lr/workspace/OmniBench/dataset/llave_her.jsonl"
+answer_file=""
 
 data=[json.loads(i) for i in open(answer_file,'r')]
-
 
 
 data=[(idx,f"Given the following question {i['prompt']}, the correct answer is {i['answer']}. Does the following answer correctly answers the question, answer:{i['text']}? Please answer yes or no in a single word") for idx,i in enumerate(data)]

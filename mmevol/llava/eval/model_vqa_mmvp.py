@@ -2,8 +2,6 @@ import argparse
 import json
 import math
 import os
-import sys
-sys.path.append("/mnt/workspace/lr/workspace/Open-LLaVA-NeXT/")
 
 import shortuuid
 import torch
@@ -112,12 +110,12 @@ def eval_model(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="/mnt/workspace/lr/workspace/Open-LLaVA-NeXT/checkpoints/llava-v1.6-7b_qwen-7b_clip-large-336_debug_ablation_sft_evol/checkpoint-14000")
+    parser.add_argument("--model-path", type=str, default="mmevol/checkpoints/llava-v1.6-7b_qwen-7b_clip-large-336_debug_ablation_sft_evol/checkpoint-14000")
     parser.add_argument("--model-base", type=str, default=None)
-    parser.add_argument("--image-folder", type=str, default="/mnt/workspace/lr/datasets/checkpoints/MMVP/MMVP")
+    parser.add_argument("--image-folder", type=str, default="datasets/MMVP/MMVP")
     parser.add_argument("--question-file", type=str,
-                        default="/mnt/workspace/lr/datasets/checkpoints/MMVP/MMVP/question.json")
-    parser.add_argument("--answers-file", type=str, default="/mnt/workspace/lr/answers/llava_qwen_mmvp_predition.json")
+                        default="datasets/MMVP/MMVP/question.json")
+    parser.add_argument("--answers-file", type=str, default="answers/llava_qwen_mmvp_predition.json")
    # parser.add_argument("--conv-mode", type=str, default="llava_llama_3")
     parser.add_argument("--conv-mode", type=str, default="qwen_2")
     parser.add_argument("--num-chunks", type=int, default=1)

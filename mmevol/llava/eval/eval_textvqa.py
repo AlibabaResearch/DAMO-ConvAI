@@ -2,16 +2,14 @@ import os
 import argparse
 import json
 import re
-import sys
-sys.path.append("/mnt/workspace/lr/workspace/Open-LLaVA-NeXT/")
 
 from llava.eval.m4c_evaluator import TextVQAAccuracyEvaluator
 
 
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--annotation-file', type=str,default="/mnt/workspace/lr/datasets/textvqa/TextVQA_0.5.1_val.json")
-    parser.add_argument('--result-file', type=str,default="/mnt/workspace/lr/answers/qwen2_evol_textvqa_prediction.jsonl")
+    parser.add_argument('--annotation-file', type=str,default="datasets/textvqa/TextVQA_0.5.1_val.json")
+    parser.add_argument('--result-file', type=str,default="answers/qwen2_evol_textvqa_prediction.jsonl")
     parser.add_argument('--result-dir', type=str)
     return parser.parse_args()
 

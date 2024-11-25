@@ -1,11 +1,9 @@
-import sys
-import os
-# Add the parent directory to sys.path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-import re
 import json
+import os
 import os.path as osp
+import re
 from tqdm import tqdm
+import shutil
 import multiprocessing
 
 # 匹配[]，删除额外的文字
@@ -64,6 +62,7 @@ def prefix_del(path, path_corrected):
 
             content = re.sub(r'.*```json', '', content, flags=re.DOTALL)
             content = re.sub(r'```.*', '', content, flags=re.DOTALL)
+            # cleaned_content = content.replace("```json", "").replace("```", "").strip()
 
             # 移除 [ 前的英文字母和换行，以及 ] 后的英文字母和换行
             # 去除开头多余的字母和换行符
@@ -262,9 +261,13 @@ def func_4_qa(path, data_path, data_path_corrected, round_n=None):
     # print("Correct ratio: {:.8f}".format(correct_sample / len(os.listdir(data_path_corrected))))
 
 if __name__ == '__main__':
-    path = "dataset/evolution/multi_round_single_imgs_1k_mini/round1"
+    
+    # path = "/mnt/workspace/workgroup/haonan/evolution-code/evolution/single_imgs/multi_round_v1_single_imgs_persona_top50_gpt4o_mini/round1"
+    path = "/mnt/workspace/workgroup/haonan/evolution-code/evolution/single_imgs/multi_round_v1_single_imgs_science_30k_mini/round1"
     data_path = osp.join(path, "gen_qa")
     data_path_corrected = osp.join(path, "gen_qa_corrected")
+    # data_path = osp.join(path, "ini_object_v1_single_img_153k")
+    # data_path_corrected = osp.join(path, "ini_object_v1_single_img_153k_corrected")
 
     files = os.listdir(data_path)
 

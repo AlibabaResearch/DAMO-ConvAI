@@ -2,8 +2,6 @@ import argparse
 import json
 import math
 import os
-import sys
-sys.path.append("/mnt/workspace/lr/workspace/Open-LLaVA-NeXT/")
 
 import argparse
 import json
@@ -97,7 +95,7 @@ def eval_model(mate):
     # print(mate)
     # os.environ['CUDA_VISIBLE_DEVICES']=str(idx%args.n_gpus)
     # args.chunk_idx=idx
-    # args.answers_file=f"/mnt/workspace/lr/datasets/playground/playground/data/eval/gqa/answer_{idx}.jsonl"
+    # args.answers_file=f"datasets/playground/playground/data/eval/gqa/answer_{idx}.jsonl"
     disable_torch_init()
     model_path = os.path.expanduser(args.model_path)
     model_name = get_model_name_from_path(model_path)
@@ -189,12 +187,12 @@ from tqdm import tqdm
 if __name__ == "__main__":
     # multiprocessing.set_start_method('spawn')
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="/mnt/workspace/lr/workspace/Open-LLaVA-NeXT/checkpoints/llava-v1.6-8b_llama3-8b_clip-large-336_debug_ablation_sft_seed/checkpoint-11213")
+    parser.add_argument("--model-path", type=str, default="mmevol/checkpoints/llava-v1.6-8b_llama3-8b_clip-large-336_debug_ablation_sft_seed/checkpoint-11213")
     parser.add_argument("--model-base", type=str, default=None)
-    parser.add_argument("--image-folder", type=str, default="/mnt/workspace/lr/datasets/coco/test2015")
+    parser.add_argument("--image-folder", type=str, default="datasets/coco/test2015")
     parser.add_argument("--question-file", type=str,
-                        default="/mnt/workspace/lr/datasets/playground/playground/data/eval/vqav2/share4v_vqav2_mscoco_test-dev2015.jsonl")
-    parser.add_argument("--answers-file", type=str, default="/mnt/workspace/lr/workspace/MiniCPM-V/vqa_v2.jsonl")
+                        default="datasets/playground/playground/data/eval/vqav2/share4v_vqav2_mscoco_test-dev2015.jsonl")
+    parser.add_argument("--answers-file", type=str, default="vqa_v2.jsonl")
     # parser.add_argument("--conv-mode", type=str, default="qwen_2")
     parser.add_argument("--conv-mode", type=str, default="llava_llama_3")
     parser.add_argument("--num-chunks", type=int, default=1)
@@ -214,7 +212,7 @@ if __name__ == "__main__":
     # eval_model(args)
     merge_data=[]
     for idx in range(args.num_chunks):
-        # merge_data+=[json.loads(i) for i in open(f"/mnt/workspace/lr/datasets/playground/playground/data/eval/gqa/answer_{idx}.jsonl",'r')]
+        # merge_data+=[json.loads(i) for i in open(f"datasets/playground/playground/data/eval/gqa/answer_{idx}.jsonl",'r')]
         merge_data+=[json.loads(i) for i in open(args.answers_file,'r')]
     # all_answers = []
     # for line_idx, res in enumerate(merge_data):
