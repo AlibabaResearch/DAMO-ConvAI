@@ -126,7 +126,9 @@ class OpenAIWrapper(BaseAPI):
             print('Unknown API Base. ')
             sys.exit(-1)
 
+        # your api_base
         self.api_base = ""
+        # your key
         self.key = ""
         
         # self.model="gpt-4o-2024-08-06"
