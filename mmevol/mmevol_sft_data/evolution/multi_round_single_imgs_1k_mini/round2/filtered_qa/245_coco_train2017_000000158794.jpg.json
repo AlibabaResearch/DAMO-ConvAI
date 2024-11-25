@@ -1,0 +1,454 @@
+{
+    "id": "000000158794",
+    "image": "coco/train2017/000000158794.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many benches are there with people sitting on them?",
+            "steps": [],
+            "answer": "There are three benches with people sitting on them."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people doing while sitting on the benches?",
+            "steps": [],
+            "answer": "The people are sitting on the benches, looking out on the water and enjoying the view."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the people sitting together or separately?",
+            "steps": [],
+            "answer": "The people are sitting separately across the three benches."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the surrounding environment like near the benches?",
+            "steps": [],
+            "answer": "The surrounding environment near the benches consists of a sidewalk, a wall, and a body of water. It appears to be a relaxing and scenic spot for people to sit and take in the view."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the material of the benches?",
+            "steps": [],
+            "answer": "The benches are made of wood."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image features a group of people sitting on three wooden benches near a wall, overlooking the water. The benches are arranged in a row, and there are numerous people sitting on each one, engaging in conversations or simply enjoying the view.\n\nVarious personal belongings can be found in the scene, such as handbags placed next to the people sitting on the benches and some backpacks located nearby. A bicycle is parked off to the side, possibly belonging to one of the people present.\n\nThere is also a series of potted plants scattered throughout the scene, providing a touch of greenery. Additionally, multiple umbrellas and dining tables can be seen in the area, suggesting that this location could be near an outdoor cafe or dining area."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is a plausible reason for these people to gather near the water?",
+            "steps": [],
+            "answer": "A plausible reason for these people to gather near the water could be that they are looking for a peaceful and scenic place to relax and enjoy their surroundings. Sitting on the benches provides them with a comfortable spot to rest and observe the view. The presence of potted plants and dining tables in the area suggests that it is a well-maintained place designed for outdoor leisure and relaxation. Additionally, the water's calming effect can improve the overall ambiance, making it an excellent choice for people looking for a moment's respite from their daily routines."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nDescribe the following image."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city square, a group of people find respite on a sturdy stone wall. The wall, constructed from large, rectangular stones, stands firm under the weight of the city's stories. A metal railing crowns the wall, offering support and safety to those who seek rest here.\n\nThe people, dressed in casual attire, sit in a line along the wall. Their bodies are relaxed, their faces turned in the same direction, absorbing the city's energy. Each individual is distinct, yet together they form a harmonious tableau of urban life.\n\nThe square itself is a testament to the city's history and charm. Cobblestones underfoot echo tales of times gone by, while modern buildings rise in the background, reaching for the sky. A large orange awning adds a splash of color to the scene, its vibrant hue contrasting with the muted tones of the stone and concrete.\n\nThe sun casts its warm glow over the square, creating intricate patterns of light and shadow on the cobblestone pavement. The play of sunlight adds depth and texture to the scene, highlighting some areas while subtly obscuring others.\n\nEvery element in this image - from the people on the stone wall to the sunlit square - tells a story. It's a snapshot of life in the city: dynamic, diverse, and full of possibilities."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.051000000000000004,
+                0.4809133489461358,
+                0.13159375,
+                0.7099063231850117
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.24484374999999997,
+                0.46953161592505854,
+                0.31906249999999997,
+                0.7036299765807962
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.38610937500000003,
+                0.4926463700234192,
+                0.444046875,
+                0.7003981264637003
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7428125,
+                0.4474473067915691,
+                0.797421875,
+                0.6916627634660423
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8110625,
+                0.46182669789227165,
+                0.8775781250000001,
+                0.6976580796252927
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6791875,
+                0.4766510538641686,
+                0.7550156250000001,
+                0.7039578454332553
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.32820312500000004,
+                0.1446838407494145,
+                0.3589375,
+                0.2152224824355972
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.0636875,
+                0.5347306791569086,
+                0.318359375,
+                0.7059484777517564
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.3939375,
+                0.5275644028103045,
+                0.63634375,
+                0.6979391100702576
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.11292187499999999,
+                0.46140515222482437,
+                0.21184374999999997,
+                0.7042622950819672
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.487625,
+                0.474847775175644,
+                0.5658125,
+                0.7017564402810303
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.22167187500000002,
+                0.1485480093676815,
+                0.237796875,
+                0.19325526932084308
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.69684375,
+                0.16185011709601874,
+                0.759046875,
+                0.21351288056206089
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.823453125,
+                0.5588056206088994,
+                0.8694843750000001,
+                0.5939110070257612
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.028359375,
+                0.23779859484777519,
+                0.08375,
+                0.2912177985948478
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.078484375,
+                0.20283372365339578,
+                0.11821875,
+                0.24318501170960188
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.1261875,
+                0.16236533957845434,
+                0.15815625,
+                0.19716627634660422
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.570890625,
+                0.4621545667447307,
+                0.630859375,
+                0.7105386416861826
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.68565625,
+                0.5248009367681499,
+                0.92378125,
+                0.6319437939110071
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.690234375,
+                0.6133255269320843,
+                0.737015625,
+                0.7036533957845432
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.30012500000000003,
+                0.015339578454332552,
+                0.3479375,
+                0.20646370023419203
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.43390625,
+                0.018688524590163937,
+                0.466421875,
+                0.12487119437939112
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.45357812500000005,
+                0.016276346604215456,
+                0.480375,
+                0.14943793911007025
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.6338125,
+                0.011311475409836066,
+                0.67003125,
+                0.17185011709601872
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.398484375,
+                0.016978922716627636,
+                0.43540625000000005,
+                0.20056206088992976
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.8150625,
+                0.5752693208430913,
+                0.827515625,
+                0.6066042154566744
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.45695312499999996,
+                0.5754098360655737,
+                0.4895625,
+                0.6108196721311475
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.761828125,
+                0.49915690866510537,
+                0.7694687499999999,
+                0.536791569086651
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.155765625,
+                0.14372365339578455,
+                0.18134375,
+                0.1660655737704918
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.48929687499999996,
+                0.1879625292740047,
+                0.55003125,
+                0.23524590163934428
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.681359375,
+                0.19072599531615925,
+                0.7228125000000001,
+                0.19915690866510538
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.918171875,
+                0.187096018735363,
+                0.9683125,
+                0.21236533957845435
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.813578125,
+                0.18634660421545665,
+                0.8828906250000002,
+                0.23180327868852457
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.777765625,
+                0.16325526932084308,
+                0.80796875,
+                0.1854566744730679
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.66090625,
+                0.16918032786885245,
+                0.6730625,
+                0.18412177985948475
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.455859375,
+                0.15868852459016394,
+                0.500375,
+                0.16597189695550352
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.867578125,
+                0.4521779859484778,
+                0.9416249999999999,
+                0.7063231850117097
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.294125,
+                0.1471896955503513,
+                0.34290625,
+                0.20686182669789227
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.5846250000000001,
+                0.6419672131147541,
+                0.6502968750000001,
+                0.7059016393442623
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.43159375000000005,
+                0.4775175644028103,
+                0.4952500000000001,
+                0.7007025761124122
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.123875,
+                0.5807025761124122,
+                0.15948437499999998,
+                0.6223887587822013
+            ]
+        }
+    ],
+    "hash_id": "245_coco_train2017_000000158794.jpg"
+}

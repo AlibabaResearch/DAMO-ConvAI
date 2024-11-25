@@ -1,0 +1,100 @@
+```json
+[
+  {
+    "image_position": "single",
+    "objects": ["person", "foliage"],
+    "skills": ["Context Understanding Ability"],
+    "format": "Norm",
+    "question": "What type of environment is suggested by the items visible in the image?",
+    "steps": [
+      {"manipulation":"None", "description":"Identify the elements in the image, particularly the background and any visible foliage."},
+      {"manipulation":"None", "description":"Determine the environment type based on the identified elements."}
+    ],
+    "answer": "The image suggests an outdoor environment, as indicated by the presence of foliage and the dark, blurred background."
+  },
+  {
+    "image_position": "single",
+    "objects": ["person"],
+    "skills": ["Calculating Ability"],
+    "format": "Norm",
+    "question": "How many distinct facial expressions can you identify among the individuals?",
+    "steps": [
+      {"manipulation":"grounding_1(facial expressions)->bbx_1", "description":"Locate the distinct facial expressions among the individuals in the image, returning the corresponding boxes as `bbx_1`."},
+      {"manipulation":"calculate(`bbx_1`)->n_1", "description":"Calculate the number of unique facial expressions and return the result as `n_1`."}
+    ],
+    "answer": "There are three distinct facial expressions visible in the image, captured by the individuals."
+  },
+  {
+    "image_position": "single",
+    "objects": ["person", "emotion"],
+    "skills": ["Relationship Description Ability"],
+    "format": "Norm",
+    "question": "What underlying emotions might the people in the image be expressing?",
+    "steps": [
+      {"manipulation":"grounding_1(individual expressions)->bbx_1", "description":"Identify the expressions of the individuals and return the corresponding areas as `bbx_1`."},
+      {"manipulation":"None", "description":"Analyze these expressions to determine the underlying emotions."}
+    ],
+    "answer": "The individuals are likely expressing feelings of joy and amusement, indicated by their exaggerated facial expressions and playful poses."
+  },
+  {
+    "image_position": "single",
+    "objects": ["person", "night"],
+    "skills": ["Context Understanding Ability"],
+    "format": "Norm",
+    "question": "What could lead to these individuals being outdoors at night?",
+    "steps": [
+      {"manipulation":"None", "description":"Consider typical outdoor activities that occur at night."},
+      {"manipulation":"None", "description":"Suggest a plausible scenario based on their expressions and outdoor setting."}
+    ],
+    "answer": "The individuals might be outdoors at night enjoying a spontaneous gathering with friends, possibly for a late-night outing or celebrating an event."
+  },
+  {
+    "image_position": "single",
+    "objects": ["person"],
+    "skills": ["Behavior Prediction Ability"],
+    "format": "Norm",
+    "question": "What actions could the individuals take after this image was captured?",
+    "steps": [
+      {"manipulation":"None", "description":"Speculate on the potential actions of the individuals following the humorous moment."},
+      {"manipulation":"None", "description":"Provide a logical sequence of events that could follow."}
+    ],
+    "answer": "After the image was captured, the individuals might continue their playful antics, perhaps joking around or engaging in a friendly competition to see who can make the funniest face."
+  },
+  {
+    "image_position": "single",
+    "objects": ["person"],
+    "skills": ["Knowledge Integration Ability"],
+    "format": "Norm",
+    "question": "What cultural significance might a gathering like this have?",
+    "steps": [
+      {"manipulation":"None", "description":"Reflect on the cultural importance of social gatherings among friends."},
+      {"manipulation":"None", "description":"Discuss how such gatherings enhance relationships."}
+    ],
+    "answer": "Social gatherings like this are culturally significant as they foster deep personal connections, create lasting memories, and encourage a sense of community among friends."
+  },
+  {
+    "image_position": "single",
+    "objects": ["person", "expression"],
+    "skills": ["Creative Thinking Ability"],
+    "format": "Norm",
+    "question": "If you were to write a short story about this moment, what would the title be?",
+    "steps": [
+      {"manipulation":"None", "description":"Think of a creative title reflecting the themes present in the image."},
+      {"manipulation":"None", "description":"Articulate how the title encapsulates the essence of the moment."}
+    ],
+    "answer": "A fitting title for this moment could be 'Laughter Under the Stars', capturing the essence of friendship, humor, and the joy of spontaneous outdoor adventures."
+  },
+  {
+    "image_position": "single",
+    "objects": ["person"],
+    "skills": ["Imagery Description Ability"],
+    "format": "Norm",
+    "question": "What do you think the atmosphere was like during the time this image was taken?",
+    "steps": [
+      {"manipulation":"None", "description":"Visualize the setting based on the image and deduce the atmosphere."},
+      {"manipulation":"None", "description":"Describe how the visible elements contribute to the overall feeling of the moment."}
+    ],
+    "answer": "The atmosphere during the time this image was taken was likely vibrant and energetic, filled with laughter and a sense of camaraderie, amplified by the night sky and playful expressions."
+  }
+]
+```

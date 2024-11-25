@@ -1,0 +1,211 @@
+{
+    "id": "000000165757",
+    "image": "coco/train2017/000000165757.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many children are present around the cake in the image?",
+            "steps": [],
+            "answer": "There are two children present around the cake in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the woman doing with the cake?",
+            "steps": [],
+            "answer": "The woman is putting candles on the cake and lighting them."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the children sitting or standing around the cake?",
+            "steps": [],
+            "answer": "The two children are sitting at the table where the cake is placed."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The image shows a woman lighting candles on a cake at a dining table, where two children are sitting and two other people are watching nearby. The cake is beautifully placed in the center of the table as the main focus of the celebration.\n\nAround the dining table, there are chairs, a cup, a fork, and two knives. In the background, there is a couch positioned against a wall, and a chair placed in a corner. Additionally, there is a bottle and a bowl placed on a nearby surface, likely containing refreshments for the guests."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What additional precautions should be considered before the woman lights the candles on the cake during this gathering?",
+            "steps": [],
+            "answer": "Before the woman lights the candles on the cake, it is essential to ensure that all necessary safety precautions are considered. For example, since there are children present at the table, she should instruct them on basic fire safety rules, such as not getting too close to the flames and refraining from touching the candles or playing with fire. Additionally, it may be beneficial to check that the table and surrounding areas are clear of any flammable or combustible materials, including paper napkins, plastic tableware, or decorations. Finally, the woman should have a method for extinguishing the candles ready, such as a candle snuffer or a glass of water, to put out the flames safely once the birthday celebration is complete. It could also be helpful to verify that the cake and candles are placed at an appropriate distance from the observers to minimize any risk of accidents, especially for the kids."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nDescribe the following image."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy living room, a family is immersed in the joy of a birthday celebration. The mother, the orchestrator of this joyful event, is captured in the act of lighting the candles on a pink cake. The soft glow from the lighter illuminates her face, reflecting her warmth and love.\n\nHer daughter, draped in a playful purple feather boa, watches this ritual with anticipation. Her eyes are wide and her smile is broad, revealing the excitement of the moment. She's standing to the right of her mother, eagerly waiting for the candles to be lit.\n\nAcross the table, the son sits patiently with a red cup placed in front of him. He's positioned on the left side of the frame, adding balance to the composition. His calm demeanor contrasts with his sister's palpable excitement.\n\nIn the background, a fireplace and a lamp add to the homely atmosphere. The fireplace, located behind the mother and daughter, stands as a symbol of home and warmth. To its right, a lamp casts a soft light that dances on the walls and ceiling.\n\nThis image is a snapshot of a precious family moment, filled with love, warmth, and celebration."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.6254062499999999,
+                0.5640625,
+                0.69484375,
+                0.73291015625
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.005156249999999999,
+                0.2796875,
+                0.39656250000000004,
+                0.62732421875
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.09978125,
+                0.41076171875,
+                0.297640625,
+                0.88171875
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0,
+                0.73646484375,
+                0.87153125,
+                0.98587890625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.539921875,
+                0.18409375,
+                0.94853515625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.282890625,
+                0.4335546875,
+                0.727921875,
+                0.8885156249999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.43865625,
+                0.0060546875,
+                0.9995468750000001,
+                0.74537109375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.06609374999999999,
+                0.21171875,
+                0.427546875,
+                0.5203515625
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.23695312500000001,
+                0.88876953125,
+                0.25943750000000004,
+                0.95986328125
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.17784375,
+                0.90005859375,
+                0.2225625,
+                0.99515625
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.25790625,
+                0.9056640625,
+                0.27531249999999996,
+                0.9841796875
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.35775,
+                0.75955078125,
+                0.625625,
+                0.96853515625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9065156249999999,
+                0.2433203125,
+                1.0,
+                0.4981640625
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.389578125,
+                0.14169921875,
+                0.45478125,
+                0.17404296875
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.0,
+                0.37896484375,
+                0.055421874999999995,
+                0.5360546875000001
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.15746875,
+                0.30951171875,
+                0.19339062499999998,
+                0.3539453125
+            ]
+        }
+    ],
+    "hash_id": "925_coco_train2017_000000165757.jpg"
+}

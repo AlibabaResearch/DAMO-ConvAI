@@ -1,0 +1,460 @@
+{
+    "id": "000000108238",
+    "image": "coco/train2017/000000108238.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The image showcases a group of young students enjoying lunch in their classroom. There are multiple dining tables set up, with chairs all around them. The children are seated and engaged in conversation while eating their lunch, which consists of items like carrots, cups, spoons, and a bowl.\n\nA potted plant can be seen in the room to the left, and a clock is hanging at the top of the wall. A few students appear to be watching a TV screen mounted on the wall close to the center of the classroom. In addition to the television, a laptop and a keyboard can be spotted in the room.\n\nThe classroom has a lively atmosphere, with students from various positions within the scene interacting and sharing their lunchtime together."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How do the students interact with technology during their lunchtime?",
+            "steps": [],
+            "answer": "During their lunchtime, the students in the classroom are watching children on a screen, likely a television or a projected image. This interaction with technology provides a source of entertainment or educational content as they enjoy their meal. Additionally, there appears to be a laptop and keyboard on one of the tables, suggesting that technology plays a role in their daily routine, whether it's for learning, communication, or leisure purposes."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Analyze the image in a comprehensive and detailed manner.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a vibrant classroom, a group of six children are gathered around a table, engrossed in their lunchtime chatter. The table, draped in a pristine white tablecloth, is a lively scene of scattered plates filled with food, cups, and utensils. Each child is adorned in colorful clothing, adding to the cheerful ambiance of the room.\n\nOn one side of the table, three children are engaged in animated conversation, their faces lit up with enthusiasm. Opposite them, the other three children are equally absorbed in their own discussions, their expressions reflecting the joy of shared camaraderie.\n\nIn the background, a teacher stands near a whiteboard, overseeing the lunchtime activities. Next to her, a television screen displays a video featuring two children, adding another layer of dynamism to the bustling classroom scene.\n\nThe image captures a typical day in a classroom where learning and fun go hand in hand. The children's interactions and the vibrant setting reflect an environment that fosters growth and camaraderie."
+        }
+    ],
+    "det": [
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.29809375,
+                0.2404185022026432,
+                0.330078125,
+                0.30495594713656393
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.51215625,
+                0.3993171806167401,
+                0.599140625,
+                0.5519162995594713
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.140203125,
+                0.5411674008810573,
+                0.792828125,
+                0.9976431718061675
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.250328125,
+                0.43883259911894273,
+                0.32175000000000004,
+                0.5220704845814977
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.371765625,
+                0.3431718061674009,
+                0.40679687500000006,
+                0.3903083700440529
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.42440625,
+                0.32524229074889865,
+                0.515609375,
+                0.477136563876652
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.39359375,
+                0.36629955947136567,
+                0.48803125,
+                0.5454845814977973
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.35434375,
+                0.0,
+                0.376,
+                0.03440528634361233
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.616890625,
+                0.6014757709251101,
+                0.654125,
+                0.6590969162995595
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.575796875,
+                0.545330396475771,
+                0.58709375,
+                0.5584581497797357
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.395921875,
+                0.6013656387665198,
+                0.40871874999999996,
+                0.6516299559471365
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.04984375,
+                0.3819603524229075,
+                0.2658125,
+                0.9885242290748898
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.28421875,
+                0.37105726872246697,
+                0.44875,
+                0.6861894273127753
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.560078125,
+                0.3058810572687225,
+                0.7644062500000001,
+                0.5839647577092512
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.71575,
+                0.5213436123348018,
+                0.9899374999999999,
+                0.9865198237885462
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.722453125,
+                0.3714977973568282,
+                0.9881562500000001,
+                0.6576431718061674
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.18651562500000002,
+                0.6876431718061674,
+                0.44953125000000005,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.521390625,
+                0.2774669603524229,
+                0.64015625,
+                0.5339867841409692
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0455625,
+                0.34852422907488984,
+                0.121078125,
+                0.6273127753303964
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.178171875,
+                0.16224669603524228,
+                0.23421875,
+                0.35288546255506603
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.18938325991189428,
+                0.054296875,
+                0.4191850220264317
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.73475,
+                0.2416740088105727,
+                0.8606875,
+                0.45425110132158597
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.26340625,
+                0.3770484581497798,
+                0.27053125,
+                0.4129955947136564
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7645,
+                0.4756167400881057,
+                0.834484375,
+                0.623590308370044
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.469984375,
+                0.33799559471365637,
+                0.77596875,
+                0.47616740088105725
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.311921875,
+                0.3072466960352423,
+                0.45840625,
+                0.4427753303964758
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.51634375,
+                0.06933920704845815,
+                0.80575,
+                0.33198237885462556
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.113265625,
+                0.1487885462555066,
+                0.17646875,
+                0.4021145374449339
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.43621875,
+                0.584295154185022,
+                0.47078125000000004,
+                0.6317180616740087
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.537765625,
+                0.775330396475771,
+                0.58346875,
+                0.8473348017621145
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.24707812499999998,
+                0.685726872246696,
+                0.26815625,
+                0.7636123348017622
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.648671875,
+                0.7235242290748899,
+                0.751578125,
+                0.8202422907488987
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.5785625,
+                0.46493392070484585,
+                0.6319843749999999,
+                0.5090969162995596
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9476718749999999,
+                0.6770044052863436,
+                0.986,
+                0.7770044052863436
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0021562499999999997,
+                0.4332599118942731,
+                0.073875,
+                0.5463436123348018
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0635625,
+                0.28050660792951543,
+                0.12421875,
+                0.361784140969163
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.43878125,
+                0.8697136563876653,
+                0.45718749999999997,
+                0.8866519823788547
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.551015625,
+                0.6235022026431718,
+                0.563765625,
+                0.642136563876652
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.708140625,
+                0.6847356828193832,
+                0.722703125,
+                0.7040969162995595
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9623906249999999,
+                0.8288546255506608,
+                1.0,
+                0.9053964757709251
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.8747031249999999,
+                0.27416299559471363,
+                0.9219999999999999,
+                0.3586563876651982
+            ]
+        },
+        {
+            "label": "keyboard",
+            "bbox": [
+                0.870078125,
+                0.35328193832599114,
+                0.907625,
+                0.3684581497797356
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.263375,
+                0.5416299559471366,
+                0.298359375,
+                0.5930837004405286
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7673281249999999,
+                0.38171806167400885,
+                0.842390625,
+                0.48951541850220265
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.40875000000000006,
+                0.41246696035242286,
+                0.459578125,
+                0.4409691629955947
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9008125,
+                0.34165198237885464,
+                0.928875,
+                0.39286343612334806
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.0625625,
+                0.5331718061674009,
+                0.10079687499999998,
+                0.6374008810572687
+            ]
+        }
+    ],
+    "hash_id": "901_coco_train2017_000000108238.jpg"
+}

@@ -1,0 +1,130 @@
+{
+    "id": "000000005113",
+    "image": "coco/train2017/000000005113.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the main object in the image being cut or pretended to be cut?",
+            "steps": [],
+            "answer": "The main object in the image being cut or pretended to be cut is the power cord to a laptop or net-book."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the primary elements depicted in the image?",
+            "steps": [],
+            "answer": "The primary elements depicted in the image are a hand, a pair of scissors, a laptop or net-book, and a power cord."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What action is being performed in the image?",
+            "steps": [],
+            "answer": "In the image, a person is either pretending or actually attempting to cut the power cord of a laptop or net-book using a pair of scissors."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the image likely to be an advertisement, a magazine page, a catalog, or a poster?",
+            "steps": [],
+            "answer": "The image is likely to be an advertisement in a magazine, as it features a staged scenario where a person is trying to cut the power cord on a net-book, which could be a creative visual concept to draw attention to a product or service. The hand holding down the corner could also reference the act of holding a poster or a page of a catalog, but within the context of an ad, it might be relevant to the overall marketing message."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How does this image convey a marketing message and what could be its purpose?",
+            "steps": [],
+            "answer": "This image of someone trying to cut the power cord on a net-book may convey a marketing message by grabbing the viewer's attention through an unusual or provocative visual. The image suggests that the laptop or net-book might be so user-friendly, energy-efficient, or portable that it doesn't require a constant tether to an electrical source.\n\nThe advertising's purpose could be to promote a product, such as a wire-free laptop or one with extremely long battery life, or a service that liberates users from the traditional constraints of a wired connection. The image might play on the contrasting ideas of cutting the cord to represent freedom, independence, and mobility, while showcasing the benefits of the product being advertised.\n\nThe creative visual strategy can elicit curiosity and discussion, prompting consumers to seek more information about the product, service, or the company behind the advertisement. Overall, the image's purpose is to effectively communicate a marketing message that captures consumers' interest and encourages them to engage with the brand."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the message being conveyed and why might it be used for an advertisement?",
+            "steps": [],
+            "answer": "The message being conveyed in this image is that the depicted person is trying to \"cut the cord\" on a netbook or laptop, symbolizing the concept of going wireless or embracing cordless technology. This visual metaphor is used for an advertisement, likely to promote a wireless device, service or a feature that eliminates the need for physical cables, implying greater convenience, freedom, and ease of use. Advertisements often use striking visuals and metaphors to grab the attention of potential customers and create a memorable association between the product and its benefits."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nDescribe the following image."
+        },
+        {
+            "from": "gpt",
+            "value": "The image depicts a scene of a person's hand holding a pair of black and silver scissors. The scissors are in the process of cutting the cord of a vintage laptop computer. The laptop is gray in color, branded as Casio, and features a small screen and a keyboard. Displayed on the screen is a graph along with some text, although the exact content of the text is not discernible from the image.\n\nThe laptop is placed on a blue surface that has the phrase \"To The Impossible\" written on it. The hand holding the scissors is visible on the left side of the image. The overall scene suggests an act of disconnecting or severing ties with technology, possibly symbolizing a break from conventional methods or a step towards new possibilities. The phrase \"To The Impossible\" might indicate an aspiration to achieve something that seems unattainable or challenging."
+        }
+    ],
+    "det": [
+        {
+            "label": "laptop",
+            "bbox": [
+                0.20761506276150626,
+                0.0561875,
+                0.9387447698744771,
+                0.66965625
+            ]
+        },
+        {
+            "label": "keyboard",
+            "bbox": [
+                0.19723849372384938,
+                0.1993125,
+                0.8638493723849372,
+                0.66346875
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.7689748953974895,
+                0.8161406250000001,
+                1.0,
+                0.9918125
+            ]
+        },
+        {
+            "label": "scissors",
+            "bbox": [
+                0.41322175732217575,
+                0.618140625,
+                0.6790794979079499,
+                0.9525781249999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.001984375,
+                0.2698953974895397,
+                0.254375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5267991631799164,
+                0.77884375,
+                0.9261924686192469,
+                0.9705
+            ]
+        }
+    ],
+    "hash_id": "379_coco_train2017_000000005113.jpg"
+}

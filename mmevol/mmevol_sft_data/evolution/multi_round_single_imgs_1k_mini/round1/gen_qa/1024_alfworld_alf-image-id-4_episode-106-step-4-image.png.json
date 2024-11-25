@@ -1,0 +1,82 @@
+```json
+[
+  {
+    "image_position": "single",
+    "objects": ["soap bar", "drawer", "spherical object"],
+    "skills": ["Grounding Ability", "Context Understanding Ability"],
+    "format": "Complex Reasoning",
+    "question": "Imagine you have a mission to put a clean soap bar inside a drawer to complete a task. The drawer is currently closed, and there’s a spherical object nearby. Considering the permissible actions you have, such as 'open drawer 1', 'examine soap bar 1', and 'put soap bar 1 in/on drawer 1', how would you strategize to place the soap bar in the drawer? Let's devise a step-by-step plan while considering any obstacles, like the spherical object.",
+    "steps": [
+      {
+        "manipulation": "None",
+        "description": "First, observe the text description and acknowledge the closed drawer in the image, along with a spherical object nearby."
+      },
+      {
+        "manipulation": "None",
+        "description": "Determine if the spherical object is obstructing access to the drawer."
+      },
+      {
+        "manipulation": "None",
+        "description": "Choose the appropriate action to interact with the drawer, based on what could simplify placing the soap bar inside it."
+      },
+      {
+        "manipulation": "None",
+        "description": "Execute the action 'open drawer 1' to access the interior."
+      },
+      {
+        "manipulation": "None",
+        "description": "Assess and move the soap bar as needed, ensuring no obstructions exist from the spherical object."
+      },
+      {
+        "manipulation": "None",
+        "description": "Place the soap bar into the open drawer, completing the task."
+      }
+    ],
+    "answer": "To navigate this situation, consider the surroundings and any obstacles. Starting with the text description, note that 'drawer 1' is closed, and there's a spherical object nearby which might obstruct the drawer's accessibility. First, confirm if it's in the way; if needed, relocate the spherical object safely. Then, execute the action 'open drawer 1' to prepare for placing the soap. Once the drawer is open and clear of objects, carefully position the soap bar inside. This stepwise approach ensures the task is completed efficiently without any disturbance from surrounding objects."
+  },
+  {
+    "image_position": "single",
+    "objects": ["soap bar", "tissues", "spherical object"],
+    "skills": ["Relationship Description Ability", "Behavior Prediction Ability"],
+    "format": "Complex Reasoning",
+    "question": "Looking at the scene, identify the relationships between the soap bar, spherical object, and crumpled tissues on the dresser. How might these items influence your approach to interacting with the environment, particularly if the spherical object had an additional mysterious function? Let's explore further.",
+    "steps": [
+      {
+        "manipulation": "None",
+        "description": "Identify the spatial relationships between the soap bar, tissues, and spherical object on the dresser."
+      },
+      {
+        "manipulation": "None",
+        "description": "Consider any potential function the spherical object might have and how it could impact the scene's dynamics."
+      },
+      {
+        "manipulation": "None",
+        "description": "Predict possible actions that may result from interacting with these objects, particularly if the spherical object has a hidden function."
+      }
+    ],
+    "answer": "Analyzing the scene begins with observing the spatial dynamics: the soap bar and spherical object coexist on the dresser, surrounded by tissues. This setup could imply a casual or functional relationship. If the spherical object has a mysterious or hidden function, such as affecting light or unlocking hidden mechanisms, this knowledge could reshape our approach to the environment. Predicting interactions, one would cautiously investigate the spherical object before proceeding, as it might reveal additional options or limitations within the task that was not previously visible."
+  },
+  {
+    "image_position": "single",
+    "objects": ["soap bar", "drawer"],
+    "skills": ["Behavior Prediction Ability", "Knowledge Integration Ability"],
+    "format": "Detailed Description",
+    "question": "If the soap bar had mystical qualities and was integral to an unknown ritual required to open the drawer, what steps should be taken to harness such potential? Let's explore this scenario in detail, considering traditional uses of soap in rituals and combining it with the scene's context.",
+    "steps": [
+      {
+        "manipulation": "None",
+        "description": "Reflect on historical and cultural practices related to soap and its use in rituals."
+      },
+      {
+        "manipulation": "None",
+        "description": "Hypothesize how these practices could be integrated into the current scene with the soap bar."
+      },
+      {
+        "manipulation": "None",
+        "description": "Develop a sequence of actions that utilize the soap's mystical properties to interact with the drawer."
+      }
+    ],
+    "answer": "Imagining the soap bar exudes a mystical aura, one should first explore cultural contexts where soap plays a role in rituals or ceremonies. Traditionally, soaps might be used symbolically in purification or unlocking potential, suggesting its placement or use could trigger an event. In this scene, incorporating such mystical elements, the character might hold the soap, recite a chant, or light candles⎼each action completing rituals before attempting to open the drawer. Successfully harnessing these imaginative attributes relies on believing in the soap’s power and leveraging traditional lore within the environment."
+  }
+]
+```

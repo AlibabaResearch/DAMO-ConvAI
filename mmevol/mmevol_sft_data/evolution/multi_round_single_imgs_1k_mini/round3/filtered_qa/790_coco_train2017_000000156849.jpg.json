@@ -1,0 +1,212 @@
+{
+    "id": "000000156849",
+    "image": "coco/train2017/000000156849.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "A restaurant scene showcases a wooden dining table with a Dell laptop open in the center of the table. A cell phone is also placed on the table, as well as a cup and two bottles, one of which appears to be a Coke. A few books can be seen on the table, adding to the cozy atmosphere.\n\nAround the table, there are four people, one seated in the foreground, one to the left, another further back, and the last person on the right. A backpack sits on the floor next to one of the people. In the background, a potted plant can be spotted, giving some greenery to the room. There are two bowls situated nearby, possibly containing food or condiments for the patrons."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What potential disruptions or distractions might a person working in this restaurant setting face?",
+            "steps": [],
+            "answer": "Working in a restaurant setting, as seen in the image where a Dell laptop is placed on a wooden table along with a cell phone and a Coca-Cola cup, can present several potential disruptions or distractions. These might include background noise from conversations and activities of other guests, the hustle and bustle of restaurant staff attending to their duties, and constantly changing visual stimuli. Moreover, the availability of food and beverages nearby might also tempt the person to take frequent breaks or divert their attention from their work-related tasks. Additionally, a busy restaurant environment might not provide an ideal space for concentration or focused collaboration if the person needs to engage in virtual meetings or calls. Overall, this setting might not be as conducive to productivity as compared to a dedicated workspace or quieter environment, like a home office or library."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat's happening in the scene?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the center of the image, a Dell laptop computer sits open on a wooden table, its screen glowing with unseen information. The laptop appears to be in use, perhaps by the owner of the cell phone that rests nearby. The table, bathed in the warm light of the restaurant, also hosts a glass of soda fizzing softly next to the laptop. A white caddy holding condiments and red and white striped straws stands ready for use.\n\nThe table is not alone. In the background, people are seen in motion, walking by or settling down at other tables. Their presence adds a layer of life and activity to the scene. The backdrop is a red wall, providing a warm contrast to the wooden floor underfoot.\n\nDespite the bustle, there's an air of tranquility. The image captures a moment frozen in time, a snapshot of life unfolding around this table in the restaurant."
+        }
+    ],
+    "det": [
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.69328125,
+                0.5087089201877935,
+                0.84078125,
+                0.6315492957746479
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.008968750000000001,
+                0.3618075117370892,
+                1.0,
+                0.975281690140845
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.700109375,
+                0.2274882629107981,
+                0.9354687500000001,
+                0.3580985915492958
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6408125,
+                0.014272300469483568,
+                0.78965625,
+                0.36300469483568076
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.18890625,
+                0.06521126760563381,
+                0.23334375000000002,
+                0.3067605633802817
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.885359375,
+                0.03631455399061033,
+                0.999,
+                0.2473474178403756
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.194015625,
+                0.30178403755868544,
+                0.31340625,
+                0.57981220657277
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.868953125,
+                0.41638497652582157,
+                0.96034375,
+                0.4910328638497653
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.7167656250000001,
+                0.41737089201877936,
+                0.823203125,
+                0.5078403755868545
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.218390625,
+                0.20673708920187792,
+                0.7733281250000001,
+                0.8292018779342724
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.10995312500000001,
+                0.0852112676056338,
+                0.15928124999999999,
+                0.17981220657276994
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.28628125,
+                0.0,
+                0.44940625,
+                0.24755868544600937
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.478015625,
+                0.06065727699530516,
+                0.4855625,
+                0.11607981220657278
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.494625,
+                0.06291079812206572,
+                0.5115624999999999,
+                0.11868544600938968
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.48490625,
+                0.06192488262910798,
+                0.49596874999999996,
+                0.11849765258215963
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0995,
+                0.04762910798122066,
+                0.1685,
+                0.295093896713615
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.8195,
+                0.3272769953051643,
+                0.8851875,
+                0.5116901408450704
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.8004843749999999,
+                0.323169014084507,
+                0.852953125,
+                0.4653990610328638
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.532140625,
+                0.05884976525821596,
+                0.53846875,
+                0.11544600938967137
+            ]
+        }
+    ],
+    "hash_id": "790_coco_train2017_000000156849.jpg"
+}

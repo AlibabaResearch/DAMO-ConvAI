@@ -1,0 +1,91 @@
+{
+    "id": "000000043191",
+    "image": "coco/train2017/000000043191.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the person holding in front of the train?",
+            "steps": [],
+            "answer": "The person is holding a pamphlet or brochures related to the train, which could be a ticket, schedule, or general information about the train service or an event."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the condition of the weather in the image?",
+            "steps": [],
+            "answer": "The weather in the image is sunny."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of train is shown in the image?",
+            "steps": [],
+            "answer": "The image shows a passenger train."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the train in motion or stationary?",
+            "steps": [],
+            "answer": "The train is parked and stationary."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a moment on National Train Day, dated May 11, 2013. A hand is holding a black pamphlet in the bottom left corner of the photo. The pamphlet, which is from Amtrak, features a green and white illustration of a train and a city skyline. The text on it reads \"National Train Day, May 11, 2013, A Deal That Matters, Amtrak\".\n\nIn the background, there's a vibrant red and orange train engine with a white stripe. The words \"Santa Fe\" are written on the side of the engine. The train is on a track surrounded by trees under a clear blue sky. The contrast between the pamphlet in the foreground and the train in the background creates an interesting depth to the image."
+        }
+    ],
+    "det": [
+        {
+            "label": "train",
+            "bbox": [
+                0.292140522875817,
+                0.09887254901960783,
+                1.0,
+                0.7730392156862744
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.741437908496732,
+                0.27178104575163403,
+                1.0
+            ]
+        },
+        {
+            "label": "train",
+            "bbox": [
+                0.0,
+                0.10359477124183006,
+                0.1677124183006536,
+                0.7816339869281045
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.08764705882352941,
+                0.2410947712418301,
+                0.5601960784313725,
+                0.8911437908496732
+            ]
+        }
+    ],
+    "hash_id": "386_coco_train2017_000000043191.jpg"
+}

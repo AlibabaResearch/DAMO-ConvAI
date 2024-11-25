@@ -1,0 +1,226 @@
+{
+    "id": "000000114701",
+    "image": "coco/train2017/000000114701.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the main subject of the image?",
+            "steps": [],
+            "answer": "The main subject of the image is a large pile of luggage, bags, and skiing gear sitting outside on snow-covered ground during a snowstorm."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of weather is depicted in the image?",
+            "steps": [],
+            "answer": "The image shows a snowstorm, which suggests cold and snowy weather conditions."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Why might the luggage be piled up in the snow?",
+            "steps": [],
+            "answer": "There could be several possible reasons for the luggage being piled up in the snow:\n\n1. People might be in the process of loading or unloading their luggage from a vehicle or a nearby building (such as a ski resort, hotel, or cabin) during a ski trip or winter vacation. The luggage has been temporarily placed outside before being brought inside or loaded onto a vehicle.\n\n2. The luggage might belong to a group of travelers who have just arrived at their destination and are waiting for transportation, such as a shuttle bus, to pick them up.\n\n3. There could be an event or competition taking place nearby, and participants have left their luggage and skiing gear outside while they are inside for registration or attending to other matters.\n\n4. The luggage might be misplaced or lost, and someone has found and collected it, piling it up in one location so that it can be reclaimed by its owners.\n\nRegardless of the specific reason, it is clear from the image that the luggage and skiing gear have been placed outside in the snow, likely for a short period, as they are exposed to the ongoing snowstorm."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The scene shows a large and diverse pile of luggage sitting outdoors during a snowstorm. The snow-covered ground gives a wintery and chilly atmosphere to the setting. Suitcases of various sizes and colors are scattered around, and some skiing gear, like a snowboard, is also visible in the mix, indicating a possible winter trip or skiing vacation. \n\nIn the scene, there are a total of four people, with one on the left side of the image, two in the middle, and one on the right side. They seem to be attending to their luggage, probably arranging or preparing to load them. Vehicles like a truck and a car can be seen in the background, likely used for transportation of people and their belongings."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the midst of a snowy landscape, a vibrant collection of luggage and ski equipment has been assembled. The luggage, varying in colors from black to blue, green, and gray, numbers at least 16 pieces. They are scattered haphazardly, as if hastily unloaded for an impending adventure. \n\nAmong the luggage, a pair of red skis and a pair of blue skis stand out, their bright colors contrasting against the white snow. They hint at the thrilling activities that await.\n\nOn the right side of the image, a white bus is parked next to a wooden fence, suggesting recent arrival or imminent departure. A solitary figure in a red jacket can be seen walking away from the pile of luggage towards the bus, perhaps to ensure everything is in order for the journey.\n\nThe scene is one of anticipation and excitement, as travelers prepare for their snowy escapade."
+        }
+    ],
+    "det": [
+        {
+            "label": "truck",
+            "bbox": [
+                0.58353125,
+                0.13122916666666667,
+                0.735203125,
+                0.2609375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.72190625,
+                0.16545833333333335,
+                0.75471875,
+                0.2625416666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.349421875,
+                0.2056875,
+                0.37873437499999996,
+                0.26697916666666666
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.6164531249999999,
+                0.4880833333333333,
+                0.805375,
+                0.8769166666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7979375,
+                0.14477083333333332,
+                0.83828125,
+                0.2602083333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.606609375,
+                0.12752083333333333,
+                0.71721875,
+                0.14614583333333334
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.8610312499999999,
+                0.6077916666666667,
+                1.0,
+                0.9038958333333333
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.43246874999999996,
+                0.45975,
+                0.586359375,
+                0.7922083333333333
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.7246718750000001,
+                0.3506458333333333,
+                0.9389687500000001,
+                0.470125
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.580828125,
+                0.5101041666666667,
+                0.6763281250000001,
+                0.8020833333333334
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.573734375,
+                0.4825625,
+                0.688703125,
+                0.67225
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.618484375,
+                0.42866666666666664,
+                0.689,
+                0.49270833333333336
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.8332499999999999,
+                0.5963958333333333,
+                1.0,
+                0.8496458333333333
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.78553125,
+                0.5346041666666667,
+                0.962875,
+                0.7658333333333334
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.91253125,
+                0.4226875,
+                0.9997343749999998,
+                0.5803541666666666
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.35726562500000003,
+                0.5051458333333333,
+                0.43846875,
+                0.6965833333333333
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.8119999999999999,
+                0.5683541666666667,
+                0.9962031249999999,
+                0.7916458333333334
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.44731249999999995,
+                0.43779166666666663,
+                0.57571875,
+                0.4995833333333333
+            ]
+        },
+        {
+            "label": "snowboard",
+            "bbox": [
+                0.21917187500000002,
+                0.18891666666666668,
+                0.362140625,
+                0.5158333333333334
+            ]
+        }
+    ],
+    "hash_id": "478_coco_train2017_000000114701.jpg"
+}

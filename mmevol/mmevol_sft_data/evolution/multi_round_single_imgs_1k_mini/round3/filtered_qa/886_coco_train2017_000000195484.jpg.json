@@ -1,0 +1,266 @@
+{
+    "id": "000000195484",
+    "image": "coco/train2017/000000195484.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What activity is the woman engaged in the image?",
+            "steps": [],
+            "answer": "The woman in the image is engaged in playing tennis on an indoor court."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How is the woman holding the tennis racket?",
+            "steps": [],
+            "answer": "The woman is holding the tennis racket with both hands."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What posture does the woman have while holding the tennis racket?",
+            "steps": [],
+            "answer": "The woman is in a defensive stance while holding the tennis racket, which suggests she is prepared to receive her opponent's shot."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there an audience watching the woman play tennis?",
+            "steps": [],
+            "answer": "Yes, there are many people watching the woman play tennis in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you explain some basic rules or scoring for tennis?",
+            "steps": [],
+            "answer": "Tennis is a popular racquet sport played between two players (singles) or between two teams of two players each (doubles). Here are some basic rules and scoring principles for tennis:\n\n1. Objective: The main objective of tennis is to hit the ball with the racquet into the opponent's court in such a way that they cannot return it before it bounces twice on their side.\n\n2. Court: A tennis court is rectangular, divided by a net in the middle, and has various marked areas such as the baseline, service boxes, and alleys.\n\n3. Scoring: The scoring system in tennis uses unique terminology called point, game, and set.\n    - Point: Points are scored as 15, 30, and 40. After 40, the next point scored wins the game, unless both players reach 40 (also known as deuce), in which case a player must win by two points.\n    - Game: To win a game, a player must win at least four points and be two points ahead of their opponent.\n    - Set: A set is won by the player who wins six games first, provided they have a two-game lead over their opponent. If the set goes to a score of 6-6, a tiebreak is played to determine the winner.\n\n4. Serving: The match begins with one player serving the ball, which is hit diagonally from behind the baseline into the opponent's service box. The server changes after each game.\n\n5. Playing: Players rally the ball back and forth, attempting to hit it within the lines of their opponent's court. The point is won when a player fails to return the ball, hits it out of bounds, or commits a fault (such as a double fault on serve).\n\nThese are just a few basic rules and scoring principles for tennis. The sport requires physical ability, strategy, and precise technique to excel."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Considering the spectators in the image, what could motivate the woman to perform well in the tennis match?",
+            "steps": [],
+            "answer": "Given the presence of many people watching the woman play tennis, some factors that could motivate her to perform well include the desire to impress the audience, competition spirit, and enjoying the support from the spectators. The attention of the crowd can potentially increase her focus and determination, as well as add an atmosphere of excitement and challenge to the game. Furthermore, the encouragement and cheering from the spectators can boost her morale, helping her stay motivated and confident throughout the match."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nDescribe the following image."
+        },
+        {
+            "from": "gpt",
+            "value": "In the center of the image, a female tennis player is captured in the midst of a powerful swing. Dressed in a pink skirt and a white cap, she stands out against the blue of the tennis court beneath her feet. Her body is turned to the side, showcasing her athletic form as she prepares to strike the ball. The red and black grip of her tennis racket is held firmly in her hand, the strings of the racket facing towards us, ready to make contact with the ball.\n\nThe court itself is a vibrant blue, providing a stark contrast to the player's attire. The crowd, though blurred in the background, fills the stadium seating, their attention focused on the unfolding match. The image encapsulates a moment of anticipation, as spectators and player alike wait for the swing to connect."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.746296875,
+                0.15258333333333332,
+                0.8237343750000001,
+                0.16872916666666665
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.665,
+                0.10585416666666667,
+                0.7470156250000001,
+                0.17079166666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.10189062499999998,
+                0.1230625,
+                0.21912500000000001,
+                0.3767083333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.200765625,
+                0.03933333333333333,
+                0.2718125,
+                0.184
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.507296875,
+                0.12808333333333333,
+                0.63034375,
+                0.32808333333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8227343749999999,
+                0.18568749999999998,
+                0.9061562499999999,
+                0.350625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8977187499999999,
+                0.17108333333333334,
+                1.0,
+                0.34912499999999996
+            ]
+        },
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.5528125,
+                0.28089583333333334,
+                0.8662968750000001,
+                0.5842708333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.025,
+                0.06275,
+                0.1638541666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.913078125,
+                0.10562500000000001,
+                1.0,
+                0.26114583333333335
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.9517187500000001,
+                0.2512916666666667,
+                0.9624843750000001,
+                0.2894583333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.14810937500000002,
+                0.05616666666666667,
+                0.582015625,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.066015625,
+                0.015645833333333335,
+                0.15921875000000002,
+                0.166
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.5789375,
+                0.10335416666666666,
+                0.654796875,
+                0.16489583333333335
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.75975,
+                0.10497916666666667,
+                0.8359375,
+                0.16131250000000003
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.8619843749999999,
+                0.09706250000000001,
+                0.9403749999999998,
+                0.15877083333333336
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.56421875,
+                0.1650625,
+                0.57434375,
+                0.17608333333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.15447916666666667,
+                0.078484375,
+                0.33262500000000006
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.05940625000000001,
+                0.0,
+                0.151828125,
+                0.027979166666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6192968750000001,
+                0.16902083333333331,
+                0.707984375,
+                0.3203958333333333
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.1555,
+                0.09810416666666667,
+                0.187890625,
+                0.14091666666666666
+            ]
+        }
+    ],
+    "hash_id": "886_coco_train2017_000000195484.jpg"
+}

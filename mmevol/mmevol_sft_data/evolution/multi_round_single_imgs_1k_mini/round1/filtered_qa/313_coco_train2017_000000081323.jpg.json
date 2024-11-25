@@ -1,0 +1,192 @@
+{
+    "id": "000000081323",
+    "image": "coco/train2017/000000081323.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the main object in the image?",
+            "steps": [],
+            "answer": "The main object in the image is a bowl full of oranges placed on a wooden table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any other fruits or objects on the table besides the bowl of oranges?",
+            "steps": [],
+            "answer": "Besides the bowl of oranges, there are additional oranges scattered on the wooden table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the bowl containing the oranges?",
+            "steps": [],
+            "answer": "The bowl containing the oranges is white."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any chairs shown in the image? If so, what color are they?",
+            "steps": [],
+            "answer": "Yes, there are black chairs shown in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image features a wooden dining table with a white bowl in the center, containing a collection of oranges or orange tomatoes. Several oranges can be seen next to the bowl, scattered on the table. There are at least eight loose oranges visible, varying in size and adding a vibrant color to the scene.\n\nTwo black chairs are positioned around the dining table, with one on the left side and the other on the right. Additionally, a tall vase stands in the background towards the right side, further complementing the scene."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might be a possible reason for having so many oranges on the table?",
+            "steps": [],
+            "answer": "A possible reason for having so many oranges on the table could be that someone is hosting a gathering or event where they intend to serve the oranges as a healthy snack or use them as ingredients for preparing food or beverages. The oranges are placed in a white bowl and scattered around the wooden dining table, hinting at a casual and inviting atmosphere where guests can easily take an orange and enjoy its refreshing taste. Moreover, the black chairs surrounding the table suggest that it is a setting for people to sit together and socialize, further indicating that the oranges may serve as refreshments for the event."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a room adorned with wooden flooring, a rustic wooden table takes center stage. Upon this table, a white bowl cradles a bounty of bright, fresh oranges. The vibrant color of the oranges is a stark contrast to the muted tones of the room, drawing the eye immediately. Scattered casually around the bowl are a few more oranges, as if playfully escaping from their ceramic confines. The background is a soft blur, hinting at the presence of furniture but keeping the focus firmly on the tableau on the table. The scene is simple yet striking, a still life painting brought to life."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.44526562500000005,
+                0.015229166666666665,
+                0.6365625,
+                0.3312708333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.20224999999999999,
+                0.029208333333333333,
+                0.318546875,
+                0.28539583333333335
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0,
+                0.2319375,
+                1.0,
+                0.9858958333333333
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.27134375,
+                0.41954166666666665,
+                0.6438124999999999,
+                0.543125
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.8545,
+                0.5094166666666667,
+                0.9707812499999999,
+                0.6397708333333334
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.28504687500000003,
+                0.243625,
+                0.64140625,
+                0.47856249999999995
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.175984375,
+                0.5359375,
+                0.30909375,
+                0.6952291666666667
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.261234375,
+                0.5887708333333334,
+                0.39775,
+                0.7640416666666667
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.035296875,
+                0.5237916666666667,
+                0.16634375,
+                0.6583125
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.150890625,
+                0.45825,
+                0.25571875,
+                0.5988958333333334
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.13082812500000002,
+                0.43514583333333334,
+                0.21370312500000002,
+                0.5270208333333334
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.9079843750000001,
+                0.0002708333333333333,
+                0.9728749999999999,
+                0.126125
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.25379687500000003,
+                0.48070833333333335,
+                0.3434375,
+                0.5890625
+            ]
+        }
+    ],
+    "hash_id": "313_coco_train2017_000000081323.jpg"
+}

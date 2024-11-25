@@ -1,0 +1,235 @@
+{
+    "id": "000000052847",
+    "image": "coco/train2017/000000052847.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the man and the woman wearing sunglasses in the image?",
+            "steps": [],
+            "answer": "Yes, both the man and the woman are wearing sunglasses in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the man and woman doing with the child?",
+            "steps": [],
+            "answer": "The man and woman are sitting down, interacting with the toddler, and giving him attention. They seem to be enjoying their time together as a family."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are in the image?",
+            "steps": [],
+            "answer": "There are three people in the image: a man, a woman, and a toddler."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the man and the woman sitting on the same bench?",
+            "steps": [],
+            "answer": "No, the man and the woman are sitting on separate benches while holding the toddler and interacting with him."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can you tell about the relationship between the adults and the child?",
+            "steps": [],
+            "answer": "Based on the image, it can be inferred that the adults are likely the parents of the child, as they are sitting together, interacting with the toddler, and giving him attention. Their actions suggest a close and nurturing relationship, which is commonly found between parents and their children."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The image features a man and a woman sitting on two benches in an outdoor setting, interacting with a toddler. Both adults are dressed casually, and they're wearing sunglasses. The mother is holding the baby next to the father as they give attention to the small child.\n\nIn the background, there are several cars parked, indicating that the scene likely takes place in a public area or near a parking lot. A few objects are present in the scene, such as a closed umbrella visible behind the benches, and a handbag placed beside the woman. The benches themselves stretch from the left side all the way to the right side of the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might this family be doing or discussing at this outdoor location?",
+            "steps": [],
+            "answer": "This family, consisting of a man, a woman, and a toddler, might be spending quality time together at an outdoor location, sitting on two benches. They could be discussing or sharing their day's experiences, planning their day ahead, or engaging the toddler in a learning or play activity. The presence of cars and other objects in the image, such as umbrellas and a handbag, suggests that this location might be a public space or a park. The family appears to be enjoying each other's company and interacting with each other in a relaxed setting, providing an opportunity for bonding and creating memories."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What do you think is going on in this snapshot?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a serene setting, a moment of tenderness unfolds at a bus stop. A woman, adorned in a pink and white striped shirt and blue jeans, cradles a baby dressed in a cheerful yellow onesie. The baby, secure in the woman's arms, extends its tiny foot towards a man sitting on a black bench. The man, casually dressed in a black shirt and shorts, reaches out to touch the baby's foot, his face likely lit up with affection.\n\nThe bus stop, painted in an inviting shade of green, provides shelter with its glass window that offers a glimpse of a parking lot beyond. The backdrop is graced with trees, their leaves rustling softly, perhaps whispering stories to those who pause and listen. This image captures not just objects and colors, but also the warmth of human connection and the tranquility of an ordinary day."
+        }
+    ],
+    "det": [
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.5812968749999999,
+                0.4262890625,
+                0.6245624999999999,
+                0.750703125
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8844375,
+                0.21634765625,
+                1.0,
+                0.30798828125
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.656625,
+                0.22853515625,
+                0.8257187500000001,
+                0.32416015625
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.569625,
+                0.22373046875,
+                0.7205781250000001,
+                0.32900390625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.563765625,
+                0.33130859375,
+                0.9592812500000001,
+                0.9890234375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.34884375,
+                0.49875,
+                0.563625,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.20540625,
+                0.33896484375,
+                0.5369375,
+                0.9876171875
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.0017968749999999999,
+                0.815625,
+                0.5973124999999999,
+                0.98826171875
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.751453125,
+                0.21892578125,
+                0.9491093750000001,
+                0.31517578125
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.027921875000000002,
+                0.222890625,
+                0.096828125,
+                0.30158203125
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.0,
+                0.24623046875,
+                0.01865625,
+                0.30070312499999996
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.69475,
+                0.71736328125,
+                0.9994531249999999,
+                1.0
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.0,
+                0.39775390625,
+                0.9977499999999999,
+                0.9842773437500001
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.1165,
+                0.20859375,
+                0.27487500000000004,
+                0.343515625
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.46196875000000004,
+                0.2258203125,
+                0.5408437500000001,
+                0.32314453125
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.040734375,
+                0.21728515625,
+                0.140015625,
+                0.3281640625
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.18446875000000001,
+                0.56013671875,
+                0.320953125,
+                0.8649609375
+            ]
+        }
+    ],
+    "hash_id": "725_coco_train2017_000000052847.jpg"
+}

@@ -1,0 +1,365 @@
+{
+    "id": "000000207236",
+    "image": "coco/train2017/000000207236.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What types of transportation are visible in this street scene?",
+            "steps": [],
+            "answer": "In this street scene, there are various types of transportation visible, including trains, cars, and bicycles. Additionally, there are also people walking or crossing the street."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is unique about the location where people are crossing the street?",
+            "steps": [],
+            "answer": "The unique aspect of the location where people are crossing the street is the presence of train tracks, as they are navigating a railway crossing, and this can be seen with both bicycle and pedestrian traffic passing through it."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How are the people getting across the street at the crosswalk?",
+            "steps": [],
+            "answer": "At the crosswalk, people are using different modes of transportation: some are walking, while others are riding their bikes. They are all safely crossing the street together."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there any indication of a traffic light or other road safety infrastructure in the scene?",
+            "steps": [],
+            "answer": "Yes, there is an indication of a traffic light in the scene, as a group of people is crossing the street at the traffic light. This suggests that the area is equipped with road safety infrastructure to guide and control the flow of pedestrian, bicycle, and vehicular traffic."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The image captures a busy street scene filled with various forms of transportation. There are people, trains, cars, and bicycles all coexisting in the same space. A railway crossing is at the center of the scene, with multiple bicycles and pedestrians crossing over the train tracks. \n\nThere is a group of people crossing the street at a traffic light, some walking while others ride their bikes through the crosswalk. Handbags and backpacks can be seen carried by some pedestrians along the street.\n\nNumerous cars and trucks are scattered throughout the scene, sharing the road with bicyclists and pedestrians. Some vehicles are stopped while others seem to be in motion, creating a dynamic urban setting."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What safety measures should be considered in this busy street scene?",
+            "steps": [],
+            "answer": "In this busy street scene, where people, trains, cars, and bicycles are all present, several safety measures should be considered to minimize risks and prevent accidents. These measures include:\n\n1. Proper road signs and markings to indicate where pedestrians, bicycles, and vehicles should be on the road.\n2. Clear, visible traffic lights that help regulate the flow of traffic, especially at railway crossings and intersections.\n3. Designated pedestrian and bicycle safe crossing zones, such as crosswalks, to improve safety for those who are walking or riding bikes.\n4. Railway crossing barriers that work correctly to prevent pedestrians, cyclists, and vehicles from moving through when a train is approaching or present.\n5. Driver and cyclist awareness, including obeying traffic signals, watching for pedestrians, and exercising caution around railway crossings.\n6. Ensuring that pedestrian traffic and cyclists are visible, so they can be easily seen by drivers and other road users, by wearing reflective clothing or using safety lights.\n\nBy promoting these safety measures and ensuring everyone is vigilant, the busy street scene can operate safely and smoothly for all road users."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you think is going on in this snapshot?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a bustling city street, teeming with life and activity. The street, awash in shades of gray and green, is a testament to urban living. Cars, bicycles, and a tram navigate their way through the thoroughfare, each a symbol of the city's diverse modes of transportation.\n\nA tall building stands majestically in the background, its towering presence punctuated by a red \"TN\" logo. This structure, along with the other buildings lining the street, forms a concrete canyon that frames the urban scene.\n\nThe street is adorned with trees that add a touch of nature to the otherwise man-made landscape. Their green leaves contrast beautifully with the gray of the buildings and street, providing a refreshing burst of color.\n\nScattered throughout the scene are traffic lights and signs, their red and yellow hues adding splashes of color to the cityscape. These elements guide the flow of traffic and maintain order amidst the hustle and bustle.\n\nFrom the perspective of a pedestrian on the sidewalk, one can observe all these elements in harmony - the vehicles moving, the traffic lights changing color, and people going about their day. It's a snapshot of city life, captured in one single frame."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.6304531250000001,
+                0.7591489361702127,
+                0.7239531250000001,
+                0.8795744680851064
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.000265625,
+                0.7931382978723405,
+                0.10146875,
+                0.8995212765957448
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6548437500000001,
+                0.7162234042553192,
+                0.69521875,
+                0.841063829787234
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.29615625,
+                0.7101063829787234,
+                0.350375,
+                0.8669148936170212
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.10704687500000001,
+                0.7632978723404256,
+                0.15329687500000003,
+                0.8955851063829787
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.846765625,
+                0.5118085106382979,
+                0.8969999999999999,
+                0.6761702127659575
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.035265625,
+                0.7695478723404255,
+                0.058750000000000004,
+                0.8106648936170213
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.656484375,
+                0.783031914893617,
+                0.67484375,
+                0.8196276595744681
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.210796875,
+                0.7487499999999999,
+                0.2679375,
+                0.8181382978723403
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.205265625,
+                0.7437765957446809,
+                0.25007812500000004,
+                0.8144946808510638
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.4506875,
+                0.6878191489361702,
+                0.487140625,
+                0.764813829787234
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.772921875,
+                0.7122872340425531,
+                0.812265625,
+                0.8112234042553191
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.739703125,
+                0.7565957446808511,
+                0.7726875000000001,
+                0.8088031914893618
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.60928125,
+                0.7318351063829788,
+                0.639328125,
+                0.7767287234042554
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.5863437499999999,
+                0.7271808510638298,
+                0.606203125,
+                0.7647074468085108
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.531734375,
+                0.7037765957446809,
+                0.54578125,
+                0.7578457446808511
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.33410937500000004,
+                0.7498404255319149,
+                0.35021875,
+                0.7874468085106383
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.260015625,
+                0.7763563829787234,
+                0.360046875,
+                0.877712765957447
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.357765625,
+                0.7305851063829787,
+                0.377140625,
+                0.7604521276595745
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.559890625,
+                0.7354787234042554,
+                0.582109375,
+                0.7696010638297872
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.54296875,
+                0.7301063829787233,
+                0.5654375,
+                0.7623404255319148
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.594109375,
+                0.7393617021276596,
+                0.61453125,
+                0.7694148936170213
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.72,
+                0.7496276595744681,
+                0.752125,
+                0.7983510638297873
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.63625,
+                0.7428457446808511,
+                0.65575,
+                0.777340425531915
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.649234375,
+                0.7416489361702128,
+                0.664125,
+                0.7790691489361702
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.50909375,
+                0.7349468085106382,
+                0.52246875,
+                0.7597340425531914
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.604953125,
+                0.7335372340425532,
+                0.6382656250000001,
+                0.7757978723404255
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.687484375,
+                0.7421542553191489,
+                0.7093906249999999,
+                0.7813829787234042
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.808640625,
+                0.6825,
+                0.917984375,
+                0.8184308510638298
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.74065625,
+                0.753377659574468,
+                0.763578125,
+                0.8065159574468085
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.32425000000000004,
+                0.7372606382978723,
+                0.33628125,
+                0.7602925531914894
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0320625,
+                0.7105851063829788,
+                0.0701875,
+                0.873936170212766
+            ]
+        }
+    ],
+    "hash_id": "265_coco_train2017_000000207236.jpg"
+}

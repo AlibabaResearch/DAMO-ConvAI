@@ -1,0 +1,343 @@
+{
+    "id": "000000209304",
+    "image": "coco/train2017/000000209304.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "In the image, a large group of people are enjoying a sunny day on the beach next to the ocean with its waves coming in. Among the many beachgoers, several kites of various sizes and colors can be seen flying in the air, adding to the festive atmosphere. Some people have set up tents and umbrellas to provide shade and relaxation areas during the beach day.\n\nMultiple surfboards are present on the beach, suggesting some of the people might surf or spend time in the water. A couple of small boats are also visible around the beach area, possibly offering leisure activities for the visitors. The scene captures the essence of a fun-filled beach day with friends and family, with people likely camping, engaging in water sports, and flying kites as a part of a recreational event or festival."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What activity appears to be popular among the people at the beach during the event?",
+            "steps": [],
+            "answer": "At the beach event, kite flying seems to be a popular activity among the people. There are several kites of different sizes flying in the air, which indicates that people are actively participating in and enjoying this leisurely pastime. This activity, along with people camping and setting up tents, contributes to the overall festive atmosphere of the beach gathering."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat are the key elements in this picture?"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a vibrant beach scene under a blue sky dotted with a few clouds. The sandy beach is bustling with people engaged in various activities. Some are leisurely walking along the shoreline, while others are sitting under the shade of several multicolored umbrellas and tents that are scattered across the beach. \n\nIn the background, the azure ocean meets the sky at the horizon. Adding to the lively atmosphere, numerous colorful kites are soaring high in the sky, their tails fluttering in the wind. \n\nOn the beach, you can spot surfboards waiting to ride the waves, sailboats anchored nearby, and comfortable beach chairs inviting you to relax. The predominant colors in this panoramic photo are shades of blue, green, and orange, painting a picture of a perfect day at the beach."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.7620312499999999,
+                0.756958174904943,
+                0.800546875,
+                0.863916349809886
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5550625,
+                0.760342205323194,
+                0.58175,
+                0.8611787072243346
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9121406249999999,
+                0.7384410646387833,
+                0.950171875,
+                0.8165399239543726
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.389875,
+                0.7322433460076047,
+                0.41371875,
+                0.8118250950570343
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8093281250000001,
+                0.6657414448669202,
+                0.8551875000000001,
+                0.8619011406844107
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.76465625,
+                0.8308365019011407,
+                0.789828125,
+                0.9509885931558935
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8569687500000001,
+                0.5037262357414448,
+                0.8639531250000001,
+                0.5603041825095056
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8343281250000001,
+                0.5211406844106464,
+                0.8445625,
+                0.5736121673003802
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.0805,
+                0.12422053231939165,
+                0.09510937500000001,
+                0.17889733840304184
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.0110625,
+                0.4067680608365019,
+                0.024531249999999998,
+                0.44889733840304186
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.19290625,
+                0.40368821292775664,
+                0.20190625,
+                0.4494296577946768
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.32404687499999996,
+                0.581596958174905,
+                0.329546875,
+                0.6522433460076046
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.948890625,
+                0.7509125475285171,
+                0.9761562500000001,
+                0.9459315589353612
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8626875,
+                0.729125475285171,
+                0.893515625,
+                0.8380228136882129
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.26090625,
+                0.6520152091254753,
+                0.29728125,
+                0.6922433460076046
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.228484375,
+                0.3111787072243346,
+                0.297125,
+                0.6926235741444867
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.8096875000000001,
+                0.6991254752851711,
+                0.82909375,
+                0.7662737642585551
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.253546875,
+                0.7492395437262358,
+                0.34765625,
+                0.8748288973384031
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.696734375,
+                0.5236121673003803,
+                0.718890625,
+                0.5520912547528518
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.634078125,
+                0.5499619771863118,
+                0.657671875,
+                0.5820532319391635
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.872609375,
+                0.47798479087452467,
+                0.88753125,
+                0.5277566539923954
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.230953125,
+                0.43102661596958175,
+                0.24079687500000002,
+                0.45806083650190116
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.384953125,
+                0.40513307984790875,
+                0.393171875,
+                0.4268060836501901
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.7265312500000001,
+                0.3422813688212928,
+                0.73384375,
+                0.36098859315589354
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.631875,
+                0.33574144486692015,
+                0.642296875,
+                0.35456273764258556
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.3720625,
+                0.3935361216730038,
+                0.378328125,
+                0.41768060836501897
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.68703125,
+                0.37593155893536123,
+                0.6961875,
+                0.40087452471482893
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.09996875,
+                0.424106463878327,
+                0.105453125,
+                0.4485171102661597
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.37506249999999997,
+                0.6496577946768062,
+                0.465921875,
+                0.7180988593155894
+            ]
+        },
+        {
+            "label": "surfboard",
+            "bbox": [
+                0.30759375,
+                0.6898859315589354,
+                0.349171875,
+                0.7126235741444866
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8491406250000001,
+                0.7528136882129278,
+                0.8701875000000001,
+                0.8861596958174905
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.45289062500000005,
+                0.3979467680608365,
+                0.45846875000000004,
+                0.41954372623574143
+            ]
+        },
+        {
+            "label": "surfboard",
+            "bbox": [
+                0.098609375,
+                0.7190874524714829,
+                0.184953125,
+                0.7720532319391635
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.405765625,
+                0.5432699619771862,
+                0.40954687500000003,
+                0.5711406844106465
+            ]
+        }
+    ],
+    "hash_id": "214_coco_train2017_000000209304.jpg"
+}

@@ -91,9 +91,17 @@ class OpenAIWrapper(BaseAPI):
         else:
             self.logger.error('Unknown API Base. ')
             sys.exit(-1)
-        self.api_base = "http://47.88.8.18:8088/api/ask"
-        self.key = ""
-        self.model = "gpt-4o-mini"
+        # your api_base
+        self.api_base=""
+        # your key
+        self.key=""
+
+        assert len(self.api_base)>0 and len(self.key)>0, "make sure tha both api_base and key are configured correctly"
+
+
+
+        # self.model="gpt-4o-2024-05-13"
+        model = "gpt-4o-mini"
         self.logger.info(f'Using API Base: {self.api_base}; API Key: {self.key}')
 
     # inputs can be a lvl-2 nested list: [content1, content2, content3, ...]

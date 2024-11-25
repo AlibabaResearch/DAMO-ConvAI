@@ -1,0 +1,334 @@
+{
+    "id": "000000000790",
+    "image": "coco/train2017/000000000790.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image features a group of people, likely a family, gathered around a dining table, on which a birthday cake is placed. There are four people seated at the table, and various cups, forks, knives, and a bowl are also positioned on the table. Notably, there are several bottles near the setting, possibly containing beverages to accompany the celebration.\n\nIn addition to the family, there is a dog present in the scene, possibly a family pet. The room is decoratively adorned with two potted plants, one in the left corner and the other near the center. Surrounding the table, multiple chairs can be spotted, some of which are occupied by individuals. A clock hangs in the background, marking the time during the special occasion."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many cups and bottles can be found on the dining table? And what might be the possible occasion they are celebrating?",
+            "steps": [],
+            "answer": "On the dining table, there are four cups and six bottles. The people gathered around the table are celebrating a birthday, as evidenced by the cake present in the middle of the table."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat are the key elements in this picture?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of the image, a joyous gathering unfolds around a dining table, bathed in the warm hues of an orange tablecloth. A woman, the center of attention, is in the midst of cutting a cake, her hands delicately handling the knife. To her left, a man is captured mid-toast, a glass held aloft in his hand. Opposite him, another man is poised with a fork, anticipation etched on his face.\n\nThe table is a tableau of celebration - plates and glasses are scattered around, awaiting the cake's division. A straw hat rests in the center of the table, perhaps a playful nod to the occasion's casual atmosphere.\n\nOn the right side of the table, a woman sits with her hands folded neatly in her lap, her attention riveted on the cake-cutting ceremony. Adding to the homely scene, a black dog has found a cozy spot under the table on the right side, its presence adding a touch of warmth to the gathering.\n\nThe background frames this intimate scene with a wooden cabinet and a window adorned with plants, casting soft natural light into the room. The entire scene paints a picture of a cozy gathering, filled with laughter and shared stories."
+        }
+    ],
+    "det": [
+        {
+            "label": "dog",
+            "bbox": [
+                0.796296875,
+                0.818436018957346,
+                0.955828125,
+                0.9898104265402843
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.20074999999999998,
+                0.00490521327014218,
+                0.378328125,
+                0.38898104265402844
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.000359375,
+                0.5119431279620853,
+                0.181875,
+                1.0
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.790109375,
+                0.6497867298578198,
+                0.92653125,
+                0.9450473933649288
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7190000000000001,
+                0.44296208530805686,
+                0.7678750000000001,
+                0.6014928909952607
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.1753125,
+                0.44902843601895737,
+                0.7881406249999999,
+                0.9901895734597157
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.330796875,
+                0.18499999999999997,
+                0.48326562500000003,
+                0.47113744075829384
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.011859375,
+                0.2626777251184834,
+                0.31528125,
+                0.8958056872037914
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.515234375,
+                0.23753554502369667,
+                0.74140625,
+                0.6663270142180094
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.67715625,
+                0.3176303317535545,
+                0.9831875,
+                1.0
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.570546875,
+                0.1526303317535545,
+                0.60134375,
+                0.19995260663507108
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.5289843750000001,
+                0.5445023696682465,
+                0.564015625,
+                0.6577251184834123
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.31603125,
+                0.5969431279620853,
+                0.358765625,
+                0.7310663507109004
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.49874999999999997,
+                0.47537914691943134,
+                0.531046875,
+                0.5717772511848341
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.330421875,
+                0.5639336492890995,
+                0.36859375,
+                0.6797393364928909
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.31375000000000003,
+                0.8425592417061611,
+                0.338984375,
+                0.9582464454976303
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.5963437500000001,
+                0.7222985781990522,
+                0.680921875,
+                0.7430805687203791
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.46314062500000003,
+                0.48663507109004744,
+                0.474078125,
+                0.5068483412322276
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.302265625,
+                0.478957345971564,
+                0.346015625,
+                0.5123459715639811
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.369640625,
+                0.44412322274881516,
+                0.458796875,
+                0.5248104265402843
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.70521875,
+                0.3149763033175355,
+                0.72503125,
+                0.3862559241706161
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.389390625,
+                0.004976303317535545,
+                0.565609375,
+                0.3044549763033175
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.475015625,
+                0.39080568720379144,
+                0.500828125,
+                0.4886729857819905
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.26065625,
+                0.488388625592417,
+                0.2984375,
+                0.5020616113744076
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.24929687500000003,
+                0.5813744075829383,
+                0.292625,
+                0.595995260663507
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.3233125,
+                0.365521327014218,
+                0.48284374999999996,
+                0.39329383886255925
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.737953125,
+                0.30947867298578197,
+                0.7585468750000001,
+                0.3437440758293839
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.75134375,
+                0.32284360189573463,
+                0.77003125,
+                0.3480568720379147
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.75809375,
+                0.30978672985781985,
+                0.7735000000000001,
+                0.34800947867298576
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.774359375,
+                0.3219668246445498,
+                0.7898281249999999,
+                0.34739336492890993
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.728890625,
+                0.3159952606635071,
+                0.740234375,
+                0.33092417061611373
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.249796875,
+                0.5772037914691943,
+                0.315328125,
+                0.5952132701421801
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.56446875,
+                0.5695734597156399,
+                0.601890625,
+                0.5788862559241706
+            ]
+        }
+    ],
+    "hash_id": "42_coco_train2017_000000000790.jpg"
+}

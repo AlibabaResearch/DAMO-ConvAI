@@ -1,0 +1,217 @@
+{
+    "id": "000000149414",
+    "image": "coco/train2017/000000149414.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of vehicle is the main subject of the image?",
+            "steps": [],
+            "answer": "The main subject of the image is a city bus."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the bus in the image?",
+            "steps": [],
+            "answer": "The bus in the image is blue and white."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of street is the bus driving down?",
+            "steps": [],
+            "answer": "The bus is driving down a quiet city street, which appears to be relatively empty."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the bus doing or where is it going in the image?",
+            "steps": [],
+            "answer": "The bus is leaving a bus stop and moving slowly down the street."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What types of establishments can be seen on the opposite side of the street from the bus?",
+            "steps": [],
+            "answer": "On the opposite side of the street from the bus, there is a church and several stores."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The image shows a wide city street with a large blue and white city bus moving down the road, leaving a bus stop. The street appears to be relatively empty, with only a few cars scattered in the background. On the opposite side of the street, you can see a few stores and a church.\n\nThere are several people on the sidewalk, some of them carrying handbags. There is also a bench near the sidewalk, a fire hydrant not too far from the bench, and a traffic light standing above the street. Despite the bus and a few pedestrians, the overall atmosphere of the scene is calm and quiet."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might be the reason for the quiet street with only a few pedestrians and a bus?",
+            "steps": [],
+            "answer": "Several reasons might explain why the city street is relatively quiet with only a few pedestrians and a bus on the road. One possibility is that the image was captured during off-peak hours when there is typically less activity and traffic. This could be early in the morning, late in the evening, or during the midday break when most people are at work or school, and the street experiences a lull in activity.\n\nAnother possible explanation could be that the area is experiencing a local event or circumstance that has led to a temporary reduction in activity, such as inclement weather, nearby construction, or road closures diverting regular traffic flow elsewhere. Additionally, the street may be located in a less popular or less densely populated part of the city, resulting in naturally lower pedestrian and vehicle activities.\n\nRegardless of the reason, the limited street activity provides a smoother and less congested experience for the city bus and pedestrians, allowing them to move around more efficiently and quickly."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the image, a vibrant blue BX12 bus, numbered 1221, is the main subject. It's making its way down a bustling city street, heading towards Broadway Inwood. The bus is on the right side of the street, adhering to the rules of the road.\n\nThe street itself is lined with a variety of buildings, including a church and a store with a distinctive yellow awning. A deli is also visible as the bus drives past. On the left side of the street, several cars are neatly parked, adding to the urban atmosphere.\n\nAbove, the sky is a clear blue, matching the hue of the bus. On the right side of the street, trees can be seen, providing a touch of nature amidst the cityscape. The combination of man-made structures and natural elements creates a dynamic and lively scene."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.6758437500000001,
+                0.5331147540983606,
+                0.7587343750000001,
+                0.5714988290398125
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.23781249999999998,
+                0.5007259953161592,
+                0.25884375,
+                0.521943793911007
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.249890625,
+                0.4950117096018736,
+                0.268234375,
+                0.5189929742388759
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.26828124999999997,
+                0.493864168618267,
+                0.29324999999999996,
+                0.5146604215456674
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.305046875,
+                0.34796252927400473,
+                0.68521875,
+                0.7759016393442623
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.129171875,
+                0.5171662763466043,
+                0.143390625,
+                0.562248243559719
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.09353125,
+                0.5088056206088992,
+                0.10903125,
+                0.5765573770491803
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.165109375,
+                0.5097423887587822,
+                0.19321875,
+                0.5942857142857143
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.170875,
+                0.4955035128805621,
+                0.18034375,
+                0.5248946135831383
+            ]
+        },
+        {
+            "label": "fire hydrant",
+            "bbox": [
+                0.212828125,
+                0.6086182669789227,
+                0.23646875,
+                0.7184543325526932
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.16696875,
+                0.5203512880562061,
+                0.179328125,
+                0.5531381733021077
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.22225,
+                0.49299765807962526,
+                0.23282812500000002,
+                0.509695550351288
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.3310625,
+                0.3971896955503513,
+                0.33799999999999997,
+                0.4213114754098361
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.10384374999999998,
+                0.5225058548009368,
+                0.1120625,
+                0.5458548009367682
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.11815625,
+                0.527400468384075,
+                0.133453125,
+                0.5563466042154567
+            ]
+        }
+    ],
+    "hash_id": "15_coco_train2017_000000149414.jpg"
+}

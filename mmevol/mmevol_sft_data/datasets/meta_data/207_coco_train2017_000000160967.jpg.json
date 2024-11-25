@@ -1,0 +1,244 @@
+{
+    "id": "000000160967",
+    "image": "coco/train2017/000000160967.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the beach chair in the image?",
+            "steps": [],
+            "answer": "The beach chair in the image is blue."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there an umbrella providing shade for the person in the beach chair?",
+            "steps": [],
+            "answer": "Yes, there is an umbrella providing shade for the person in the beach chair."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people in the water doing?",
+            "steps": [],
+            "answer": "The people in the water are playing and swimming."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of vehicle can be seen passing by on the water?",
+            "steps": [],
+            "answer": "A white boat can be seen passing by on the water."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any cabanas visible in the image?",
+            "steps": [],
+            "answer": "Yes, many cabanas can be seen near the beach on the ocean."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image depicts a sunny day at the beach, with people enjoying various activities. A man is seen relaxing in a blue beach chair, placed underneath a large umbrella. Numerous other people are scattered across the beach, with some sitting under umbrellas or standing near the water. \n\nThere are a few people playing in the water, as a white boat can be spotted passing by in the ocean. Additionally, a sports ball is visible near the edge of the image, suggesting that beach goers are engaging in various recreational activities. \n\nIn the beach setup, some items are placed nearby, including a bottle and a cup on the sandy surface, indicating that people are probably having refreshments while enjoying the beach atmosphere. A few more beach chairs and umbrellas can be seen in the scene, accommodating those who seek shade and relaxation."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a vibrant day at the beach. The main focus is a red, white, and blue striped umbrella, open wide to provide shade from the sun. It's attached to a white pole that's firmly planted in the sand. \n\nTo the left of the umbrella, there's a blue beach chair, inviting relaxation. A green towel is casually draped over it, perhaps after a refreshing dip in the sea. \n\nOn the right of the umbrella, there's a collection of beach gear. A pink and white striped towel is visible, along with a green and white striped ball - maybe for a game of beach volleyball later? There's also a red and white cooler, likely packed with refreshing drinks and snacks for the day.\n\nIn the background, there are several people enjoying the water and lounging on the beach. Far off in the distance, a white boat can be seen, adding to the idyllic beach scene."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.27018749999999997,
+                0.6509166666666667,
+                0.35920312499999996,
+                0.7116666666666667
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.5523281250000001,
+                0.5216041666666666,
+                0.6155625,
+                0.5571041666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.1608125,
+                0.7287708333333334,
+                0.186953125,
+                0.7858750000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7043437499999999,
+                0.5675208333333334,
+                0.7171718749999999,
+                0.5878541666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.073421875,
+                0.7596875,
+                0.116234375,
+                0.7855
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6651875,
+                0.5702083333333333,
+                0.676453125,
+                0.5872708333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.52946875,
+                0.5631458333333333,
+                0.5387968750000001,
+                0.5841666666666666
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.16984375000000002,
+                0.17489583333333333,
+                0.790359375,
+                0.9013541666666666
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.0008437500000000001,
+                0.27970833333333334,
+                0.10134375,
+                0.43816666666666665
+            ]
+        },
+        {
+            "label": "sports ball",
+            "bbox": [
+                0.883015625,
+                0.9179999999999999,
+                0.956609375,
+                0.999625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8059531249999999,
+                0.5645416666666667,
+                0.81765625,
+                0.5861666666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8368437500000001,
+                0.5641041666666666,
+                0.8445,
+                0.5799583333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.184421875,
+                0.5664583333333333,
+                0.19439062499999998,
+                0.590625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.43348437500000003,
+                0.7018333333333333,
+                0.454,
+                0.737375
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.46375,
+                0.8927499999999999,
+                0.48704687500000005,
+                0.9797083333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.4295,
+                0.9315416666666666,
+                0.465515625,
+                0.999375
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.197140625,
+                0.7031875,
+                0.41828125,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.16343749999999999,
+                0.5698124999999999,
+                0.175390625,
+                0.5898333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.21779687499999997,
+                0.759625,
+                0.2401875,
+                0.7815416666666667
+            ]
+        }
+    ],
+    "hash_id": "207_coco_train2017_000000160967.jpg"
+}

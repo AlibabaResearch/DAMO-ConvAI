@@ -1,0 +1,210 @@
+{
+    "id": "000000067220",
+    "image": "coco/train2017/000000067220.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The scene depicts a busy street with several people and vehicles. An emergency response person, possibly a medical professional, is riding a motorcycle with an \"ambulance\" sign on the back. A police officer on a motorcycle is pulling over a black car, likely due to traffic violation or speeding.\n\nThere are numerous other people in the scene, with some of them carrying backpacks or handbags. It's also worth noting that there is a bus present in the street, suggesting a well-connected urban environment.\n\nOverall, the scene captures a dynamic urban setting with emergency response and law enforcement personnel in action."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What unique feature does the motorcycle have, and what purpose might it serve?",
+            "steps": [],
+            "answer": "The motorcycle in the image has a sign on the back that reads \"ambulance.\" This unique feature suggests that the motorcycle is an emergency response vehicle, more specifically designed to provide medical assistance in situations where a traditional ambulance might be less practical or takes longer to reach. The motorcycle's smaller size and maneuverability would allow the medical personnel riding it to navigate through traffic more easily, potentially reaching the scene of an accident or providing urgent medical support to people in need more quickly than a larger vehicle."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nAnalyze the image in a comprehensive and detailed manner."
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a vibrant scene from a bustling street in London. Dominating the center of the frame is a yellow motorcycle ambulance, adorned with red and white stripes. A blue light perched on top of the vehicle signals its urgency as it navigates through the traffic.\n\nTo the left of the ambulance, a black taxi is visible, its license plate reading \"LT61 ZMU\". On the right, a classic red double-decker bus adds a touch of quintessential British charm to the scene.\n\nThe street is lined with buildings and shops, their facades blurred in the background. Pedestrians can be seen on the sidewalks, adding life to the urban landscape. The license plate of the motorcycle ambulance reads \"J58 OFX\", hinting at its origin and purpose.\n\nOverall, the image paints a vivid picture of life in London, with its mix of modern urgency in the form of the ambulance and traditional elements like the double-decker bus."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.00153125,
+                0.140375,
+                0.35510937499999995,
+                0.7484166666666667
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.4809375,
+                0.394875,
+                0.755046875,
+                0.8522708333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.495421875,
+                0.31329166666666663,
+                0.716046875,
+                0.5233958333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.788765625,
+                0.1460625,
+                0.8747187500000001,
+                0.5325833333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8460625,
+                0.17752083333333332,
+                0.940453125,
+                0.5887708333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.36059375,
+                0.288375,
+                0.42503124999999997,
+                0.5093958333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8626875,
+                0.11866666666666667,
+                0.9139687500000001,
+                0.25404166666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.43420312499999997,
+                0.28729166666666667,
+                0.47474999999999995,
+                0.35625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9884375000000001,
+                0.12158333333333333,
+                1.0,
+                0.23666666666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.40909375,
+                0.28579166666666667,
+                0.42926562500000004,
+                0.3425416666666667
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.7466406250000001,
+                0.2003125,
+                0.814890625,
+                0.321
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.35884375,
+                0.3303125,
+                0.3818125,
+                0.4061458333333334
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.8859999999999999,
+                0.3439375,
+                0.9382187499999999,
+                0.4326041666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9362187499999999,
+                0.17427083333333335,
+                0.975421875,
+                0.2639791666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.42115625,
+                0.2759375,
+                0.45540625000000007,
+                0.35995833333333327
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8255625,
+                0.18183333333333335,
+                0.8833593750000001,
+                0.2946666666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9069375000000001,
+                0.11314583333333333,
+                0.9504375000000002,
+                0.2343125
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.33796875000000004,
+                0.08354166666666667,
+                0.47203125,
+                0.367375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9351875,
+                0.10560416666666667,
+                0.9705468749999999,
+                0.1826875
+            ]
+        }
+    ],
+    "hash_id": "39_coco_train2017_000000067220.jpg"
+}

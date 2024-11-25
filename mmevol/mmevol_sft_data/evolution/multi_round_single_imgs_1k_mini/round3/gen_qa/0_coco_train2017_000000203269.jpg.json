@@ -1,0 +1,86 @@
+```json
+[
+    {
+        "image_position": "single",
+        "objects": ["tree", "paper dispenser", "sign", "people"],
+        "skills": ["Context Understanding Ability"],
+        "format": "completeness_of_response",
+        "question": "Based on the image, can you provide a comprehensive list of what is found on the sidewalk, taking into account various elements such as trees, signage, and pedestrian activity?",
+        "steps": [
+            {"manipulation": "None", "description": "Identify and detail all visual elements on the sidewalk."}
+        ],
+        "answer": "On the sidewalk in the image, there are two trees, a paper dispenser, a large sign indicating nearby locations, various other signage including one for a hotel, and numerous people walking on the street."
+    },
+    {
+        "image_position": "single",
+        "objects": ["hotel sign"],
+        "skills": ["Existence Ability"],
+        "format": "object_region_matching",
+        "question": "Does the hotel sign in the image exhibit a particular color? If so, identify it.",
+        "steps": [
+            {"manipulation": "grounding_1(hotel sign)->bbx_1", "description": "Locate the hotel sign in the image and return the corresponding box."}
+        ],
+        "answer": "The hotel sign is green."
+    },
+    {
+        "image_position": "single",
+        "objects": ["tree"],
+        "skills": ["Calculating Ability"],
+        "format": "region_selection",
+        "question": "Select the regions in the image that represent the trees present on the sidewalk.",
+        "steps": [
+            {"manipulation": "grounding_1(tree_1)->bbx_1", "description": "Locate the first tree in the image and return the corresponding box."},
+            {"manipulation": "grounding_2(tree_2)->bbx_2", "description": "Locate the second tree in the image and return the corresponding box."}
+        ],
+        "answer": "[Coordinates for tree 1], [Coordinates for tree 2]"
+    },
+    {
+        "image_position": "single",
+        "objects": ["people"],
+        "skills": ["Existence Ability"],
+        "format": "depth_order",
+        "question": "Determine if there are any individuals present in the scene and describe their activities.",
+        "steps": [
+            {"manipulation": "grounding_1(person)->bbx_1", "description": "Locate people in the image and return the corresponding boxes."}
+        ],
+        "answer": "Yes, there are people walking on the street in the image, engaged in various activities."
+    },
+    {
+        "image_position": "single",
+        "objects": ["signage"],
+        "skills": ["Context Understanding Ability", "Knowledge Integration Ability"],
+        "format": "rationales_generation",
+        "question": "Provide rationale for the inference that this location is an urban area based on the elements present in the image, such as the hotel sign and pedestrian activity.",
+        "steps": [
+            {"manipulation": "None", "description": "Identify elements like the hotel sign, paper dispenser, and trees that indicate an urban environment."}
+        ],
+        "answer": "1. The presence of a hotel sign suggests accommodations for travelers. 2. The paper dispenser indicates availability of local news, typical in urban settings. 3. The number of pedestrians and signage indicates a busy, commercial atmosphere."
+    },
+    {
+        "image_position": "single",
+        "objects": ["people", "tree", "signage"],
+        "skills": ["Context Understanding Ability"],
+        "format": "creative_content_generation",
+        "question": "Describe what is occurring in this lively scene, focusing on the interaction between pedestrians, the urban environment, and the natural elements present.",
+        "steps": [
+            {"manipulation": "None", "description": "Summarize the scene's activities and ambiance."}
+        ],
+        "answer": "The image depicts a busy sidewalk filled with people walking briskly. Two trees offer shade and greenery amidst urban signage, including a large green hotel sign. Vehicles like cars and motorcycles pass by, creating a dynamic atmosphere where travelers and locals alike navigate this vibrant street."
+    },
+    {
+        "image_position": "single",
+        "objects": ["signage"],
+        "skills": ["Knowledge Integration Ability"],
+        "format": "multi_choice",
+        "question": "What types of information can pedestrians gather from the signs visible in the image? 
+        A) Directions to local hotels
+        B) Safety regulations for crossing
+        C) Nearby attractions and services
+        D) All of the above",
+        "steps": [
+            {"manipulation": "None", "description": "Evaluate the information presented by the various signs in the scene."}
+        ],
+        "answer": "D"
+    }
+]
+```

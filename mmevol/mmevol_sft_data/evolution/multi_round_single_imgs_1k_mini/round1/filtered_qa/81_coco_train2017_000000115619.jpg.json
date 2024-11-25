@@ -1,0 +1,354 @@
+{
+    "id": "000000115619",
+    "image": "coco/train2017/000000115619.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where is the man sitting in the image?",
+            "steps": [],
+            "answer": "The man is sitting at a table in his kitchen."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of meal is the man having?",
+            "steps": [],
+            "answer": "The man is having his breakfast, which includes a plate of food and a glass of juice."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the man holding in his hand?",
+            "steps": [],
+            "answer": "The man is holding a glass of juice in his hand."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you see any kitchen appliances in the image?",
+            "steps": [],
+            "answer": "Yes, there is an oven visible in the kitchen."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there any fruit present in the image?",
+            "steps": [],
+            "answer": "Yes, there is fruit present in the image, which is most likely a part of the man's breakfast."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image shows a man sitting on a chair at a dining table in his kitchen. He appears to be eating breakfast, with a variety of food items spread out before him. On the table, there is a plate of food, a glass of juice he is holding in his hand, and multiple fruits such as apples, oranges, and a banana. \n\nKitchen utensils like forks, knives, and spoons are seen on the table, as well as several cups and bottles. There are also a couple of bowls present. The kitchen itself includes an oven situated towards the right side and a sink located closer to the background. There are a few more chairs around the dining table, hinting at a shared living space or potential gathering area."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can someone typically have for breakfast in this setting?",
+            "steps": [],
+            "answer": "In this kitchen setting, someone could typically have a breakfast consisting of various fruits such as apples, oranges, and bananas. They might also have a bowl of other food items like cereal or oatmeal, and they can enjoy a glass of juice or a cup of tea or coffee. The table has multiple utensils like forks, knives, and spoons, which the person can use according to their meal preferences. The presence of an oven may also suggest that a warm, cooked meal could be prepared for breakfast. Overall there is a diverse range of possible breakfast items in this kitchen that cater to different tastes and preferences."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Describe the following image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy kitchen, a man finds solace in his meal. He's seated at a sturdy wooden dining table, dressed in a white and blue striped shirt. His attention is focused on the plate of food before him, a testament to the culinary delights that this kitchen has produced.\n\nThe kitchen itself is a symphony of brown, white, and black hues. Wooden cabinets line the walls, their polished surfaces reflecting the soft light that filters in through the window above the sink. The sink is filled with dishes, remnants of meals enjoyed and evidence of life lived.\n\nA black stove stands guard on one side, an essential tool in the creation of many a delicious dish. Various kitchen appliances share space on the counter, each with its own role in the culinary dance that takes place here. Among them, a fruit bowl adds a splash of color and a promise of natural sweetness.\n\nThe relative positions of these objects tell a story of functionality and convenience. The stove is within easy reach of the sink, making it easy to transfer pots and pans. The dining table is not far off, allowing for hot meals to be served straight from the stove.\n\nThis image captures more than just a moment; it captures a lifestyle centered around the joy of food and the comfort of home."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.021249999999999998,
+                0.48674999999999996,
+                0.046765625,
+                0.5444166666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.946078125,
+                0.7659166666666667,
+                0.9780625000000001,
+                0.9251666666666666
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.344421875,
+                0.7616875000000001,
+                0.5761875,
+                0.9891666666666666
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.34304687500000003,
+                0.6322916666666667,
+                0.9887968749999999,
+                0.9887916666666666
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.554765625,
+                0.723625,
+                0.597359375,
+                0.8055833333333332
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.622078125,
+                0.7868125,
+                0.675796875,
+                0.8352083333333334
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.671359375,
+                0.2811458333333333,
+                0.693625,
+                0.40247916666666667
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.737015625,
+                0.8796041666666666,
+                0.8793749999999999,
+                0.9887916666666666
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.42503124999999997,
+                0.6536666666666666,
+                0.44575,
+                0.6787500000000001
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.597984375,
+                0.8479166666666667,
+                0.6422343749999999,
+                0.9016875
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.8296875,
+                0.08760416666666666,
+                1.0,
+                0.4114375
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.24943749999999998,
+                0.48539583333333336,
+                0.38090624999999995,
+                0.5483125
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.523421875,
+                0.3889166666666667,
+                0.540421875,
+                0.4515625
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.24470312500000002,
+                0.4081458333333333,
+                0.25628125,
+                0.43812500000000004
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.601828125,
+                0.7784166666666666,
+                0.67540625,
+                0.8387291666666666
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.800140625,
+                0.38545833333333335,
+                0.817859375,
+                0.4235208333333334
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.8139687500000001,
+                0.3875,
+                0.830203125,
+                0.411375
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.361015625,
+                0.6378125,
+                0.48484375,
+                0.7088333333333333
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.7229375,
+                0.9006875,
+                0.878734375,
+                0.9987708333333333
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.401671875,
+                0.6658958333333334,
+                0.42629687499999996,
+                0.6805
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.7801875,
+                0.9415208333333334,
+                0.8171406250000001,
+                0.9796875
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.654109375,
+                0.8233958333333333,
+                0.698375,
+                0.9405416666666667
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.38353125,
+                0.6589375000000001,
+                0.4072656250000001,
+                0.6837500000000001
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.44415625,
+                0.6497499999999999,
+                0.47298437499999996,
+                0.6737708333333333
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.40621875,
+                0.6411874999999999,
+                0.4326562500000001,
+                0.6695625
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.578578125,
+                0.6415624999999999,
+                0.69740625,
+                0.7272708333333333
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.62003125,
+                0.35874999999999996,
+                0.635265625,
+                0.4507291666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5466249999999999,
+                0.42870833333333336,
+                0.9580624999999999,
+                0.9150833333333334
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.44284375000000004,
+                0.6501874999999999,
+                0.47232812500000004,
+                0.6757708333333332
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.204734375,
+                0.46156250000000004,
+                0.247609375,
+                0.5167083333333333
+            ]
+        }
+    ],
+    "hash_id": "81_coco_train2017_000000115619.jpg"
+}

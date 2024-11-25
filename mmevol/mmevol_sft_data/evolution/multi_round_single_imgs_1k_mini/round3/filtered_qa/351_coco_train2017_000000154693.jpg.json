@@ -1,0 +1,221 @@
+{
+    "id": "000000154693",
+    "image": "coco/train2017/000000154693.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many men are there in the image?",
+            "steps": [],
+            "answer": "There are two men in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the men doing in the image?",
+            "steps": [],
+            "answer": "The two men are talking with each other, possibly looking at something in their hand."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe their clothes?",
+            "steps": [],
+            "answer": "One of the men is wearing a brown jacket, and the other man is wearing a green shirt."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a parked bike in the image?",
+            "steps": [],
+            "answer": "Yes, there is a parked bike near the two men who are talking."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there anyone with a pet in the image?",
+            "steps": [],
+            "answer": "Yes, one of the guys in the image has a pet with him while sitting in the parking lot."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The scene features a group of people on the side of a street near a parked bike. Two men are the center of attention, having a conversation with each other. One is wearing a brown jacket, while the other has on a green shirt. \n\nIn the vicinity, there are several other individuals. A person with a pet is sitting in the parking lot area, and a couple more people can be seen at various spots around the scene. The area appears to be busy, with multiple cars parked or moving along the street. There are traffic lights above them and a bench against a wall. Furthermore, there is a clock visible in the middle of the scene."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWrite a detailed description of the given image."
+        },
+        {
+            "from": "gpt",
+            "value": "In the image, two men are standing on a sidewalk, engaged in an interaction. The man on the left, clad in a blue shirt, is attentively looking at the other man. The second man, wearing a green shirt and a patterned hat, is in the process of putting on a black and pink glove. \n\nThe scene is set against a bustling street backdrop. A bench and bicycles add to the urban atmosphere. The building and traffic lights in the distance further emphasize the city setting. \n\nThe sky is painted with hues of pinkish-orange, suggesting that the time could be either sunrise or sunset. This adds a warm glow to the overall scene, creating a serene contrast to the busy street life below."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.002859375,
+                0.6179156908665105,
+                0.166078125,
+                0.9870257611241219
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.25373437499999996,
+                0.14339578454332552,
+                0.529875,
+                0.98903981264637
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.348546875,
+                0.0672599531615925,
+                0.8362343750000001,
+                0.9820608899297425
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8225625000000001,
+                0.23168618266978924,
+                0.901359375,
+                0.513887587822014
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.7938125,
+                0.16707259953161593,
+                0.8382968749999999,
+                0.20056206088992976
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.0,
+                0.16686182669789226,
+                0.061812500000000006,
+                0.24515222482435597
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8942500000000001,
+                0.16978922716627634,
+                0.9398750000000001,
+                0.2859484777517564
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.44104687499999995,
+                0.046487119437939116,
+                0.461828125,
+                0.13288056206088994
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.86659375,
+                0.06892271662763466,
+                0.883828125,
+                0.1064871194379391
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.8321249999999999,
+                0.00936768149882904,
+                0.8591718749999998,
+                0.04761124121779859
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8851718749999999,
+                0.16564402810304452,
+                0.9190468749999999,
+                0.2571428571428572
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.0001875,
+                0.3496018735362998,
+                0.26825,
+                0.6342622950819672
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.285671875,
+                0.16177985948477752,
+                0.300703125,
+                0.2252927400468384
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8322499999999999,
+                0.18416861826697892,
+                0.87071875,
+                0.24637002341920375
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.43825000000000003,
+                0.6442857142857144,
+                0.47665625,
+                0.7117096018735364
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.760390625,
+                0.2815456674473068,
+                0.845,
+                0.5094613583138173
+            ]
+        }
+    ],
+    "hash_id": "351_coco_train2017_000000154693.jpg"
+}

@@ -1,0 +1,356 @@
+{
+    "id": "000000160290",
+    "image": "coco/train2017/000000160290.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where are the people flying the kites in the image?",
+            "steps": [],
+            "answer": "The people are flying their kites at the beach during the day."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any hot air balloons in the image?",
+            "steps": [],
+            "answer": "No, there are no hot air balloons in the image. The main focus is on the people flying kites at the beach."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Approximately how many people are seen flying kites in the image?",
+            "steps": [],
+            "answer": "The image shows a large group of people enjoying the activity of flying kites, but without an exact number, we can assume that there are many people participating."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of setting does the event take place in? Is it an open area or a confined space?",
+            "steps": [],
+            "answer": "The event is taking place in a big open area at the beach, allowing enough space for people to fly their kites without obstructions."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the weather like during this kite-flying event?",
+            "steps": [],
+            "answer": "The weather during this kite-flying event appears to be sunny and pleasant, creating an ideal atmosphere for outdoor activities like flying kites at the beach."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "In this bustling outdoor scene, a large group of people has gathered at the beach to fly various kites. There are numerous kites spread throughout the sky, with at least 15 different kites in various shapes, sizes, and colors. The open and sunny atmosphere is perfect for this leisurely activity.\n\nIn addition to the kite flyers, there are other people in the area enjoying the day, standing or walking around. Along with the many people, there are parked vehicles such as a car and a truck in the background, likely belonging to the visitors.\n\nOverall, the beach scene is vibrant and filled with activity, making it a perfect spot for a fun-filled day of kite flying and leisure."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Considering the number of kites and the location, what kind of event might this gathering be?",
+            "steps": [],
+            "answer": "Based on the image with a large number of people and at least 13 kites being flown, this gathering could be a kite festival or a kite-flying competition. The event is taking place at an open area that resembles a beach, providing a suitable space with favorable wind conditions for flying kites. People can be seen enjoying the event, which possibly encourages socialization, outdoor fun, and a celebration of the art of kite-flying."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you describe the main features of this image for me?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a lively scene on a beach where a group of people are engaged in the joyous activity of flying kites. The beach is bathed in the warmth of a clear day, under a vast expanse of blue sky.\n\nIn the forefront, there's a large kite that resembles a hot air balloon, painted in bold checkers of red and black. It's soaring high, almost as if it's challenging the sun. Not too far from it, there's a green and yellow snake kite slithering its way through the air, adding a touch of whimsy to the scene.\n\nFurther towards the azure horizon, a blue and white fish kite is swimming against the wind, as if it's leaping out from the sea below. The people, scattered across the sandy beach and near the water, appear as small figures against the grandeur of their colorful kites.\n\nThe sand dunes form a gentle backdrop to this vibrant spectacle, creating a perfect harmony between the land, sea, sky, and the kaleidoscope of kites. It's a picture that encapsulates the simple pleasures of life - sunshine, sea breeze, and the joy of flying kites on a beautiful day."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.39451562500000004,
+                0.8959529411764705,
+                0.4345625,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.200484375,
+                0.8823294117647059,
+                0.23025,
+                0.9495764705882352
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.096046875,
+                0.8613647058823529,
+                0.13296875,
+                0.9000705882352941
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.604640625,
+                0.872164705882353,
+                0.7075625000000001,
+                0.9466823529411765
+            ]
+        },
+        {
+            "label": "bird",
+            "bbox": [
+                0.09668750000000001,
+                0.3496705882352942,
+                0.12365625,
+                0.36797647058823535
+            ]
+        },
+        {
+            "label": "bird",
+            "bbox": [
+                0.89975,
+                0.7355529411764706,
+                0.903671875,
+                0.7481176470588236
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.378453125,
+                0.14527058823529412,
+                0.446609375,
+                0.3315764705882353
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.0048125,
+                0.44743529411764704,
+                0.03303125,
+                0.4648941176470588
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.775203125,
+                0.0,
+                1.0,
+                0.6020235294117647
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.7903749999999999,
+                0.4948941176470589,
+                0.8965624999999999,
+                0.5629882352941177
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.395265625,
+                0.5757411764705882,
+                0.41867187499999997,
+                0.6095058823529412
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.637703125,
+                0.583035294117647,
+                0.666734375,
+                0.6010823529411764
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.07209375,
+                0.1243294117647059,
+                0.12606250000000002,
+                0.1920705882352941
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.7867656249999999,
+                0.7386588235294118,
+                0.8213593749999999,
+                0.7595764705882353
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.43379687499999997,
+                0.7703058823529412,
+                0.47731250000000003,
+                0.8784235294117647
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.418828125,
+                0.3852470588235294,
+                0.43303125,
+                0.3961411764705882
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.671484375,
+                0.5592705882352941,
+                0.9385937500000001,
+                0.6313647058823529
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.04659375,
+                0.6043058823529411,
+                0.11290624999999999,
+                0.6640470588235293
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.288609375,
+                0.8786352941176471,
+                0.297859375,
+                0.9220705882352941
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.31171875,
+                0.8767764705882353,
+                0.32287499999999997,
+                0.9152941176470588
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5131249999999999,
+                0.9031058823529412,
+                0.522578125,
+                0.9465176470588235
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.364,
+                0.8782588235294118,
+                0.37553125,
+                0.9289176470588234
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.378765625,
+                0.8707764705882353,
+                0.392015625,
+                0.9319529411764705
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.473234375,
+                0.8922117647058824,
+                0.49000000000000005,
+                0.9518117647058824
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6566562499999999,
+                0.8866117647058823,
+                0.67315625,
+                0.9539058823529413
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.25006249999999997,
+                0.8711764705882353,
+                0.266171875,
+                0.9578117647058824
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.027875,
+                0.8616235294117647,
+                0.064,
+                0.9389176470588235
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.30428125,
+                0.9078588235294117,
+                0.317609375,
+                0.9466823529411764
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.27428125,
+                0.8888941176470587,
+                0.284,
+                0.9206823529411764
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.42935937500000004,
+                0.45783529411764706,
+                0.4438750000000001,
+                0.4702117647058824
+            ]
+        }
+    ],
+    "hash_id": "238_coco_train2017_000000160290.jpg"
+}

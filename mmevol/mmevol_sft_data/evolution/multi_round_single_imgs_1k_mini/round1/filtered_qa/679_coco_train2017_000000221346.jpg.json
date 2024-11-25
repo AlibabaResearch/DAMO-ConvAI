@@ -1,0 +1,156 @@
+{
+    "id": "000000221346",
+    "image": "coco/train2017/000000221346.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "The image captures a beautiful nighttime scene featuring a clock tower lit up against the dark sky. There are two clocks on the tower, one on the left and another on the right, making it an iconic part of the city skyline.\n\nPeople can be seen gathering around the clock tower, admiring its architectural beauty. There are at least seven people visible in the scene, some of them carrying backpacks and handbags. \n\nIn the foreground, two traffic lights add an urban touch to the atmosphere. The setting appears to be a popular city street, with both locals and tourists enjoying the magnificent view of the clock tower at night."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What potential difficulties might people experience when visiting this clock tower at night?",
+            "steps": [],
+            "answer": "When visiting the clock tower at night, people might experience some potential difficulties like limited visibility and navigating through the crowded city streets. The image shows a group of people standing near the clock tower in a city setting, which can be quite chaotic during the evening. Inadequate lighting in some areas might make it difficult for visitors to see their surroundings clearly, and could lead to confusion or even accidents. Additionally, as landmarks like clock towers often attract tourists, there might be instances where visitors have to deal with overcrowded streets, traffic, or public transport challenges. Also, pedestrians may need to pay attention to traffic signs such as traffic lights to ensure their safety while crossing roads, as evident in the image. To overcome these potential difficulties, it would be ideal for visitors to plan their visit ahead of time, and possibly carry a flashlight or use their smartphone's light to help navigate their way around the area."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a mesmerizing night view of the iconic Big Ben clock tower in London, England. Bathed in a golden glow, the tower stands majestically on the right side of the frame, occupying about two-thirds of the space. The clock face, radiating a soothing green light, adds a touch of contrast to the golden hue.\n\nIn the backdrop, the Palace of Westminster is also illuminated in a similar golden light, enhancing the grandeur of the scene. The dark sky above serves as a perfect canvas for this architectural masterpiece.\n\nIn the foreground, blurred figures can be seen walking on the sidewalk, adding a sense of life and movement to the otherwise still image. On the left side of the frame, a street lamp stands as a silent observer to this nightly spectacle. The top right corner of the image is adorned with colorful light reflections, adding an element of intrigue to the scene.\n\nOverall, this image beautifully encapsulates a typical night in London, with its iconic landmarks glowing under artificial lights against the backdrop of a dark sky."
+        }
+    ],
+    "det": [
+        {
+            "label": "clock",
+            "bbox": [
+                0.4230281690140845,
+                0.38484375000000004,
+                0.4978169014084507,
+                0.44076562500000005
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.5462910798122066,
+                0.388984375,
+                0.5936384976525821,
+                0.44801562500000003
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6343427230046949,
+                0.817109375,
+                0.7423708920187794,
+                0.999640625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.799037558685446,
+                0.84690625,
+                0.9105399061032864,
+                0.981796875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.25084507042253523,
+                0.873671875,
+                0.276150234741784,
+                0.9169375000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.19610328638497654,
+                0.871234375,
+                0.22643192488262912,
+                0.914859375
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.5634976525821597,
+                0.692609375,
+                0.6154225352112677,
+                0.7562656249999999
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.29161971830985917,
+                0.77396875,
+                0.32185446009389673,
+                0.8242499999999999
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.8202347417840375,
+                0.8685,
+                0.8738262910798122,
+                0.9069843750000001
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.635093896713615,
+                0.8708750000000001,
+                0.6827699530516432,
+                0.9323750000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.46023474178403756,
+                0.871875,
+                0.47892018779342727,
+                0.8906875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.22779342723004697,
+                0.87121875,
+                0.24741784037558687,
+                0.9163593750000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.15913145539906104,
+                0.8774218749999999,
+                0.18870892018779342,
+                0.915890625
+            ]
+        }
+    ],
+    "hash_id": "679_coco_train2017_000000221346.jpg"
+}

@@ -1,0 +1,226 @@
+{
+    "id": "000000174228",
+    "image": "coco/train2017/000000174228.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image shows a woman and a large black dog inside a bookstore. The woman is standing near a table with a cup on it, and the dog is sitting beside her attentively. Multiple shelves filled with books in the background and several books scattered around the scene, emphasizing that they are in a bookstore. \n\nThere is another person standing further back in the store, browsing the book selection, and yet another person is positioned on the left side of the frame. A potted plant can be seen placed near a dining table, which hosts a cup, hinting at the possibility of patrons enjoying coffee while perusing the store. A chair is also visible near the dining table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might be the purpose of the women with the large black dog at the bookstore, and how is the atmosphere inside?",
+            "steps": [],
+            "answer": "The woman with the large black dog could be visiting the bookstore to browse or purchase books, socialize with others or attend a book event. The presence of the dog suggests that it might be a trained service dog, such as a seeing-eye dog, that assists the woman with mobility or other tasks. The fact that the woman is smiling indicates a positive and welcoming atmosphere inside the bookstore.\n\nInside the bookstore, there are people mulling around, and some of them are enjoying coffee from cups. There are multiple books on display, and a dining table with chairs provides a comfortable space for guests to relax, read, or converse. Additionally, potted plants are present in the bookstore, which adds to the pleasant and inviting ambiance of the environment. Overall, the bookstore seems to be warm and engaging for customers, providing opportunities to chat, explore, and enjoy various reading materials."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Describe the following image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city, a woman with blonde hair and a white t-shirt finds solace at a wooden table outside a charming bookstore named \"Shakespeare and Company\". The bookstore, with its inviting green awning and yellow sign, displays an array of books in the window, along with a sign that intriguingly reads \"Other Lebowski Books\". \n\nThe woman's joy is evident as she smiles at her companion, a black dog. The dog, standing on its hind legs, has its front paws resting on the table, engaging in a playful interaction with the woman. \n\nIn the background, life goes on as usual with a man walking by the bookstore, perhaps lost in his own thoughts or heading towards his next destination. This image captures a beautiful moment of human-animal bonding amidst the backdrop of literature and city life."
+        }
+    ],
+    "det": [
+        {
+            "label": "dog",
+            "bbox": [
+                0.558265625,
+                0.2965492957746479,
+                1.0,
+                0.8059154929577464
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.435734375,
+                0.3658450704225352,
+                0.648390625,
+                0.8345774647887323
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.792875,
+                0.32833333333333337,
+                0.940640625,
+                0.5877699530516431
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.56690625,
+                0.7955164319248826,
+                0.740421875,
+                0.8898826291079812
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.9146875,
+                0.45478873239436624,
+                0.932890625,
+                0.4953755868544601
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.214875,
+                0.6931455399061032,
+                0.230265625,
+                0.783169014084507
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.550515625,
+                0.7507981220657276,
+                0.581453125,
+                0.8185446009389671
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.254734375,
+                0.7632159624413145,
+                0.31509375,
+                0.8288028169014084
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.17675000000000002,
+                0.8184507042253522,
+                0.35425,
+                1.0
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.13953125,
+                0.6467136150234741,
+                0.1699375,
+                0.6912206572769952
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.30096875,
+                0.5969483568075118,
+                0.343890625,
+                0.6599765258215963
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.4197417840375587,
+                0.187359375,
+                0.9876525821596245
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.30890625,
+                0.7699765258215963,
+                0.41428125,
+                0.996056338028169
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.3814375,
+                0.5308920187793427,
+                0.3976875,
+                0.5540140845070423
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.92090625,
+                0.38835680751173707,
+                0.934796875,
+                0.43079812206572765
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.924203125,
+                0.44704225352112675,
+                0.9348124999999999,
+                0.49169014084507046
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.896359375,
+                0.4594600938967136,
+                0.9073593749999999,
+                0.5015962441314553
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.5182187500000001,
+                0.8273943661971832,
+                0.5648906250000001,
+                0.8684037558685447
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.7308125000000001,
+                0.7702347417840376,
+                0.8540000000000001,
+                0.7976525821596244
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.23553125000000003,
+                0.829131455399061,
+                0.26768749999999997,
+                0.8445539906103285
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.578296875,
+                0.762112676056338,
+                0.666484375,
+                0.815586854460094
+            ]
+        }
+    ],
+    "hash_id": "703_coco_train2017_000000174228.jpg"
+}

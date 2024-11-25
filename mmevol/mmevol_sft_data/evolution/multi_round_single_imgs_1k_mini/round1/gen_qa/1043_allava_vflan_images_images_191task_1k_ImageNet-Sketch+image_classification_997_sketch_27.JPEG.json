@@ -1,0 +1,40 @@
+```json
+[
+  {
+    "image_position": "single",
+    "objects": ["dishwasher"],
+    "skills": ["Knowledge Integration Ability"],
+    "format": "multi-choice",
+    "question": "Based on the visual features of the depicted object, what is the most likely name of this kitchen appliance? A) Refrigerator B) Dishwasher C) Oven D) Microwave",
+    "steps": [
+      {"manipulation": "None", "description": "Analyze the visual attributes of the object, considering elements like racks, controls, and overall structure."},
+      {"manipulation": "None", "description": "Match these features with common kitchen appliances to identify the most likely fit."}
+    ],
+    "answer": "B"
+  },
+  {
+    "image_position": "single",
+    "objects": ["dishwasher"],
+    "skills": ["Context Understanding Ability"],
+    "format": "rationales_generation",
+    "question": "Describe two ways this appliance impacts kitchen workflow efficiency.",
+    "steps": [
+      {"manipulation": "None", "description": "Recognize the primary function of dishwashing and how it saves time and effort."},
+      {"manipulation": "None", "description": "Highlight the role of the appliance in maintaining cleanliness and hygiene within the kitchen environment."}
+    ],
+    "answer": "1. Automates dishwashing, freeing time for other tasks. 2. Ensures thorough cleaning, enhancing kitchen hygiene."
+  },
+  {
+    "image_position": "single",
+    "objects": ["dishwasher"],
+    "skills": ["Knowledge Integration Ability"],
+    "format": "multi-choice",
+    "question": "What regular maintenance task should be performed to keep this appliance efficient? A) Calibrating the thermostat B) Cleaning the filter C) Lubricating the motor D) Replacing the light bulb",
+    "steps": [
+      {"manipulation": "None", "description": "Consider typical maintenance routines for dishwashers to ensure optimal function."},
+      {"manipulation": "None", "description": "Focus on components like filters and spray arms, which are commonly checked and cleaned."}
+    ],
+    "answer": "B"
+  }
+]
+```

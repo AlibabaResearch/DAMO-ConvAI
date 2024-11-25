@@ -1,0 +1,469 @@
+{
+    "id": "000000185051",
+    "image": "coco/train2017/000000185051.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of the image?",
+            "steps": [],
+            "answer": "The setting of the image is a dining area with a large table, filled with many different dishes for a family-style meal. The table is set for a gathering of people to enjoy the plentiful food and drinks."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of table is featured in the image?",
+            "steps": [],
+            "answer": "The table featured in the image is a large, black dining table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of meal is suggested by the image?",
+            "steps": [],
+            "answer": "The image suggests a family-style meal, with several plates and bowls full of various food items, along with glasses and drinks, inviting guests to share and serve themselves from the assortment of dishes available."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you give examples of some dishes that might be present on the table in the given setting?",
+            "steps": [],
+            "answer": "While I cannot provide specific examples from the image itself, a typical family-style meal could include various dishes such as appetizers or salads, main courses like roast chicken, pasta, or grilled vegetables, and side dishes such as mashed potatoes, rice, or steamed vegetables. Drinks might include water, soda, or wine, and dessert could also be present, like cake or fruit. The arrangement of dishes on the table would encourage an atmosphere of sharing and togetherness, allowing guests to pass around the plates and serve themselves."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image presents a large, long dinner table filled with an assortment of dishes and tableware, ready for a family-style meal. A variety of bowls containing different types of food are spread across the table, with multiple cups and glasses placed nearby for drinks. Pizza can also be seen as one of the main dishes on the table.\n\nAside from the food, there are several utensils such as knives, forks, and spoons, all spread out conveniently for the guests. A few chairs are visible around the table as well. In the background, there are several people standing and likely waiting to partake in the meal. Their presence contributes to the room's lively atmosphere."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of meal is being served, and how is the table arranged to facilitate sharing?",
+            "steps": [],
+            "answer": "The meal being served is a family-style meal with a variety of dishes on a large dining table. The table is covered with several plates full of food, bowls, cups, glasses and drinks, as well as utensils such as knives, spoons and forks. The presence of pizza along with a selection of other dishes and multiple bowls indicate a generous and eclectic spread of options to suit different tastes.\n\nTo facilitate sharing, the table is arranged in such a way that the dishes and bowls are well distributed across the surface, making it easy for everyone to reach and serve themselves. The cups and glasses are also placed strategically throughout the table. The arrangement ensures that guests have access to both the food and drinks, promoting a communal dining experience where everyone can easily share and enjoy each other's company."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nDescribe the following image."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of the image, a vibrant scene unfolds on a table draped in a green tablecloth. The table is a cornucopia of culinary delights, with nine plates generously filled with an array of dishes. A mound of fluffy white rice sits next to a dish swimming in a rich red sauce. A refreshing green salad adds a dash of color, while a large plate piled high with succulent meat promises a hearty meal.\n\nThe table isn't just about food, though. It's also a hub for drinks. A pitcher filled with a yellow liquid suggests a tangy thirst quencher, while a glass holds a mysterious green concoction. A white mug, perhaps filled with a hot beverage, completes the trio.\n\nThe table isn't alone; it's surrounded by people whose faces are blurred out, adding an air of mystery to the scene. Their presence suggests that this is not just a meal, but a gathering, a celebration of food and company."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.6405624999999999,
+                0.0012916666666666667,
+                0.70171875,
+                0.22875000000000004
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.009640625,
+                0.3383541666666667,
+                0.1325,
+                0.5798541666666667
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.215125,
+                0.8982083333333333,
+                0.31960937500000003,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.29959375,
+                0.0,
+                0.545625,
+                0.13552083333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.081078125,
+                0.0011250000000000001,
+                0.29223437499999994,
+                0.1632916666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.00020833333333333335,
+                0.09228125000000001,
+                0.1635208333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.641828125,
+                0.6189374999999999,
+                0.7337499999999999,
+                0.7721666666666667
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.811546875,
+                0.5339791666666667,
+                0.910515625,
+                0.7025
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.025281249999999998,
+                0.5903333333333334,
+                0.136515625,
+                0.7588541666666667
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.835125,
+                0.044625000000000005,
+                0.8822812499999999,
+                0.114875
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.009078125,
+                0.1909583333333333,
+                0.07017187500000001,
+                0.27566666666666667
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.9073125,
+                0.7112499999999999,
+                0.981453125,
+                0.8237083333333334
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.584375,
+                0.2765416666666667,
+                0.78965625,
+                0.35758333333333336
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.41471875,
+                0.12662500000000002,
+                0.473703125,
+                0.2639791666666667
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.053390625000000004,
+                0.23847916666666666,
+                0.18821875000000002,
+                0.31037499999999996
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.94846875,
+                0.8213541666666667,
+                0.999828125,
+                0.8903125000000001
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.2865625,
+                0.3130625,
+                0.479609375,
+                0.49166666666666664
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.52028125,
+                0.24691666666666665,
+                0.705109375,
+                0.42541666666666667
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.015671875,
+                0.5131458333333333,
+                0.10884374999999999,
+                0.6422708333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.091609375,
+                0.16954166666666665,
+                0.15121875,
+                0.26110416666666664
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.1265,
+                0.3895208333333333,
+                0.30798437500000003,
+                0.5525625000000001
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.135984375,
+                0.6097708333333334,
+                0.267265625,
+                0.7524791666666667
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.296625,
+                0.4892083333333333,
+                0.49214062500000005,
+                0.6847083333333333
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.34228125,
+                0.16218749999999998,
+                0.524875,
+                0.3237499999999999
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.12332812500000001,
+                0.17145833333333332,
+                0.33999999999999997,
+                0.3290416666666667
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.8739375,
+                0.332375,
+                1.0,
+                0.5542291666666667
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.495125,
+                0.42435416666666664,
+                0.64325,
+                0.5483958333333334
+            ]
+        },
+        {
+            "label": "pizza",
+            "bbox": [
+                0.69421875,
+                0.18033333333333335,
+                0.9948750000000001,
+                0.3848958333333333
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0,
+                0.028333333333333332,
+                1.0,
+                0.9880625000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.883203125,
+                0.0,
+                1.0,
+                0.0391875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.54853125,
+                0.0,
+                0.756140625,
+                0.1011875
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.353765625,
+                0.1178125,
+                0.42996875,
+                0.15039583333333334
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.05600000000000001,
+                0.16891666666666666,
+                0.088484375,
+                0.221875
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.6089687500000001,
+                0.107,
+                0.639859375,
+                0.16475
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.048828125,
+                0.006520833333333333,
+                0.107421875,
+                0.16277083333333334
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.137515625,
+                0.15904166666666666,
+                0.21787499999999999,
+                0.18210416666666665
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.88203125,
+                0.9476666666666667,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.447640625,
+                0.26937500000000003,
+                0.56571875,
+                0.4167291666666667
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.792359375,
+                0.021687500000000002,
+                0.845015625,
+                0.07708333333333334
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.28332812500000004,
+                0.14241666666666666,
+                0.353265625,
+                0.19816666666666669
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.53125,
+                0.10754166666666666,
+                0.59934375,
+                0.1731875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.77209375,
+                0.0,
+                0.8577031249999999,
+                0.06470833333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0009062499999999999,
+                0.7322083333333332,
+                0.10396874999999998,
+                1.0
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.843953125,
+                0.0,
+                0.8953125,
+                0.050604166666666665
+            ]
+        }
+    ],
+    "hash_id": "62_coco_train2017_000000185051.jpg"
+}

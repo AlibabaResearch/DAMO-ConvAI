@@ -1,0 +1,230 @@
+{
+    "id": "000000176587",
+    "image": "coco/train2017/000000176587.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image depicts a cozy restaurant scene where two women and a baby are seated at a dining table, enjoying a meal together. The table is surrounded by chairs, and the area showcases two different colored walls, giving the atmosphere a charming touch. \n\nVarious utensils and dishes can be seen on the table, such as cups, spoons, an apple, a bottle, and knives. Interestingly, there is a clock on the wall, serving as decoration while also enabling patrons to keep track of time during their dining experience. Additionally, the space features a TV and a book, providing various forms of entertainment for the guests."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might the two women and the baby be discussing during their meal?",
+            "steps": [],
+            "answer": "While there is no way to determine the exact topic of their conversation, it is plausible that the two women and the baby might be discussing family matters, sharing personal experiences, or talking about recent events. Since they are having a meal together in a restaurant, the atmosphere suggests a casual social gathering for enjoyment and bonding, so their conversation is likely to be light-hearted and friendly. They might also comment on the food and the restaurant's ambiance, sharing their opinions on the quality of the dishes and service."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy restaurant bathed in warm yellow and red hues, a family of three is enjoying a meal together. A woman, radiant with joy, is seated next to a toddler, both of whom are smiling at the camera, their happiness palpable. The young boy, engrossed in his food, is looking down at his plate, perhaps contemplating the next bite.\n\nThe table they're gathered around is a testament to their feast. It's adorned with plates of food in various stages of consumption, utensils scattered about, and cups waiting to be filled. Each item tells a story of the meal they're sharing.\n\nIn the background, the daily hustle of the restaurant continues. A coffee machine stands ready for the next order, and a menu board displays the day's offerings. The words \"Chaud\", \"Coffee\", and \"THANK YOU\" can be discerned from it, hinting at the warm beverages and gratitude that fill the space.\n\nThis image captures a simple yet profound moment - a family sharing a meal, their world momentarily contained within the four corners of their table amidst the bustling restaurant."
+        }
+    ],
+    "det": [
+        {
+            "label": "clock",
+            "bbox": [
+                0.42696875,
+                0.06079166666666667,
+                0.4695625,
+                0.13177083333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.108359375,
+                0.40970833333333334,
+                0.18284375,
+                0.4706458333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.0,
+                0.5245208333333333,
+                0.045,
+                0.6678333333333334
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.175671875,
+                0.6463958333333333,
+                0.9983125000000002,
+                0.9887291666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3015625,
+                0.2685416666666667,
+                0.47648437499999996,
+                0.7735416666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8733124999999999,
+                0.4335625,
+                1.0,
+                0.753375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.395265625,
+                0.44933333333333336,
+                0.59121875,
+                0.7241041666666667
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.448453125,
+                0.7604583333333333,
+                0.5772031249999999,
+                0.9351458333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.6470312500000001,
+                0.6941666666666666,
+                0.73246875,
+                0.8110208333333333
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.298328125,
+                0.8742916666666667,
+                0.4165312500000001,
+                0.9367500000000001
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.42300000000000004,
+                0.75925,
+                0.46909375000000003,
+                0.8326666666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.260125,
+                0.3125,
+                0.8705
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.5838125,
+                0.6769166666666667,
+                0.64071875,
+                0.8180208333333334
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.784953125,
+                0.8091666666666666,
+                0.90359375,
+                0.8819791666666666
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.820828125,
+                0.8328125,
+                0.907421875,
+                0.8822916666666667
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.42315625,
+                0.2903958333333333,
+                0.477453125,
+                0.3607916666666666
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.78565625,
+                0.7026249999999999,
+                0.989234375,
+                0.7740208333333333
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.7375,
+                0.6939166666666666,
+                0.8379375,
+                0.7410833333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.283484375,
+                0.44,
+                0.317609375,
+                0.551875
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.284703125,
+                0.6875,
+                0.30798437500000003,
+                0.7878541666666667
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.970453125,
+                0.7733125,
+                0.9973750000000001,
+                0.8334791666666667
+            ]
+        }
+    ],
+    "hash_id": "79_coco_train2017_000000176587.jpg"
+}

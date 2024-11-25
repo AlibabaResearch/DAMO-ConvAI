@@ -1,0 +1,266 @@
+{
+    "id": "000000081084",
+    "image": "coco/train2017/000000081084.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a large clock on the front of a church building in the image?",
+            "steps": [],
+            "answer": "Yes, there is a large clock on the front of a tall church building in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is another example of a building featuring a clock in the image?",
+            "steps": [],
+            "answer": "Another example of a building featuring a clock in the image is the street view of a cafe that has a large outdoor clock."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the name of the building with great architecture and design featured in the image?",
+            "steps": [],
+            "answer": "The building with great architecture and design featured in the image is called Argo Tea."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What two establishments are located next to each other on a street corner in the image?",
+            "steps": [],
+            "answer": "A restaurant and a theater are located next to each other on a street corner in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where does the clock sit in relation to the theater?",
+            "steps": [],
+            "answer": "The clock sits on a building right beside the theater."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The scene is a street corner with a tall, architecturally impressive building featuring a massive clock on the front side. This building is beside a theater, contributing to the area's cultural appeal. Below the clock, there is a cafe with a multitude of outdoor seating options.\n\nNumerous chairs and dining tables are arranged throughout the streetside cafe, accommodating the guests. Around the tables, a few people can be seen wandering, possibly patrons or passersby enjoying the urban scenery.\n\nTwo cars are also present in the image, one parked at the beginning of the street and another towards the end, indicating that this is an accessible location for visitors."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What aspects can make this street corner an attractive place to spend time?",
+            "steps": [],
+            "answer": "The street corner featured in the image is an attractive place to spend time for several reasons. There is a building with great architecture and design that houses Argo Tea, a popular caf\u00e9 with outdoor seating. The large outdoor clock on the building adds visual appeal and a classic touch to the setting. The presence of a theater also provides entertainment options for visitors. The outdoor dining tables and chairs allow patrons to enjoy their meals or beverages al fresco-setting. The combination of these elements creates an inviting atmosphere, catering to various interests, making this street corner a pleasant place to spend time, socialize, and enjoy the urban ambiance."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Analyze the image in a comprehensive and detailed manner.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city, a quaint two-story building with a white facade and a red roof stands on a street corner. The building is adorned with a large yellow clock, its black numbers and hands indicating the time. Suspended above the clock is a bell, silent but ever watchful. A small turret crowns the building, a weather vane perched atop it, dancing with the wind. \n\nThe building is nestled amidst lush greenery, with plants and trees offering a refreshing contrast to the urban landscape. A few tables and chairs are scattered in front of the building, inviting passersby to rest their weary feet.\n\nTo the right of this charming structure, a modern high-rise building with a glass facade reaches for the sky, reflecting the city's hustle and bustle. The street is alive with movement - cars and a bus navigate their way through the city's veins, while pedestrians tread on the sidewalk, each engrossed in their own world.\n\nThis image captures the harmonious coexistence of old-world charm and modern sophistication in an urban setting."
+        }
+    ],
+    "det": [
+        {
+            "label": "clock",
+            "bbox": [
+                0.4078125,
+                0.42439583333333336,
+                0.518015625,
+                0.5684166666666667
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.7921875,
+                0.8019375,
+                0.999828125,
+                0.9369375000000001
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.0,
+                0.8184583333333334,
+                0.083125,
+                0.9034791666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.33790624999999996,
+                0.8529583333333334,
+                0.377125,
+                0.9084583333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.38492187499999997,
+                0.8512708333333333,
+                0.411640625,
+                0.9081875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.187265625,
+                0.7725000000000001,
+                0.21490625,
+                0.8454791666666668
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.206875,
+                0.7576250000000001,
+                0.233984375,
+                0.8428958333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.2800625,
+                0.8308541666666667,
+                0.305421875,
+                0.8871458333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.608390625,
+                0.8268125000000001,
+                0.65846875,
+                0.9105208333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.734109375,
+                0.8375833333333333,
+                0.76671875,
+                0.8943958333333334
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.572,
+                0.8429166666666668,
+                0.6192656249999999,
+                0.9079375
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.362140625,
+                0.843375,
+                0.40099999999999997,
+                0.9081458333333333
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.239734375,
+                0.8388958333333334,
+                0.26325000000000004,
+                0.8617291666666667
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.14551562499999998,
+                0.8302708333333333,
+                0.1888125,
+                0.8425416666666666
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.7924375,
+                0.8403958333333333,
+                0.8283125,
+                0.8520833333333333
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.403234375,
+                0.8359375,
+                0.44982812499999997,
+                0.8922708333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7640625,
+                0.8424166666666667,
+                0.783984375,
+                0.8952291666666667
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.47746875,
+                0.8334791666666667,
+                0.521984375,
+                0.9017499999999999
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.17471874999999998,
+                0.83875,
+                0.21225,
+                0.8923541666666668
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.52625,
+                0.828875,
+                0.5594218750000001,
+                0.8941875
+            ]
+        }
+    ],
+    "hash_id": "673_coco_train2017_000000081084.jpg"
+}

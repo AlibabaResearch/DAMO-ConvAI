@@ -1,0 +1,264 @@
+{
+    "id": "000000092380",
+    "image": "coco/train2017/000000092380.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many women are in the image?",
+            "steps": [],
+            "answer": "There are three women in the image, standing in a kitchen."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the women doing in the kitchen?",
+            "steps": [],
+            "answer": "The women are talking and working together, with two of them looking at a paper, presumably a recipe, and discussing what they need to make dinner."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a notable feature of the kitchen, such as a window?",
+            "steps": [],
+            "answer": "Yes, there is a window in the kitchen, which allows natural light to enter the room and provides a pleasant atmosphere."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the women standing or sitting while reading the paper in the kitchen?",
+            "steps": [],
+            "answer": "The women are all standing in the kitchen while reading the paper and discussing the recipe."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the environment or atmosphere in the kitchen based on the image?",
+            "steps": [],
+            "answer": "The image depicts a casual and friendly atmosphere in the kitchen. The women appear to be engaging in a collaborative and social activity while discussing the recipe, which suggests that they might be working together to prepare dinner. The presence of a window in the kitchen allows for natural light to fill the space, making it feel bright and welcoming. Overall, the environment in the kitchen seems to be one of cooperation, enjoyment, and camaraderie among the women, as they work together and share their thoughts about the recipe and the meal they are about to prepare."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The image features a group of three women standing in a casual kitchen area. They appear to be talking and working together to prepare a meal. Two of the women are focused on a piece of paper, possibly a recipe, as they discuss the necessary steps for making dinner.\n\nIn the kitchen, there is a dining table in the center and another one located near the left side of the room. Various kitchen items, such as cups, a cell phone, a knife, and multiple spoons can be seen on the tables and countertops. Several bowls and bottles are also scattered throughout the scene.\n\nA window can be seen in the background, letting in natural light that brightens up the kitchen. A sink is located to the far right of the room, creating a functional space for meal preparation and cleanup."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What activity do the women in the kitchen seem to be engaged in, and what evidence supports that?",
+            "steps": [],
+            "answer": "The women in the kitchen appear to be engaged in preparing a meal, possibly using a specific recipe. There is evidence to support this, as two of them can be seen looking at a piece of paper, which may contain the recipe or ingredients list. In the kitchen area, there are a variety of objects that signify meal preparation, such as bowls, cups, spoons, knives, and bottles laid around. Additionally, there's a dining table in the background, further indicating that they could be preparing for a meal together. Standing near the window ensures they have access to natural light, which can make it easier to read recipe instructions and prepare the meal efficiently. Overall, the context and the various kitchen items present suggest that these women are actively working on cooking a meal."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy kitchen, three individuals are engaged in various activities. The kitchen is adorned with a wooden ceiling and a white wall, and it's illuminated by natural light streaming in through a window.\n\nOn the left, a person stands at the sink, which features a silver faucet and a white basin. They are holding a white plate, perhaps cleaning up after a meal. \n\nIn the middle of the room, another person is stationed at the counter. The counter is a hub of activity, hosting an array of kitchen items including a yellow bowl, a black frying pan, and a red pot. This person is holding a white bowl, possibly preparing something delicious.\n\nFinally, on the right, the third person stands in front of the counter with a white cup in their hands. Perhaps they're enjoying a warm beverage while engaging in conversation with their companions.\n\nThis image captures a typical moment in a home kitchen, filled with warmth and activity."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.554859375,
+                0.6226041666666667,
+                0.584484375,
+                0.7260000000000001
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.667515625,
+                0.6532916666666666,
+                0.6890625,
+                0.6807083333333334
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.368671875,
+                0.6568541666666667,
+                0.407984375,
+                0.6984375
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.9510781250000001,
+                0.5965,
+                0.9626718750000001,
+                0.6697291666666666
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.421390625,
+                0.7021458333333332,
+                0.8305937499999999,
+                0.8237291666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.003359375,
+                0.28502083333333333,
+                0.37331250000000005,
+                0.9868125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8022500000000001,
+                0.42472916666666666,
+                1.0,
+                0.99775
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.430359375,
+                0.5849791666666667,
+                0.47765625,
+                0.6692083333333334
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.513671875,
+                0.7201875,
+                0.554703125,
+                0.7482500000000001
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.034625,
+                0.6025833333333334,
+                0.04921875,
+                0.6396458333333334
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.0495,
+                0.6011458333333334,
+                0.0713125,
+                0.6514583333333334
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.673453125,
+                0.30164583333333334,
+                0.728390625,
+                0.33220833333333327
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.9376562500000001,
+                0.7059583333333334,
+                1.0,
+                0.7699791666666668
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.295609375,
+                0.3524791666666667,
+                0.49154687500000005,
+                0.9876041666666667
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.48757812500000003,
+                0.6411458333333333,
+                0.5054375,
+                0.7216874999999999
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.593328125,
+                0.6383333333333333,
+                0.61953125,
+                0.6634583333333333
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.61021875,
+                0.6265833333333333,
+                0.652,
+                0.6810833333333334
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.6723125,
+                0.27120833333333333,
+                0.7285468749999999,
+                0.30725
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.0204375,
+                0.6405,
+                0.049765625,
+                0.668125
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.001921875,
+                0.6047083333333333,
+                0.09703124999999999,
+                0.7053958333333333
+            ]
+        }
+    ],
+    "hash_id": "328_coco_train2017_000000092380.jpg"
+}

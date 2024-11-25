@@ -1,0 +1,293 @@
+{
+    "id": "000000114392",
+    "image": "coco/train2017/000000114392.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are in the image?",
+            "steps": [],
+            "answer": "There are three people in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people doing in the image?",
+            "steps": [],
+            "answer": "The people are sitting at a table, talking to each other, and possibly discussing or working on a project."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of room are the people in?",
+            "steps": [],
+            "answer": "The people are in a conference room."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What items can be seen on the table?",
+            "steps": [],
+            "answer": "On the table, there are papers, a computer, and a board."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the group sitting or standing?",
+            "steps": [],
+            "answer": "The group is sitting around the table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image shows a group of three people sitting at a table in a conference room, engaged in discussion. They are surrounded by various items related to their discussion or meeting, including papers and a laptop placed on the table. A second laptop can also be seen on the table, closer to one of the people.\n\nIn addition to the people and their work materials, there are several other objects in the room. On the table, there are multiple cups and two bottles, likely containing drinks for the attendees. A couple of more bottles can be seen placed away from the table. There are bowls and a spoon in the scene as well, possibly for snacks or a light meal during the meeting. \n\nAround the table, there are chairs with one person sitting on each. Nearby, a potted plant adds a touch of greenery to the room. A cell phone can be noticed placed on the edge of a chair, perhaps belonging to one of the meeting participants."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How could the meeting's productivity be improved?",
+            "steps": [],
+            "answer": "To improve the meeting's productivity, the group of three people sitting at the table in the conference room can minimize distractions, such as personal cell phones that might be present, and focus on their discussion. Additionally, they can make use of the available resources, like the laptop and papers, to ensure they are staying on track and making informed decisions. Using the laptop to take notes, collaborate on documents, or refer to relevant materials, can help the meeting progress efficiently. Furthermore, the group can prioritize agenda items and allocate specific time for each topic to address all points effectively. Finally, occasionally participating in short breaks can help maintain focus and increase the overall productivity of the meeting."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a well-lit meeting room, a trio of professionals are engrossed in a discussion. The central figure, illuminated by the glow of the laptop screen, is attentively studying the information displayed. The laptop, a symbol of modern work culture, is surrounded by everyday objects - a coffee cup hinting at the need for caffeine-fueled focus, and a plant adding a touch of nature to the corporate setting.\n\nTo the left, a colleague is passionately making a point, their hand animatedly carving out their argument in the air. Their engagement is palpable, adding dynamism to the scene. On the right, another team member appears thoughtful, their chin resting on their hand in a classic pose of contemplation.\n\nThe backdrop to this tableau is a whiteboard - an emblem of brainstorming and innovation - and a door that holds the promise of opportunities yet to be discovered. The entire scene paints a vivid picture of teamwork, dedication, and the pursuit of ideas."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.716328125,
+                0.5677708333333332,
+                0.755484375,
+                0.7251666666666666
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.9142187500000001,
+                0.5593333333333333,
+                0.958421875,
+                0.7294375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.19596875,
+                0.3624791666666667,
+                0.418359375,
+                0.7835416666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.3303125,
+                0.166859375,
+                0.9830625000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.648875,
+                0.3236041666666667,
+                0.883140625,
+                0.6471874999999999
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.32160937500000003,
+                0.9192291666666667,
+                0.434984375,
+                1.0
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.217328125,
+                0.80475,
+                0.297671875,
+                0.8867083333333333
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.5039374999999999,
+                0.7640416666666667,
+                0.87809375,
+                0.9842708333333333
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.916796875,
+                0.9652499999999999,
+                0.9680937500000001,
+                1.0
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.201125,
+                0.818,
+                0.231984375,
+                0.8363958333333332
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.21576562500000002,
+                0.8079166666666667,
+                0.296515625,
+                0.8905208333333333
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.44825,
+                0.5281458333333333,
+                0.47946875,
+                0.5498333333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.146625,
+                0.6275208333333333,
+                0.24346874999999998,
+                0.8471875
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9596562499999999,
+                0.6695,
+                1.0,
+                0.7197708333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.897734375,
+                0.599125,
+                0.9140937499999999,
+                0.6702916666666667
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.338765625,
+                0.5865208333333333,
+                0.69775,
+                0.9460625
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.90340625,
+                0.7300208333333333,
+                0.9755312499999998,
+                0.7668125000000001
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.40975,
+                0.5099166666666667,
+                0.432296875,
+                0.5465833333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.425484375,
+                0.5318333333333334,
+                0.44903125,
+                0.553
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.42640625,
+                0.5100208333333334,
+                0.45928125,
+                0.5317708333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.134875,
+                0.8457916666666667,
+                0.175203125,
+                0.8699583333333334
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.042671875,
+                0.8404375000000001,
+                0.4362968749999999,
+                0.998
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.546953125,
+                0.5497291666666667,
+                0.643359375,
+                0.6692083333333334
+            ]
+        }
+    ],
+    "hash_id": "785_coco_train2017_000000114392.jpg"
+}

@@ -1,0 +1,409 @@
+{
+    "id": "000000043936",
+    "image": "coco/train2017/000000043936.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people in the image doing?",
+            "steps": [],
+            "answer": "The people in the image are riding motorcycles in a motorcade down a city street, with some of them being police officers."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the motorcycle riders in a group or spread out?",
+            "steps": [],
+            "answer": "The motorcycle riders are in a group, following each other in a single file line down the street."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are people wearing riding gear in the image?",
+            "steps": [],
+            "answer": "Yes, the people in the image are wearing riding gear, which includes helmets and other protective clothing, as they ride their motorcycles on the city street."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the role of the police officers in the motorcade?",
+            "steps": [],
+            "answer": "The police officers are participating in the motorcade as part of their duty. They may be escorting a special event or leading a planned procession through the town. This can provide traffic control, ensure route adherence, and add a level of safety and organization to the event or procession."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are some reasons for a motorcade to take place?",
+            "steps": [],
+            "answer": "Motorcades can take place for various reasons, including the following:\n\n1. Political or VIP escort: Government officials, dignitaries, or other important people may require police escorts when traveling through a city to ensure their safety and manage traffic for their smooth passage.\n\n2. Funeral processions: A motorcade may be organized to guide a funeral procession from a place of worship to the burial grounds, with motorcycle officers providing traffic control and ensuring that the procession remains uninterrupted.\n\n3. Parades or celebrations: During parades or festivals, motorcycle motorcades may participate as an attraction or part of the event's program, showcasing different vehicles and their riders.\n\n4. Charitable events: Motorcycle motorcades can help raise awareness and financial support for charitable causes, such as veteran support, children's hospitals, or cancer research. Often organized as large group rides through towns and cities, these events can attract riders from various regions to participate in the effort.\n\n5. Group rides: Recreationally, motorcycle enthusiasts may organize group rides to explore scenic routes, attend motorcycle rallies, or simply gather with like-minded individuals for camaraderie.\n\nIn summary, motorcades involving motorcycle officers and other riders can serve various purposes, ranging from providing escorts to important figures, participating in parades, supporting charitable causes, or promoting group rides for recreational purposes."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image depicts a scene in the center of a town where a group of motorcycle officers, dressed in police riding gear, are proceeding down the street in a single file line. There are at least five motorcycles visible in the procession, with one following another.\n\nIn the image, several people are also present in the background, with some standing near the procession and others further away. Some individuals carry backpacks and handbags, possibly waiting for public transportation or on their way somewhere.\n\nThe town street is lined with numerous traffic lights and potted plants, contributing to the urban atmosphere. In the surrounding area, various modes of transportation are visible, including a car, a truck, and additional motor vehicles parked or moving along the street."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the significance of the formation that the motorcycle officers are riding in and what benefits does it provide?",
+            "steps": [],
+            "answer": "The motorcycle officers are riding in a single file line down the street in a motorcade. This formation is significant because it allows the officers to maintain organization and order while proceeding through the city. Furthermore, the single file line helps to reduce traffic disruptions, allows for easier navigation through tight spaces or congested areas, and enhances safety by providing a clear and predictable path for other road users. Additionally, the formation demonstrates the presence of authority and discipline, reflecting a professional and well-organized police force."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Can you describe the main features of this image for me?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a vibrant scene on a city street. At the heart of the action are six police officers, each astride a motorcycle. The motorcycles, painted in striking hues of yellow and blue, are arranged in a line, with the lead motorcycle slightly ahead of the others. \n\nThe officers, clad in helmets and reflective jackets, appear to be in motion, riding down the right side of the street. Their uniforms and the colors of their motorcycles suggest they might be part of a special unit or event.\n\nThe street itself is lined with lush green trees and various buildings, creating a picturesque backdrop to the scene. Pedestrians can be seen on the sidewalk, adding to the urban atmosphere. On the left side of the street, there's a car, indicating that this is a shared roadway.\n\nOverall, this image presents a dynamic snapshot of city life, with law enforcement visibly present and active."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.0,
+                0.5135128805620609,
+                0.045453125,
+                0.8218969555035129
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.563109375,
+                0.4236768149882904,
+                0.79053125,
+                0.8751288056206089
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.435421875,
+                0.28695550351288057,
+                0.5315000000000001,
+                0.44627634660421545
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.36421875,
+                0.25557377049180324,
+                0.44243749999999993,
+                0.39215456674473065
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.302171875,
+                0.20948477751756442,
+                0.37290625,
+                0.350304449648712
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.161515625,
+                0.20946135831381732,
+                0.20125,
+                0.3067213114754098
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.011703125,
+                0.08679156908665106,
+                0.09334375,
+                0.24482435597189697
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.647203125,
+                0.027096018735363,
+                0.67221875,
+                0.1076112412177986
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.80103125,
+                0.0041920374707259955,
+                0.822125,
+                0.08407494145199063
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.635625,
+                0.043911007025761124,
+                0.6491562500000001,
+                0.10697892271662764
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5650000000000001,
+                0.16962529274004687,
+                0.60359375,
+                0.3172131147540984
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.446078125,
+                0.220327868852459,
+                0.515,
+                0.3079156908665105
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.9614687500000001,
+                0.0,
+                1.0,
+                0.09611241217798594
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.028015625,
+                0.0,
+                0.05723437499999999,
+                0.06988290398126464
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.375515625,
+                0.00765807962529274,
+                0.398359375,
+                0.1065807962529274
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.12890625,
+                0.11854800936768149,
+                0.136078125,
+                0.12927400468384073
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.580921875,
+                0.1987822014051522,
+                0.602515625,
+                0.23662763466042153
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.699078125,
+                0.20381733021077283,
+                0.7236718750000001,
+                0.2571194379391101
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.158859375,
+                0.0006791569086651054,
+                0.268703125,
+                0.0804215456674473
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.56096875,
+                0.0,
+                0.642640625,
+                0.09081967213114754
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.10196875000000001,
+                0.14423887587822015,
+                0.13548437500000002,
+                0.24854800936768148
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.164640625,
+                0.16597189695550352,
+                0.201203125,
+                0.2214754098360656
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.47375,
+                0.15688524590163933,
+                0.4955,
+                0.25323185011709604
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.857484375,
+                0.19859484777517564,
+                0.8917031249999999,
+                0.3534660421545668
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8046093750000001,
+                0.18697892271662764,
+                0.8521718750000001,
+                0.339367681498829
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6010625,
+                0.252248243559719,
+                0.75884375,
+                0.4662060889929742
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9843437500000001,
+                0.19475409836065574,
+                1.0,
+                0.34676814988290394
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.313015625,
+                0.17772833723653395,
+                0.35337500000000005,
+                0.25278688524590165
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.36253125,
+                0.15297423887587822,
+                0.38643750000000004,
+                0.22627634660421544
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.8983437500000001,
+                0.013723653395784545,
+                0.9239062500000002,
+                0.09704918032786884
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.8896875,
+                0.2541217798594848,
+                0.907234375,
+                0.2822014051522248
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.6483749999999999,
+                0.1878454332552693,
+                0.66478125,
+                0.22426229508196718
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.09915625,
+                0.1538407494145199,
+                0.115984375,
+                0.24379391100702574
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.8825468750000001,
+                0.22779859484777518,
+                0.8957500000000002,
+                0.2689695550351288
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.9407343750000001,
+                0.24091334894613584,
+                0.9623281250000002,
+                0.2873302107728337
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9131562499999999,
+                0.21149882903981265,
+                0.951421875,
+                0.35578454332552695
+            ]
+        }
+    ],
+    "hash_id": "538_coco_train2017_000000043936.jpg"
+}

@@ -1,0 +1,280 @@
+{
+    "id": "000000002083",
+    "image": "coco/train2017/000000002083.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are in the kitchen doing the dishes?",
+            "steps": [],
+            "answer": "There are two people in the kitchen doing the dishes."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people holding while doing the dishes?",
+            "steps": [],
+            "answer": "One person is holding a plate, and the other person is holding a pot."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is it a woman and a girl doing the dishes together or two girls?",
+            "steps": [],
+            "answer": "It's a woman and a girl doing the dishes together in the kitchen."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the woman doing while washing the dishes?",
+            "steps": [],
+            "answer": "The woman is washing the dishes and looking at something, likely engaging in a conversation or observing her surroundings."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can you infer about the relationship between the woman and the girl?",
+            "steps": [],
+            "answer": "Based on the image, it is reasonable to infer that the woman and the girl might be family members, perhaps a mother and her daughter or an older sister and her younger sibling. Washing dishes together is often a shared household chore, and participating in it together can foster a sense of closeness and teamwork within a family. Additionally, the act of washing dishes usually involves some level of communication and interaction, which can further strengthen bonds between family members."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "The image depicts a kitchen scene with two girls, one of them washing the dishes in the sink. The other girl is close by, presumably assisting in the task or holding a pot. They seem to be working together to clean up after a meal.\n\nThe kitchen is well-stocked with various items, such as multiple bottles scattered around the counters, a clock on the wall, and several books. There are also a number of cups and a few vases, as well as a potted plant and a bowl. The room features two ovens, which indicates that this might be a well-equipped kitchen."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can we infer about the relationship between the individuals in the kitchen?",
+            "steps": [],
+            "answer": "We can infer that the relationship between the two individuals in the kitchen is likely close or familial. In the scene, a woman and a girl are working together to wash the dishes, with one holding a plate and the other holding a pot. This cooperative act of doing household chores suggests that they have a shared responsibility and understanding of their roles within the space. Such a dynamic is typically observed among family members, like a parent and their child, or among friends or roommates who have a strong bond and are comfortable working together. This collaboration emphasizes the importance of teamwork and sharing tasks to create a positive environment at home."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you think is going on in this snapshot?"
+        },
+        {
+            "from": "gpt",
+            "value": "This is a lively scene set in a cozy kitchen. The kitchen is adorned with white cabinets that provide a clean and bright atmosphere. A window, dressed with a curtain, allows natural light to filter in, enhancing the warmth of the space.\n\nTwo people are actively engaged in this setting. On the left, a person is standing at the sink, their back to us. They are wearing a white sweater, which contrasts nicely with the darker tones of the kitchen counter and sink. Their posture suggests they might be washing dishes or preparing food.\n\nOn the right, another person is holding a frying pan. They are wearing a blue sweater, adding a pop of color to the scene. The frying pan suggests they might be cooking something delicious for a meal.\n\nThe counter and sink area are populated with various kitchen items, indicating an active cooking session. There's a coffee maker ready to brew some fresh coffee, a blender for whipping up smoothies or sauces, and bottles of condiments likely used for flavoring the dishes.\n\nA clock on the wall reads approximately 6:30. Whether it's morning or evening is left to our imagination, but it's clear that this kitchen is a hub of activity during meal times."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.25309375,
+                0.5417056074766355,
+                0.29215625,
+                0.761822429906542
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.252734375,
+                0.6330373831775701,
+                0.285375,
+                0.8014252336448598
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.41609375000000004,
+                0.485911214953271,
+                0.44985937500000006,
+                0.5749532710280374
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.38140625,
+                0.5243457943925234,
+                0.40123437500000003,
+                0.6020560747663551
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.777921875,
+                0.470607476635514,
+                0.8117812499999999,
+                0.5568224299065421
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.8194687500000001,
+                0.47408878504672897,
+                0.841359375,
+                0.5969859813084112
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.680765625,
+                0.3887616822429906,
+                0.999375,
+                0.9887616822429907
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.405765625,
+                0.26516355140186915,
+                0.680765625,
+                0.9887616822429907
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9813124999999999,
+                0.2925934579439252,
+                1.0,
+                0.42455607476635515
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.016453125,
+                0.07850467289719626,
+                0.089765625,
+                0.21051401869158878
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.29031250000000003,
+                0.4323364485981308,
+                0.32281250000000006,
+                0.4868691588785047
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.7291562500000001,
+                0.8251168224299065,
+                0.8007031250000001,
+                0.8986448598130842
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.356625,
+                0.4030607476635514,
+                0.420140625,
+                0.4792990654205607
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.0,
+                0.5493457943925234,
+                0.155953125,
+                0.6228971962616823
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.61884375,
+                0.4813785046728972,
+                0.66465625,
+                0.5534345794392523
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.341609375,
+                0.41649532710280374,
+                0.36189062499999997,
+                0.48728971962616824
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.35609375,
+                0.909088785046729,
+                0.578421875,
+                0.9870093457943925
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.22525,
+                0.8322429906542056,
+                0.44176562500000005,
+                0.9810747663551401
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.373359375,
+                0.4356775700934579,
+                0.393390625,
+                0.480607476635514
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.79996875,
+                0.5484345794392523,
+                0.823890625,
+                0.6340186915887851
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.284421875,
+                0.6830841121495328,
+                0.48409375,
+                0.7579906542056075
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.37828125,
+                0.6488317757009345,
+                0.5022968750000001,
+                0.7098598130841122
+            ]
+        }
+    ],
+    "hash_id": "93_coco_train2017_000000002083.jpg"
+}

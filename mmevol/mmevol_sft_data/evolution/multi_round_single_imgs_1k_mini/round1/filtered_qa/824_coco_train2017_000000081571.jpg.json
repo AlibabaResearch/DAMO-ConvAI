@@ -1,0 +1,291 @@
+{
+    "id": "000000081571",
+    "image": "coco/train2017/000000081571.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the giraffes in the image real or sculptures?",
+            "steps": [],
+            "answer": "The giraffes in the image are sculptures."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many giraffe sculptures are present in the image?",
+            "steps": [],
+            "answer": "There are two giraffe sculptures in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of the image?",
+            "steps": [],
+            "answer": "The setting of the image is a crowded square with people standing around and looking at the giraffe sculptures."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people in the image doing?",
+            "steps": [],
+            "answer": "The people in the image are standing around, observing and possibly admiring the two giraffe sculptures."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can sculptures like these have a positive impact on public spaces?",
+            "steps": [],
+            "answer": "Yes, sculptures like these can have a positive impact on public spaces. Public art, including sculptures, can transform an ordinary space into a unique, engaging, and attractive environment. Such art installations, especially when they are large and visually striking like the giraffe sculptures, can become conversation starters, create a memorable experience or connection for the visitors, and even become iconic landmarks.\n\nThe presence of public art can encourage people to socialize, take photographs, or simply spend more time in the area, which in turn can benefit local businesses and the community as a whole. Additionally, public art can express a community's values or cultural identity, making the space feel more connected to its inhabitants.\n\nIn the case of the two giraffe sculptures, their imposing presence and unexpected appearance in a crowded square create a sense of wonder and visual interest, drawing people in and fostering interactions among the people standing around and looking at them. As a result, such sculptures can positively influence the public space by promoting social connections, enhancing the area's visual appeal, and providing unique experiences for visitors."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "The image features a crowded square where a sea of people is standing around looking at two giraffes. The giraffes are standing next to each other in the middle of the crowd, being particularly eye-catching due to their size.\n\nThroughout the scene, there are several potted plants scattered around, with some close to the giraffes and others further away. People of various ages can be seen, with some standing closer to the giraffes while others are positioned farther away. Some individuals are carrying handbags, which are also depicted in the image. The bustling atmosphere indicates a sense of excitement and curiosity as the people gather around the captivating giraffes."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What may be the main attraction in the crowded square?",
+            "steps": [],
+            "answer": "In the crowded square, the main attraction appears to be the two giraffes, which could be sculptures or real giraffes that are standing next to each other in the middle of numerous people. These giraffes are placed at the center of attention, and the crowd has gathered around them to observe and admire the unique sight. This unusual presence of the two giraffes makes them the focal point in the square, drawing people's interest and captivating their attention."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What do you think is going on in this snapshot?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city, a crowd of people has gathered around two magnificent giraffe sculptures. The sculptures, towering over the spectators, are crafted from a fabric adorned with a pattern of brown and yellow patches, mimicking the natural coat of a giraffe. \n\nThe giraffes are positioned in front of a charming building, which features a balcony adorned with flower boxes. The giraffes seem to be engaged in a tender interaction, with one giraffe's head gently resting on the other's neck, creating an endearing spectacle that has captured the attention of the onlookers.\n\nThe crowd, composed of individuals of various ages, watches with interest and admiration. Their gazes are fixed on the giraffes, their faces reflecting a mix of curiosity and delight. The scene is lively yet peaceful, with the gentle interaction between the giraffe sculptures adding a touch of warmth and whimsy to the urban landscape."
+        }
+    ],
+    "det": [
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.167921875,
+                0.24943793911007026,
+                0.29085937500000003,
+                0.3707962529274005
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.553125,
+                0.25288056206088994,
+                0.61159375,
+                0.33517564402810307
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.614703125,
+                0.24770491803278688,
+                0.691609375,
+                0.3301170960187353
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.73871875,
+                0.2287353629976581,
+                0.8350781249999999,
+                0.33395784543325524
+            ]
+        },
+        {
+            "label": "giraffe",
+            "bbox": [
+                0.4,
+                0.12503512880562062,
+                0.575546875,
+                0.8179859484777517
+            ]
+        },
+        {
+            "label": "giraffe",
+            "bbox": [
+                0.24289062499999997,
+                0.15505854800936766,
+                0.514265625,
+                0.8112412177985948
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.5507500000000001,
+                0.8164871194379391,
+                0.6079218750000001,
+                0.9098829039812646
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.65434375,
+                0.5083372365339579,
+                0.9821874999999999,
+                0.9979391100702576
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.630296875,
+                0.7386182669789226,
+                0.676375,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8841875,
+                0.7179156908665105,
+                0.9764687500000001,
+                0.9340749414519907
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.34203125,
+                0.7788056206088994,
+                0.4680625,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.020984375,
+                0.6134894613583137,
+                0.24139062500000003,
+                0.9887587822014051
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.194484375,
+                0.69,
+                0.2668125,
+                0.9700702576112413
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.598453125,
+                0.7826463700234192,
+                0.6266406250000001,
+                0.8474941451990632
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.42281250000000004,
+                0.7537002341920375,
+                0.505625,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.454296875,
+                0.7447306791569087,
+                0.539171875,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.60271875,
+                0.7505620608899297,
+                0.644703125,
+                0.997751756440281
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0015,
+                0.6247306791569086,
+                0.1499375,
+                0.9887587822014051
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.29159375,
+                0.8391334894613584,
+                0.319859375,
+                0.9424824355971897
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.42062499999999997,
+                0.8708196721311475,
+                0.43240625,
+                0.9994379391100703
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.642296875,
+                0.8831850117096018,
+                0.700328125,
+                1.0
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.9206093750000001,
+                0.218711943793911,
+                0.9956093750000001,
+                0.30644028103044496
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.28025,
+                0.7911475409836065,
+                0.37865625,
+                1.0
+            ]
+        }
+    ],
+    "hash_id": "824_coco_train2017_000000081571.jpg"
+}

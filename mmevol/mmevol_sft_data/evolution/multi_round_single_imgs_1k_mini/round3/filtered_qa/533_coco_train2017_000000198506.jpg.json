@@ -1,0 +1,149 @@
+{
+    "id": "000000198506",
+    "image": "coco/train2017/000000198506.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image captures a group of people waiting on a platform in front of a green and aqua-colored train. There are six visible individuals spread across the platform, some closer to the train and others further away. \n\nIn addition to the people, there are several personal belongings present. These include a backpack located in the center of the platform, two handbags held by the passengers on the right side, and two suitcases positioned on the ground separately; one closer to the left side and the other more towards the middle. The scene depicts the common scenario of people waiting to board a train, likely embarking on a journey."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How can people make their train travel more convenient and comfortable?",
+            "steps": [],
+            "answer": "To make their train travel more convenient and comfortable, passengers can take several steps. As seen in the image, people are waiting on the platform with various types of luggage, including backpacks, handbags, and suitcases. To ease their journey, they should pack their belongings efficiently and be mindful of the size and weight of their luggage, ensuring it is easy to carry and store on the train. \n\nAdditionally, passengers should arrive at the station well ahead of the scheduled departure time to avoid rushing and secure ample time for boarding. Checking train schedules, platform information, and any updates or delays beforehand can also help in planning a smooth trip. \n\nWhile on the train, passengers can make the journey more comfortable by securing a seat or space, making sure not to block aisles or exits, and being mindful of fellow passengers by keeping noise levels low, avoiding taking up extra seats, and maintaining clean spaces. Following these steps can help ensure a more convenient and comfortable train travel experience for both the individual and their fellow passengers."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a moment at a train station, where an Arriva Trains Wales train, painted in hues of green and blue, has come to a halt. The platform, constructed of solid concrete, is bustling with activity. Several individuals are seen making their way towards the train, their steps echoing the anticipation of a journey. Some of them are carrying luggage, perhaps indicating a trip of significant duration or importance.\n\nIn the foreground, a wooden fence stands as a silent observer to the scene unfolding. It adds a rustic charm to the otherwise modern setting. Beyond the platform, there's a building with a red roof, perhaps another part of the station or a nearby structure. Further in the distance, a hill adorned with trees paints a serene backdrop to this lively scene.\n\nThe words \"ARRIVA Trains Wales\" and \"Trenau Arriva Cymru\" are prominently displayed on the train, proudly announcing its identity and origin. The scene is a blend of motion and stillness, human activity and natural tranquility, creating a snapshot of life at this Welsh train station."
+        }
+    ],
+    "det": [
+        {
+            "label": "train",
+            "bbox": [
+                0.02853125,
+                0.25393305439330544,
+                1.0,
+                0.7505648535564853
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8233593750000001,
+                0.466234309623431,
+                0.9328593750000002,
+                0.9511924686192469
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.139171875,
+                0.471255230125523,
+                0.20843749999999997,
+                0.7649163179916318
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.50675,
+                0.4898953974895397,
+                0.561296875,
+                0.6116108786610878
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.684015625,
+                0.5127405857740586,
+                0.7609999999999999,
+                0.6446025104602511
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.8036875,
+                0.6340585774058577,
+                0.844765625,
+                0.7425313807531381
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.320859375,
+                0.6413807531380753,
+                0.399109375,
+                0.7524895397489539
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.6643125000000001,
+                0.6673221757322176,
+                0.723109375,
+                0.7596025104602511
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.497359375,
+                0.43744769874476985,
+                0.57271875,
+                0.7042677824267782
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.38371875,
+                0.46510460251046026,
+                0.43690625,
+                0.7617991631799162
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5729062500000001,
+                0.46692468619246863,
+                0.609703125,
+                0.5543933054393305
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6938125,
+                0.4647698744769874,
+                0.77690625,
+                0.7864644351464435
+            ]
+        }
+    ],
+    "hash_id": "533_coco_train2017_000000198506.jpg"
+}

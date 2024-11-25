@@ -1,0 +1,437 @@
+{
+    "id": "000000094925",
+    "image": "coco/train2017/000000094925.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The image depicts a busy airport terminal with various people either sitting or walking around. There are a total of seventeen people in the scene, with some sitting on benches or chairs, while others stand and move throughout the area. Many individuals are carrying luggage, with multiple suitcases, backpacks, and handbags scattered around the terminal.\n\nThe airport features several benches placed at different points, as well as numerous chairs organized in rows in one part of the scene. A yellow structure is also visible near the group of people sitting, possibly an architectural element or a piece of airport-specific equipment.\n\nThe overall atmosphere in the image feels bustling and filled with travelers on their way to different destinations."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Based on the level of activity in the airport, what advice would you give to someone planning to catch a flight?",
+            "steps": [],
+            "answer": "Given the level of activity in the airport, with a large number of people sitting and walking around in the busy terminal and the presence of multiple pieces of luggage, chairs, and benches, it would be advisable for someone planning to catch a flight to arrive early. Arriving early provides time for navigating the crowded environment, checking in luggage, going through the security screening, and anticipating any unexpected delays or complications that may arise in such a hectic setting. It also helps ensure a more relaxed and stress-free experience before boarding the flight."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you see happening in this image?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a bustling scene at an airport terminal. The terminal is spacious with a high ceiling, allowing natural light to flood in through the large windows. The floor, made of shiny tiles, reflects the light, adding to the brightness of the space.\n\nIn the heart of the terminal stands a large structure, a duty-free shop. It's painted in striking yellow and black colors, with the words \"DUTY FREE\" prominently displayed. This shop seems to be a hub of activity, with people milling around it.\n\nThe people in the terminal are engaged in various activities. Some are walking around, possibly looking for their gates or exploring the shops. Others are sitting on benches, perhaps waiting for their flights or resting after a long journey.\n\nScattered throughout the space are red barriers, likely used to manage queues or direct foot traffic. Despite the busy scene, there's an order to the place, with each element and person in their precise location.\n\nThis image is a snapshot of life in an airport terminal - a place of arrivals and departures, of hellos and goodbyes."
+        }
+    ],
+    "det": [
+        {
+            "label": "handbag",
+            "bbox": [
+                0.48092187500000005,
+                0.8590099009900991,
+                0.4947500000000001,
+                0.921930693069307
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.359828125,
+                0.8902227722772277,
+                0.3711875,
+                0.9516336633663366
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.75603125,
+                0.6018316831683168,
+                0.7756406250000001,
+                0.6434653465346534
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.46920312500000005,
+                0.9228217821782178,
+                0.5059218750000001,
+                1.0
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.498734375,
+                0.7902970297029702,
+                0.52071875,
+                0.8307425742574256
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.467765625,
+                0.7730693069306931,
+                0.49031250000000004,
+                0.8275
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4559375,
+                0.8332920792079207,
+                0.5035937500000001,
+                0.9978465346534653
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.363578125,
+                0.8554207920792078,
+                0.40326562499999996,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.12428125000000001,
+                0.7724257425742574,
+                0.176078125,
+                0.9413861386138613
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.18751562500000002,
+                0.6189108910891089,
+                0.22540624999999997,
+                0.7038861386138614
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.14942187499999998,
+                0.653539603960396,
+                0.181859375,
+                0.738688118811881
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.250375,
+                0.6304950495049505,
+                0.27189062500000005,
+                0.7605445544554456
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.31615625,
+                0.624430693069307,
+                0.346171875,
+                0.7451732673267327
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.337171875,
+                0.6383663366336633,
+                0.37903125,
+                0.8365346534653465
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.394,
+                0.5907425742574257,
+                0.41714062499999993,
+                0.6702227722772277
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.403640625,
+                0.6967821782178217,
+                0.451484375,
+                0.8146782178217822
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.13704687499999998,
+                0.6578465346534653,
+                0.18946875,
+                0.6966336633663366
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.5340625,
+                0.6822772277227722,
+                0.559078125,
+                0.7264356435643563
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.436875,
+                0.7841336633663367,
+                0.45553125000000005,
+                0.8210891089108912
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.55403125,
+                0.7775000000000001,
+                0.577796875,
+                0.8301980198019803
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.38106249999999997,
+                0.6941336633663366,
+                0.41325,
+                0.8070544554455445
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.533625,
+                0.7097029702970298,
+                0.568609375,
+                0.8240841584158416
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.6344531250000001,
+                0.7408415841584158,
+                0.670796875,
+                0.7959653465346535
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.6709375,
+                0.7388613861386139,
+                0.7024843749999999,
+                0.8029950495049506
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.508625,
+                0.6484900990099011,
+                0.6428125,
+                0.7849999999999999
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.554078125,
+                0.7810891089108911,
+                0.577796875,
+                0.827450495049505
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.210734375,
+                0.584430693069307,
+                0.21807812499999998,
+                0.6099009900990099
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.7251562500000001,
+                0.7785643564356436,
+                0.7360156250000001,
+                0.8125247524752477
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.634265625,
+                0.7339851485148514,
+                0.670890625,
+                0.7994554455445544
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.571640625,
+                0.7348267326732674,
+                0.6025781250000001,
+                0.7923762376237624
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.538609375,
+                0.7305198019801981,
+                0.570953125,
+                0.7855445544554456
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.5240625,
+                0.7299752475247525,
+                0.539546875,
+                0.7850742574257427
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.49996875,
+                0.7248514851485148,
+                0.513890625,
+                0.7773514851485147
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6698125,
+                0.7379950495049504,
+                0.703359375,
+                0.8009900990099009
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.446953125,
+                0.6416584158415842,
+                0.456453125,
+                0.6694554455445545
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.52903125,
+                0.6443316831683168,
+                0.5510468749999999,
+                0.7219059405940593
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.61890625,
+                0.6844554455445544,
+                0.6423125000000001,
+                0.7367079207920793
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.401859375,
+                0.6725742574257426,
+                0.42271875000000003,
+                0.7054950495049506
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4836875,
+                0.7038861386138614,
+                0.53615625,
+                0.7974009900990099
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.4078125,
+                0.7835643564356436,
+                0.43200000000000005,
+                0.8262376237623763
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.722828125,
+                0.6461633663366337,
+                0.7396875,
+                0.6752970297029702
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.60021875,
+                0.7363861386138614,
+                0.63671875,
+                0.8008415841584159
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.447953125,
+                0.7459405940594059,
+                0.464546875,
+                0.7758415841584159
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.38854687499999996,
+                0.7443316831683168,
+                0.4013281249999999,
+                0.7651980198019802
+            ]
+        }
+    ],
+    "hash_id": "619_coco_train2017_000000094925.jpg"
+}

@@ -1,0 +1,248 @@
+{
+    "id": "000000014244",
+    "image": "coco/train2017/000000014244.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the skateboarder doing in the image?",
+            "steps": [],
+            "answer": "The skateboarder is performing a trick by jumping over a white fire hydrant on his skateboard."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the skateboarder in the air or on the ground?",
+            "steps": [],
+            "answer": "The skateboarder is in the air, as he is jumping over the fire hydrant with his skateboard."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the fire hydrant in the image?",
+            "steps": [],
+            "answer": "The fire hydrant in the image is white."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of skateboard trick is the skateboarder performing?",
+            "steps": [],
+            "answer": "Based on the image, it is not possible to specifically identify the exact skateboard trick being performed. However, it is clear that the skateboarder is executing a jumping trick, also known as an \"ollie\" or a similar aerial maneuver, to successfully clear the fire hydrant."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are skateboard tricks and maneuvers a part of a specific sport or subculture?",
+            "steps": [],
+            "answer": "Yes, skateboard tricks and maneuvers are a significant part of skateboarding culture and a sport called street skateboarding. Skateboarding, which originated in the 1950s in California, has its roots in surfing and has since evolved into a popular sport and subculture with a unique lifestyle, fashion, and lingo.\n\nStreet skateboarding involves performing tricks and maneuvers on various urban obstacles such as stairs, handrails, curbs, benches, and fire hydrants, like in the image. Skateboarders often push boundaries and test their abilities by mastering increasingly complex tricks to showcase their creativity and skill. These tricks can be divided into several categories, such as:\n\n1. Aerials: Tricks that involve the skateboarder going into the air, like the one in the image. Common aerial tricks include ollies, kickflips, and heelflips.\n\n2. Grinds and slides: Tricks that involve sliding or grinding on surfaces like rails, ledges, or curbs using the skateboard trucks or deck. Examples include 50-50 grinds, boardslides, and noseslides.\n\n3. Flips and shuvits: Tricks that involve spinning the board around its axes, with or without the skater's feet leaving the board. Examples include varial flips, hardflips, and pop shuvits.\n\n4. Freestyle: Creative tricks and footwork performed on flat ground. These often involve balancing on one or both feet in various positions and can include handstands, finger flips, and pogo tricks.\n\nOver the years, skateboarding has developed into a highly recognized sport with international competitions like the X Games, Dew Tour, and even inclusion in the 2021 Tokyo Olympic Games. The vibrant skateboarding subculture has also greatly influenced popular culture, including music, fashion, and art, over the decades."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Describe the following image.",
+            "steps": [],
+            "answer": "The image captures an exciting moment as a young man jumps over a white fire hydrant on his skateboard, skillfully performing a trick. The scene is outdoors and appears to be a busy urban setting with several people nearby. In the background, some individuals are walking or standing with bicycles, while a car can also be spotted. The skateboarder himself is at the center of attention, impressing passersby.\n\nAdditionally, there are two handbags visible in the scene, one located near a person on the right side and the other near a person on the left side of the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What potential risks might this skateboarder face in this scenario?",
+            "steps": [],
+            "answer": "In this image, a young man is jumping over a fire hydrant on his skateboard, performing a trick. The potential risks that the skateboarder might face include injuries or accidents due to miscalculation or lack of control while attempting the jump. Missing the landing or failing to clear the fire hydrant could result in falls, collisions with the fire hydrant or other nearby obstacles, such as parked cars or people. Furthermore, the skateboarder may cause injury or damage to bystanders, other nearby objects, or his own skateboard if the trick goes wrong. It's important for skateboarders to practice caution, proper technique, and wear protective gear while attempting such tricks to minimize these risks."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nDescribe the following image."
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a dynamic scene on a bustling city street. At the center of the frame, a young man is in mid-air, executing a daring skateboard trick over a white fire hydrant. He is dressed casually in a black t-shirt and jeans, his body angled towards the sky as he deftly maneuvers his skateboard beneath him.\n\nThe fire hydrant, painted a stark white, stands on the right side of the image, providing a stark contrast to the grey pavement. It's positioned near the edge of the sidewalk, adjacent to the busy street filled with cars and flanked by towering buildings.\n\nThe perspective of the image is particularly striking, taken from a low angle that looks up at the skateboarder, accentuating his impressive leap and lending an air of drama and excitement to the scene. The background is a blur of urban life, with cars in motion and buildings stretching up towards the sky. The image is a freeze-frame of action and energy, encapsulating a moment of daring skill against the backdrop of everyday city life."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.8737343750000001,
+                0.5377708333333333,
+                0.95034375,
+                0.6614375
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.18071874999999998,
+                0.5860625,
+                0.22373437499999999,
+                0.6672083333333333
+            ]
+        },
+        {
+            "label": "fire hydrant",
+            "bbox": [
+                0.362390625,
+                0.6164375,
+                0.572359375,
+                1.0
+            ]
+        },
+        {
+            "label": "skateboard",
+            "bbox": [
+                0.48045312500000004,
+                0.464,
+                0.6900625,
+                0.5842708333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.309125,
+                0.0011250000000000001,
+                0.6841250000000001,
+                0.503375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.139578125,
+                0.48077083333333337,
+                0.19540625,
+                0.7313958333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.09215625,
+                0.48668750000000005,
+                0.139984375,
+                0.7127916666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.970109375,
+                0.518,
+                1.0,
+                0.6411874999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.216546875,
+                0.5032083333333334,
+                0.261546875,
+                0.6862499999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.873359375,
+                0.473875,
+                0.94665625,
+                0.6254375000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.93475,
+                0.5055416666666667,
+                0.95603125,
+                0.5720833333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.307578125,
+                0.5192291666666666,
+                0.339984375,
+                0.6740416666666665
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0145625,
+                0.46489583333333334,
+                0.07825,
+                0.7166875
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.003390625,
+                0.6038958333333333,
+                0.08887500000000001,
+                0.7015208333333334
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.85603125,
+                0.5190833333333333,
+                0.8824062500000001,
+                0.576125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.85571875,
+                0.4985416666666667,
+                0.889046875,
+                0.6225208333333333
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.09346875,
+                0.596625,
+                0.11673437500000002,
+                0.6249791666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9533125,
+                0.5036041666666666,
+                0.975765625,
+                0.6280416666666666
+            ]
+        }
+    ],
+    "hash_id": "465_coco_train2017_000000014244.jpg"
+}

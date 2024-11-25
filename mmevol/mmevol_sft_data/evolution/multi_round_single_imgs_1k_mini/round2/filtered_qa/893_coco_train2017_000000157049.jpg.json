@@ -1,0 +1,256 @@
+{
+    "id": "000000157049",
+    "image": "coco/train2017/000000157049.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the focus of activity in the image?",
+            "steps": [],
+            "answer": "The focus of activity in the image is a baseball game, specifically a baseball player getting ready to hit a ball near home plate. There is also a group of boys playing baseball and a crowd of people, including parents and siblings, watching from the bleachers."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of baseball game is depicted in the image?",
+            "steps": [],
+            "answer": "The image depicts a Little League baseball game, which is a youth baseball program for children typically ranging from 4 to 16 years old."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of this baseball game, and who is watching the game?",
+            "steps": [],
+            "answer": "The setting of this baseball game is an outdoor baseball field, with a crowd of people in the bleachers, including parents and siblings of the players, watching the game."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the baseball player doing near the home plate?",
+            "steps": [],
+            "answer": "The baseball player near the home plate is holding a bat and getting ready to swing at the incoming baseball, attempting to make a successful hit."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you explain the significance of the home plate in baseball and the role of a batter?",
+            "steps": [],
+            "answer": "In baseball, the home plate is one of the four bases that make up the diamond-shaped playing field. It is a flat pentagonal rubber slab, where batters stand beside to take their turn at bat. Serving as the starting and ending point for each team's offensive turn, the home plate is a crucial component of the game.\n\nThe role of the batter is to hit the pitched ball by swinging a baseball bat. A successful hit would ideally enable the batter to advance around the bases and ultimately score a run by returning to the home plate. Batters have several goals in mind while at bat:\n\n1. Take a full swing to hit the ball far enough to give them a chance to advance through the bases (potentially hitting a home run if the ball is hit out of the playing field).\n2. Make a strategic play, such as a bunt, to move a teammate to the next base.\n3. Draw a walk by not swinging at poor pitches and forcing the pitcher to throw four balls outside the strike zone, allowing the batter to advance to first base without hitting the ball.\n\nEach batter aims to contribute to their team's overall score by getting on base and driving in runs. The batter's individual performance, such as the average number of successful hits and runs batted in, is critical to both the player's personal success and the team's overall performance."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The image showcases a little league baseball game in progress, with a young baseball player holding a bat next to the home plate and preparing to hit the ball. There's a sports ball in flight, possibly the ball he's aiming at. Several other players are present, including a boy wearing a baseball glove, ready to catch the ball. \n\nParents, siblings, and other spectators are gathered on the bleachers and around the field, watching the game intently. A bench is located near the baseball field, where some observers or teammates might sit.\n\nOutside the field, there are multiple cars parked nearby, some of which belong to the spectators attending the game."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What advice can be given to the batter to improve their performance?",
+            "steps": [],
+            "answer": "To improve their performance, the batter can consider several factors such as stance, grip, and focus. It is essential for the batter to maintain a balanced stance with their feet shoulder-width apart, knees slightly bent, and body weight on the balls of their feet. They should hold the bat with a firm grip but avoid tensing their hands and arms, which can impact their swing flexibility. Moreover, the batter should closely watch the ball from the time it leaves the pitcher's hand and maintain a sharp focus on the ball throughout its trajectory.\n\nDeveloping a proper swing is also crucial. This involves using both the upper body and lower body strength, transferring weight from the back foot to the front foot, and making precise and powerful contact with the ball. Regular practice, along with analyzing game footage, can also help the batter recognize any weaknesses and areas for improvement. Additionally, they should work closely with their coach to get personalized suggestions and follow a workout routine that focuses on building core strength, flexibility, and overall endurance."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat's happening in the scene?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of the action, a youth baseball game unfolds. The central figures are a batter, a catcher, and an umpire. The batter, clad in an orange jersey and a black helmet, is in the midst of a powerful swing, his body coiled with anticipation. His position at home plate is mirrored by the catcher, who is crouched behind him in a gray uniform and black helmet, ready to receive or block the incoming pitch.\n\nThe umpire, distinguished by his black and white striped shirt, stands alert behind the catcher, his gaze focused on the unfolding play. His position gives him a clear view of the batter, catcher, and the trajectory of the ball.\n\nThe field they play on is a classic dirt diamond, evoking countless games played under the sun. In the distance, a scoreboard stands tall, keeping track of the game's progress.\n\nBeyond the chain link fence that marks the boundary of the field, several spectators are gathered. They watch with rapt attention as this moment in the game unfolds. Each figure is distinct yet part of a larger tableau that captures the spirit and excitement of youth baseball."
+        }
+    ],
+    "det": [
+        {
+            "label": "sports ball",
+            "bbox": [
+                0.8899374999999999,
+                0.6503747072599532,
+                0.926984375,
+                0.6894847775175643
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.073046875,
+                0.19304449648711947,
+                0.358484375,
+                0.4429508196721311
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.409625,
+                0.2022248243559719,
+                0.548234375,
+                0.3833255269320843
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.00059375,
+                0.20498829039812647,
+                0.08589062500000001,
+                0.2699765807962529
+            ]
+        },
+        {
+            "label": "baseball bat",
+            "bbox": [
+                0.8532968750000001,
+                0.5414051522248243,
+                0.9043281249999999,
+                0.7334894613583138
+            ]
+        },
+        {
+            "label": "baseball glove",
+            "bbox": [
+                0.358546875,
+                0.7010538641686184,
+                0.42762500000000003,
+                0.8238875878220141
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.1268125,
+                0.3911007025761124,
+                0.424390625,
+                0.8488758782201405
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.22021077283372364,
+                0.1338125,
+                0.8219437939110071
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.22189062499999998,
+                0.09662763466042154,
+                0.33884375,
+                0.39550351288056207
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.33634375,
+                0.08515222482435597,
+                0.42215625,
+                0.38915690866510544
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6463281249999999,
+                0.28681498829039814,
+                0.744765625,
+                0.5125292740046838
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6555156249999999,
+                0.23014051522248244,
+                0.9437656249999999,
+                0.8443091334894613
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8329375000000001,
+                0.09072599531615926,
+                0.972859375,
+                0.4421545667447307
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8435,
+                0.31234192037470726,
+                0.9692187500000001,
+                0.6394847775175644
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9692031249999999,
+                0.29531615925058546,
+                1.0,
+                0.5887587822014051
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.28228125,
+                0.5181030444964871,
+                0.621390625,
+                0.5937939110070257
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.54065625,
+                0.18569086651053865,
+                0.6526093749999999,
+                0.5772365339578455
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.623234375,
+                0.14142857142857143,
+                0.8749375,
+                0.28995316159250584
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6093124999999999,
+                0.3176112412177986,
+                0.6630468749999999,
+                0.6226463700234192
+            ]
+        }
+    ],
+    "hash_id": "893_coco_train2017_000000157049.jpg"
+}

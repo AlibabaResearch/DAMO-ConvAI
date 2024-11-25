@@ -1,0 +1,67 @@
+```json
+[
+  {
+    "image_position": "single",
+    "objects": ["traffic light", "person"],
+    "skills": ["Relationship Description Ability", "Context Understanding Ability"],
+    "format": "Norm",
+    "question": "What impact might the traffic light have on the people in the image?",
+    "steps": [
+      {"manipulation":"grounding_1(traffic light)->bbx_1", "description":"Locate the traffic lights in the image and return the corresponding boxes as `bbx_1`."},
+      {"manipulation":"grounding_2(people)->bbx_2", "description":"Identify the people in the vicinity of the traffic lights and return `bbx_2`."},
+      {"manipulation":"None", "description":"Analyze the role of the traffic light in managing pedestrian movement and enhancing safety."}
+    ],
+    "answer": "The traffic lights regulate the flow of both pedestrians and vehicles, ensuring safe crossings and coordinating street movement. Located at coordinates [0.251, 0.172, 0.274, 0.239] and [0.293, 0.117, 0.327, 0.169], they provide structured transitions between pedestrian and vehicular phases, impacting the people who rely on these signals for their safe passage."
+  },
+  {
+    "image_position": "single",
+    "objects": ["mailbox", "sign"],
+    "skills": ["OCR Ability", "Knowledge Integration Ability"],
+    "format": "Norm",
+    "question": "What can you deduce about the mailbox and nearby sign, and what text is present?",
+    "steps": [
+      {"manipulation":"grounding_1(mailbox)->bbx_1", "description":"Locate the red mailbox and define its area as `bbx_1`."},
+      {"manipulation":"grounding_2(sign)->bbx_2", "description":"Locate the blue sign next to the mailbox and define its area as `bbx_2`."},
+      {"manipulation":"OCR_1(`bbx_2`)->txt_1", "description":"Read the text present on the sign and return it as `txt_1`."},
+      {"manipulation":"None", "description":"Deduce the purpose of the mailbox and how the sign might assist passersby with local information."}
+    ],
+    "answer": "The red mailbox likely serves as a public postal service point, situated at coordinates that attract attention due to its vibrant color. The nearby blue sign, which displays a map and helpful directions text, serves to guide pedestrians about the local area."
+  },
+  {
+    "image_position": "single",
+    "objects": ["person", "suitcase"],
+    "skills": ["Grounding Ability", "Context Understanding Ability"],
+    "format": "Norm",
+    "question": "What might be inferred about the people carrying suitcases?",
+    "steps": [
+      {"manipulation":"grounding_1(person with suitcase)->bbx_1", "description":"Identify people holding suitcases and return their bounding boxes as `bbx_1`."},
+      {"manipulation":"None", "description":"Evaluate the context of the scene to infer the purpose of the suitcases, such as travel or commuting."}
+    ],
+    "answer": "Individuals carrying suitcases, located at coordinates [0.545, 0.543, 0.607, 0.576] and [0.243, 0.511, 0.267, 0.554], are likely travelers or commuters heading to or from a nearby transport hub, possibly indicated by the presence of a hotel and urban environment."
+  },
+  {
+    "image_position": "single",
+    "objects": ["car", "bicycle", "motorcycle"],
+    "skills": ["Existence Ability", "Calculating Ability"],
+    "format": "Norm",
+    "question": "How many types of vehicles are present, and what are they?",
+    "steps": [
+      {"manipulation":"None", "description":"Identify all types of vehicles visible in the image."},
+      {"manipulation":"calculate(vehicle types)->res_1", "description":"Determine the number of different types of vehicles identified."}
+    ],
+    "answer": "There are three types of vehicles present: cars, a bicycle, and a motorcycle, suggesting a diverse mode of transportation in the area."
+  },
+  {
+    "image_position": "single",
+    "objects": ["tree", "buildings"],
+    "skills": ["Context Understanding Ability", "Knowledge Integration Ability"],
+    "format": "Norm",
+    "question": "What does the presence of trees and buildings indicate about this urban environment?",
+    "steps": [
+      {"manipulation":"None", "description":"Observe the trees and buildings and consider their implications on the setting."},
+      {"manipulation":"None", "description":"Integrate world knowledge to relate these features to typical urban planning and environmental considerations."}
+    ],
+    "answer": "The combination of trees and buildings suggests a thoughtfully planned urban area, aiming to balance natural greenery with urban structures, providing shade, aesthetics, and potential ecological benefits."
+  }
+]
+```

@@ -1,0 +1,106 @@
+[
+    {
+        "image_position": "single",
+        "objects": ["keychain", "armchair"],
+        "skills": ["Grounding Ability", "Context Understanding Ability"],
+        "format": "depth_order",
+        "question": "Which is more prominent in the foreground, the keychain or the armchair it's placed on?",
+        "steps": [
+            {
+                "manipulation": "grounding_1(keychain)->bbx_1",
+                "description": "Locate the keychain in the image and return the corresponding bounding box."
+            },
+            {
+                "manipulation": "grounding_2(armchair)->bbx_2",
+                "description": "Locate the armchair in the image and return the corresponding bounding box."
+            },
+            {
+                "manipulation": "None",
+                "description": "Determine which object appears more prominently in the foreground based on their relative positioning and sizes."
+            }
+        ],
+        "answer": "The armchair is more prominent in the foreground compared to the keychain."
+    },
+    {
+        "image_position": "single",
+        "objects": ["keychain", "room"],
+        "skills": ["Grounding Ability", "Context Understanding Ability"],
+        "format": "completeness_of_response",
+        "question": "Can you fully describe the room and all visible items just from this image?",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Identify all visible items in the room, noting key features and their arrangements."
+            },
+            {
+                "manipulation": "None",
+                "description": "Evaluate whether a complete description of the room can be accurately made based solely on visual information."
+            }
+        ],
+        "answer": "Yes, the scene includes a keychain on an armchair, another armchair, a painting on the wall, and possible dining area elements in the background."
+    },
+    {
+        "image_position": "single",
+        "objects": ["keychain"],
+        "skills": ["Knowledge Integration Ability", "Creative Thinking"],
+        "format": "rationales_generation",
+        "question": "Provide 3 rationales for the following premise: If this keychain had a hidden feature, what could be its purpose?",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Imagine possible hidden features of a keychain."
+            },
+            {
+                "manipulation": "None",
+                "description": "Think of 3 practical or imaginative purposes these features could serve."
+            }
+        ],
+        "answer": "1. A hidden button transforming it into a drone for finding items. 2. An in-built flashlight for finding keys in the dark. 3. A GPS tracker for locating lost keys."
+    },
+    {
+        "image_position": "single",
+        "objects": ["room", "futuristic features"],
+        "skills": ["Context Understanding Ability", "Creative Thinking"],
+        "format": "instruction_following",
+        "question": "Envision this room with futuristic upgrades; list 4 features and their functions. Respond succinctly.",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Envision prospective futuristic upgrades for the room."
+            },
+            {
+                "manipulation": "None",
+                "description": "Summarize the purpose of each feature envisioned."
+            }
+        ],
+        "answer": "Smart fabric chairs adjusting temperature, interactive walls with themes, digital frame for art, keychain controls home devices."
+    },
+    {
+        "image_position": "single",
+        "objects": ["keychain", "portal"],
+        "skills": ["Creative Thinking", "Imaginative Skills"],
+        "format": "creative_content_generation",
+        "question": "Imagine the keychain unlocks a portal. Write a short story about the dimension it leads to.",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Visualize and creatively narrate the new dimension accessed via the keychain."
+            }
+        ],
+        "answer": "Activating the keychain opens a vivid portal to a kaleidoscopic realm filled with bioluminescent flora and gravity-defying islands. Enigmatic creatures roam freely..."
+    },
+    {
+        "image_position": "single",
+        "objects": ["room", "keychain"],
+        "skills": ["Knowledge Integration Ability", "Context Understanding Ability"],
+        "format": "multi-choice",
+        "question": "Which scenario could realistically happen in this room? A) Keychain activates a secret door B) Room turns into a spaceship C) Keychain controls home temperature D) A robot vacuum activates",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Consider the realistic and hypothetical scenarios in a modern context."
+            }
+        ],
+        "answer": "C"
+    }
+]

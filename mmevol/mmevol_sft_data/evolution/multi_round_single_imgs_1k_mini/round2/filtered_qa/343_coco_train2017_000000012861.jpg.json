@@ -1,0 +1,301 @@
+{
+    "id": "000000012861",
+    "image": "coco/train2017/000000012861.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are sitting on the bench in the image?",
+            "steps": [],
+            "answer": "There are three people sitting on the bench in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the people on the bench smiling?",
+            "steps": [],
+            "answer": "Yes, the three people on the bench are smiling."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people on the bench doing with their hands?",
+            "steps": [],
+            "answer": "The people on the bench are raising their left hands and waving at the camera."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the context of the image? Are the people posing for a photo?",
+            "steps": [],
+            "answer": "The context of the image appears to be of a group of people sitting on a park bench and waving at the camera, as if they are posing for a picture. The fact that they are smiling and waving suggests that they are trying to capture a happy and friendly group photo."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the setting of the image? Is it in a park or another location?",
+            "steps": [],
+            "answer": "The setting of the image features a park bench, implying that the photo is likely taken in a park or a similar outdoor public space. In this environment, people can enjoy spending time together, appreciating nature, or taking leisurely breaks."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Describe the following image.",
+            "steps": [],
+            "answer": "The image portrays three people sitting closely together on a park bench, with each of them having their left hand raised in a wave. They are all smiling and appear to be posing for the camera, indicating a cheerful and lively atmosphere. \n\nBehind the group on the bench, several cars are parked, scattered throughout the scene. Traffic lights can be seen further back, emphasizing the outdoor urban setting. \n\nThere are additional people throughout the picture, including a person standing near the left edge of the image and another standing a bit further to the right. Various bags are also present in the scene, such as two backpacks on the ground near the bench and two handbags closer to the central area. Another bench is visible in the background, making the setting appear more like a resting area or park."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might be a possible explanation for the three people waving in unison?",
+            "steps": [],
+            "answer": "One plausible explanation for the three people sitting on the park bench, smiling, and waving in unison could be that they are posing for a photograph or a video. It is common for people to smile and wave their hands at the camera when they are being captured in a group photo or video, often to express their happiness and friendliness. Their synchronized action indicates that they are aware of the camera and are willingly participating in the moment being captured."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Analyze the image in a comprehensive and detailed manner.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a serene moment in a park. Three individuals are seated on a black park bench, which is situated on a path within the park. The bench is oriented such that the people are facing towards the camera, and they are all waving in unison, creating a sense of welcoming warmth.\n\nStarting from the left, the first person is dressed in a black jacket paired with blue jeans. The middle person is wearing a white shirt and blue jeans, providing a contrast to the others. The third person on the right mirrors the first, also wearing a black jacket and blue jeans.\n\nThe park itself is lush with greenery, with trees scattered in the background. Beyond the trees, buildings can be seen, suggesting that this park is located within an urban area. The path on which the bench sits winds its way through the park, inviting visitors to explore further.\n\nOverall, this image paints a picture of a pleasant day spent in the company of friends in an urban park."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.11737500000000001,
+                0.3053395784543325,
+                0.19543750000000001,
+                0.3417330210772833
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.666640625,
+                0.3032084309133489,
+                0.7112968749999999,
+                0.3277985948477752
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.27903125,
+                0.28723653395784543,
+                0.30815625,
+                0.3254566744730679
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.26384375000000004,
+                0.2900936768149883,
+                0.28178125,
+                0.31744730679156913
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.566296875,
+                0.31149882903981263,
+                0.6239687500000001,
+                0.3259718969555035
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.240046875,
+                0.2908665105386417,
+                0.267890625,
+                0.31515222482435595
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.18046875,
+                0.3002576112412178,
+                0.301328125,
+                0.33114754098360655
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.23539062500000002,
+                0.2763934426229508,
+                0.47678125,
+                0.9415690866510538
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.411953125,
+                0.32236533957845437,
+                0.5925625,
+                0.9219203747072598
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.50540625,
+                0.29843091334894617,
+                0.7524374999999999,
+                0.9533021077283372
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.091140625,
+                0.27444964871194377,
+                0.118890625,
+                0.32515222482435596
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.0,
+                0.44960187353629977,
+                0.76871875,
+                0.8711475409836066
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.30057812500000003,
+                0.1724121779859485,
+                0.310203125,
+                0.19800936768149885
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.381921875,
+                0.24957845433255268,
+                0.39470312500000004,
+                0.2687353629976581
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.44693750000000004,
+                0.16250585480093677,
+                0.46503125,
+                0.20023419203747073
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.601421875,
+                0.26128805620608897,
+                0.613640625,
+                0.28327868852459015
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.11670312499999999,
+                0.3366978922716628,
+                0.20806249999999998,
+                0.4227634660421546
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.730078125,
+                0.4478688524590164,
+                0.796375,
+                0.60576112412178
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.200859375,
+                0.5559016393442623,
+                0.323078125,
+                0.7581264637002343
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.501375,
+                0.4507962529274005,
+                0.56121875,
+                0.5547072599531616
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.598375,
+                0.514496487119438,
+                0.665734375,
+                0.5827868852459016
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.03225,
+                0.2688290398126464,
+                0.059875,
+                0.3458548009367682
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.13539062500000001,
+                0.28653395784543323,
+                0.181140625,
+                0.3067213114754098
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.05546875,
+                0.2647306791569087,
+                0.08015625,
+                0.3459953161592506
+            ]
+        }
+    ],
+    "hash_id": "343_coco_train2017_000000012861.jpg"
+}

@@ -1,0 +1,139 @@
+{
+    "id": "000000047074",
+    "image": "coco/train2017/000000047074.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "The image features a woman in a kitchen, standing near a wall and placing yellow sticky notes on it. She is surrounded by various items and appliances, which includes a dining table in the room and a refrigerator placed against the wall.\n\nIn the kitchen area, there is an oven and a spoon visible, along with a bowl, a banana, and two apples on the countertop near the oven. Additionally, a computer with a keyboard is situated on the dining table, possibly used for work or leisure activities. A TV is also mounted on the wall next to the kitchen."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What task might the woman be carrying out with the sticky notes and how could this affect her personal organization?",
+            "steps": [],
+            "answer": "The woman may be carrying out a task of organizing her thoughts, ideas, or to-do lists using sticky notes. By placing the sticky notes on the wall near the kitchen and the computer, she can visualize her tasks, reminders, or ideas more effectively. This method can help her stay focused and manage her time better while working in the room. Furthermore, being in proximity to the kitchen and computer allows her to easily access and update the notes while she is engaged in tasks such as cooking, eating, or working on the computer. Overall, this approach could enhance her personal organization, time management, and productivity."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you elaborate on the elements of the picture provided?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy kitchen, a woman dressed in a pink shirt and blue jeans stands with her back to us. Her arm is extended, adding yet another yellow sticky note to the wall that's already adorned with a multitude of them. The wall, acting as a canvas for her thoughts, is a vibrant display of yellow squares.\n\nTo her left, the kitchen counter houses a microwave and a bowl brimming with fresh fruit. The counter extends further to reveal a stove and sink, essential elements of any kitchen. \n\nIn the foreground, a computer monitor silently observes the scene, accompanied by a pile of papers. The placement of these objects suggests that this kitchen might also serve as an impromptu workspace.\n\nThe woman's action of placing the sticky note suggests she is organizing her thoughts or tasks, turning the kitchen wall into a large, tangible reminder or planner. The image captures a moment of everyday life, blending domesticity with productivity in a unique way."
+        }
+    ],
+    "det": [
+        {
+            "label": "tv",
+            "bbox": [
+                0.0,
+                0.5574583333333333,
+                0.257859375,
+                0.9507083333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6627500000000001,
+                0.0718125,
+                0.9731562500000001,
+                0.7943958333333332
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.572640625,
+                0.7894166666666667,
+                1.0,
+                0.989875
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.25821875,
+                0.4876875,
+                0.392265625,
+                0.5586249999999999
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.31456249999999997,
+                0.4549375,
+                0.39215625,
+                0.5213125000000001
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.290203125,
+                0.5062083333333333,
+                0.37365624999999997,
+                0.5256041666666667
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.27164062499999997,
+                0.48089583333333336,
+                0.328484375,
+                0.5210416666666667
+            ]
+        },
+        {
+            "label": "keyboard",
+            "bbox": [
+                0.29698437499999997,
+                0.7934375,
+                0.47265625,
+                0.9608958333333334
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.0016875000000000002,
+                0.50075,
+                0.1938125,
+                0.5793958333333333
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.14890625,
+                0.36954166666666666,
+                0.19553125,
+                0.4537083333333333
+            ]
+        },
+        {
+            "label": "refrigerator",
+            "bbox": [
+                0.3960625,
+                0.0,
+                1.0,
+                0.9887708333333334
+            ]
+        }
+    ],
+    "hash_id": "95_coco_train2017_000000047074.jpg"
+}

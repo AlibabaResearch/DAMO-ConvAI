@@ -1,0 +1,185 @@
+{
+    "id": "000000056699",
+    "image": "coco/train2017/000000056699.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Describe the following image.",
+            "steps": [],
+            "answer": "The scene showcases a busy street with multiple vehicles and people. A police officer in a helmet is riding a yellow motorcycle, weaving through traffic near two red buses. The motorcycle is positioned between the buses, providing a clear contrast in color and size. \n\nNumerous people can be seen walking or standing on the sidewalks, some closer to the foreground, while others are further back. One person is carrying a handbag, showing that they might be a pedestrian or commuting via public transportation. Cars are also present in the street, adding to the feeling of a bustling urban environment."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What safety precautions must the officer on the motorcycle take while navigating through traffic?",
+            "steps": [],
+            "answer": "The officer on the motorcycle, who is riding between two red buses, must take several safety precautions to navigate through traffic efficiently and safely. First, the officer should maintain a safe distance from surrounding vehicles, especially those large buses, to avoid collisions. Second, the officer should be aware of their surroundings, including the position of other vehicles and potential blind spots. This can be achieved by frequently checking mirrors and being attentive to traffic flow changes.\n\nThird, the officer should obey traffic rules and regulations by following speed limits and respecting the right-of-way at intersections or when changing lanes. Fourth, wearing proper safety gear like a helmet and visible clothing can increase the officer's visibility to other drivers, reducing the risk of accidents. Lastly, the officer must be prepared to react quickly to any unforeseen situations, such as unexpected changes in traffic, pedestrians, or obstacles on the road. Utilizing defensive driving techniques is crucial when navigating through heavy traffic on a motorcycle."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the center of the image, a yellow ambulance motorcycle is in motion, its blue light flashing atop. The rider, clad in a black helmet and a high visibility jacket, is focused on the road ahead. The word \"AMBULANCE\" is prominently displayed in blue letters on the side of the motorcycle, indicating its purpose. \n\nThe motorcycle is not alone; it shares the road with a red bus. The bus, larger in size, is positioned slightly behind the motorcycle, adding depth to the scene. \n\nIn the background, a crowd of people can be seen. They are dispersed across the image, their presence adding a sense of bustling activity to the scene. Their exact actions are indistinct, but their presence suggests a busy urban environment.\n\nThe overall image paints a picture of an ambulance motorcycle swiftly navigating through a busy city street, ready to provide aid wherever it's needed."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.45618749999999997,
+                0.0570061099796334,
+                0.60565625,
+                0.29932790224032585
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.3940625,
+                0.259918533604888,
+                0.75834375,
+                0.8852138492871691
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.12757812500000001,
+                0.013482688391038698,
+                0.48100000000000004,
+                0.41124236252545826
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.415484375,
+                0.10562118126272912,
+                0.705125,
+                0.4494297352342159
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.709078125,
+                0.047596741344195524,
+                0.80215625,
+                0.38708757637474545
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6968125,
+                0.024826883910386965,
+                0.7468125,
+                0.19378818737270875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.79853125,
+                0.04778004073319756,
+                0.868828125,
+                0.40054989816700615
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5865625,
+                0.057698574338085534,
+                0.6749531249999999,
+                0.22871690427698574
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.662015625,
+                0.052484725050916496,
+                0.707046875,
+                0.3224643584521385
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9661093749999999,
+                0.047739307535641554,
+                0.999609375,
+                0.21828920570264765
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8380625,
+                0.027739307535641546,
+                0.872859375,
+                0.07733197556008146
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.003453125,
+                0.002240325865580448,
+                0.13274999999999998,
+                0.6179837067209776
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.898671875,
+                0.07961303462321793,
+                0.985125,
+                0.404887983706721
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8740781249999999,
+                0.0240122199592668,
+                0.9346874999999999,
+                0.34274949083503053
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.9023749999999999,
+                0.1689816700610998,
+                0.947015625,
+                0.274908350305499
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.68475,
+                0.03562118126272912,
+                0.71725,
+                0.08224032586558044
+            ]
+        }
+    ],
+    "hash_id": "565_coco_train2017_000000056699.jpg"
+}

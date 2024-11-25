@@ -1,0 +1,237 @@
+{
+    "id": "000000134893",
+    "image": "coco/train2017/000000134893.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the people in the image boarding a ski lift or alighting from a chairlift?",
+            "steps": [],
+            "answer": "The group of people in the image are dressed to ski and are seen boarding a ski lift."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the overall mood of this group of people?",
+            "steps": [],
+            "answer": "The overall mood of the group of people is cheerful and lighthearted, as they are dressed in funny outfits and costumes while preparing to ski and snowboard at the resort."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Do the people in the image participate in skiing, snowboarding or both?",
+            "steps": [],
+            "answer": "In the image, there are people participating in skiing and snowboarding."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the ski lifts commonly used for?",
+            "steps": [],
+            "answer": "Ski lifts are commonly used to transport skiers and snowboarders up the slopes of a mountain or ski resort, allowing them to access higher terrain and downhill trails with ease. The purpose of a ski lift is to minimize the amount of energy and time spent on uphill travel so that skiers and snowboarders can focus on enjoying their downhill runs. There are several different types of ski lifts, such as chairlifts, gondolas, T-bars, and rope tows, which provide diverse options in terms of comfort, speed, and capacity. Ski lifts are an essential component of the infrastructure at most ski resorts, helping to create an enjoyable and efficient experience for winter sports enthusiasts."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The image depicts a group of people at a ski resort, dressed to ski and snowboard. They are boarding a ski lift, preparing for an exciting day on the slopes. The group consists of individuals wearing a variety of outfits, some of which are funny and creative costumes. \n\nThere are eight people in total, and among them, three snowboards and three sets of skis are visible, indicating a mix of skiers and snowboarders. A few backpacks are also visible throughout the scene, possibly carrying the skiers' and snowboarders' belongings or extra gear. Additionally, there's a clock present in the scene, possibly showing the time or indicating a timed event at the ski resort."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What interesting aspect can be observed about the outfits of the people at the ski resort?",
+            "steps": [],
+            "answer": "An interesting aspect that can be observed is that some people at the ski resort are dressed in funny or unconventional outfits, possibly as costumes. This adds a unique and humorous touch to the usual ski attire one would expect to see at a ski resort. These individuals dressed in such outfits can make the skiing and snowboarding experience more engaging, entertaining, and memorable for both themselves and other people at the resort."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you elaborate on the elements of the picture provided?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the midst of a snow-covered mountain, a group of six people, adorned in vibrant ski gear, are captured in a moment of joy and adventure. The mountain's white blanket contrasts beautifully with the clear blue sky above. \n\nIn the foreground, a person stands out in a playful green dinosaur costume, clutching a snowboard. Their outfit adds a touch of whimsy to the scene. Behind them, the rest of the group sports an array of colorful ski outfits. One person is dressed in a suit with a cow print pattern, another in a striped suit, and yet another shines in a silver suit. \n\nThe group is positioned near a ski lift, its metal structure cutting through the background and adding an element of human-made contrast to the natural landscape. The relative positions of the people and the ski lift suggest they are either preparing for another thrilling descent or have just finished one.\n\nThis image captures not just a moment, but an entire story of friendship, fun, and adventure on the snowy slopes."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.30067187500000003,
+                0.38175000000000003,
+                0.38851562500000003,
+                0.6655416666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.096703125,
+                0.3217291666666667,
+                0.264703125,
+                0.896875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.127546875,
+                0.3799375,
+                0.17485937499999998,
+                0.6715625000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.456734375,
+                0.40449999999999997,
+                0.5174218749999999,
+                0.6786458333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5276562499999999,
+                0.4,
+                0.596234375,
+                0.6582083333333333
+            ]
+        },
+        {
+            "label": "skis",
+            "bbox": [
+                0.45596875,
+                0.6393541666666667,
+                0.51375,
+                0.6749583333333332
+            ]
+        },
+        {
+            "label": "snowboard",
+            "bbox": [
+                0.12898437499999998,
+                0.8182291666666667,
+                0.250296875,
+                0.9291666666666667
+            ]
+        },
+        {
+            "label": "snowboard",
+            "bbox": [
+                0.287203125,
+                0.6444583333333332,
+                0.41603124999999996,
+                0.6799791666666667
+            ]
+        },
+        {
+            "label": "snowboard",
+            "bbox": [
+                0.53621875,
+                0.6310208333333333,
+                0.5905781250000001,
+                0.6618958333333332
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.161921875,
+                0.42112499999999997,
+                0.179640625,
+                0.5857291666666666
+            ]
+        },
+        {
+            "label": "snowboard",
+            "bbox": [
+                0.10984374999999999,
+                0.6544375,
+                0.24768749999999998,
+                0.6888958333333334
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.000359375,
+                0.21712499999999998,
+                0.018875,
+                0.26097916666666665
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6495625,
+                0.40577083333333336,
+                0.7353906250000001,
+                0.659125
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.296625,
+                0.4709583333333333,
+                0.317546875,
+                0.5471041666666667
+            ]
+        },
+        {
+            "label": "skis",
+            "bbox": [
+                0.6738906250000001,
+                0.6580625,
+                0.71603125,
+                0.6762708333333334
+            ]
+        },
+        {
+            "label": "skis",
+            "bbox": [
+                0.588828125,
+                0.6680416666666668,
+                0.6404062500000001,
+                0.7066875
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.5295468750000001,
+                0.4287708333333333,
+                0.57015625,
+                0.5049166666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.587125,
+                0.40260416666666665,
+                0.703828125,
+                0.7074166666666667
+            ]
+        }
+    ],
+    "hash_id": "481_coco_train2017_000000134893.jpg"
+}

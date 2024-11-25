@@ -1,0 +1,255 @@
+{
+    "id": "000000027987",
+    "image": "coco/train2017/000000027987.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are standing around the brown horse in the image?",
+            "steps": [],
+            "answer": "There are three people standing around the brown horse in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What does the setting of the image look like?",
+            "steps": [],
+            "answer": "The setting of the image is a corral filled with dirt, and it appears to be a place for people to interact with horses or watch others riding horses."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the horse's reaction to the camera?",
+            "steps": [],
+            "answer": "The horse is looking at the camera while the people around it are talking amongst themselves."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the other people in the image doing besides the ones standing beside the brown horse?",
+            "steps": [],
+            "answer": "The other people in the image are either standing in the ring or riding horses, engaging in various horse-related activities."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What could be the purpose of the gathering in the image?",
+            "steps": [],
+            "answer": "The gathering in the image could be for various purposes, such as a horse show, a riding lesson, a family outing, or simply a group of friends or horse enthusiasts gathering together to share their love for horses. \n\nHorse shows are an opportunity for riders to compete and showcase their skills, and they can involve different classes and disciplines, such as dressage, show jumping, and western pleasure. In this context, the people standing around the brown horse may be providing support or advice to a rider getting ready to compete or simply observing the event. The people riding or in the ring could be participants or trainers warming up their horses.\n\nAlternatively, the image could depict a riding lesson, where the three people by the brown horse are either waiting for their turn to ride or watching the instructor give guidance to other riders in the ring. Riding lessons often involve different stations or tasks that riders need to complete, so the gathering may represent a learning experience for all involved.\n\nOn the other hand, this could be a family outing to interact with horses or a social event organized by a group of horse enthusiasts. The mix of people standing beside the horse, riding, or standing in the ring suggests that this event may be a casual gathering of people with various levels of horse-riding expertise, brought together by their shared interest in these magnificent animals."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image displays a scene at a dirt-filled corral with several people gathered around a brown horse. One person is standing near the head of the horse, while others are beside and behind the horse. Another horse can be seen in the distance, adding to the equestrian atmosphere of the scene.\n\nThere are more people in the ring, some engaged in conversation amongst themselves, while others observe the horses and riders. In total, there are eighteen people in the scene. Some of them are closer to the corral-enclosed area, while others are located further away.\n\nIn the background, a few different vehicles can be seen, including three cars and a truck. There is also a chair, placed towards the right side of the image. The diverse mix of both people and objects create a dynamic and bustling setting as everyone interacts with each other and the horses."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Describe the following image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a serene moment in a fenced-in area. The main focus is a majestic brown horse with a distinctive white stripe on its nose. The horse, standing in the foreground, is facing the fence, giving an impression of calm and tranquility.\n\nIn the background, there are three individuals - one man and two girls. The man is positioned behind the horse, possibly observing or guiding it. The two girls stand in front of the horse, their attention seemingly captivated by the creature.\n\nThe setting is rustic and natural, with a dirt ground underfoot and trees providing a green backdrop. The relative positions of the objects suggest a peaceful interaction between humans and nature. The image exudes a sense of harmony and simplicity."
+        }
+    ],
+    "det": [
+        {
+            "label": "horse",
+            "bbox": [
+                0.49839062500000003,
+                0.32917475728155343,
+                1.0,
+                0.9893932038834952
+            ]
+        },
+        {
+            "label": "horse",
+            "bbox": [
+                0.15209375,
+                0.3189077669902912,
+                0.22362500000000002,
+                0.40893203883495144
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.8376093750000001,
+                0.38485436893203884,
+                0.891375,
+                0.478252427184466
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.383234375,
+                0.3073543689320388,
+                0.44146875,
+                0.32754854368932035
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.8840625,
+                0.28516990291262134,
+                0.9991562499999999,
+                0.3322087378640777
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.23185937499999998,
+                0.1836650485436893,
+                0.411890625,
+                0.9017718446601942
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.49526562500000004,
+                0.25344660194174756,
+                0.6225781250000001,
+                0.9836650485436894
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.635046875,
+                0.23281553398058252,
+                0.7365468749999999,
+                0.9380582524271845
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.598640625,
+                0.20303398058252428,
+                0.647859375,
+                0.3418932038834952
+            ]
+        },
+        {
+            "label": "horse",
+            "bbox": [
+                0.20154687500000001,
+                0.30766990291262136,
+                0.2533125,
+                0.35737864077669906
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.751625,
+                0.25851941747572815,
+                0.796578125,
+                0.4257038834951456
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.786125,
+                0.3030097087378641,
+                0.83165625,
+                0.4217718446601942
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.22125,
+                0.27737864077669905,
+                0.24285937500000002,
+                0.35674757281553404
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.179109375,
+                0.2912621359223301,
+                0.19979687499999998,
+                0.37351941747572814
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.733703125,
+                0.2766747572815534,
+                0.784921875,
+                0.41203883495145627
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.83278125,
+                0.3074029126213592,
+                0.855078125,
+                0.41296116504854374
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.944171875,
+                0.3149029126213592,
+                0.9688125,
+                0.40165048543689325
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.621890625,
+                0.2361650485436893,
+                0.67721875,
+                0.36094660194174755
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.2345625,
+                0.2987621359223301,
+                0.26090625,
+                0.3187135922330097
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.38928124999999997,
+                0.31572815533980586,
+                0.41165624999999995,
+                0.39041262135922333
+            ]
+        }
+    ],
+    "hash_id": "819_coco_train2017_000000027987.jpg"
+}

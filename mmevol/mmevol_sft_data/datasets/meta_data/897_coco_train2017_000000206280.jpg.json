@@ -1,0 +1,379 @@
+{
+    "id": "000000206280",
+    "image": "coco/train2017/000000206280.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "The image depicts a bustling room functioning as a combined dining and kitchen area, filled with various tables, chairs, and a counter. There are several people in the room, some of whom are preparing a meal at the counter, while others gather around a large dining table. The dining table and chairs are surrounded by various tableware items such as wine glasses, forks, knives, spoons, and bowls, indicating that a group meal is being served.\n\nEnhancing the lively atmosphere, two dogs are present in the room, looking towards the counter that holds an array of food items, such as an apple, possibly begging for a treat. The room also features multiple potted plants, contributing to the decor and adding hints of greenery. There are additional items placed near the cooking area, like cups, bowls, and an oven, further emphasizing the meal preparation aspect of the scene."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of challenges do the people in this room have to manage while preparing and enjoying the meal?",
+            "steps": [],
+            "answer": "In the room filled with tables, chairs, a counter, and people cooking and dining, the people will need to manage several challenges to ensure a smooth and enjoyable dining experience. First, they have to coordinate their activities in the kitchen area, especially since it is a combination of dining and kitchen area. Preparing the meal with multiple people involved requires seamless cooperation to avoid getting in each other's way and ensuring that everyone has access to the necessary tools and ingredients.\n\nAdditionally, they have to attend to the two dogs present in the room, which appear to be begging for food or attention. The people must ensure that the dogs do not disturb the activities or cause any accidents, such as knocking over food, drinks, or tableware. They might need to train their dogs to stay away from the dining and kitchen area or carefully monitor their behavior during meal preparation and consumption.\n\nLastly, the people need to manage the arrangement of tableware, like wine glasses, cups, plates, cutlery, and serving dishes, ensuring that everything is properly placed and easily accessible for everyone. Maintaining a comfortable and organized setup will contribute to a pleasant dining experience for all the people involved."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy kitchen, a group of seven people are gathered around a dining table, sharing a moment of togetherness. The table, adorned with a vibrant red tablecloth, is set with pristine white plates, ready for a meal. Six individuals are comfortably seated around the table, engaged in conversation, while one person stands by the kitchen counter, perhaps preparing something delicious for the group.\n\nA loyal canine companion stands near the kitchen counter, attentively observing the activities. The room exudes warmth and comfort, enhanced by the soft glow of string lights that twinkle above them. A curtain, patterned in cheerful red and white, adds a touch of homely charm to the room.\n\nEvery object and individual in this image is positioned in harmony, creating a picture of a warm gathering in a cozy kitchen. The precise locations and actions of the objects and individuals contribute to the overall atmosphere of camaraderie and comfort."
+        }
+    ],
+    "det": [
+        {
+            "label": "dog",
+            "bbox": [
+                0.599125,
+                0.5949882903981265,
+                0.76634375,
+                0.791639344262295
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.5573750000000001,
+                0.21208430913348947,
+                0.6009375,
+                0.37152224824355967
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.43353125,
+                0.24402810304449649,
+                0.47609375,
+                0.3661592505854801
+            ]
+        },
+        {
+            "label": "dog",
+            "bbox": [
+                0.6156406249999999,
+                0.5448711943793911,
+                0.68846875,
+                0.6318735362997658
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.27575,
+                0.3894847775175644,
+                0.302109375,
+                0.4933723653395785
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.06737499999999999,
+                0.5442622950819672,
+                0.3034375,
+                0.8523887587822014
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.354484375,
+                0.4681498829039813,
+                0.404921875,
+                0.7381264637002342
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.38410937500000003,
+                0.4126697892271663,
+                0.438984375,
+                0.6436299765807963
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.11014062499999999,
+                0.3531615925058548,
+                0.463203125,
+                0.7900936768149883
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.04778125,
+                0.31456674473067914,
+                0.157359375,
+                0.5669320843091334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.157421875,
+                0.2966276346604215,
+                0.280375,
+                0.5078688524590165
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.663375,
+                0.19807962529274004,
+                0.8264374999999999,
+                0.6356206088992975
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.47678125,
+                0.28021077283372364,
+                0.560734375,
+                0.5790866510538641
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.66671875,
+                0.21681498829039814,
+                0.761015625,
+                0.4685011709601874
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2285,
+                0.2767447306791569,
+                0.300203125,
+                0.41126463700234195
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.54196875,
+                0.4273067915690867,
+                0.5449843750000001,
+                0.43159250585480097
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.22525,
+                0.43836065573770494,
+                0.2480625,
+                0.5127634660421546
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.303109375,
+                0.5146135831381733,
+                0.34745312500000003,
+                0.5268384074941452
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.203015625,
+                0.5367213114754098,
+                0.216515625,
+                0.5479625292740047
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.8016875000000001,
+                0.42723653395784544,
+                0.84159375,
+                0.4409367681498829
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.864921875,
+                0.4629976580796253,
+                0.904921875,
+                0.49868852459016394
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.8463749999999999,
+                0.44367681498829037,
+                0.8723906249999999,
+                0.48290398126463696
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.337625,
+                0.4981967213114754,
+                0.350984375,
+                0.506791569086651
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.265484375,
+                0.5129274004683841,
+                0.29298437499999996,
+                0.5526463700234192
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.3005,
+                0.44639344262295083,
+                0.32151562499999997,
+                0.4985714285714286
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.272328125,
+                0.45730679156908666,
+                0.288734375,
+                0.5122950819672131
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.292078125,
+                0.3988290398126464,
+                0.308515625,
+                0.42885245901639346
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.8618750000000001,
+                0.227096018735363,
+                0.8755468750000001,
+                0.265807962529274
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.49595312500000005,
+                0.22775175644028103,
+                0.5496875,
+                0.3277049180327869
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.833546875,
+                0.5376580796252928,
+                0.9999218750000001,
+                0.9818266978922717
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.8077343750000001,
+                0.228384074941452,
+                0.8241093750000001,
+                0.26786885245901637
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.872984375,
+                0.2282201405152225,
+                0.889046875,
+                0.2777049180327869
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.852140625,
+                0.22901639344262298,
+                0.8631875000000001,
+                0.2644262295081967
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.82346875,
+                0.23276346604215456,
+                0.839140625,
+                0.27206088992974237
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.359890625,
+                0.4413348946135831,
+                0.39401562500000004,
+                0.46391100702576105
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.3990625,
+                0.4186885245901639,
+                0.4303125,
+                0.4271896955503513
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.80109375,
+                0.43796252927400464,
+                0.8340468750000001,
+                0.4699765807962529
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.8434375,
+                0.23152224824355971,
+                0.85390625,
+                0.26353629976580795
+            ]
+        }
+    ],
+    "hash_id": "897_coco_train2017_000000206280.jpg"
+}

@@ -1,0 +1,266 @@
+{
+    "id": "000000224164",
+    "image": "coco/train2017/000000224164.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are sitting at the table in the image?",
+            "steps": [],
+            "answer": "There are three people sitting at the table in the image \u2013 a woman (presumably a mother) and two children."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of furniture is the table made of?",
+            "steps": [],
+            "answer": "The table is made of wood."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the dessert they are about to enjoy?",
+            "steps": [],
+            "answer": "The dessert they are about to enjoy is a cake."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many plates are visible on the table?",
+            "steps": [],
+            "answer": "There are three plates visible on the table, most likely one for each person."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What assumptions can be made from the image about their relationship?",
+            "steps": [],
+            "answer": "Based on the image, we can assume that the woman is the mother of the two children, and they are likely a family enjoying a special moment together with dessert. The image shows the mother sitting at the table with her children, and everyone appears to be ready to have the cake. Such occasions often involve celebrations or simple family bonding moments, which can strengthen relationships and create happy memories."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "The image features a woman, likely a mother, sitting at a wooden dining table with her two children. They are surrounded by various pieces of dining cutlery, and a delicious-looking cake sits close to the center of the table. The table is adorned with four forks placed neatly, ready for dessert. \n\nA couple of cups are scattered across the table, along with a bowl at the left corner. The room itself appears to be part of a larger living space, with a couch located in the background. The scene includes a kitchen area equipped with an oven and a refrigerator. \n\nEveryone looks ready to enjoy their dessert, surely spending some quality family time together."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the family members gathered around the table for, and what preparations are in place?",
+            "steps": [],
+            "answer": "The family members, comprising a woman (likely the mother) and two children, are gathered around the dining table to have dessert. A cake is placed on the table, along with plates, forks, and cups for the family members. This arrangement and the presence of dessert items suggest that they are about to enjoy a special treat, whether to celebrate a special occasion or simply enjoy a shared family moment. The scene creates a warm atmosphere, reflecting the closeness and quality time that the family members are spending with one another."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Can you elaborate on the elements of the picture provided?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy living room, a family of three is gathered around a wooden table, celebrating a birthday. The mother, seated on the left side of the table, is beaming with joy, her smile captured for the camera. Her son and daughter, both standing on the right side of the table, are entranced by the birthday cake in front of them.\n\nThe cake is a feast for the eyes - rectangular in shape with a vibrant green frosting that contrasts beautifully with the wooden table. A brown dinosaur, crafted with care, sits atop the cake, bringing a touch of whimsy to the occasion. Pink and white candles dot the surface of the cake, their soft glow adding warmth to the scene.\n\nThe table is set with plates and glasses, ready for the birthday feast. In the background, a yellow lamp casts a soft light over the room, enhancing the homely feel. A brown couch rests against the wall, inviting relaxation once the celebration winds down.\n\nThis moment, frozen in time, speaks volumes about love, family, and celebration."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.8739531250000001,
+                0.21814583333333332,
+                1.0,
+                0.43779166666666663
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.399890625,
+                0.4071666666666667,
+                0.47859375000000004,
+                0.7112291666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.03725,
+                0.49189583333333337,
+                0.121484375,
+                0.8633958333333334
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.099828125,
+                0.421875,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4458125,
+                0.13543750000000002,
+                0.71459375,
+                0.719125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.635390625,
+                0.05997916666666667,
+                0.8005625000000001,
+                0.5858333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.064046875,
+                0.15916666666666668,
+                0.53090625,
+                0.9883958333333333
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.338109375,
+                0.7977916666666667,
+                0.403890625,
+                0.8541875
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.835515625,
+                0.8800625,
+                0.999234375,
+                0.9845625000000001
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.5118125,
+                0.6465,
+                0.7645937500000001,
+                0.8570625
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.842125,
+                0.49412500000000004,
+                0.9315312500000001,
+                0.5235833333333333
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.723890625,
+                0.5550416666666667,
+                0.8141562500000001,
+                0.5952916666666667
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.773421875,
+                0.09431250000000001,
+                1.0,
+                0.319125
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.0955,
+                0.19166666666666668,
+                0.17290624999999998,
+                0.4365625
+            ]
+        },
+        {
+            "label": "refrigerator",
+            "bbox": [
+                0.24270312500000002,
+                0.0,
+                0.44662500000000005,
+                0.43145833333333333
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.455734375,
+                0.7112291666666667,
+                0.525015625,
+                0.75425
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.4015625,
+                0.8769375,
+                0.48804687500000005,
+                1.0
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.978078125,
+                0.39918750000000003,
+                0.9998750000000001,
+                0.5135208333333333
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.0,
+                0.3962291666666667,
+                0.0984375,
+                0.5018333333333334
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.29746875,
+                0.9455833333333333,
+                0.39609375,
+                0.9991666666666668
+            ]
+        }
+    ],
+    "hash_id": "910_coco_train2017_000000224164.jpg"
+}

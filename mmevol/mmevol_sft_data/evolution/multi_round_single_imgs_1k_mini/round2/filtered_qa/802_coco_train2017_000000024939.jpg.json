@@ -1,0 +1,283 @@
+{
+    "id": "000000024939",
+    "image": "coco/train2017/000000024939.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are present in the image?",
+            "steps": [],
+            "answer": "There are two people present in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What gaming console are they using?",
+            "steps": [],
+            "answer": "They are using a Nintendo Wii gaming console."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What specific game are they playing on the Wii system?",
+            "steps": [],
+            "answer": "They are playing a bowling game on the Wii system."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are they playing the game in a living room, and what other features are visible in the room?",
+            "steps": [],
+            "answer": "Yes, they are playing the game in a living room. One notable feature in the room is a fireplace."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How do the players interact with the game on the Nintendo Wii?",
+            "steps": [],
+            "answer": "The players interact with the game on the Nintendo Wii using motion-sensing controllers known as Wii Remotes. These controllers can detect players' physical movements and translate them into in-game actions. For example, when playing a bowling game, the players would mimic the motion of actually bowling by swinging the Wii Remote in a similar manner to how they would swing a bowling ball. The system's sensor bar picks up the movements, allowing the game to register the player's actions and replicate them within the video game. This unique control scheme makes gaming on the Wii more immersive and interactive compared to traditional controllers with buttons and analog sticks."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nAnalyze the image in a comprehensive and detailed manner."
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a lively scene in a living room where three people are engrossed in a video game. The room is bathed in the soft glow of the television screen, which is perched on a black stand above a cozy fireplace. The television displays a vibrant bowling game, reflecting the competitive spirit in the room.\n\nIn the center of the room, an enthusiastic gamer is actively playing the game, wielding a Wii remote with determination. Their focus is intense, mirroring the high stakes of the virtual bowling match.\n\nOn a comfortable couch, two spectators are engrossed in the unfolding game. Their eyes are glued to the screen, sharing in the excitement of each virtual strike and spare.\n\nAdding to the homely atmosphere, a large window with blinds allows a glimpse of the world outside. A bookshelf stands guard in the background, its shelves filled with stories waiting to be explored.\n\nA coffee table sits in front of the couch, hosting a bowl of chips and a drink - perfect accompaniments for an intense gaming session. The floor beneath is carpeted, adding warmth to the room. In one corner, a plant adds a touch of greenery, completing this picture of a cozy gaming evening."
+        }
+    ],
+    "det": [
+        {
+            "label": "tv",
+            "bbox": [
+                0.777828125,
+                0.28300000000000003,
+                0.9355625,
+                0.5943333333333333
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.0,
+                0.46495833333333336,
+                0.13709375,
+                0.9871041666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.192140625,
+                0.05102083333333333,
+                0.5460625,
+                0.8195416666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.56796875,
+                0.3281875,
+                0.647171875,
+                0.42285416666666664
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.0595625,
+                0.44264583333333335,
+                0.555140625,
+                0.475
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.659171875,
+                0.8543125,
+                0.75496875,
+                0.911125
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.5562968749999999,
+                0.866375,
+                0.644546875,
+                0.9054583333333334
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.37121875000000004,
+                0.22554166666666667,
+                0.401390625,
+                0.48164583333333333
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.059015625,
+                0.2704583333333333,
+                0.227015625,
+                0.6798958333333334
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.6716875,
+                0.7915416666666667,
+                0.714,
+                0.8354166666666667
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.67753125,
+                0.35989583333333336,
+                0.6845625,
+                0.42154166666666665
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.694609375,
+                0.3181041666666667,
+                0.7005,
+                0.35883333333333334
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.7907656249999999,
+                0.7320833333333333,
+                0.8584687499999999,
+                0.8110624999999999
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.542296875,
+                0.31014583333333334,
+                0.546015625,
+                0.3481666666666667
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.5485156250000001,
+                0.30604166666666666,
+                0.5547500000000001,
+                0.35047916666666673
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.5458125,
+                0.30566666666666664,
+                0.55040625,
+                0.34929166666666667
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.546875,
+                0.382875,
+                0.551546875,
+                0.4151458333333334
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.5506249999999999,
+                0.380375,
+                0.5565625,
+                0.41687500000000005
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.5565,
+                0.38333333333333336,
+                0.560953125,
+                0.4166875
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.676984375,
+                0.3177291666666667,
+                0.684765625,
+                0.35712499999999997
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                1.5625e-05,
+                0.16910416666666667,
+                0.160140625,
+                0.7443333333333334
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.969640625,
+                0.28062499999999996,
+                0.9998750000000001,
+                0.45941666666666664
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.83853125,
+                0.5935625000000001,
+                0.87984375,
+                0.6748541666666666
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.68903125,
+                0.31472916666666667,
+                0.6946562500000001,
+                0.35641666666666666
+            ]
+        }
+    ],
+    "hash_id": "802_coco_train2017_000000024939.jpg"
+}

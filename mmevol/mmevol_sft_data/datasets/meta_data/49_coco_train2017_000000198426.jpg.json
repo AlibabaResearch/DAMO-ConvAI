@@ -1,0 +1,298 @@
+{
+    "id": "000000198426",
+    "image": "coco/train2017/000000198426.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The image captures a woman eating her meal at a table in a hotel restaurant, sitting alone and smiling while enjoying her dinner. The table is set with various items, including a bowl, a sandwich, a fork, a cup, and wine glasses.\n\nThe restaurant features numerous tables and chairs, with one table placed next to the woman's table and others distributed throughout the space. Decorative elements are also present in the scene, such as a vase and potted plants. A couch is situated in the background, creating a comfortable atmosphere for diners.\n\nAdditional items in the scene include wine bottles and cups, placed on different tables or surfaces to enhance the dining experience for guests."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What nearby objects might the woman interact with while enjoying her meal in the restaurant?",
+            "steps": [],
+            "answer": "As the woman enjoys her meal in the restaurant, she is surrounded by various objects she may interact with. These include a bottle, wine glasses, cups, a fork, bowls, and a vase placed on the dining table. She may use the fork to eat her meal or a cup to have a drink. Additionally, she could reach for the wine glasses or the bottle, possibly to enjoy a beverage alongside her meal. Furthermore, she might also adjust the vase or take notice of the potted plants by the dining area, depending on her preferences and interests. Even though she is dining alone, the presence of these objects contributes to her overall dining experience."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What's happening in the scene?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a room bathed in soft light from a large window, a young man is seated at a table adorned with a pristine white tablecloth. His right hand gently holds a fork, poised for the next bite, while his left hand cradles a napkin. \n\nThe table is a tableau of culinary delights. A red pitcher, filled with an unknown but inviting beverage, stands out against the white tablecloth. Beside it, a white teapot waits patiently to pour out its warm contents. A glass filled with vibrant orange juice adds a splash of color to the scene.\n\nThe food is an array of textures and colors. A plate overflows with an assortment of fresh fruit, their vibrant hues hinting at their juicy sweetness. Another plate carries bread, perhaps warm and soft, ready to be savored.\n\nThe room itself is simple and elegant, with white walls that reflect the light streaming in from the large window. The window offers a glimpse of the world outside, but the focus remains on the young man and his meal, a moment frozen in time."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.090421875,
+                0.7883286908077994,
+                0.20015624999999998,
+                0.972200557103064
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.490546875,
+                0.38292479108635097,
+                0.56746875,
+                0.6497493036211699
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.549640625,
+                0.48119777158774374,
+                0.69521875,
+                0.7049025069637883
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5760625,
+                0.0067409470752089135,
+                1.0,
+                0.988774373259053
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.34114062500000003,
+                0.5060445682451253,
+                0.4875625,
+                0.8631476323119778
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.50246875,
+                0.6643454038997214,
+                0.584953125,
+                0.7946518105849582
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.23698437499999997,
+                0.7595543175487466,
+                0.374375,
+                0.988774373259053
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.291109375,
+                0.442116991643454,
+                0.33585937499999996,
+                0.4966016713091922
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.38446875,
+                0.7865181058495823,
+                0.5117812500000001,
+                1.0
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.61921875,
+                0.366991643454039,
+                0.659,
+                0.5996935933147632
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.29775,
+                0.18629526462395543,
+                0.31009375,
+                0.2277437325905292
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.38671875,
+                0.7888300835654596,
+                0.50946875,
+                0.9911699164345403
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.238140625,
+                0.7676880222841226,
+                0.37175,
+                0.9893871866295266
+            ]
+        },
+        {
+            "label": "sandwich",
+            "bbox": [
+                0.66178125,
+                0.7228969359331476,
+                0.7311093750000001,
+                0.8959331476323119
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.104625,
+                0.43144846796657377,
+                0.24076562499999996,
+                0.7348189415041781
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.00290625,
+                0.8589693593314763,
+                0.120921875,
+                0.9836490250696379
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.0723125,
+                0.5429247910863509,
+                0.301890625,
+                0.6525905292479108
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.027453125000000002,
+                0.7144846796657381,
+                0.3441875,
+                0.8909192200557104
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.00728125,
+                0.6493593314763232,
+                0.10635937499999999,
+                0.7584401114206127
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.281734375,
+                0.4789693593314763,
+                0.535953125,
+                0.6369916434540389
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.365703125,
+                0.6849303621169917,
+                0.694984375,
+                0.9862395543175487
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.05390625,
+                0.27192200557103063,
+                0.136953125,
+                0.31924791086350973
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.14396875,
+                0.1664066852367688,
+                0.201703125,
+                0.33200557103064066
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.33799999999999997,
+                0.21520891364902509,
+                0.35465625,
+                0.26623955431754875
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.089640625,
+                0.40660167130919217,
+                0.113234375,
+                0.45738161559888574
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.0,
+                0.4895543175487465,
+                0.056546874999999996,
+                0.5683844011142062
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.23978125,
+                0.2245682451253482,
+                0.279296875,
+                0.3426183844011142
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.290796875,
+                0.27128133704735374,
+                0.39342187500000003,
+                0.39420612813370476
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0,
+                0.7622841225626742,
+                0.084265625,
+                0.9856545961002786
+            ]
+        }
+    ],
+    "hash_id": "49_coco_train2017_000000198426.jpg"
+}

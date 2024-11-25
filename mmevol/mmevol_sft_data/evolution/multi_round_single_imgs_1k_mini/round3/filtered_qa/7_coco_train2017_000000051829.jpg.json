@@ -1,0 +1,311 @@
+{
+    "id": "000000051829",
+    "image": "coco/train2017/000000051829.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the bus in the image?",
+            "steps": [],
+            "answer": "The bus in the image is blue."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the bus a single or double-decker bus?",
+            "steps": [],
+            "answer": "The bus is a double-decker bus."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are people doing in the image related to the bus?",
+            "steps": [],
+            "answer": "A group of passengers is seen boarding the double-decker city bus, while others are walking down the street."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a handicapped person being assisted onto the bus?",
+            "steps": [],
+            "answer": "Yes, there is a handicapped person being loaded onto the city bus, with a woman helping the individual in a wheelchair."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What does the presence of a person in a wheelchair being assisted onto the bus tell us about the bus's accessibility features?",
+            "steps": [],
+            "answer": "The presence of a person in a wheelchair being assisted onto the bus indicates that the bus is equipped with accessibility features designed to accommodate individuals with varying mobility needs. This can include features such as a wheelchair ramp, a dedicated space for wheelchairs on the bus, and possibly even an adjustable kneeling function that allows the bus to lower its height to make boarding easier. The woman helping the person in a wheelchair highlights the importance of efficient and accessible public transportation services for the disabled and elderly populations, ensuring a more inclusive transportation system for everyone."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Describe the following image.",
+            "steps": [],
+            "answer": "The scene captures a group of passengers boarding a blue double-decker city bus on a bustling street. Several people can be seen walking down the street, with some carrying handbags and backpacks. There is a woman helping a person in a wheelchair get on the bus, ensuring a smooth boarding process for the handicapped man.\n\nOther vehicles, including several cars and another bus, can be seen on the road. The street is regulated with traffic lights and a stop sign, confirming it as a busy urban area. Pedestrians are scattered throughout the scene, highlighting a typical day in a vibrant city setting."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What accessibility features can be observed in this urban setting?",
+            "steps": [],
+            "answer": "In the image, a woman is helping a person in a wheelchair get on a double-decker city bus, indicating that the bus and city infrastructure have wheelchair accessibility features. These features may include ramps or lifts, as well as designated seating areas inside the bus for people with mobility issues. This demonstrates that the city is making an effort to be inclusive and ensure accessible transportation options for all citizens, including those with disabilities."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city, a majestic blue double-decker bus, labeled with the number 28 and the destination \"Evesham\", is parked at a bus stop. The bus stop is teeming with life, as a group of people, including a person in a wheelchair, patiently wait for their journey to begin. \n\nThe bus stop is situated on the right side of the street, adjacent to a building with a pristine white facade. The street itself is alive with activity - a red car and a yellow bus add splashes of color to the scene, hinting at the constant ebb and flow of city life.\n\nAbove, the sky is a canvas of partly cloudy weather, providing a beautiful backdrop to this everyday city scene. The trees in the background, adorned with lush green leaves, offer a touch of nature amidst the urban landscape. \n\nEvery element in this image paints a vivid picture of a day in the life of the city - from the waiting passengers to the parked vehicles, each has its own story to tell."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.022546875,
+                0.567375,
+                0.20987499999999998,
+                0.7347999999999999
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.19878125,
+                0.55015,
+                0.31292187499999996,
+                0.665025
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.393265625,
+                0.11460000000000001,
+                0.792140625,
+                0.88315
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9442656250000001,
+                0.5672,
+                0.9989218750000001,
+                0.961575
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8749687500000001,
+                0.5639500000000001,
+                0.9348750000000001,
+                0.9512999999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.864265625,
+                0.548825,
+                0.8907031249999999,
+                0.6247
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7092968749999999,
+                0.6473,
+                0.830328125,
+                0.85185
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.79878125,
+                0.538925,
+                0.844453125,
+                0.640475
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.369046875,
+                0.48475,
+                0.389140625,
+                0.5649000000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.152921875,
+                0.5354249999999999,
+                0.167328125,
+                0.5704
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.80715625,
+                0.58555,
+                0.8806875000000002,
+                0.885025
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.459484375,
+                0.2249,
+                0.5376562500000001,
+                0.296375
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.90203125,
+                0.6215999999999999,
+                0.935171875,
+                0.8237000000000001
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.1749375,
+                0.436925,
+                0.198515625,
+                0.5033000000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.921921875,
+                0.5221750000000001,
+                0.9623593749999999,
+                0.6269
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.050484375000000005,
+                0.460125,
+                0.27109375,
+                0.59655
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.871515625,
+                0.380625,
+                0.8929843749999999,
+                0.42725
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.8405312500000001,
+                0.6103999999999999,
+                0.8734843750000001,
+                0.656025
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8396874999999999,
+                0.538325,
+                0.8560000000000001,
+                0.5864
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.9789843749999999,
+                0.642175,
+                1.0,
+                0.7945749999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.90409375,
+                0.540825,
+                0.95978125,
+                0.9223
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.29885937500000004,
+                0.42682499999999995,
+                0.315515625,
+                0.47739999999999994
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.39371875,
+                0.419675,
+                0.40795312499999997,
+                0.47485
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.95746875,
+                0.5254249999999999,
+                0.981609375,
+                0.572025
+            ]
+        },
+        {
+            "label": "stop sign",
+            "bbox": [
+                0.8597812499999999,
+                0.42707500000000004,
+                0.882109375,
+                0.4624250000000001
+            ]
+        }
+    ],
+    "hash_id": "7_coco_train2017_000000051829.jpg"
+}

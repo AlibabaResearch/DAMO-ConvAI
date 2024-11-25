@@ -1,0 +1,202 @@
+{
+    "id": "000000018584",
+    "image": "coco/train2017/000000018584.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The scene takes place in London, where a group of people is standing on a sidewalk. Among them, there is a family of three, consisting of a father and his two sons. They are part of a larger crowd of people gathered in the area, including individuals traveling solo and in groups.\n\nThe iconic Big Ben clock tower can be seen in the background, towering over the cityscape. A red double-decker bus further adds to the London atmosphere, as it's parked closer to the center of the image. There are two traffic lights situated in different parts of the scene, emphasizing the urban setting.\n\nIn the vicinity, there is also a car parked along the road, completing the bustling city view. One person is carrying a backpack, possibly suggesting that some individuals in the crowd could be tourists visiting the city."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might people typically expect to experience while exploring this location?",
+            "steps": [],
+            "answer": "While exploring the location depicted in the image, one could typically expect to experience the iconic landmarks of London, such as the Big Ben clock tower, red double-decker buses, and crowded sidewalks with various people, including families and tourists. Visitors would also likely encounter busy streets, modern vehicles, and many pedestrians, creating a vivid and bustling urban atmosphere. Additionally, it is common to see people carrying backpacks, cameras, or shopping bags as they tour the city, capturing memories or making purchases at nearby stores. Overall, exploring this location is an opportunity to immerse oneself in the vibrant and diverse culture, history, and atmosphere of London."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat are the key elements in this picture?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a vibrant and bustling scene in London, England. The iconic Big Ben clock tower stands tall in the background, its rectangular structure reaching towards the sky, topped with a pointed roof. Each side of the tower features a clock face, marking the passage of time for the city below.\n\nIn the foreground, life in London is in full swing. A red double-decker bus, a classic symbol of the city, is prominently featured. The bus is painted a vivid red and bears white text on its side that reads \"CITYZAP\", indicating its route or service.\n\nThe streets are not devoid of pedestrians. A man dressed in a green jacket, a boy in a red shirt, and a woman in a pink shirt are among the several people adding life to the scene. Their actions are indeterminate but suggest the usual pace of city life.\n\nThe image is taken from a low angle, looking up towards the clock tower, giving a sense of grandeur and majesty to Big Ben. The relative positions of the objects suggest a typical day in London, with the bus and pedestrians going about their day under the watchful gaze of Big Ben."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.7470208333333334,
+                0.6970468750000001,
+                0.9998124999999999,
+                0.8110781250000001
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.16116666666666665,
+                0.49074999999999996,
+                0.568625,
+                0.801796875
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.6202291666666666,
+                0.57784375,
+                0.6502916666666666,
+                0.6427031249999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.33641666666666664,
+                0.58121875,
+                0.5260208333333334,
+                0.998859375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.359,
+                0.24397916666666666,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5537916666666667,
+                0.647265625,
+                0.6339374999999999,
+                0.71775
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6255416666666667,
+                0.65959375,
+                0.6805625000000001,
+                0.818
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6561041666666667,
+                0.60309375,
+                0.7842291666666666,
+                0.8967500000000002
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8329583333333334,
+                0.641015625,
+                0.9647916666666667,
+                0.892703125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.22902083333333334,
+                0.548875,
+                0.25695833333333334,
+                0.5642499999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.257125,
+                0.545421875,
+                0.4073541666666667,
+                0.76484375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.42997916666666663,
+                0.525125,
+                0.49322916666666666,
+                0.5589531249999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5405416666666666,
+                0.656921875,
+                0.5743333333333333,
+                0.69659375
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.5889375,
+                0.5899062500000001,
+                0.6189374999999999,
+                0.6495625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.42535416666666664,
+                0.677875,
+                0.6650625,
+                0.9969843749999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8259375,
+                0.6553125,
+                0.8591666666666666,
+                0.7442656249999999
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.24177083333333332,
+                0.742265625,
+                0.36085416666666664,
+                0.914109375
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.471875,
+                0.25187499999999996,
+                0.5503541666666667,
+                0.307453125
+            ]
+        }
+    ],
+    "hash_id": "663_coco_train2017_000000018584.jpg"
+}

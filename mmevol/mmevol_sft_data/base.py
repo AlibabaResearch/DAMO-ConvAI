@@ -1,11 +1,35 @@
-import os
 import time
 import random as rd
 from abc import abstractmethod
+import os.path as osp
 import copy as cp
+import validators
+import mimetypes
 
+def parse_file(s):
+    if osp.exists(s):
+        assert osp.isfile(s)
+        suffix = osp.splitext(s)[1].lower()
+        mime = mimetypes.types_map.get(suffix, 'unknown')
+        if suffix == '.webp':
+            mime = "image/jpeg"
+        return (mime, s)
+    elif validators.url(s):
+        suffix = osp.splitext(s)[1].lower()
+        if suffix in mimetypes.types_map:
+            mime = mimetypes.types_map[suffix]
+            dname = osp.join(LMUDataRoot(), 'files')
+            os.makedirs(dname, exist_ok=True)
+            tgt = osp.join(dname, md5(s) + suffix)
+            download_file(s, tgt)
+            return (mime, tgt)
+        else:
+            return ('url', s)
+    else:
+        return (None, s)
 
 class BaseAPI:
+
     allowed_types = ['text', 'image']
     INTERLEAVE = True
     INSTALL_REQ = False
@@ -102,6 +126,25 @@ class BaseAPI:
         elif self.check_content(inputs) == 'dict':
             assert 'type' in inputs and 'value' in inputs
             return [inputs]
+        elif self.check_content(inputs) == 'liststr':
+            res = []
+            for s in inputs:
+                mime, pth = parse_file(s)
+                if mime is None or mime == 'unknown':
+                    res.append(dict(type='text', value=s))
+                else:
+                    res.append(dict(type=mime.split('/')[0], value=pth))
+            return res
+        elif self.check_content(inputs) == 'listdict':
+            for item in inputs:
+                assert 'type' in item and 'value' in item
+                mime, s = parse_file(item['value'])
+                if mime is None:
+                    assert item['type'] == 'text', item['value']
+                else:
+                    assert mime.split('/')[0] == item['type']
+                    item['value'] = s
+            return inputs
         else:
             return None
 

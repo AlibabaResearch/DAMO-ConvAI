@@ -1,0 +1,264 @@
+{
+    "id": "000000077851",
+    "image": "coco/train2017/000000077851.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where is the man with the laptop located?",
+            "steps": [],
+            "answer": "The man with the laptop is located in an airport waiting area, sitting in a chair as he uses his laptop."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the person doing with their laptop?",
+            "steps": [],
+            "answer": "The person is sitting in a chair and using their laptop. It is not possible to determine the specific task they are working on from the image, but they could be browsing the internet, working, communicating with others, or engaging in various forms of digital entertainment."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the waiting area where the man is sitting?",
+            "steps": [],
+            "answer": "While the image primarily focuses on the man using his laptop, it can be inferred that the waiting area where he is sitting likely consists of several chairs or seating arrangements for passengers waiting for their flights. Typical features of such waiting areas may include seats, charging stations, Wi-Fi access, and possibly informational screens displaying flight details. The waiting area could be crowded or relatively empty, depending on the time of day or the volume of passengers currently at the airport."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are some common activities people engage in while waiting at the airport?",
+            "steps": [],
+            "answer": "People engage in various activities while waiting at the airport, depending on their interests, needs, and the duration of their wait time. Some common activities include:\n\n1. Using electronic devices: Many people use laptops, tablets, or smartphones for work, entertainment, communication, or browsing the internet. Airports typically offer Wi-Fi access and charging stations to accommodate these needs.\n\n2. Reading: Travelers often bring books, magazines, or newspapers to read during their wait.\n\n3. Eating and drinking: Airport waiting areas often have nearby restaurants, cafes, and vendors where passengers can purchase food and beverages.\n\n4. Shopping: Airports usually have shops selling items such as clothing, souvenirs, travel accessories, and duty-free goods.\n\n5. Socializing: People may engage in conversations with fellow travelers, friends, or family members.\n\n6. Resting or sleeping: Some travelers may take advantage of the waiting time to rest, relax, or take a nap, especially if they have been traveling for extended periods or anticipate a long flight ahead.\n\n7. Watching informational screens: Passengers might check the display screens for updates on their flights, gates, or any schedule changes.\n\n8. Walking or stretching: To prevent restlessness and maintain circulation during lengthy waits or layovers, some travelers may walk around the waiting area or perform light stretches.\n\nIn summary, while waiting at the airport, passengers engage in a variety of activities to pass the time, ranging from using electronic devices and reading to socializing, shopping, and resting."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "The scene takes place in a waiting area, likely at an airport. A man sits in a chair while using his laptop. There are several other people spread out in the area, some sitting and others standing. A variety of chairs are placed throughout the room with some empty and others occupied.\n\nIn addition to the main laptop user, various objects can be seen in the scene. There is a TV on the wall in the background, one near the center of the room, and another positioned further right. A backpack is placed on the floor near the right side of the room, and a cell phone can be found close to the center."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What potential productivity issue might the man face while working on his laptop in this setting?",
+            "steps": [],
+            "answer": "In this image, a man is working on his laptop while sitting in a waiting area, possibly at an airport. One potential productivity issue that the man might face is the presence of distractions in the busy environment. There are several people and objects around him, such as other individuals sitting or moving, TVs, chairs, cell phones, and backpacks. This environment could make it challenging for the man to concentrate fully on his work, due to background noise and visual disturbances. It is essential for the man to find ways to minimize these distractions, such as using noise-canceling headphones or choosing a quieter spot, to maintain his focus and productivity while working on his laptop."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you see happening in this image?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling airport terminal, a young man finds a moment of tranquility amidst the chaos. He's perched on a sleek black bench, his legs casually crossed as he delves into the digital world via his laptop. His attire is simple yet stylish - a black t-shirt paired with blue jeans, a common ensemble for the modern traveler. \n\nBeside him on the polished floor rests a black backpack, likely holding the essentials for his journey. The terminal around him is alive with activity. Other passengers, each with their own destinations and stories, fill the benches and walkways, adding to the dynamic tapestry of the airport scene.\n\nThis image captures not just a moment, but a narrative - a slice of life in an ever-moving world."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.024,
+                0.24842187500000001,
+                0.43574999999999997,
+                0.54846875
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.0,
+                0.22548437500000001,
+                0.1268125,
+                0.5156562499999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.23285416666666667,
+                0.14650000000000002,
+                0.4158958333333333,
+                0.26571875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.48674999999999996,
+                0.204390625,
+                0.5530208333333333,
+                0.23590625000000004
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.54825,
+                0.18625,
+                0.6143750000000001,
+                0.23939062500000002
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.05477083333333333,
+                0.197171875,
+                0.09054166666666667,
+                0.235546875
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.43445833333333334,
+                0.285390625,
+                0.698125,
+                0.42246875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.40060416666666665,
+                0.191703125,
+                0.4258125,
+                0.21985937500000002
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.45679166666666665,
+                0.2140625,
+                0.5013541666666667,
+                0.23707812499999997
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.753125,
+                0.53559375,
+                1.0,
+                0.759203125
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.3735833333333333,
+                0.22771875000000003,
+                0.40620833333333334,
+                0.2476875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.10483333333333333,
+                0.1821875,
+                0.14458333333333334,
+                0.249265625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.38368749999999996,
+                0.23165624999999998,
+                0.4245416666666666,
+                0.261890625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.15345833333333334,
+                0.21371875,
+                0.275875,
+                0.263078125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.16983333333333334,
+                0.200921875,
+                0.18816666666666665,
+                0.22181250000000002
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7342291666666667,
+                0.40443749999999995,
+                0.7885000000000001,
+                0.6859531249999999
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.5006041666666666,
+                0.50215625,
+                0.6410208333333334,
+                0.550984375
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.36904166666666666,
+                0.15546875,
+                0.41118749999999993,
+                0.17615625
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.06693750000000001,
+                0.176984375,
+                0.08816666666666667,
+                0.191765625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3982291666666667,
+                0.09864062500000001,
+                0.8087500000000001,
+                0.73884375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5591666666666666,
+                0.203171875,
+                0.5771458333333332,
+                0.22046875
+            ]
+        }
+    ],
+    "hash_id": "615_coco_train2017_000000077851.jpg"
+}

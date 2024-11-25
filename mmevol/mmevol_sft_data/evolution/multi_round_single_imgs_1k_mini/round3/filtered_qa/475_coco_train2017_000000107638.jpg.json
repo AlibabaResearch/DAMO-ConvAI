@@ -1,0 +1,257 @@
+{
+    "id": "000000107638",
+    "image": "coco/train2017/000000107638.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the person in the image doing?",
+            "steps": [],
+            "answer": "The person in the image is a skateboarder performing a trick by jumping high off a ramp in a park. He is flying through the air on top of his skateboard."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where is the skateboarder performing this trick?",
+            "steps": [],
+            "answer": "The skateboarder is performing this trick in a park, where there is a small ramp set up for skateboarders to practice and showcase their skills."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the skateboarder on the ground or in the air?",
+            "steps": [],
+            "answer": "The skateboarder is in the air, having launched off the ramp while executing his trick."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How can skateboarders improve their skills and learn new tricks?",
+            "steps": [],
+            "answer": "Skateboarders can improve their skills and learn new tricks by practicing consistently, studying the techniques of experienced skateboarders, and gradually progressing in difficulty. Some tips to recognize and focus on while learning and improving are:\n\n1. Learn the basics: Skateboarders should begin by mastering the fundamentals, such as balancing on the skateboard, pushing off, turning, and stopping. These foundational skills will serve as a strong base for more advanced tricks and maneuvers later on.\n\n2. Use proper equipment: Using a good quality skateboard and protective gear, such as a helmet, elbow pads, and knee pads, will help ensure safety and proper technique during practice.\n\n3. Start small and progress steadily: Skateboarders should start by attempting easier tricks and gradually progress to more advanced ones. Attempting tricks that are too advanced too soon may lead to frustration and/or injury.\n\n4. Break down complicated tricks: Breaking complicated tricks into smaller, more manageable steps can make them easier to learn. By mastering each step individually, the skateboarder can eventually piece together the entire trick.\n\n5. Practice regularly: Consistent practice is key to improving skills and learning new tricks. Skateboarders should practice as often as possible and stay committed to their progress.\n\n6. Observe and learn from others: Watching professionals perform tricks, attending skateboarding events, or joining a local skateboarding community can provide valuable insights and inspiration for skateboarders looking to improve their skills.\n\n7. Stay persistent and patient: Learning new tricks and improving skateboarding skills takes time, dedication, and patience. Skateboarders should not get discouraged by setbacks and should continue to practice and embrace the learning process.\n\nBy following these tips, skateboarders can steadily improve their skills, learn new tricks, and eventually become more proficient and confident in their abilities."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "The image captures a skateboarder performing a trick in a park, as he launches off a small ramp and soars through the air with his skateboard. The guy appears to be enjoying the thrill of the jump while showcasing his skill.\n\nThere are several people visible in the scene, some of them sitting on the various benches spread across the park. A person is also holding a cell phone, possibly capturing photos or videos of the event. The park is lined with cars parked around the perimeter, giving it a busy and lively atmosphere."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What challenges might skateboarders face while practicing in this park?",
+            "steps": [],
+            "answer": "Skateboarders practicing in this park might face challenges related to safety and space constraints. In the image, we see several cars parked nearby and benches close to the area where the skateboarder is performing a trick. These objects can pose risks to skateboarders if they lose control or have a misjudgment while performing tricks. Additionally, the presence of other people in the background highlights that the park is being utilized by pedestrians and visitors, potentially increasing the risk of collisions or accidents. Skateboarders would need to be cautious and aware of their surroundings to ensure their safety as well as the safety of others in such crowded and shared environments."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Can you describe the main features of this image for me?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a vibrant skatepark, a daring skateboarder, adorned in a white tank top and a red hat, is captured in mid-air, executing an impressive trick above a green ramp. The ramp, the epicenter of the image, is nestled amidst lush trees and parked cars. \n\nIn the distance, two spectators are seated on a bench, their attention riveted on the airborne skateboarder. A small congregation of people stands near a tree, adding to the lively atmosphere of the park. The sky above is a clear blue canvas, and the bright lighting illuminates every detail of this dynamic scene. The image is a freeze-frame of action and anticipation, encapsulating the spirit of skateboarding culture."
+        }
+    ],
+    "det": [
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.32958515283842793,
+                0.574203125,
+                0.3375982532751091,
+                0.57978125
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.7862227074235807,
+                0.555625,
+                0.9297598253275109,
+                0.60521875
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.5958078602620087,
+                0.5438125,
+                0.8021834061135371,
+                0.6045
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.48037117903930127,
+                0.5559999999999999,
+                0.6240829694323143,
+                0.600125
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.3875327510917031,
+                0.554109375,
+                0.5051310043668122,
+                0.597265625
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.7929257641921398,
+                0.562453125,
+                0.8305895196506551,
+                0.5901875000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.28775109170305674,
+                0.5366875,
+                0.3558951965065502,
+                0.63953125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9247161572052401,
+                0.526765625,
+                0.9762445414847162,
+                0.6068749999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8781441048034935,
+                0.531140625,
+                0.9281222707423581,
+                0.60575
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.5055676855895197,
+                0.606734375,
+                0.7096724890829695,
+                0.6471875
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.7061135371179039,
+                0.596359375,
+                0.9926200873362445,
+                0.647828125
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.3402183406113537,
+                0.606765625,
+                0.5078165938864628,
+                0.642109375
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.011441048034934499,
+                0.606609375,
+                0.22213973799126635,
+                0.6415312500000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0772707423580786,
+                0.135328125,
+                0.5032096069868996,
+                0.422
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.22314410480349345,
+                0.60684375,
+                0.33301310043668125,
+                0.6148125
+            ]
+        },
+        {
+            "label": "skateboard",
+            "bbox": [
+                0.18445414847161573,
+                0.384,
+                0.35270742358078605,
+                0.46018749999999997
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.2792139737991266,
+                0.55275,
+                0.37131004366812226,
+                0.57928125
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.2396943231441048,
+                0.5582812500000001,
+                0.2803056768558952,
+                0.594015625
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.8334934497816594,
+                0.624203125,
+                0.9600655021834061,
+                0.6408125
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.6603493449781659,
+                0.6229375,
+                0.7784279475982533,
+                0.6418125
+            ]
+        }
+    ],
+    "hash_id": "475_coco_train2017_000000107638.jpg"
+}

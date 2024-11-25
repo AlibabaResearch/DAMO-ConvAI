@@ -1,0 +1,410 @@
+{
+    "id": "000000130081",
+    "image": "coco/train2017/000000130081.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Explain the visual content of the image in great detail.",
+            "steps": [],
+            "answer": "The image shows a group of nine people sitting around a dining table, enjoying a meal together. It appears to be a special event, such as a wedding party, given that some individuals are wearing ties. The guests are engaged in conversation and sharing the meal.\n\nVarious items can be seen on the table, including multiple wine glasses, a couple of bottles, and some cups in addition to spoons. Chairs are positioned all around the table for the guests to sit comfortably. \n\nIn the background, there is a hint of a car and a truck, which might be parked outside the venue. A handbag can also be spotted near the bottom left corner of the scene, perhaps belonging to one of the guests."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat are the key elements in this picture?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the image, a lively scene unfolds in a restaurant filled with warmth and camaraderie. A group of people are gathered around a table, their faces animated in conversation, reflecting the joy of shared meals and stories. The table, draped in a pristine white tablecloth, is adorned with several glasses and plates, remnants of a meal enjoyed together.\n\nThe restaurant itself is spacious and inviting, with large windows that frame the bustling street outside. These windows are not just mere glass panes but are decorated with strings of green and blue, adding a dash of color and festivity to the atmosphere. The strings sway gently, almost as if dancing to the rhythm of the conversations inside.\n\nThis image captures more than just a moment; it encapsulates the essence of social dining - the food, the ambiance, and most importantly, the people."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.6061093750000001,
+                0.4725995316159251,
+                0.62753125,
+                0.6072365339578455
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.27709375,
+                0.4344262295081967,
+                0.29534375,
+                0.5267213114754098
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.43043750000000003,
+                0.40850117096018734,
+                0.44885937500000006,
+                0.43421545667447303
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.006,
+                0.6670491803278689,
+                0.278875,
+                0.9883840749414519
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.279109375,
+                0.7653161592505855,
+                0.55525,
+                0.9890398126463701
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.62953125,
+                0.6698594847775176,
+                0.93828125,
+                0.9859016393442622
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.8716250000000001,
+                0.5476346604215456,
+                0.9448125,
+                0.6988524590163934
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.935375,
+                0.4927400468384075,
+                1.0,
+                0.7191569086651055
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.016968749999999998,
+                0.5443325526932085,
+                0.08362499999999999,
+                0.7038407494145199
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.20240624999999998,
+                0.48313817330210773,
+                0.7256562499999999,
+                0.8763934426229509
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.33132812500000003,
+                0.43058548009367686,
+                0.58134375,
+                0.9881498829039814
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.61034375,
+                0.40807962529274006,
+                0.869140625,
+                0.9865573770491803
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.778609375,
+                0.4051053864168618,
+                0.88025,
+                0.6985245901639344
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.07078124999999999,
+                0.3865573770491803,
+                0.292171875,
+                0.9102810304449649
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.21753125,
+                0.32070257611241215,
+                0.356046875,
+                0.5638875878220141
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9786250000000001,
+                0.40536299765807965,
+                0.9994843750000001,
+                0.5377751756440281
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.547703125,
+                0.34669789227166276,
+                0.625328125,
+                0.5024590163934427
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.33803125,
+                0.5453395784543326,
+                0.367515625,
+                0.6540281030444964
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.29118750000000004,
+                0.5143325526932084,
+                0.317015625,
+                0.6088524590163935
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.3468125,
+                0.4811943793911007,
+                0.36881250000000004,
+                0.5456440281030445
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.30846874999999996,
+                0.5431147540983606,
+                0.33584375,
+                0.6370491803278688
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.30853125000000003,
+                0.5089461358313817,
+                0.331,
+                0.5441451990632319
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.5930625,
+                0.5301639344262294,
+                0.616359375,
+                0.6222248243559719
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.320046875,
+                0.48480093676814984,
+                0.34168750000000003,
+                0.5379625292740047
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.47803125,
+                0.3268384074941452,
+                0.5220312500000001,
+                0.3774941451990632
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.47806249999999995,
+                0.3277049180327869,
+                0.52196875,
+                0.3774473067915691
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.624984375,
+                0.5382669789227167,
+                0.6505468750000001,
+                0.631615925058548
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.65653125,
+                0.4953395784543325,
+                0.678609375,
+                0.5804683840749414
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.638171875,
+                0.49241217798594844,
+                0.6635625,
+                0.5892037470725995
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.5820937500000001,
+                0.4733021077283372,
+                0.601859375,
+                0.5479156908665105
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.282734375,
+                0.6178922716627634,
+                0.28703124999999996,
+                0.6275409836065573
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.641875,
+                0.35362997658079626,
+                0.72325,
+                0.5291569086651053
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.527546875,
+                0.4426229508196721,
+                0.539890625,
+                0.48515222482435594
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.5389062499999999,
+                0.46571428571428575,
+                0.5455,
+                0.49749414519906326
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.329109375,
+                0.5536299765807963,
+                0.3391875,
+                0.6022248243559718
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.6484375,
+                0.6016861826697892,
+                0.7073750000000001,
+                0.644192037470726
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9528593750000001,
+                0.4527634660421546,
+                0.984,
+                0.6033957845433254
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6220625,
+                0.45377049180327866,
+                0.636359375,
+                0.5225058548009367
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.347234375,
+                0.31175644028103044,
+                0.485265625,
+                0.5028337236533958
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.75265625,
+                0.3542388758782201,
+                0.889234375,
+                0.3911475409836065
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.691796875,
+                0.45288056206088995,
+                0.70415625,
+                0.47529274004683836
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.06478125,
+                0.8997658079625293,
+                0.1298125,
+                0.9894847775175644
+            ]
+        }
+    ],
+    "hash_id": "905_coco_train2017_000000130081.jpg"
+}

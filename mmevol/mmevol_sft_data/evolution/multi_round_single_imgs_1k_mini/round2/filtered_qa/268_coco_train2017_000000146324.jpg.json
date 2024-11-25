@@ -1,0 +1,319 @@
+{
+    "id": "000000146324",
+    "image": "coco/train2017/000000146324.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many motorcycles can be seen in the image?",
+            "steps": [],
+            "answer": "There are a couple of motorcycles visible in the image. Two men are riding these motorcycles."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The scene depicts two men riding their motorcycles on a street among other vehicles. They seem to be stopped at an intersection or traffic stop. Around the motorcycles, there are several cars, a bus, and a truck, all indicating a busy traffic situation. A traffic light is also visible in the scene.\n\nMany people can be seen scattered around the area, some of whom might also be waiting for the traffic to clear, while others could be pedestrians. A few handbags and backpacks are present in the photo as well, possibly belonging to the people around the street. \n\nOverall, the image captures a bustling urban environment with various modes of transportation and individuals going about their day."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are some safety guidelines that motorcycle riders should follow in such situations?",
+            "steps": [],
+            "answer": "In situations where motorcycle riders are stopped at intersections or riding in mixed traffic with cars, buses, and trucks, they should follow several safety guidelines to ensure their well-being and that of others on the road:\n\n1. Wear appropriate gear: Riders should wear helmets, gloves, and protective clothing to minimize the risk of injuries in case of an accident.\n2. Maintain a safe distance: Keep a safe distance from other vehicles, allowing enough space and time to react to any sudden changes in traffic or road conditions.\n3. Use mirrors and signals: Always check mirrors before changing lanes, and use turn signals to communicate with other road users.\n4. Stay visible: Position yourself on the road so that other drivers can see you easily, and use headlights and reflective gear if required.\n5. Follow traffic rules: Obey traffic laws, traffic signals, and lane markings to ensure smooth flow and reduce the risk of accidents.\n6. Stay alert: Be aware of your surroundings and potential hazards, such as pedestrians, potholes, or slippery road conditions.\n7. Avoid distractions: Refrain from using mobile devices or engaging in activities that may distract you from focusing on the road.\n\nBy following these safety guidelines, motorcycle riders can enjoy their rides while minimizing the risks associated with road travel."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nAnalyze the image in a comprehensive and detailed manner."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city, two motorcyclists have paused their journey at a crosswalk. The motorcyclists, clad in black helmets and jackets, exude a sense of adventure and freedom. The one on the left straddles a sleek BMW motorcycle, its black and silver body gleaming under the city lights. Facing him is the other motorcyclist, perched on a Triumph motorcycle of similar color.\n\nThey are not alone in this urban landscape. Pedestrians can be seen in the background, adding to the city's lively atmosphere. A building looms behind them, a testament to the city's architectural prowess. The street they are on is lined with trees, providing a touch of nature amidst the concrete jungle. A traffic light stands sentinel in the background, guiding the flow of vehicles and ensuring order amidst the city's constant motion.\n\nThis moment, frozen in time, captures not just two motorcyclists at a crosswalk, but a slice of city life - vibrant, dynamic, and full of stories waiting to unfold."
+        }
+    ],
+    "det": [
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.07921875,
+                0.4362083333333333,
+                0.43989062500000004,
+                0.7597916666666666
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.505625,
+                0.39325,
+                0.9539375,
+                0.79325
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.75675,
+                0.03752083333333334,
+                0.9087343750000001,
+                0.14270833333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.633671875,
+                0.21102083333333335,
+                0.816234375,
+                0.7928333333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.14734375,
+                0.2288125,
+                0.36765625,
+                0.7550416666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.141484375,
+                0.19741666666666668,
+                0.20885937499999999,
+                0.4540416666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.60103125,
+                0.19920833333333335,
+                0.6344062500000001,
+                0.2615208333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.022984375,
+                0.21825,
+                0.10859375,
+                0.40810416666666666
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.7408125,
+                0.18175,
+                0.857359375,
+                0.24987499999999999
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.575109375,
+                0.205375,
+                0.660875,
+                0.27712499999999995
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.14575,
+                0.02333333333333333,
+                0.178546875,
+                0.06508333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5391250000000001,
+                0.1869583333333333,
+                0.58159375,
+                0.2759583333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4956875,
+                0.208625,
+                0.53025,
+                0.28362499999999996
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.475,
+                0.22345833333333334,
+                0.5456562500000001,
+                0.2860416666666667
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.866484375,
+                0.18283333333333335,
+                0.9389687499999999,
+                0.22035416666666668
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.72703125,
+                0.1725,
+                0.808015625,
+                0.24808333333333332
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.034015625,
+                0.19258333333333333,
+                0.37734375,
+                0.3813541666666667
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.5891875,
+                0.41027083333333336,
+                0.688421875,
+                0.5388125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.23712499999999997,
+                0.03940625,
+                0.42166666666666663
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.951765625,
+                0.28558333333333336,
+                1.0,
+                0.3877291666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.136328125,
+                0.19047916666666667,
+                0.150921875,
+                0.2083125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.792796875,
+                0.18010416666666668,
+                0.8190937500000001,
+                0.2435
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.629234375,
+                0.17227083333333332,
+                0.7252812499999999,
+                0.22820833333333332
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.9038906250000001,
+                0.07272916666666666,
+                1.0,
+                0.21297916666666664
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.5842343750000001,
+                0.41375,
+                0.674109375,
+                0.5471666666666667
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.0,
+                0.24781250000000002,
+                0.027671875000000002,
+                0.3177083333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9372031249999999,
+                0.1491875,
+                1.0,
+                0.5885
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.5057031249999999,
+                0.2085625,
+                0.547484375,
+                0.2248541666666667
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.4766875,
+                0.2070625,
+                0.5091406249999999,
+                0.22645833333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.045359375,
+                0.21060416666666668,
+                0.078515625,
+                0.28077083333333336
+            ]
+        }
+    ],
+    "hash_id": "268_coco_train2017_000000146324.jpg"
+}

@@ -1,0 +1,238 @@
+{
+    "id": "000000119299",
+    "image": "coco/train2017/000000119299.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image depicts a busy commuter train station, possibly in an oriental city. The train is filled with numerous standing passengers, some of whom can be seen in the doorway of the train as well.\n\nMultiple people are carrying luggage in the form of handbags, backpacks, and suitcases. Two handbags can be seen in the middle of the scene, while another one is in the right portion of the image. A backpack is also visible on the train. Four suitcases are distributed around the scene, with passengers holding or placing them close by.\n\nBesides the crowded train, there is a television mounted on the wall at the station, displaying information to the travelers. The station captures the essence of a bustling urban environment with people packed into the train, moving in and out of the platform."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What problems do commuters face in this city's public transportation?",
+            "steps": [],
+            "answer": "Commuters in this city face the challenge of overcrowding in public transportation, specifically in the passenger trains. The image depicts multiple people tightly packed into a commuter train, some standing in the doorway, with limited personal space. This crowded situation can make the commute uncomfortable and potentially cause safety concerns, especially during peak travel hours. Besides, passengers are carrying various pieces of personal belongings such as handbags, suitcases, and backpacks, which further adds to the congestion and makes it difficult to navigate the train. These conditions may lead to longer travel times, increased stress, and a compromised travel experience for the commuters. The city's public transportation system may need to consider enhancing its capacity and efficiency to better cater to the needs of its residents."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you think is going on in this snapshot?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city, a train station comes to life. A red and white train, adorned with a blue sign on its side, has come to a halt at the platform. The platform itself is a vibrant mix of green and yellow, mirroring the lively atmosphere of the city.\n\nAbove the train, a green and white sign hangs, guiding passengers to their destinations. The sign reads \"20 Please alight here for Chinatown \u642d\u4e58\u6b64\", indicating that this is the stop for Chinatown.\n\nPeople are in motion, some boarding the train while others disembark, each person a story unto themselves. Among them, a man in a white shirt and gray pants stands out. He is seen from behind, adding an air of mystery to his presence.\n\nThis image captures a moment in time at this train station, telling a story of travel, movement, and urban life."
+        }
+    ],
+    "det": [
+        {
+            "label": "train",
+            "bbox": [
+                0.0033723653395784543,
+                0.27021875,
+                0.9363466042154567,
+                0.8028124999999999
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.5634426229508197,
+                0.494703125,
+                0.6795081967213115,
+                0.6425000000000001
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.18702576112412178,
+                0.503234375,
+                0.3314285714285714,
+                0.622671875
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.6830913348946136,
+                0.677734375,
+                0.8233489461358313,
+                0.7793593750000001
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.4583606557377049,
+                0.658390625,
+                0.5255971896955504,
+                0.76875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5764871194379391,
+                0.45415625000000004,
+                0.7120374707259953,
+                0.798125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3899063231850117,
+                0.46439062499999995,
+                0.4814519906323185,
+                0.789078125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4556908665105387,
+                0.443953125,
+                0.5227166276346604,
+                0.5557187499999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5244028103044496,
+                0.43587499999999996,
+                0.6025526932084309,
+                0.6025625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.42800936768149883,
+                0.3921875,
+                0.55711943793911,
+                0.481640625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.39262295081967213,
+                0.42017187500000003,
+                0.43346604215456674,
+                0.47915625000000006
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.43028103044496485,
+                0.511,
+                0.49269320843091335,
+                0.5702343750000001
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.49316159250585484,
+                0.4809375,
+                0.5639344262295082,
+                0.570390625
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.6943325526932085,
+                0.587390625,
+                0.7672131147540984,
+                0.677546875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7147072599531616,
+                0.44195312500000006,
+                0.7702341920374707,
+                0.597359375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6689461358313817,
+                0.42970312499999996,
+                0.8327868852459016,
+                0.536421875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.743864168618267,
+                0.46196875000000004,
+                0.8239110070257611,
+                0.576375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7704449648711944,
+                0.419953125,
+                0.8377517564402811,
+                0.77109375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.10777517564402811,
+                0.42848437500000003,
+                0.4149882903981265,
+                0.9839218750000001
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.4467447306791569,
+                0.571671875,
+                0.5636533957845433,
+                0.6530781250000001
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.5372599531615925,
+                0.6270156250000001,
+                0.6099297423887587,
+                0.7247187500000001
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.49850117096018737,
+                0.178484375,
+                0.6925292740046839,
+                0.282421875
+            ]
+        }
+    ],
+    "hash_id": "30_coco_train2017_000000119299.jpg"
+}

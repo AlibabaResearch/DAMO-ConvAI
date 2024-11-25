@@ -1,0 +1,262 @@
+{
+    "id": "000000039099",
+    "image": "coco/train2017/000000039099.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of produce can be seen at the stand in the image?",
+            "steps": [],
+            "answer": "The stand in the image has a variety of fruits, including ripe and unripe bananas, as well as vegetables."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the state of ripeness of the bananas in the image?",
+            "steps": [],
+            "answer": "In the image, the bananas are in varying stages of ripeness. Some are still green, indicating that they are unripe, while others are yellow, indicating that they are ripe."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Who is present at the store display in the image?",
+            "steps": [],
+            "answer": "There is a woman on her phone and a young girl behind the counter at the store display in the image. The woman is standing in front of green and yellow bananas for sale."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a child at the store display selling green bananas?",
+            "steps": [],
+            "answer": "Yes, there is a child at the store display selling green bananas as well as a woman on her phone in front of the banana display."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of store setting is the image depicting?",
+            "steps": [],
+            "answer": "The image depicts a market store setting, with shelves containing produce, such as bananas, and a counter area where a young girl is present. This store setting suggests a local grocery store or farmers' market where customers can purchase fresh fruits and vegetables."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "The image displays a market store with a variety of bananas on the shelves, including both ripe and unripe ones. Green and yellow bananas can be seen in different sections on the counter, with a total of 19 bunches of bananas strewn all over the scene. \n\nA woman is standing in front of the bananas at the store display, looking at her cell phone. A child is also present in the background near the bananas, likely helping run the store or shopping with the woman. Another person can be seen at the edge of the scene, although only a portion of them is visible.\n\nAside from the bananas, there are other items in the scene such as a bottle, a bowl, and a book near the woman, likely related to the market setup or being used by the child."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the differences in the bananas at this market stand, and why might they be important to customers?",
+            "steps": [],
+            "answer": "The market stand displays a wide variety of bananas in different stages of ripeness, varying from green to yellow. There are ripe yellow bananas and unripe green bananas available for sale. This variety is important to customers because preferences and needs may vary. Some customers might prefer ripe bananas, which are usually sweeter and softer, to consume right away, while others may prefer to purchase the unripe green bananas that will ripen over time and last longer. Having options allows customers to make choices based on their taste preferences, planned consumption, and storage intentions, ensuring that they can select the bananas that best suit their needs."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you see happening in this image?"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a lively scene at a fruit stand in a bustling market. The stand, constructed of wood, is draped with a vibrant yellow tablecloth. It's brimming with bananas of varying ripeness - green ones that are yet to ripen, yellow ones that are just right for eating, and brown ones that are overripe. These bananas are neatly arranged in bunches on the stand.\n\nBehind the stand, a young girl is seated. She appears to be enjoying a refreshing drink from a can. In addition to bananas, the stand also offers other items for sale. A basket filled with assorted fruits and a bag of chips can be spotted among the merchandise.\n\nThe background is teeming with activity, indicative of a typical market day. Other vendors and customers can be seen, adding to the overall vibrancy of the scene. This image is a snapshot of everyday life at the market, filled with color, variety, and human interaction."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.5117499999999999,
+                0.09488262910798123,
+                0.546703125,
+                0.2750704225352113
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.415828125,
+                0.05617370892018779,
+                0.613265625,
+                0.26516431924882633
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.41779687499999996,
+                0.22884976525821596,
+                0.48324999999999996,
+                0.2685680751173709
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.586703125,
+                0.16976525821596242,
+                0.6687031250000001,
+                0.21098591549295773
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.489421875,
+                0.20713615023474177,
+                0.5109687500000001,
+                0.2339671361502347
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.399921875,
+                0.2423943661971831,
+                0.42265625,
+                0.2625117370892019
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.179296875,
+                0.5343896713615024,
+                0.41332812499999994,
+                0.7857276995305165
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.373625,
+                0.5021830985915493,
+                0.490734375,
+                0.7330985915492958
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.242125,
+                0.22126760563380282,
+                0.45201562500000003,
+                0.37720657276995306
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.41246875000000005,
+                0.4446478873239436,
+                0.569921875,
+                0.6244131455399061
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.041421875000000004,
+                0.19436619718309858,
+                0.24660937499999996,
+                0.3714788732394366
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.013875000000000002,
+                0.4518309859154929,
+                0.04332812500000001,
+                0.516924882629108
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.619234375,
+                0.24661971830985915,
+                0.79503125,
+                0.4117840375586855
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.5839375,
+                0.2381455399061033,
+                0.646765625,
+                0.3408920187793427
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.6789531249999999,
+                0.20349765258215963,
+                0.736015625,
+                0.2592488262910798
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.097375,
+                0.6643896713615023,
+                0.234875,
+                1.0
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.28712499999999996,
+                0.4579107981220657,
+                0.43259375,
+                0.6197652582159624
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.0017343750000000002,
+                0.5038967136150234,
+                0.19190625,
+                0.8987089201877935
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.20228125000000002,
+                0.698262910798122,
+                0.39073437499999997,
+                0.872300469483568
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9089218750000001,
+                0.0,
+                1.0,
+                0.5253051643192488
+            ]
+        }
+    ],
+    "hash_id": "290_coco_train2017_000000039099.jpg"
+}

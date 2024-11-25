@@ -1,0 +1,47 @@
+{
+    "id": "1143",
+    "image": "mathvision/images/1143.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Susi writes a different positive whole number on each of the 14 cubes of the pyramid (see diagram). The sum of the numbers, which she writes on the nine cubes that lie on the bottom, is 50. The number on every remaining cube is equal to the sum of the numbers of the four cubes that are directly underneath. What is the biggest number that can be written on the topmost cube?",
+            "steps": [],
+            "answer": "Answer is 118."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Susi writes a different positive whole number on each of the 14 cubes of the pyramid (see diagram). The sum of the numbers, which she writes on the nine cubes that lie on the bottom, is 50. The number on every remaining cube is equal to the sum of the numbers of the four cubes that are directly underneath. What is the biggest number that can be written on the topmost cube?",
+            "steps": [],
+            "answer": "To ensure the topmost cube has the greatest possible number, we must position the lowest numbers at the pyramid's base, allowing for larger sums as we ascend the layers. So, starting with a sequential placement of the smallest whole numbers at the base, we find that the largest number possible at the top is indeed 118. This follows from careful addition of numbers according to the given pyramid structure, ensuring that the sum of any four cubes supports a single cube above."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you explain how the pyramid's structure influences the placement of numbers for obtaining the maximum sum at the top?",
+            "steps": [],
+            "answer": "Certainly! The pyramid's layered structure means each higher level cube's value is determined by the sum of the four cubes directly below it. Therefore, to maximize the top cube's number, you would allocate the smallest numbers possible at the base, subsequently increasing the numbers as you move up. This placement ensures each cube sums to the highest number achievable from the set of numbers on the cubes beneath it."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a mathematical strategy to distribute the numbers to maximize the value on the top cube?",
+            "steps": [],
+            "answer": "Indeed, there is! A systematic strategy involves starting with the smallest numbers on the bottom layer and then assigning numbers to the second layer such that they create the largest possible sums while still using unique positive whole numbers. For the third layer, repeat this process. The goal is to keep the increment between the numbers in each layer as uniform as possible, balancing the values to optimize the number on top."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [],
+    "det": [],
+    "hash_id": "1355_mathvision_images_1143.jpg"
+}

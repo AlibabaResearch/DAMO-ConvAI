@@ -1,0 +1,247 @@
+{
+    "id": "000000104788",
+    "image": "coco/train2017/000000104788.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The image depicts a group of people playing tennis in the middle of a street in an urban setting. They are holding tennis rackets, with some of them cheering and enjoying the game. In the scene, there are at least seven people in various positions, some holding tennis rackets and a sports ball also present on the scene.\n\nThere is a car parked on the side of the street close to the right edge of the image. Several traffic lights can be seen along the road, indicating a busy intersection or area. A fire hydrant is also visible a bit closer to the center of the image, adding to the urban atmosphere."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What makes this scene uncommon, and what potential risks or challenges does it present?",
+            "steps": [],
+            "answer": "The scene depicts a group of people holding tennis rackets and playing in the middle of the street. This is an uncommon scene because streets are not designed for sports activities like tennis, which are typically played in designated courts or recreational areas. Playing tennis on the street presents potential risks and challenges, such as the possibility of accidents involving vehicles or disturbing the normal flow of traffic. The presence of traffic lights in the area suggests that it is not a closed-off section of the street, so both players and drivers need to exercise caution to ensure safety. Additionally, the urban environment may lead to damage to property or equipment if the sports ball accidentally hits windows, parked cars, or other structures in the vicinity."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you think is going on in this snapshot?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a lively scene of a street volleyball game unfolding on a sunny day. The makeshift court is set up on a street corner, with a yellow caution tape stretched across to serve as the net. \n\nOn one side of the net, we see a team of players clad in green shirts. One of them is in the midst of an action, hitting the ball over the net with a focused expression. Their bodies are angled towards the ball, suggesting movement and energy.\n\nOn the other side, the opposing team is wearing white shirts. They are in a state of readiness, preparing to return the ball. Their stance and positioning indicate anticipation of the ball's trajectory.\n\nThe game is set against an urban backdrop with several buildings and businesses. Notably, there's a liquor store and a warehouse supply store in the vicinity, adding to the authenticity of the street setting. The sun casts long shadows, indicating it might be either early morning or late afternoon.\n\nOverall, the image encapsulates a moment of camaraderie and sport in an urban setting, underlining how public spaces can be transformed into arenas of joy and competition."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.9565781250000001,
+                0.4810046728971963,
+                1.0,
+                0.631658878504673
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.45689062500000005,
+                0.27731308411214955,
+                0.708734375,
+                0.9029672897196261
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7055,
+                0.2805841121495327,
+                0.859609375,
+                0.9494859813084112
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.830703125,
+                0.35235981308411213,
+                0.9794218749999999,
+                0.9995327102803738
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.632765625,
+                0.5260046728971962,
+                0.73321875,
+                0.7636682242990654
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.1471875,
+                0.2130841121495327,
+                0.25975000000000004,
+                0.9087850467289719
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.106609375,
+                0.010186915887850468,
+                0.131265625,
+                0.0955607476635514
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.85565625,
+                0.14039719626168226,
+                0.88590625,
+                0.2469158878504673
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.6172500000000001,
+                0.24196261682242992,
+                0.637890625,
+                0.315
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.66946875,
+                0.2607943925233645,
+                0.686921875,
+                0.31264018691588785
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.370234375,
+                0.25457943925233645,
+                0.38571875,
+                0.32065420560747665
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.940015625,
+                0.16969626168224297,
+                0.95834375,
+                0.27074766355140184
+            ]
+        },
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.68803125,
+                0.24990654205607477,
+                0.7773281249999999,
+                0.3241822429906542
+            ]
+        },
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.144828125,
+                0.24219626168224298,
+                0.2185,
+                0.44095794392523363
+            ]
+        },
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.9182343749999999,
+                0.6907943925233645,
+                1.0,
+                0.7578738317757009
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0015,
+                0.3483177570093458,
+                0.058609375,
+                0.6449532710280375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.457328125,
+                0.5941121495327103,
+                0.54953125,
+                0.7482943925233645
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.312640625,
+                0.4083644859813084,
+                0.336375,
+                0.4438551401869159
+            ]
+        },
+        {
+            "label": "fire hydrant",
+            "bbox": [
+                0.684203125,
+                0.48936915887850463,
+                0.702625,
+                0.5425700934579439
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.070109375,
+                0.3902336448598131,
+                0.16384375,
+                0.7785280373831777
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.276515625,
+                0.4147196261682243,
+                0.2981875,
+                0.45238317757009344
+            ]
+        },
+        {
+            "label": "sports ball",
+            "bbox": [
+                0.9531875,
+                0.5994626168224299,
+                0.9802187499999999,
+                0.6322663551401869
+            ]
+        },
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.140109375,
+                0.553714953271028,
+                0.19565625,
+                0.6761915887850468
+            ]
+        }
+    ],
+    "hash_id": "880_coco_train2017_000000104788.jpg"
+}

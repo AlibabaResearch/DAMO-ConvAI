@@ -1,0 +1,264 @@
+{
+    "id": "000000077707",
+    "image": "coco/train2017/000000077707.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The image depicts a bustling scene at an airport with many people, carrying various luggage items, waiting to board an airplane. There are several suitcases and backpacks on the ground, and some people have handbags.\n\nAt least eleven people are visible in the image, standing in line or milling around preparing to board the airplane. Some are positioned closer to the aircraft, while others are scattered around the area.\n\nIn the vicinity, there are also two trucks present, mainly on the left side of the scene, likely serving as support or airfield vehicles. The airplane spans across the entire image and seems to be the focal point of the passengers' attention."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is one inconvenience the passengers may have experienced upon landing?",
+            "steps": [],
+            "answer": "One inconvenience passengers may have experienced upon landing is trying to get their luggage efficiently. In the image, there are many people with luggage, including suitcases, backpacks, and handbags, which indicates a large number of belongings for passengers to retrieve. This process can be time-consuming and challenging, as passengers need to locate and collect their luggage among the crowd, in addition to ensuring that they have not left any belongings behind. The situation can be chaotic, and passengers might face difficulties maneuvering through the crowd with their luggage."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What's happening in the scene?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the image, a small white airplane with red lettering that reads \"Mokulele Airlines\" is parked on a tarmac under a clear blue sky. A group of people are seen walking towards the airplane, each carrying luggage in colors of black and red. They are about to board the airplane, guided by two airport workers dressed in orange vests. The airplane, with its single propeller, is ready to take them to their destination. The scene is bustling with activity as the passengers prepare for their journey."
+        }
+    ],
+    "det": [
+        {
+            "label": "airplane",
+            "bbox": [
+                0.008968750000000001,
+                0.003802816901408451,
+                1.0,
+                0.824037558685446
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.03153125,
+                0.388943661971831,
+                0.10214062500000001,
+                0.4658920187793427
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.15717187500000002,
+                0.49638497652582164,
+                0.23287500000000003,
+                0.6453990610328638
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.692546875,
+                0.6134741784037558,
+                0.8062343750000001,
+                0.9865258215962441
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.560921875,
+                0.6404460093896713,
+                0.6342187499999999,
+                0.7730281690140846
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.42629687499999996,
+                0.4063380281690141,
+                0.54725,
+                0.9496948356807512
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6195468749999999,
+                0.423075117370892,
+                0.71034375,
+                0.857488262910798
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.541703125,
+                0.38537558685446005,
+                0.62284375,
+                0.6855868544600939
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.271265625,
+                0.45028169014084507,
+                0.389328125,
+                0.9427699530516432
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.40648437499999995,
+                0.39253521126760565,
+                0.45596875,
+                0.531431924882629
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.486734375,
+                0.4032159624413146,
+                0.54628125,
+                0.5638967136150236
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.118171875,
+                0.388755868544601,
+                0.22585937500000003,
+                0.8202347417840375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.199625,
+                0.42075117370892023,
+                0.29734375,
+                0.8665023474178404
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.10795312500000001,
+                0.42821596244131455,
+                0.21214062500000003,
+                0.5750469483568075
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.6835,
+                0.4733568075117371,
+                0.739453125,
+                0.6078638497652582
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.09878125,
+                0.6091784037558685,
+                0.153984375,
+                0.7303521126760564
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.51334375,
+                0.5666197183098591,
+                0.578359375,
+                0.8658920187793427
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.23203125,
+                0.4873239436619718,
+                0.2479375,
+                0.4986854460093897
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.334359375,
+                0.6995539906103286,
+                0.45390625,
+                0.835962441314554
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.42698437499999997,
+                0.7735915492957747,
+                0.47623437499999993,
+                0.8607981220657277
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.45373437499999997,
+                0.49424882629107986,
+                0.520015625,
+                0.5899765258215963
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.540484375,
+                0.4857981220657277,
+                0.5615625000000001,
+                0.5626995305164318
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.3344375,
+                0.6973239436619718,
+                0.4523125,
+                0.8387089201877935
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.392234375,
+                0.576244131455399,
+                0.447921875,
+                0.6452112676056339
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.10525,
+                0.388943661971831,
+                0.169328125,
+                0.4600704225352113
+            ]
+        }
+    ],
+    "hash_id": "621_coco_train2017_000000077707.jpg"
+}

@@ -1,0 +1,454 @@
+{
+    "id": "000000243327",
+    "image": "coco/train2017/000000243327.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The image shows a group of three military soldiers, all females in their uniforms, sitting around a dinner table. The table is situated in a restaurant setting and filled with an array of food items and eating utensils. Multiple bowls and carrots are present on the table, along with a cake adding a touch of dessert to the meal. An assortment of wine glasses can be spotted scattered around the table, as well as a few cups. Different eating utensils like forks and spoons also accompany the meal.\n\nIn the background, a TV is mounted on the wall near the top left corner of the image. The dining area appears to be lively, and the soldiers seem to be enjoying a communal meal together."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of public event is likely being held in the scene?",
+            "steps": [],
+            "answer": "Based on the image, it appears that a formal dinner event is being held for military service women. They are seated around a dining table with a variety of place settings, such as wine glasses, forks, spoons, bowls, and plates arranged before them. It seems like they have gathered to enjoy a meal together, possibly to celebrate an accomplishment or participate in a gathering related to their service. The presence of numerous wine glasses suggests that it might be a more relaxed or festive atmosphere, and the presence of different food items like carrots and cake indicates there may be a variety of dishes being served during the event."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nExplain the visual content of the image in great detail."
+        },
+        {
+            "from": "gpt",
+            "value": "In the center of the image, a round table draped in a blue tablecloth commands attention. The table is elegantly set with multiple objects: a few plates, glasses, and a striking centerpiece of orange flowers that adds a pop of color to the scene.\n\nThree people, clad in military uniforms, are seated around the table. The person on the right stands out in a khaki uniform, their gaze directed towards the other two individuals who are donned in dark blue uniforms. These two are seated next to each other, engaged in what appears to be a serious discussion.\n\nThe backdrop is a simple beige wall, adorned with a blue curtain that complements the tablecloth. The curtain adds depth to the scene, creating an atmosphere of formality and decorum. The entire setting exudes an air of solemnity and respect, befitting the military attire of the individuals present."
+        }
+    ],
+    "det": [
+        {
+            "label": "tv",
+            "bbox": [
+                0.876078125,
+                0.001353711790393013,
+                0.999625,
+                0.12914847161572052
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.010203125,
+                0.5067248908296943,
+                0.9977968749999999,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.715625,
+                0.16235807860262008,
+                0.9713125,
+                0.5668558951965066
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.175125,
+                0.1615938864628821,
+                0.399671875,
+                0.748231441048035
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.21124454148471616,
+                0.246046875,
+                0.9370742358078603
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.8913437500000001,
+                0.7848471615720524,
+                1.0,
+                0.8376419213973799
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.863046875,
+                0.8598689956331877,
+                0.9080781250000001,
+                0.8899126637554585
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.113671875,
+                0.8122925764192139,
+                0.254546875,
+                0.9040174672489082
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.903359375,
+                0.7040393013100437,
+                1.0,
+                0.7982096069868996
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.82578125,
+                0.8876637554585153,
+                1.0,
+                0.9963755458515284
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.939890625,
+                0.6134497816593886,
+                1.0,
+                0.6728165938864629
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.7483125,
+                0.5354148471615721,
+                0.82415625,
+                0.5827292576419214
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.32753125,
+                0.6746943231441048,
+                0.429203125,
+                0.742467248908297
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.315328125,
+                0.668056768558952,
+                0.3909375,
+                0.6979257641921398
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.3615625,
+                0.626113537117904,
+                0.438984375,
+                0.7429912663755458
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.5447968750000001,
+                0.5957860262008734,
+                0.5902499999999999,
+                0.711528384279476
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.3993125,
+                0.6300218340611354,
+                0.45553125000000005,
+                0.711528384279476
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.39064062499999996,
+                0.5784279475982533,
+                0.44957812500000005,
+                0.7266593886462882
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.241359375,
+                0.7393886462882096,
+                0.329125,
+                0.9846724890829694
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.5859687499999999,
+                0.82882096069869,
+                0.692046875,
+                0.98882096069869
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.8639531249999999,
+                0.5696288209606987,
+                0.918015625,
+                0.7364847161572052
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.910671875,
+                0.5046288209606987,
+                0.9606875,
+                0.6323362445414847
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.6390781249999999,
+                0.44596069868995636,
+                0.68546875,
+                0.5235371179039301
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.742390625,
+                0.6452620087336244,
+                0.8186875,
+                0.8800218340611353
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.565265625,
+                0.5077510917030568,
+                0.6243749999999999,
+                0.6510043668122272
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.4525625,
+                0.605764192139738,
+                0.5296093749999999,
+                0.7109388646288209
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.816609375,
+                0.5322925764192139,
+                0.8770624999999999,
+                0.7136899563318777
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.858203125,
+                0.4770087336244542,
+                0.913234375,
+                0.5698471615720524
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.9614218749999999,
+                0.6705458515283843,
+                0.9995468749999998,
+                0.705174672489083
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.943109375,
+                0.6624017467248908,
+                0.967609375,
+                0.6942139737991266
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.9268281249999999,
+                0.7035371179039301,
+                0.9522499999999999,
+                0.7178384279475983
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.80096875,
+                0.619061135371179,
+                0.8258125,
+                0.6575327510917031
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.48425,
+                0.5746288209606987,
+                0.5393125000000001,
+                0.6259170305676857
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.51678125,
+                0.5717248908296944,
+                0.55265625,
+                0.6890829694323145
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.682640625,
+                0.491943231441048,
+                0.77146875,
+                0.609585152838428
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.6132187499999999,
+                0.4638427947598253,
+                0.656765625,
+                0.5490393013100436
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.6248125,
+                0.8962663755458515,
+                0.719765625,
+                1.0
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.77596875,
+                0.7130131004366812,
+                0.843125,
+                0.9097379912663754
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.53171875,
+                0.579410480349345,
+                0.5918125,
+                0.6843886462882096
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.541,
+                0.5752838427947599,
+                0.565015625,
+                0.6565938864628822
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.6639062499999999,
+                0.5213755458515283,
+                0.705265625,
+                0.5916593886462882
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.528296875,
+                0.6178384279475984,
+                0.5761875,
+                0.6984279475982532
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.66396875,
+                0.645589519650655,
+                0.714828125,
+                0.7203275109170306
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.42178125,
+                0.6090829694323143,
+                0.46082812500000003,
+                0.6990829694323143
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.6924375,
+                0.464825327510917,
+                0.735125,
+                0.5392139737991266
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.026937499999999996,
+                0.9304585152838427,
+                0.18146875,
+                0.9623799126637554
+            ]
+        }
+    ],
+    "hash_id": "161_coco_train2017_000000243327.jpg"
+}

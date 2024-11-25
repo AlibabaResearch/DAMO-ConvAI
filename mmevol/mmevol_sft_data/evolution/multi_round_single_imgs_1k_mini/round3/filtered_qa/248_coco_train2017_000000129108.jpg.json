@@ -1,0 +1,338 @@
+{
+    "id": "000000129108",
+    "image": "coco/train2017/000000129108.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How does the woman riding her bike navigate potential hazards in her urban environment?",
+            "steps": [],
+            "answer": "The woman riding her bike on a somewhat busy road navigates potential hazards in her urban environment by being mindful of traffic flow, pedestrians, traffic lights, and other obstacles in her vicinity. In the image, there are multiple people, cars, and even a train nearby, requiring the woman to stay vigilant and ensure she maintains a safe distance from these elements. She should also pay close attention to traffic signs, signals, and rules of the road specific to cyclists. By doing so, she can avoid accidents and ensure a safe journey through the bustling city."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Can you elaborate on the elements of the picture provided?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the bustling heart of Chinatown, a young woman in a gray dress confidently navigates the busy street on her blue bicycle. Her sunglasses reflect the vibrant life around her - pedestrians strolling on the sidewalk, the red lampposts standing tall and proud, and a red streetcar making its way in the background. The scene is a beautiful blend of motion and color, capturing a moment of everyday life in this lively neighborhood."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.24034375,
+                0.54078125,
+                0.736046875,
+                0.9763839285714286
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.021078125,
+                0.3759821428571429,
+                0.176125,
+                0.4598660714285714
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.38171875,
+                0.0,
+                0.408875,
+                0.05511160714285714
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.348234375,
+                4.464285714285714e-05,
+                0.37526562500000005,
+                0.050937500000000004
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.361953125,
+                0.23274553571428572,
+                0.552484375,
+                0.8669419642857142
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.68584375,
+                0.2696651785714286,
+                0.758203125,
+                0.5775223214285715
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.778359375,
+                0.2710044642857143,
+                0.88090625,
+                0.5775446428571429
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9393593750000001,
+                0.2766071428571429,
+                0.9693125,
+                0.40564732142857146
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.21240625,
+                0.2560044642857143,
+                0.22351562500000002,
+                0.26944196428571426
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.25315625,
+                0.2570982142857143,
+                0.329,
+                0.5147321428571429
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.313171875,
+                0.2390401785714286,
+                0.38003125,
+                0.5268973214285715
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.10389062499999999,
+                0.2675,
+                0.157375,
+                0.5008035714285715
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.027640625000000002,
+                0.24272321428571428,
+                0.09017187500000001,
+                0.47928571428571426
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.24085937500000001,
+                0.28408482142857144,
+                0.291875,
+                0.3749776785714286
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.164578125,
+                0.2678348214285714,
+                0.291828125,
+                0.3695535714285714
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.0,
+                0.2450669642857143,
+                0.02096875,
+                0.33029017857142856
+            ]
+        },
+        {
+            "label": "train",
+            "bbox": [
+                0.51909375,
+                0.13933035714285716,
+                0.7707812500000001,
+                0.35055803571428573
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.7398906249999999,
+                0.35832589285714284,
+                0.78078125,
+                0.36625
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.2580625,
+                0.2263169642857143,
+                0.295921875,
+                0.26823660714285713
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.71009375,
+                0.3272767857142857,
+                0.751171875,
+                0.4301785714285714
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.132625,
+                0.4107142857142857,
+                0.19609375,
+                0.5019642857142858
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3151875,
+                0.26857142857142857,
+                0.356875,
+                0.5003794642857142
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3545,
+                0.22517857142857142,
+                0.390859375,
+                0.32437499999999997
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.609578125,
+                0.2562946428571428,
+                0.690578125,
+                0.5629910714285714
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.874625,
+                0.29808035714285713,
+                0.8901718750000001,
+                0.34011160714285715
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.0,
+                0.3489955357142857,
+                0.017937500000000002,
+                0.5252678571428572
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.4876875,
+                0.2849107142857143,
+                0.5197812500000001,
+                0.3501116071428571
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.454453125,
+                0.5166071428571428,
+                0.465796875,
+                0.5692857142857143
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.276609375,
+                0.2914732142857143,
+                0.317296875,
+                0.3751785714285715
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.33246875,
+                0.29129464285714285,
+                0.377640625,
+                0.3853348214285714
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.07373437499999999,
+                0.2809375,
+                0.094921875,
+                0.3563839285714286
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.026546874999999998,
+                0.25216517857142856,
+                0.043421875,
+                0.3374776785714286
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.46517187499999996,
+                0.2824107142857143,
+                0.49682812499999995,
+                0.3638169642857143
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.874984375,
+                0.2988169642857143,
+                0.9980781249999999,
+                0.3378794642857143
+            ]
+        }
+    ],
+    "hash_id": "248_coco_train2017_000000129108.jpg"
+}

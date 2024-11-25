@@ -1,0 +1,202 @@
+{
+    "id": "000000228329",
+    "image": "coco/train2017/000000228329.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the special occasion depicted in the image?",
+            "steps": [],
+            "answer": "The special occasion depicted in the image is a wedding, where the couple is celebrating their marriage by cutting their wedding cake together."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the color of the wedding cake?",
+            "steps": [],
+            "answer": "The color of the wedding cake is white."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the ages of the man and the woman in the image, and how are they dressed?",
+            "steps": [],
+            "answer": "The man and the woman in the image are young. They are dressed up for their wedding, presumably with the man wearing a suit or tuxedo and the woman wearing a wedding gown."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you explain the tradition of cutting the wedding cake together?",
+            "steps": [],
+            "answer": "The tradition of cutting the wedding cake together stems from ancient rituals celebrating the unity and commitment of the newlywed couple. It is a significant moment during wedding ceremonies or receptions, symbolizing the first joint act the couple performs together as husband and wife. \n\nTraditionally, the bride and groom cut the first slice of the cake jointly, with each of their hands holding the knife. This gesture represents their shared endeavors and decisions, teamwork, and mutual support in their married life. Once the first slice is cut, the bride and groom usually feed each other a small piece of cake, which signifies their commitment to providing for each other's well-being and nurturance.\n\nMoreover, the wedding cake itself holds symbolic meaning. Often elaborately decorated and multi-tiered, it embodies the prosperity and happiness the couple wishes to achieve in their life together. The white color of the cake is typically associated with purity, innocence, and new beginnings. Wedding cakes are usually made from rich ingredients, such as fruits, nuts, and spices, to signify the couple's wishes for a life filled with abundance and love.\n\nIn conclusion, the tradition of cutting the wedding cake together is a symbolic and meaningful ritual that highlights the couple's unity, commitment, and shared future. It is a moment cherished by the couple and their guests, and it remains an integral part of wedding celebrations across various cultures and countries."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The image showcases a wedding couple cutting their white wedding cake together as part of their ceremony. The couple is elegantly dressed, with the bride in a beautiful gown and the groom sporting a classy tie. They are standing close to each other, using a knife to cut into the cake that is placed on a dining table. \n\nSurrounding the couple are a few guests, likely there to celebrate their nuptials. The dining table also features various items including wine glasses, a couple of bottles, and a vase. Additionally, a potted plant can be seen placed on the left side of the table, adding a decorative touch to the wedding setup."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are some key decorative elements of this wedding scene?",
+            "steps": [],
+            "answer": "In this wedding scene, a couple is cutting their wedding cake, and the setting includes several key decorative elements. These elements consist of a white cake placed on a dining table, along with wine glasses, vases with flowers, and potted plants that contribute to the overall ambiance. Additionally, the bride and groom are dressed up for the occasion, with the groom wearing a tie. The presence of bottles (likely champagne or wine) suggests that the celebration may also include toasting and drinks for the guests. These decorative elements together create a festive and elegant atmosphere for the wedding ceremony."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What do you see happening in this image?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a warmly lit room, a joyous couple is immersed in a cherished wedding tradition. The groom, donned in a dark suit, stands to the left of his bride, who is resplendent in her white dress. Their smiles radiate happiness as they jointly hold a silver knife, poised to slice into the pristine white cake before them.\n\nThe cake, adorned with a silver ribbon around its base, rests on a table draped with a white tablecloth. A smattering of white flowers adds a touch of elegance to the table setting, and a green bottle of beer subtly peeks out from behind the floral arrangement.\n\nIn the background, an onlooker sits at a table with a glass of wine, silently observing the couple's moment of joy. The room itself is characterized by wood paneling and a large window, adding an air of sophistication to the scene. The couple's position behind the table and their interaction with the cake suggest they are at the center of attention in this momentous event."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.27312091503267977,
+                0.7053758169934641,
+                0.3118300653594771,
+                0.9118300653594771
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5606535947712419,
+                0.11352941176470589,
+                0.977467320261438,
+                0.8894281045751634
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.40133986928104576,
+                0.083218954248366,
+                0.7466339869281046,
+                0.8702124183006535
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0022549019607843133,
+                0.48761437908496735,
+                0.3626143790849673,
+                0.9087908496732027
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.4103921568627451,
+                0.715343137254902,
+                0.46307189542483657,
+                0.896078431372549
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.5883660130718954,
+                0.3134150326797386,
+                0.7024673202614379,
+                0.7138562091503268
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.8649509803921569,
+                0.7441993464052288,
+                0.9390522875816995,
+                0.9279575163398692
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.5912418300653595,
+                0.6133660130718954,
+                0.606062091503268,
+                0.8194444444444444
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.44495098039215686,
+                0.8269607843137255,
+                0.7325816993464053,
+                0.9011274509803922
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.11818627450980392,
+                0.7549019607843137,
+                0.20826797385620915,
+                0.9061928104575164
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.9139379084967321,
+                0.7070751633986928,
+                0.967826797385621,
+                0.789656862745098
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.02080065359477124,
+                0.6085294117647059,
+                0.26166666666666666,
+                0.9017647058823529
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0027287581699346405,
+                0.8773039215686274,
+                0.9964215686274509,
+                1.0
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.08633986928104576,
+                0.6961764705882353,
+                0.15668300653594772,
+                0.8812418300653596
+            ]
+        }
+    ],
+    "hash_id": "168_coco_train2017_000000228329.jpg"
+}

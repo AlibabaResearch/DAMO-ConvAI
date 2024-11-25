@@ -1,0 +1,325 @@
+{
+    "id": "000000185186",
+    "image": "coco/train2017/000000185186.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The image showcases a vibrant outdoor market bustling with people and filled with various fresh fruits and vegetables, including a large variety of bananas, apples, and oranges. People are gathering at stands to buy the fresh produce, creating a lively atmosphere. Several individuals are browsing, while others are filling their baskets and bags with the colorful, healthy produce from the farmer's market. \n\nSome chairs can be seen near the market, likely for visitors to sit and enjoy their purchases or to take a break from shopping. A person in a sitting position is casually observing the market from one of the chairs. In the center of the market, bowls filled with different types of produce draw attention to the delicious offerings available."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What benefits can one expect from shopping at this outdoor market?",
+            "steps": [],
+            "answer": "Shopping at this outdoor market full of fresh fruits and vegetables offers several benefits. Customers can expect to find a large variety of high-quality, fresh, and locally sourced produce, which is typically healthier and more nutritious than conventionally stored produce. Shopping at a farmers market also supports local farmers and businesses, contributing to the local economy and fostering a sense of community. Additionally, the market provides an opportunity to interact directly with farmers and sellers, allowing customers to learn about the products, their cultivation methods, and any seasonal specialties. The lively and colorful atmosphere of the outdoor market also makes for an enjoyable and engaging shopping experience in comparison to shopping at regular grocery stores or supermarkets. Overall, shoppers can enjoy healthier food options, support local agriculture, and have a genuinely enjoyable experience at these markets."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a bustling outdoor market, brimming with a vibrant array of fruits and vegetables. The market is structured into two rows of wooden stalls, each sheltered by a blue tarp roof. There are at least eight such stalls, each showcasing a different type of produce.\n\nIn the front row, four stalls are visible. Each stall is manned by a vendor, one of whom can be seen seated, presumably tending to their goods. The back row mirrors the front with another four stalls, each laden with a different type of fruit or vegetable.\n\nThe produce is meticulously arranged in baskets and on tables, inviting the eye to take in the variety of colors and shapes. The market appears to be located in a tropical or subtropical region, as suggested by the palm trees that sway gently in the background.\n\nThe image is a snapshot of life in such regions - the hustle and bustle of the market, the variety of produce indicative of the region's fertility, and the simplicity of life that such scenes often represent."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.85864,
+                0.5033832335329341,
+                0.98624,
+                0.7303293413173653
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8522000000000001,
+                0.3687125748502994,
+                0.98298,
+                0.654431137724551
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8123400000000001,
+                0.4102994011976048,
+                0.88014,
+                0.5850299401197604
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.20616,
+                0.4257784431137725,
+                0.28248,
+                0.52937125748503
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9702999999999999,
+                0.438562874251497,
+                1.0,
+                0.5310479041916167
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7028,
+                0.4256586826347305,
+                0.7479399999999999,
+                0.5196706586826347
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.93626,
+                0.7576347305389222,
+                1.0,
+                0.8035029940119761
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.12558,
+                0.35820359281437125,
+                0.15018,
+                0.3941916167664671
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.17236,
+                0.37520958083832334,
+                0.19952,
+                0.40850299401197604
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.56978,
+                0.3929640718562874,
+                0.5988199999999999,
+                0.4308083832335329
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.22269999999999998,
+                0.34661676646706585,
+                0.24667999999999998,
+                0.3753892215568862
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.39636,
+                0.3384431137724551,
+                0.4133,
+                0.37260479041916167
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.5227200000000001,
+                0.33494011976047905,
+                0.55762,
+                0.3711676646706587
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.60968,
+                0.4029640718562874,
+                0.6395,
+                0.4462874251497006
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.41466000000000003,
+                0.3429640718562874,
+                0.4348,
+                0.3724251497005988
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.27272,
+                0.34877245508982035,
+                0.30326000000000003,
+                0.38571856287425144
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.19641999999999998,
+                0.35853293413173654,
+                0.22146,
+                0.3981736526946108
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.47494,
+                0.49059880239520964,
+                0.5280199999999999,
+                0.5474251497005989
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.48046,
+                0.5499999999999999,
+                0.52416,
+                0.574880239520958
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.54322,
+                0.5131137724550898,
+                0.55086,
+                0.5226646706586826
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.73436,
+                0.5274550898203593,
+                0.7873,
+                0.5651796407185629
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.6027,
+                0.511317365269461,
+                0.6645,
+                0.5697604790419162
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.41487999999999997,
+                0.5079940119760479,
+                0.47496,
+                0.5522155688622754
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.56212,
+                0.5518862275449102,
+                0.56896,
+                0.5613173652694611
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.54026,
+                0.5482634730538922,
+                0.56928,
+                0.5724850299401197
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.67096,
+                0.39017964071856287,
+                0.6997800000000001,
+                0.4308682634730539
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.6746,
+                0.3486826347305389,
+                0.6972,
+                0.3872155688622754
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.4398,
+                0.38508982035928147,
+                0.45996000000000004,
+                0.4168862275449102
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.5604600000000001,
+                0.49368263473053886,
+                0.60614,
+                0.5243712574850299
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.31536000000000003,
+                0.5155988023952096,
+                0.44542000000000004,
+                0.7520359281437126
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.37898000000000004,
+                0.42556886227544904,
+                0.42612,
+                0.5656586826347305
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.26630000000000004,
+                0.4858682634730539,
+                0.27458,
+                0.4974850299401197
+            ]
+        }
+    ],
+    "hash_id": "362_coco_train2017_000000185186.jpg"
+}

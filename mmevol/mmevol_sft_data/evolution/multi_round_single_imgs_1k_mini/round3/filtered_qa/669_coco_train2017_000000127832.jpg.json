@@ -1,0 +1,221 @@
+{
+    "id": "000000127832",
+    "image": "coco/train2017/000000127832.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The scene features a small street clock placed in the middle of a sidewalk in a public square. Surrounding the clock, there are several people gathered, closely looking at it or simply passing by. In total, there are around 14 people in various positions around the clock and the street.\n\nAdditional elements of the scene include two cars parked nearby, one further back on the right side and another closer to the center. There are also three potted plants placed on the sidewalk, adding a touch of greenery to the urban setting.\n\nA few people in the scene are wearing backpacks, with two individuals having backpacks closer to the right side of the image, and another person wearing one near the left side.\n\nThe street and the people surrounding the clock create a bustling city atmosphere, as they go about their day and interact with the unique street clock."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat are the key elements in this picture?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city, a majestic clock stands tall, commanding attention from passersby. The clock, a grand structure of black and gold, boasts a face on each of its four sides, allowing time to be read from any direction. Atop the clock, a statue of a bird perches, surveying the scene below with an air of quiet dignity.\n\nThe clock is situated on a brick sidewalk, its dark color contrasting beautifully with the red bricks. Around it, life thrives. People gather, their faces turned upwards in admiration of the ornate timepiece. Their actions suggest a sense of awe and respect for the clock and its intricate design.\n\nIn the background, the familiar green logo of Starbucks can be spotted, adding a touch of modernity to the scene. Other buildings line the street, their windows reflecting the blue sky above. The trees nearby are lush and green, their leaves rustling gently in the breeze.\n\nThe sky is a clear blue, devoid of any clouds. The weather appears pleasant and inviting, adding to the overall charm of the scene. The image captures not just a moment in time but also the essence of urban life - busy yet beautiful."
+        }
+    ],
+    "det": [
+        {
+            "label": "clock",
+            "bbox": [
+                0.38792056074766357,
+                0.23515625,
+                0.5477102803738318,
+                0.33984375
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.7642990654205608,
+                0.6140156250000001,
+                0.9214719626168224,
+                0.6876562500000001
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.28352803738317756,
+                0.690125,
+                0.31976635514018686,
+                0.730328125
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.7643224299065421,
+                0.682546875,
+                0.8199532710280374,
+                0.7645
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5833177570093457,
+                0.639484375,
+                0.7531308411214954,
+                0.9674531249999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.09072429906542055,
+                0.62628125,
+                0.19490654205607477,
+                0.82403125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.26964953271028036,
+                0.628046875,
+                0.3721728971962617,
+                0.8274687499999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.00808411214953271,
+                0.624421875,
+                0.09182242990654206,
+                0.8198124999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7099766355140187,
+                0.63025,
+                0.7823364485981309,
+                0.90446875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5507242990654205,
+                0.6095937499999999,
+                0.674696261682243,
+                0.770109375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2471728971962617,
+                0.611984375,
+                0.2856542056074767,
+                0.6957187499999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.32049065420560746,
+                0.6151875,
+                0.3368691588785046,
+                0.6307812500000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9371495327102805,
+                0.611796875,
+                0.9599065420560748,
+                0.662984375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.06936915887850467,
+                0.6174062499999999,
+                0.12231308411214954,
+                0.769484375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5578738317757009,
+                0.616234375,
+                0.6243457943925235,
+                0.774828125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5341355140186916,
+                0.6320625,
+                0.582570093457944,
+                0.73246875
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.586518691588785,
+                0.6057812499999999,
+                0.6314252336448598,
+                0.62053125
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.07883177570093458,
+                0.466203125,
+                0.22929906542056078,
+                0.5788437500000001
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.23815420560747666,
+                0.43893750000000004,
+                0.3830607476635514,
+                0.586359375
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.3130841121495327,
+                0.542,
+                0.3721495327102804,
+                0.664046875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.6151875,
+                0.03612149532710281,
+                0.707234375
+            ]
+        }
+    ],
+    "hash_id": "669_coco_train2017_000000127832.jpg"
+}

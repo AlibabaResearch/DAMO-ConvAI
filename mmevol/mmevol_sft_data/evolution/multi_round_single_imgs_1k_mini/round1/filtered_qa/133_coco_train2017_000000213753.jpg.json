@@ -1,0 +1,237 @@
+{
+    "id": "000000213753",
+    "image": "coco/train2017/000000213753.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the couch in the living room?",
+            "steps": [],
+            "answer": "The couch in the living room is red."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where is the flat-screen TV located in the living room?",
+            "steps": [],
+            "answer": "The flat-screen TV is located on top of a wooden shelf or entertainment center in the living room."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a laptop in the living room? If so, where is it placed?",
+            "steps": [],
+            "answer": "Yes, there is a laptop in the living room. It is placed on the couch."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of table is present in the room, and does it have chairs around it?",
+            "steps": [],
+            "answer": "There is a glass table in the room, and it is surrounded by chairs."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a teddy bear in the room? If so, where is it located?",
+            "steps": [],
+            "answer": "Yes, there is a teddy bear in the room. It is located in the corner near the red couch and TV."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "The image depicts a cozy living room with hardwood floors. There is a red couch on the left side of the room, with a laptop sitting on it, and two chairs nearby. One chair is in the middle of the room and another is to the right of the couch. A dining table with chairs is situated towards the right side of the room.\n\nA flat-screen television is mounted on top of a wooden shelf in the middle of the scene. Various items like a cell phone, a clock, a remote, and two vases can be found in the vicinity. There are also two teddy bears in the room, one positioned on top of the couch and another in the corner, as well as a backpack located near the left chair.\n\nAdditionally, there is a person standing near the right side of the room, behind the couch, and keyboards can be seen on or near the dining table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of entertainment is available in the room and how could a guest engage with the items in the room for a pleasant stay?",
+            "steps": [],
+            "answer": "In the room, there is a flat-screen television on top of an entertainment center, a laptop on the couch, a keyboard, a remote, and a teddy bear available for entertainment. A guest can engage with these items in various ways to have a pleasant stay. They could watch movies, television shows or stream videos on the flat-screen TV using the remote to control it. Alternatively, the guest could use the laptop sitting on the couch to browse the internet, work, or play games. Additionally, the keyboard might be for a computer or a music instrument, providing further entertainment options like typing or playing music. As for the teddy bear, it can serve as a comforting and cozy companion, especially for younger guests or those who enjoy cuddly stuffed animals. The room setup, with its comfortable red couch, chair, and glass dining table, provides ample space for a guest to relax and enjoy their time utilizing the available entertainment options."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you see happening in this image?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a cozy and well-lit living room, filled with objects that suggest a comfortable and modern lifestyle. Dominating the scene is a vibrant red sofa, positioned against the wall. The sofa hosts a laptop and a remote control, hinting at a recent human presence. \n\nIn front of the sofa, a television is perched on a wooden stand. The screen displays a program featuring two people, adding a lively touch to the room. Adjacent to the television, on the wooden floor, sits a teddy bear, adding a touch of warmth and homeliness.\n\nA black chair occupies the foreground of the image, its back facing us. In the background, partially visible, is a stroller, suggesting the presence of a young child in the household. The wooden floor underlines the room's modern aesthetic.\n\nThe room is well-lit, with light reflecting off the wooden floor and illuminating the objects within. The arrangement of objects and their relative positions create a harmonious living space."
+        }
+    ],
+    "det": [
+        {
+            "label": "tv",
+            "bbox": [
+                0.5802343750000001,
+                0.3213583138173302,
+                0.715171875,
+                0.5168618266978923
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.54209375,
+                0.7079625292740047,
+                0.714640625,
+                0.9450351288056207
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.047343750000000004,
+                0.44730679156908665,
+                0.55096875,
+                0.9806557377049181
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.43667187500000004,
+                0.7909836065573771,
+                0.9993437500000001,
+                0.9884074941451991
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.3629375,
+                0.6807025761124122,
+                0.385875,
+                0.715784543325527
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.67303125,
+                0.09950819672131148,
+                0.70790625,
+                0.17629976580796253
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.269578125,
+                0.5366744730679157,
+                0.37501562499999996,
+                0.6495550351288056
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.15284375,
+                0.6886885245901639,
+                0.27096875,
+                0.7421077283372365
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.797203125,
+                0.2323185011709602,
+                0.813078125,
+                0.2649882903981265
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.7164531249999999,
+                0.15449648711943795,
+                0.7411874999999999,
+                0.2330679156908665
+            ]
+        },
+        {
+            "label": "teddy bear",
+            "bbox": [
+                0.49246875,
+                0.3649414519906323,
+                0.583390625,
+                0.5818501170960187
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.2126875,
+                0.7463934426229508,
+                0.42021875,
+                0.997423887587822
+            ]
+        },
+        {
+            "label": "keyboard",
+            "bbox": [
+                0.287484375,
+                0.6486182669789227,
+                0.36775,
+                0.6760187353629976
+            ]
+        },
+        {
+            "label": "keyboard",
+            "bbox": [
+                0.282015625,
+                0.6116627634660422,
+                0.355953125,
+                0.6355035128805621
+            ]
+        },
+        {
+            "label": "teddy bear",
+            "bbox": [
+                0.03878125,
+                0.5787822014051522,
+                0.104203125,
+                0.6577049180327869
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.18025,
+                0.7433255269320842,
+                0.411140625,
+                0.9679625292740046
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6273593749999999,
+                0.3583606557377049,
+                0.65196875,
+                0.4650351288056206
+            ]
+        }
+    ],
+    "hash_id": "133_coco_train2017_000000213753.jpg"
+}

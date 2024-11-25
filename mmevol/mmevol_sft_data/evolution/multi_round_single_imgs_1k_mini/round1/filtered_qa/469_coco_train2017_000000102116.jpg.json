@@ -1,0 +1,165 @@
+{
+    "id": "000000102116",
+    "image": "coco/train2017/000000102116.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the skateboarder doing in the image?",
+            "steps": [],
+            "answer": "The skateboarder is performing a trick, riding his skateboard over a cement seat or ledge while grinding, which involves sliding the skateboard along a surface using its edges or trucks."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What does the skateboarder look like? What is he wearing?",
+            "steps": [],
+            "answer": "The skateboarder is a young man wearing a trucker hat and a green shirt."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the skateboarder in an indoor or outdoor setting?",
+            "steps": [],
+            "answer": "The skateboarder is in an outdoor setting, specifically in a park."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you explain what grinding is in skateboarding and what kind of skill is required to perform this trick?",
+            "steps": [],
+            "answer": "Grinding is a skateboarding trick where a skateboarder slides along a surface, such as a ledge, rail, or curb, using the skateboard's edges or trucks (the metal axles that attach the wheels to the board). The skateboarder maintains balance and control while the board moves horizontally along the surface, creating the appearance of \"grinding\" on the object.\n\nPerforming a grinding trick, like other skateboarding maneuvers, requires a combination of balance, coordination, and skill. The skateboarder must be able to approach the surface at the right angle and speed, and then transfer their weight onto the edge or truck while maintaining a smooth and controlled motion as they slide along. This skill typically takes time and practice to master, as it involves precise body movements and control.\n\nIn addition to the basic grinding technique, there are several variations and more advanced grinding tricks, each with their own level of difficulty and unique style. Some of these variations include the 50-50 grind, 5-0 grind, nose grind, and Smith grind, among others. For a skateboarder to successfully perform these tricks, they need to dedicate time to practice, develop muscle memory, and gain experience in different skateboarding environments, such as skate parks and street spots."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "In this image, a young man wearing a trucker hat and green shirt is skillfully riding a skateboard in a park. He is performing a trick, grinding on a ledge formed by a cement bench, while maintaining his balance.\n\nSurrounding the scene, there are additional benches and a dining table located in the park. There are several trucks present throughout the image, scattered around the park. A car can also be seen, parked near the far right side of the scene."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What safety concerns should be taken into account in such an environment?",
+            "steps": [],
+            "answer": "In the image, a young man rides a skateboard, performing a trick on a cement ledge in the park. Several safety concerns should be taken into consideration in such environments. Firstly, the skateboarder should wear appropriate safety gear like a helmet, knee and elbow pads, and wrist guards to minimize the risk of injuries in case of a fall. Secondly, the skateboarder should ensure that the area is clear of any obstacles or other people, preventing collisions or accidents. Thirdly, the skateboarder should be aware of the park's rules and regulations, respecting any designated areas for skateboarding or other activities. Finally, it is crucial to consider the skateboarder's skill level and ensure he is not attempting a trick that surpasses his capabilities, which may increase the risk of injuries."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you describe the main features of this image for me?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling skate park, a young man in a vibrant green t-shirt and a crisp white cap is caught in the midst of an impressive skateboarding trick. He is defying gravity, balancing on one foot on his skateboard, with the other foot suspended in mid-air. The skateboard, matching his daring spirit, is tilted to the side as if echoing his determination.\n\nThe concrete ramp, a cool shade of gray, serves as his stage. It's adorned with a red railing on one side, standing as a silent spectator to his performance. The ramp's location is precise, positioned perfectly under the vast expanse of the blue sky dotted with fluffy white clouds.\n\nIn the distance, trees sway gently and buildings stand tall, framing this dynamic scene. Each element in this image, from the skateboarder to the surrounding environment, contributes to a narrative of adventure, skill, and youthful energy."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.4398360655737705,
+                0.22065625,
+                0.8729039812646371,
+                0.6811562500000001
+            ]
+        },
+        {
+            "label": "skateboard",
+            "bbox": [
+                0.49009367681498833,
+                0.56496875,
+                0.7108430913348947,
+                0.672984375
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.030538641686182668,
+                0.474296875,
+                0.10747072599531617,
+                0.5044531250000001
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.30971896955503514,
+                0.48457812499999997,
+                0.3980327868852459,
+                0.504109375
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.4161826697892272,
+                0.485734375,
+                0.46686182669789233,
+                0.510578125
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.0001405152224824356,
+                0.475328125,
+                0.04154566744730679,
+                0.5023593749999999
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.2605620608899298,
+                0.507125,
+                0.3998594847775176,
+                0.534515625
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.21559718969555036,
+                0.493359375,
+                0.37791569086651056,
+                0.497453125
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.5337236533957845,
+                0.494671875,
+                0.6015222482435598,
+                0.5151874999999999
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.18878220140515223,
+                0.5070781249999999,
+                0.2841686182669789,
+                0.52915625
+            ]
+        }
+    ],
+    "hash_id": "469_coco_train2017_000000102116.jpg"
+}

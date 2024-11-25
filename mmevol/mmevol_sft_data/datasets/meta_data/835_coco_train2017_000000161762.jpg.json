@@ -1,0 +1,145 @@
+{
+    "id": "000000161762",
+    "image": "coco/train2017/000000161762.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many giraffes and zebras are in the image?",
+            "steps": [],
+            "answer": "There are two giraffes and two zebras in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the animals doing in the image?",
+            "steps": [],
+            "answer": "The giraffes and zebras are standing together in a dirt field, along with some birds. They are all under a large umbrella that provides shade."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any other animals present in the image besides giraffes, zebras, and birds?",
+            "steps": [],
+            "answer": "Yes, there is also a monkey and two flamingos present in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Why might the animals be under a large umbrella?",
+            "steps": [],
+            "answer": "The animals might be under the large umbrella to seek shelter and provide them with shade from the sun. This would help the animals stay cool and comfortable, especially during hot and sunny days. The presence of an umbrella in the image suggests that the area might have limited natural shade or that the temperature is quite high, making the shade from the umbrella a desirable spot for the animals to gather. Additionally, animals such as giraffes and zebras typically inhabit regions with a warm climate, further supporting the idea that the umbrella is an adaptive measure to regulate their body temperature and avoid overheating."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "The image features a diverse group of animals together in a dirt field. There are two giraffes standing side by side in the middle of the field, and two zebras nearby also standing close to one another. A large umbrella shades the area, providing all the animals with some protection from the sun.\n\nIn addition to the giraffes and zebras, there are several birds present in the scene, some perched under the umbrella and others wandering around the field. The mix of animals creates a unique and interesting gathering in the field."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you think is going on in this snapshot?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a lush, verdant enclosure, a vibrant tableau of wildlife unfolds. Two towering giraffes, their coats a patchwork of tawny hues, dominate the scene. One stands tall and proud, surveying its surroundings, while the other bends gracefully to the ground. Nearby, three zebras display their striking black and white stripes. Two are standing, their ears pricked attentively, while one rests on the ground. Their location is near a large umbrella-like structure that provides some shade in the enclosure.\n\nScattered around the enclosure are four ostriches, their long necks and legs making them stand out against the backdrop of greenery. Two are standing, perhaps in mid-stride, while the other two are lying down, possibly taking a rest.\n\nThe enclosure itself is a haven of natural beauty. It's surrounded by an array of trees and bushes, their leaves a mix of greens that add depth to the scene. In the background, a large rock formation rises, adding an element of ruggedness to the otherwise serene setting.\n\nThis image captures a moment of calm in the zoo enclosure, where various species coexist peacefully under the watchful eyes of visitors."
+        }
+    ],
+    "det": [
+        {
+            "label": "zebra",
+            "bbox": [
+                0.38732812499999997,
+                0.5892037470725996,
+                0.48817187500000003,
+                0.7028805620608899
+            ]
+        },
+        {
+            "label": "zebra",
+            "bbox": [
+                0.30681250000000004,
+                0.5988524590163935,
+                0.4269375,
+                0.7369555035128805
+            ]
+        },
+        {
+            "label": "giraffe",
+            "bbox": [
+                0.46520312500000005,
+                0.3588056206088993,
+                0.5769843750000001,
+                0.6882435597189696
+            ]
+        },
+        {
+            "label": "giraffe",
+            "bbox": [
+                0.290015625,
+                0.3601405152224824,
+                0.368796875,
+                0.6214519906323185
+            ]
+        },
+        {
+            "label": "bird",
+            "bbox": [
+                0.31832812499999996,
+                0.7295081967213115,
+                0.380625,
+                0.8192271662763466
+            ]
+        },
+        {
+            "label": "bird",
+            "bbox": [
+                0.5493125,
+                0.6943559718969555,
+                0.6079687500000001,
+                0.7720374707259954
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.22639062499999998,
+                0.02882903981264637,
+                0.583234375,
+                0.5928805620608899
+            ]
+        },
+        {
+            "label": "bird",
+            "bbox": [
+                0.43801562499999996,
+                0.725175644028103,
+                0.47573437499999993,
+                0.8189929742388758
+            ]
+        },
+        {
+            "label": "bird",
+            "bbox": [
+                0.416046875,
+                0.7115690866510538,
+                0.4775625,
+                0.7918266978922716
+            ]
+        }
+    ],
+    "hash_id": "835_coco_train2017_000000161762.jpg"
+}

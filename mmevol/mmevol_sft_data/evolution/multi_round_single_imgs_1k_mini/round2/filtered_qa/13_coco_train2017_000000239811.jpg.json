@@ -1,0 +1,202 @@
+{
+    "id": "000000239811",
+    "image": "coco/train2017/000000239811.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Explain the visual content of the image in great detail.",
+            "steps": [],
+            "answer": "In the urban scene, a solid white bicycle is parked on a sidewalk next to a couple of small statues resembling horses. The bicycle leans against a post between parking posts. Various people can be seen walking and relaxing around the area, making the atmosphere lively and engaging.\n\nNumerous individuals are spread out across the image, with some situated in the foreground and others further in the background. Several individuals also have personal belongings with them, such as backpacks, ties, and handbags. A bench can be spotted nearby, providing a place for people to sit and relax."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What seems to be the purpose of the white bicycle?",
+            "steps": [],
+            "answer": "The white bicycle in the image appears to serve as a symbolic monument or installation in a city atmosphere. It is parked between parking posts and surrounded by people walking and relaxing nearby, as well as statues on the sidewalk. The distinct solid white color of the bicycle makes it stand out and can potentially represent a tribute or a message related to urban life, cycling, or a memorial for a specific event or individual. Its presence in this bustling urban setting serves to draw attention and create a point of interest for pedestrians in the area."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat are the key elements in this picture?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a scene from an urban sidewalk. Dominating the foreground is a white bicycle, its frame gleaming against the backdrop of the city. The bicycle is parked and leans against a black metal pole. Attached to the pole, a sign with the words \"Ghost Bike\" stands out in stark white letters, adding an air of mystery to the scene.\n\nBehind the bicycle, two young men are present. One of them extends his hand, his fingers lightly brushing against the handlebars of the bike. Their casual attire suggests they might be passersby, their attention caught by the unusual sight of the ghost bike.\n\nThe background is a lively depiction of city life. A busy street stretches out, filled with people going about their day. Buildings rise in the distance, their windows reflecting the hustle and bustle below. Trees line the sidewalk, their leaves adding a touch of nature to the urban landscape.\n\nThe image is a snapshot of life in the city, with the ghost bike serving as a silent observer to the constant motion and energy around it."
+        }
+    ],
+    "det": [
+        {
+            "label": "horse",
+            "bbox": [
+                0.063265625,
+                0.189875,
+                0.147921875,
+                0.30772916666666666
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.135484375,
+                0.47741666666666666,
+                0.706453125,
+                0.9827916666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.47984375,
+                0.1436875,
+                0.579484375,
+                0.5664999999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.175640625,
+                0.18858333333333333,
+                0.19928125,
+                0.2813333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.1461875,
+                0.183875,
+                0.182,
+                0.2883125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9272500000000001,
+                0.22735416666666666,
+                0.9775781250000002,
+                0.4161875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.665390625,
+                0.29422916666666665,
+                0.72075,
+                0.46825
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.51834375,
+                0.22760416666666666,
+                0.535109375,
+                0.34439583333333335
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.653671875,
+                0.33775,
+                0.831609375,
+                0.47891666666666666
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.56596875,
+                0.2500625,
+                0.58196875,
+                0.3605833333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.893953125,
+                0.2011875,
+                0.953328125,
+                0.40639583333333335
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.979765625,
+                0.24279166666666668,
+                1.0,
+                0.30547916666666663
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.46409374999999997,
+                0.24741666666666667,
+                0.4878125,
+                0.3693958333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3990625,
+                0.19645833333333332,
+                0.486140625,
+                0.5042916666666667
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.49696875,
+                0.20477083333333335,
+                0.5687656249999999,
+                0.33689583333333334
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.587125,
+                0.1444375,
+                0.598515625,
+                0.20160416666666667
+            ]
+        },
+        {
+            "label": "horse",
+            "bbox": [
+                0.408734375,
+                0.20135416666666667,
+                0.44281249999999994,
+                0.25804166666666667
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.8954375000000001,
+                0.6625833333333334,
+                0.9995468750000001,
+                0.9213541666666667
+            ]
+        }
+    ],
+    "hash_id": "13_coco_train2017_000000239811.jpg"
+}

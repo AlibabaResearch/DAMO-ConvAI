@@ -1,0 +1,238 @@
+{
+    "id": "000000057745",
+    "image": "coco/train2017/000000057745.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "The image depicts a bustling scene of people walking on a paved pier area under a cloudy blue sky. There are several individuals in the scene, some with backpacks and handbags. A few people are walking separately, while some are in a group. \n\nA kite is flying overhead, held by one of the people under the picturesque sky, adding a playful atmosphere to the scene. Around the area, there are benches placed for people to sit and relax. There is also a bicycle parked nearby, likely belonging to one of the visitors. The combination of the many people, kites in the air, and the beautiful outdoor space create a lively and enjoyable atmosphere."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How can the people in the image enjoy their day considering the current weather and activities available?",
+            "steps": [],
+            "answer": "In the image, there are people walking on a paved pier area under a cloudy blue sky. Some people are walking by the beach, and there is a kite flying in the air. To enjoy their day, individuals can take a leisurely stroll along the pier, either alone or in groups, take in the fresh sea breeze, and observe the beauty of the waterfront. They can also participate in kite flying, which appears to be a popular activity in the area, and socialize with others who share a similar interest. Additionally, just relaxing on the benches present in the scene provides an opportunity to unwind and appreciate the calming atmosphere of the surrounding environment. The combination of the scenery, activities, and the company of others can contribute to an enjoyable day for these people."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What are the key elements in this picture?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of the image, a man is the central figure, strolling leisurely along a wooden boardwalk. He's donned in casual attire, complete with a hat on his head and a backpack slung over his shoulders. Above him, a white kite, intricately designed to resemble a squid, dances in the sky. The kite's tentacles flutter in the wind as it soars high, adding a whimsical touch to the scene.\n\nThe boardwalk is bustling with life. Other people can be seen in the background, each engrossed in their own activities. Some are walking, others are standing and chatting, creating a lively atmosphere.\n\nBeyond the boardwalk, the vast expanse of the ocean stretches out into the horizon. Its tranquil blue surface sparkles under the sunlight, providing a beautiful contrast to the clear sky above.\n\nThe sky itself is a canvas of blue with a smattering of clouds. It's a bright day, perfect for flying kites and enjoying a walk by the sea. The entire scene exudes an air of tranquility and leisurely enjoyment."
+        }
+    ],
+    "det": [
+        {
+            "label": "backpack",
+            "bbox": [
+                0.46499999999999997,
+                0.597609375,
+                0.577125,
+                0.71825
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.28579166666666667,
+                0.6551875,
+                0.31014583333333334,
+                0.690234375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5151666666666667,
+                0.52953125,
+                0.6625833333333334,
+                0.9419687499999998
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0053124999999999995,
+                0.55759375,
+                0.1553125,
+                0.907765625
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.6381458333333333,
+                0.6680625,
+                0.7041041666666668,
+                0.713796875
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.29712500000000003,
+                0.702734375,
+                0.46164583333333337,
+                0.7302500000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8373125,
+                0.63425,
+                0.8830416666666667,
+                0.700546875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9031666666666667,
+                0.636203125,
+                0.9384791666666666,
+                0.70215625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.17722916666666666,
+                0.6294375,
+                0.2560208333333333,
+                0.79359375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.37954166666666667,
+                0.6618906250000001,
+                0.4192916666666667,
+                0.7304375000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.24027083333333332,
+                0.639734375,
+                0.33358333333333334,
+                0.76515625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.318875,
+                0.647578125,
+                0.35525,
+                0.7276874999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.718625,
+                0.6619375,
+                0.7332291666666666,
+                0.6839531249999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8058541666666666,
+                0.663296875,
+                0.82075,
+                0.687203125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9652916666666667,
+                0.6279375,
+                0.9948333333333333,
+                0.6976718749999999
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.8944791666666667,
+                0.65425,
+                0.9923958333333334,
+                0.7027187500000001
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.42983333333333335,
+                0.7074374999999999,
+                0.4529375,
+                0.7259218749999999
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.8465416666666666,
+                0.6477031249999999,
+                0.8595416666666666,
+                0.664984375
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.1773125,
+                0.68028125,
+                0.194375,
+                0.7033125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.41508333333333336,
+                0.660875,
+                0.46777083333333336,
+                0.725375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7303541666666666,
+                0.6242656249999999,
+                0.771875,
+                0.70990625
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.44897916666666665,
+                0.1576875,
+                0.7456041666666666,
+                0.31475
+            ]
+        }
+    ],
+    "hash_id": "217_coco_train2017_000000057745.jpg"
+}

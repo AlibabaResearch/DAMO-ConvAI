@@ -1,0 +1,70 @@
+```json
+[
+    {
+        "image_position": "single",
+        "objects": ["cliff"],
+        "skills": ["Knowledge Integration Ability", "Context Understanding Ability"],
+        "format": "instruction_following",
+        "question": "Provide a detailed explanation of the geological process you believe led to the formation of the cliff depicted in the sketch, including at least three distinct steps or phenomena.",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Identify the likely starting material or environment, such as a sedimentary basin, where the initial material was deposited."
+            },
+            {
+                "manipulation": "None",
+                "description": "Account for tectonic activities such as uplift and folding that might have transformed the deposited material into a vertical cliff face."
+            },
+            {
+                "manipulation": "None",
+                "description": "Describe the erosional processes over time, including weathering, freeze-thaw cycles, or water erosion, that shaped its jagged edges."
+            }
+        ],
+        "answer": "The cliff likely began as sediment layer deposits in a marine or fluvial environment. Over time, tectonic forces uplifted these layers, forming a vertical cliff. Continuous erosion, including wind, water, and ice, sculpted the cliff into its current rugged form, showcasing a history of relentless natural processes shaping the landscape."
+    },
+    {
+        "image_position": "single",
+        "objects": ["cliff"],
+        "skills": ["Creative Thinking", "Imaginative Skills"],
+        "format": "creative_content_generation",
+        "question": "Construct a short legend about the cliff in the image, including elements of mystery and adventure.",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Incorporate mythical elements such as magical creatures or ancient guardians associated with the cliff."
+            },
+            {
+                "manipulation": "None",
+                "description": "Introduce themes of treasure and quest to add elements of adventure."
+            },
+            {
+                "manipulation": "None",
+                "description": "Conclude with the outcome of the legend, leaving a lingering mystery."
+            }
+        ],
+        "answer": "Legend speaks of the 'Sentinel Cliff,' where a guardian spirit watches over hidden treasures deep within. Many adventurers embark on perilous journeys to uncover ancient artifacts said to grant immense power. Yet, only those with pure intentions can pass the enigmatic trials set by the spirit, leaving a mystery about what lies beyond the cliff's shadowy crevices."
+    },
+    {
+        "image_position": "single",
+        "objects": ["cliff"],
+        "skills": ["Relationship Description Ability", "Context Understanding Ability"],
+        "format": "depth_order",
+        "question": "In an imaginary landscape surrounding the cliff, which natural elements would be positioned in the foreground, midground, and background? Assume a complete scenic environment.",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Identify and place close-by elements, such as shrubs or animals, in the foreground."
+            },
+            {
+                "manipulation": "None",
+                "description": "Determine elements found directly on or near the cliff, like rocky ledges or climbing plants, in the midground."
+            },
+            {
+                "manipulation": "None",
+                "description": "Visualize distant elements, like mountains or a coastline, as the background."
+            }
+        ],
+        "answer": "In the foreground, lush vegetation and small creatures can be seen clinging to life on rocky outcrops. The cliff itself forms the midground, adorned with vines and occasional nestling birds. In the hazy background, majestic mountain ranges or a serene ocean stretch towards the horizon, completing the landscape's grand narrative."
+    }
+]
+```

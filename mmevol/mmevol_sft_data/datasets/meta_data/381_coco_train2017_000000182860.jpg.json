@@ -1,0 +1,64 @@
+{
+    "id": "000000182860",
+    "image": "coco/train2017/000000182860.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What accessibility feature is implemented for viewers during the news broadcast?",
+            "steps": [],
+            "answer": "During the news broadcast, the television screen displays closed captioning or subtitles, which is an accessibility feature designed to help viewers with hearing impairments follow along with the news content. This feature transcribes the spoken dialogue and other relevant audio cues into text format, displayed at the bottom of the screen, allowing those who have difficulty hearing to understand the context and stay informed."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Can you describe the main features of this image for me?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a moment from a news broadcast on a television screen. The central figure is a young man, the news anchor, dressed in a professional brown suit and tie. He stands confidently in front of a vibrant blue background that contrasts with his attire.\n\nBehind him, a large screen displays a colorful graphic. The graphic is an artistic representation of wind turbines, symbolizing renewable energy sources. The words \"Winds of Change\" are prominently displayed on the screen, suggesting a shift or transformation in the context of energy production or usage.\n\nAt the bottom of the screen, a ticker runs with the words \"energy as one of its key weapons in the fight against\". This phrase hints at the importance of energy in tackling some significant challenge, although the specific context is not revealed in this image.\n\nThe overall scene suggests a news segment dedicated to discussing changes in energy policy or technology, emphasizing the role of renewable sources like wind power."
+        }
+    ],
+    "det": [
+        {
+            "label": "tv",
+            "bbox": [
+                0.016828125,
+                0.007602179836512262,
+                0.6925312499999999,
+                0.6893188010899183
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.49096875000000006,
+                0.11700272479564032,
+                1.0,
+                0.9889100817438692
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.7243906250000001,
+                0.5390463215258856,
+                0.8196875,
+                0.9448773841961853
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.19268749999999998,
+                0.7513896457765668,
+                0.46873437500000004,
+                0.9093188010899181
+            ]
+        }
+    ],
+    "hash_id": "381_coco_train2017_000000182860.jpg"
+}

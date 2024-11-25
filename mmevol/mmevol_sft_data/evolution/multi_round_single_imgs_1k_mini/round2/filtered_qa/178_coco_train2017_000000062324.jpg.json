@@ -1,0 +1,319 @@
+{
+    "id": "000000062324",
+    "image": "coco/train2017/000000062324.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are cutting the cake in the image?",
+            "steps": [],
+            "answer": "There are four individuals dressed in service garb cutting the cake in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of cake is being cut?",
+            "steps": [],
+            "answer": "The cake being cut is a large, nicely decorated cake, suitable for a celebratory event or ceremony."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the occasion for cutting the cake?",
+            "steps": [],
+            "answer": "The image does not provide specific information on the exact occasion for cutting the cake. However, it can be inferred that it is a special ceremony or celebration involving military personnel, considering the presence of uniformed individuals and senior military officials."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can you tell about the military personnel involved in the cake-cutting?",
+            "steps": [],
+            "answer": "The military personnel involved in the cake-cutting are dressed in their service uniforms, indicating their active duty status or participation in a formal military event. The presence of various senior military officials suggests that this celebration has some significance and might be related to an important milestone or achievement within the military community. However, the precise details about their ranks, affiliations, and the specific nature of the event cannot be determined solely from the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "In the scene, a group of military personnel is gathered around a large, nicely decorated cake during a ceremony. There are at least seven individuals dressed in service uniforms, with some wearing ties, who appear to be cutting the cake together. \n\nThe event takes place in a room featuring multiple dining tables and chairs. A few cups and a bottle can be spotted on the tables or nearby. At the edges of the room, a couple of other people can be seen in the background, likely attending the same ceremony. Overall, the scene portrays a celebratory moment among various senior military officials."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What message does the act of cutting a celebratory cake by senior military officials convey?",
+            "steps": [],
+            "answer": "The act of cutting a celebratory cake by senior military officials at a ceremony symbolizes unity, camaraderie, and a shared sense of accomplishment. This traditional event in which various uniformed individuals participate brings them together and highlights their collective commitment to the goals and values of their service. It's an opportunity for them to recognize their achievements, celebrate the success of a mission or milestone, and strengthen the bonds within their group. Moreover, it allows them to honor their service and acknowledge the hard work and dedication of each member of the team, promoting morale and fostering a sense of pride in their organization."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat is this photo about'?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a grand event, four individuals clad in formal military attire stand in unity behind a long table draped with a blue tablecloth. Their hands are joined together, each holding a piece of the ceremonial knife, as they slice into a pristine white cake adorned with blue and white flowers. The cake, a symbol of celebration, sits at the center of the table, drawing attention amidst the solemnity.\n\nThe backdrop is shrouded in darkness, creating a stark contrast that further highlights the subjects. Above them hangs a banner bearing the inscription \"Hyatt 237\", possibly indicating the name or theme of the event. Flanking the table on both sides are flags standing tall and proud, adding to the formal atmosphere.\n\nIn the background, slightly blurred but still noticeable, is a podium waiting for its speaker. The entire scene exudes an air of formality and respect, indicative of a significant occasion being commemorated. The precise positioning of objects and individuals suggests careful planning and attention to detail, characteristic of such formal military events."
+        }
+    ],
+    "det": [
+        {
+            "label": "tie",
+            "bbox": [
+                0.688421875,
+                0.388,
+                0.7131718749999999,
+                0.4721296296296297
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.47884374999999996,
+                0.3639074074074074,
+                0.5235,
+                0.3806851851851852
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.377140625,
+                0.3010740740740741,
+                0.4020625,
+                0.3248518518518519
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.768234375,
+                0.4824444444444444,
+                0.8868750000000001,
+                0.7046296296296296
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.11187499999999999,
+                0.5977592592592593,
+                0.870296875,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.112375,
+                0.28385185185185186,
+                0.48568749999999994,
+                0.9858888888888889
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.464875,
+                0.2565,
+                0.815609375,
+                0.6770185185185186
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9356406249999999,
+                0.38785185185185184,
+                0.9663124999999999,
+                0.4390555555555556
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8067187499999999,
+                0.4028703703703704,
+                0.9259687499999998,
+                0.6863703703703703
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.914015625,
+                0.4659259259259259,
+                1.0,
+                0.6853148148148148
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.252171875,
+                0.5932592592592593,
+                0.786875,
+                0.7730370370370371
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.327546875,
+                0.17294444444444446,
+                0.430125,
+                0.47837037037037033
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.046484375,
+                0.36583333333333334,
+                0.17967187499999998,
+                0.6307037037037038
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.141203125,
+                0.3643148148148148,
+                0.18878125,
+                0.45816666666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.180421875,
+                0.34759259259259256,
+                0.24906250000000002,
+                0.45949999999999996
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.9399218749999999,
+                0.4787407407407407,
+                0.961578125,
+                0.49520370370370365
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.8792500000000001,
+                0.47712962962962957,
+                0.8958125000000001,
+                0.49129629629629623
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.061109375,
+                0.46964814814814815,
+                0.1823125,
+                0.7069444444444445
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9489218749999999,
+                0.5317037037037037,
+                0.9966406249999998,
+                0.7116296296296296
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.030703124999999998,
+                0.1865740740740741,
+                0.11398437499999999,
+                0.2766851851851852
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.20128125,
+                0.40294444444444444,
+                0.2145,
+                0.4172037037037037
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.06231250000000001,
+                0.23064814814814813,
+                0.07946875,
+                0.24153703703703705
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.089,
+                0.39885185185185185,
+                0.10579687500000001,
+                0.42724074074074075
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0,
+                0.4622037037037037,
+                0.06967187500000001,
+                0.6713333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.40707812499999996,
+                0.22737037037037036,
+                0.616765625,
+                0.6310555555555555
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.839859375,
+                0.487537037037037,
+                0.988296875,
+                0.5023888888888888
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.8606093749999999,
+                0.4202592592592593,
+                0.98896875,
+                0.498462962962963
+            ]
+        }
+    ],
+    "hash_id": "178_coco_train2017_000000062324.jpg"
+}

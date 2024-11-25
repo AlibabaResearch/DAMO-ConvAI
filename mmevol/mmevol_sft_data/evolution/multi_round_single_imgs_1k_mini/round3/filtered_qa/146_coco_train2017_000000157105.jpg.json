@@ -1,0 +1,887 @@
+{
+    "id": "000000157105",
+    "image": "coco/train2017/000000157105.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the people dressed formally or casually in the image?",
+            "steps": [],
+            "answer": "The people in the image are dressed formally, as they are wearing suits."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of place are these people gathered at?",
+            "steps": [],
+            "answer": "The people are gathered in a banquet hall, which also functions as a restaurant where they are having their meals."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is everyone seated at the same table or multiple tables?",
+            "steps": [],
+            "answer": "Everyone in the photo is seated at multiple tables, spread throughout the large room."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What activity is most likely taking place in this large room with people seated at different tables?",
+            "steps": [],
+            "answer": "Given the formal attire of the people and the setting, the most likely activity taking place in this large room is a special event, such as a wedding reception, a corporate event, or an award ceremony. The guests are seated at different tables for dining and socializing during the event."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image presents a large banquet hall or restaurant, bustling with people dressed in suits. People are seated at numerous dining tables that fill the room, having their meals and engaging in conversations. A variety of ties ranging from different colors can be seen on the guests, indicating a semi-formal or formal setting.\n\nSeveral dining tables are spread evenly across the room, each being accompanied by multiple chairs. In addition to the guests, the tables are adorned with various items such as bottles, forks, knives, and spoons, as well as decorative objects such as vases and potted plants.\n\nThe event appears to be a gathering of professional or sophisticated individuals in a communal setting, enjoying their time with food and discussions."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of social gathering is taking place in this image?",
+            "steps": [],
+            "answer": "Based on the image, a social gathering is taking place, most likely at a formal event or a banquet. The room has numerous dining tables arranged, and many people are seated around them, wearing suits and ties. This suggests that the gathering could be a formal dinner, a wedding, a ceremony, or a similar event where attendees dress up and socialize. The people are engaging with each other, and it seems like they are enjoying their meal and conversation, which is a characteristic of such events."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nAnalyze the image in a comprehensive and detailed manner."
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a formal dinner event unfolding in a grand hall, resplendent with marble columns and chandeliers casting a warm glow over the scene. The hall is filled with eight round tables, each draped in white tablecloths and adorned with floral centerpieces. The tables are surrounded by people dressed in formal attire, engaged in lively conversation. \n\nThe American flag, a symbol of national pride, is visible in the background, adding a touch of patriotism to the event. The floor beneath is made of wood, arranged in a geometric pattern that adds an element of sophistication to the setting. \n\nThe image is taken from an elevated angle, providing a bird's eye view of the event. This perspective allows us to appreciate the grandeur of the hall and the elegance of the event. The people, tables, and decor are all positioned with precision, creating a harmonious balance within the frame. \n\nEvery detail in this image contributes to painting a picture of a sophisticated gathering, where every element has been meticulously planned and executed."
+        }
+    ],
+    "det": [
+        {
+            "label": "dining table",
+            "bbox": [
+                0.5334218749999999,
+                0.5233957845433256,
+                0.6704375,
+                0.6544028103044497
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.3105,
+                0.6794847775175644,
+                0.471140625,
+                0.8889227166276347
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.427828125,
+                0.3963934426229508,
+                0.53775,
+                0.4856908665105386
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.33878125,
+                0.5770491803278689,
+                0.376,
+                0.6881733021077284
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.29065625,
+                0.44288056206088994,
+                0.3338125,
+                0.49974238875878224
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.45601562500000004,
+                0.6588758782201405,
+                0.5082187499999999,
+                0.7557142857142857
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.416015625,
+                0.604543325526932,
+                0.47437500000000005,
+                0.7127868852459017
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4291875,
+                0.3489929742388759,
+                0.46687500000000004,
+                0.42238875878220145
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.603375,
+                0.2532786885245902,
+                0.6422031250000001,
+                0.3127634660421546
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.663890625,
+                0.3648946135831382,
+                0.72209375,
+                0.4546135831381733
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.16929687499999999,
+                0.37248243559718974,
+                0.204890625,
+                0.4242154566744731
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.178140625,
+                0.521288056206089,
+                0.22840625,
+                0.5915925058548009
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.1986875,
+                0.47269320843091334,
+                0.24921875,
+                0.5539812646370024
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3399375,
+                0.48583138173302104,
+                0.38482812499999997,
+                0.5671662763466042
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.44509375,
+                0.37400468384074936,
+                0.45551562500000004,
+                0.400327868852459
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.479109375,
+                0.36297423887587826,
+                0.48149999999999993,
+                0.3740046838407495
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.646015625,
+                0.499672131147541,
+                0.65528125,
+                0.5357611241217799
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.58796875,
+                0.2654566744730679,
+                0.5915625,
+                0.2774004683840749
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.621390625,
+                0.2796487119437939,
+                0.631671875,
+                0.3031147540983607
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.10404687500000001,
+                0.42430913348946137,
+                0.11678125000000002,
+                0.44894613583138177
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.136078125,
+                0.4006557377049181,
+                0.149578125,
+                0.4254098360655738
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.5245,
+                0.5459250585480094,
+                0.53671875,
+                0.5749180327868852
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.24740625,
+                0.4672599531615925,
+                0.25278125,
+                0.4827634660421546
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.889,
+                0.7072833723653396,
+                0.9098125000000001,
+                0.7441686182669789
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.39865625,
+                0.8476112412177986,
+                0.40396874999999993,
+                0.876135831381733
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.314015625,
+                0.7635128805620609,
+                0.334171875,
+                0.7709601873536299
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.28054687500000003,
+                0.5990632318501171,
+                0.28484375,
+                0.6136065573770492
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.321,
+                0.8139110070257611,
+                0.330984375,
+                0.8225526932084309
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.6254062499999999,
+                0.6375644028103045,
+                0.6339374999999999,
+                0.6580093676814989
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.576453125,
+                0.6362763466042155,
+                0.5868125,
+                0.6533957845433255
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.53859375,
+                0.5790632318501171,
+                0.554671875,
+                0.5870023419203747
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.5445781249999999,
+                0.5554332552693209,
+                0.5702968749999999,
+                0.5789695550351288
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.57546875,
+                0.5320608899297424,
+                0.582453125,
+                0.5455737704918033
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.44400000000000006,
+                0.7950585480093677,
+                0.4619531250000001,
+                0.8025058548009368
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.37434375000000003,
+                0.8499765807962529,
+                0.380328125,
+                0.8666276346604216
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.430921875,
+                0.8729976580796253,
+                0.49517187500000004,
+                0.9758079625292739
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.15190625,
+                0.5214285714285715,
+                0.182015625,
+                0.593887587822014
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.5796875,
+                0.7081030444964872,
+                0.628203125,
+                0.7777985948477751
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.35403125,
+                0.9456908665105387,
+                0.4194375,
+                1.0
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.487515625,
+                0.7660889929742389,
+                0.52059375,
+                0.8891100702576112
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.48949999999999994,
+                0.6083606557377049,
+                0.52825,
+                0.708384074941452
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.5225,
+                0.6794613583138173,
+                0.578359375,
+                0.7620140515222482
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.752703125,
+                0.16124121779859482,
+                0.8041562499999999,
+                0.3075175644028103
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.15315625,
+                0.2401639344262295,
+                0.20746875,
+                0.3669320843091335
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.72890625,
+                0.6496721311475411,
+                0.7926249999999999,
+                0.7531147540983607
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.520453125,
+                0.38039812646370025,
+                0.525078125,
+                0.40571428571428575
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.705125,
+                0.37,
+                0.713046875,
+                0.4041217798594848
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.5771875,
+                0.5584074941451991,
+                0.5839687499999999,
+                0.5779156908665105
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.1405,
+                0.4315222482435597,
+                0.15046874999999998,
+                0.4469086651053864
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.8749375,
+                0.7623185011709601,
+                0.8823125,
+                0.7768384074941451
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.2963125,
+                0.5571662763466042,
+                0.30160937499999996,
+                0.5668384074941452
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.44721875000000005,
+                0.7447540983606558,
+                0.46109375,
+                0.7488758782201405
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.882234375,
+                0.7408899297423888,
+                0.9047656249999999,
+                0.7746604215456675
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.228765625,
+                0.6443793911007025,
+                0.29837499999999995,
+                0.7205620608899296
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.17515624999999999,
+                0.6188524590163934,
+                0.23737499999999997,
+                0.7086416861826699
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6341875,
+                0.6778220140515223,
+                0.687671875,
+                0.7597658079625293
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.445015625,
+                0.5134660421545667,
+                0.49057812500000003,
+                0.5778220140515222
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.4565,
+                0.675784543325527,
+                0.4755000000000001,
+                0.7077985948477752
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.21892187500000002,
+                0.4955971896955504,
+                0.34821875,
+                0.6149180327868853
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.69878125,
+                0.39182669789227165,
+                0.8239531250000001,
+                0.5024355971896955
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.10003124999999999,
+                0.4200702576112412,
+                0.21951562500000002,
+                0.5366276346604216
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.527859375,
+                0.28740046838407496,
+                0.621203125,
+                0.3696955503512881
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.789515625,
+                0.651943793911007,
+                0.925390625,
+                0.8665807962529274
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.267890625,
+                0.5639812646370024,
+                0.27565625,
+                0.589367681498829
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.51084375,
+                0.4271662763466042,
+                0.518546875,
+                0.448711943793911
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.623703125,
+                0.5511943793911007,
+                0.63034375,
+                0.5826932084309133
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.41050000000000003,
+                0.8415690866510539,
+                0.420109375,
+                0.8592740046838409
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.3121875,
+                0.786135831381733,
+                0.326953125,
+                0.7937002341920375
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.3268125,
+                0.7271896955503513,
+                0.34249999999999997,
+                0.7427868852459016
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.399703125,
+                0.6801405152224824,
+                0.40428125000000004,
+                0.7060889929742389
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.43828125,
+                0.6958548009367681,
+                0.44400000000000006,
+                0.713864168618267
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.44651562499999997,
+                0.7443793911007026,
+                0.460640625,
+                0.7487822014051523
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.408703125,
+                0.8415925058548009,
+                0.420609375,
+                0.8594379391100703
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.40006250000000004,
+                0.8434894613583138,
+                0.40520312500000005,
+                0.8735831381733022
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.808234375,
+                0.7765339578454332,
+                0.8280625,
+                0.7907025761124121
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.6032968750000001,
+                0.5736533957845433,
+                0.614265625,
+                0.6017330210772833
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.364546875,
+                0.7916159250585479,
+                0.37603125,
+                0.8133489461358313
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5357031250000001,
+                0.4682435597189695,
+                0.5760937500000001,
+                0.5523887587822014
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.792203125,
+                0.636112412177986,
+                0.796203125,
+                0.6603747072599532
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.435171875,
+                0.804824355971897,
+                0.45032812499999997,
+                0.824192037470726
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.43440625,
+                0.7168384074941452,
+                0.44706250000000003,
+                0.7239812646370023
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.734875,
+                0.7670491803278688,
+                0.80784375,
+                0.8899063231850116
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.76503125,
+                0.4195316159250585,
+                0.77521875,
+                0.4403044496487119
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.2840625,
+                0.7238173302107728,
+                0.30548437500000003,
+                0.7627166276346604
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.5865781250000001,
+                0.532248243559719,
+                0.5954218750000001,
+                0.5593208430913349
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.614109375,
+                0.6397658079625292,
+                0.6213124999999999,
+                0.6582669789227166
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.627234375,
+                0.6412177985948478,
+                0.635265625,
+                0.654496487119438
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.855234375,
+                0.8149882903981265,
+                0.86253125,
+                0.8415690866510539
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.8585156250000001,
+                0.8143793911007026,
+                0.8653125000000002,
+                0.8450585480093677
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.8699375,
+                0.6938875878220141,
+                0.8886406250000001,
+                0.7305386416861827
+            ]
+        }
+    ],
+    "hash_id": "146_coco_train2017_000000157105.jpg"
+}

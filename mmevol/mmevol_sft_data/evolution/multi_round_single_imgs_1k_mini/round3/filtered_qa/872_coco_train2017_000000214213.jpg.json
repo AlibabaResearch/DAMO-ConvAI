@@ -1,0 +1,374 @@
+{
+    "id": "000000214213",
+    "image": "coco/train2017/000000214213.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the tennis player in the image a woman or a man?",
+            "steps": [],
+            "answer": "The tennis player in the image is a woman."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the woman doing with the tennis racket?",
+            "steps": [],
+            "answer": "The woman is swinging the tennis racket to hit a tennis ball. She is reaching way up and even jumps to serve the ball."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a crowd watching the woman play tennis?",
+            "steps": [],
+            "answer": "Yes, there is a sparse crowd watching the woman play tennis from the bleachers."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of shot or action is the tennis player likely performing?",
+            "steps": [],
+            "answer": "Given that the woman is jumping and reaching way up to hit the ball, it is likely that she is performing a serve. A serve is the initial shot in a tennis match that begins each point, and players often jump to generate more power and better angle when hitting the ball."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The image features a woman playing tennis, swinging her racket up high to hit the ball. She appears to be focused and possibly jumping to serve the ball. The tennis racket is in her hand, and the sports ball is positioned above her head. \n\nThere is a crowd of spectators watching the match intently from various locations, including bleachers and chairs around the court. Some of them have handbags beside them, and there are multiple chairs placed throughout the scene. The crowd appears to be sparse but attentive to the ongoing match."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nExplain the visual content of the image in great detail."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling tennis match, a female player, garbed in a vibrant pink tank top and crisp white shorts, is captured in the midst of a powerful serve. Her golden tennis racket is held high above her head, poised to strike the ball that hangs in the air, frozen in time. \n\nThe clay court beneath her feet bears the marks of an intense game, adding to the dynamic atmosphere. Beyond the court, a sea of spectators fills the green-colored seating area, their attention riveted on the unfolding match. Above them, the sky stretches out, its cloudy expanse hinting at an overcast day. The image is a snapshot of a thrilling moment, encapsulating the energy and excitement of the sport."
+        }
+    ],
+    "det": [
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.409375,
+                0.4105386416861827,
+                0.46353124999999995,
+                0.540632318501171
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.45665625,
+                0.37992974238875876,
+                0.60771875,
+                0.852271662763466
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.020078125,
+                0.5035597189695551,
+                0.0656875,
+                0.7615925058548011
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.12260937499999999,
+                0.2605620608899298,
+                0.166171875,
+                0.3621311475409836
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6168125,
+                0.18814988290398127,
+                0.672234375,
+                0.270655737704918
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.52809375,
+                0.1805854800936768,
+                0.571203125,
+                0.27749414519906324
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7493125,
+                0.20449648711943794,
+                0.7887500000000001,
+                0.30545667447306796
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8140468750000001,
+                0.19437939110070257,
+                0.843875,
+                0.2573770491803279
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8501093750000001,
+                0.29971896955503513,
+                0.905625,
+                0.39932084309133486
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9146093750000001,
+                0.3532552693208431,
+                0.9607187500000001,
+                0.44454332552693204
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.167484375,
+                0.2875644028103045,
+                0.20056250000000003,
+                0.39058548009367683
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.54378125,
+                0.3722950819672131,
+                0.5957812499999999,
+                0.5145901639344262
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.9104531250000001,
+                0.5057845433255269,
+                0.942859375,
+                0.5728571428571428
+            ]
+        },
+        {
+            "label": "sports ball",
+            "bbox": [
+                0.5566718749999999,
+                0.1164168618266979,
+                0.5680156249999999,
+                0.13259953161592508
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.40603125,
+                0.2769789227166276,
+                0.43115625,
+                0.308056206088993
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.469515625,
+                0.274847775175644,
+                0.495796875,
+                0.31288056206088993
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.355203125,
+                0.24847775175644027,
+                0.38040625,
+                0.28407494145199064
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.47676562499999997,
+                0.24494145199063233,
+                0.502515625,
+                0.28117096018735366
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.37621875,
+                0.2777985948477752,
+                0.4014375,
+                0.3091334894613583
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.311828125,
+                0.27969555035128807,
+                0.33509374999999997,
+                0.3129976580796253
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.272921875,
+                0.29552693208430914,
+                0.29759375,
+                0.32761124121779855
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.3288125,
+                0.3098829039812646,
+                0.353515625,
+                0.34805620608899296
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.3623125,
+                0.3087822014051522,
+                0.388671875,
+                0.3319906323185011
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.5944843750000001,
+                0.29098360655737704,
+                0.624078125,
+                0.33257611241217794
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.33528125000000003,
+                0.29290398126463696,
+                0.360203125,
+                0.3285245901639344
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.40214062500000003,
+                0.2979625292740047,
+                0.427765625,
+                0.32665105386416865
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.8991250000000001,
+                0.2423887587822014,
+                0.9082968750000001,
+                0.27421545667447306
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.278390625,
+                0.5940749414519906,
+                0.30004687499999994,
+                0.6172599531615925
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.22376562500000002,
+                0.5372365339578454,
+                0.277671875,
+                0.6190866510538642
+            ]
+        },
+        {
+            "label": "sports ball",
+            "bbox": [
+                0.921484375,
+                0.3775878220140515,
+                0.9333281250000001,
+                0.3906791569086651
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.503796875,
+                0.2919672131147541,
+                0.528609375,
+                0.3247540983606558
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.16134375,
+                0.5493208430913349,
+                0.20715625000000001,
+                0.6202576112412178
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.8621874999999999,
+                0.5258548009367682,
+                0.894921875,
+                0.5719203747072599
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.46890625,
+                0.42620608899297424,
+                0.47790625000000003,
+                0.4736065573770492
+            ]
+        }
+    ],
+    "hash_id": "872_coco_train2017_000000214213.jpg"
+}

@@ -1,0 +1,235 @@
+{
+    "id": "000000237922",
+    "image": "coco/train2017/000000237922.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where are the two men eating their meal?",
+            "steps": [],
+            "answer": "The two men are eating their meal on a boat."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the attire of the two men on the boat?",
+            "steps": [],
+            "answer": "The two men on the boat are shirtless."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of relationship do the two men have?",
+            "steps": [],
+            "answer": "The image suggests that the two men could be in a romantic relationship, as they are described as \"a couple of men, in love eating food together.\" However, it is important to note that without any explicit signs of affection or further context in the image, the nature of their relationship is open to interpretation."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the possible reasons for the men being shirtless while eating on the boat?",
+            "steps": [],
+            "answer": "There are several possible reasons for the two men being shirtless while eating on the boat:\n\n1. Weather: The weather might be warm, sunny, or otherwise pleasant, and they could be taking advantage of the opportunity to enjoy it without the restriction of clothing, which can be a normal activity in such conditions.\n\n2. Swimming or water activities: The men could have been swimming or engaging in water activities before or after their meal, and they might have temporarily removed their shirts for these activities.\n\n3. Casual atmosphere: The boat setting may foster a casual, laid-back atmosphere where it is acceptable and even encouraged to be shirtless, either due to personal preferences, the company they are with, or the norms of the environment.\n\n4. Tanning: The men might be taking the opportunity to sunbathe and get a tan while enjoying their meal, making the most of their time outdoors.\n\nIn summary, the men being shirtless while eating on the boat could be due to factors such as weather, water activities, a casual atmosphere, or the desire to tan. It is difficult to pin down the exact reason without more context from the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Describe the following image.",
+            "steps": [],
+            "answer": "The image captures two shirtless men enjoying a meal together on a boat. They are seated around a dining table filled with various items of food and utensils. The table has multiple cups, knives, spoons, forks and bowls arranged in front of the men as they eat.\n\nOne of the men is positioned towards the left side of the boat, while the other man is located more towards the center of the boat. A sandwich can be spotted on the table as well. Both men seem to be relishing the food and the pleasant ambiance of dining on a boat."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat's happening in the scene?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the tranquil expanse of a body of water, a wooden boat gently floats under the clear blue sky. The boat is adorned with a white and blue striped awning, providing a cool shade for the two young men aboard. Both men, shirtless and sporting sailor hats, are engrossed in a meal. \n\nSeated at a small table draped with a white tablecloth, one man is captured in the act of savoring his food, his fork poised over a plate filled with an assortment of dishes. His companion, on the other hand, is seen holding a cup of tea, perhaps enjoying the subtle blend of flavors with the serene surroundings.\n\nThe image beautifully captures a moment of camaraderie and leisure, set against the backdrop of nature's calm and endless canvas."
+        }
+    ],
+    "det": [
+        {
+            "label": "boat",
+            "bbox": [
+                0.0015,
+                0.006744730679156909,
+                1.0,
+                0.9887587822014051
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.361328125,
+                0.17714285714285716,
+                0.761640625,
+                0.983887587822014
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0015,
+                0.22023419203747074,
+                0.33284375,
+                0.7730444964871195
+            ]
+        },
+        {
+            "label": "sandwich",
+            "bbox": [
+                0.37709375,
+                0.6762997658079625,
+                0.432515625,
+                0.7500702576112411
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.231109375,
+                0.6776112412177986,
+                0.288203125,
+                0.7553161592505855
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.283515625,
+                0.6317096018735363,
+                0.33999999999999997,
+                0.7111709601873537
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.34165625,
+                0.5900702576112412,
+                0.393046875,
+                0.6670960187353631
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.061312500000000006,
+                0.6418501170960187,
+                0.241828125,
+                0.6555737704918033
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.40006250000000004,
+                0.5616627634660422,
+                0.418359375,
+                0.7206791569086651
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.22984374999999999,
+                0.624847775175644,
+                0.260171875,
+                0.7101170960187354
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.372859375,
+                0.5768149882903981,
+                0.40096875,
+                0.6269086651053865
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.229296875,
+                0.6765807962529273,
+                0.28865625,
+                0.7570960187353629
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.043578125,
+                0.5416627634660421,
+                0.5184218749999999,
+                0.8682435597189696
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.28445312500000003,
+                0.6312412177985949,
+                0.339625,
+                0.7109601873536301
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.33914062500000003,
+                0.5916861826697892,
+                0.393390625,
+                0.6640281030444966
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.24615625,
+                0.541288056206089,
+                0.33831249999999996,
+                0.6101170960187353
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.302171875,
+                0.5849414519906323,
+                0.3179375,
+                0.6720374707259954
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.24543750000000003,
+                0.4378454332552693,
+                0.30085937500000004,
+                0.5931147540983607
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.41176562499999997,
+                0.7114988290398127,
+                0.44312499999999994,
+                0.7452693208430914
+            ]
+        }
+    ],
+    "hash_id": "200_coco_train2017_000000237922.jpg"
+}

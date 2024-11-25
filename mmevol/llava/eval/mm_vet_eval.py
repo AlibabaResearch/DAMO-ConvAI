@@ -28,9 +28,10 @@ Can you explain this meme? | This meme is poking fun at the fact that the names 
 
 # load metadata
 # Download mm-vet.zip and `unzip mm-vet.zip` and change the path below
-mmvet_path = "/mnt/workspace/lr/datasets/playground/playground/data/eval/mm-vet"
+mmvet_path = "datasets/playground/playground/data/eval/mm-vet"
 use_sub_set = False
 decimal_places = 1 # number of decimal places to round to
+
 
 if use_sub_set:
     bard_set_file = os.path.join(mmvet_path, "bard_set.json")
@@ -92,9 +93,11 @@ columns2.append("std")
 columns2.append('runs')
 df2 = pd.DataFrame(columns=columns2)
 
-api_base="http://47.88.8.18:8088/api/ask"
+api_base=""
 key=""
 gpt_model="gpt-4o-2024-05-13"
+
+assert len(api_base)>0 and len(key)>0, "make sure tha both api_base and key are configured correctly"
 
 ###### change your model name ######
 model = "llava"

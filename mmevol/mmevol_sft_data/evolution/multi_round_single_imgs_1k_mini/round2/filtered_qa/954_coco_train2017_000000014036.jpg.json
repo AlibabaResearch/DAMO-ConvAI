@@ -1,0 +1,220 @@
+{
+    "id": "000000014036",
+    "image": "coco/train2017/000000014036.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The image shows a group of workers in a factory who are working with bananas. The workers, mostly women, are engaged in the task of separating banana bunches. They are standing in a line near a sink, focused on their work. Some of them appear to be using knives to carefully cut the bananas apart.\n\nVarious bananas and banana bunches can be seen spread throughout the workspace, both close to the workers and further away. A bottle is also visible in the scene, possibly for use in the banana processing or for the workers to stay hydrated during their labor."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Why are these workers cutting bananas apart in the factory?",
+            "steps": [],
+            "answer": "The workers in the factory are cutting bananas apart to separate the individual fruits from bunches for further processing or packaging. After the separation process, the bananas might be cleaned, sorted according to size or ripeness, and eventually packed for distribution to retail stores or other destinations. The process ensures that the bananas are appropriately prepared and meet quality standards before they reach the consumers. It also helps improve transportation and storage by making the bananas more manageable and organized in their final packaging."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat are the key elements in this picture?"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a scene from a banana processing plant. Here's a detailed description:\n\n- **Seven women** are diligently working at the plant. They are all dressed in **yellow aprons** and **blue gloves**, adding a vibrant splash of color to the industrial setting.\n- The women are standing around a **long metal table** that has a **conveyor belt** on top. This is where the main action is taking place.\n- The women are engaged in **sorting and cleaning bananas**. Their hands move deftly, demonstrating their expertise and efficiency.\n- The table is laden with **bunches of bananas** in various stages of processing. Some are clustered together, while others have been separated and cleaned.\n- The background of the image features a **metal roof**, indicative of the industrial nature of the setting. Interestingly, there's also a glimpse of nature with a **tree** visible in the backdrop.\n\nThis image beautifully juxtaposes the industrial process of banana sorting with the human element, creating a dynamic and interesting scene."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.015546874999999998,
+                0.6971841155234657,
+                0.15653125,
+                0.7589711191335741
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.555015625,
+                0.30028880866425994,
+                0.892140625,
+                0.859927797833935
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.42201562499999995,
+                0.295884476534296,
+                0.59865625,
+                0.6871119133574006
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.35945312500000004,
+                0.32521660649819495,
+                0.482046875,
+                0.6636462093862815
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.290046875,
+                0.33409747292418773,
+                0.3799375,
+                0.5097292418772563
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.28650000000000003,
+                0.36261732851985556,
+                0.40604687500000003,
+                0.5562274368231046
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.262796875,
+                0.34657039711191334,
+                0.3076875,
+                0.42252707581227433
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.8034687500000001,
+                0.698898916967509,
+                0.99684375,
+                0.8690974729241877
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.0,
+                0.7879783393501806,
+                0.12609375,
+                0.88528880866426
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.64925,
+                0.7462454873646209,
+                0.8170624999999999,
+                0.9041335740072202
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.489640625,
+                0.6175631768953068,
+                0.57309375,
+                0.6897472924187725
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.252796875,
+                0.3374909747292419,
+                0.346078125,
+                0.49043321299638987
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9623906249999999,
+                0.33420577617328523,
+                0.9998125,
+                0.4646209386281588
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.104171875,
+                0.5490613718411552,
+                0.1636875,
+                0.5990794223826714
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.839703125,
+                0.6634296028880867,
+                0.926765625,
+                0.6931046931407943
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2511875,
+                0.22776173285198556,
+                0.31849999999999995,
+                0.37826714801444045
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8409375000000001,
+                0.356985559566787,
+                0.92109375,
+                0.44958483754512635
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.778046875,
+                0.744927797833935,
+                0.8154843749999999,
+                0.7785018050541517
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5234062500000001,
+                0.2612274368231047,
+                0.9125937500000001,
+                0.6384837545126354
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.103421875,
+                0.6597472924187726,
+                0.593578125,
+                0.9870216606498194
+            ]
+        }
+    ],
+    "hash_id": "954_coco_train2017_000000014036.jpg"
+}

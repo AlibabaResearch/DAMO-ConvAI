@@ -1,0 +1,229 @@
+{
+    "id": "000000116268",
+    "image": "coco/train2017/000000116268.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "The image features a group of three women gathered around a dining table, enjoying a buffet of desserts. The desserts include various cakes and pies displayed on the table. One of the women is grabbing some bread near the cakes and pies. \n\nThe table is laid out with a variety of utensils, including knives, spoons, and bowls, as well as plates for the attendees to enjoy their treats. There are a couple of chairs placed around the table for the women to sit comfortably while indulging in the delicious spread. Additionally, the room has some decorative elements such as a potted plant and a vase, adding a lovely ambience to the scene. In the background, a bottle can be seen on the table or countertop."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the primary activity taking place in this scene, and how might the women enhance their experience during this gathering?",
+            "steps": [],
+            "answer": "The primary activity taking place in this scene is a group of women enjoying a buffet of desserts at a dining table. They are seated and socializing while sampling various cakes and pies, using utensils such as knives and spoons. To enhance their experience during this gathering, the women could engage in interesting conversations, share stories, and make sure everyone has a chance to try different desserts. Additionally, creating a warm and friendly atmosphere through background music or ambient lighting can also contribute to a more enjoyable experience for the group."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of the image, a convivial scene unfolds around a table laden with an array of food items. The table, draped in a pristine white tablecloth, serves as a canvas for the vibrant colors and textures of the feast.\n\nAt the center of the table, several types of bread and a cake command attention. The bread, with its golden-brown crust, contrasts beautifully with the creamy hue of the cake. To the left, a basket brimming with fruit and a vase filled with yellow flowers add a splash of color to the tableau.\n\nThree women form the backdrop of this scene. One of them, clad in a bright green sweater, reaches out for a plate, her action adding a dynamic element to the otherwise static arrangement. On the right side of the table, a bottle of soda stands like a sentinel amidst the culinary delights.\n\nThe casual arrangement of objects and the earthy tones dominating the image evoke a sense of warmth and homeliness. The bright green sweater and yellow flowers serve as delightful pops of color, breaking the monotony and drawing the eye. This image is not just a depiction of a meal; it's a snapshot of life's simple pleasures - good food and good company."
+        }
+    ],
+    "det": [
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.5495625000000001,
+                0.0398125,
+                0.9992291666666666,
+                0.5175625
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.9175416666666667,
+                0.45748437500000005,
+                1.0,
+                0.72359375
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0029791666666666664,
+                0.27334375,
+                1.0,
+                0.9959374999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.057187499999999995,
+                0.060390624999999996,
+                0.48156249999999995,
+                0.595375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.44925,
+                0.059375,
+                0.692375,
+                0.343609375
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.608,
+                0.37820312500000003,
+                0.6814166666666667,
+                0.45701562500000004
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.39258333333333334,
+                0.47201562499999994,
+                0.6386875,
+                0.6046562499999999
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.4783541666666667,
+                0.606546875,
+                0.78025,
+                0.760671875
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.74325,
+                0.336296875,
+                0.9275,
+                0.518078125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8973125,
+                0.34957812499999996,
+                1.0,
+                0.4856249999999999
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.6729166666666667,
+                0.77421875,
+                0.86725,
+                0.808453125
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.4650416666666667,
+                0.370515625,
+                0.5793958333333333,
+                0.40232812500000004
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.5587083333333334,
+                0.399671875,
+                0.6042500000000001,
+                0.45385937499999995
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.6044166666666667,
+                0.9236875,
+                0.8597291666666667,
+                1.0
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.3688541666666667,
+                0.7478906249999999,
+                0.6905208333333335,
+                0.895859375
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.0,
+                0.359125,
+                0.15260416666666668,
+                0.610265625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.25875,
+                0.06421875,
+                0.47622916666666665,
+                0.353515625
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.31345833333333334,
+                0.6739843750000001,
+                0.6100625000000001,
+                0.7342500000000001
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.45566666666666666,
+                0.34025,
+                0.5420625,
+                0.364015625
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.241625,
+                0.5875,
+                0.4857083333333333,
+                0.7423124999999999
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.45433333333333337,
+                0.14634375,
+                0.5288958333333333,
+                0.232265625
+            ]
+        }
+    ],
+    "hash_id": "78_coco_train2017_000000116268.jpg"
+}

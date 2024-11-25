@@ -1,0 +1,210 @@
+{
+    "id": "000000042371",
+    "image": "coco/train2017/000000042371.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many horses are pulling the cart in the image?",
+            "steps": [],
+            "answer": "There are two horses pulling the cart in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of market is shown in the image?",
+            "steps": [],
+            "answer": "The image shows a public farmers market, with people shopping and vendors selling their goods."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the main mode of transportation for the goods at the market?",
+            "steps": [],
+            "answer": "The main mode of transportation for the goods at the market is a horse-drawn carriage or wagon."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the driver doing in the image?",
+            "steps": [],
+            "answer": "The driver is sitting on top of the buggy, managing the two horses that are pulling the cart."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What activities are the people around the market engaged in?",
+            "steps": [],
+            "answer": "The people around the market are engaged in various activities, such as shopping for fresh produce, browsing through the available goods, interacting with vendors, and exploring the farmers market. They are enjoying the lively atmosphere and the wide array of offerings from local sellers."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "The image depicts a lively farmer's market bustling with people shopping and interacting with vendors. At the center of the scene, there is a horse-drawn wagon with two horses pulling it, while a man sits on top of the buggy as its driver.\n\nVarious people are scattered throughout the market, engaged in different activities such as looking around or carrying their belongings in backpacks. A backpack is also visible near the right side of the scene. In the background, a clock can be seen, likely indicating the time and adding to the atmosphere of the market. Among the fresh produce, some broccoli can be spotted for sale. Overall, the scene captures the vibrant atmosphere of a busy public market."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What challenges do the visitors of this market face compared to those visiting modern shopping centers?",
+            "steps": [],
+            "answer": "Visitors of this market, which features a horse-drawn carriage, vendors, and people shopping, face some challenges compared to those visiting modern shopping centers. Unlike modern shopping centers that often offer climate-controlled environments, this outdoor farmers market likely exposes visitors to various weather conditions, such as heat, rain, or cold. Additionally, the market relies on more traditional modes of transportation, like horse-drawn carriages, which can be slower and less efficient than modern vehicles. Access to certain amenities, like convenient parking, escalators or elevators, and other facilities typically found in shopping centers, may be limited. Visitors may also find fewer options for dining or entertainment at the market. Despite these challenges, visiting an outdoor market like this can offer a more unique and authentic shopping experience with local producers and artisans selling their goods, which could make it an appealing alternative to shopping centers."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Can you elaborate on the elements of the picture provided?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a lively scene at a farmers market. At the center of the frame, a wooden horse-drawn carriage, with vibrant red wheels, is being pulled by two sturdy brown horses with white legs. The carriage is loaded with crates of fresh produce, hinting at the bounty of the market. \n\nThe driver of the carriage, donned in a blue shirt and a straw hat, guides the horses through the bustling market. The market itself is teeming with people, adding to the vibrant atmosphere. \n\nAdding to the charm are flowers hanging from the awnings, their colors contrasting beautifully with the surroundings. Prominently displayed are signs reading \"Public Market Center\" and \"Farmers Market\", indicating the location and purpose of this bustling hub. \n\nThe image is a beautiful representation of a day at a farmers market, filled with activity and brimming with fresh produce."
+        }
+    ],
+    "det": [
+        {
+            "label": "horse",
+            "bbox": [
+                0.714265625,
+                0.5440281030444966,
+                0.910328125,
+                0.9266510538641687
+            ]
+        },
+        {
+            "label": "horse",
+            "bbox": [
+                0.63328125,
+                0.5339812646370024,
+                0.8461562499999999,
+                0.8408899297423887
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.111078125,
+                0.547447306791569,
+                0.245953125,
+                0.8073770491803278
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.64715625,
+                0.26199063231850117,
+                0.725078125,
+                0.3746370023419204
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.921921875,
+                0.5645433255269321,
+                0.9905624999999999,
+                0.6582669789227166
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.475328125,
+                0.2547775175644028,
+                0.656359375,
+                0.5394613583138174
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.350609375,
+                0.4098360655737705,
+                0.40462499999999996,
+                0.5345433255269321
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.947015625,
+                0.5310070257611241,
+                0.9925,
+                0.7984309133489461
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9877343749999999,
+                0.5429274004683841,
+                1.0,
+                0.6067681498829041
+            ]
+        },
+        {
+            "label": "broccoli",
+            "bbox": [
+                0.1930625,
+                0.5523419203747072,
+                0.24671875000000001,
+                0.5942857142857143
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.637109375,
+                0.5597189695550351,
+                0.659859375,
+                0.6426932084309134
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.579484375,
+                0.5771428571428572,
+                0.605390625,
+                0.6615456674473068
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.91134375,
+                0.5525292740046839,
+                0.93496875,
+                0.6072365339578455
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.042734375000000005,
+                0.5214051522248243,
+                0.10582812500000001,
+                0.7323653395784543
+            ]
+        }
+    ],
+    "hash_id": "365_coco_train2017_000000042371.jpg"
+}

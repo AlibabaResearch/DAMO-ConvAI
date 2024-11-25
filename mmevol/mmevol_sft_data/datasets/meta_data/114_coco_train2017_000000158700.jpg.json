@@ -1,0 +1,244 @@
+{
+    "id": "000000158700",
+    "image": "coco/train2017/000000158700.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the main focus of the image in the kitchen?",
+            "steps": [],
+            "answer": "The main focus of the image in the kitchen is the sink area, which is situated under a window."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the lighting situation in the kitchen?",
+            "steps": [],
+            "answer": "It is a dimly lit kitchen with sunlight shining in through the window over the sink."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can be seen through the window in the kitchen?",
+            "steps": [],
+            "answer": "Through the kitchen window, one can see a neighboring red building outside."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any dishes or appliances around the kitchen sink?",
+            "steps": [],
+            "answer": "Yes, there are dishes and appliances placed on either side of the kitchen sink."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the material of the kitchen sinks?",
+            "steps": [],
+            "answer": "The kitchen sinks are made of metal."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The image features a dimly lit kitchen with a couple of metal sinks located under a window. The window provides a view of the outside, overlooking a neighboring red building. On either side of the sinks, there are various dishes and appliances, creating a cozy and functional space.\n\nIn addition to the sinks, the kitchen has a microwave, multiple cups, bowls, and a wine glass. There is also an assortment of cutlery, including several knives and spoons, spread across the kitchen. A few bottles can be seen placed beside the sink and other items, suggesting that this is an actively used space."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How can one assume that the kitchen is actively used?",
+            "steps": [],
+            "answer": "One can assume that the kitchen is actively used by observing the presence of various dishes and appliances placed near the sink and around the counter. There are several items in the kitchen, such as bottles, cups, spoons, a bowl, a microwave, a knife, and a wine glass. The presence of these items suggests that the individuals using the kitchen frequently prepare meals and utilize the available tools and utensils. The location of the sink under the window with sunlight streaming in also offers a pleasant environment, making it more likely that the kitchen is a comfortable and favored space for cooking and other activities."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWrite a detailed description of the given image."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy kitchen, a sink sits beneath a window, offering a glimpse of the world outside. The window, framed by white curtains, reveals a picturesque view of a red house nestled among verdant green trees. The warm tones of the kitchen interior harmonize with the vibrant colors outside, creating a serene and inviting atmosphere.\n\nThe sink, however, tells a different story. It's brimming with dirty dishes, evidence of a meal enjoyed and now past. Various kitchen items, including a coffee maker, are scattered on the counter around the sink, hinting at the hustle and bustle that often fills this space.\n\nDespite the clutter, there's a sense of lived-in comfort in this scene. It's as if any moment now, someone will roll up their sleeves and start washing the dishes, while stealing glances at the beautiful view outside. This is not just a kitchen; it's a snapshot of life in progress."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.3011875,
+                0.7555896226415094,
+                0.340734375,
+                0.9161556603773585
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.28978125,
+                0.729693396226415,
+                0.312453125,
+                0.879504716981132
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.199859375,
+                0.7186556603773584,
+                0.24753124999999998,
+                0.8843867924528301
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.24334375000000003,
+                0.8181132075471698,
+                0.29650000000000004,
+                0.9049292452830189
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.87696875,
+                0.8107783018867925,
+                0.8993437500000001,
+                0.8625943396226415
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.7857031250000001,
+                0.7972877358490567,
+                0.839640625,
+                0.8601415094339623
+            ]
+        },
+        {
+            "label": "microwave",
+            "bbox": [
+                0.0,
+                0.642311320754717,
+                0.144390625,
+                0.9637971698113207
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.346171875,
+                0.8581132075471698,
+                0.790828125,
+                0.9774764150943396
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.24481250000000002,
+                0.739622641509434,
+                0.286203125,
+                0.821556603773585
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.9156093750000001,
+                0.8157783018867925,
+                0.954484375,
+                0.8612264150943395
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.77921875,
+                0.7709198113207547,
+                0.8139218749999999,
+                0.8044339622641509
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.748796875,
+                0.7768396226415094,
+                0.7994375,
+                0.8332547169811321
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.78359375,
+                0.7979245283018868,
+                0.839328125,
+                0.8569339622641509
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.7431875,
+                0.8113915094339622,
+                0.7940625,
+                0.8637735849056603
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.9277656249999999,
+                0.8172405660377359,
+                0.97128125,
+                0.8613207547169811
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.9370468750000001,
+                0.7975235849056603,
+                0.97284375,
+                0.8485141509433962
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.7521093750000001,
+                0.7961320754716981,
+                0.8007500000000001,
+                0.8613915094339623
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.9145156249999999,
+                0.8288679245283019,
+                0.93909375,
+                0.8617452830188679
+            ]
+        }
+    ],
+    "hash_id": "114_coco_train2017_000000158700.jpg"
+}

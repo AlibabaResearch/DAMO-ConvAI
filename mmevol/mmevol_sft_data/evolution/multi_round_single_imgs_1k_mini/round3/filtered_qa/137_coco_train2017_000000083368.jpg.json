@@ -1,0 +1,284 @@
+{
+    "id": "000000083368",
+    "image": "coco/train2017/000000083368.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The image shows a bright and clean living room furnished with yellow and red accents. In the room, there is a yellow couch located on the right side, surrounded by chairs of various sizes and styles. A yellow chair is placed towards the left of the room, with other chairs nearby. A dining table is situated in the center. \n\nSeveral potted plants are scattered throughout the room, adding greenery and a touch of nature to the space. There are wine glasses, bottles, and a bar setup, suggesting a gathering or entertaining area. The room also features a TV and additional decorative elements such as vases and books, creating a cozy atmosphere.\n\nSeveral backpacks, handbags, and a suitcase can be seen, indicating that the room may be part of a hotel suite occupied by guests or the belongings of the room's occupants. Overall, the scene presents a well-decorated, comfortable living area with a vibrant color scheme."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might someone appreciate about the design of this living room?",
+            "steps": [],
+            "answer": "Someone might appreciate the vibrant and lively color scheme of this living room, which features bright yellow furniture, such as couches and chairs, and red accents in the decorations. The combination of these colors brings warmth and energy to the space. Additionally, the living room has a clean and organized appearance that makes it an inviting and comfortable environment for relaxing or socializing. There is also a TV and a bar, which can provide entertainment options for the occupants. The presence of potted plants adds a touch of nature and freshness to the room, enhancing its overall appeal. However, it is worth noting that there are multiple bags and belongings in the room, suggesting that it might be a hotel suite, which can make it appear cluttered to some people. Nonetheless, the overall design showcases a welcoming and vibrant atmosphere, which is ideal for leisure and social gatherings."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the center of the image, a luxurious living room unfolds. The room is bathed in warm light, illuminating a vibrant yellow sofa and matching armchair that sit in the middle of the room. The furniture is arranged around a sleek glass coffee table, which stands out against the intricate pattern of the carpet beneath it.\n\nTo the side of the sofa, a pink suitcase rests, adding a pop of color to the scene. Scattered around the room are several shopping bags, hinting at a recent shopping spree. A tall plant stands in one corner of the room, its green leaves contrasting with the yellow furniture.\n\nAbove, a chandelier hangs, casting a soft glow over the room. A lamp sits on a side table, ready to provide additional light if needed. In the background, a hallway leads to a bar with a mirror, suggesting more rooms beyond what we can see in this image.\n\nEvery object and detail in this image contributes to an overall impression of luxury and comfort."
+        }
+    ],
+    "det": [
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.360546875,
+                0.5674823529411764,
+                0.42034374999999996,
+                0.6356941176470589
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.57565625,
+                0.2391058823529412,
+                0.626515625,
+                0.3513411764705882
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.609796875,
+                0.3634352941176471,
+                1.0,
+                0.9871058823529412
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.00721875,
+                0.26832941176470587,
+                0.061296874999999994,
+                0.3438117647058824
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.70546875,
+                0.5470117647058823,
+                0.8030312500000001,
+                0.7072
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.664171875,
+                0.5791294117647059,
+                0.7150624999999999,
+                0.6787529411764707
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.720109375,
+                0.6524235294117646,
+                0.8895,
+                0.8197176470588236
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.282296875,
+                0.5048470588235294,
+                0.363046875,
+                0.6128705882352942
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.467359375,
+                0.5808235294117647,
+                0.49148437500000003,
+                0.6892941176470588
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.15953124999999999,
+                0.2415294117647059,
+                0.17115624999999998,
+                0.2938117647058824
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.12276562499999999,
+                0.26494117647058824,
+                0.13256249999999997,
+                0.31390588235294115
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.562984375,
+                0.24974117647058824,
+                0.646875,
+                0.45096470588235293
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.48178124999999994,
+                0.2680941176470588,
+                0.5502499999999999,
+                0.33185882352941176
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.520296875,
+                0.2131529411764706,
+                0.5509999999999999,
+                0.3095294117647059
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.454546875,
+                0.29896470588235297,
+                0.576109375,
+                0.32435294117647057
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.0015,
+                0.02658823529411765,
+                0.129828125,
+                0.294
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.34776562499999997,
+                0.6582588235294118,
+                0.47276562499999997,
+                0.7497176470588235
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.375421875,
+                0.6230352941176471,
+                0.41087500000000005,
+                0.6652941176470588
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.65634375,
+                0.4401647058823529,
+                0.7736875,
+                0.616070588235294
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.42595312500000004,
+                0.42075294117647055,
+                0.503484375,
+                0.5020235294117646
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.039281250000000004,
+                0.2732235294117647,
+                0.053968749999999996,
+                0.28741176470588237
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.173609375,
+                0.27884705882352945,
+                0.1918125,
+                0.31614117647058826
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.058015625,
+                0.28555294117647056,
+                0.07390625,
+                0.34472941176470584
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.360265625,
+                0.32741176470588235,
+                0.5504687500000001,
+                0.6568941176470589
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.382171875,
+                0.2509882352941177,
+                0.404140625,
+                0.3297411764705882
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.49976562500000005,
+                0.2383294117647059,
+                0.5523750000000001,
+                0.30376470588235294
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.610765625,
+                0.46941176470588236,
+                0.69475,
+                0.5697882352941176
+            ]
+        }
+    ],
+    "hash_id": "137_coco_train2017_000000083368.jpg"
+}

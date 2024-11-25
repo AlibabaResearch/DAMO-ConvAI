@@ -1,0 +1,229 @@
+{
+    "id": "000000169686",
+    "image": "coco/train2017/000000169686.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The image depicts a group of people of various ages sitting in a cozy living room during the day. There are five individuals seated on a couch and chairs, spread throughout the room, and engaged in conversation or relaxation. They are surrounded by several household items, both decorative and functional, in the well-organized space.\n\nThere are three potted plants in the room, one near the window and the other two near the walls of the living room. On the table, there are three cups, two remote controls, two bowls, and a laptop. Additionally, there is a book situated on one of the chairs, and an umbrella can be seen in the corner. The room is well-furnished and conveys a sense of comfort and warmth that fosters socialization and relaxation."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kinds of objects can be found in the living room besides the furniture where people are seated?",
+            "steps": [],
+            "answer": "In the living room, there are several objects other than the couches and chairs where people are seated. These include potted plants positioned around the room, cups placed on surfaces, a remote control, bowls, a laptop, an umbrella, and a book. These objects contribute to a cozy and lively atmosphere in the living room, where people are engaging and spending time together."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This is a warm and inviting scene of a family gathering in a cozy living room. On the left, an elderly couple and a middle-aged man are comfortably seated on a beige sofa. The elderly man is dressed in a black shirt, while the middle-aged man is wearing a gray shirt. The elderly woman is adding a pop of color to the scene with her yellow sweater.\n\nOn the right, a young woman in a purple sweater, a middle-aged man in a black shirt, and an elderly woman in a green sweater are enjoying their time on a brown leather sofa. \n\nThe room is brought together by a coffee table at the center, adorned with a vase of flowers, creating an atmosphere of homeliness and warmth. The precise positioning of the individuals and objects paints a picture of a family enjoying their time together in their living room."
+        }
+    ],
+    "det": [
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.17259375,
+                0.0,
+                0.263140625,
+                0.4416949152542373
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.078125,
+                0.2129943502824859,
+                0.199671875,
+                0.43497175141242944
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.44109375,
+                0.4906497175141243,
+                0.9471718750000001,
+                0.9872316384180791
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.25792187499999997,
+                0.49406779661016953,
+                0.40774999999999995,
+                0.7908192090395479
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.001234375,
+                0.41245762711864403,
+                0.20959374999999997,
+                0.7398022598870057
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2578125,
+                0.2513841807909604,
+                0.434734375,
+                0.7603672316384181
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.43309375,
+                0.292316384180791,
+                0.738734375,
+                0.8784463276836159
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.491296875,
+                0.36305084745762717,
+                0.812828125,
+                0.995141242937853
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.004953125,
+                0.3648587570621469,
+                0.15592187500000002,
+                0.7899152542372881
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.696984375,
+                0.4390395480225988,
+                0.981609375,
+                0.9985310734463277
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.04896875,
+                0.7602542372881356,
+                0.085828125,
+                0.8422881355932204
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.05571875,
+                0.8206779661016949,
+                0.107453125,
+                0.899322033898305
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.105390625,
+                0.816638418079096,
+                0.145890625,
+                0.8887853107344633
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.10428124999999999,
+                0.9099435028248588,
+                0.13937499999999997,
+                0.9929096045197741
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.134890625,
+                0.9551694915254237,
+                0.16665625,
+                1.0
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.053421874999999994,
+                0.8192937853107344,
+                0.110328125,
+                0.9030790960451978
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.10595312500000001,
+                0.8194632768361582,
+                0.144578125,
+                0.8879943502824857
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.19978125,
+                0.8884745762711864,
+                0.33665625,
+                0.9980225988700564
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.90684375,
+                0.8650282485875707,
+                0.95,
+                0.9758192090395482
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.13890625,
+                0.6924293785310734,
+                0.295875,
+                0.9038418079096047
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.2845625,
+                0.93454802259887,
+                0.35409375,
+                1.0
+            ]
+        }
+    ],
+    "hash_id": "162_coco_train2017_000000169686.jpg"
+}

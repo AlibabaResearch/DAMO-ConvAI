@@ -1,0 +1,149 @@
+{
+    "id": "000000051342",
+    "image": "coco/train2017/000000051342.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the primary activity of the woman in the image?",
+            "steps": [],
+            "answer": "The woman in the image is primarily holding an umbrella and checking her cell phone while standing on the sidewalk."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there any other notable object near the woman?",
+            "steps": [],
+            "answer": "Yes, there is a bicycle next to the woman on the street."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the woman doing with her phone?",
+            "steps": [],
+            "answer": "The woman is using her phone, presumably checking messages, browsing the internet, or using an app. We cannot determine the specific activity she is engaging in on her phone."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the background near the woman like?",
+            "steps": [],
+            "answer": "The background near the woman includes graffiti, which suggests that she is in an urban area or near a public space where street art is commonly found."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can we tell if it is raining or about to rain based on the image?",
+            "steps": [],
+            "answer": "The woman is holding an umbrella, which implies that it could either be raining or about to rain. However, we cannot determine with certainty the weather conditions in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What additional precautions should the woman take due to the surrounding outdoor conditions?",
+            "steps": [],
+            "answer": "Given that the woman is holding an umbrella, it is likely that the outdoor conditions are rainy or wet. In addition to using the umbrella, she should take additional precautions such as wearing appropriate waterproof clothing, like a raincoat or rain boots, to stay dry in the wet conditions. Her shoes should have good traction to prevent slipping on wet or slick surfaces. Since she is also standing near a bicycle, she should remain aware of her surroundings and be cautious of potential hazards while walking on the sidewalk, such as puddles, uneven surfaces, or obstacles, like the nearby fire hydrant, to avoid accidents or injuries. Furthermore, when using her cellphone, she should be mindful of her surroundings and avoid getting too distracted from the outdoor conditions, ensuring personal safety against, for example, approaching traffic or pedestrians."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWrite a detailed description of the given image."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of an urban jungle, a solitary figure stands under the protection of a black umbrella, engrossed in their phone. The person is adorned with a vibrant pink backpack, adding a splash of color to the otherwise monochrome scene. \n\nTo their side, a white bicycle leans casually against a blue trash can, as if taking a break from its journey. The bicycle and the trash can stand guard at the corner of the street, marked by a vigilant red traffic light and a sturdy red fire hydrant. \n\nThe backdrop to this scene is a building, its metal shutters pulled down to reveal a canvas of graffiti. The graffiti, a chaotic mix of yellow and white, tells an untold story of the city's vibrant culture and history. \n\nThis urban tableau is a snapshot of life in the city - each object and character playing their part in the symphony of city life."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.329578125,
+                0.5692256637168142,
+                0.563484375,
+                0.9692256637168142
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8019375,
+                0.3725884955752212,
+                0.894578125,
+                0.8822566371681415
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.7014843749999999,
+                0.32097345132743366,
+                0.903046875,
+                0.40188053097345133
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.46364062500000003,
+                0.0,
+                0.570796875,
+                0.1327212389380531
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.3146875,
+                0.005287610619469027,
+                0.41696875,
+                0.13130530973451326
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.855140625,
+                0.43409292035398234,
+                0.9207812499999999,
+                0.614137168141593
+            ]
+        },
+        {
+            "label": "fire hydrant",
+            "bbox": [
+                0.0,
+                0.6241150442477876,
+                0.093375,
+                0.9185176991150443
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.7985156250000001,
+                0.4538938053097345,
+                0.81465625,
+                0.4703761061946902
+            ]
+        }
+    ],
+    "hash_id": "20_coco_train2017_000000051342.jpg"
+}

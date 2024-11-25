@@ -1,0 +1,354 @@
+{
+    "id": "000000213117",
+    "image": "coco/train2017/000000213117.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the main subject of the image?",
+            "steps": [],
+            "answer": "The main subject of the image is a baseball player, who is wearing a uniform and standing on a field."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the baseball player doing in the image?",
+            "steps": [],
+            "answer": "The baseball player is standing on the field, engaged in a professional baseball game, and likely starting his run for first base, while being watched by a crowd."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the baseball player near home plate or any other specific location on the field?",
+            "steps": [],
+            "answer": "Yes, the baseball player is standing next to the home plate on the field."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of surface is the baseball game being played on?",
+            "steps": [],
+            "answer": "The baseball game is being played on a grass field."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there an audience watching the game?",
+            "steps": [],
+            "answer": "Yes, there is a crowd watching the game, indicating that it may be a professional or important match."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image captures a moment during a professional baseball game played on a grass field. A baseball player wearing a uniform is standing on the field, ready to start his run for first base. He is holding a baseball bat, indicating that he has just taken a swing. \n\nThe field is filled with other players, some of which are positioned around the home plate while others occupy various places on the field. Many people are watching the baseball game, generating an exciting atmosphere. \n\nIn the area surrounding the field, there are numerous chairs and benches where spectators can sit and enjoy the game. A few handbags can be seen, indicating the presence of the crowd. The scene conveys the lively atmosphere of a professional baseball game being watched by an enthusiastic audience, with the main player in focus as he begins running towards first base."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What role can the crowd play in affecting the performance of the baseball player?",
+            "steps": [],
+            "answer": "The crowd can significantly affect the performance of a baseball player in a game, as seen in the image where the baseball player is being watched by a crowd. A supportive and enthusiastic crowd can motivate and inspire the player to perform better, boosting their confidence and focus during the game. On the other hand, a hostile or disinterested crowd can distract or demoralize the player, potentially leading to subpar performances. The atmosphere created by the spectators can influence the energy and mindset of the player, which in turn can alter the outcome of the game. Athletes often feed off the excitement and positive reinforcement from fans, which can lead to a more fulfilling and engaging competitive experience for both the players and the audience."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What do you see happening in this image?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling baseball game, the field is awash with vibrant colors and action. The sky above is a clear blue, providing a beautiful backdrop to the unfolding drama on the green field below.\n\nAt the center of it all, a batter in a white uniform, accented with orange and black, has just hit the ball. He's captured in mid-stride, his body leaning forward as he begins his run towards first base. The anticipation is palpable as he kicks up a small cloud of dust in his wake.\n\nBehind him, crouched in readiness, is the catcher. He's clad in a contrasting red uniform, his gaze fixed on the flying ball. His stance speaks volumes about the intensity of the game.\n\nOverseeing this dance between batter and catcher is the umpire. Dressed in a black uniform, he stands firm and alert behind the catcher, his eyes following the trajectory of the ball.\n\nBeyond this trio, the stands are filled with spectators. Their faces are a blur of excitement and anticipation, their cheers forming a constant backdrop to the game. Each play, each run, each catch is met with a wave of sound that echoes around the stadium.\n\nThis snapshot captures not just a moment in a baseball game, but the very essence of the sport - the tension, the excitement, and most importantly, the love for the game."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.281984375,
+                0.34339583333333334,
+                0.3468125,
+                0.37916666666666665
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.68425,
+                0.4640625,
+                0.7775624999999999,
+                0.6007916666666666
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.30646874999999996,
+                0.28731249999999997,
+                0.368453125,
+                0.3302083333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6734375,
+                0.2233125,
+                0.744390625,
+                0.25935416666666666
+            ]
+        },
+        {
+            "label": "baseball glove",
+            "bbox": [
+                0.8722031250000001,
+                0.5522916666666667,
+                0.9065937500000001,
+                0.6112708333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.475171875,
+                0.2542083333333333,
+                0.7221093749999999,
+                0.6683333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.875203125,
+                0.4332708333333333,
+                1.0,
+                0.6834166666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.824796875,
+                0.2910833333333333,
+                0.886296875,
+                0.46831249999999996
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6888124999999999,
+                0.3072916666666667,
+                0.793359375,
+                0.4266875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2688125,
+                0.35874999999999996,
+                0.32823437499999997,
+                0.42233333333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.516515625,
+                0.3823125,
+                0.576671875,
+                0.4390416666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.49909375,
+                0.2519791666666667,
+                0.58115625,
+                0.3691041666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.27171875,
+                0.5170208333333333,
+                0.31659375,
+                0.5768541666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.412921875,
+                0.2615208333333333,
+                0.49378124999999995,
+                0.3880416666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.358421875,
+                0.22445833333333332,
+                0.4213125,
+                0.3264166666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4305,
+                0.36895833333333333,
+                0.48990624999999993,
+                0.4310625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.421390625,
+                0.31404166666666666,
+                0.48990625000000004,
+                0.417375
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.30153125,
+                0.280125,
+                0.373578125,
+                0.33975000000000005
+            ]
+        },
+        {
+            "label": "baseball bat",
+            "bbox": [
+                0.576171875,
+                0.22612500000000002,
+                0.58840625,
+                0.343
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.13415625,
+                0.16108333333333333,
+                0.21642187499999999,
+                0.22179166666666666
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.674515625,
+                0.24835416666666665,
+                0.699734375,
+                0.2730416666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.46070312500000005,
+                0.29402083333333334,
+                0.503984375,
+                0.3348541666666666
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.21960937500000002,
+                0.24397916666666666,
+                0.267,
+                0.3407708333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6908125,
+                0.19291666666666665,
+                0.746203125,
+                0.22947916666666665
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.270015625,
+                0.2856875,
+                0.30128125,
+                0.32216666666666666
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.295984375,
+                0.3184375,
+                0.356890625,
+                0.3484583333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.270609375,
+                0.3147083333333333,
+                0.29134375,
+                0.35664583333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.47459375000000004,
+                0.32245833333333335,
+                0.504421875,
+                0.372125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6395,
+                0.28002083333333333,
+                0.7210624999999999,
+                0.42470833333333335
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.095640625,
+                0.10970833333333332,
+                0.1516875,
+                0.1459375
+            ]
+        }
+    ],
+    "hash_id": "876_coco_train2017_000000213117.jpg"
+}

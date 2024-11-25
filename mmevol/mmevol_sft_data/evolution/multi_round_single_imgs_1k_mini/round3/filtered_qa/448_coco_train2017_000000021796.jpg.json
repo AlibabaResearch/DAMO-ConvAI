@@ -1,0 +1,77 @@
+{
+    "id": "000000021796",
+    "image": "coco/train2017/000000021796.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are involved in moving the stove in the image?",
+            "steps": [],
+            "answer": "There are two people involved in moving the stove in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the material of the oven being moved?",
+            "steps": [],
+            "answer": "The oven being moved is made of stainless steel."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of appliance is being transported in the image?",
+            "steps": [],
+            "answer": "A double oven or stove is being transported in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What difficulties might the people be experiencing in this situation?",
+            "steps": [],
+            "answer": "The people moving the stainless steel double oven using a dolly outdoors may be experiencing several difficulties. Given the oven's size and weight, maneuvering it around obstacles, such as uneven surfaces or tight corners, can be challenging. Additionally, the oven is wrapped with a strap to secure it on the dolly, and the process of securing and unsecuring the strap may require physical effort and time. Furthermore, maintaining proper balance as they move the oven is essential to prevent it from tipping over, causing damage to the appliance or personal injury to the individuals involved in the transport. The people carrying out this task must be careful and efficient to ensure a smooth moving process while avoiding any potential dangers."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you describe the main features of this image for me?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the image, there is a person wearing a red shirt, who is pushing a large, triangular prism-shaped object across a lawn. The object appears to be made of metal and glass. On top of this object, there is a sign with blue and white colors. \n\nThe person and the object are located on the left and right side of the image respectively. The person seems to be using a lawn mower to push the object. \n\nIn the background, you can see a house, trees, and power lines. The house and trees provide a serene suburban setting for this unusual activity. The power lines stretch across the sky, adding an urban touch to the scene.\n\nPlease note that this description is based on the visible contents of the image and does not include any inferred or assumed information."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.9249375000000001,
+                0.1391715976331361,
+                1.0,
+                0.557258382642998
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.08545312499999999,
+                0.2853846153846154,
+                1.0,
+                0.9887573964497042
+            ]
+        }
+    ],
+    "hash_id": "448_coco_train2017_000000021796.jpg"
+}

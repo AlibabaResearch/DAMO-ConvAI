@@ -1,0 +1,262 @@
+{
+    "id": "000000175745",
+    "image": "coco/train2017/000000175745.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the man wearing a shirt while skateboarding?",
+            "steps": [],
+            "answer": "No, the man is not wearing a shirt while skateboarding."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the man doing in the image?",
+            "steps": [],
+            "answer": "The man is skateboarding down a street while passing by a group of walkers."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many young women is the man skateboarding past?",
+            "steps": [],
+            "answer": "The man is skateboarding past two young women."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the group of people doing in the image?",
+            "steps": [],
+            "answer": "The group of people is walking down the road while the shirtless man skateboards past them."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image features a shirtless man riding a skateboard down a road, passing by a crowd of people walking in the opposite direction. There are multiple individuals in the scene, with some carrying backpacks and handbags. A few people appear to be holding cell phones, possibly checking messages or taking pictures. \n\nThe skateboarder is in the center of the scene, while the group of pedestrians is dispersed throughout the image, adding a sense of movement and liveliness to the setting. The road is filled with various people engaged in different activities, creating a dynamic and bustling environment."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What unusual activity is the skateboarder performing, and how does it contrast with the rest of the scene?",
+            "steps": [],
+            "answer": "The unusual activity the skateboarder is performing is riding a skateboard shirtless down a street past a crowd of people who are walking. This contrasts with the rest of the scene as the skateboarder draws attention because of his shirtless appearance and the faster mode of transportation compared to the walking crowd. While the other people in the image seem to be engaged in more typical activities (walking and carrying bags, cell phones, and backpacks), the shirtless man on the skateboard creates a unique and different element in the overall scene."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nExplain the visual content of the image in great detail."
+        },
+        {
+            "from": "gpt",
+            "value": "In the center of the image, a shirtless man wearing a black baseball cap and blue shorts is the main focus. He's skillfully skateboarding on a sidewalk, balancing on one leg, giving an impression of motion. His skin is sun-kissed, matching the summer vibe of the image.\n\nIn the background, there's a group of people casually strolling on the same sidewalk. They're dressed in summer clothes and carrying various items like bags and a beach ball, suggesting they might be heading to or returning from a beach. \n\nThe color palette of the image is dominated by shades of blue, white, and beige. The blue shorts of the skateboarder and the blue beach ball carried by one of the pedestrians stand out against the lighter colors. The beige sidewalk and white summer clothes blend harmoniously with the overall scene.\n\nThe image captures a typical summer day, filled with outdoor activities and leisurely strolls. The skateboarder's dynamic pose contrasts with the relaxed demeanor of the pedestrians, adding an interesting layer to the scene."
+        }
+    ],
+    "det": [
+        {
+            "label": "sports ball",
+            "bbox": [
+                0.22618749999999999,
+                0.3797727272727273,
+                0.30960937499999996,
+                0.46742424242424246
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.18909375,
+                0.264905303030303,
+                0.203703125,
+                0.3244507575757576
+            ]
+        },
+        {
+            "label": "skateboard",
+            "bbox": [
+                0.61271875,
+                0.8299810606060607,
+                0.747734375,
+                0.9203787878787879
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.634,
+                0.11462121212121212,
+                0.725203125,
+                0.2049810606060606
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.279921875,
+                0.2068371212121212,
+                0.42104687500000004,
+                0.5580492424242424
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.8602812500000001,
+                0.13517045454545457,
+                0.9567500000000001,
+                0.3041856060606061
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.525,
+                0.13232954545454545,
+                0.8645781250000001,
+                0.9202083333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.562765625,
+                0.07113636363636364,
+                0.641046875,
+                0.25210227272727276
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.565578125,
+                0.055321969696969696,
+                0.7122187500000001,
+                0.28640151515151513
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7622656250000001,
+                0.04053030303030303,
+                0.8455781250000001,
+                0.5168560606060606
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.83340625,
+                0.04668560606060606,
+                0.992828125,
+                0.525871212121212
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.04268939393939394,
+                0.218765625,
+                0.8134848484848486
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.820109375,
+                0.07621212121212122,
+                0.87859375,
+                0.276875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.205375,
+                0.08643939393939394,
+                0.45354687499999996,
+                0.8273484848484848
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.953171875,
+                0.09433712121212122,
+                0.991796875,
+                0.23835227272727275
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.548625,
+                0.043522727272727275,
+                0.601453125,
+                0.1791098484848485
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.44378124999999996,
+                0.12920454545454546,
+                0.5341875,
+                0.24414772727272727
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3896875,
+                0.046988636363636364,
+                0.58903125,
+                0.6195454545454545
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.872265625,
+                0.09071969696969696,
+                0.910546875,
+                0.15700757575757576
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.71040625,
+                0.06975378787878787,
+                0.8035781250000001,
+                0.49782196969696973
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.189140625,
+                0.2883522727272727,
+                0.20396874999999998,
+                0.3100189393939394
+            ]
+        }
+    ],
+    "hash_id": "346_coco_train2017_000000175745.jpg"
+}

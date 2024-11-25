@@ -1,0 +1,118 @@
+{
+    "id": "000000133013",
+    "image": "coco/train2017/000000133013.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "The scene takes place at an airport runway where multiple airplanes are visible. A large light blue Air Canada jetliner is docked and being serviced on the tarmac. Over the wing of this airliner, we can see another jet in the background, further away. A few more airplanes are also present in various positions around the runway.\n\nVarious vehicles are supporting the airport operations, including a car, bus, and truck. A person can be seen nearby, possibly attending to the needs of one of the airplanes or assisting in the servicing process. Overall, the image showcases the bustling atmosphere of an airport runway with ongoing servicing of the airplanes."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What challenges do ground crews face when servicing commercial airplanes?",
+            "steps": [],
+            "answer": "Ground crews face several challenges while servicing commercial airplanes on the tarmac at airports. In the image, there are multiple airplanes of varying sizes, and each requires specific attention in terms of maintenance, fueling, baggage handling, catering, and cabin cleaning. The presence of different vehicles, such as trucks and buses, indicate the complex tasks to be carried out, often within tight timeframes to avoid flight delays.\n\nThese tasks demand coordination between multiple teams working in close proximity to each other, and in high-pressure environments. They need to ensure that all operations are performed with precision, efficiency, and safety. Additionally, ground crews have to work under varying weather conditions, which can sometimes be extreme, adding another layer of difficulty to their jobs. Overall, they must focus on providing a safe and comfortable experience for passengers while maintaining the schedule and operational efficiency of the airport."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Analyze the image in a comprehensive and detailed manner.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the given image, the main focus is a large white airplane with red and blue accents. It's situated on an airport tarmac, being towed by a yellow vehicle. The airplane's size and color make it stand out against the muted colors of the surroundings.\n\nThe tarmac is bustling with activity. In the background, several other airplanes can be seen, suggesting a busy airport. The buildings in the distance are likely airport facilities, necessary for the operation and maintenance of the aircrafts.\n\nThe sky above is overcast, casting a soft light over the scene. This weather condition adds a certain tranquility to the image, contrasting with the implied hustle and bustle of airport operations.\n\nOverall, this image captures a moment in the daily operations of an airport, with its large airplanes, support vehicles, and infrastructure all working together under an overcast sky."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.7102968749999999,
+                0.5478758949880669,
+                0.7296875,
+                0.5668019093078759
+            ]
+        },
+        {
+            "label": "airplane",
+            "bbox": [
+                0.035312500000000004,
+                0.33763723150357994,
+                0.872421875,
+                0.6634844868735084
+            ]
+        },
+        {
+            "label": "airplane",
+            "bbox": [
+                0.00146875,
+                0.54381861575179,
+                1.0,
+                0.9977565632458234
+            ]
+        },
+        {
+            "label": "airplane",
+            "bbox": [
+                0.7404375,
+                0.47159904534606206,
+                0.9793125,
+                0.5481861575178998
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.059625,
+                0.5777326968973747,
+                0.13525,
+                0.6248448687350835
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.21690625,
+                0.6762768496420049,
+                0.23723437499999997,
+                0.7017183770883055
+            ]
+        },
+        {
+            "label": "airplane",
+            "bbox": [
+                0.49192187499999995,
+                0.5112410501193317,
+                0.6239062499999999,
+                0.5491408114558473
+            ]
+        },
+        {
+            "label": "airplane",
+            "bbox": [
+                0.6010625,
+                0.5110023866348449,
+                0.632703125,
+                0.536038186157518
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.063671875,
+                0.6570644391408115,
+                0.192109375,
+                0.7497136038186157
+            ]
+        }
+    ],
+    "hash_id": "649_coco_train2017_000000133013.jpg"
+}

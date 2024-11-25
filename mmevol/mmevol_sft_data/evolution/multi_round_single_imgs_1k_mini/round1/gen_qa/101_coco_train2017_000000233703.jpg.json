@@ -1,0 +1,86 @@
+```json
+[
+    {
+        "image_position": "single",
+        "objects": ["kitchen"],
+        "skills": ["Relation Description Ability", "Context Understanding Ability"],
+        "format": "completeness_of_response",
+        "question": "Provide a detailed description of the kitchen's general appearance. What aspects might be missing in a brief description?",
+        "steps": [
+            {"manipulation": "None", "description": "Start by describing the essential features of the kitchen such as its size, style, and main elements."},
+            {"manipulation": "None", "description": "Discuss additional features such as the arrangement of appliances and overall atmosphere."},
+            {"manipulation": "None", "description": "Reflect on aspects that are often overlooked in brief descriptions."}
+        ],
+        "answer": "The kitchen is small, typical of an apartment, featuring wooden cupboards and a bar extension. It includes a stovetop oven under a microwave and several appliances on the countertop, with a trash can in sight. A broader perspective might mention the warm, cozy feeling and practical design that supports both cooking and dining."
+    },
+    {
+        "image_position": "single",
+        "objects": ["oven"],
+        "skills": ["Coreference Resolution"],
+        "format": "multi-choice",
+        "question": "What type of oven is present in the kitchen image? Select the best answer. A) Convection B) Stovetop C) Wall D) Portable",
+        "steps": [
+            {"manipulation": "None", "description": "Identify the oven type by examining its position under the microwave."}
+        ],
+        "answer": "B"
+    },
+    {
+        "image_position": "single",
+        "objects": ["cupboards", "bar extension"],
+        "skills": ["Context Understanding Ability", "Knowledge Integration Ability"],
+        "format": "creative_content_generation",
+        "question": "Explain how the wooden cupboards and bar extension shape the kitchen's design style. Then, create a short narrative or metaphor about how these elements might influence a kitchen's story.",
+        "steps": [
+            {"manipulation": "None", "description": "Describe the influence of wooden cupboards and the bar extension on the kitchen's overall design."},
+            {"manipulation": "None", "description": "Construct a narrative or metaphor showing these elements' impact on the kitchen's atmosphere."}
+        ],
+        "answer": "The wooden cupboards suggest a warm, traditional charm, while the bar extension introduces a contemporary practicality. Imagine the kitchen as a warm embrace from the past, coupled with a modern twist—echoing stories of gatherings where tradition meets convenience, weaving together nostalgia and comfort."
+    },
+    {
+        "image_position": "single",
+        "objects": ["appliances"],
+        "skills": ["Existance Ability", "Relationship Description Ability"],
+        "format": "fill_in_the_blank",
+        "question": "On the kitchen countertop, you might observe a mixture of potentially seen and unseen appliances. Fill in what you see: The countertop contains ________.",
+        "steps": [
+            {"manipulation": "None", "description": "Describe appliances based on their presence in the image, acknowledging unspecified items due to lack of definitive information."}
+        ],
+        "answer": "The countertop contains a toaster, a microwave, and possibly other small appliances not distinctly visible."
+    },
+    {
+        "image_position": "single",
+        "objects": ["kitchen layout"],
+        "skills": ["Knowledge Integration Ability", "Context Understanding Ability"],
+        "format": "rationales_generation",
+        "question": "What are three reasons why a small apartment kitchen's layout affects its functionality?",
+        "steps": [
+            {"manipulation": "None", "description": "Assess the kitchen's layout elements, such as appliance arrangement and storage solutions."},
+            {"manipulation": "None", "description": "Link these elements to the kitchen's overall functionality and space utilization."}
+        ],
+        "answer": "1. The vertical stacking of a stovetop oven and microwave maximizes limited space. 2. Wooden cupboards enhance storage capability for essentials. 3. A bar extension provides both extra prepping space and a casual dining area."
+    },
+    {
+        "image_position": "single",
+        "objects": ["kitchen", "appliances"],
+        "skills": ["Context Understanding Ability"],
+        "format": "instruction_following",
+        "question": "Summarize the content of the photograph into three concise points that include major features and atmosphere descriptions.",
+        "steps": [
+            {"manipulation": "None", "description": "Identify key features and thematic elements in the image."},
+            {"manipulation": "None", "description": "Rephrase identified features and atmosphere into brief points."}
+        ],
+        "answer": "1. A small, cozy kitchen with wooden cupboards and a bar. 2. Dining table surrounded by chairs and various appliances like a stove, microwave, and toaster. 3. The kitchen is warm and functional, well-equipped for daily use."
+    },
+    {
+        "image_position": "single",
+        "objects": ["hosting", "kitchen"],
+        "skills": ["Knowledge Integration Ability", "Context Understanding Ability"],
+        "format": "object_region_matching",
+        "question": "Given the constraints of this kitchen, how would you match its features to potential limitations when hosting a dinner party?",
+        "steps": [
+            {"manipulation": "None", "description": "Match the kitchen's space and available appliances to possible hosting challenges."}
+        ],
+        "answer": "1. Limited counter space might restrict meal prep. 2. The absence of some appliances, like a dishwasher, complicates cleaning. 3. Restricted seating around the table could limit guest numbers."
+    }
+]
+```

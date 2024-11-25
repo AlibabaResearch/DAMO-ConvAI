@@ -1,0 +1,229 @@
+{
+    "id": "000000127296",
+    "image": "coco/train2017/000000127296.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The scene shows a group of people standing on a street corner near a building. Among the crowd, several well-dressed business men can be seen conversing, possibly with a police officer. Some individuals in the crowd appear to be wearing backpacks and a tie is visible on one of the individuals.\n\nAround them, various modes of transportation can be observed. On the sidewalk, there is a bicycle parked, while a car and a motorcycle are parked further down the street. Traffic lights are also present in the scene, indicating an urban setting with organized traffic regulations."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What potential issue could these individuals be discussing with the police officer?",
+            "steps": [],
+            "answer": "Given the context of the image and the presence of a crowd of well-dressed businesspeople speaking with a police officer on the street corner, the potential issue could be related to a business or legal matter, a public safety concern, or a disruption in their daily routines. The group may be seeking guidance, reporting an incident, or sharing information about a matter which directly impacts their business or the community. This discussion might involve concerns related to traffic, street vendors, or community safety measures. The presence of multiple people in the conversation suggests that the matter is of collective interest to the individuals involved."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWrite a detailed description of the given image."
+        },
+        {
+            "from": "gpt",
+            "value": "In the quiet of the night, under the soft glow of the streetlights, a group of six individuals gather on a corner. Their attire is dark, blending them into the shadows and the night. Among them, two figures stand out - they are police officers, their uniforms a stark contrast to the darkness around them. One of them stands next to a motorcycle, its sleek form gleaming under the artificial light.\n\nA little distance away, a man on a bicycle adds to the scene, his silhouette faintly visible against the backdrop of buildings and trees. The group seems engrossed in conversation, their voices a soft murmur in the stillness of the night. The scene is a snapshot of life in motion, captured in a single frame."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.07159375,
+                0.5367213114754098,
+                0.253421875,
+                0.714847775175644
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.909515625,
+                0.41159250585480095,
+                0.9907656250000001,
+                0.48395784543325526
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.350015625,
+                0.1938407494145199,
+                0.3705,
+                0.26025761124121777
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.021359375,
+                0.22868852459016395,
+                0.037484375,
+                0.2843793911007026
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.304734375,
+                0.36644028103044496,
+                0.38565625,
+                0.7002810304449648
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.511265625,
+                0.33932084309133487,
+                0.6641874999999999,
+                0.8741686182669789
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.44085937499999994,
+                0.3632552693208431,
+                0.5224218749999999,
+                0.7335831381733021
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.631765625,
+                0.38430913348946133,
+                0.72953125,
+                0.8428805620608899
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.695546875,
+                0.37358313817330213,
+                0.8018281249999999,
+                0.7786182669789228
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6189843749999999,
+                0.34236533957845433,
+                0.689453125,
+                0.7198829039812646
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.514671875,
+                0.3971896955503513,
+                0.571703125,
+                0.79192037470726
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.379984375,
+                0.35611241217798595,
+                0.4406875,
+                0.7756206088992974
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.122140625,
+                0.36384074941451994,
+                0.208890625,
+                0.7605620608899297
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3898125,
+                0.38651053864168616,
+                0.46328125,
+                0.8337002341920375
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.11740625,
+                0.4810304449648712,
+                0.12996875000000002,
+                0.5552459016393443
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.474796875,
+                0.42950819672131146,
+                0.49995312500000005,
+                0.5360655737704918
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0393125,
+                0.39210772833723656,
+                0.07128125,
+                0.507728337236534
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.001953125,
+                0.39728337236533956,
+                0.029031249999999998,
+                0.5079156908665106
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.77040625,
+                0.4525292740046838,
+                1.0,
+                0.797072599531616
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.06775,
+                0.37854800936768146,
+                0.08745312499999999,
+                0.44793911007025755
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.13414062499999999,
+                0.42653395784543324,
+                0.16048437499999998,
+                0.5155269320843091
+            ]
+        }
+    ],
+    "hash_id": "593_coco_train2017_000000127296.jpg"
+}

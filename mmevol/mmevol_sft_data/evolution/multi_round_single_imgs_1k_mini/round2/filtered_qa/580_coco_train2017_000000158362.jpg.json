@@ -1,0 +1,328 @@
+{
+    "id": "000000158362",
+    "image": "coco/train2017/000000158362.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "The image features a man sitting on a bench in an urban setting, using a laptop computer. He appears focused on the screen, likely working, studying, or browsing the internet. Near the bench, several potted plants and vases are scattered throughout the scene, adding a touch of greenery to the urban environment.\n\nIn addition to the man and his laptop, there are other objects present that indicate a busy public area. There is an umbrella placed close to the man, suggesting he might have prepared for potential rain. Also, a backpack and handbag are located nearby, possibly belonging to the man or other passersby. A truck can be seen in the background, and a bird is perched up high, adding to the liveliness of the scene."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nDescribe the following image."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city square, a man finds tranquility amidst the urban chaos. He's perched on a sturdy concrete bench, its cold surface contrasting with the warmth of his blue shirt and gray shorts. His fingers dance across the laptop keyboard, lost in a world of his own.\n\nA few steps away, a vibrant flower stand bursts with life. Sunflowers reach for the sky, their golden faces mingling with an array of other colorful blossoms. The stand is a splash of nature's palette against the uniform gray tiles that pave the square.\n\nIn the distance, several yellow umbrellas dot the scene, like sunspots against the backdrop of a grand building adorned with columns. The building stands tall and majestic, its architectural beauty adding a touch of elegance to the square.\n\nThe image is punctuated by an enigmatic element - an inscription that reads \"RMF\". Its meaning remains a mystery, adding an intriguing layer to this urban tableau. \n\nThis scene captures a moment in time, where life and work blend seamlessly in the heart of the city."
+        }
+    ],
+    "det": [
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.2074,
+                0.5033734939759036,
+                0.2641,
+                0.6044879518072289
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.65392,
+                0.33183734939759035,
+                0.7861199999999999,
+                0.5465361445783132
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.33348,
+                0.4618975903614458,
+                0.39304,
+                0.5964156626506024
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.01448,
+                0.36102409638554217,
+                0.1925,
+                0.6209638554216868
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.13544,
+                0.4897891566265061,
+                0.18322,
+                0.6135542168674699
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.48196,
+                0.19737951807228915,
+                0.7669600000000001,
+                0.8221084337349398
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.5491,
+                0.3842771084337349,
+                0.69832,
+                0.4921385542168674
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.89932,
+                0.455210843373494,
+                0.9880200000000001,
+                0.5437048192771085
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.01642,
+                0.5325903614457831,
+                0.8744,
+                0.862921686746988
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.26918000000000003,
+                0.0011144578313253013,
+                0.7926200000000001,
+                0.5326506024096386
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.0015,
+                0.003373493975903615,
+                0.34696,
+                0.21509036144578317
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.4935,
+                0.19012048192771083,
+                1.0,
+                0.48641566265060243
+            ]
+        },
+        {
+            "label": "bird",
+            "bbox": [
+                0.7258,
+                0.05665662650602409,
+                0.7753399999999999,
+                0.10867469879518071
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.40472,
+                0.5429216867469879,
+                0.56024,
+                0.5962048192771084
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.36818,
+                0.5248192771084338,
+                0.41348,
+                0.5841867469879518
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.73742,
+                0.49608433734939755,
+                0.7744399999999999,
+                0.5466566265060241
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.39327999999999996,
+                0.3522289156626506,
+                0.45783999999999997,
+                0.49692771084337345
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.26227999999999996,
+                0.5379216867469879,
+                0.33541999999999994,
+                0.6000903614457832
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.18703999999999998,
+                0.46719879518072294,
+                0.25432,
+                0.5386746987951807
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.47426,
+                0.28768072289156627,
+                0.5561799999999999,
+                0.4245783132530121
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.0923,
+                0.5393072289156627,
+                0.14074,
+                0.6178614457831325
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.40914,
+                0.41596385542168673,
+                0.43966,
+                0.5068975903614458
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.14859999999999998,
+                0.5570180722891567,
+                0.18162,
+                0.6168373493975904
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.0579,
+                0.4985843373493976,
+                0.07816,
+                0.5290963855421686
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.39206,
+                0.5581927710843373,
+                0.41036,
+                0.593855421686747
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.21187999999999999,
+                0.5509036144578313,
+                0.26783999999999997,
+                0.6081024096385542
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.74122,
+                0.5212349397590362,
+                0.79,
+                0.5466265060240965
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.00344,
+                0.5531325301204819,
+                0.027,
+                0.6452409638554216
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.08558,
+                0.29975903614457833,
+                0.16589999999999996,
+                0.38304216867469876
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.29684,
+                0.5836144578313253,
+                0.31545999999999996,
+                0.5899397590361445
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.13896,
+                0.5225903614457831,
+                0.18104000000000003,
+                0.5648192771084337
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.17332,
+                0.5418072289156627,
+                0.19639999999999996,
+                0.6187650602409639
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.89976,
+                0.45749999999999996,
+                0.9886,
+                0.5454216867469879
+            ]
+        }
+    ],
+    "hash_id": "580_coco_train2017_000000158362.jpg"
+}

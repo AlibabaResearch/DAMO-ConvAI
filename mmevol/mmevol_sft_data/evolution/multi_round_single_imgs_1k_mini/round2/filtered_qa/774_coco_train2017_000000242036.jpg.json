@@ -1,0 +1,130 @@
+{
+    "id": "000000242036",
+    "image": "coco/train2017/000000242036.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The scene is set in a plaza where a large statue of a woman on a pedestal can be seen. A Hertz transit bus is parked close to the statue, implying the merging of art and urban life. Various benches are spread throughout the area, providing places to sit and relax.\n\nNumerous people are walking around, with one person closer to the center of the plaza and two others near the far right side of the image. Also visible are a backpack near one person and a suitcase near another, suggesting that some of these individuals may be travelers taking in the sights."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people in the image likely doing in this street scene?",
+            "steps": [],
+            "answer": "In the street scene, there is a Hertz transit bus parked near a large statue. Given the presence of people interacting with their surroundings, such as those potentially waiting on benches, it is likely that they are waiting for the bus, taking a break during their commute, or simply enjoying the public plaza surrounding the statue. Some people may also be admiring the statue or exploring the area, while others might be just passing by on their way to a particular destination."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you think is going on in this snapshot?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the center of the image, a vibrant yellow Hertz bus is parked on a gray concrete road. The bus, with its black license plate reading \"NHT673\", is the main focus of the image. To the right of the bus, a statue of a man holding a torch stands tall on a yellow pedestal. The pedestal, with its square base and round top, adds an element of grandeur to the scene.\n\nThe statue and the bus are surrounded by nature's beauty. Trees with red leaves form a picturesque background, their colors contrasting with the yellow of the bus and pedestal. A building with a gray roof peeks out from behind the trees, adding an urban touch to the otherwise natural landscape.\n\nAbove all this, the sky is a beautiful shade of blue, dotted with fluffy white clouds. The clouds seem to be moving across the sky, creating a dynamic backdrop for the scene below. The entire image is a blend of urban and natural elements, each complementing the other in perfect harmony."
+        }
+    ],
+    "det": [
+        {
+            "label": "bus",
+            "bbox": [
+                0.0,
+                0.47893749999999996,
+                0.28340624999999997,
+                0.8759583333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7673593750000001,
+                0.6482083333333333,
+                0.783765625,
+                0.7111249999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.889828125,
+                0.6797291666666666,
+                0.923125,
+                0.7389583333333333
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.8536875,
+                0.6943541666666667,
+                0.936171875,
+                0.7375833333333334
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.764546875,
+                0.65625,
+                0.770953125,
+                0.6763333333333333
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.887703125,
+                0.7106458333333333,
+                0.9124375,
+                0.7385625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.47334375,
+                0.6698125,
+                0.48584375,
+                0.6898333333333333
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.9618593750000001,
+                0.6950208333333333,
+                1.0,
+                0.7384375
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.8025625,
+                0.686375,
+                0.8340937499999999,
+                0.7193958333333333
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.692921875,
+                0.6834375,
+                0.735734375,
+                0.7100000000000001
+            ]
+        }
+    ],
+    "hash_id": "774_coco_train2017_000000242036.jpg"
+}

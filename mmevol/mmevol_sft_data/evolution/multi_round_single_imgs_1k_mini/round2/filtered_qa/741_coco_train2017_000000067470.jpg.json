@@ -1,0 +1,121 @@
+{
+    "id": "000000067470",
+    "image": "coco/train2017/000000067470.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Explain the visual content of the image in great detail.",
+            "steps": [],
+            "answer": "The image showcases a picturesque outdoor scene with a woman sitting at a picnic table amidst a peaceful setting. Bicycles are parked nearby, and they seem to be of an unusual type compared to standard bikes. A bench is also visible near the picnic table.\n\nIn the background, a field can be seen with cows grazing peacefully, further enhancing the serene atmosphere of the scene. There is also a handbag placed on the grass near the woman, and a suitcase resting close to the bicycles, indicating that this may be a stop during a journey or a day out."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What makes the bicycles in this scene stand out from usual bicycles?",
+            "steps": [],
+            "answer": "In the image, the bicycles parked near the picnic bench and the woman seem to have a distinct design or features that set them apart from typical bicycles. The unusual bicycles might have a unique frame structure, color scheme, or accessories that differentiate them from the commonly seen bicycles. The presence of these distinct bicycles adds to the interest of the overall scene, where the woman is sitting near a picnic table, with cows in the background and luggage nearby."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the image, a woman radiates joy as she sits at a picnic table, her smile as bright as the day. She's stylishly clad in a pink jacket and sunglasses, a picture of relaxation. The picnic table, adorned with a blue tablecloth, is her temporary haven. A water bottle rests on it, perhaps a testament to a day filled with activity.\n\nJust beside her, two faithful companions stand at the ready - a pair of bicycles. One is a vibrant blue while the other is a sleek black, both equipped with bags for an adventurer's essentials. They're parked neatly next to the table, as if patiently waiting for their next journey.\n\nThe setting is a grassy lawn, an open space that invites one to breathe and unwind. In the background, a white fence stands, adding charm to the scene. Interestingly, cow statues can be spotted near the fence, lending a whimsical touch to the otherwise serene landscape.\n\nEvery element in this image paints a story of an enjoyable day outdoors - from the woman's cheerful demeanor to the bicycles that hint at an active lifestyle, and the tranquil surroundings that provide the perfect backdrop for a day of leisure and exploration."
+        }
+    ],
+    "det": [
+        {
+            "label": "cow",
+            "bbox": [
+                0.67475,
+                0.046284153005464485,
+                0.742,
+                0.14346994535519128
+            ]
+        },
+        {
+            "label": "cow",
+            "bbox": [
+                0.015984375000000002,
+                0.08816939890710383,
+                0.11682812500000002,
+                0.24300546448087432
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.571875,
+                0.348224043715847,
+                0.8006249999999999,
+                0.7011748633879781
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.29146875,
+                0.3055191256830601,
+                0.5522031249999999,
+                0.8195081967213115
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.397609375,
+                0.21803278688524588,
+                0.5485625,
+                0.741639344262295
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.15321875000000001,
+                0.09672131147540983,
+                0.191984375,
+                0.14502732240437158
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.7052343750000001,
+                0.44196721311475407,
+                0.8667812500000001,
+                0.605655737704918
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.561703125,
+                0.40051912568306014,
+                0.6099062500000001,
+                0.4736065573770492
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.690953125,
+                0.6096721311475409,
+                0.9173437499999999,
+                0.8708196721311474
+            ]
+        }
+    ],
+    "hash_id": "741_coco_train2017_000000067470.jpg"
+}

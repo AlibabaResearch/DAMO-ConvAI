@@ -1,0 +1,302 @@
+{
+    "id": "000000144467",
+    "image": "coco/train2017/000000144467.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "The image shows a group of people gathered around a dining table, posing for a photo. There are at least eight individuals present, with some sitting and others standing. Among them, two men are sitting at the table, having dessert. \n\nThere are two birthday cakes placed on the table, each with candles in them. The table is well-set, with multiple wine glasses, forks, and spoons arranged around it. A few bowls, a vase, a potted plant, and a bottle are also present in the scene, adding to the festive atmosphere. \n\nThere are chairs situated around the dining table, and another dining table is visible in the right side of the scene. The gathering seems to be in a restaurant or a well-decorated home, where the family is celebrating a special occasion."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the unique aspect of this gathering?",
+            "steps": [],
+            "answer": "The unique aspect of this gathering is that there are two birthday cakes on the table with candles in them, suggesting that the people at the table are celebrating multiple individuals' birthdays together. This is not a common occurrence, as typically only one person's birthday is celebrated at a time. The family or group of people present seem to be enjoying this special moment and posing for a photo during the celebration at the restaurant."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Describe the following image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a dimly lit restaurant, a joyous celebration unfolds around a table draped in a pristine white tablecloth. Six individuals, their faces illuminated by the soft glow of ambient light and the flicker of a single birthday candle, gather in unity. The man at the center, presumably the birthday celebrant, raises his thumb in approval, his face radiating happiness. \n\nTwo plates of dessert rest on the table, one bearing the lit birthday candle, casting long shadows and bathing the scene in a warm glow. The desserts, untouched and inviting, seem to be waiting for the right moment to be savored.\n\nThe other attendees are caught mid-pose, their smiles frozen in time as they partake in this intimate moment. Their eyes sparkle with mirth and camaraderie, reflecting the close bond they share.\n\nIn the background, a pink orchid plant graces the windowsill, its delicate blooms adding a touch of elegance to the setting. The restaurant's interior, though dimly lit, exudes a cozy and welcoming atmosphere that complements the joyful occasion. \n\nEvery element in this image - from the gleaming tableware to the cheerful expressions of the people - paints a vivid picture of a memorable celebration shared among close friends or family."
+        }
+    ],
+    "det": [
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.0,
+                0.006729166666666666,
+                0.32287499999999997,
+                0.6659166666666667
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.17128125,
+                0.6865416666666667,
+                0.246109375,
+                0.9056458333333334
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.06742187499999999,
+                0.7906458333333333,
+                0.161796875,
+                0.997375
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.932234375,
+                0.7307708333333333,
+                0.9997343750000001,
+                0.8649583333333333
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.86971875,
+                0.8312708333333333,
+                0.939203125,
+                0.8793541666666667
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.8325156249999999,
+                0.8139791666666666,
+                0.9011093749999999,
+                0.8530833333333333
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.590421875,
+                0.7945833333333333,
+                0.68153125,
+                0.9061458333333333
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.38460937500000003,
+                0.7227916666666666,
+                0.48178125000000005,
+                0.8607291666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.060671875,
+                0.27416666666666667,
+                0.41965624999999995,
+                0.8314583333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.717984375,
+                0.07864583333333333,
+                0.9707812499999999,
+                0.7977500000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3643125,
+                0.27408333333333335,
+                0.73203125,
+                0.79525
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.2786458333333333,
+                0.08932812500000001,
+                0.44943750000000005
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6009218749999999,
+                0.12050000000000001,
+                0.8445937499999999,
+                0.7713958333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.34550000000000003,
+                0.07122916666666666,
+                0.54775,
+                0.6015625
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.00565625,
+                0.46125,
+                0.06215624999999999,
+                0.6973958333333333
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.893546875,
+                0.9113541666666667,
+                0.9994531249999999,
+                0.999875
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.977953125,
+                0.42254166666666665,
+                1.0,
+                0.5245
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.24867187500000001,
+                0.8081875000000001,
+                0.327734375,
+                0.8707916666666667
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.7165468749999999,
+                0.7576666666666667,
+                0.841984375,
+                0.8300416666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.318546875,
+                0.517625,
+                0.36648437500000003,
+                0.653625
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.1123125,
+                0.738,
+                0.9540625,
+                1.0
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.89903125,
+                0.4131666666666666,
+                1.0,
+                0.791375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.17195312499999998,
+                0.32706250000000003,
+                0.2509375,
+                0.46247916666666666
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.037593749999999995,
+                0.4671041666666667,
+                0.160734375,
+                0.6660833333333334
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.8688750000000001,
+                0.840875,
+                0.9397343750000001,
+                0.8762500000000001
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.0,
+                0.8456666666666667,
+                0.076265625,
+                0.9491041666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.000515625,
+                0.25756249999999997,
+                0.039125,
+                0.39393749999999994
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.265328125,
+                0.8091458333333333,
+                0.325859375,
+                0.8622916666666666
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.26340625,
+                0.7953749999999999,
+                0.32556250000000003,
+                0.8411041666666665
+            ]
+        }
+    ],
+    "hash_id": "909_coco_train2017_000000144467.jpg"
+}

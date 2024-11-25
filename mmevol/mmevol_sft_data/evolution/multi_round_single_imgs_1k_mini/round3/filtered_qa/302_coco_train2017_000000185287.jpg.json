@@ -1,0 +1,293 @@
+{
+    "id": "000000185287",
+    "image": "coco/train2017/000000185287.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "The image features a lively farmers market filled with produce, including bananas, oranges, apples, and more. Several ripe bananas are displayed on a table, drawing the attention of a woman who observes them closely. In total, there are at least 16 bunches of bananas and 13 oranges visibly spread across the market, along with a few apples.\n\nVarious people are exploring the market, with one person standing near the woman, another on the right side of the frame, and two more individuals in the background. Among the bustling market scene, a handbag can also be seen placed on a table. The overall atmosphere of the market suggests a vibrant and engaging environment where people come to shop for fresh produce."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can you infer about the people's preferences at this farmers market?",
+            "steps": [],
+            "answer": "Based on the image, we can infer that bananas are a popular choice among the people at this farmers market, as there are numerous ripe bananas displayed on the table and being held by a woman. Additionally, there is a variety of fruits, such as apples and oranges, available at the market, indicating that customers have diverse preferences for fresh produce. The presence of multiple customers and the woman holding bananas could also suggest that they are actively making decisions and comparing different fruit options available in the market to find the best quality and value possible."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nAnalyze the image in a comprehensive and detailed manner."
+        },
+        {
+            "from": "gpt",
+            "value": "In the bustling heart of a vibrant market, a fruit stand beckons with its colorful array of fresh produce. A woman, the stand's diligent caretaker, is in the midst of arranging a bunch of bananas, their bright yellow hue contrasting against the white cloth that adorns the counter. The bananas are not just confined to the counter; they hang from the ceiling too, creating a canopy of yellow over the stand.\n\nThe stand is a cornucopia of fruits. Apples, their red and green skins gleaming under the market lights, share space with other fruits whose colors and shapes add to the visual feast. The background is a lively tableau of other fruit stands, each boasting their own array of fresh produce, and shoppers who have come to partake in this celebration of nature's bounty.\n\nEvery object in this image tells a story - of nature's gifts, of hard work, and of life's simple pleasures. It's a snapshot of a moment in time in a market somewhere, where life unfolds in the most ordinary yet profound ways."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.1274375,
+                0.15505854800936766,
+                0.3958125,
+                0.8921311475409835
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6816875,
+                0.2631381733021077,
+                0.89609375,
+                0.7661592505854801
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.517625,
+                0.3692271662763466,
+                0.692109375,
+                0.778032786885246
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.81153125,
+                0.252248243559719,
+                0.8810156250000001,
+                0.4467447306791569
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.736,
+                0.7849882903981265,
+                0.8362343750000001,
+                0.8455269320843092
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.692671875,
+                0.8292037470725995,
+                0.7841250000000001,
+                0.9056206088992974
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.480953125,
+                0.8336065573770491,
+                0.575453125,
+                0.9265573770491803
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.479515625,
+                0.7681733021077283,
+                0.565734375,
+                0.8243793911007026
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.339328125,
+                0.5800936768149882,
+                0.45735937499999996,
+                0.7127634660421545
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.645515625,
+                0.8034894613583138,
+                0.716109375,
+                0.8346838407494145
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.6313125,
+                0.8878454332552693,
+                0.678609375,
+                0.9350819672131149
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.14265624999999998,
+                0.849648711943794,
+                0.2075625,
+                0.9571896955503514
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.20598437500000003,
+                0.9483372365339579,
+                0.259359375,
+                0.9975644028103045
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.0,
+                0.5674707259953161,
+                0.1579375,
+                0.8409367681498828
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.650203125,
+                0.7791100702576113,
+                0.716875,
+                0.8275644028103044
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.427265625,
+                0.8081030444964872,
+                0.46309374999999997,
+                0.8560187353629977
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.0,
+                0.4142388758782201,
+                0.11971875000000001,
+                0.5043091334894614
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.401203125,
+                0.5509836065573771,
+                0.49903125,
+                0.6415222482435597
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.1405,
+                0.46473067915690863,
+                0.16643750000000002,
+                0.4994613583138173
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.025328125,
+                0.23412177985948476,
+                0.07764062499999999,
+                0.36447306791569084
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.108578125,
+                0.4592505854800937,
+                0.137875,
+                0.48831381733021073
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.11015625,
+                0.49529274004683843,
+                0.132171875,
+                0.5438875878220141
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.0691875,
+                0.2463231850117096,
+                0.1103125,
+                0.3633021077283372
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.080359375,
+                0.20992974238875878,
+                0.126125,
+                0.30990632318501166
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.017,
+                0.23004683840749415,
+                0.0585625,
+                0.3260889929742389
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.546453125,
+                0.24971896955503511,
+                0.576359375,
+                0.3016861826697892
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.094625,
+                0.33522248243559716,
+                0.14346875,
+                0.41199063231850114
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.5510937499999999,
+                0.4884074941451991,
+                0.6953437499999999,
+                0.7307259953161592
+            ]
+        }
+    ],
+    "hash_id": "302_coco_train2017_000000185287.jpg"
+}

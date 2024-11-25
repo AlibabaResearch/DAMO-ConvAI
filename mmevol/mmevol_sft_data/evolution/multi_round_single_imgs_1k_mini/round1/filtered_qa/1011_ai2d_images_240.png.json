@@ -1,0 +1,117 @@
+{
+    "id": "240",
+    "image": "ai2d/images/240.png",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What feeds on grass?",
+            "steps": [],
+            "answer": "In the image, the deer feeds on grass primarily, but other elements pictured might symbolically suggest different forms of consumption or interaction with soil and plant life, like the dung beetle indirectly relying on grass through its interaction with dung, part of a larger ecological cycle."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What cycle is depicted by the dung beetle's presence?",
+            "steps": [],
+            "answer": "The dung beetle, shown rolling a dung ball, participates in a nutrient recycling cycle. It collects and eats dung, which is partly digested plant matter including grass. Through this process, nutrients are returned to the soil, promoting plant growth and completing an ecological cycle."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How does the presence of the lion affect the behavior of the deer in their natural habitat?",
+            "steps": [],
+            "answer": "In their natural habitats, the presence of a predator such as a lion significantly influences the behavior of prey animals like deer. Deer must be constantly vigilant and often alter their feeding and movement patterns to avoid predation. This predator-prey relationship is essential for maintaining ecological balance."
+        }
+    ],
+    "conversations_v1": [
+        {
+            "image_position": "single",
+            "objects": [
+                "deer",
+                "grass"
+            ],
+            "skills": [
+                "Knowledge Integration Ability",
+                "Context Understanding Ability"
+            ],
+            "format": "rationales_generation",
+            "question": "Explain why the deer feeds on grass, considering its role in the ecosystem?",
+            "steps": [
+                {
+                    "manipulation": "None",
+                    "description": "Analyze the role of deer in the ecosystem and its dietary habits."
+                },
+                {
+                    "manipulation": "None",
+                    "description": "Discuss the importance of grass as a food source for deer."
+                },
+                {
+                    "manipulation": "None",
+                    "description": "Link the deer's feeding habits to broader ecological interactions."
+                }
+            ],
+            "answer": "Deer feed on grass as it is a primary, easily accessible source of sustenance providing essential nutrients. This feeding behavior helps control plant overgrowth, ensuring diverse plant life and maintaining balance in the ecosystem.",
+            "score": 6
+        },
+        {
+            "image_position": "single",
+            "objects": [
+                "dung beetle",
+                "dung"
+            ],
+            "skills": [
+                "Knowledge Integration Ability"
+            ],
+            "format": "multi-choice",
+            "question": "What ecological process does the dung beetle illustrate by rolling a dung ball? \nA) Pollination \nB) Soil Formation \nC) Nutrient Recycling \nD) Photosynthesis",
+            "steps": [
+                {
+                    "manipulation": "None",
+                    "description": "Consider the role of dung beetles in breaking down animal waste."
+                },
+                {
+                    "manipulation": "None",
+                    "description": "Relate this behavior to nutrient cycling within an ecosystem."
+                }
+            ],
+            "answer": "C",
+            "score": 7
+        },
+        {
+            "image_position": "single",
+            "objects": [
+                "lion",
+                "deer"
+            ],
+            "skills": [
+                "Behavior Prediction Ability",
+                "Context Understanding Ability"
+            ],
+            "format": "coreference_resolution",
+            "question": "Determine which behaviors in deer might change in response to 'its presence,' a reference to the lion.",
+            "steps": [
+                {
+                    "manipulation": "None",
+                    "description": "Identify behaviors in deer driven by predator presence."
+                },
+                {
+                    "manipulation": "None",
+                    "description": "Discuss how these behaviors ensure survival."
+                }
+            ],
+            "answer": "Increased vigilance and altered feeding patterns are common deer behaviors in response to the presence of lions, aiding in avoiding predation.",
+            "score": 5
+        }
+    ],
+    "topic_name": [],
+    "caption": [],
+    "det": [],
+    "hash_id": "1011_ai2d_images_240.png"
+}

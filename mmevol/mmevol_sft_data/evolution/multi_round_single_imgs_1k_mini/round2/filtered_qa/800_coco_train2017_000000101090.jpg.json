@@ -1,0 +1,310 @@
+{
+    "id": "000000101090",
+    "image": "coco/train2017/000000101090.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of computer is on the desk?",
+            "steps": [],
+            "answer": "There is a desktop computer sitting on the desk."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What items can be seen on the computer desk?",
+            "steps": [],
+            "answer": "On the computer desk, there is a computer monitor and a keyboard."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any other computer items or papers in the office?",
+            "steps": [],
+            "answer": "Yes, the office is filled with computer items and papers, indicating a busy working environment."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setup of this office area?",
+            "steps": [],
+            "answer": "The office area is an office cubicle, which contains a desk, multiple computers, and a full bookshelf. It appears to be a well-organized and functional workspace."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can a person easily work in this office cubicle?",
+            "steps": [],
+            "answer": "Yes, a person can easily work in this office cubicle. The setup provides an organized workspace with necessary computer equipment and a full bookshelf, which suggests that there is ample storage for books, documents, and other materials needed for work. The presence of multiple computers also indicates that the user may be involved in tasks that require more than one computer system, possibly for multitasking or handling different types of work. As a result, this office cubicle appears to be a well-equipped and efficient environment for someone to work in."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Describe the following image.",
+            "steps": [],
+            "answer": "The image depicts a large office space filled with computer items and multiple workstations. On the desks, there are several computer keyboards, mice, and monitors, creating a comfortable workspace for the user. One of the desks has a desktop computer with a keyboard and computer monitor, while another desk has a laptop with a separate keyboard.\n\nThere are also a variety of books scattered throughout the office, possibly situated on shelves or lying on the desks, indicating a well-stocked and resourceful environment. Some TVs are present in the office as well, providing additional screens for information display or entertainment.\n\nA person can be seen in the background, likely working or interacting with the office environment. Other office essentials, such as a chair and a cup, are also visible in the room, emphasizing a functional and organized space."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What tasks might the person using this workplace typically perform?",
+            "steps": [],
+            "answer": "Given the office setup in the image, which includes multiple computers, a laptop, a keyboard, a computer monitor, a desk with papers, a full bookshelf, and other accessories like a computer mouse and a cup, the person using this workplace likely performs tasks that involve significant computer use and research. Possible tasks could include data analysis, software development, content creation or writing, managing projects, and more. The presence of numerous books may also indicate a need for referencing information or engaging in research, which implies that the person may work in an industry or role that requires extensive knowledge or expertise in a specific field. Overall, the workplace setup suggests that the person might be involved in a variety of office-related or technology-driven tasks."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you describe the main features of this image for me?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a small, cozy office space bathed in the warm glow of a floor lamp and a desk lamp. The walls, painted in a soothing shade of beige, provide a neutral backdrop to the black furniture that populates the room.\n\nOn the left, there's a desk equipped with a computer monitor, keyboard, and mouse. The monitor is turned on, ready for work. Adjacent to it, a bookshelf stands tall, its shelves brimming with books of various sizes and colors. Above the bookshelf, a bulletin board hangs on the wall, awaiting notes and reminders.\n\nOpposite this setup, on the right side of the room, another desk houses a laptop and a second monitor. The laptop is open, its screen mirroring the readiness of its counterpart across the room.\n\nA small table to the right cradles a printer, standing by for any printing tasks. The floor lamp casts long shadows across the room, adding depth and dimension to the space. The desk lamp on the right desk provides focused lighting for late-night work sessions.\n\nOverall, this office space exudes an air of productivity and calmness, an ideal environment for focused work."
+        }
+    ],
+    "det": [
+        {
+            "label": "tv",
+            "bbox": [
+                0.7457812500000001,
+                0.4853888888888889,
+                0.9328593749999999,
+                0.7865277777777777
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.861265625,
+                0.5717777777777778,
+                0.9080937500000001,
+                0.6905
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.779921875,
+                0.24044444444444446,
+                0.9353906249999999,
+                0.42697222222222225
+            ]
+        },
+        {
+            "label": "mouse",
+            "bbox": [
+                0.235796875,
+                0.5630000000000001,
+                0.26754687499999996,
+                0.5871944444444445
+            ]
+        },
+        {
+            "label": "keyboard",
+            "bbox": [
+                0.190875,
+                0.591,
+                0.26165625,
+                0.6943888888888888
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.296375,
+                0.47602777777777777,
+                0.37678125,
+                0.7365277777777777
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.04803125,
+                0.42247222222222225,
+                0.13778125,
+                0.6876388888888889
+            ]
+        },
+        {
+            "label": "mouse",
+            "bbox": [
+                0.14737499999999998,
+                0.6329444444444445,
+                0.1766875,
+                0.6560555555555556
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.8393906250000001,
+                0.4678611111111111,
+                0.9264218750000002,
+                0.5128333333333334
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.6445000000000001,
+                0.15355555555555556,
+                0.649140625,
+                0.2381111111111111
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.508609375,
+                0.12744444444444444,
+                0.5415,
+                0.23025
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.496953125,
+                0.12294444444444444,
+                0.52528125,
+                0.23183333333333336
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.48384375,
+                0.13552777777777777,
+                0.49800000000000005,
+                0.22908333333333333
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.556046875,
+                0.13152777777777777,
+                0.5844218750000001,
+                0.2338611111111111
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.454765625,
+                0.1335,
+                0.48317187500000003,
+                0.22886111111111113
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.51815625,
+                0.0006944444444444445,
+                0.526765625,
+                0.06880555555555555
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.622171875,
+                0.0,
+                0.6346093749999999,
+                0.05452777777777777
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.570828125,
+                0.1295,
+                0.653359375,
+                0.23902777777777778
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.52628125,
+                0.15669444444444444,
+                0.530125,
+                0.2296388888888889
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.14075,
+                0.699,
+                0.162921875,
+                0.7809999999999999
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.10674999999999998,
+                0.3437222222222222,
+                0.17784375,
+                0.5964444444444444
+            ]
+        },
+        {
+            "label": "keyboard",
+            "bbox": [
+                0.7929375000000001,
+                0.37822222222222224,
+                0.92265625,
+                0.4269444444444444
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.531875,
+                0.15447222222222223,
+                0.555890625,
+                0.22958333333333336
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.160578125,
+                0.6912222222222222,
+                0.22596875,
+                0.7615555555555557
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.5579531249999999,
+                0.02425,
+                0.581453125,
+                0.069
+            ]
+        }
+    ],
+    "hash_id": "800_coco_train2017_000000101090.jpg"
+}

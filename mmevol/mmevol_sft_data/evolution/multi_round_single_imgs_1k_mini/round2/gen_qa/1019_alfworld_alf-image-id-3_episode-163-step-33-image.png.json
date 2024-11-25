@@ -1,0 +1,70 @@
+```json
+[
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "Norm",
+        "question": "In the context of the ALFRED Embodied Environment, analyze the scene described by the text: ['You pick up the tomato 1 from the countertop 1.']. Formulate a detailed plan for the next action to properly cool the tomato before placing it on the countertop. List your main considerations while selecting this action.",
+        "steps": [
+            {"manipulation": "None", "description": "Assess the current position of the tomato and suitable locations for cooling it."},
+            {"manipulation": "None", "description": "Identify the best available action from the admissible options to achieve the cooling of the tomato before returning it to the countertop."}
+        ],
+        "answer": "{\n  \"thoughts\": \"From the description, it is clear that a tomato is currently in hand after being picked up from countertop 1. To ensure the tomato is 'cool', the most effective action would be to place it inside the fridge for cooling before potentially returning it to countertop 1. Considering the necessity for immediate cooling, I will proceed to the fridge as my first action.\",\n  \"action\": \"go to fridge 1\"\n}"
+    },
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "Norm",
+        "question": "Provide a comprehensive layout description and detail the items within this kitchen scene based on your observations and the accompanying scene description.",
+        "steps": [],
+        "answer": "The observed kitchen has a well-organized, modern ambiance characterized by numerous functional elements. Present on the countertop is a tomato in hand, alongside a green vegetable resting on the surface. Surrounding the area are multiple cabinets, drawers, and shelves on the left side for storage. In the backdrop, there's a fridge, a microwave, a sink, a water cooler, and assorted kitchen appliances, creating a bustling yet efficient environment."
+    },
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "Norm",
+        "question": "Craft an elaborate recipe utilizing the ingredients visible in the kitchen, ensuring all steps and necessary actions are clearly outlined.",
+        "steps": [],
+        "answer": "Sure! Here’s a delightful recipe for a tomato and lettuce salad incorporating visible kitchen items: \n\n**Ingredients:**\n- 1 Tomato\n- 1 Lettuce (discerned from countertop)\n- Olive oil (can likely be located in a cabinet)\n- Salt and pepper (often found in cabinets)\n- Lemon juice (potentially in the fridge or a cabinet)\n\n**Instructions:**\n1. Commence by washing the tomato and lettuce at the sink.\n2. Slice the tomato into wedges and tear the lettuce into smaller, manageable pieces.\n3. In a sizable bowl, combine the tomato and lettuce carefully.\n4. Drizzle olive oil over the assembled salad and add a hint of lemon juice for flavor.\n5. Season to taste with salt and pepper.\n6. Gently toss the salad to mix the ingredients well.\n7. Serve right away and savor your refreshing, uncomplicated salad!"
+    },
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "Norm",
+        "question": "Envision a scenario where the kitchen comes alive at night. What imaginative adventures might unfold as the kitchen objects interact?",
+        "steps": [],
+        "answer": "Under the cloak of night, the kitchen awakens with a surge of life! The tomato and green vegetable on the countertop engage in lively banter, planning a daring escapade through the kitchen's hidden realms. They enlist the help of the toaster and coffee machine, longstanding partners in culinary mischief. Quietly, they swing open cabinet doors, unearthing mysterious spice caches that shimmer like magic dust. \n\nEach sprinkle of this enchanted dust revives other kitchen items, and the fridge unveils secret compartments brimming with rare ingredients. Meanwhile, the microwave takes on the role of a storyteller, sharing the incredible histories of kitchen items. Their most thrilling discovery is a concealed doorway behind the pantry, leading to a mystical garden overflowing with exotic produce. Together, they create memories, enjoy banquets, and embrace their newfound liberation until dawn, when they return to their spots, leaving only echoes of their joyous night."
+    },
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "Norm",
+        "question": "If the kitchen were to have a theme song, which tune would best encapsulate the essence and vibrancy of the kitchen environment? Describe the song's potential lyrics.",
+        "steps": [],
+        "answer": "Imagining a theme song for this kitchen would evoke a lively, spirited atmosphere, perhaps titled 'Cooking Up a Storm'. The upbeat melody would intermingle cheerful whistling with joyous lyrics that capture the kitchen's dynamic energy:\n\n\"Sizzling pans and bubbling pots,\nChopping veggies, stirring lots,\nIn this kitchen, magic’s made,\nEvery meal, a grand parade!\nWe’re cooking up a storm,\nWith warmth in every form,\nA dash of this, a pinch of that,\nWe jiggle and jive on the countertop mat!\"\n\nSuch a vibrant tune would uplift everyone’s spirit as they navigate their culinary adventures together."
+    },
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "Norm",
+        "question": "Evaluate the kitchen layout and suggest ergonomic adjustments that could enhance functionality and user comfort.",
+        "steps": [],
+        "answer": "The current kitchen layout seems functional yet leaves room for enhancement regarding ergonomics and efficiency. Potential improvements include:\n\n1. **Adjustable Counter Heights:** Introducing adjustable surfaces to suit various user heights would alleviate strain during food prep.\n2. **Optimized Storage Solutions:** Position frequently used items at accessible points to ensure convenience and prevent stretching while reaching into the cabinets.\n3. **Anti-Slip Mats:** Incorporating anti-slip mats in crucial working areas would enhance safety and comfort.\n4. **Task Lighting:** Upgrading lighting around key workspaces, such as the sink and stove, boosts visibility and reduces glare, thereby enhancing cooking comfort.\n5. **Efficient Workflow Design:** Structuring the kitchen into a triangle layout—where the stove, fridge, and sink triangulate—can boost efficiency and minimize unnecessary movement."
+    },
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "Norm",
+        "question": "Assuming the green vegetable on the countertop is a different variety, hypothesize what it might be and propose a dish that could be prepared using it.",
+        "steps": [],
+        "answer": "If the green vegetable isn’t lettuce, it might likely be cabbage, characterized by its sturdy, leafy structure.\n\nA savory dish you could prepare with cabbage is 'Sautéed Cabbage with Garlic and Onion'. Here’s a straightforward recipe:\n\n**Ingredients:**\n- 1 head of Cabbage (shredded)\n- 3 cloves of Garlic (minced)\n- 1 Onion (thinly sliced)\n- 2 tablespoons of Olive oil\n- Salt and pepper (to taste)\n- Red pepper flakes (optional)\n\n**Instructions:**\n1. Heat olive oil in a large skillet over medium heat.\n2. Add minced garlic and sliced onions; sauté until aromatic.\n3. Stir in shredded cabbage, combining with garlic and onions.\n4. Cook for 10-15 minutes, stirring occasionally, until cabbage softens and caramelizes slightly.\n5. Season to preference with salt, pepper, and red pepper flakes, then serve hot as a side or main vegetarian dish."
+    }
+]
+```

@@ -1,0 +1,273 @@
+{
+    "id": "000000146954",
+    "image": "coco/train2017/000000146954.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The scene features several people standing and sitting near a monument. A few of them are enjoying the view underneath colorful umbrellas, with the most prominent one being a large rainbow umbrella. Besides the umbrellas, there are other umbrellas in various colors throughout the scene.\n\nThere are multiple people in the scene, both standing and seated. Some are situated close to the monument, while others are admiring it from a distance. Apart from the people and umbrellas, there is a bicycle parked nearby, along with cars and a bus. Some individuals are carrying backpacks, indicating they might be tourists exploring the area. The presence of umbrellas also suggests that it might be a rainy day."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What impact does the colorful umbrella have on the image?",
+            "steps": [],
+            "answer": "The colorful umbrella has a significant visual impact on the image, as it stands out against the otherwise primarily black and white scene. The umbrella's vibrant colors create a stark contrast, making it the center of attention and adding a lively and cheerful element to the photo. The picture captures a moment where people are admiring a monument or statue, and the presence of the colorful umbrella enriches the overall mood and atmosphere of the scene."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What do you think is going on in this snapshot?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling park, a monument of grandeur stands tall. This rectangular stone structure, topped with a dome, is adorned with a statue depicting a group of people on horseback. The monument, a silent witness to countless stories, is bathed in the soft hues of black and white, adding an air of timelessness to the scene.\n\nIn stark contrast to the monochrome backdrop, a person stands in front of the monument, holding an umbrella that bursts with color. The umbrella, with its vibrant stripes of red, orange, yellow, green, blue, and purple, adds a touch of whimsy to the otherwise solemn setting. It's as if the person is holding a rainbow against the grayscale world.\n\nThe park around them is alive with activity. People are walking around, their forms blurred in the background. Trees dot the landscape, their leaves rustling softly in the breeze. Despite being part of the background, their presence adds depth and life to the scene.\n\nEvery element in this image tells a story - from the imposing monument and vibrant umbrella to the bustling park and its inhabitants. It's a snapshot of life in all its varied hues."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.12242352941176471,
+                0.661328125,
+                0.3696,
+                0.78628125
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.35275294117647055,
+                0.562671875,
+                0.7102352941176471,
+                0.7741250000000001
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.965035294117647,
+                0.629796875,
+                0.9998588235294118,
+                0.70371875
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.14743529411764705,
+                0.6308125,
+                0.21470588235294116,
+                0.6575
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.8660235294117647,
+                0.6519375000000001,
+                0.9132,
+                0.67515625
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.9462588235294118,
+                0.632421875,
+                0.9890352941176471,
+                0.650671875
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.9394117647058824,
+                0.609328125,
+                0.9815529411764706,
+                0.61784375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5759294117647059,
+                0.770453125,
+                0.7252235294117648,
+                0.9393125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.823364705882353,
+                0.624,
+                0.8662588235294119,
+                0.724234375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7876705882352941,
+                0.616859375,
+                0.8054588235294118,
+                0.655375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7621882352941176,
+                0.6078125,
+                0.788329411764706,
+                0.6450625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4636,
+                0.768546875,
+                0.585435294117647,
+                0.9550625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7164,
+                0.615140625,
+                0.7257411764705883,
+                0.6278125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7234588235294118,
+                0.62796875,
+                0.7402117647058825,
+                0.66440625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0936235294117647,
+                0.638296875,
+                0.15390588235294117,
+                0.6775781249999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.14785882352941176,
+                0.6483749999999999,
+                0.19621176470588236,
+                0.68809375
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8183529411764706,
+                0.5956406249999999,
+                0.9186352941176471,
+                0.6410781249999999
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.7304235294117647,
+                0.58915625,
+                0.8236470588235294,
+                0.633078125
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.8169882352941177,
+                0.644328125,
+                0.8369882352941177,
+                0.6833750000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8585411764705883,
+                0.628390625,
+                0.8818588235294118,
+                0.69053125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9088470588235293,
+                0.620328125,
+                0.9296235294117646,
+                0.65378125
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.8870588235294118,
+                0.727390625,
+                0.9276235294117647,
+                0.750109375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8392235294117647,
+                0.69646875,
+                0.9276941176470589,
+                0.7498437499999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.044752941176470586,
+                0.58790625,
+                0.09952941176470588,
+                0.6918124999999999
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.4293176470588235,
+                0.349609375,
+                0.4551058823529412,
+                0.35921875000000003
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.9289882352941177,
+                0.617625,
+                0.9609882352941177,
+                0.62678125
+            ]
+        }
+    ],
+    "hash_id": "608_coco_train2017_000000146954.jpg"
+}

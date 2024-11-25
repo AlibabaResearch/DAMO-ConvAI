@@ -1,0 +1,289 @@
+{
+    "id": "000000048759",
+    "image": "coco/train2017/000000048759.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many vehicles are parked on the side of the road?",
+            "steps": [],
+            "answer": "There are a couple of cars parked on the side of the road."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of vehicle is going around the corner?",
+            "steps": [],
+            "answer": "A long orange bus is going around the corner."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any pedestrians in the image? If so, what are they doing?",
+            "steps": [],
+            "answer": "Yes, there is a woman in the image. She is waiting as the street train cart makes a left turn while another woman is crossing the street when two buses approach the intersection."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many buses are in the image and at what location are they approaching?",
+            "steps": [],
+            "answer": "There are two buses in the image, and they are approaching a small intersection in a city."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the vehicles and pedestrian activity at the intersection?",
+            "steps": [],
+            "answer": "At the intersection, there is a variety of vehicles and pedestrian activity. Two cars can be seen parked on the side of the road, and there are two buses approaching the small intersection. Additionally, a long orange bus is navigating around a corner, and a street train cart is making a left turn.\n\nAs for pedestrian activity, one woman is waiting, possibly for the street train cart to complete its turn, while another woman is crossing the street as the two buses approach the intersection. This scene highlights the typical bustling environment found in urban settings, where various modes of transportation and pedestrians coexist and interact with one another. Such settings require awareness, adherence to traffic rules and regulations, and cooperation among all parties to ensure smooth and safe movement within the city."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The scene depicts a small city intersection with multiple vehicles and pedestrians. Two buses are approaching the intersection, with one of them being a long orange bus going around the corner, while the other resembles a street train cart making a left turn. \n\nSeveral cars are parked on the side of the road, and a few others can be seen in various positions around the intersection. There are at least five cars parked or moving around the buses, as well as a couple of traffic lights to direct traffic. A stop sign is also visible near the corner of the intersection.\n\nA woman is seen crossing the street as the buses approach, and another person is waiting nearby, possibly with a handbag. Additionally, there is a bicycle parked on the sidewalk near the people."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What potential safety issues can be observed in this city scene?",
+            "steps": [],
+            "answer": "In the city scene, there are two buses approaching a small intersection, where a woman is crossing the street. The potential safety issues in this situation include: \n\n1. The possibility of pedestrians and vehicles, especially large ones like buses, colliding at the intersection. This risk is increased when multiple vehicles approach the intersection simultaneously, as they might obstruct the view of each other and pedestrians.\n\n2. The woman is crossing the street while carrying a handbag, which could be distracting or affect her ability to move quickly, increasing the risk of an accident.\n\n3. There are several cars parked on the side of the road, which could make navigating the many parked and moving vehicles more challenging for bus drivers, pedestrians, and other drivers.\n\n4. There are traffic lights, but they might not be visible to all drivers and pedestrians at the scene, considering their small size and position.\n\nTo ensure safety, it's important for pedestrians, drivers, and public transportation operators to be mindful of their surroundings and follow traffic rules, paying attention to traffic signals and signs. Additionally, improving traffic infrastructure, such as clearly visible traffic lights and designated pedestrian crossings, could help prevent accidents in such scenarios."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Analyze the image in a comprehensive and detailed manner.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a vibrant street scene in Seattle, Washington. The main subjects of the image are two vehicles: a bright orange streetcar and a dark blue bus. The streetcar, positioned on the left side of the photo, is heading towards the viewer, while the bus on the right side is moving away.\n\nA pedestrian wearing a yellow jacket and a hard hat can be seen walking on the sidewalk to the right, adding a human element to the urban landscape. The backdrop of the scene is made up of several buildings, including a large gray structure on the left and a red brick building on the right.\n\nThe image also features numerous power lines crisscrossing above and traffic signs scattered throughout, contributing to the bustling city atmosphere. The relative positions of these elements create a dynamic composition that guides the viewer's eye through the scene. \n\nPlease note that this description is based on what can be confidently determined from the image."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.728328125,
+                0.5824791666666667,
+                0.73759375,
+                0.6207708333333333
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.573921875,
+                0.5253958333333333,
+                0.7178281249999999,
+                0.6788958333333334
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.0,
+                0.5121666666666667,
+                0.515734375,
+                0.7446666666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.724875,
+                0.556625,
+                0.7402031250000001,
+                0.6205
+            ]
+        },
+        {
+            "label": "stop sign",
+            "bbox": [
+                0.963890625,
+                0.4457083333333333,
+                0.9990937499999999,
+                0.522
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.9243593750000001,
+                0.4418958333333334,
+                0.9315312500000001,
+                0.4564791666666667
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.8192656250000001,
+                0.49875,
+                0.828265625,
+                0.5066666666666667
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.8420156249999999,
+                0.47277083333333336,
+                0.846671875,
+                0.4903541666666667
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.49078125000000006,
+                0.6067083333333334,
+                0.56346875,
+                0.6762708333333334
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.82246875,
+                0.5646041666666667,
+                1.0,
+                0.9870833333333332
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.0,
+                0.6431041666666667,
+                0.1006875,
+                0.8171875
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.737578125,
+                0.5375416666666666,
+                0.7660312499999999,
+                0.5667291666666666
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.756609375,
+                0.51775,
+                0.7837500000000001,
+                0.5505416666666666
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.5177968749999999,
+                0.5784166666666667,
+                0.57903125,
+                0.6620833333333332
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.711171875,
+                0.5485,
+                0.750734375,
+                0.580375
+            ]
+        },
+        {
+            "label": "train",
+            "bbox": [
+                0.0,
+                0.5194375,
+                0.49359374999999994,
+                0.746375
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.7320625,
+                0.6934583333333334,
+                0.75171875,
+                0.7306041666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.73153125,
+                0.6277916666666666,
+                0.76103125,
+                0.7308125
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.77509375,
+                0.5124583333333333,
+                0.797203125,
+                0.5456249999999999
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8600937500000001,
+                0.5158125,
+                0.881828125,
+                0.5330208333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.9050625,
+                0.5108125,
+                0.913109375,
+                0.5386041666666667
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.833,
+                0.46447916666666667,
+                0.8371875,
+                0.4747291666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.73159375,
+                0.7023958333333333,
+                0.7644375,
+                0.7486041666666666
+            ]
+        }
+    ],
+    "hash_id": "278_coco_train2017_000000048759.jpg"
+}

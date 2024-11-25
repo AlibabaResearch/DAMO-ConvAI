@@ -1,0 +1,79 @@
+[
+  {
+    "image_position": "single",
+    "objects": ["woman"],
+    "skills": ["Existence Ability", "Context Understanding Ability"],
+    "format": "completeness_of_response",
+    "question": "Considering the expression on the woman's face, is it plausible to conclude whether she is smiling or not?",
+    "steps": [
+      {"manipulation": "None", "description": "Analyze the facial expression of the woman in the image."}
+    ],
+    "answer": "Yes, the woman in the kitchen is smiling."
+  },
+  {
+    "image_position": "single",
+    "objects": ["woman", "kitchen"],
+    "skills": ["Context Understanding Ability"],
+    "format": "rationales_generation",
+    "question": "What actions could the woman be undertaking in the kitchen, and provide two rationales for your answer?",
+    "steps": [
+      {"manipulation": "None", "description": "Assess the woman's posture and surroundings to deduce her activity."}
+    ],
+    "answer": "The woman is reaching up and opening a cupboard, likely to retrieve an item like a pot or utensil."
+  },
+  {
+    "image_position": "single",
+    "objects": ["window"],
+    "skills": ["Existence Ability"],
+    "format": "depth_order",
+    "question": "What can you conclude about the window treatments based on the image provided? Are they vertical blinds or another type?",
+    "steps": [
+      {"manipulation": "None", "description": "Examine the window area for any treatment details."}
+    ],
+    "answer": "There are vertical blinds on the windows in the kitchen."
+  },
+  {
+    "image_position": "single",
+    "objects": ["woman", "kitchen"],
+    "skills": ["Context Understanding Ability"],
+    "format": "object_region_matching",
+    "question": "Does the woman seem to be demonstrating her kitchen drawer sets instead of cupboards, based on her actions in the image?",
+    "steps": [
+      {"manipulation": "None", "description": "Evaluate the focus of the woman's actions to determine what she is showing."}
+    ],
+    "answer": "No, the woman is demonstrating her kitchen cupboards, not the drawer sets."
+  },
+  {
+    "image_position": "single",
+    "objects": ["kitchen cabinets"],
+    "skills": ["Context Understanding Ability", "Knowledge Integration Ability"],
+    "format": "instruction_following",
+    "question": "List three advantages of having well-organized cabinets and drawer sets in a kitchen, using your world knowledge.",
+    "steps": [
+      {"manipulation": "None", "description": "Recall the benefits of organizational systems within kitchen spaces."}
+    ],
+    "answer": "1. Improved efficiency in cooking and preparation. 2. Maximization of available space for usability. 3. Easier inventory management for grocery shopping."
+  },
+  {
+    "image_position": "single",
+    "objects": ["woman", "kitchen"],
+    "skills": ["Context Understanding Ability"],
+    "format": "detailed_description",
+    "question": "Compose a relevant and detailed description of the image capturing the woman's interaction in the kitchen.",
+    "steps": [
+      {"manipulation": "None", "description": "Observe the scene for all elements to detail the woman's actions and the kitchen setup."}
+    ],
+    "answer": "In the image, there's a woman standing in a home kitchen. She is smiling as she reaches into a cupboard, surrounded by a refrigerator, a sink, and a microwave. The countertop features various bottles, bowls, and cups. The windows sport vertical blinds, while a potted plant enhances the room's decor."
+  },
+  {
+    "image_position": "single",
+    "objects": ["woman", "kitchen"],
+    "skills": ["Context Understanding Ability", "Behavior Prediction Ability"],
+    "format": "behavior_prediction",
+    "question": "Based on the woman's actions in the kitchen, what intentions might she have? Provide two possible tasks she could be undertaking.",
+    "steps": [
+      {"manipulation": "None", "description": "Analyze her gestures and context to predict her intentions."}
+    ],
+    "answer": "The woman might be intending to grab an item for meal preparation or to set a table, as indicated by her reaching upward within the cabinet."
+  }
+]

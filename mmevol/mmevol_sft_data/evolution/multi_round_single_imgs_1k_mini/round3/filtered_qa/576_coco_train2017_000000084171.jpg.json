@@ -1,0 +1,149 @@
+{
+    "id": "000000084171",
+    "image": "coco/train2017/000000084171.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Describe the following image.",
+            "steps": [],
+            "answer": "In the image, there are two red motorcycles parked on the side of a street. A group of people, including children, are gathered around the motorcycles, with some standing and others sitting. Among the people, there is a man wearing a red shirt standing close to one of the motorcycles, likely admiring it or possibly discussing it with others in the group.\n\nBeyond the motorcycles and the gathering of people, a few chairs can be seen scattered in the area, along with a dining table nearby. A handbag is also noticeable, placed close to one of the chairs."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of social gathering could be taking place in this scene?",
+            "steps": [],
+            "answer": "In the scene, there seems to be an informal social gathering related to motorcycles, possibly a casual motorcycle enthusiasts' meetup or a small event celebrating red motorcycles. A red motorcycle is parked on the street, with a second one nearby, and several people, including a man in a red shirt, are standing or sitting around the area. Some chairs are also present near the motorcycles, indicating that individuals might be planning to spend some time at the location. The presence of a group of kids suggests that the gathering has a friendly and family-oriented atmosphere, where people from different age groups can come together and share their passion or interest in motorcycles."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nDescribe the following image."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling street scene, a red motorcycle stands out with its shiny chrome engine gleaming under the sunlight. The motorcycle's body is a vibrant red, complemented by a black seat that looks both comfortable and stylish. A red windscreen adds to the overall aesthetic of the motorcycle.\n\nThe motorcycle is parked securely on its kickstand, indicating it's at rest while the world moves around it. It's positioned next to a white table and chairs, perhaps suggesting a nearby caf\u00e9 or restaurant where the rider might be enjoying a meal or coffee.\n\nIn the background, people are walking by, adding life and movement to the scene. Their presence provides a contrast to the stationary motorcycle, creating a dynamic interplay between motion and stillness.\n\nOverall, this image captures a moment in time on a lively street, with the red motorcycle as its focal point."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.22473437500000001,
+                0.06237089201877934,
+                0.33353125,
+                0.27525821596244127
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.37678124999999996,
+                0.10183098591549296,
+                0.4466875,
+                0.31769953051643196
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.17715625,
+                0.0004225352112676056,
+                0.22859375,
+                0.05889671361502347
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.30996875,
+                0.024154929577464786,
+                0.440453125,
+                0.10589201877934272
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.1555625,
+                0.1662910798122066,
+                0.78978125,
+                0.9887558685446011
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.67759375,
+                0.0,
+                0.8690468750000001,
+                0.6202347417840376
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.633171875,
+                0.00607981220657277,
+                0.69284375,
+                0.2595305164319249
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.44228125,
+                0.0029107981220657278,
+                0.535390625,
+                0.2063849765258216
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6653749999999999,
+                0.0,
+                0.720671875,
+                0.29514084507042254
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5115624999999999,
+                0.0022535211267605635,
+                0.6342187499999999,
+                0.19100938967136147
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.0,
+                0.37955399061032863,
+                0.163953125,
+                0.9854694835680752
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.227875,
+                0.004248826291079812,
+                0.42065625000000006,
+                0.2551408450704225
+            ]
+        }
+    ],
+    "hash_id": "576_coco_train2017_000000084171.jpg"
+}

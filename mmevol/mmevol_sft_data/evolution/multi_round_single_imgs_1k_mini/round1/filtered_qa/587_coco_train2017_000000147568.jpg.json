@@ -1,0 +1,264 @@
+{
+    "id": "000000147568",
+    "image": "coco/train2017/000000147568.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where is the man sitting in the image?",
+            "steps": [],
+            "answer": "The man is sitting on a bench inside a baseball dugout."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What objects are near the man while he sits on the bench?",
+            "steps": [],
+            "answer": "There are some baseball bats next to the man while he sits on the bench."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the man alone in the baseball dugout or are there others with him?",
+            "steps": [],
+            "answer": "The man is alone, sitting by himself in the baseball dugout."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the man doing while sitting on the bench?",
+            "steps": [],
+            "answer": "While sitting on the bench, the man is eating fruit and using a cellphone."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the purpose of a baseball dugout and how is it designed?",
+            "steps": [],
+            "answer": "A baseball dugout is an area in a baseball field where the team's players and coaches sit when they are not actively participating in the game. It is a space designated for resting, strategizing, and staying out of the field when not on offense or defense. The dugout is typically located on either side of the home plate, with one dugout for the home team and the other for the visiting team.\n\nThe design of a baseball dugout often consists of a covered or partially enclosed structure with benches for seating. Some dugouts also have additional features such as storage areas for team equipment, including gloves, helmets, and bats. The dugouts are purposely designed to be lower than the playing field to protect players from foul balls and to provide a clear line of sight for the audience. The cover over the dugout also serves as a shelter for players from the weather, such as sun, rain or snow. However, the actual design and materials of dugouts may vary depending on the league or ballpark.\n\nIn summary, the purpose of a baseball dugout is to serve as a designated area for team members to rest, strategize, and store their equipment during a baseball game. The dugout is designed to provide seating and protection from foul balls and weather conditions, with its location and structure varying based on the specific league or ballpark."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image depicts a man sitting on a bench inside a baseball dugout. He seems to be relaxing, enjoying some fruit and using his cell phone. There are several baseball bats placed next to the bench, emphasizing the sports setting. \n\nA few chairs are located in the dugout, one near the man and another further back. Additionally, numerous cups and an apple can be spotted throughout the scene, likely belonging to the players. At the edge of the dugout, there is a baseball glove, signifying that players are ready for the game. Overall, the setting suggests downtime in between innings or before the game."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is a plausible reason for the man to be by himself in the baseball dugout?",
+            "steps": [],
+            "answer": "A plausible reason for the man sitting alone in the baseball dugout could be that he is taking a break from the game or practice. In the image, the man is sitting on a bench next to several baseball bats, and he is using a cellphone while eating fruit. He could be resting, gathering his thoughts, strategizing for the next innings, or keeping himself updated or entertained during downtime. Players often use such breaks to recharge physically and mentally, communicate with friends or family, or attend to personal matters before getting back to the game."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What's happening in the scene?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a green dugout, a man finds solace on a wooden bench. His attire is simple, yet striking - a black shirt paired with red socks. In his right hand, he holds a sandwich, perhaps his lunch or a snack. His left hand grips a microphone, suggesting he might be a commentator or an announcer for a game.\n\nThe dugout is not pristine. Scattered around the bench are several empty water bottles, remnants of past hydration breaks. In the background, a cooler stands ready to quench the thirst of those who seek it.\n\nThe dugout itself is framed by a metal railing, providing a boundary between the occupants and the field beyond. The man seems at ease in this setting, comfortable amidst the chaos of the game outside."
+        }
+    ],
+    "det": [
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.603234375,
+                0.4999791666666667,
+                0.6271718749999999,
+                0.5147916666666668
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.579390625,
+                0.28845833333333337,
+                0.7701875,
+                0.6488333333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.95790625,
+                0.39941666666666664,
+                1.0,
+                0.5352083333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.185390625,
+                0.2045,
+                0.62021875,
+                0.9842708333333334
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.0,
+                0.5932499999999999,
+                0.5174218749999999,
+                0.9887708333333334
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.4971875,
+                0.758875,
+                0.684265625,
+                0.9858333333333333
+            ]
+        },
+        {
+            "label": "baseball bat",
+            "bbox": [
+                0.187078125,
+                0.5438124999999999,
+                0.367421875,
+                0.9887708333333334
+            ]
+        },
+        {
+            "label": "baseball bat",
+            "bbox": [
+                0.191265625,
+                0.42420833333333335,
+                0.913625,
+                1.0
+            ]
+        },
+        {
+            "label": "baseball bat",
+            "bbox": [
+                0.26749999999999996,
+                0.6043958333333334,
+                0.419859375,
+                0.9881458333333334
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.39270312500000004,
+                0.11841666666666667,
+                0.4449375,
+                0.17010416666666667
+            ]
+        },
+        {
+            "label": "baseball glove",
+            "bbox": [
+                0.0,
+                0.8477083333333333,
+                0.03565625,
+                0.9549583333333334
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.7543124999999999,
+                0.8637083333333333,
+                0.79203125,
+                0.909375
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.8110156249999999,
+                0.8189375,
+                0.8397812499999999,
+                0.8613541666666666
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.8560000000000001,
+                0.8495208333333333,
+                0.8763125,
+                0.8924583333333334
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.87265625,
+                0.7497916666666666,
+                0.9036093749999999,
+                0.7910625
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.752125,
+                0.9603541666666667,
+                0.800453125,
+                0.9999375
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.82596875,
+                0.8441458333333334,
+                0.8610312500000001,
+                0.8961041666666667
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.578171875,
+                0.4532291666666667,
+                0.602171875,
+                0.4842916666666667
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.864625,
+                0.7908541666666667,
+                0.9035624999999999,
+                0.8222083333333334
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.78496875,
+                0.9252291666666667,
+                0.83365625,
+                0.9720625
+            ]
+        }
+    ],
+    "hash_id": "587_coco_train2017_000000147568.jpg"
+}

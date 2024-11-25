@@ -1,0 +1,102 @@
+```json
+[
+    {
+        "image_position": "single",
+        "objects": ["diagram", "letter"],
+        "skills": ["Context Understanding Ability", "Text Detection"],
+        "format": "multi-choice",
+        "question": "The diagram shows the solstices and equinoxes on Earth. Which letter represents the winter solstice? \nA) A \nB) C \nC) E \nD) F",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Identify the letter marked for the Winter Solstice in the diagram."
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "image_position": "single",
+        "objects": ["diagram", "event"],
+        "skills": ["Context Understanding Ability", "Knowledge Integration Ability"],
+        "format": "rationales_generation",
+        "question": "Explain why the letter 'E' represents the Winter Solstice in the diagram. Provide at least two reasons.",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Understand the context of Winter Solstice occurring on December 21, 2013, at 12:11 PM EST."
+            },
+            {
+                "manipulation": "None",
+                "description": "Recognize the labeling convention in the diagram marking significant astronomic events."
+            }
+        ],
+        "answer": [
+            "The Winter Solstice, marked by 'E', occurs on December 21, 2013, which is the shortest day of the year.",
+            "This labeling method is typical for astronomic diagrams indicating major seasonal transitions."
+        ]
+    },
+    {
+        "image_position": "single",
+        "objects": ["diagram", "daylight"],
+        "skills": ["Context Understanding Ability", "Knowledge Integration Ability"],
+        "format": "completeness_of_response",
+        "question": "Does the diagram fully illustrate how daylight changes throughout the year including both solstices and equinoxes?",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Examine how the diagram marks the Summer and Winter Solstices along with Vernal and Autumnal Equinoxes."
+            }
+        ],
+        "answer": "Yes, it outlines the fluctuation of daylight duration, with longer days in summer and shorter in winter."
+    },
+    {
+        "image_position": "single",
+        "objects": ["equinox", "Vernal Equinox"],
+        "skills": ["Knowledge Integration Ability", "Context Understanding Ability"],
+        "format": "rationales_generation",
+        "question": "Explain what happens during the Vernal Equinox. Highlight two key points.",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Understand the occurrence of equal day and night during the Vernal Equinox around March 20th."
+            },
+            {
+                "manipulation": "None",
+                "description": "Recognize the significance of this event marking the start of spring in the Northern Hemisphere."
+            }
+        ],
+        "answer": [
+            "During the Vernal Equinox, there is an equal duration of day and night.",
+            "It marks the beginning of spring in the Northern Hemisphere."
+        ]
+    },
+    {
+        "image_position": "single",
+        "objects": ["diagram", "dates"],
+        "skills": ["Context Understanding Ability", "Knowledge Integration Ability"],
+        "format": "multi-choice",
+        "question": "What significant information does this diagram convey about the dates of equinoxes and solstices? \nA) Internal weather patterns \nB) Exact times for Earth's seasonal cycles \nC) Geographical variations \nD) Specific dates and times for each equinox and solstice",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Analyze the diagram for dates and times of seasonal changes, such as the Summer Solstice on June 21st."
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "image_position": "single",
+        "objects": ["solstices", "seasons"],
+        "skills": ["Knowledge Integration Ability", "Context Understanding Ability"],
+        "format": "text_image_matching",
+        "question": "Explain how solstices affect seasonal changes. Does the image match the explanation: {Solstices mark transitions into summer and winter, influencing temperature and daylight hours}?",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Understand how the Summer Solstice brings extended daylight, while the Winter Solstice leads to colder weather."
+            }
+        ],
+        "answer": "Yes, the image matches this explanation, showing solstices as pivotal to seasonal progression."
+    }
+]
+```

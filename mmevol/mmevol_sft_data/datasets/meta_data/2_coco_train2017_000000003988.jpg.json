@@ -1,0 +1,262 @@
+{
+    "id": "000000003988",
+    "image": "coco/train2017/000000003988.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the woman doing in the image?",
+            "steps": [],
+            "answer": "The woman in the image is riding a bicycle while holding a mobile phone to her ear and talking on the phone."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What additional feature does the woman's bicycle have?",
+            "steps": [],
+            "answer": "The woman's bicycle has a basket, providing her with a convenient space to carry items during her rides."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the woman using any hands-free device to talk on her phone?",
+            "steps": [],
+            "answer": "No, the woman is not using a hands-free device; she is holding the mobile phone to her ear while riding her bicycle."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is it safe to ride a bicycle while holding a mobile phone to your ear?",
+            "steps": [],
+            "answer": "Riding a bicycle while holding a mobile phone to your ear is generally considered unsafe. It can lead to several risks and issues, such as:\n\n1. Reduced attention: Holding a phone while talking and riding a bicycle diverts the rider's attention between the call and their surroundings. This can lead to slower reaction times to obstacles or other road users, making it more challenging to avoid accidents.\n\n2. Limited control: When holding a phone to the ear, the rider has only one hand available to grip the handlebars. This compromises overall control and stability, particularly when making turns, braking, or changing hand positions, which can lead to an increased risk of losing balance, falls, or collisions.\n\n3. Breaking the law: In some jurisdictions, using a handheld mobile device while cycling is against the law, and violators may face fines or penalties.\n\nTo improve safety while making calls during a ride, cyclists should consider using hands-free devices, such as Bluetooth earpieces or headphones, enabling them to maintain full control of the bicycle and better focus on their surroundings. Alternatively, if a phone call is crucial, it is advisable for the cyclist to stop riding and complete the call before continuing their journey."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image depicts a woman riding a bicycle with a basket, talking on a cell phone held to her ear. She is among several other people walking and biking on the busy street. There is a diverse mix of vehicles \u2013 a car, a bus, and a truck are all visible in the scene, suggesting an urban setting. In the background, a traffic light can be noticed up high.\n\nOther elements include another bicycle parked separately, a person carrying a handbag, and multiple individuals engaged in various activities, such as walking, biking or waiting. This creates a lively, bustling atmosphere to the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the woman's action safe considering the potential risks and distractions on the road?",
+            "steps": [],
+            "answer": "No, the woman's action of talking on her cell phone while riding her bicycle is not safe. Using a cell phone while riding a bicycle can be a distraction and negatively affect her focus on the road, as well as her balance while riding. The image shows a busy street with numerous pedestrians, cars, a bus, and a truck, highlighting the importance of maintaining full attention on potential risks and surroundings. In such a complex environment, it's important for cyclists and all road users alike to avoid distractions like cell phone usage to ensure their safety and the safety of others."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What's happening in the scene?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a moment on a bustling street in London. The main subject is a woman in a white coat, confidently navigating the busy road on her bicycle. She is in the process of adjusting her glasses with her left hand, perhaps to get a better view of her surroundings. The bicycle she's riding is equipped with a basket on the handlebars, ready to carry any items she might need for her journey.\n\nThe background of the image provides context to the setting. A red double-decker bus, an iconic symbol of London, is visible behind the woman. This suggests that she is riding in the center of the street, with the bus and other vehicles to her left. To her right, several pedestrians can be seen walking on the sidewalk, adding to the urban atmosphere of the scene.\n\nThe image also includes text that reads \"Another red bus\" and \"Go Ahead London\", further emphasizing the location and setting of this moment. The overall composition of the image paints a vivid picture of daily life in London."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.37786749482401655,
+                0.464359375,
+                0.7078053830227743,
+                0.936484375
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.008550724637681159,
+                0.15232812499999998,
+                0.14248447204968942,
+                0.378140625
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.538944099378882,
+                0.0045,
+                1.0,
+                0.42471875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4061076604554866,
+                0.22168749999999998,
+                0.7203312629399586,
+                0.8346718750000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.22650103519668738,
+                0.14903125,
+                0.2804968944099379,
+                0.283515625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2846997929606625,
+                0.138453125,
+                0.3651552795031056,
+                0.280671875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3822360248447205,
+                0.16498437500000002,
+                0.4556521739130435,
+                0.321375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.07084886128364389,
+                0.114390625,
+                0.11908902691511386,
+                0.152609375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.04859213250517598,
+                0.09334375,
+                0.0734368530020704,
+                0.132265625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.04906832298136646,
+                0.109265625,
+                0.08118012422360249,
+                0.16510937500000003
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.0,
+                0.026968750000000003,
+                0.13399585921325052,
+                0.36629687499999997
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.2733333333333334,
+                0.000671875,
+                0.319192546583851,
+                0.0455
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.44204968944099376,
+                0.28453125,
+                0.46807453416149064,
+                0.323265625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.328592132505176,
+                0.10140625,
+                0.36824016563147,
+                0.230109375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4380538302277433,
+                0.0936875,
+                0.4578467908902692,
+                0.10728125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2713664596273292,
+                0.173265625,
+                0.29053830227743266,
+                0.23329687500000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.14892339544513458,
+                0.100421875,
+                0.19594202898550728,
+                0.23981249999999998
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.21233954451345757,
+                0.22156250000000002,
+                0.27312629399585925,
+                0.26970312500000004
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4623188405797102,
+                0.095703125,
+                0.4953209109730849,
+                0.18707812499999998
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.3625465838509317,
+                0.15853124999999998,
+                0.4115113871635611,
+                0.19514062499999998
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.11467908902691512,
+                0.12065624999999999,
+                0.18836438923395446,
+                0.283828125
+            ]
+        }
+    ],
+    "hash_id": "2_coco_train2017_000000003988.jpg"
+}

@@ -1,0 +1,415 @@
+{
+    "id": "000000170962",
+    "image": "coco/train2017/000000170962.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How might the atmosphere be during this gathering?",
+            "steps": [],
+            "answer": "Based on the image, the atmosphere during this gathering is likely to be lively and enjoyable. The people are seated around a long wooden dining table that is filled with different food items and drinks, including pizza, cups, bowls, and wine glasses. The presence of wine glasses suggests that the guests might be relaxed and enjoying a casual evening with friends. They are engaged in conversation, and some are smiling, reinforcing the warm and welcoming vibe. This setting is highly conducive to socializing, enjoying shared dishes, and creating a strong sense of camaraderie among the attendees."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a warmly lit restaurant, a group of 10 people are gathered around a long table, sharing a meal and creating memories. The table, adorned with a pristine white tablecloth, is set meticulously with gleaming silverware, polished glasses, and plates awaiting the feast. \n\nThe individuals at the table are all smiles, their faces glowing with joy and camaraderie. They are dressed casually, their attire a vibrant palette of greens, blues, and reds that add to the lively atmosphere. \n\nThe restaurant itself exudes a cozy ambiance with its warm orange walls. A lush green plant in the background adds a touch of nature to the indoor setting. The scene is a snapshot of good food, great company, and an evening well spent."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.46470312500000005,
+                0.6217505470459518,
+                0.5051093750000001,
+                0.8028884026258205
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9288437500000001,
+                0.29479212253829323,
+                0.991015625,
+                0.4754485776805252
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.23185937499999998,
+                0.34078774617067836,
+                0.811515625,
+                0.985492341356674
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.4035,
+                0.8570678336980306,
+                0.46164062499999997,
+                0.9980525164113786
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.645828125,
+                0.7489277899343545,
+                0.697546875,
+                0.9106345733041574
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.442078125,
+                0.4843107221006565,
+                0.475203125,
+                0.598074398249453
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.47034374999999995,
+                0.35266958424507655,
+                0.49196874999999995,
+                0.3923194748358862
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.344859375,
+                0.6227352297592997,
+                0.417484375,
+                0.6551203501094092
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.326078125,
+                0.5713785557986871,
+                0.353734375,
+                0.5783369803063457
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.33075,
+                0.5334135667396062,
+                0.43420312499999997,
+                0.592910284463895
+            ]
+        },
+        {
+            "label": "pizza",
+            "bbox": [
+                0.42523437499999994,
+                0.7887746170678338,
+                0.61778125,
+                0.9595404814004378
+            ]
+        },
+        {
+            "label": "pizza",
+            "bbox": [
+                0.41643749999999996,
+                0.4462582056892779,
+                0.44784375,
+                0.48466083150984685
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.84028125,
+                0.4737199124726477,
+                1.0,
+                0.997964989059081
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.565625,
+                0.1747921225382932,
+                0.755046875,
+                0.5061269146608315
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.577671875,
+                0.17266958424507658,
+                0.669125,
+                0.35693654266958424
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.4803125,
+                0.5911159737417943,
+                0.519125,
+                0.6508315098468271
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.521375,
+                0.28713347921225385,
+                0.543046875,
+                0.3537855579868709
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.5593281250000001,
+                0.46708971553610507,
+                0.592203125,
+                0.5668490153172867
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.47131249999999997,
+                0.2800875273522976,
+                0.49096874999999995,
+                0.3460393873085339
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.600671875,
+                0.5147045951859957,
+                0.679515625,
+                0.5426695842450766
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.255625,
+                0.8484682713347921,
+                0.32632812499999997,
+                0.882253829321663
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.647140625,
+                0.8680743982494529,
+                0.748046875,
+                0.9477899343544858
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.590640625,
+                0.4881400437636762,
+                0.65784375,
+                0.5056017505470459
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.4126875,
+                0.3765645514223195,
+                0.58928125,
+                0.5277680525164113
+            ]
+        },
+        {
+            "label": "pizza",
+            "bbox": [
+                0.58096875,
+                0.49789934354485776,
+                0.6408437499999999,
+                0.5382932166301969
+            ]
+        },
+        {
+            "label": "pizza",
+            "bbox": [
+                0.43009375,
+                0.3906345733041576,
+                0.46068749999999997,
+                0.42741794310722103
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.702828125,
+                0.2539387308533917,
+                0.95475,
+                0.9865207877461708
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.337,
+                0.18415754923413566,
+                0.42846875000000006,
+                0.4031509846827134
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.27868750000000003,
+                0.187636761487965,
+                0.4259375,
+                0.5034792122538293
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0048125,
+                0.2786433260393873,
+                0.37067187500000004,
+                0.9887746170678338
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.134984375,
+                0.24735229759299782,
+                0.33753124999999995,
+                0.7403501094091904
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.683578125,
+                0.0325164113785558,
+                0.91178125,
+                0.29037199124726476
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.637875,
+                0.2300875273522976,
+                0.810734375,
+                0.6078774617067834
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.46234374999999994,
+                0.3935448577680525,
+                0.49198437500000003,
+                0.5451422319474836
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.49371875000000004,
+                0.329343544857768,
+                0.5047187500000001,
+                0.3805251641137855
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.59975,
+                0.830437636761488,
+                0.65959375,
+                1.0
+            ]
+        },
+        {
+            "label": "pizza",
+            "bbox": [
+                0.558390625,
+                0.43240700218818384,
+                0.608484375,
+                0.47986870897155365
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.49770312499999997,
+                0.374398249452954,
+                0.525203125,
+                0.434835886214442
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.5137343750000001,
+                0.8278993435448578,
+                0.573625,
+                1.0
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.7323593749999999,
+                0.6321881838074399,
+                0.756921875,
+                0.666586433260394
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.1847702407002188,
+                0.071640625,
+                0.33172866520787747
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.684515625,
+                0.8631509846827133,
+                0.697078125,
+                0.8958643326039386
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.13474999999999998,
+                0.37122538293216634,
+                0.15259375,
+                0.5088183807439824
+            ]
+        }
+    ],
+    "hash_id": "902_coco_train2017_000000170962.jpg"
+}

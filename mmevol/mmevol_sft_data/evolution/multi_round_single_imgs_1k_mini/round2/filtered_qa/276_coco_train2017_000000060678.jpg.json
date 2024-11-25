@@ -1,0 +1,301 @@
+{
+    "id": "000000060678",
+    "image": "coco/train2017/000000060678.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many dogs is the woman walking in the image?",
+            "steps": [],
+            "answer": "The woman in the image is walking two dogs."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What breed of dog is she walking?",
+            "steps": [],
+            "answer": "One of the dogs she is walking is a beagle."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of the image?",
+            "steps": [],
+            "answer": "The setting of the image is a small city street with vehicles and pedestrians."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the woman walking the dogs on or off-leash?",
+            "steps": [],
+            "answer": "The woman is walking the dogs on a leash."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are some other visible elements in this street scene?",
+            "steps": [],
+            "answer": "In this street scene, besides the woman walking her two dogs, there are other pedestrians walking around, vehicles parked or moving along the street, and an urban setting with buildings and sidewalks."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "The image presents a bustling urban street scene with several people going about their day. In the middle of the scene, there is a woman walking two dogs on leashes, one slightly larger than the other. They appear to be enjoying their stroll down the sidewalk.\n\nThere are a variety of parked vehicles around the street including cars, a truck, and even a bicycle locked up to a post. Several people can be seen standing or walking along the sidewalk, and some of them carry items like handbags and backpacks.\n\nLastly, there is a fire hydrant near the left side of the street, further enhancing the city vibe."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What safety precautions should the woman with the dogs be aware of while walking on this city street?",
+            "steps": [],
+            "answer": "While walking her two dogs on a leash in the city street, the woman should be aware of several safety precautions to ensure her and her dogs' safety. Firstly, she should look out for traffic, such as cars, trucks, and bicycles on the street, as some of them could be moving fast or making turns. This will help her avoid potential accidents and keep her dogs secure. She should also be mindful of all pedestrians sharing the sidewalk or near her path to avoid causing inconvenience, collisions, or entanglements with her dogs' leashes. Additionally, walking with a handbag and a backpack may require extra attention to ensure that her belongings are secure and she is less vulnerable to theft or pickpocketing. Lastly, maintaining control over her dogs and ensuring that they are well-behaved and not causing harm or inconvenience to others is essential for a safe and enjoyable walk in the city."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat is this photo about'?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city, life unfolds in vibrant color and motion. A woman, clad in a beige coat, strolls down the sidewalk, her black and white spotted dog leading the way. The dog, curious and alert, sniffs at a trash can they pass by. \n\nOn the street beside them, cars are parked in an orderly fashion. A black car and a red car stand out among them, gleaming under the bright sunlight. The buildings tower in the background, their windows reflecting the clear blue sky. \n\nTrees line the sidewalk, providing shade and a touch of nature amidst the urban landscape. The sun shines brightly overhead, casting long shadows and bathing everything in a warm glow. This is a day like any other in the city, a snapshot of everyday life."
+        }
+    ],
+    "det": [
+        {
+            "label": "dog",
+            "bbox": [
+                0.45287499999999997,
+                0.5272833723653396,
+                0.53375,
+                0.6929274004683841
+            ]
+        },
+        {
+            "label": "dog",
+            "bbox": [
+                0.443453125,
+                0.5056206088992974,
+                0.53309375,
+                0.6448946135831382
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.6681250000000001,
+                0.42601873536299767,
+                0.67871875,
+                0.4750117096018735
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.185703125,
+                0.40192037470725994,
+                0.42995312499999994,
+                0.634496487119438
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.157484375,
+                0.3508899297423888,
+                0.49107812500000003,
+                0.5336299765807963
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6504218749999999,
+                0.3611709601873536,
+                0.6800468749999999,
+                0.46819672131147544
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.537375,
+                0.3645433255269321,
+                0.56075,
+                0.4751756440281031
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0015,
+                0.42920374707259956,
+                0.166421875,
+                0.9887587822014052
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5427500000000001,
+                0.3438173302107728,
+                0.61321875,
+                0.6584309133489461
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.466671875,
+                0.411288056206089,
+                0.5190781250000001,
+                0.564871194379391
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.092859375,
+                0.3816393442622951,
+                0.1113125,
+                0.399976580796253
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.38270312500000003,
+                0.31976580796252924,
+                0.462703125,
+                0.4008196721311475
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.554765625,
+                0.3849180327868853,
+                0.599796875,
+                0.5385011709601873
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.143953125,
+                0.5966744730679157,
+                0.225921875,
+                0.7626932084309134
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.3339375,
+                0.37175644028103044,
+                0.374578125,
+                0.39494145199063235
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.548078125,
+                0.3900702576112412,
+                0.56171875,
+                0.4187822014051522
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.02553125,
+                0.38742388758782204,
+                0.193953125,
+                0.5247775175644028
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.49192187499999995,
+                0.37276346604215455,
+                0.5035624999999999,
+                0.3857611241217799
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.34182812500000004,
+                0.3882903981264637,
+                0.39065625000000004,
+                0.40681498829039814
+            ]
+        },
+        {
+            "label": "fire hydrant",
+            "bbox": [
+                0.43621875,
+                0.39936768149882906,
+                0.47689062500000007,
+                0.6095784543325528
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.60075,
+                0.3643325526932084,
+                0.6119687500000001,
+                0.4063700234192037
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.609984375,
+                0.35936768149882903,
+                0.621734375,
+                0.40859484777517563
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.28107812499999996,
+                0.38573770491803283,
+                0.29017187499999997,
+                0.40887587822014054
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.137125,
+                0.5934660421545668,
+                0.22665625,
+                0.7557611241217798
+            ]
+        }
+    ],
+    "hash_id": "276_coco_train2017_000000060678.jpg"
+}

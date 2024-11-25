@@ -1,0 +1,208 @@
+{
+    "id": "000000188009",
+    "image": "coco/train2017/000000188009.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the man doing in this image?",
+            "steps": [],
+            "answer": "The man in this image is skateboarding around and between white traffic cones, maneuvering through obstacles set up as an obstacle course."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the color of the man's shirt?",
+            "steps": [],
+            "answer": "The man is wearing a white shirt."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the primary purpose of the white cones in the image?",
+            "steps": [],
+            "answer": "The primary purpose of the white cones in the image is to serve as obstacles or markers, which the man on the skateboard must navigate and maneuver around as part of the obstacle course challenge."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What skills does maneuvering through obstacles on a skateboard demonstrate?",
+            "steps": [],
+            "answer": "Maneuvering through obstacles on a skateboard demonstrates several skills, including balance, agility, coordination, speed, and control. This kind of activity might also showcase the person's ability to respond and adapt to changing environments, anticipate and react to obstacles, and use their body movements to maintain stability and control the skateboard effectively.\n\nPracticing and mastering these skills can help skateboarders improve their overall performance in different aspects of skateboarding, such as performing complex tricks or negotiating different terrains, e.g., street skateboarding, skate ramps, or skate parks. In addition, regularly engaging in such obstacle course challenges can help build physical strength, endurance, and mental focus, which are essential elements of skateboarding proficiency."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The image features a man in a white shirt skillfully skateboarding through an obstacle course of white traffic cones. He can be seen navigating the cones with precision, demonstrating his ability to maneuver around obstacles on his skateboard.\n\nApart from the main subject, there are several other people scattered throughout the scene. Some are standing closer to the skateboarder, while others appear to be further in the background. Two cars are also in the vicinity, along with multiple suitcases placed throughout the area. A laptop can be spotted nearby, perhaps belonging to one of the individuals watching the skateboarding event."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Besides skateboarding, what other activities are happening nearby?",
+            "steps": [],
+            "answer": "In the scene, apart from the man skateboarding between traffic cones, there are a few other people, some suitcases, and cars in the area. It seems that there are individuals engaging in different activities, possibly traveling, socializing, or simply passing by. Though it is not explicitly clear what they are doing, the presence of suitcases suggests that people might be coming or going from a place, and the cars present indicate that there could be driving or parking happening in the surrounding area."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of an urban jungle, a young man is captured in the midst of a thrilling ride on his skateboard. He's donned in a crisp white helmet for safety, matching his white t-shirt that proudly displays the word \"Longboard\". His focus is intense as he skillfully maneuvers around a series of orange cones, set up as obstacles on the sunlit street.\n\nIn the background, the street extends into a blur of motion, where other skateboarding enthusiasts can be seen, their figures slightly blurred due to the distance. The scene is framed by lush green trees on one side and nondescript buildings on the other, adding depth and context to this dynamic snapshot of urban life.\n\nThe image is taken from a low angle, making the skateboarder appear larger and more imposing. This perspective also emphasizes the orange cones, their bright color contrasting sharply with the gray asphalt. The overall composition of the image conveys a sense of speed, skill, and the sheer joy of skateboarding."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.4368125,
+                0.36124121779859486,
+                0.5729375,
+                0.8455503512880562
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6536562499999999,
+                0.010140515222482436,
+                0.912125,
+                0.8840046838407494
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.653109375,
+                0.46545667447306793,
+                0.75725,
+                0.6586416861826698
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8596406249999999,
+                0.3873536299765808,
+                0.9352499999999999,
+                0.8872599531615926
+            ]
+        },
+        {
+            "label": "skateboard",
+            "bbox": [
+                0.736828125,
+                0.8773770491803279,
+                0.8877656249999999,
+                0.9486651053864168
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.527859375,
+                0.5869555035128805,
+                0.6172656249999999,
+                0.6788992974238875
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.3544375,
+                0.8040983606557378,
+                0.4454375,
+                0.9130444964871195
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.5136406250000001,
+                0.8066978922716627,
+                0.59178125,
+                0.9062763466042154
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.4157377049180328,
+                0.08695312499999999,
+                0.9236065573770492
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.20631249999999998,
+                0.7029508196721312,
+                0.37473437499999995,
+                0.8279391100702577
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.576078125,
+                0.5933957845433255,
+                0.6869687499999999,
+                0.836768149882904
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.10192187500000001,
+                0.7252693208430914,
+                0.181,
+                0.9103981264637002
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9029999999999999,
+                0.398384074941452,
+                0.9981406249999999,
+                0.8751053864168619
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.20982812499999998,
+                0.8575409836065574,
+                0.26554687499999996,
+                0.9199531615925058
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.140515625,
+                0.7234660421545668,
+                0.23209375000000004,
+                0.8263934426229508
+            ]
+        }
+    ],
+    "hash_id": "486_coco_train2017_000000188009.jpg"
+}

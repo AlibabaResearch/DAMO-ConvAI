@@ -1,0 +1,157 @@
+{
+    "id": "000000114316",
+    "image": "coco/train2017/000000114316.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "A woman is standing and working in a small kitchen surrounded by various appliances and items. She is holding a water heater while pouring a drink. The kitchen is well-equipped with cabinets, counters, a microwave, and an oven. There is a refrigerator positioned in the background.\n\nScattered around the kitchen are items like a bowl, two cups, and a knife. A television is located on the side, adding to the coziness of the space. A keyboard can also be seen in the room, possibly indicating a work area within this living space. Additionally, there is broccoli located on the counter, suggesting meal preparation is underway."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might the woman be preparing and what appliance might she be using next?",
+            "steps": [],
+            "answer": "The woman in the image is in a small kitchen and appears to be preparing a hot beverage, as she is holding a water heater and standing next to a cup. She might be using the microwave nearby to heat water for the beverage or reheat some food. Additionally, there are bowls, a knife, and broccoli present in the kitchen, which suggests she might also be preparing a meal that involves vegetables. In this case, she could use the oven or the stove for cooking, depending on the recipe she's following."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What's happening in the scene?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy kitchen, a woman stands with her back to us, her right hand skillfully maneuvering a white kettle. She's pouring water into a pot that's waiting on the stove, ready to bubble and steam. The stove, part of a white oven, is nestled between a white fridge on its right and a white sink on its left, all three standing like sentinels against the kitchen's yellow-tiled walls.\n\nThe floor, tiled in pristine white, reflects the soft light in the room. A white microwave and coffee maker share space on the counter, silent companions in the woman's culinary journey. An unexpected guest in this culinary space is a sleek white iMac, stationed next to the sink. It stands out against the traditional kitchen appliances, hinting at a blend of technology and tradition in this warm kitchen scene."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.24691666666666665,
+                0.228953125,
+                0.4726458333333333,
+                0.8456718750000001
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.13722916666666668,
+                0.42357812499999997,
+                0.19970833333333332,
+                0.457828125
+            ]
+        },
+        {
+            "label": "keyboard",
+            "bbox": [
+                0.48166666666666663,
+                0.549015625,
+                0.7334166666666666,
+                0.6191093750000001
+            ]
+        },
+        {
+            "label": "microwave",
+            "bbox": [
+                0.48239583333333336,
+                0.5101093750000001,
+                0.9528125000000001,
+                0.9078593749999999
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.2365,
+                0.42712500000000003,
+                0.2672708333333333,
+                0.45639062500000005
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.6422916666666667,
+                0.49437499999999995,
+                0.6838333333333334,
+                0.5481406249999999
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.5357916666666667,
+                0.49765625,
+                0.631,
+                0.5133125
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.23420833333333332,
+                0.430578125,
+                0.2622291666666667,
+                0.45445312499999996
+            ]
+        },
+        {
+            "label": "broccoli",
+            "bbox": [
+                0.5560833333333334,
+                0.488,
+                0.578125,
+                0.49840625000000005
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.10539583333333334,
+                0.42253125,
+                0.2664166666666667,
+                0.47778125000000005
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.6095208333333333,
+                0.24934375000000003,
+                0.9281458333333333,
+                0.522078125
+            ]
+        },
+        {
+            "label": "broccoli",
+            "bbox": [
+                0.5778541666666667,
+                0.494328125,
+                0.5902916666666668,
+                0.499609375
+            ]
+        },
+        {
+            "label": "refrigerator",
+            "bbox": [
+                0.34600000000000003,
+                0.749078125,
+                0.5352916666666666,
+                1.0
+            ]
+        }
+    ],
+    "hash_id": "94_coco_train2017_000000114316.jpg"
+}

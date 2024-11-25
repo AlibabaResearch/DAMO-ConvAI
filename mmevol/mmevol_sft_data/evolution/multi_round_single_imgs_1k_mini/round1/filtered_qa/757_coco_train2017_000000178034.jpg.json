@@ -1,0 +1,255 @@
+{
+    "id": "000000178034",
+    "image": "coco/train2017/000000178034.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of vehicle is surrounded by zebras?",
+            "steps": [],
+            "answer": "A safari truck or utility vehicle used for tours is surrounded by zebras."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of the image?",
+            "steps": [],
+            "answer": "The setting of the image is a field or an environment where a herd of zebras is roaming, and a safari truck or tour vehicle is driving among them."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many zebras can be seen in the image?",
+            "steps": [],
+            "answer": "The image shows a herd of zebras, which implies that there is a significant number of zebras in the scene. However, without an exact count, I cannot provide a specific number. It is safe to say that there are multiple zebras visible."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What activity might the people in the utility vehicle be participating in?",
+            "steps": [],
+            "answer": "The people in the utility vehicle might be participating in a wildlife safari or a guided tour that allows them to observe and interact with zebras and potentially other animals in their natural habitat. Such experiences enable tourists and nature enthusiasts to learn more about the wildlife, their behavior, and conservation efforts while enjoying the beauty and wonder of the animals at close proximity."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Explain the visual content of the image in great detail.",
+            "steps": [],
+            "answer": "The image captures a unique scene of a herd of zebras surrounding a safari utility vehicle used for tours on a road. The zebras are standing all around the truck, with some closer to the vehicle and others scattered in the field. A few people can be seen in and around the truck, likely observing and enjoying the close encounter with the zebras.\n\nAdditionally, there is a bird perched nearby, possibly attracted by the presence of the zebras. This fascinating interaction between wildlife and human observers creates a memorable moment for the people on the tour."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might be the purpose of the utility vehicle in this setting?",
+            "steps": [],
+            "answer": "The utility vehicle in this setting is likely being used for a safari tour or wildlife observation activity. The truck is surrounded by a large herd of zebras, indicating that the vehicle is in their natural habitat. The presence of multiple people in and around the truck further suggests that they are tourists or guides observing and interacting with the wildlife in a controlled and respectful manner. Safari tours and wildlife activities often involve using specially designed vehicles like this utility truck to navigate diverse terrains and ensure the safety of both the passengers and the animals being observed."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nExplain the visual content of the image in great detail."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a verdant grassland, a scene of nature and human curiosity unfolds. A white safari vehicle, adorned with a blue stripe, ventures into the wild, its pop-up roof revealing eager spectators. At least three individuals can be seen aboard the truck, one of whom stands tall, peering out from the roof to soak in the spectacle around them.\n\nThe spectacle in question is a herd of zebras, their black and white stripes forming a mesmerizing pattern against the light green backdrop of the field. There are at least 20 zebras scattered around the vehicle, their casual demeanor suggesting a sense of harmony between the creatures and their human visitors. Some zebras are even crossing the dirt road right in front of the vehicle, unperturbed by its presence.\n\nAbove them, an overcast sky casts a soft light on the scene, enhancing the serene ambiance of this moment where man and nature meet. The image captures not just a moment, but a story of exploration and respect for the natural world."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.662859375,
+                0.37870892018779345,
+                0.6834687500000001,
+                0.41049295774647887
+            ]
+        },
+        {
+            "label": "zebra",
+            "bbox": [
+                0.16009374999999998,
+                0.5946713615023475,
+                0.296828125,
+                0.6948826291079812
+            ]
+        },
+        {
+            "label": "zebra",
+            "bbox": [
+                0.345109375,
+                0.5474178403755868,
+                0.386953125,
+                0.6343427230046949
+            ]
+        },
+        {
+            "label": "zebra",
+            "bbox": [
+                0.47164062500000004,
+                0.5582863849765258,
+                0.5475937500000001,
+                0.6094835680751174
+            ]
+        },
+        {
+            "label": "zebra",
+            "bbox": [
+                0.7993125,
+                0.5388732394366197,
+                0.8585625,
+                0.6709389671361502
+            ]
+        },
+        {
+            "label": "zebra",
+            "bbox": [
+                0.932640625,
+                0.5218779342723004,
+                1.0,
+                0.6103990610328638
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.59653125,
+                0.3131455399061033,
+                0.81896875,
+                0.7637793427230047
+            ]
+        },
+        {
+            "label": "bird",
+            "bbox": [
+                0.27949999999999997,
+                0.6505399061032864,
+                0.294734375,
+                0.6890845070422535
+            ]
+        },
+        {
+            "label": "zebra",
+            "bbox": [
+                0.026937499999999996,
+                0.5980516431924883,
+                0.066515625,
+                0.6202816901408451
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.69278125,
+                0.37021126760563383,
+                0.731453125,
+                0.4291784037558686
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7170625,
+                0.3673474178403756,
+                0.8022500000000001,
+                0.44077464788732396
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.59671875,
+                0.32469483568075114,
+                0.815984375,
+                0.769413145539906
+            ]
+        },
+        {
+            "label": "zebra",
+            "bbox": [
+                0.0017343750000000002,
+                0.750657276995305,
+                0.24378125,
+                0.987018779342723
+            ]
+        },
+        {
+            "label": "zebra",
+            "bbox": [
+                0.51859375,
+                0.5217370892018779,
+                0.551953125,
+                0.5661971830985916
+            ]
+        },
+        {
+            "label": "zebra",
+            "bbox": [
+                0.267234375,
+                0.5697652582159625,
+                0.344390625,
+                0.6240845070422536
+            ]
+        },
+        {
+            "label": "zebra",
+            "bbox": [
+                0.402046875,
+                0.5497887323943662,
+                0.44228125,
+                0.628943661971831
+            ]
+        },
+        {
+            "label": "zebra",
+            "bbox": [
+                0.09717187499999999,
+                0.5799765258215962,
+                0.15171874999999999,
+                0.6148356807511738
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6507968749999999,
+                0.3887793427230047,
+                0.681875,
+                0.42805164319248823
+            ]
+        },
+        {
+            "label": "zebra",
+            "bbox": [
+                0.359125,
+                0.5616197183098591,
+                0.40653125,
+                0.6328403755868544
+            ]
+        },
+        {
+            "label": "zebra",
+            "bbox": [
+                0.194875,
+                0.5714553990610328,
+                0.27778125,
+                0.6084976525821596
+            ]
+        }
+    ],
+    "hash_id": "757_coco_train2017_000000178034.jpg"
+}

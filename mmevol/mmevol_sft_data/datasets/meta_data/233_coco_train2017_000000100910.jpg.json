@@ -1,0 +1,361 @@
+{
+    "id": "000000100910",
+    "image": "coco/train2017/000000100910.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image showcases a beach scene where several people are enjoying flying bright kites in the open area. The people are not dressed in swimwear, indicating that they may have specifically come to the beach for kite flying. \n\nApart from the people and kites, there are various cars and trucks parked near the beach, with some cars closer to the sand and some slightly farther away. Backpacks are visible on the ground, possibly belonging to the kite flyers, serving as a spot to keep personal belongings while engaging in the fun activity. The beach is spacious and provides the perfect setting for a day of flying kites and spending time outdoors."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How are the people on the beach enjoying their time without swimming?",
+            "steps": [],
+            "answer": "The people on the beach are enjoying their time by flying bright kites in the open area. These kites can be seen in various colors and sizes, adding a fun and engaging activity for the group. Flying kites is a great outdoor activity that allows people to enjoy the beach without necessarily engaging in water-related activities like swimming. The group seems to be having a great time as they maneuver their kites in the sky, socialize, and share this experience together."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Describe the following image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a lively beach scene under a clear sky. At the heart of the scene are several colorful kites soaring high, painting a vibrant picture against the blue expanse. There are at least six kites, each with its own unique design and color. A red and yellow kite with a long tail dances in the wind, while a green one glides smoothly nearby. A rainbow-colored kite adds a splash of multiple colors to the sky.\n\nOn the sandy beach below, people are engaged in various activities. Some are standing, their hands skillfully maneuvering the kites in the sky. Others are walking around or sitting on the sand, perhaps enjoying the spectacle of the kites or simply soaking in the beach atmosphere.\n\nIn the background, houses and trees dot a hill, adding a touch of green to the scene. Alongside the road that runs parallel to the beach, several cars are parked, perhaps belonging to the beachgoers.\n\nOverall, this image beautifully encapsulates a day of fun and relaxation at the beach, with kites flying high and people enjoying their time on the sand."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.40415625000000005,
+                0.6166458333333333,
+                0.452234375,
+                0.6419583333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.466359375,
+                0.6152083333333334,
+                0.49731250000000005,
+                0.6371666666666668
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.7229687499999999,
+                0.6138958333333334,
+                0.774046875,
+                0.6407083333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.676890625,
+                0.6155208333333333,
+                0.71609375,
+                0.6335625
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.4416875,
+                0.6167083333333333,
+                0.4810625,
+                0.6431458333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.55403125,
+                0.6167708333333334,
+                0.5811249999999999,
+                0.6417916666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.202578125,
+                0.5837291666666666,
+                0.230296875,
+                0.7172708333333333
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.43698437500000004,
+                0.15872916666666667,
+                0.474265625,
+                0.19608333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.580453125,
+                0.597125,
+                0.600921875,
+                0.6734791666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.610640625,
+                0.6153125,
+                0.6219218750000001,
+                0.6466458333333335
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.9340624999999999,
+                0.6098333333333333,
+                0.9927031249999999,
+                0.6365208333333334
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.44095312499999995,
+                0.6158541666666667,
+                0.47003125,
+                0.6414166666666666
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.320703125,
+                0.6088541666666667,
+                0.37390625,
+                0.6417291666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.29031250000000003,
+                0.6295000000000001,
+                0.307796875,
+                0.6648958333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.48871875,
+                0.6179791666666666,
+                0.5061718749999999,
+                0.6601041666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.087015625,
+                0.6173541666666666,
+                0.0946875,
+                0.6383749999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6431875,
+                0.6151875,
+                0.654984375,
+                0.6510833333333335
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.505484375,
+                0.615375,
+                0.5156562499999999,
+                0.643125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.019078125,
+                0.6050416666666667,
+                0.028078125,
+                0.6415208333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.651015625,
+                0.6142708333333334,
+                0.68378125,
+                0.6404583333333334
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.230140625,
+                0.6190416666666666,
+                0.40446875000000004,
+                0.6423958333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8339062500000001,
+                0.6140416666666667,
+                0.8684218750000001,
+                0.6375416666666667
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8871874999999999,
+                0.6157083333333334,
+                0.9051562499999999,
+                0.6365625
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.797984375,
+                0.6149791666666666,
+                0.8404375,
+                0.6380208333333334
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.47928125,
+                0.7146458333333333,
+                0.516109375,
+                0.7475208333333332
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.30490625,
+                0.508,
+                0.31723437499999996,
+                0.5274791666666666
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.321421875,
+                0.47539583333333335,
+                0.343078125,
+                0.4935833333333333
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.894671875,
+                0.0455,
+                0.92346875,
+                0.09225
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.904921875,
+                0.6208958333333333,
+                0.910140625,
+                0.6326666666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.098109375,
+                0.6208958333333333,
+                0.10489062499999999,
+                0.6415833333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.17753125,
+                0.6248333333333334,
+                0.204765625,
+                0.6408958333333333
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.5101093750000001,
+                0.7136250000000001,
+                0.551015625,
+                0.7454375
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.44953125,
+                0.7056458333333333,
+                0.48003124999999996,
+                0.741125
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.0032187500000000003,
+                0.0,
+                0.09215625000000001,
+                0.14752083333333335
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.51275,
+                0.609125,
+                0.56096875,
+                0.6698958333333334
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.279296875,
+                0.5565833333333334,
+                0.30621875,
+                0.5721041666666667
+            ]
+        }
+    ],
+    "hash_id": "233_coco_train2017_000000100910.jpg"
+}

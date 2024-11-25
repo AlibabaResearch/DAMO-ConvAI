@@ -1,0 +1,94 @@
+{
+    "id": "000000028251",
+    "image": "coco/train2017/000000028251.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the shape of the ticket booth in the image?",
+            "steps": [],
+            "answer": "The ticket booth in the image is shaped like a large elephant."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the elephant-shaped ticket booth?",
+            "steps": [],
+            "answer": "The elephant-shaped ticket booth is gray."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the object a real elephant or a statue?",
+            "steps": [],
+            "answer": "The object in the image is an elephant statue that is designed to function as a ticket booth, not a real elephant."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the purpose of the elephant-shaped statue?",
+            "steps": [],
+            "answer": "The purpose of the elephant-shaped statue is to serve as a unique and eye-catching ticket booth. By designing the ticket booth with the shape and appearance of an elephant, it not only draws attention to itself but also creates a memorable experience for visitors who purchase tickets from it.\n\nThe use of such an unconventional, creative design could be an effective way for a venue, event, or amusement park to differentiate itself from others, and it might even become a popular attraction or photo opportunity in itself.\n\nThe elephant statue ticket booth demonstrates how blending artistic creativity with practical functionality can result in interesting and engaging structures that stand out from more traditional, ordinary designs. In addition to serving its purpose as a ticket booth, it becomes a charming architectural landmark that adds character to the venue."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What makes the ticket booth a unique and memorable attraction for visitors?",
+            "steps": [],
+            "answer": "The ticket booth is designed to be unique and memorable by being in the shape of a very large gray elephant. This creative design choice makes it stand out from ordinary ticket booths and adds a sense of fun and attraction for visitors. The attention to detail and size of the elephant statue, in combination with its functional purpose as a ticket booth, can leave a lasting impression on visitors and enhance their overall experience at the venue."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you see happening in this image?"
+        },
+        {
+            "from": "gpt",
+            "value": "Here is a detailed description of the image:\n\n- The main object in the image is a **ticket booth** that is uniquely designed in the shape of an **elephant**.\n- The elephant is **gray** in color and has a trunk that is curled upwards, giving it a playful and inviting look.\n- The booth itself is painted in vibrant colors of **yellow** and **blue**, with a bold sign that reads \"**TICKETS**\" prominently displayed.\n- The booth is mounted on a **red platform with wheels**, suggesting it can be moved around as needed.\n- The background setting of the image is a serene **park** with lush green grass and trees, indicating that this could be a fun fair or a carnival setup.\n\nThis description includes the object types, colors, actions, and their precise locations. It also double-checks the relative positions between objects. I hope this helps! \ud83d\ude0a"
+        }
+    ],
+    "det": [
+        {
+            "label": "truck",
+            "bbox": [
+                0.0,
+                0.45883333333333337,
+                0.16275,
+                0.581875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.085890625,
+                0.463125,
+                0.13428125,
+                0.4998958333333334
+            ]
+        },
+        {
+            "label": "elephant",
+            "bbox": [
+                0.22584374999999998,
+                0.12808333333333333,
+                0.857859375,
+                0.8112291666666668
+            ]
+        }
+    ],
+    "hash_id": "435_coco_train2017_000000028251.jpg"
+}

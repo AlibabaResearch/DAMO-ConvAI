@@ -1,0 +1,302 @@
+{
+    "id": "000000206492",
+    "image": "coco/train2017/000000206492.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the person in the image doing?",
+            "steps": [],
+            "answer": "The person in the image, a young man in a black shirt, is sitting at a table enjoying a plate of food, more specifically, calzones."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the man eating indoors or outdoors?",
+            "steps": [],
+            "answer": "The man is eating outdoors in a cafe setting."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there another person eating with the man in the image?",
+            "steps": [],
+            "answer": "Yes, there is an unseen partner eating with the man at the table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe what calzones are and where they originated from?",
+            "steps": [],
+            "answer": "Calzones are a type of Italian folded pizza that originated in Naples, Italy. They consist of a folded circle or rectangle of pizza dough which is filled with various ingredients such as mozzarella cheese, ricotta, tomato sauce, and a selection of meats, vegetables, or other toppings. The filled dough is then sealed, creating a half-moon or rectangular shape, and baked in an oven. \n\nCalzones are similar to pizzas in terms of ingredients and flavors, but they offer a portable, enclosed version that can be eaten with the hands or a knife and fork. They have become a popular dish in Italian cuisine and can be found in various forms and adaptations worldwide. Their name comes from the Italian word \"calzone,\" which means \"stocking\" or \"trouser,\" referring to their folded and stuffed appearance.\n\nThe origins of calzones can be traced back to the 18th century, and they were primarily created as a convenient and portable food option for laborers and workers. Today, they are enjoyed by people of all ages and backgrounds, both as a main course or a snack, and can be found in numerous Italian restaurants and pizzerias, as well as in the outdoor cafe setting shown in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What differences might be seen when compared to a similar scene in an indoor cafe?",
+            "steps": [],
+            "answer": "In this outdoor cafe scene, the diners are enjoying calzones at tables while surrounded by an open environment. Compared to a similar indoor cafe scenario, the outdoor setting would likely provide fresh air, natural lighting, and might allow for street or natural views, potentially creating a more vibrant and relaxed atmosphere. In contrast, an indoor cafe would typically be confined within walls, have artificial lighting, and could feel more intimate or slightly crowded, depending on the cafe's interior design and size. Another possible difference is the ambient noise level; the outdoor cafe might have more sounds from passing traffic, pedestrians, or natural elements such as wind and birds, while an indoor cafe would generally have a more controlled auditory environment."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Describe the following image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling outdoor caf\u00e9, a man with long blonde hair is engrossed in his meal. He's seated at a table draped with a pristine white tablecloth, which contrasts sharply with his black t-shirt adorned with a skull motif. His hand grips a fork, poised to dive into the plate of food before him. Beside the plate, a glass of red wine stands, its rich color reflecting the ambient light.\n\nThe caf\u00e9 is alive with activity. Under a vibrant yellow awning, other patrons are seated at their tables, engaged in conversation and enjoying their meals. The scene is framed by lush green trees and plants, adding a touch of nature to this urban setting. The image captures a moment of tranquility amidst the hustle and bustle, as the man savors his meal under the open sky."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.7546495327102803,
+                0.35765625,
+                0.932196261682243,
+                0.429390625
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.004299065420560748,
+                0.398078125,
+                0.9996728971962616,
+                0.99884375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.25537383177570094,
+                0.10785937500000001,
+                0.8165420560747664,
+                0.51909375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.822570093457944,
+                0.257078125,
+                0.9990654205607478,
+                0.41171875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6821028037383178,
+                0.260609375,
+                0.8175233644859813,
+                0.34825
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8137383177570093,
+                0.258921875,
+                0.8959579439252335,
+                0.330078125
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.1294158878504673,
+                0.397359375,
+                0.2728504672897196,
+                0.5685156250000001
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.8107943925233645,
+                0.306875,
+                0.8311682242990655,
+                0.33465625
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.0015654205607476637,
+                0.649,
+                0.14226635514018693,
+                0.6821718750000001
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.26789719626168224,
+                0.46846875,
+                0.4252102803738318,
+                0.482421875
+            ]
+        },
+        {
+            "label": "pizza",
+            "bbox": [
+                0.3158644859813084,
+                0.687640625,
+                0.5141121495327102,
+                0.8561875000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6088084112149532,
+                0.212109375,
+                0.6691355140186915,
+                0.295953125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7127102803738318,
+                0.24314062500000003,
+                0.7750934579439253,
+                0.271671875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7772663551401869,
+                0.2578125,
+                0.8645560747663552,
+                0.304453125
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.9215186915887851,
+                0.469546875,
+                1.0,
+                0.609546875
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.6495093457943926,
+                0.470734375,
+                0.7188084112149533,
+                0.489546875
+            ]
+        },
+        {
+            "label": "pizza",
+            "bbox": [
+                0.4864018691588785,
+                0.55225,
+                0.7632009345794392,
+                0.7614375
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.02661214953271028,
+                0.3163125,
+                0.2693457943925234,
+                0.3990625
+            ]
+        },
+        {
+            "label": "pizza",
+            "bbox": [
+                0.3796728971962617,
+                0.44301562499999997,
+                0.6710981308411216,
+                0.5180624999999999
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.11172897196261683,
+                0.472125,
+                0.1561214953271028,
+                0.49523437500000006
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.0,
+                0.32921875,
+                0.13205607476635514,
+                0.44514062499999996
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.8098130841121496,
+                0.42365624999999996,
+                0.9914485981308412,
+                0.50390625
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6304906542056076,
+                0.386859375,
+                0.7367990654205608,
+                0.4498125
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.04420560747663552,
+                0.325109375,
+                0.20095794392523367,
+                0.39546875
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.7307009345794393,
+                0.32059375,
+                1.0,
+                0.349125
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.22189252336448598,
+                0.318359375,
+                0.3502570093457944,
+                0.35678125
+            ]
+        }
+    ],
+    "hash_id": "73_coco_train2017_000000206492.jpg"
+}

@@ -1,0 +1,229 @@
+{
+    "id": "000000091926",
+    "image": "coco/train2017/000000091926.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many women are in the image eating food?",
+            "steps": [],
+            "answer": "There are two women in the image eating food."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the two women doing while eating their meal?",
+            "steps": [],
+            "answer": "The two women are sitting while eating their meal, either on a bench or a porch swing."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Does any of the women wear glasses?",
+            "steps": [],
+            "answer": "Yes, one of the women is wearing glasses."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of eating utensils are the women using?",
+            "steps": [],
+            "answer": "The women are using forks and plates to eat their meal."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a group of people gathered in the image or just the two women?",
+            "steps": [],
+            "answer": "The image only depicts the two women eating food, not a larger group of people gathered outside."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The image features a group of people gathered outdoors, with two women sitting at the center of attention, eating food. They are seated on a bench or a porch swing, each with a bowl of food and a fork in their hands. They appear to be actively engaged in conversation while enjoying their meal together.\n\nA few other people can be seen scattered around the scene in various positions, some of them standing and others sitting. Potted plants provide a pleasant, natural touch to the environment with three of them visible in the picture, one close to the left side, and the other two positioned next to each other in the background.\n\nA handbag can also be seen placed on the ground in the foreground, possibly belonging to one of the women enjoying their meal."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What suggestions can be made to improve these ladies' outdoor dining experience?",
+            "steps": [],
+            "answer": "To improve the outdoor dining experience for these two women eating a meal while sitting on a bench, several changes could be implemented:\n\n1. Provide comfortable seating: Instead of a regular bench, a cushioned bench or chairs with back support could be arranged to enhance comfort.\n2. Adjustable shading: Depending on the weather and time of day, having an adjustable umbrella, awning, or canopy would provide shade and protect them from the sun or rain.\n3. Table setup: Adding a small table beside the bench would create a more organized space for their bowls, plates, and utensils. This would also give them a convenient and stable surface to place their food and drinks.\n4. Aesthetic surroundings: Including more potted plants or flowers around the eating area could make the environment more visually appealing and create a pleasant ambiance.\n5. Outdoor lighting: If they choose to have their meal later in the day or in the evening, adequate outdoor lighting could contribute to a comfortable and safe dining experience."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What do you think is going on in this snapshot?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city, two women find a moment of respite on a swing bench. The woman on the left, donned in a black and white polka dot shirt, is engaged in a meal served on a white plate. Her companion, wearing a blue shirt, mirrors her actions on the right. \n\nThe swing bench they occupy is strategically positioned in front of a store, which is guarded by a sturdy metal gate. The store itself is a treasure trove, with various items displayed for sale. \n\nIn the background, two more individuals add to the urban tapestry. One of them is sporting a blue shirt while the other is in white. Their presence subtly underscores the lively atmosphere of the cityscape."
+        }
+    ],
+    "det": [
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.006703125,
+                0.3115143603133159,
+                0.200984375,
+                0.7106005221932115
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.399984375,
+                0.24135770234986945,
+                0.47318750000000004,
+                0.343733681462141
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.396890625,
+                0.26046997389033943,
+                0.42917187500000004,
+                0.33733681462140996
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.43034375,
+                0.28765013054830285,
+                0.653578125,
+                0.9887728459530026
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.143578125,
+                0.25112271540469977,
+                0.464265625,
+                0.9865535248041776
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.662984375,
+                0.11010443864229766,
+                0.806875,
+                0.9730287206266319
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5660937500000001,
+                0.15112271540469974,
+                0.6298281250000001,
+                0.44281984334203656
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.16368146214099216,
+                0.103546875,
+                0.8760313315926892
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.536078125,
+                0.5760835509138381,
+                0.5830624999999999,
+                0.603420365535248
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.514296875,
+                0.6492167101827676,
+                0.623,
+                0.7344386422976502
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.30540625,
+                0.5580156657963447,
+                0.40153125,
+                0.6238381201044386
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.7903125,
+                0.5336292428198434,
+                0.88021875,
+                0.6188250652741514
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.6036718750000001,
+                0.2860052219321149,
+                0.7294218750000001,
+                0.5650913838120105
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5289375,
+                0.18566579634464753,
+                0.57684375,
+                0.309556135770235
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.38290625,
+                0.517597911227154,
+                0.47310937500000005,
+                0.9685639686684074
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.333625,
+                0.501201044386423,
+                0.34964062500000004,
+                0.5238381201044386
+            ]
+        }
+    ],
+    "hash_id": "350_coco_train2017_000000091926.jpg"
+}

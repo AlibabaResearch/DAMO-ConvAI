@@ -1,0 +1,246 @@
+{
+    "id": "000000131915",
+    "image": "coco/train2017/000000131915.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many horses are in the image?",
+            "steps": [],
+            "answer": "There are three horses in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the horses on a sidewalk or in an open field?",
+            "steps": [],
+            "answer": "The horses are standing on a sidewalk."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a person standing with the horses?",
+            "steps": [],
+            "answer": "Yes, there is a person standing with the horses."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the gender of the person standing with the horses?",
+            "steps": [],
+            "answer": "The person standing with the horses is a woman."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of the image? Is it urban or rural?",
+            "steps": [],
+            "answer": "The setting of the image is urban, as the horses and the woman are standing next to a large building."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "Three beautifully decorated ponies are standing outside of a large building, on a sidewalk. Alongside them, a woman is also standing beside the horses, facing the building. There are multiple people in the background, walking around and possibly observing the scene.\n\nAside from the horses and the main woman, another man is standing near the building, seemingly involved in the scene. A bench is situated near the right end of the scene, and a handbag is placed on the ground not far from the main woman. The environment appears to be a lively public area, surrounded by various buildings and people."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Why might these horses and people be gathered on the sidewalk?",
+            "steps": [],
+            "answer": "The image shows a lady along with three decorated ponies standing on the sidewalk, facing a large building. One possible reason for this gathering could be that they are participating in a special event or celebration. The presence of decorated ponies may indicate a festive occasion or a local tradition, and the people around the scene might be joining to watch, engage, or capture the moment. The gathering could also be part of a promotional activity, a parade, or a cultural performance showcasing the relationship between humans and animals, in which horses and their handlers come together in a public space to draw attention and entertain spectators."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a vibrant plaza, under the vast expanse of a clear blue sky dotted with a few white clouds, stands a majestic church. The church, constructed from light-colored stone, dominates the scene with its large dome and twin bell towers reaching towards the heavens.\n\nIn the foreground, two horses, each bearing a rider clad in red and white outfits, add a dynamic element to the scene. They appear to be in motion, walking towards the left side of the image, perhaps indicating the start of a journey or a parade.\n\nThe plaza itself is adorned with nature's beauty. Several palm trees sway gently in the breeze, their slender trunks and leafy crowns adding a tropical charm to the setting. A purple flowering tree stands out amidst the greenery, its vibrant blossoms lending a splash of color to the scene.\n\nThe precise location of each object paints a vivid picture: The church in the background serving as an imposing backdrop, the horses and riders in action in the foreground drawing immediate attention, and the trees scattered around the plaza adding depth and perspective to the overall composition. The relative positions of these objects create a harmonious balance within the frame, making this image not just a mere representation of a place, but a snapshot of life in motion."
+        }
+    ],
+    "det": [
+        {
+            "label": "horse",
+            "bbox": [
+                0.4394145199063232,
+                0.739265625,
+                0.5407962529274004,
+                0.9870625000000001
+            ]
+        },
+        {
+            "label": "horse",
+            "bbox": [
+                0.59096018735363,
+                0.7057187500000001,
+                0.7965105386416862,
+                0.9457187499999999
+            ]
+        },
+        {
+            "label": "horse",
+            "bbox": [
+                0.20192037470725996,
+                0.79125,
+                0.31451990632318505,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7124121779859485,
+                0.672015625,
+                0.8003747072599532,
+                0.8434999999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8461826697892272,
+                0.6723125,
+                0.9388758782201405,
+                0.768359375
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.8268852459016393,
+                0.6834374999999999,
+                1.0,
+                0.756921875
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.7040983606557376,
+                0.70490625,
+                0.7683138173302108,
+                0.782015625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4474473067915691,
+                0.654921875,
+                0.45618266978922717,
+                0.67846875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4142857142857143,
+                0.657296875,
+                0.4253864168618267,
+                0.683421875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3997423887587822,
+                0.656859375,
+                0.41517564402810303,
+                0.68440625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.49784543325526937,
+                0.659,
+                0.5117798594847776,
+                0.68259375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5567915690866511,
+                0.652359375,
+                0.5730679156908665,
+                0.6766875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8128337236533958,
+                0.650953125,
+                0.8351522248243559,
+                0.6850937500000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8252693208430913,
+                0.644296875,
+                0.8384074941451991,
+                0.66509375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.1234192037470726,
+                0.663375,
+                0.14065573770491804,
+                0.697546875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2481264637002342,
+                0.67371875,
+                0.267728337236534,
+                0.7055
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.26934426229508196,
+                0.671015625,
+                0.3036768149882904,
+                0.72059375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8492037470725996,
+                0.643453125,
+                0.8612412177985949,
+                0.665640625
+            ]
+        }
+    ],
+    "hash_id": "695_coco_train2017_000000131915.jpg"
+}

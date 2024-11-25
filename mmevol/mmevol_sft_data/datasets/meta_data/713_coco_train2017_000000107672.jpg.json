@@ -1,0 +1,118 @@
+{
+    "id": "000000107672",
+    "image": "coco/train2017/000000107672.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How is the man preoccupied in the room, and what challenges might the woman face?",
+            "steps": [],
+            "answer": "The man in the room is preoccupied with looking at his cell phone. Meanwhile, the woman is sitting in a chair surrounded by three dogs. The challenge for the woman might be to ensure the comfort and well-being of the dogs while also maintaining her own personal space and comfort. Since dogs can be energetic and require attention, the woman may have to manage their behavior and needs while seated in the chair. Additionally, she may also be responsible for cleaning up any messes the dogs might make or ensuring they do not damage any furniture or belongings in the room."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What do you see happening in this image?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy living room, a scene of companionship unfolds. Two people share their space with three dogs, each engaged in their own activities. The person on the left finds comfort on a black leather couch, cradling a black dog in their lap, a picture of tranquility. \n\nOn the right, another person is captured in a moment of interaction, kneeling on the floor with a phone in hand. Perhaps they're capturing this moment for posterity or simply browsing through the day's events. \n\nA brown dog sits obediently on the floor in front of the couch, its attention seemingly drawn to something off-camera. Another dog, red in color, sits next to the kneeling person, perhaps waiting for a pat or a treat.\n\nThe room itself is painted in soothing shades of green, with a white door standing in the background. Various pieces of furniture and decorations lend character to the space. A colorful painting adorns one wall, adding a splash of vibrancy to the room, while a speaker tucked away in one corner hints at a love for music.\n\nThis image is a snapshot of life, capturing a quiet moment of peace and companionship between humans and their furry friends."
+        }
+    ],
+    "det": [
+        {
+            "label": "dog",
+            "bbox": [
+                0.209328125,
+                0.41683840749414525,
+                0.43553125000000004,
+                0.6094145199063232
+            ]
+        },
+        {
+            "label": "dog",
+            "bbox": [
+                0.264984375,
+                0.8540281030444965,
+                0.4533125,
+                0.9911241217798595
+            ]
+        },
+        {
+            "label": "dog",
+            "bbox": [
+                0.166765625,
+                0.37088992974238877,
+                0.27975000000000005,
+                0.46365339578454334
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.002484375,
+                0.38311475409836065,
+                0.44989062499999993,
+                0.9735597189695551
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.101953125,
+                0.269672131147541,
+                0.34634375,
+                0.9887587822014052
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.48359375,
+                0.2363934426229508,
+                0.7015156250000001,
+                0.8672599531615925
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.49021875000000004,
+                0.3797189695550351,
+                0.51396875,
+                0.4446604215456674
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.8071718750000001,
+                0.6807259953161593,
+                0.872796875,
+                0.7279859484777518
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.003984375,
+                0.34070257611241217,
+                0.036984375,
+                0.6312646370023418
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.0034687500000000005,
+                0.38182669789227164,
+                0.45056250000000003,
+                0.9662295081967213
+            ]
+        }
+    ],
+    "hash_id": "713_coco_train2017_000000107672.jpg"
+}

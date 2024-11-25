@@ -1,0 +1,75 @@
+{
+    "id": "000000131197",
+    "image": "coco/train2017/000000131197.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What could be a likely reason for the woman to be spending time with the sheep?",
+            "steps": [],
+            "answer": "A likely reason for the woman to be spending time with the two sheep in the pen is that she might have a genuine interest in animals, especially farm animals like sheep. She could be a visitor to a farm, where interacting with the sheep is an enjoyable experience for her. Her actions, like bending down to pet and caress a lamb's head, show that she has a gentle and caring behavior towards the animals, suggesting that she appreciates their company and wants to create a positive bond with them. Additionally, her presence in the barn provides an opportunity for learning more about the animals' behavior, habitat, and basic needs. Another possible reason could be that she is the owner or caretaker of the animals, and she is attending to their needs, checking their well-being or providing them affection to maintain their overall health and comfort."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you see happening in this image?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a rustic wooden pen, a woman in a white tank top and blue jeans is tenderly tending to a sheep. She's gently petting the back of the standing sheep, a gesture of care and affection. The pen, filled with golden hay, provides a cozy environment for the sheep. In one corner of the pen, a black bucket is visible, perhaps filled with water or feed for the animals. Not far from the woman and her standing companion, another sheep is comfortably lying down in the hay, enjoying a moment of rest. The scene is one of tranquility and harmony between humans and animals."
+        }
+    ],
+    "det": [
+        {
+            "label": "sheep",
+            "bbox": [
+                0.220171875,
+                0.48668750000000005,
+                0.5873593749999999,
+                0.9180833333333334
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.661296875,
+                0.5612916666666667,
+                0.8532187500000001,
+                0.9182708333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0016875000000000002,
+                0.3550625,
+                0.28314062500000003,
+                0.9393333333333334
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.000265625,
+                0.3472708333333333,
+                0.11084374999999999,
+                0.4893958333333333
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.0,
+                0.34810416666666666,
+                0.11003125,
+                0.4902916666666667
+            ]
+        }
+    ],
+    "hash_id": "847_coco_train2017_000000131197.jpg"
+}

@@ -1,0 +1,199 @@
+{
+    "id": "000000099135",
+    "image": "coco/train2017/000000099135.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the elephant doing in the image?",
+            "steps": [],
+            "answer": "The elephant is eating bananas while standing on a city street, with its trunk reaching for the food. There are people nearby who are watching the elephant."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What food is the elephant eating?",
+            "steps": [],
+            "answer": "The elephant is eating bananas that are lying on the street."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there people close to the elephant in the image?",
+            "steps": [],
+            "answer": "Yes, there are people standing close to the elephant while it is eating, observing its actions."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the elephant interacting with any plants in the image?",
+            "steps": [],
+            "answer": "No, the elephant is not interacting with any plants in the image. It is focused on eating the bananas from the street."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of this image? Is it a natural habitat for an elephant or an urban environment?",
+            "steps": [],
+            "answer": "The setting of the image is a city street, which is an urban environment and not a natural habitat for an elephant."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "An elephant is standing on a city street near several people, attracting their attention. The majestic creature is seen eating bananas that are laying on the street. A total of nine people can be observed in the scene, with some standing closer to the elephant and others observing from a distance. \n\nIn addition to the people and the elephant, there is a bicycle positioned on the left side of the scene. The presence of an elephant in the urban environment creates a unique and engaging sight for the bystanders."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What safety concerns might arise in this situation?",
+            "steps": [],
+            "answer": "In the scene, an elephant is eating bananas from the street while surrounded by people. The safety concern that might arise in this situation is the potential danger to the people near the elephant. Elephants are large, strong animals, and even though they are generally gentle, their size and strength can pose risks to humans in close proximity, particularly in unexpected or unpredictable situations.\n\nAs the elephant is engaged in eating the bananas, it might feel threatened or agitated if it perceives the nearby people as competing for its food or invading its personal space. This could lead to the elephant reacting defensively or aggressively, which would put the people in danger. In such scenarios, it is crucial for people to maintain a safe distance from wild animals, such as elephants, and avoid interacting with them or disturbing them in any way to minimize risks and ensure safety for both humans and animals."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you think is going on in this snapshot?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling Indian street, a majestic gray elephant commands attention. A chain, a symbol of domestication, hangs around its neck. The elephant stands firmly on a concrete sidewalk, its massive form contrasting with the urban landscape of buildings in the background.\n\nA man in a vibrant green shirt and a woman draped in a red sari approach the elephant, their hands extended with bananas - an offering of friendship or perhaps a customary ritual. The elephant, with its long, flexible trunk, reaches out to accept the treat, creating a moment of connection between humans and this gentle giant.\n\nNearby, a bicycle leans casually against a wall, unattended and seemingly forgotten in the excitement of the elephant's presence. In the background, life goes on as usual. People walk down the street, engaged in their daily routines, oblivious or accustomed to the unusual sight.\n\nThis image captures not just an ordinary day in India but also a moment that speaks volumes about the coexistence of humans and animals in shared urban spaces."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.264765625,
+                0.4477701149425287,
+                0.389484375,
+                0.5819080459770115
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9273125,
+                0.40379310344827585,
+                0.9711875000000001,
+                0.5563678160919541
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.18943749999999998,
+                0.2986206896551724,
+                0.29107812499999997,
+                0.7678850574712643
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.060781249999999995,
+                0.5602758620689655,
+                0.28751562500000005,
+                0.9161149425287356
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8813281249999999,
+                0.40147126436781605,
+                0.906265625,
+                0.5263908045977012
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.86353125,
+                0.4031724137931034,
+                0.890859375,
+                0.5365057471264367
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.776921875,
+                0.39149425287356326,
+                0.8342031249999999,
+                0.5722528735632184
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.821484375,
+                0.3987126436781609,
+                0.84059375,
+                0.5477471264367816
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7615624999999999,
+                0.4056551724137931,
+                0.792390625,
+                0.5515632183908046
+            ]
+        },
+        {
+            "label": "elephant",
+            "bbox": [
+                0.36728125,
+                0.11211494252873563,
+                0.7589375,
+                0.8206206896551723
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.788984375,
+                0.4119080459770115,
+                0.8147187499999999,
+                0.5529425287356322
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.26228125,
+                0.7982068965517242,
+                0.392046875,
+                0.9243908045977012
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7365781250000001,
+                0.4459310344827586,
+                0.749765625,
+                0.5607816091954023
+            ]
+        }
+    ],
+    "hash_id": "830_coco_train2017_000000099135.jpg"
+}

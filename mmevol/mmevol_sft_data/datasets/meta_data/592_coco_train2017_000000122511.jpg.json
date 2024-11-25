@@ -1,0 +1,271 @@
+{
+    "id": "000000122511",
+    "image": "coco/train2017/000000122511.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many umbrellas are the people in the boat holding?",
+            "steps": [],
+            "answer": "The people in the boat are holding three umbrellas."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the weather like in the image?",
+            "steps": [],
+            "answer": "The weather in the image is rainy, as the people are holding umbrellas to protect themselves from the rain."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of boat are the people on?",
+            "steps": [],
+            "answer": "The people are on a houseboat, which is designed for leisure cruising or living, and they are taking shelter under umbrellas as they cruise along the water."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the condition of the water in the image?",
+            "steps": [],
+            "answer": "The water in the image is muddy, indicating that either the river itself or the surrounding environment is contributing to the water's murky appearance."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the composition of the group on the boat? Is it just adults or are there children as well?",
+            "steps": [],
+            "answer": "The image shows a family, which typically includes both adults and children. Although the exact composition of the group cannot be determined explicitly, it's safe to assume that the boat has a mix of different age groups, including adults and children."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "The image shows a family aboard a boat cruising down a canal on a rainy day. In the boat, there are at least six people - four adults and two children - taking shelter from the rain. The people are seen holding a total of four umbrellas in various sizes to protect themselves from the rain. Three of the umbrellas are open above their heads, and one is seen in the background, tilted downwards.\n\nIn the background, a bicycle is visible near the shoreline. On the waterfront, there are several benches and chairs. At least three benches and three chairs can be seen placed at different locations along the water's edge. Among the people on the boat, one person appears to be holding a cell phone, likely capturing a moment from their houseboat adventure."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What precautions are the people on the boat taking to stay comfortable during the trip?",
+            "steps": [],
+            "answer": "The people on the boat are taking precautions to stay comfortable during their trip by using umbrellas in order to protect themselves from the rain. In the image, there are at least three umbrellas being held by the individuals, which help shield them from the rainfall and provide shelter. By using umbrellas, they can enjoy their boat ride on the muddy river even during unfavorable weather conditions."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a city, a canal carries a boat of adventure. The boat, painted in hues of white and blue, bears the sign \"PK Verbouw\". It's not just a boat, but a vessel carrying a quartet of individuals, each with their own story.\n\nThree of them are armed with umbrellas, shields against the whims of the weather. One umbrella blooms in green, another blushes in pink, and the third stands out in stark black. The fourth person, not to be outdone by the rain, dons a blue raincoat, becoming one with the boat in color.\n\nThe backdrop to this scene is as intriguing as the characters themselves. A brick wall stands tall and firm, bearing witness to countless such journeys. Overhead, a bridge stretches across the canal, its white railing gleaming against the urban landscape.\n\nThe water of the canal, a murky brown, mirrors the overcast sky above. On its bank lie orange cones, silent markers of ongoing work or perhaps a path that's yet to be taken.\n\nEvery element in this image paints a picture of life in motion. It's a snapshot of an ordinary day made extraordinary by the stories it holds."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.777796875,
+                0.00435897435897436,
+                0.9625468749999999,
+                0.14177156177156178
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.0,
+                0.5941025641025641,
+                0.72959375,
+                0.9863869463869464
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.36120312499999996,
+                0.46813519813519816,
+                0.45329687500000004,
+                0.6952680652680652
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.44557812500000005,
+                0.4084848484848485,
+                0.5545625000000001,
+                0.6842657342657343
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.60871875,
+                0.5157342657342657,
+                0.6979218749999999,
+                0.6803030303030304
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6703125,
+                0.5280885780885781,
+                0.8631249999999999,
+                0.9887645687645688
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.44465625,
+                0.568041958041958,
+                0.540265625,
+                0.7080885780885781
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.24870312499999997,
+                0.003333333333333333,
+                0.341125,
+                0.16344988344988345
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.34071875,
+                0.0048484848484848485,
+                0.422859375,
+                0.16072261072261074
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.26573437499999997,
+                0.22540792540792542,
+                0.64025,
+                0.4200699300699301
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.7349375,
+                0.6851981351981352,
+                0.97090625,
+                0.9901398601398601
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.528203125,
+                0.6815617715617716,
+                0.536546875,
+                0.6903030303030303
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.629703125,
+                0.5355944055944056,
+                0.635734375,
+                0.5473659673659674
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.55759375,
+                0.001724941724941725,
+                0.7499687500000001,
+                0.06673659673659674
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.36324999999999996,
+                0.08608391608391608,
+                0.39475,
+                0.14946386946386947
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.559109375,
+                0.4470862470862471,
+                0.7333125,
+                0.573053613053613
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.4463125,
+                0.4049417249417249,
+                0.4604218749999999,
+                0.6184149184149185
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.27978125,
+                0.08652680652680653,
+                0.30625,
+                0.15470862470862473
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.859,
+                0.032097902097902094,
+                1.0,
+                0.05771561771561771
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.7430625,
+                0.0,
+                0.951484375,
+                0.061538461538461535
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.873828125,
+                0.06666666666666667,
+                0.8861718749999999,
+                0.07850815850815851
+            ]
+        }
+    ],
+    "hash_id": "592_coco_train2017_000000122511.jpg"
+}

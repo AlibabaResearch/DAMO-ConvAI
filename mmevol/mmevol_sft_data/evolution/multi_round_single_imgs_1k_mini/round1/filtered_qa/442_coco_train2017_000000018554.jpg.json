@@ -1,0 +1,111 @@
+{
+    "id": "000000018554",
+    "image": "coco/train2017/000000018554.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "In the image, where is the woman eating the banana?",
+            "steps": [],
+            "answer": "The woman is eating the banana while sitting on a boat."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many women are in the image?",
+            "steps": [],
+            "answer": "There are two women in the image, one of whom is eating a banana."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the second woman doing?",
+            "steps": [],
+            "answer": "The second woman is looking at the first woman who is eating the banana."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the woman holding the banana near her face, or actually eating it?",
+            "steps": [],
+            "answer": "The woman is actually eating the banana in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many bananas is the woman eating?",
+            "steps": [],
+            "answer": "The woman is eating only one banana from its peel."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Why might the person on the boat be eating a banana?",
+            "steps": [],
+            "answer": "The woman on the boat might be eating a banana for various reasons. She could be hungry and seeking a quick energy boost or a healthy, portable snack. Bananas are a good source of potassium, fiber, and vitamins, so they can serve as a nutritious option while on a boat trip. Additionally, consuming bananas is believed to help reduce the risk of motion sickness, so she might be eating one to prevent seasickness or nausea during her time on the boat."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a lively scene on a boat. In the foreground, a young woman is the main focus. She is playfully biting into a banana, which she holds with both hands. Her attire and the casual setting suggest a relaxed, leisurely atmosphere.\n\nThe woman is positioned against a backdrop that includes another woman and a man, although they are blurred and not as prominently featured. The relative positions of the people and objects hint at a social gathering or outing.\n\nThe boat's white railing is visible in the background, providing a stark contrast to the clear blue sky above. The colors in the image - the woman's clothing, the banana, the sky, and the boat - all contribute to a vibrant and dynamic composition.\n\nPlease note that this description is based on the visible content of the image and does not include any inferred or speculative information."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.659976580796253,
+                0.333234375,
+                1.0,
+                0.6658125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.103375,
+                0.8521545667447307,
+                1.0
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.29873536299765807,
+                0.463578125,
+                0.6775878220140517,
+                0.99809375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8997423887587822,
+                0.47671875,
+                0.9281264637002342,
+                0.4966093750000001
+            ]
+        }
+    ],
+    "hash_id": "442_coco_train2017_000000018554.jpg"
+}

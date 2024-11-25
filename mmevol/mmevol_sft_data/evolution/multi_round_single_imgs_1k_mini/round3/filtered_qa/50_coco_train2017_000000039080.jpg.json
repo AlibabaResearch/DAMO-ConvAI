@@ -1,0 +1,320 @@
+{
+    "id": "000000039080",
+    "image": "coco/train2017/000000039080.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the woman sitting indoors or outdoors?",
+            "steps": [],
+            "answer": "The woman is sitting outdoors, as she is found near a hillside and at a picnic table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the woman doing at the table?",
+            "steps": [],
+            "answer": "The woman is eating breakfast at the table, which is filled with food."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is she sitting with anyone else at the table?",
+            "steps": [],
+            "answer": "No, the woman is sitting alone at the small table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of drink is on the table?",
+            "steps": [],
+            "answer": "There is a glass of orange juice on the table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Could you describe what a picnic table typically looks like?",
+            "steps": [],
+            "answer": "A picnic table is a type of outdoor furniture specifically designed for eating meals outside. It usually consists of a flat table surface connected to one or more benches on either side, providing seating for people. The table and benches are typically made of wood, metal, or a combination of these materials. They are often designed to be sturdy and low-maintenance, since they are primarily used outdoors and exposed to various weather conditions.\n\nThe style of a picnic table can vary, but many are rectangular or hexagonal in shape, allowing for easy access to the seating and promoting social interaction among diners. Some picnic tables are designed with a central hole to accommodate an umbrella, providing shade and protection from the sun or rain. Picnic tables can be found in various public spaces such as parks, campgrounds, and scenic locations, as well as in private backyard settings. They offer a casual, relaxed atmosphere for dining and socializing with family and friends."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "In the image, a woman is sitting outside at a dining table near a hillside. The table has an array of food items and utensils, including a bottle, a few cups, a knife, spoons, forks, bowls, a banana, an apple, and an orange. Some orange juice is placed near her.\n\nThere are chairs located on different sides of the table, with the woman sitting in one of them. She appears to be enjoying a meal alone, possibly having breakfast in the picturesque setting. The outdoor arrangement creates a relaxing and inviting atmosphere for dining amidst the natural surroundings."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "From the setting, what kind of meal does the woman appear to be having and what are some items available on the table?",
+            "steps": [],
+            "answer": "The woman appears to be having an outdoor breakfast or brunch, based on the variety of food items available on the table. The tabletop is filled with a diverse selection of fruits such as bananas, an apple, and oranges. Additionally, there are bowls, cups, and a bottle of orange juice. Several utensils, including spoons, a knife, and a fork, are arranged on the table to assist the woman with her meal. The presence of these items suggests that the setting is relaxed and inviting, perfect for enjoying a leisurely morning meal."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In this picturesque scene, a woman is enjoying a meal at a table set on a hilltop. The woman, clad in a white and orange striped sweater and blue jeans, is seated at a green chair. She holds a fork in her hand, appearing to be savoring the food from a white plate.\n\nThe table, covered with a red and white checkered tablecloth, is set with various white dishware. This includes a plate, a bowl, a teapot, a cup with its saucer, a sugar bowl, and a creamer. A second green chair is also present at the table.\n\nAdding to the meal's appeal is a plate of fresh fruit on the table. The fruit assortment includes bananas, apples, and oranges.\n\nThe backdrop to this tranquil meal is nothing short of breathtaking. A scenic view unfolds beyond the table, showcasing a valley replete with trees and mountains. The location offers an idyllic setting for an outdoor meal."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.539828125,
+                0.44457746478873233,
+                0.5807031250000001,
+                0.6105164319248826
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6446875000000001,
+                0.6674178403755868,
+                0.969265625,
+                0.9887558685446008
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.660828125,
+                0.3940610328638498,
+                0.784953125,
+                0.5686150234741785
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.268265625,
+                0.4133568075117371,
+                0.385953125,
+                0.6573943661971832
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.07909374999999999,
+                0.6397652582159625,
+                0.447734375,
+                0.9850469483568075
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.295328125,
+                0.4403051643192488,
+                0.8335312500000001,
+                0.9898591549295774
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.34628125,
+                0.3034272300469483,
+                0.5253593750000001,
+                0.5785915492957746
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.48889062499999997,
+                0.5542957746478873,
+                0.5171718750000001,
+                0.621056338028169
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.516515625,
+                0.6236150234741784,
+                0.5581562499999999,
+                0.6807276995305165
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.38965625,
+                0.5880046948356807,
+                0.44901562500000003,
+                0.6357981220657277
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.441703125,
+                0.5329342723004695,
+                0.493515625,
+                0.5532629107981221
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.553421875,
+                0.6682629107981221,
+                0.612703125,
+                0.735586854460094
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.6335468750000001,
+                0.5433568075117371,
+                0.67871875,
+                0.5989671361502348
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.598984375,
+                0.5360798122065727,
+                0.6379062500000001,
+                0.5776056338028169
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.6644062500000001,
+                0.5203286384976525,
+                0.7095,
+                0.5596948356807512
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.663265625,
+                0.581924882629108,
+                0.717875,
+                0.6360798122065728
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.628078125,
+                0.4543896713615023,
+                0.6523593750000001,
+                0.5402112676056338
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.603421875,
+                0.4604460093896714,
+                0.63340625,
+                0.5403755868544601
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.70446875,
+                0.5791314553990611,
+                0.72909375,
+                0.6287323943661972
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.691328125,
+                0.5766666666666667,
+                0.717125,
+                0.6168779342723005
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.45531249999999995,
+                0.5432629107981221,
+                0.4811875,
+                0.6075821596244131
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.538546875,
+                0.4767840375586855,
+                0.5761406250000001,
+                0.6107981220657278
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.54184375,
+                0.4461032863849765,
+                0.5794374999999999,
+                0.4776760563380281
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.65684375,
+                0.5066197183098592,
+                0.6688125,
+                0.5627464788732394
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.681171875,
+                0.573849765258216,
+                0.7171093749999999,
+                0.6183098591549296
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.507140625,
+                0.6491549295774648,
+                0.574078125,
+                0.7138028169014086
+            ]
+        }
+    ],
+    "hash_id": "50_coco_train2017_000000039080.jpg"
+}

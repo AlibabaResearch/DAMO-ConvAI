@@ -1,0 +1,446 @@
+{
+    "id": "000000004376",
+    "image": "coco/train2017/000000004376.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the man doing in the image?",
+            "steps": [],
+            "answer": "The man in the image is reading a paper while sitting next to a cart or table with bananas on it."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the man outdoors or indoors?",
+            "steps": [],
+            "answer": "The man is outdoors, as he is sitting in the middle of a city road with a table of bananas."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Does the scene take place in an urban environment?",
+            "steps": [],
+            "answer": "Yes, the scene takes place in an urban environment, as the man is sitting in the middle of a city road with a table containing bananas."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the condition of the bananas on the table or cart?",
+            "steps": [],
+            "answer": "The bananas on the table or cart appear to be yellow, indicating that they are ripe and ready to be consumed."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there any other element in the image providing shade for the man or the pile of bananas?",
+            "steps": [],
+            "answer": "Yes, the man is sitting under an umbrella, which provides shade for him and the large pile of bananas. This could be necessary to protect the fruit from direct sunlight, which may cause the bananas to ripen too quickly or become overripe."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image features a young man sitting on a chair under an umbrella in the middle of a city road. He is surrounded by a large pile of bananas placed on a table. The bananas have various positions and angles but are mostly yellow, ready for consumption.\n\nThere are several people in the scene, some of whom appear in the background, walking or minding their business. In addition to the people, there are various vehicles in the area, including cars, a motorcycle, a truck, and a bicycle.\n\nFurthermore, some chairs and a dining table can be spotted among other items in the vicinity."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might be the man's purpose for sitting by the table of bananas in the city road?",
+            "steps": [],
+            "answer": "The man sitting by the table of bananas in the city road likely serves the purpose of selling those bananas. He is surrounded by a large pile of bananas, and sitting under an umbrella, indicating that he has set up a small street vending station to attract potential customers. By sitting next to the bananas, he can monitor and manage the sales process while offering passersby an easy opportunity to purchase freshly available fruit."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a vibrant scene from a busy street in a Latin American town. The main focus is a young man in a **red tank top**, who is seated on a chair in the foreground. He appears to be engrossed in reading a newspaper, perhaps catching up on the day's events.\n\nIn front of him is a **black cart** laden with approximately **20 yellow bananas**, indicating his trade as a fruit vendor. The bananas are ripe and inviting, ready to be sold to passersby.\n\nThe background of the image is bustling with activity. Colorful tents and buildings line the street, adding to the lively atmosphere. People can be seen walking along the wet street, suggesting that it has recently rained. A car is also visible, making its way down the road.\n\nOverall, this image paints a vivid picture of everyday life in this Latin American town, from the hardworking fruit vendor to the bustling street life."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.26246875,
+                0.7461556603773585,
+                0.430953125,
+                0.9892452830188679
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.6603749999999999,
+                0.41077830188679243,
+                0.8424531249999999,
+                0.6022169811320754
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.255515625,
+                0.2558490566037736,
+                0.328515625,
+                0.33476415094339623
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.48832812499999995,
+                0.2876650943396226,
+                0.5229062499999999,
+                0.39035377358490564
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.274890625,
+                0.4497169811320755,
+                0.6060000000000001,
+                0.9131839622641509
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.68128125,
+                0.22910377358490566,
+                0.826796875,
+                0.4814858490566038
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.34240624999999997,
+                0.22903301886792451,
+                0.39273437499999997,
+                0.45884433962264154
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6266406250000001,
+                0.26266509433962265,
+                0.6630312500000001,
+                0.43016509433962263
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.58915625,
+                0.2821933962264151,
+                0.6390781249999999,
+                0.4005660377358491
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7529375,
+                0.2705424528301887,
+                0.8307499999999999,
+                0.43379716981132077
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.187546875,
+                0.22757075471698113,
+                0.207765625,
+                0.3050943396226415
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.46221875,
+                0.25087264150943395,
+                0.4908125,
+                0.3861792452830189
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.38346874999999997,
+                0.0011320754716981133,
+                1.0,
+                0.620495283018868
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.224609375,
+                0.1956367924528302,
+                0.2970625,
+                0.3165801886792453
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.12378125,
+                0.16174528301886792,
+                0.20328125,
+                0.23252358490566039
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.169921875,
+                0.20386792452830188,
+                0.22678125,
+                0.231627358490566
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.585125,
+                0.521933962264151,
+                0.65225,
+                0.5806603773584906
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.590015625,
+                0.6043867924528301,
+                0.627734375,
+                0.6289858490566038
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.7055625,
+                0.48037735849056606,
+                0.772515625,
+                0.559316037735849
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.49592187499999996,
+                0.4716037735849057,
+                0.56021875,
+                0.5595754716981132
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.638390625,
+                0.4772169811320755,
+                0.7184999999999999,
+                0.5509433962264151
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.5257343750000001,
+                0.5624764150943397,
+                0.5969375,
+                0.6318396226415095
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.489375,
+                0.5552358490566037,
+                0.535890625,
+                0.6129952830188679
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.47335937499999997,
+                0.4997405660377358,
+                0.5146875,
+                0.5300471698113207
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.7090468750000001,
+                0.6142924528301886,
+                0.76084375,
+                0.6544103773584905
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.6877500000000001,
+                0.5485849056603773,
+                0.7340156250000001,
+                0.6112028301886792
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.50825,
+                0.5209669811320754,
+                0.581328125,
+                0.57
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.5284375,
+                0.5591981132075472,
+                0.544890625,
+                0.5836556603773585
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9047968750000001,
+                0.3096462264150943,
+                0.9635625000000001,
+                0.43929245283018864
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.8158749999999999,
+                0.30198113207547167,
+                0.8564999999999999,
+                0.4033018867924528
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.95053125,
+                0.33077830188679247,
+                0.9942500000000001,
+                0.4016509433962264
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8814062500000001,
+                0.20785377358490564,
+                0.918203125,
+                0.4280896226415094
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.48949999999999994,
+                0.2720518867924528,
+                0.5061406249999999,
+                0.3263207547169811
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.39159375,
+                0.24533018867924528,
+                0.419546875,
+                0.3556603773584906
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.832984375,
+                0.22773584905660377,
+                0.8605937499999999,
+                0.3074528301886793
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.3314375,
+                0.2425,
+                0.398296875,
+                0.3277830188679245
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.58221875,
+                0.4750943396226415,
+                0.644359375,
+                0.5528301886792453
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.16684375,
+                0.2705424528301887,
+                0.1784375,
+                0.30514150943396223
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.53040625,
+                0.2641509433962264,
+                0.5696718749999999,
+                0.4480660377358491
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.8008593749999999,
+                0.32049528301886787,
+                0.8533593749999999,
+                0.36851415094339623
+            ]
+        }
+    ],
+    "hash_id": "246_coco_train2017_000000004376.jpg"
+}

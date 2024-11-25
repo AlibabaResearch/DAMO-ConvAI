@@ -1,0 +1,244 @@
+{
+    "id": "000000070255",
+    "image": "coco/train2017/000000070255.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of the image?",
+            "steps": [],
+            "answer": "The setting of the image is a beach, with patio sets overlooking the water at a seaside resort or restaurant."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What objects can be seen in the foreground of the image?",
+            "steps": [],
+            "answer": "In the foreground of the image, there is a cool beverage or cocktail, along with a glass and bottle, sitting on a table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of coverage do the tables have from the sun?",
+            "steps": [],
+            "answer": "The tables have coverage from the sun with umbrellas, providing shade for the patrons at the seaside resort or beach restaurant."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of atmosphere does this beach scene create?",
+            "steps": [],
+            "answer": "The presence of refreshing drinks and shaded patio sets overlooking the water in the beach scene creates a relaxing and inviting atmosphere, perfect for a leisurely day spent enjoying the seaside views and breezy coastal ambiance. Visitors can escape the heat of the sun under the umbrella-covered tables, sipping a cool beverage and taking in the picturesque views of the beach and water.\n\nThe laid-back setting is ideal for those looking to unwind and embrace a leisurely pace while on vacation or simply enjoying a weekend trip to the coast. In addition to the relaxing ambiance, the beach scene might also inspire social interaction and shared experiences amongst groups of friends, families, or couples, as they gather around the tables to share refreshments and pleasant conversations in the comfortable beach environment.\n\nTo sum it up, the beach scene with a cool beverage on the table and umbrella-covered patio sets overlooking the water establishes a soothing, enjoyable atmosphere that encourages relaxation, leisure, and socializing in a beautiful seaside setting."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image features a beautiful beach scene with several patio sets placed within the frame, overlooking the water setting. Each patio set is accompanied by umbrellas to provide shade to the guests at the seaside resort. There are dining tables placed near the umbrellas, with chairs and couches also set around the area for leisure and relaxation.\n\nIn the foreground, a cool beverage and a glass bottle are placed on one of the dining tables, signaling that patrons are likely enjoying their time at the resort. Boats can be spotted in the background, further out in the water, adding to the coastal atmosphere.\n\nA person is also visible towards the right side of the picture, possibly enjoying the amenities that the resort has to offer or just appreciating the serene environment of the beach."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of atmosphere and experience does this beach resort offer based on the current setting?",
+            "steps": [],
+            "answer": "The beach resort appears to provide a relaxing and enjoyable atmosphere to its guests. The scene shows several patio sets with umbrellas that overlook a beautiful water setting. The umbrellas are likely used to provide shade and comfort while dining al fresco. Guests can enjoy a cool beverage or a cocktail from the table displaying glasses and bottles, further enhancing the leisurely experience. Nearby, there are boats in the water, suggesting various recreational activities available for guests. The presence of couches and chairs provide additional spots for relaxation and socializing. Overall, this resort setting offers a mix of comfort, refreshment, and scenic views, creating an ideal environment for a calm and rejuvenating experience."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What are the key elements in this picture?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the image, a tranquil scene unfolds on a wooden deck overlooking a serene body of water dotted with boats. The deck is adorned with vibrant red umbrellas and cushions, adding a splash of color to the scene. A wicker table sits in the foreground, hosting a clear bottle of Orangina with a blue label and a glass of refreshing orange juice. The orange juice, inviting with its bright color, has a red straw playfully peeking out. The wooden railing of the deck frames the view, leading the eye towards the peaceful waterscape in the background. The overall image paints a picture of a relaxing summer day by the water."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.33698660714285716,
+                0.5243666666666666,
+                0.4809821428571429,
+                0.9372666666666667
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.002723214285714286,
+                0.5359666666666666,
+                0.5713839285714285,
+                0.9894666666666668
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0015624999999999999,
+                0.5295666666666666,
+                0.16504464285714285,
+                0.7408333333333333
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.8085491071428572,
+                0.3869666666666667,
+                0.9222767857142857,
+                0.4401
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.13392857142857142,
+                0.3326,
+                0.44691964285714286,
+                0.5573
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.3723660714285714,
+                0.2995666666666667,
+                0.6966741071428572,
+                0.5417
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.48151785714285716,
+                0.4145,
+                0.7356696428571429,
+                0.4901
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.15533482142857144,
+                0.5529333333333333,
+                0.33180803571428574,
+                0.9628333333333334
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.9730580357142857,
+                0.3728,
+                1.0,
+                0.4145333333333333
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.06937499999999999,
+                0.4133,
+                0.30917410714285715,
+                0.4853666666666666
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6915401785714286,
+                0.7001000000000001,
+                0.7434821428571429,
+                0.7543333333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.11354910714285714,
+                0.6854,
+                0.17245535714285712,
+                0.7684666666666667
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.027366071428571427,
+                0.41296666666666665,
+                0.07252232142857143,
+                0.4873
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.4783705357142857,
+                0.8222,
+                0.9977232142857143,
+                0.9996999999999999
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.45491071428571433,
+                0.5332,
+                0.7897321428571429,
+                0.8544666666666668
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.7819866071428571,
+                0.6450333333333333,
+                0.9843526785714286,
+                0.7704666666666666
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.05738839285714286,
+                0.5324666666666666,
+                0.07825892857142858,
+                0.6363666666666667
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.03294642857142857,
+                0.5322333333333333,
+                0.06095982142857143,
+                0.6204
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.63515625,
+                0.6396666666666667,
+                0.7102901785714286,
+                0.7435
+            ]
+        }
+    ],
+    "hash_id": "203_coco_train2017_000000070255.jpg"
+}

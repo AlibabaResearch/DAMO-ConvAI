@@ -1,0 +1,60 @@
+[
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "instruction_following",
+        "question": "Given the context of the ALFRED Embodied Environment where nothing seems to happen currently, could you outline a systematic approach for placing a cool apple in the sinkbasin, including possible locations to check for the apple based on typical kitchen setups?",
+        "steps": [
+            {"manipulation": "None", "description": "Evaluate the current scene noting the visible items and lack of an apple."},
+            {"manipulation": "None", "description": "Consider common storage locations in a kitchen, particularly focusing on areas where an apple is likely found."},
+            {"manipulation": "None", "description": "Propose a logical sequence of actions to locate the apple."}
+        ],
+        "answer": "First, check the fridge where apples are often stored. If none are found, inspect countertops for fruit bowls, then systematically search through cabinets and drawers designated for fruits. Finally, once an apple is found, place it securely in the sinkbasin."
+    },
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "rationales_generation",
+        "question": "What are your thoughts on the function of the microwave in this scene, particularly in relation to the presence of the egg and bread, alongside potential options to find an apple?",
+        "steps": [
+            {"manipulation": "None", "description": "Analyze the microwave's role in food preparation."},
+            {"manipulation": "None", "description": "Identify optimal locations to search for an apple."}
+        ],
+        "answer": "The microwave appears to be engaged in toasting or cooking. For the apple, the fridge seems the most probable storage place, while countertops and designated fruit storage areas are secondary options."
+    },
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "multi_choice",
+        "question": "Considering the various probable storage areas for an apple within this kitchen context, which option is most suitable? A) Fridge B) Countertops C) Cabinets D) Drawers",
+        "steps": [
+            {"manipulation": "None", "description": "Evaluate the characteristics of each location with respect to apple storage."}
+        ],
+        "answer": "A"
+    },
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "text_image_matching",
+        "question": "Does the description of the kitchen scene match the objects visible in the microwave based on this textual context: {An egg and a slice of bread appear inside the microwave, suggesting meal preparation?}",
+        "steps": [
+            {"manipulation": "None", "description": "Compare the text description with the visible items in the current scene."}
+        ],
+        "answer": "Yes"
+    },
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "creative_content_generation",
+        "question": "Within this imaginative realm of the kitchen, where mundane objects possess lively personalities, can you create a whimsical dialogue between the egg and the bread commenting on their cooking journey?",
+        "steps": [
+            {"manipulation": "None", "description": "Use creativity to craft a narrative based on scene elements."}
+        ],
+        "answer": "Egg: 'I basked in the warmth of the hen's nest!' Bread: 'And I danced through golden wheat fields before becoming savory toast!'"
+    }
+]

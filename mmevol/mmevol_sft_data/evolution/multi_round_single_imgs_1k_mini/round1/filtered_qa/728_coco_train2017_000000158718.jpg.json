@@ -1,0 +1,219 @@
+{
+    "id": "000000158718",
+    "image": "coco/train2017/000000158718.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the dog doing on the sidewalk?",
+            "steps": [],
+            "answer": "The white dog is on a leash on the sidewalk, watching a man ride down the street on a skateboard while lying on his stomach."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the color of the dog on the sidewalk?",
+            "steps": [],
+            "answer": "The color of the dog on the sidewalk is white."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How is the man riding the skateboard?",
+            "steps": [],
+            "answer": "The man is riding the skateboard in an unusual way, lying down on his stomach instead of standing up, as he moves past other people on the sidewalk."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there other people apart from the man and the dog on the sidewalk?",
+            "steps": [],
+            "answer": "Yes, there are several people walking down the sidewalk in addition to the man on the skateboard and the dog."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the potential risks associated with riding a skateboard in this manner, especially on a sidewalk with pedestrians?",
+            "steps": [],
+            "answer": "Riding a skateboard while lying down on one's stomach poses several risks, particularly on a sidewalk with pedestrians around. Some of these risks include:\n\n1. Limited visibility and control: In this position, the skateboarder's ability to see obstacles or pedestrians in their path is restricted, making it difficult to react quickly and safely. Their control over the skateboard's speed and direction is also likely to be compromised due to the awkward positioning.\n\n2. Collisions with pedestrians: As the skateboarder is moving past people on the sidewalk, there is an increased risk of accidentally colliding with them, potentially causing injuries to both the skateboarder and the pedestrians involved.\n\n3. Falls and injuries: Riding a skateboard in this manner significantly increases the chances of falling off or losing control of the board, leading to injuries such as scrapes, bruises, fractures, or even head injuries if the skateboarder is not wearing a helmet.\n\n4. Creating anxiety for others: The unusual and potentially dangerous way of riding the skateboard might make other pedestrians and pet owners, such as the individual with the white dog, feel uneasy or anxious as they try to avoid or anticipate the skateboarder's movements.\n\nOverall, lying down on a skateboard while riding it on a sidewalk with pedestrians around is a risky and inadvisable behavior. It puts both the skateboarder and others at risk of injury or accidents, and it should be avoided in favor of safer, more controlled skateboarding techniques."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image depicts a busy sidewalk with several people walking down it. A white, fluffy dog is positioned towards the right side of the sidewalk, curiously watching a man who is lying down on a skateboard and riding it on his stomach, passing by other people. The dog appears to be on a leash.\n\nAmong the individuals walking, there are people located towards the left side of the sidewalk and a few others scattered around the scene. Some are carrying handbags and backpacks, which indicate that they may be going about their daily routines.\n\nAdditionally, there is a bicycle on the left side of the scene, displaying a diverse range of activities taking place on the sidewalk."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What unusual activity is happening on the sidewalk?",
+            "steps": [],
+            "answer": "On the sidewalk, there is a man riding a skateboard in an unusual manner: he is lying down on his stomach while rolling down the street, grabbing attention. There are several other people walking down the sidewalk, and a white fluffy dog on a leash is looking at the man on the skateboard. The dog and the people around are likely intrigued by the man's unconventional, and possibly risky, way of riding the skateboard among the pedestrians."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat are the key elements in this picture?"
+        },
+        {
+            "from": "gpt",
+            "value": "In this lively urban scene, a sidewalk serves as the stage for a unique encounter. A black dog, full of character and charm, has found an unconventional mode of transport. It sits confidently on a skateboard, its fur contrasting sharply with the gray of the sidewalk. The skateboard, a symbol of youthful rebellion and freedom, seems perfectly at home under the paws of this adventurous canine.\n\nOpposite the black dog, a white dog stands on the same gray sidewalk. It watches its counterpart with what could be curiosity or perhaps admiration. The stark white of its fur stands out against the urban backdrop, making it an equally captivating figure in this tableau.\n\nIn the background, people in various colors of clothing walk along the sidewalk, adding a sense of movement and life to the scene. They seem oblivious to the unusual spectacle unfolding before them, each absorbed in their own world.\n\nA blue fence runs parallel to the sidewalk, its vibrant color adding depth and contrast to the scene. It stands as a silent observer to this charming interaction between two dogs, one black and one white, on a skateboard and a sidewalk in the heart of the city."
+        }
+    ],
+    "det": [
+        {
+            "label": "dog",
+            "bbox": [
+                0.75174,
+                0.31918727915194345,
+                1.0,
+                0.7496113074204946
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.54332,
+                0.0934982332155477,
+                0.6080200000000001,
+                0.28561837455830386
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.28844,
+                0.18929328621908129,
+                0.42834000000000005,
+                0.45445229681978805
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2185,
+                0.0020494699646643106,
+                0.27504,
+                0.2772791519434629
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.27556,
+                0.0019434628975265019,
+                0.3348,
+                0.24356890459363956
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3307,
+                0.0022614840989399294,
+                0.40956,
+                0.31459363957597175
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.38412,
+                0.0018727915194346292,
+                0.48713999999999996,
+                0.35466431095406364
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.05978,
+                0.004487632508833922,
+                0.22258,
+                0.6022614840989399
+            ]
+        },
+        {
+            "label": "skateboard",
+            "bbox": [
+                0.32086000000000003,
+                0.4126855123674912,
+                0.39274000000000003,
+                0.47618374558303883
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.45676,
+                0.13187279151943462,
+                0.50682,
+                0.3236395759717315
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.491,
+                0.03402826855123675,
+                0.52832,
+                0.2489752650176678
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5315,
+                0.01607773851590106,
+                0.55864,
+                0.24265017667844524
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.4497,
+                0.12773851590106006,
+                0.50718,
+                0.32180212014134274
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.0,
+                0.08943999999999999,
+                0.4839575971731449
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.32844,
+                0.005583038869257951,
+                0.3618,
+                0.22265017667844522
+            ]
+        }
+    ],
+    "hash_id": "728_coco_train2017_000000158718.jpg"
+}

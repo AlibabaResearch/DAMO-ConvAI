@@ -1,0 +1,361 @@
+{
+    "id": "000000102256",
+    "image": "coco/train2017/000000102256.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the person doing in the image?",
+            "steps": [],
+            "answer": "The person in the image is diving for a frisbee, likely during a game, and is captured while laying on the grassy field holding the white frisbee."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the person in the image wearing a specific colored shirt?",
+            "steps": [],
+            "answer": "Yes, the person in the image is wearing a white shirt."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a crowd of people nearby watching the person?",
+            "steps": [],
+            "answer": "Yes, there is a crowd of people watching the person as he dives for the frisbee."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What sport might the person be playing?",
+            "steps": [],
+            "answer": "The person in the image is likely playing Ultimate Frisbee, a team-based sport where players aim to score points by passing a frisbee down the field and catching it in the opponent's end zone. The game requires players to be agile and skillful in both throwing and catching the frisbee. The sportsmanship, athleticism, and high-energy action make Ultimate Frisbee an exciting sport for both players and spectators alike."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The scene takes place in an open field, where a group of people is participating in a game involving a frisbee. A man wearing a white shirt is lying on the grassy ground, holding a white frisbee. It appears that he just made a dive to catch it. The rest of the crowd is standing around the field, watching and perhaps waiting for their turn to play.\n\nSurrounding the field, there are numerous parked vehicles, including cars and a few trucks. Additionally, there are several chairs scattered around, suggesting that some spectators are watching the game. A cell phone is also visible in the scene, possibly belonging to one of the participants or spectators."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the dynamics of the frisbee game being played, and what factors might affect the players' performance?",
+            "steps": [],
+            "answer": "In the image, a person is diving for a Frisbee, while other people are watching. This suggests an intense and competitive game of Frisbee being played. The man laying on the ground holding the white Frisbee has made a spectacular dive to catch it, which demonstrates the level of athleticism and skill required to succeed in such games. Factors that may affect the players' performance in this game include weather conditions, the quality of the grassy field, and the presence of spectators adding pressure or motivation. Additionally, the players' physical fitness, concentration, and teamwork are vital in playing a successful game of Frisbee."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you see happening in this image?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a lively event, a young man makes a daring move on a green lawn. He's in mid-air, body fully extended parallel to the ground, diving towards a white frisbee. His determination is evident in his outstretched arms reaching for the frisbee. He's dressed casually in a blue and red striped shirt, and his white baseball cap is still firmly in place despite his dynamic movement.\n\nThe scene is vibrant with spectators scattered around the field. Some are seated comfortably on the grass, while others stand, all engrossed in the unfolding action. The parked cars and distant trees form a serene backdrop to this energetic display. The entire scene is a captivating snapshot of an exciting moment at an outdoor gathering."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.24059375,
+                0.39002352941176466,
+                0.32696875,
+                0.4561411764705882
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.357953125,
+                0.39847058823529413,
+                0.42573437500000005,
+                0.45750588235294115
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8655156249999999,
+                0.37752941176470584,
+                0.9759531249999999,
+                0.5056235294117647
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.9408593749999999,
+                0.38632941176470587,
+                0.9891718749999999,
+                0.4410588235294117
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.0675,
+                0.4643529411764706,
+                0.129640625,
+                0.5454117647058824
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.957453125,
+                0.4416,
+                1.0,
+                0.5415058823529412
+            ]
+        },
+        {
+            "label": "frisbee",
+            "bbox": [
+                0.682,
+                0.6573176470588236,
+                0.751984375,
+                0.7329411764705882
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.20993750000000003,
+                0.47084705882352945,
+                0.699796875,
+                0.7354352941176471
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4106875,
+                0.4271764705882353,
+                0.472171875,
+                0.5372941176470589
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.46792187500000004,
+                0.4214823529411765,
+                0.513984375,
+                0.5426588235294117
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.314671875,
+                0.37183529411764704,
+                0.369265625,
+                0.4947529411764706
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.23960937499999999,
+                0.42023529411764704,
+                0.295390625,
+                0.5074823529411765
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.146796875,
+                0.3890823529411765,
+                0.21182812499999998,
+                0.5440470588235294
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7019062500000001,
+                0.30515294117647057,
+                0.7463125,
+                0.4429176470588235
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.092453125,
+                0.3899764705882353,
+                0.134078125,
+                0.5430823529411765
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.61034375,
+                0.42472941176470586,
+                0.6879375,
+                0.5415764705882352
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.37101562499999996,
+                0.4155764705882353,
+                0.42921875,
+                0.5418117647058823
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.590765625,
+                0.37374117647058824,
+                0.6524687499999999,
+                0.5163529411764706
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.544140625,
+                0.4020705882352941,
+                0.624234375,
+                0.49039999999999995
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.377640625,
+                0.38341176470588234,
+                0.41606249999999995,
+                0.4002588235294117
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.022375,
+                0.39087058823529414,
+                0.05278125,
+                0.4445176470588236
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.855109375,
+                0.4893176470588235,
+                0.9077031249999999,
+                0.5468000000000001
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.539359375,
+                0.3674588235294117,
+                0.622765625,
+                0.407035294117647
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.20409375000000002,
+                0.3810117647058824,
+                0.274765625,
+                0.40595294117647057
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.541640625,
+                0.367764705882353,
+                0.6195937499999999,
+                0.4096470588235295
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.751875,
+                0.47007058823529413,
+                0.792375,
+                0.5444705882352942
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.06990625,
+                0.4214117647058823,
+                0.13473437500000002,
+                0.5289411764705882
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.815765625,
+                0.296,
+                0.8659375,
+                0.46569411764705887
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.1429375,
+                0.398,
+                0.167703125,
+                0.42409411764705884
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.278359375,
+                0.3669411764705882,
+                0.38434375000000004,
+                0.4124705882352941
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.8483437500000001,
+                0.32287058823529413,
+                0.8507968750000001,
+                0.3272941176470588
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.42378125000000005,
+                0.2984235294117647,
+                0.475375,
+                0.4740705882352942
+            ]
+        }
+    ],
+    "hash_id": "873_coco_train2017_000000102256.jpg"
+}

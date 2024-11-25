@@ -1,0 +1,43 @@
+[
+    {
+        "image_position": "single",
+        "objects": ["sofa", "drawer", "television", "box", "pencil", "houseplant"],
+        "skills": ["Context Understanding Ability", "Behavior Prediction Ability"],
+        "format": "Complex Reasoning",
+        "question": "Picture yourself as an expert in the ALFRED Embodied Environment, handling various tasks in a detailed scene. Given the following description: ['You open the drawer 1. The drawer 1 is open. In it, you see a television 1, a houseplant 1, a box 1, a watering can 1, and a pencil 1.']. Your task is not only to place a keychain on the sofa but to organize the items efficiently within the drawer. Simultaneously, envision plausible motives for your actions, taking into account the room layout and item positions. What strategic steps would you take? Let’s think this through.",
+        "steps": [
+            {"manipulation":"None", "description":"Assess the current layout of the room and the contents of drawer 1."},
+            {"manipulation":"None", "description":"Consider the best order for organizing items within the drawer to maximize accessibility."},
+            {"manipulation":"None", "description":"Determine the most efficient path to place the keychain on the sofa while minimizing disruption to the room."},
+            {"manipulation":"None", "description":"Predict future actions and optimize your strategy to enhance the overall arrangement."}
+        ],
+        "answer": "In the given scenario, as an expert, you first need to evaluate the room setup and the arrangement within drawer 1. This requires analyzing the logical placement of objects such as the television, houseplant, box, watering can, and pencil to optimize retrieval processes. To enhance organization, consider grouping related items together while maintaining easy access. Strategically place the keychain on the sofa without causing disorder in other areas. Taking into account the described room layout, choose a direct path while avoiding unnecessary movements. Finally, contemplate potential future actions that might require quick access, adjusting current placements for optimal efficiency. This comprehensive approach will ensure not only the completion of the task but also an improvement in the organization of the space."
+    },
+    {
+        "image_position": "single",
+        "objects": ["sofa", "television", "box", "houseplant", "side table"],
+        "skills": ["Context Understanding Ability", "Grounding Ability"],
+        "format": "Detailed Description",
+        "question": "Imagine you have to thoroughly describe this scene, identifying the spatial relations and interacting objects. What are some clever ways you can provide a detailed breakdown of the key elements and their significance in the room? Let's unravel this step by step.",
+        "steps": [
+            {"manipulation":"None", "description":"Start by observing and categorizing the primary furniture pieces such as the sofa, TV, and side table."},
+            {"manipulation":"None", "description":"Highlight the arrangement and adjacency of each object, noting their roles in the room's function."},
+            {"manipulation":"None", "description":"Discuss potential usage scenarios for the objects, considering how they interact and contribute to a cohesive setting."}
+        ],
+        "answer": "To provide a comprehensive breakdown of the scene, begin by categorizing the main furniture items: the gray sofa, which offers seating and has a cardboard box on it, signifying temporary storage or relocation needs. Next, identify the adjacent round side table with a potted houseplant, adding both decorative value and a touch of natural beauty to the space. Note the television positioned on a dresser, indicative of entertainment purposes, with the open drawer revealing organization and storage capabilities. The hardwood floor leads towards a carpeted area under the sofa, creating a visual and functional division. Each element not only serves a specified role but interacts to form a harmonious living environment, reflecting practical and aesthetic intentions."
+    },
+    {
+        "image_position": "single",
+        "objects": ["drawer", "houseplant", "watering can", "pencil"],
+        "skills": ["Calculating Ability", "Relationship Description Ability"],
+        "format": "Complex Reasoning",
+        "question": "Given a detailed inventory inside the open drawer (television, houseplant, box, watering can, and pencil), devise a strategy for maintaining balance and space efficiency. Also, analyze how these items might relate to the rest of the room’s setup. How would you accomplish this while keeping the spatial harmony intact? Let’s dissect it logically.",
+        "steps": [
+            {"manipulation":"None", "description":"Inspect each item within the drawer and assess its size and placement."},
+            {"manipulation":"None", "description":"Evaluate potential synergistic uses of items with the broader room environment."},
+            {"manipulation":"None", "description":"Strategize optimal rearrangement within the drawer to prevent clutter and improve access."},
+            {"manipulation":"None", "description":"Integrate spatial relationships of drawer contents with room features like the sofa and houseplant."}
+        ],
+        "answer": "To maintain balance and efficiency within the drawer, begin by thoroughly assessing each item's size and current position—considering the television’s bulk and the more flexible spaces occupied by smaller items like the pencil and houseplant. The strategy should involve visualizing how these drawer contents interact with the room's environment—for instance, the houseplant could be easily moved near another plant for aesthetic consistency, or the watering can might be positioned for practical access. Rearrange items to ensure quick retrieval and minimal overcrowding. Finally, the layout should reflect an awareness of spatial harmony—keeping frequently used or displayed items like the pencil accessible, thereby supporting a practical and visually pleasing ambiance connected to broader room elements."
+    }
+]

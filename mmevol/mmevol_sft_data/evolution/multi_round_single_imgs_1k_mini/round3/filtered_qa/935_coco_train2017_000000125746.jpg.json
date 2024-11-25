@@ -1,0 +1,311 @@
+{
+    "id": "000000125746",
+    "image": "coco/train2017/000000125746.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "In this scene, there is a woman in a military uniform standing in the center and cutting a cake with a sword. Several other people surround her, some sitting on chairs and others standing. A few guests nearby are focused on the woman performing the cake-cutting ceremony. \n\nThere is a dining table with the cake, cups, and a bowl on it. Multiple chairs are positioned around the table, and a cell phone is visible on the left side of the scene. There are also some individuals wearing ties, likely attending a formal event related to the military woman cutting the cake."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What makes the cake-cutting scenario in this image unconventional?",
+            "steps": [],
+            "answer": "The unconventional aspect of the cake-cutting scenario in this image is that a woman in military uniform is using a sword to cut the cake. In most instances, cake-cutting is performed with a regular knife or cake server. This particular image presents a unique and powerful gesture by the woman in uniform, demonstrating symbolism and tradition often associated with military ceremonies or celebrations."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a grand room, adorned with balloons and banners, a celebration is underway. The room is awash with hues of yellow, black, and white. At the center of it all, a woman in a military uniform stands tall, her hand gripping a sword that slices through a cake resting on a table draped in a white tablecloth. \n\nBeside her, a man in a similar military uniform watches the spectacle. Their uniforms, crisp and formal, stand out against the festive backdrop. In the background, other individuals in military uniforms can be seen, their faces blurred but their presence adding to the atmosphere of camaraderie and joy.\n\nThe sword, gleaming under the room's light, cuts through the cake with ease - a symbol of triumph and celebration. The cake itself is an object of interest, its details obscured but its role in the celebration evident.\n\nThe scene is one of jubilation and pride, captured in a single moment of time. It's a snapshot of life in the military - not just the discipline and valor, but also the moments of joy and celebration shared among comrades."
+        }
+    ],
+    "det": [
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.016953125,
+                0.538963282937365,
+                0.03275,
+                0.5529805615550756
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.37275,
+                0.33775377969762416,
+                0.41446875,
+                0.44600431965442766
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.0016250000000000001,
+                0.3566090712742981,
+                0.15281250000000002,
+                0.9094168466522679
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.182765625,
+                0.31101511879049676,
+                0.3700625,
+                0.3696112311015119
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.384421875,
+                0.18412526997840173,
+                0.682890625,
+                0.9868034557235421
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.412875,
+                0.1191144708423326,
+                0.578984375,
+                0.41535637149028076
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.284734375,
+                0.25097192224622034,
+                0.415421875,
+                0.4944060475161987
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.178140625,
+                0.24647948164146868,
+                0.22084375,
+                0.3285745140388769
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.018703125,
+                0.22483801295896327,
+                0.08284375,
+                0.35911447084233256
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.942984375,
+                0.8822678185745141,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.8456250000000001,
+                0.653866090712743,
+                0.8840625000000001,
+                0.7626133909287258
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.6476875,
+                0.7484665226781858,
+                0.84865625,
+                0.9392224622030237
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.38840625,
+                0.2470194384449244,
+                0.41798437499999996,
+                0.32069114470842336
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.23887688984881209,
+                0.061078125000000004,
+                0.3136069114470842
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.561609375,
+                0.3736717062634989,
+                0.5945625,
+                0.4481641468682505
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.5081875,
+                0.26673866090712745,
+                0.5512187500000001,
+                0.2952267818574514
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.290484375,
+                0.27146868250539957,
+                0.304828125,
+                0.27740820734341254
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.7487812500000001,
+                0.6119870410367171,
+                0.87790625,
+                0.7132613390928726
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.23339062500000002,
+                0.33773218142548594,
+                0.297421875,
+                0.49838012958963285
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.084109375,
+                0.3381209503239741,
+                0.10960937500000001,
+                0.3631965442764579
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.10365625,
+                0.3229805615550756,
+                0.1665625,
+                0.45714902807775376
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.078953125,
+                0.3580777537796976,
+                0.111546875,
+                0.3815766738660907
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.26640625,
+                0.22496760259179266,
+                0.338953125,
+                0.32876889848812096
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.11715625,
+                0.22987041036717065,
+                0.2359375,
+                0.49293736501079916
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.07618749999999999,
+                0.3671922246220302,
+                0.09759374999999999,
+                0.4203671706263499
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.09984375,
+                0.3518142548596112,
+                0.160578125,
+                0.51792656587473
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.3508207343412527,
+                0.14254687500000002,
+                0.9149892008639309
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.25177105831533475,
+                0.079125,
+                0.40267818574514036
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.37678124999999996,
+                0.639244060475162,
+                0.738078125,
+                0.7912958963282938
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.536328125,
+                0.6067386609071275,
+                0.9744375,
+                0.9979481641468683
+            ]
+        }
+    ],
+    "hash_id": "935_coco_train2017_000000125746.jpg"
+}

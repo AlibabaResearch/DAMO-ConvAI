@@ -1,0 +1,226 @@
+{
+    "id": "000000215298",
+    "image": "coco/train2017/000000215298.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The scene depicts a busy area in front of a large white building with pillars on its side, possibly a church or an important institution. Many people are walking around and crossing the street, likely to attend an event at the building or to simply pass by.\n\nA bus with its doors open is waiting on the right side of the scene, ready for people to board, while a car is also visible toward the left side. Several individuals are carrying handbags, indicating that they might have come for a special occasion or are just going about their daily routines.\n\nIn the background, there's a stop sign present, reminding pedestrians and drivers to proceed with caution in this bustling area."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the common activity people are participating in and what might be the effect on transportation in the area?",
+            "steps": [],
+            "answer": "In the image, many people are walking around and crossing the street near a large building, possibly attending a church or a similar gathering place. The common activity among these people is attending the event or visiting the building. As a result, this might lead to an increase in pedestrian traffic in the area, particularly near crosswalks and sidewalks.\n\nAdditionally, the presence of a bus with its doors open, waiting for people to board, indicates increased public transportation use in the area during this time. This might cause temporary traffic congestion or a higher demand for public transportation services, affecting the overall traffic flow and transport availability in the area. It is crucial for events or gathering places to plan proper traffic management and transportation options to cater to the influx of attendees and minimize any negative impact on the transportation system."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city, a pristine white church stands tall, its two bell towers reaching towards the clear blue sky. The church, adorned with a dome topped with a cross, is nestled on a street corner. The bell towers, each equipped with a clock, stand like sentinels on either side of the church's grand entrance. A large white portico with columns adds to the majestic facade of the church.\n\nA white bus is parked on the side of the street, adding a modern touch to this timeless scene. The street is alive with people, a group of them are seen walking towards the church, perhaps drawn by its serene beauty or seeking solace within its hallowed walls.\n\nThe backdrop of this urban tableau is softened by the presence of trees in the background, their green leaves contrasting beautifully with the blue sky dotted with fluffy white clouds. This image captures a moment in time where history and modernity coexist harmoniously in an urban landscape."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.139203125,
+                0.7087971698113207,
+                0.25720312500000003,
+                0.8228066037735849
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.7020625,
+                0.6270047169811321,
+                0.980046875,
+                0.7760141509433963
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.17446875,
+                0.729811320754717,
+                0.186796875,
+                0.7896462264150943
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.03428125,
+                0.7319103773584905,
+                0.06515625,
+                0.822004716981132
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.06778125,
+                0.7675707547169811,
+                0.07753125000000001,
+                0.7995283018867925
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6113125,
+                0.7160377358490566,
+                0.62665625,
+                0.7706603773584907
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.069984375,
+                0.7054009433962264,
+                0.122265625,
+                0.8910377358490565
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.19159375,
+                0.702806603773585,
+                0.2405625,
+                0.8774056603773585
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.249796875,
+                0.6854716981132075,
+                0.32171875,
+                0.9407547169811321
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.322703125,
+                0.7109433962264151,
+                0.351859375,
+                0.8322169811320755
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.35965625,
+                0.7000235849056604,
+                0.38984375,
+                0.8307311320754718
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.384078125,
+                0.7062499999999999,
+                0.39690625,
+                0.7746462264150943
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.14703125,
+                0.7113443396226415,
+                0.18443749999999998,
+                0.8786084905660378
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.38740625,
+                0.7060849056603773,
+                0.42821875,
+                0.8590330188679246
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.34378125000000004,
+                0.7115094339622642,
+                0.364140625,
+                0.8122641509433962
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.096921875,
+                0.7885377358490565,
+                0.11578124999999999,
+                0.8233726415094339
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.6928537735849056,
+                0.066359375,
+                0.9635849056603774
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.21570312500000002,
+                0.7266981132075472,
+                0.23487500000000003,
+                0.7754009433962263
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.300828125,
+                0.704433962264151,
+                0.32406250000000003,
+                0.8221933962264151
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.25325000000000003,
+                0.6971226415094339,
+                0.27625,
+                0.7847405660377358
+            ]
+        },
+        {
+            "label": "stop sign",
+            "bbox": [
+                0.827484375,
+                0.5727358490566038,
+                0.840453125,
+                0.6017216981132075
+            ]
+        }
+    ],
+    "hash_id": "671_coco_train2017_000000215298.jpg"
+}

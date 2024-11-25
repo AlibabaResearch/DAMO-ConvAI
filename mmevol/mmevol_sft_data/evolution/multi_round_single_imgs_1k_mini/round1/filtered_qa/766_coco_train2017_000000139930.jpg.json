@@ -1,0 +1,156 @@
+{
+    "id": "000000139930",
+    "image": "coco/train2017/000000139930.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "A group of young people is gathered in a grassy park, engaging in various activities and enjoying their time together. Some of them are holding Frisbees, possibly playing a game of frisbee golf. There are two Frisbees in the scene, one towards the left side and the other towards the right.\n\nThe people are standing around, some of them possibly looking at an interesting event or interacting with each other. They are spread throughout the park, with a few closer to the foreground and others near the middle or background of the scene. Some personal items like a backpack, a handbag, and a water bottle are also visible, suggesting a relaxed and leisurely atmosphere in the park."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is one common outdoor activity this group is engaged in?",
+            "steps": [],
+            "answer": "In the image, the group of people is engaging in a common outdoor activity of playing Frisbee, specifically Frisbee golf, as some members of the group are holding Frisbees. They are gathered in a grassy park, which is a suitable location for this kind of recreational activity. Frisbee golf encourages physical activity, social interaction, and enjoyment of the outdoors."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a verdant park, a lively scene unfolds. Nine individuals, each unique in their attire and demeanor, are scattered across the frame. The majority of them, a group of six, are clustered on the left side of the image. They are casually dressed, their outfits a mix of various colors that blend harmoniously with the surrounding greenery. Each of them holds a frisbee, their hands poised in anticipation of a throw or a catch.\n\nOn the right side of the image, three individuals stand apart from the frisbee players. Unlike their counterparts, they are not engaged in any game. Their attire is noticeably more formal, setting them apart from the casual vibe of the park.\n\nThe park itself is a lush expanse of green, dotted with trees that tower in the background. The grass underfoot is a vibrant green, providing a natural carpet for the park-goers. The colors in the image are predominantly green and blue, with hints of brown and gray adding depth to the scene.\n\nDespite being in the same frame, these two groups seem to exist in their own worlds - one filled with playful energy and movement, and the other with calm stillness. Yet they share the same space, co-existing peacefully under the open sky."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.5835625,
+                0.6592708333333334,
+                0.6152031250000001,
+                0.7514375
+            ]
+        },
+        {
+            "label": "frisbee",
+            "bbox": [
+                0.44693750000000004,
+                0.5580208333333334,
+                0.48996875000000006,
+                0.6329791666666668
+            ]
+        },
+        {
+            "label": "frisbee",
+            "bbox": [
+                0.6230625,
+                0.703375,
+                0.645046875,
+                0.8081458333333333
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.82640625,
+                0.38220833333333337,
+                0.87859375,
+                0.5293333333333333
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.47424999999999995,
+                0.3877083333333333,
+                0.57753125,
+                0.6905833333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.67440625,
+                0.2949791666666667,
+                0.7701718750000001,
+                0.7469791666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.11460937499999999,
+                0.24493749999999997,
+                0.3050625,
+                0.9280833333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.45337500000000003,
+                0.21347916666666666,
+                0.5427031250000001,
+                0.8426875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5084531250000001,
+                0.257875,
+                0.65709375,
+                0.989875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.792140625,
+                0.2760208333333333,
+                0.9471875000000001,
+                0.8243541666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.38689062500000004,
+                0.351,
+                0.44693750000000004,
+                0.6460208333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.216546875,
+                0.3037916666666666,
+                0.32940625,
+                0.66575
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.316140625,
+                0.2974583333333333,
+                0.45571875000000006,
+                0.7997083333333334
+            ]
+        }
+    ],
+    "hash_id": "766_coco_train2017_000000139930.jpg"
+}

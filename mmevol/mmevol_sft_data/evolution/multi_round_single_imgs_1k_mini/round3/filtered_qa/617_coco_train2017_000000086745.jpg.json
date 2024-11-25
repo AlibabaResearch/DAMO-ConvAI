@@ -1,0 +1,266 @@
+{
+    "id": "000000086745",
+    "image": "coco/train2017/000000086745.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are in the group walking with luggage?",
+            "steps": [],
+            "answer": "There are five people in the group walking with luggage: four adults and one child."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where is this group of travelers walking?",
+            "steps": [],
+            "answer": "This group of travelers is walking through an airport, likely on their way to or from their flight. They are seen walking along a corridor or an enclosed pedestrian bridge."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the activity of the adults and the child besides walking with luggage?",
+            "steps": [],
+            "answer": "Besides walking with luggage, the adults and the child are also looking out of a two-story window, possibly observing the airport's tarmac or other interesting sights."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might the group of people be doing at the airport?",
+            "steps": [],
+            "answer": "Given that the group of people consists of adults and a child walking with their luggage, it is highly likely that they are either arriving at their destination or departing on a trip. They could be: \n\n1. Arriving: If they just arrived at the airport, they might be making their way toward baggage claim, customs, or transportation to the city. They may be observing the new surroundings or looking for their assigned arrival gate or baggage claim area.\n\n2. Departing: If they are departing for a trip, they could be heading toward their boarding gate after checking in their luggage and going through security. They may be looking out the window to see their plane or simply taking in the airport views before starting their journey.\n\nRegardless, these travelers are likely in transit or preparing for a journey, and the combination of the luggage and the airport setting implies that they are experiencing a sense of movement and anticipation related to their travels."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "This image features a group of travelers, consisting of four adults and one child, walking across an enclosed pedestrian bridge at an airport. The group appears to be in a hurry, with each person carrying various pieces of luggage such as handbags and suitcases. There are three handbags and six suitcases of differing sizes. One of the suitcases even has a teddy bear attached to it, likely belonging to the child.\n\nA couple of cars can be spotted outside, and additionally, two buses are visible in the background. A bench is positioned near the glass windows of the bridge. The presence of a backpack suggests that some of the travelers might be prepared for a longer journey. The group appears to be heading to or departing from their flight while navigating through the airport."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can you infer about this group of people and their possible destination?",
+            "steps": [],
+            "answer": "Based on the image, we can infer that this group of people consists of four adults and one child, and they are travelers. They carry multiple pieces of luggage, such as suitcases, handbags, and a backpack, indicating that they are on the move and possibly embarking on a trip or returning from one. They are walking through an area that appears to be an airport, with a pedestrian bridge and buses visible in the background. It is likely that the group is either heading towards their flight or arriving from one. The presence of a teddy bear suggests that the child may have something for comfort or entertainment during the journey. Their destination might be another city, state, or country, depending on the nature of their trip and the distance they need to travel."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you think is going on in this snapshot?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the image, a group of four people are seen walking on a sidewalk outside an airport terminal. The group is composed of a young girl, a woman, and two men. The young girl, who is holding a stuffed animal, is walking alongside the woman dressed in a blue dress. One of the men is wearing a Hawaiian shirt, while the other man is sporting a red hat. They all appear to be carrying luggage, suggesting they might be travelers.\n\nThe sidewalk they are walking on is lined with palm trees, adding a tropical feel to the scene. In the background, there's a row of rental car shuttles parked, ready to transport passengers to their respective destinations. The sky overhead is overcast, hinting at the possibility of rain.\n\nThe group seems to be moving towards the camera, perhaps heading towards their rental car or waiting for a shuttle. Their expressions and body language are not visible in the image, but their forward movement suggests purpose and anticipation.\n\nOverall, the image captures a typical scene at an airport terminal: travelers arriving from their flights and heading towards the next leg of their journey."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.412078125,
+                0.43819444444444444,
+                0.51446875,
+                0.9663055555555555
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.458671875,
+                0.09905555555555555,
+                0.5804375,
+                0.6820833333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.744859375,
+                0.136,
+                0.83515625,
+                0.4184444444444445
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8427187500000001,
+                0.10880555555555556,
+                1.0,
+                0.9241111111111111
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.50146875,
+                0.18608333333333332,
+                0.5816250000000001,
+                0.4411388888888889
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.741359375,
+                0.36027777777777775,
+                0.8095156250000001,
+                0.4715555555555555
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.811609375,
+                0.3088611111111111,
+                0.851,
+                0.4069166666666667
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.5533750000000001,
+                0.33641666666666664,
+                0.6559375000000001,
+                0.6003055555555556
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.63425,
+                0.09,
+                0.74321875,
+                0.6431111111111112
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.128109375,
+                0.33375,
+                0.173390625,
+                0.3671111111111111
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.055640625,
+                0.33219444444444446,
+                0.09640625,
+                0.36197222222222225
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.001265625,
+                0.7955,
+                0.141578125,
+                0.9865277777777777
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.15790625,
+                0.40675,
+                0.321140625,
+                0.5661944444444444
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.7112499999999999,
+                0.3982777777777778,
+                0.7682343749999999,
+                0.5736666666666667
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.737890625,
+                0.35730555555555554,
+                0.8085000000000001,
+                0.47091666666666665
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.73953125,
+                0.2755833333333333,
+                0.748609375,
+                0.3356111111111111
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.00428125,
+                0.6694444444444444,
+                0.0420625,
+                0.7149722222222222
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.6438906249999999,
+                0.2879166666666667,
+                0.6607343749999999,
+                0.38900000000000007
+            ]
+        },
+        {
+            "label": "teddy bear",
+            "bbox": [
+                0.44837499999999997,
+                0.6276666666666667,
+                0.49331249999999993,
+                0.7280833333333334
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.497078125,
+                0.6566388888888889,
+                0.539203125,
+                0.7838333333333334
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.0010625,
+                0.4604722222222222,
+                0.170140625,
+                0.5977222222222223
+            ]
+        }
+    ],
+    "hash_id": "617_coco_train2017_000000086745.jpg"
+}

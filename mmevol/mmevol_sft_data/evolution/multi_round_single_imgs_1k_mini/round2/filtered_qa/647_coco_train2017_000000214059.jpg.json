@@ -1,0 +1,157 @@
+{
+    "id": "000000214059",
+    "image": "coco/train2017/000000214059.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What types of vehicles and objects are visible in the image?",
+            "steps": [],
+            "answer": "In the image, there are several buses and airplanes visible at an airport terminal, situated on the tarmac or runway."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the buses parked or in motion in the image?",
+            "steps": [],
+            "answer": "Some buses are parked, and one is pulling into a loading area at the airport. This shows a mix of stationary and moving buses in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is this image taken from an indoor or outdoor perspective?",
+            "steps": [],
+            "answer": "The image is taken from an indoor perspective, looking out at the airplanes and buses on the tarmac. The photographer is likely viewing the scene from within an airport terminal or a similar interior space."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What could be the purpose of the buses at the airport?",
+            "steps": [],
+            "answer": "The purpose of the buses at the airport is to transport passengers between the airport terminal and the planes parked at remote locations on the tarmac. These vehicles, sometimes called \"airport shuttles\" or \"tram buses,\" play an essential role in ensuring that passengers can disembark from their planes and reach the terminal efficiently or vice versa. They are particularly useful when planes cannot be parked directly at an airport gate due to limited space or other operational constraints, and they help keep airport operations running smoothly by facilitating the safe and timely transportation of passengers."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "In the image, several buses and airplanes are parked at an airport terminal. Two airplanes can be seen in the background, one located on the left side and the other towards the center of the scene. There are two buses, one situated on the right side of the image, and the other close to the center, parked near the airplanes. \n\nIn addition to the vehicles, three people are scattered throughout the scene. One person is positioned towards the left side, while the other two people are on the right side. Furthermore, there are two trucks visible, one near the center and the other slightly to its right. A car can also be seen, parked near the center of the scene. The overall scene captures the dynamic environment of an airport, with various vehicles and people moving about the tarmac."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a bustling scene on an airport tarmac, viewed from the window of a bus. The tarmac, a vast expanse of gray, is adorned with white lines and markings that guide the orchestrated movements of the airport's vehicles and personnel.\n\nThree airplanes are stationed in the background, their tails painted in distinct colors that hint at their respective airlines. One airplane sports a vibrant tail of red and yellow, another has a tail adorned in blue and white, while the third airplane has a tail that is purely white.\n\nTwo buses, one white and the other blue, are parked on the tarmac, ready to transport passengers to and from the airplanes. A person clad in a blue uniform is seen walking near the buses, perhaps attending to his duties on this busy day at the airport.\n\nThe image paints a picture of the organized chaos that is typical of an airport tarmac, where every vehicle and person has a role to play in ensuring smooth operations."
+        }
+    ],
+    "det": [
+        {
+            "label": "airplane",
+            "bbox": [
+                0.20615624999999999,
+                0.4114051522248243,
+                0.46557812500000006,
+                0.5248009367681499
+            ]
+        },
+        {
+            "label": "airplane",
+            "bbox": [
+                0.432703125,
+                0.4531147540983606,
+                0.568859375,
+                0.5170491803278688
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.700171875,
+                0.3389461358313817,
+                1.0,
+                0.983887587822014
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.577234375,
+                0.4734660421545667,
+                0.701671875,
+                0.6262763466042154
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.33582812500000003,
+                0.5310538641686182,
+                0.358015625,
+                0.6182903981264637
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.606609375,
+                0.5209836065573771,
+                0.623,
+                0.5476580796252928
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.764953125,
+                0.5320374707259954,
+                0.8711874999999999,
+                0.658711943793911
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.45354687499999996,
+                0.5085011709601873,
+                0.498734375,
+                0.5391100702576113
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.518765625,
+                0.518384074941452,
+                0.564,
+                0.5429742388758783
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.574265625,
+                0.5108899297423888,
+                0.5861562499999999,
+                0.5271428571428571
+            ]
+        }
+    ],
+    "hash_id": "647_coco_train2017_000000214059.jpg"
+}

@@ -1,0 +1,147 @@
+{
+    "id": "000000044613",
+    "image": "coco/train2017/000000044613.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "The image features a white refrigerator with a top freezer, situated in a kitchen. The refrigerator is extensively decorated with numerous pictures, stickers, papers, and magnets, giving it a personal touch. \n\nIn the kitchen, a microwave can be found on the left side of the room while a bowl is placed next to a potted plant on a counter. Besides the appliances and decorations, there are some people scattered across the scene along with two dogs; one dog is located near the left side of the refrigerator and the other closer to the right side."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What challenges might someone face when looking for a specific photo or item on the fridge?",
+            "steps": [],
+            "answer": "Due to the refrigerator being covered in numerous pictures, stickers, papers, and magnets, it could be challenging for someone to find a specific photo or item they are looking for. The abundance of decorations might make it difficult to spot desired items quickly. Additionally, the presence of various objects can make it hard to organize and prioritize what is on display, leading to a cluttered appearance. One would have to carefully examine each piece and sift through the clutter to locate the specific item they desire. This can be time-consuming and frustrating, particularly if the person is in a hurry or has limited patience."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What are the key elements in this picture?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image depicts a kitchen scene centered around a white refrigerator. The refrigerator is adorned with an array of colorful magnets and notes, totaling at least 16 in number. \n\nOn the refrigerator, there's a yellow post-it note, standing out amidst the other items. A blue magnet featuring a cat adds a touch of whimsy to the collection. A black and white magnet poses a thought-provoking question with the text \"Who would Jesus bomb?\".\n\nThe refrigerator is situated against a backdrop of a black countertop and a sink, adding to the domestic ambiance of the scene. The precise locations of objects and their relative positions contribute to a lively and personalized kitchen environment. \n\nPlease note that this description is based on the visible contents of the image and does not speculate beyond what can be confidently determined from the image itself."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.25288100208768266,
+                0.43359375,
+                0.3150104384133611,
+                0.512890625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.23319415448851774,
+                0.31039062500000003,
+                0.33782881002087684,
+                0.35931250000000003
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6536743215031315,
+                0.300359375,
+                0.6807515657620042,
+                0.336390625
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.4090187891440501,
+                0.05653125,
+                0.6214613778705637,
+                0.09903124999999999
+            ]
+        },
+        {
+            "label": "microwave",
+            "bbox": [
+                0.0014613778705636741,
+                0.311359375,
+                0.1747390396659708,
+                0.44848437500000005
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6837578288100208,
+                0.294546875,
+                0.7041753653444676,
+                0.325890625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6998538622129437,
+                0.298046875,
+                0.7264091858037579,
+                0.331296875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.659812108559499,
+                0.17293750000000002,
+                0.7221085594989561,
+                0.21564062499999997
+            ]
+        },
+        {
+            "label": "dog",
+            "bbox": [
+                0.36816283924843424,
+                0.951296875,
+                0.4437787056367432,
+                0.9936875000000001
+            ]
+        },
+        {
+            "label": "dog",
+            "bbox": [
+                0.25772442588726513,
+                0.94284375,
+                0.32524008350730693,
+                0.9883124999999999
+            ]
+        },
+        {
+            "label": "refrigerator",
+            "bbox": [
+                0.1803340292275574,
+                0.09210937500000001,
+                0.7460125260960333,
+                1.0
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.3950521920668058,
+                0.020624999999999998,
+                0.6261795407098121,
+                0.09296875
+            ]
+        }
+    ],
+    "hash_id": "419_coco_train2017_000000044613.jpg"
+}

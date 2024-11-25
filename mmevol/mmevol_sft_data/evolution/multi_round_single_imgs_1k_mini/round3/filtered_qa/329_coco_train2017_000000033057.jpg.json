@@ -1,0 +1,194 @@
+{
+    "id": "000000033057",
+    "image": "coco/train2017/000000033057.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image depicts three people sitting on a gray couch in a cozy living space. On the couch, there is a man positioned between two women. While the man is holding a beer in his hand, two of the individuals are playing a video game, possibly on a Nintendo Wii console, as they are holding remote controllers.\n\nA few books are scattered in the scene, indicating that the people may also enjoy reading or possibly studying together. A laptop is visible, placed on a chair near the couch. There are a couple of cups placed around the sitting area, suggesting that the group might be spending a leisurely time together. Additionally, there are a few chairs in the room, providing extra seating when necessary."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How are the people on the couch enjoying their time together?",
+            "steps": [],
+            "answer": "The people on the couch are enjoying their time together by playing a video game, specifically Nintendo Wii, as indicated by the remotes in their hands. The group consists of a man and two women, all sitting closely on a gray couch, engaging in this fun and interactive activity. It appears that they are having a casual and relaxed time together, with one of the individuals even holding a beer bottle during the gaming session. The presence of the couch, video game, and cozy atmosphere promotes a sense of bonding and entertainment among this group of friends."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What's happening in the scene?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a cozy scene in a living room. Three people are comfortably seated on a beige couch, which is adorned with a striped pillow on the left side. \n\nThe person on the left, dressed in a black dress, is leaning back on the couch with her eyes closed, perhaps enjoying a moment of relaxation. The person in the middle, wearing a black tank top, is sitting upright, attentive to the surroundings. On the right, a person in a white shirt and black tie is engrossed in playing a video game, as indicated by the controller in their hands.\n\nIn front of the couch, there's a coffee table holding a book and a remote control, suggesting some leisurely activities. A lamp in the background provides warm lighting to the room. On the left side of the photo, there's a bookshelf, possibly housing a collection of books or other items.\n\nThe walls of the room are painted in a soothing light green color, complementing the hardwood floor. The overall atmosphere appears to be relaxed and comfortable."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.770375,
+                0.6263333333333333,
+                0.838140625,
+                0.75925
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.0979375,
+                0.4436458333333333,
+                0.8559843749999999,
+                1.0
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.6045625,
+                0.49472916666666666,
+                0.6733593750000001,
+                0.6715833333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.83221875,
+                0.494625,
+                1.0,
+                0.8503333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.345078125,
+                0.38004166666666667,
+                0.610828125,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.52871875,
+                0.3119375,
+                0.8108124999999999,
+                0.9650833333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.11564062500000001,
+                0.3873125,
+                0.342859375,
+                1.0
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.747046875,
+                0.8905208333333333,
+                0.7926093750000001,
+                0.9865208333333333
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.79534375,
+                0.6042083333333333,
+                0.838328125,
+                0.6280833333333332
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.46901562500000005,
+                0.7540208333333334,
+                0.5328437500000001,
+                0.8256458333333333
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.768578125,
+                0.5097291666666667,
+                0.8772968750000001,
+                0.5649791666666667
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.8024531250000001,
+                0.903,
+                0.8685625000000001,
+                0.9566666666666667
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.49046874999999995,
+                0.28641666666666665,
+                0.55603125,
+                0.30727083333333327
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.416328125,
+                0.24039583333333334,
+                0.42684375,
+                0.2725416666666666
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.42856249999999996,
+                0.24941666666666668,
+                0.44737499999999997,
+                0.27091666666666664
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.5783750000000001,
+                0.34729166666666667,
+                0.6266406250000001,
+                0.44585416666666666
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.76915625,
+                0.5099166666666667,
+                0.883140625,
+                0.5640208333333334
+            ]
+        }
+    ],
+    "hash_id": "329_coco_train2017_000000033057.jpg"
+}

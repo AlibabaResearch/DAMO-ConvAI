@@ -1,0 +1,264 @@
+{
+    "id": "000000206636",
+    "image": "coco/train2017/000000206636.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the frisbee that the dog is playing with?",
+            "steps": [],
+            "answer": "The frisbee that the dog is playing with is purple."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are in the image, and what are they doing?",
+            "steps": [],
+            "answer": "There is a group of people in the image, and they are sitting in chairs watching the dog play with the frisbee."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the dog successful in catching the frisbee?",
+            "steps": [],
+            "answer": "Yes, the dog catches the frisbee while the people watch."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where is this event taking place?",
+            "steps": [],
+            "answer": "This event is taking place at a park or a field, where the dog is chasing the purple frisbee through the open space."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Why might a group of people be watching a dog play with a frisbee?",
+            "steps": [],
+            "answer": "There could be several reasons for a group of people to watch a dog play with a frisbee. One possibility is that it's a social gathering, such as a picnic or a family event, where attendees are enjoying each other's company and the dog's playful activities. People generally find dogs' playful behaviors entertaining, especially if the pet is skilled in catching or chasing frisbees.\n\nAnother possibility is that it could be an organized event, such as a dog frisbee competition or a dog training demonstration. In these cases, spectators might attend the event to observe the agility and skills of the participating dogs, or to learn more about training techniques and methods. Dog frisbee competitions can be quite popular, offering both entertainment and opportunities for dogs and their owners to showcase their abilities and bond through shared activities.\n\nRegardless of the specific context, watching a dog play with a frisbee can be an enjoyable and engaging experience for people who appreciate the athleticism, agility, and charm of dogs."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The image shows a lively scene at a park, where a black and white dog is playing with a purple frisbee. The dog is in the center of a grassy field and is either chasing or catching the frisbee in motion.\n\nA group of people are watching the dog play, sitting on chairs that are scattered around the area. Some are sitting closer to the dog, while others are further away. In total, there are at least nine people enjoying the playful scene.\n\nBesides the people and the dog, there are additional objects in the scene which add to the atmosphere. Two cars are parked nearby, a few backpacks are placed on the ground, and several cups can also be seen. This seems to be a fun gathering where everyone is having a good time watching the dog's energetic performance."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might be the purpose of the gathering of people in the scene?",
+            "steps": [],
+            "answer": "The primary purpose of the gathering of people in the scene seems to be to enjoy a leisurely day at the park, watching a black and white dog play with a purple frisbee. The dog is actively chasing and catching the frisbee while the people observe the dog's activities from their chairs, placed at various points around the park. The environment appears to be relaxed and informal, suggesting that the gathering is a casual, social event where the attendees enjoy taking in the dog's playful antics and sharing a pleasant outdoor experience together."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What do you think is going on in this snapshot?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of the image, a black and white dog, adorned with a vibrant red collar, is caught in a moment of pure joy. The dog is energetically sprinting across a lush green field, a purple frisbee clutched in its mouth, embodying the spirit of play.\n\nThe field is dotted with orange cones, adding a splash of color to the verdant landscape. In the distance, blurred figures of people can be seen lounging in lawn chairs, their attention seemingly captivated by the frolicking canine. \n\nFurther back, a few houses stand under the open sky. Their blue and white facades lend a serene backdrop to this lively scene. The entire image is a beautiful tableau of an ordinary day filled with extraordinary happiness."
+        }
+    ],
+    "det": [
+        {
+            "label": "dog",
+            "bbox": [
+                0.44084375,
+                0.347096018735363,
+                0.795515625,
+                0.775831381733021
+            ]
+        },
+        {
+            "label": "frisbee",
+            "bbox": [
+                0.35559375000000004,
+                0.5170725995316159,
+                0.46832812500000004,
+                0.5575409836065573
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.29903124999999997,
+                0.268384074941452,
+                0.485359375,
+                0.6587822014051521
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.763140625,
+                0.09887587822014052,
+                0.86359375,
+                0.469672131147541
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0015,
+                0.0844496487119438,
+                0.096171875,
+                0.3862529274004684
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.52925,
+                0.26517564402810306,
+                0.6686875000000001,
+                0.4561826697892272
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.735953125,
+                0.3425292740046838,
+                0.881734375,
+                0.6426697892271662
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.2839110070257611,
+                0.07275000000000001,
+                0.6449882903981266
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.11071875,
+                0.4180327868852459,
+                0.138484375,
+                0.46081967213114755
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.906109375,
+                0.37613583138173307,
+                0.9977812499999998,
+                0.6081030444964872
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.28907812499999996,
+                0.44494145199063234,
+                0.443453125,
+                0.647400468384075
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.857546875,
+                0.42400468384074946,
+                0.89309375,
+                0.5678220140515222
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.359328125,
+                0.3417096018735363,
+                0.409375,
+                0.4282903981264637
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.48940625000000004,
+                0.3630679156908665,
+                0.7319687500000001,
+                0.46259953161592504
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.07553125000000001,
+                0.2818501170960187,
+                0.248625,
+                0.45400468384074943
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.269921875,
+                0.3327868852459016,
+                0.400265625,
+                0.4578688524590164
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.08199999999999999,
+                0.4762763466042155,
+                0.17492187499999998,
+                0.6518969555035129
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.08837500000000001,
+                0.27194379391100704,
+                0.272078125,
+                0.6563700234192037
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.268453125,
+                0.3358782201405152,
+                0.34721875,
+                0.5640281030444965
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.07346604215456674,
+                0.01875,
+                0.17285714285714288
+            ]
+        }
+    ],
+    "hash_id": "704_coco_train2017_000000206636.jpg"
+}

@@ -1,0 +1,174 @@
+{
+    "id": "000000219855",
+    "image": "coco/train2017/000000219855.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Describe the following image.",
+            "steps": [],
+            "answer": "The image features a large green military transport truck, possibly a Mercedes Benz armored vehicle, parked prominently in the center of the scene. It appears to be on display at a show, with the truck's doors open for bystander viewing.\n\nThere are several people around the truck, taking a closer look and enjoying the event. A man on the right side of the scene is holding a balloon, while another person in the middle of the scene has a backpack. There is also a handbag located next to a person close to the middle of the scene. In the background, there are other people observing the event and engaging with one another. A car can be seen at the far left edge of the image, but it does not draw significant attention to itself."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What security or protection features does the vehicle in the image offer?",
+            "steps": [],
+            "answer": "The image features a large green armored military transport truck, possibly a Mercedes Benz, which is designed specifically to provide enhanced security and protection. Such vehicles typically offer several features such as a heavily reinforced structure, bulletproof glass, and strong materials that can withstand ballistic and explosive impact. Additionally, they may have advanced anti-mine protection and attack resistance systems in place. These features are intended to protect the occupants and valuable equipment inside the vehicle while operating in hazardous conditions, including combat zones or high-risk situations."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you think is going on in this snapshot?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of the scene, a robust military truck painted in a shade of forest green commands attention. The truck, bearing the distinguished Mercedes-Benz logo, is parked on a nondescript street. The vehicle's top is adorned with two orange lights that stand out against the green backdrop. A license plate reading \"Y-496 192\" is prominently displayed, hinting at its origin or designation.\n\nThe truck is not just a means of transport but also a tool, equipped with two large mechanical arms on its sides. These arms, designed for lifting or moving objects, add to the vehicle's utilitarian appeal.\n\nA group of people can be seen in the vicinity of the truck, their presence suggesting a sense of anticipation or activity. Their exact actions or intentions, however, remain a mystery.\n\nThe scene is an intriguing blend of everyday life and military machinery, each element contributing to a story waiting to be unraveled."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.00043750000000000006,
+                0.5502107728337237,
+                0.061453125,
+                0.5968384074941452
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.100453125,
+                0.006744730679156909,
+                0.9835468749999998,
+                0.9887587822014051
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.89428125,
+                0.584824355971897,
+                0.9737656250000001,
+                0.9196487119437939
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8262656249999999,
+                0.5649180327868852,
+                0.8577499999999999,
+                0.7346135831381733
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9823124999999999,
+                0.5443793911007025,
+                0.9991249999999999,
+                0.8188992974238875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.23157812500000002,
+                0.587072599531616,
+                0.25139062500000003,
+                0.692903981264637
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.1898125,
+                0.5833723653395785,
+                0.206984375,
+                0.6788992974238875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.5806088992974239,
+                0.03334375,
+                0.8445901639344262
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.723359375,
+                0.5935831381733021,
+                0.7620312499999999,
+                0.689344262295082
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.24518749999999997,
+                0.5926932084309133,
+                0.267796875,
+                0.6823185011709603
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.8205781249999999,
+                0.6005386416861827,
+                0.8391562499999999,
+                0.6473770491803279
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.13015625,
+                0.5770257611241217,
+                0.1589375,
+                0.6888290398126463
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.72190625,
+                0.6135831381733021,
+                0.73084375,
+                0.6433957845433256
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.205015625,
+                0.5662295081967214,
+                0.226859375,
+                0.6837939110070258
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.935984375,
+                0.5619906323185012,
+                0.9663906250000001,
+                0.6324824355971896
+            ]
+        }
+    ],
+    "hash_id": "569_coco_train2017_000000219855.jpg"
+}

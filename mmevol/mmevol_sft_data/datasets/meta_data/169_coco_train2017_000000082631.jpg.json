@@ -1,0 +1,370 @@
+{
+    "id": "000000082631",
+    "image": "coco/train2017/000000082631.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Explain the visual content of the image in great detail.",
+            "steps": [],
+            "answer": "The image depicts a lively bar scene where a man, likely a bartender, is standing behind the bar making drinks and taking orders from patrons. There are four other people in various positions within the scene, either communicating with the bartender or looking at items in the bar.\n\nNumerous bottles can be seen behind the bar and on the counter, indicating the wide selection of drinks available. Several wine glasses are placed throughout the scene, some near the patrons and others around the bar area. A few bowls, a spoon, and potted plants enhance the scene and give it a more cozy atmosphere.\n\nIn addition to the bar setting, there are couches and chairs placed in different areas, allowing patrons to sit and relax while enjoying their drinks."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What skills would you expect the man to possess to effectively attend to the patrons?",
+            "steps": [],
+            "answer": "To effectively attend to the patrons, the man behind the bar should possess various skills such as knowledge of different types of drinks and cocktails, excellent communication, active listening, multitasking, and time management. Additionally, having exceptional customer service skills, being able to create personalized recommendations based on patron preferences, and knowledge on how to handle various bar equipment and tools will ensure the man can provide a satisfying experience for the patrons visiting the bar. Finally, understanding of safety and sanitation regulations in the establishment and maintaining a clean workspace are crucial as well."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nExplain the visual content of the image in great detail."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy wine tasting bar, a group of three people are immersed in a lively conversation. The bar, crafted from dark wood, serves as the central focus of the image. A stone fireplace, adding a touch of rustic charm, is nestled in the background.\n\nOn the shelves behind the bar, several wine bottles are displayed, their labels facing outward. The bar surface is adorned with multiple wine glasses, their crystal clear bodies reflecting the ambient light. A bucket filled with ice sits on the bar, ready to chill any bottle to the perfect temperature.\n\nThe group consists of two men and one woman. The man on the left is clad in a blue shirt, while his counterpart on the right sports a black shirt. The woman, standing between them, is dressed in a white shirt and her curly hair cascades down her shoulders.\n\nTheir positions around the bar and their engaged expressions suggest an atmosphere of camaraderie and shared enjoyment of the fine wines at their disposal."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.0005468749999999999,
+                0.5873958333333333,
+                0.045890625000000004,
+                0.8189166666666666
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.162765625,
+                0.48372916666666665,
+                0.1950625,
+                0.6318750000000001
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.035359375,
+                0.5543125,
+                0.08146875,
+                0.7658333333333334
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.061375,
+                0.5257916666666667,
+                0.10484374999999999,
+                0.7131041666666665
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.0032187500000000003,
+                0.6665208333333333,
+                0.04184375,
+                0.8703958333333334
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.011078125,
+                0.5552916666666667,
+                0.06982812499999999,
+                0.8002916666666666
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.7249375,
+                0.10733333333333334,
+                0.738234375,
+                0.15662500000000001
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.738859375,
+                0.110125,
+                0.74934375,
+                0.14658333333333334
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.712625,
+                0.11895833333333333,
+                0.7228281249999999,
+                0.15685416666666668
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.6984843749999999,
+                0.11074999999999999,
+                0.7097343749999999,
+                0.15804166666666666
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.68596875,
+                0.11095833333333333,
+                0.69575,
+                0.158625
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.8074999999999999,
+                0.4003125,
+                0.9493124999999999,
+                0.5847083333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.18225,
+                0.21495833333333333,
+                0.408609375,
+                0.9492083333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3474375,
+                0.27087500000000003,
+                0.4538125,
+                0.44245833333333334
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.66865625,
+                0.3747916666666667,
+                0.691578125,
+                0.43512500000000004
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.6368750000000001,
+                0.46129166666666666,
+                0.6718906250000001,
+                0.5405
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.58446875,
+                0.3615833333333333,
+                0.605859375,
+                0.43183333333333335
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.5839531250000001,
+                0.46145833333333336,
+                0.6069687500000001,
+                0.5299791666666667
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.48321875,
+                0.4592291666666667,
+                0.508390625,
+                0.5289166666666667
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.0,
+                0.9035833333333334,
+                0.16143749999999998,
+                0.9865416666666668
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9072968749999999,
+                0.2528125,
+                0.990625,
+                0.6141875
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.62028125,
+                0.1124375,
+                0.6296250000000001,
+                0.16070833333333334
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.407921875,
+                0.3867083333333333,
+                0.4283125,
+                0.44295833333333334
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.1565,
+                0.41193749999999996,
+                0.18234374999999997,
+                0.47681250000000003
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.129625,
+                0.5192916666666666,
+                0.1583125,
+                0.6047708333333333
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.10979687499999999,
+                0.5225625,
+                0.1339375,
+                0.6110416666666667
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.44025,
+                0.46529166666666666,
+                0.46195312499999996,
+                0.5279375
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.41907812499999997,
+                0.461125,
+                0.4421562499999999,
+                0.53375
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.664828125,
+                0.5171458333333333,
+                0.686109375,
+                0.5384166666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.45804687499999996,
+                0.24614583333333334,
+                0.58084375,
+                0.4287708333333333
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.45776562500000006,
+                0.4623125,
+                0.4858437500000001,
+                0.5200625
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.807796875,
+                0.4003541666666666,
+                0.9510156249999999,
+                0.5868333333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.90940625,
+                0.36010416666666667,
+                0.97209375,
+                0.525375
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.0075,
+                0.57825,
+                0.024375,
+                0.6500625
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.41231249999999997,
+                0.46029166666666665,
+                0.42926562500000004,
+                0.5289166666666667
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.61,
+                0.18279166666666666,
+                0.7220625,
+                0.2554375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.22254166666666667,
+                0.06493750000000001,
+                0.5055
+            ]
+        }
+    ],
+    "hash_id": "169_coco_train2017_000000082631.jpg"
+}

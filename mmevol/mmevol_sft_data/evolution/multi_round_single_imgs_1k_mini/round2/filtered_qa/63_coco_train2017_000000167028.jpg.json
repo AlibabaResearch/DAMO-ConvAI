@@ -1,0 +1,427 @@
+{
+    "id": "000000167028",
+    "image": "coco/train2017/000000167028.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "In this scene, there is a large gathering of people sitting around several dining tables in a spacious dining room. There are various utensils, such as forks, knives, and spoons, placed on the tables for their use. Multiple people are enjoying a meal, with bowls filled with food spread across the dining area. Some cups are also present on the tables for the guests to drink from.\n\nThere are chairs surrounding each of the dining tables, providing ample seating for everyone attending the gathering. A few of the people are engaged in a conversation, while a woman eats out of a bowl. The overall atmosphere is lively and suggests that the group could be students, friends, or family enjoying a meal together in the large dining room."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What could be a potential issue for the dining room staff while serving this group of people?",
+            "steps": [],
+            "answer": "A potential issue for the dining room staff while serving this group might be the number of people seated around the table and the extra items on the table, like cell phones. The table is quite crowded with a considerable amount of tableware, like plates, bowls, cups, forks, knives, and spoons. Staff might have difficulties navigating around the full table, reaching to serve dishes or refill drinks, and clearing the table without causing disturbance to the guests. Moreover, they may need to ensure that the guests' personal belongings, such as cell phones, do not get in the way of serving or accidentally get damaged during the service process. The staff needs to be attentive and efficient to provide a satisfactory dining experience for the group."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Can you elaborate on the elements of the picture provided?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling restaurant, a lively scene unfolds. A group of people are gathered around a table, immersed in the joy of dining together. The table is a canvas of culinary delights, each dish adding a splash of color and texture to the tableau.\n\nAt the center of the action, a man in a vibrant red shirt is pouring tea from a pristine white teapot into a cup. His movements are fluid and practiced, suggesting a familiar ritual shared among friends or family.\n\nThe table is laden with an array of dishes that tantalize the senses. A plate of fried plantains adds a golden hue to the scene, their crispy edges hinting at their delicious crunch. Beside it, a bowl of rice sits, its grains glistening under the ambient light. A plate of greens brings a touch of freshness to the spread, their vibrant color contrasting beautifully with the other dishes.\n\nIn the background, other diners and tables can be seen, each engrossed in their own stories and conversations. The restaurant is alive with activity, creating an atmosphere that is both warm and inviting.\n\nEvery element in this image paints a vivid picture of a shared meal - a moment suspended in time where food and companionship intertwine."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.8772187499999999,
+                0.6676875,
+                1.0,
+                0.996875
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.636234375,
+                0.6637291666666666,
+                0.701859375,
+                0.7470833333333332
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.64628125,
+                0.4873125,
+                0.66971875,
+                0.514
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.41807812499999997,
+                0.5523333333333333,
+                0.45329687500000004,
+                0.6423125
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.702015625,
+                0.20818750000000003,
+                0.758515625,
+                0.2706458333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.4835625,
+                0.5234166666666666,
+                0.73921875,
+                0.6809375000000001
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.8149218749999999,
+                0.2115,
+                0.947078125,
+                0.4516875
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.011765625,
+                0.6478750000000001,
+                0.998875,
+                1.0
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.6415625,
+                0.742125,
+                0.66228125,
+                0.7742500000000001
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.486859375,
+                0.6754374999999999,
+                0.508015625,
+                0.7768958333333332
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.536921875,
+                0.5679583333333333,
+                0.575,
+                0.6916458333333334
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.2285,
+                0.6426458333333334,
+                0.31620312500000003,
+                0.6710625
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.266484375,
+                0.6228750000000001,
+                0.337109375,
+                0.7195416666666666
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.529953125,
+                0.6399583333333333,
+                0.605609375,
+                0.7348125000000001
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.534578125,
+                0.8142291666666667,
+                0.65928125,
+                0.9335625000000001
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.593265625,
+                0.9153541666666667,
+                0.7530625,
+                1.0
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.326671875,
+                0.7574375,
+                0.451328125,
+                0.8735625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0625,
+                0.20158333333333334,
+                0.4425625,
+                0.7128333333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7516875,
+                0.2831458333333333,
+                1.0,
+                0.703375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.77190625,
+                0.02695833333333333,
+                0.9303437499999999,
+                0.46066666666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.877328125,
+                0.02002083333333333,
+                0.9596406249999999,
+                0.1915
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.734046875,
+                0.0043124999999999995,
+                0.82521875,
+                0.14812499999999998
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6470625,
+                0.045875,
+                0.781828125,
+                0.2952708333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.626125,
+                0.006583333333333333,
+                0.6882187500000001,
+                0.13268749999999999
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.8275937499999999,
+                0.7316458333333333,
+                0.891234375,
+                0.8564791666666667
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.6361718749999999,
+                0.8617291666666667,
+                0.7178125,
+                0.895
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.20271875,
+                0.7996875,
+                0.28040625,
+                0.95825
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.8886406250000001,
+                0.6170416666666667,
+                0.958921875,
+                0.669375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0008593750000000001,
+                0.0171875,
+                0.048,
+                0.157625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.66490625,
+                0.0,
+                0.765328125,
+                0.06339583333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.442484375,
+                0.0369375,
+                0.7991406249999999,
+                0.682
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.528140625,
+                0.0013541666666666667,
+                0.56703125,
+                0.04585416666666666
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.055734375,
+                0.8118125,
+                0.155890625,
+                0.9409583333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.44232812499999996,
+                0.6289791666666668,
+                0.48914062499999994,
+                0.7402916666666667
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.176890625,
+                0.6841875000000001,
+                0.24139062500000003,
+                0.8402291666666668
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.429390625,
+                0.8129166666666666,
+                0.4779375,
+                0.8456458333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6796562500000001,
+                0.6091458333333333,
+                0.72546875,
+                0.6798541666666666
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.001953125,
+                0.14545833333333333,
+                0.21818749999999998,
+                0.23377083333333332
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.7598906249999999,
+                0.12135416666666667,
+                0.79746875,
+                0.2552083333333333
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.361328125,
+                0.6710208333333333,
+                0.393359375,
+                0.7525833333333333
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.980265625,
+                0.65525,
+                1.0,
+                0.6991875
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.130671875,
+                0.9223125,
+                0.21071874999999998,
+                1.0
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.959046875,
+                0.11679166666666667,
+                1.0,
+                0.1916875
+            ]
+        }
+    ],
+    "hash_id": "63_coco_train2017_000000167028.jpg"
+}

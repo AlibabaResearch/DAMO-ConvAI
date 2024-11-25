@@ -1,0 +1,167 @@
+{
+    "id": "000000020172",
+    "image": "coco/train2017/000000020172.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The image captures a train station where a red train is pulling up to the platform, which is filled with waiting passengers. They are standing eagerly, preparing to board the train once it comes to a complete stop. There are at least nine people visible on the platform, some with their attention focused on the approaching train. \n\nAmong the passengers, there is a man with a large gray backpack standing near the edge of the platform, and someone carrying a handbag can be spotted on the platform as well. In addition to the passengers, there is a bicycle resting near the right end of the platform, possibly belonging to one of the commuters using the train for their daily transportation needs."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do commuters need to be cautious about while boarding the train?",
+            "steps": [],
+            "answer": "While boarding the red train in the image, commuters should be cautious of the fellow passengers standing around them on the platform. There are several people, some with large items like a gray backpack, a handbag, and a bicycle. To ensure a safe and smooth boarding process, the passengers must maintain awareness of their surroundings, give space to those with bulky belongings, and avoid rushing or pushing their way onto the train. By practicing patience and being considerate of others, the commuters can minimize accidents and guarantee an efficient boarding experience for everyone at the station."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat is this photo about'?"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a vibrant scene at a train station. The main focus is a striking red and black train, proudly displaying the number 16600R on its side. The train rests on tracks made of metal and wood, ready to embark on its next journey.\n\nThe platform, constructed of solid concrete, hosts four individuals. They stand under the protection of a white and red striped awning, perhaps waiting for their ride or bidding farewell to a departing one.\n\nIn the background, a white building adorned with red arches adds architectural interest to the scene. It stands amidst a lush landscape of trees and bushes, under the vast expanse of a clear blue sky. The relative positions of these elements create a harmonious balance in the image, making it a picturesque representation of everyday life at a train station."
+        }
+    ],
+    "det": [
+        {
+            "label": "train",
+            "bbox": [
+                0.3108125,
+                0.27139583333333334,
+                0.670609375,
+                0.6632916666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.27246875,
+                0.4265416666666667,
+                0.28684374999999995,
+                0.49285416666666665
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.214109375,
+                0.38608333333333333,
+                0.28803125,
+                0.6701666666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.120109375,
+                0.39297916666666666,
+                0.209078125,
+                0.8436875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.387625,
+                0.073828125,
+                0.8372708333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.047421875,
+                0.4660625,
+                0.08851562500000001,
+                0.6138958333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.287390625,
+                0.42124999999999996,
+                0.308734375,
+                0.495
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.310203125,
+                0.43539583333333337,
+                0.32134375,
+                0.47591666666666665
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7292500000000001,
+                0.4643541666666666,
+                0.7465,
+                0.5310416666666666
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.060625,
+                0.4636875,
+                0.18771875,
+                0.6350833333333333
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.17959375,
+                0.6542916666666667,
+                0.22234375,
+                0.779
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.70415625,
+                0.49297916666666663,
+                0.75884375,
+                0.5321458333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.18521875000000002,
+                0.47941666666666666,
+                0.22614062500000004,
+                0.5135416666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.102515625,
+                0.40989583333333335,
+                0.1284375,
+                0.4638333333333333
+            ]
+        }
+    ],
+    "hash_id": "525_coco_train2017_000000020172.jpg"
+}

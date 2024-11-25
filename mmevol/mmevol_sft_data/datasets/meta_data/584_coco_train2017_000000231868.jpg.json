@@ -1,0 +1,235 @@
+{
+    "id": "000000231868",
+    "image": "coco/train2017/000000231868.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of room is shown in the image?",
+            "steps": [],
+            "answer": "The image shows a kitchen."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are some of the objects visible on the kitchen counter?",
+            "steps": [],
+            "answer": "Some of the objects visible on the cluttered kitchen counter include a tablet, pots, and pans."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the kitchen well-organized or messy?",
+            "steps": [],
+            "answer": "The kitchen is messy, with multiple objects scattered around the counter."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can be seen through the windows in the kitchen?",
+            "steps": [],
+            "answer": "Through the windows in the kitchen, there is a view of another building."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a garbage can visible in the kitchen? If so, where is it located?",
+            "steps": [],
+            "answer": "Yes, there is a garbage can visible in the kitchen. It is located out in the open, near the counter."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "The image depicts a cluttered kitchen counter with multiple objects scattered around. There is a sink, pots and pans, as well as an oven in the kitchen. Two sinks can be seen, one near the center-left and another towards the right. On the counter, there are multiple bowls, cups, wine glasses, and bottles. A knife and a pair of bananas are also present in the scene.\n\nA potted plant is situated in the background towards the top-left of the counter, adding some greenery to the small room. A garbage can is visible, and a tablet lies on the counter amidst the disorder.\n\nIn addition to these elements, there is a window in the room, providing a view of another building outside. Overall, the kitchen appears quite messy and disorganized."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How can you improve the organization and cleanliness of this kitchen?",
+            "steps": [],
+            "answer": "To improve the organization and cleanliness of this cluttered kitchen, you can start by clearing the countertops and putting away the multiple objects scattered around, such as bottles, a tablet, wine glasses, cups, and bowls. Ensure that every item has a designated storage space, such as cabinets or drawers, to maintain a neat appearance. Utensils and cutlery, like knives, can be arranged in dedicated organizers or holders to keep them accessible and tidy. Additionally, consider storing the items you frequently use close to the areas where you typically use them, like pots and pans near the stove.\n\nNext, sort your kitchen waste and use a proper garbage can with a lid to manage trash, keeping it out of sight and maintaining hygienic conditions. Cleaning the sink regularly and doing the dishes in a timely manner will also contribute to a clean and organized kitchen.\n\nEnhancing the overall appearance of the kitchen can be achieved by adding some decorative elements such as potted plants or other visually pleasant items that match the interior design. Lastly, establish a regular cleaning routine, including sweeping floors, wiping countertops, and cleaning appliances like the oven, to maintain the kitchen's cleanliness in the long run."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Can you elaborate on the elements of the picture provided?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a moment in a bustling kitchen, bathed in the soft glow of natural light streaming in from a window overlooking a cityscape. The heart of the scene is a white kitchen counter, which serves as the stage for a symphony of everyday objects.\n\nOn the left side of the counter, near the sink, an assortment of kitchen utensils are at rest, their duty done for now. Among them, a white bowl and a red jar stand out, adding a splash of color to the scene. \n\nMoving towards the right, the counter becomes a canvas for culinary creativity. A yellow cutting board lies in wait, ready for the chef's next move. Beside it, a white bucket stands tall, its purpose unknown but its presence undeniable. A black tablet rests nearby, perhaps displaying a recipe or playing some soothing music.\n\nScattered across the counter are various objects that tell their own stories - a blue mug waiting to be filled with a warm beverage, a white plate that once held delicious food, and another white bowl that echoes its counterpart on the other side of the counter.\n\nEach object has its place and purpose, contributing to the overall narrative of life in this kitchen. Despite the clutter, there's a sense of harmony and rhythm in this space - it's not just a kitchen, it's a snapshot of life itself."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.42857843137254903,
+                0.392859477124183,
+                0.45954248366013073,
+                0.47272875816993465
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.8109150326797385,
+                0.5734967320261438,
+                0.88468954248366,
+                0.613937908496732
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.8134803921568627,
+                0.555375816993464,
+                0.8784967320261438,
+                0.5772385620915033
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.3222058823529412,
+                0.4715522875816993,
+                0.4624346405228758,
+                0.4989869281045752
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.48035947712418303,
+                0.4783823529411764,
+                0.6240686274509804,
+                0.5068954248366012
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.19009803921568627,
+                0.4654738562091503,
+                0.2078104575163399,
+                0.5155065359477125
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.16779411764705882,
+                0.3922222222222222,
+                0.1892156862745098,
+                0.4433169934640523
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.6254248366013072,
+                0.48766339869281045,
+                0.662532679738562,
+                0.5340359477124182
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.5351143790849673,
+                0.22812091503267976,
+                0.7191013071895426,
+                0.3921732026143791
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.12212418300653594,
+                0.42712418300653593,
+                0.1551797385620915,
+                0.4751143790849673
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.515359477124183,
+                0.6560294117647059,
+                0.658235294117647,
+                0.7640196078431373
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.7247549019607843,
+                0.5486764705882353,
+                0.7659967320261438,
+                0.5701633986928104
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.5306862745098039,
+                0.7063725490196079,
+                0.6429901960784313,
+                0.7616176470588235
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.19225490196078432,
+                0.4058660130718954,
+                0.22254901960784312,
+                0.46049019607843134
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.12101307189542485,
+                0.41419934640522876,
+                0.15588235294117647,
+                0.47521241830065364
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.6397222222222222,
+                0.5795424836601307,
+                0.6891339869281046,
+                0.6183006535947712
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.031160130718954248,
+                0.4692156862745098,
+                0.18986928104575163,
+                0.6105228758169935
+            ]
+        }
+    ],
+    "hash_id": "584_coco_train2017_000000231868.jpg"
+}

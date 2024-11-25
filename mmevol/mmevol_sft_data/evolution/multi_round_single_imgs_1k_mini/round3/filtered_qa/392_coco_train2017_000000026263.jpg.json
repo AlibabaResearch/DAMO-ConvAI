@@ -1,0 +1,95 @@
+{
+    "id": "000000026263",
+    "image": "coco/train2017/000000026263.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the main object in the image?",
+            "steps": [],
+            "answer": "The main object in the image is a yellow banana being held by a person."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there any writing or message on the banana? If so, what does it say?",
+            "steps": [],
+            "answer": "Yes, there is a message written on the banana. It says, \"Sometimes a bit green; Often slippery; But always good for you!\""
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "In which hand is the person holding the banana?",
+            "steps": [],
+            "answer": "The person is holding the banana in their left hand."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What could be the purpose of the message written on the banana?",
+            "steps": [],
+            "answer": "The message written on the banana seems to be a fun, lighthearted, and creative way to describe the banana's characteristics and bring attention to its health benefits. The message humorously refers to the banana's tendency to be slightly unripe at times (a bit green), its slippery nature due to the presence of its peel, and its nutritious properties, which make it a healthy snack option.\n\nThe purpose of the message could be to encourage people to consume more bananas or simply to share a playful and imaginative perspective on an everyday fruit. By writing a witty message on the banana, the person holding it has created a fun conversation starter or a unique way to spread positivity and amusement using simple objects found in daily life."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can one infer about the purpose behind writing a message on the banana?",
+            "steps": [],
+            "answer": "One can infer that the purpose behind writing a message on the banana is possibly motivational or intended to make someone smile. The message \"Sometimes a bit green; Often slippery; But always good for you!\" might be used as a metaphor for a person's journey through life, highlighting that there can be challenging times (green or slippery), but something positive can always be drawn from your experiences. By putting this message on a banana, it adds a creative and light-hearted touch to convey the message, making it more memorable and engaging. The person holding the banana with the message might also want to cheer someone up or share a smile with others through this quirky approach."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What's happening in the scene?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image depicts a hand holding a ripe, yellow banana. The banana has a message written on it in black ink that reads, \"Sometimes a bit green; Often slippery; But always good for you\". The banana is resting on a white table, and the background is a vibrant shade of green. The hand holding the banana is adorned with a gold ring. The image overall conveys a playful and healthy message."
+        }
+    ],
+    "det": [
+        {
+            "label": "banana",
+            "bbox": [
+                0.08096875,
+                0.38875878220140514,
+                0.9025781250000001,
+                0.6539344262295083
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.2763934426229508,
+                0.259265625,
+                0.8134894613583139
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0073124999999999996,
+                0.0,
+                0.999875,
+                0.9988524590163934
+            ]
+        }
+    ],
+    "hash_id": "392_coco_train2017_000000026263.jpg"
+}

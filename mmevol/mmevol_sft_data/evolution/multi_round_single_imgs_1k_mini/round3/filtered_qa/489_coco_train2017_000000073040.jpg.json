@@ -1,0 +1,194 @@
+{
+    "id": "000000073040",
+    "image": "coco/train2017/000000073040.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the man in the image wearing skis?",
+            "steps": [],
+            "answer": "Yes, the man in the image is wearing skis as he stands outside in the snow."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of building is located behind the man?",
+            "steps": [],
+            "answer": "There is a log cabin located behind the man."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the man standing inside or outside of the cabin?",
+            "steps": [],
+            "answer": "The man is standing outside of the log cabin in the snow."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are some potential activities the man might be engaging in at this location?",
+            "steps": [],
+            "answer": "Given that the man is wearing skis and is standing outside a log cabin in a snowy environment, he is likely engaging in, or preparing to engage in, winter recreational activities such as skiing, snowboarding, or snowshoeing. The cabin also suggests that this area could serve as a base for these activities or a place for shelter and relaxation after outdoor sports. \n\nFurthermore, apart from skiing and similar activities, the man could also be enjoying other winter pastimes such as building snowmen, having a snowball fight, or simply taking in the beautiful winter landscape. Staying or spending time in a log cabin typically offers a cozy and rustic retreat from the cold, so the man may also be enjoying warming up by a fireplace, sharing meals with friends, or playing board games inside the cabin when not outdoors.\n\nIn conclusion, the man in the image, standing in front of the log cabin with skis, is most likely either engaging in or preparing for various winter activities in the surrounding snowy environment, while also enjoying the warmth and comfort of the cabin."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "The image shows a man standing in the snow outside of a log cabin. The man is wearing skis, ready to enjoy the winter sport. Another person is partially visible in the background, also wearing skis. \n\nThere are several chairs and benches scattered around the scene, with three chairs located to the right of the man, and another two chairs situated nearby. Additionally, there are two benches, one farther to the right and another to the left of the man in front of the cabin. A backpack can be noticed on the ground, close to the man standing in the snow, suggesting he may have been carrying it with him during his outdoor activities."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How is the man in front of the cabin prepared for the snowy conditions?",
+            "steps": [],
+            "answer": "The man standing in front of the cabin is prepared for the snowy conditions by wearing skis. As seen in the image, he has skis attached to his feet, which allow him to navigate the snow-covered terrain efficiently and enjoy winter outdoor activities. Additionally, the man has a backpack, suggesting he might be carrying essential items, like food, water, or extra clothing, to accommodate his needs during his time in the snow. This demonstrates that he is well-equipped to handle the challenges of being in a snowy environment."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a snowy forest, a wooden cabin stands as a beacon of warmth. The cabin, with its green roof and balcony, is nestled among the snow-covered trees. A person, clad in a green jacket and an orange hat, is seen making their way towards the cabin, ski poles in hand. \n\nLeaning against the cabin are two pairs of skis, perhaps resting after a day of gliding through the snow. On the porch of the cabin, there's a solitary white chair, perhaps a spot for someone to sit and admire the winter wonderland around them. \n\nThe scene is tranquil and serene, a snapshot of life in the midst of winter's embrace."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.612984375,
+                0.6421458333333334,
+                0.65825,
+                0.728125
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.725078125,
+                0.4034375,
+                0.763578125,
+                0.4479375
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.627890625,
+                0.3911875,
+                0.649046875,
+                0.442625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.136515625,
+                0.5685416666666666,
+                0.291578125,
+                0.9887708333333334
+            ]
+        },
+        {
+            "label": "skis",
+            "bbox": [
+                0.485328125,
+                0.5805208333333333,
+                0.49781250000000005,
+                0.7291875
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.135421875,
+                0.6198750000000001,
+                0.18835937500000002,
+                0.7517708333333334
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.7971250000000001,
+                0.6537708333333333,
+                0.9270781250000001,
+                0.7359375
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.283765625,
+                0.6452500000000001,
+                0.412078125,
+                0.7673541666666668
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6472187500000001,
+                0.6421875,
+                0.694703125,
+                0.7283125
+            ]
+        },
+        {
+            "label": "skis",
+            "bbox": [
+                0.0,
+                0.8692916666666667,
+                0.076546875,
+                0.8869583333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.436234375,
+                0.5621041666666666,
+                0.45923437500000003,
+                0.724375
+            ]
+        },
+        {
+            "label": "skis",
+            "bbox": [
+                0.512046875,
+                0.5708749999999999,
+                0.5464687500000001,
+                0.7330208333333332
+            ]
+        },
+        {
+            "label": "skis",
+            "bbox": [
+                0.46915625,
+                0.5760625,
+                0.485640625,
+                0.72875
+            ]
+        }
+    ],
+    "hash_id": "489_coco_train2017_000000073040.jpg"
+}

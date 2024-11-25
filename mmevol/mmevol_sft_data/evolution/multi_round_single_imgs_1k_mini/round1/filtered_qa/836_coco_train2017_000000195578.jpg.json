@@ -1,0 +1,147 @@
+{
+    "id": "000000195578",
+    "image": "coco/train2017/000000195578.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many elephants are visible in the image?",
+            "steps": [],
+            "answer": "There are two large gray elephants visible in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of items are placed on the elephants' backs?",
+            "steps": [],
+            "answer": "Some of the items placed on the elephants' backs include blankets, chairs (also known as seats), and umbrellas."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are any of the elephants visibly behind a fence?",
+            "steps": [],
+            "answer": "Yes, one of the elephants is adorned with decorations and is waiting behind a fence."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the purpose of placing the blanket, chair, and umbrella on the elephant's back?",
+            "steps": [],
+            "answer": "The purpose of placing a blanket, chair, and umbrella on the elephant's back is to equip it for entertaining tourists or for participating in a special event or ceremony. These items, along with the decorations, help make the elephant more visually appealing, comfortable for riders, and protected from the sun or rain. The chair or seat provides a stable area for passengers to sit, and the umbrella acts as a sunshade or shelter from the rain during the ride or event, enhancing the overall experience for the participants or onlookers."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The scene features a couple of large gray elephants standing next to each other. One of the elephants is adorned with a blanket, a chair, and an umbrella on its back, indicating that it may be used for rides or performances. There is another smaller elephant nearby with a seat and umbrella on its back, as well.\n\nThree umbrellas can be seen in the image: one above the decorated elephant, one in the background, and another at the top right corner. A person is also visible in the scene, likely a caretaker or a visitor, positioned behind the second decorated elephant.\n\nIn addition, there are three benches present. One bench is placed near the larger elephant, another sits to the left side of the image, and the third one is positioned near the smaller decorated elephant."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of the image, an elephant, majestic and grand, stands in a muddy enclosure. Its skin, a weathered gray, contrasts with the vibrant red and gold blanket that adorns its back. The blanket, richly decorated, adds a touch of regality to the scene.\n\nThe elephant's trunk, long and flexible, extends towards a metal railing that separates it from the viewer. It rests there, as if reaching out to an unseen friend beyond the barrier.\n\nIn the background, two red parasols stand out against the muted colors of the enclosure. They are closed, their pointed tops aiming towards the sky. Their presence adds an air of mystery to the scene.\n\nThe elephant's eyes, wise and knowing, gaze directly at the camera. It stands still, its massive form filling up most of the frame. Despite being in an enclosure, there is a sense of calm and dignity about it that is truly captivating."
+        }
+    ],
+    "det": [
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.23830409356725146,
+                0.009140625,
+                0.5578947368421052,
+                0.14396875
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.8005458089668616,
+                0.23584375,
+                0.9585575048732944,
+                0.3736875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8501364522417154,
+                0.313453125,
+                0.9064327485380117,
+                0.353015625
+            ]
+        },
+        {
+            "label": "elephant",
+            "bbox": [
+                0.19732943469785577,
+                0.1384375,
+                0.7979922027290448,
+                0.9735312500000001
+            ]
+        },
+        {
+            "label": "elephant",
+            "bbox": [
+                0.0,
+                0.166296875,
+                0.1626120857699805,
+                0.8741562500000001
+            ]
+        },
+        {
+            "label": "elephant",
+            "bbox": [
+                0.8410721247563353,
+                0.38351562499999997,
+                0.9634502923976608,
+                0.5654999999999999
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.3920857699805068,
+                0.08492187500000001,
+                0.8133528265107213,
+                0.24856250000000002
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.0,
+                0.10345312499999999,
+                0.06840155945419105,
+                0.175328125
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.8399805068226122,
+                0.34175,
+                0.9455750487329435,
+                0.387515625
+            ]
+        }
+    ],
+    "hash_id": "836_coco_train2017_000000195578.jpg"
+}

@@ -1,0 +1,257 @@
+{
+    "id": "000000185991",
+    "image": "coco/train2017/000000185991.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image displays a group of women standing next to a bus, likely after disembarking from their journey. As weary travelers, they are in the process of collecting their luggage. The luggage items, including multiple suitcases, backpacks, and a handbag, are placed near a brick wall and piled up beside the bus.\n\nThere are several people scattered around the scene, with some standing closer to the bus and others near the pile of luggage. A couple of bottles can be seen in the image as well, indicating that the travelers might be taking refreshments.\n\nIn addition to the bus, a truck can be spotted in the background, further illustrating that the scene takes place on a street."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How can the women ensure an efficient process of collecting their luggage?",
+            "steps": [],
+            "answer": "To ensure an efficient process of collecting their luggage, the women can follow a few steps. Firstly, they can pay attention to the layout of the luggage on the tables, as seen in the image, and try to locate their belongings beforehand. Secondly, they can form an orderly line or queue to prevent chaos or confusion while picking up their suitcases and bags. This will help minimize the chances of grabbing someone else's luggage mistakenly. Lastly, they should communicate with fellow travelers and identify any similar-looking luggage pieces to avoid mix-ups. Cooperation and patience among the group members are important in making the collection process a smooth and hassle-free experience."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What do you think is going on in this snapshot?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of the scene, a group of people are gathered on a sidewalk, their attention focused on a pile of luggage. The luggage, in various shapes and sizes, is a medley of colors that echo the casual clothing worn by the people. One individual is caught in the act of bending over to pick up a suitcase, their movement frozen in time.\n\nTo their side, a bus waits patiently. It's a striking vehicle, its white body adorned with stripes of orange and blue. The word \"POLE\" is emblazoned on its side, perhaps indicating its destination or origin.\n\nThe backdrop to this tableau is a brick wall, sturdy and unyielding. Beyond it, a building with a red roof peeks out, adding another splash of color to the scene. The entire image is a snapshot of a moment, capturing the hustle and bustle of travel in vivid detail."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.608453125,
+                0.5256458333333334,
+                0.64175,
+                0.6170208333333334
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.637328125,
+                0.0022500000000000003,
+                1.0,
+                0.8071666666666667
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.7361875,
+                0.9217916666666667,
+                0.79390625,
+                1.0
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.6931875,
+                0.5655,
+                0.9844375,
+                0.8403541666666666
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.003296875,
+                0.8338541666666667,
+                0.15340625,
+                0.9998958333333333
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.543328125,
+                0.6665833333333333,
+                0.632890625,
+                0.7540833333333333
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.0050625,
+                0.5730416666666667,
+                0.262921875,
+                0.80675
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.549390625,
+                0.173125,
+                0.626265625,
+                0.21072916666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.232078125,
+                0.19749999999999998,
+                0.5788437500000001,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.51121875,
+                0.29410416666666667,
+                0.686359375,
+                0.9995833333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5749375,
+                0.44949999999999996,
+                0.93884375,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.56221875,
+                0.19897916666666668,
+                0.579578125,
+                0.2873333333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.596453125,
+                0.19964583333333333,
+                0.6257343750000001,
+                0.27520833333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.63971875,
+                0.1905,
+                0.6532500000000001,
+                0.2473125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.54803125,
+                0.18345833333333333,
+                0.5627187499999999,
+                0.23802083333333332
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.261234375,
+                0.6292083333333333,
+                0.35225,
+                0.8269583333333334
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.0,
+                0.7649375,
+                0.27331249999999996,
+                0.9996458333333335
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.3,
+                0.8426875,
+                0.36909375,
+                0.9842708333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.579234375,
+                0.17825,
+                0.59290625,
+                0.22420833333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.825921875,
+                0.7925833333333333,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.144359375,
+                0.22185416666666666,
+                0.353203125,
+                0.643625
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.5312812499999999,
+                0.41052083333333333,
+                0.6662343749999999,
+                0.5304791666666666
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.201015625,
+                0.29672916666666665,
+                0.24715625000000002,
+                0.32033333333333336
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.42234375,
+                0.24120833333333333,
+                0.5660937500000001,
+                0.48202083333333334
+            ]
+        }
+    ],
+    "hash_id": "9_coco_train2017_000000185991.jpg"
+}

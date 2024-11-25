@@ -1,0 +1,264 @@
+{
+    "id": "000000089881",
+    "image": "coco/train2017/000000089881.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the person in the image flying a kite or using a parachute?",
+            "steps": [],
+            "answer": "The person in the image is in a grassy field with a parachute-sized kite. They are not using a parachute in this scene."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the surrounding environment like where the person is flying the kite?",
+            "steps": [],
+            "answer": "The surrounding environment consists of a grassy field and a parking lot next to it."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there any large canopy visible in the image?",
+            "steps": [],
+            "answer": "Yes, there is a large canopy in the parking lot next to the field where the person is flying the kite."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the person's position in relation to the landed parachute? Have they landed or are they still in the air?",
+            "steps": [],
+            "answer": "The person is on the ground, standing in the grassy field with their parachute-sized kite. They are not depicted as having landed with a parachute or being in the air."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The scene features a person with a parachute-like kite landing in a grassy field. There is another distant person in the field, possibly observing the thrilling action. The field is situated next to a parking lot where many cars and a truck are parked. The parked vehicles come in various sizes and are spread out throughout the lot, with some positioned closer to the field.\n\nAdditionally, a couple of people can be seen close to the parked cars, possibly attending to their vehicles or admiring the scene. An unattended handbag is also visible near the main parachuting person."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What precautions should the person with the parachute take when considering their surroundings?",
+            "steps": [],
+            "answer": "The person with the parachute should be mindful of their surroundings while landing to avoid potential hazards. In the image, the individual is in a grassy field which provides a reasonably safe landing area. However, there are several cars and a truck parked nearby, possibly indicating a parking lot adjacent to the field. The paraglider should ensure a safe distance from these vehicles when landing to prevent any accidents, damage to the vehicles, or injury to themselves. They should also be aware of any spectators or other people in the vicinity, as shown by the presence of several people in the image, and aim to land in a clear area to minimize the risk of collisions or harm to others. Additionally, they should avoid getting the parachute, or \"kite,\" tangled with any nearby structures or objects, as this could lead to complications in their landing and recovery process."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What's happening in the scene?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a park, a daring adventure unfolds. A paraglider, adorned in a striking palette of white and red, takes flight. The paraglider, held aloft by the unseen currents of the wind, is tethered to a lone figure on the ground. Dressed in black, the figure runs across the verdant expanse of grass, their hands firmly gripping the strings that control their airborne companion.\n\nThe park itself is a tranquil setting, dotted with trees that stand tall against the skyline. Beyond this natural boundary, the angular silhouettes of buildings can be seen, their presence a reminder of the urban landscape that surrounds this oasis of green.\n\nAbove it all, a cloudy sky stretches out, its muted colors painting a serene backdrop to this scene of exhilarating action. The image captures a moment frozen in time, as man and machine work in harmony to conquer the skies."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.39556,
+                0.6602272727272728,
+                0.44445999999999997,
+                0.7873863636363637
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0378,
+                0.4671875,
+                0.054099999999999995,
+                0.5229545454545454
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.25814,
+                0.12857954545454545,
+                0.6938799999999999,
+                0.4121875
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.43057999999999996,
+                0.012357954545454545,
+                0.45976,
+                0.07082386363636363
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.07556,
+                0.4061363636363637,
+                0.12632,
+                0.4460795454545455
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.15736,
+                0.4097159090909091,
+                0.19392,
+                0.4421306818181818
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.39182,
+                0.6997443181818181,
+                0.42234,
+                0.7500852272727272
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.6975,
+                0.4007386363636364,
+                0.75806,
+                0.43551136363636367
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.5662,
+                0.40678977272727274,
+                0.6256,
+                0.4380965909090909
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.81228,
+                0.40823863636363633,
+                0.87888,
+                0.44673295454545453
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.28114,
+                0.3894602272727273,
+                0.33576,
+                0.4260227272727273
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.77374,
+                0.3837784090909091,
+                0.80504,
+                0.4171022727272727
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.9733200000000001,
+                0.3959375,
+                1.0,
+                0.43130681818181815
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.9502200000000001,
+                0.39309659090909094,
+                0.98364,
+                0.43025568181818186
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.89222,
+                0.3913352272727273,
+                0.9447000000000001,
+                0.4241477272727273
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8059400000000001,
+                0.3960227272727273,
+                0.8529800000000001,
+                0.43164772727272727
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.18484,
+                0.3920738636363636,
+                0.21875999999999998,
+                0.41732954545454537
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.14546,
+                0.33735795454545453,
+                0.22088,
+                0.4081818181818182
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.53528,
+                0.38826704545454543,
+                0.54322,
+                0.42926136363636364
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5035,
+                0.4029829545454545,
+                0.50682,
+                0.4123863636363636
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.79118,
+                0.3853125,
+                0.8405199999999999,
+                0.41582386363636364
+            ]
+        }
+    ],
+    "hash_id": "755_coco_train2017_000000089881.jpg"
+}

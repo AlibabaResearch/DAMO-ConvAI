@@ -1,0 +1,363 @@
+{
+    "id": "000000051985",
+    "image": "coco/train2017/000000051985.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the taxi in the image?",
+            "steps": [],
+            "answer": "The taxi in the image is yellow."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the position of the taxi on the street?",
+            "steps": [],
+            "answer": "The taxi is stopped in the middle of an intersection."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the pedestrians and skateboarders doing around the taxi?",
+            "steps": [],
+            "answer": "The pedestrians and skateboarders are crossing the street in front of the stopped taxi."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How would you describe the overall atmosphere of the city street in the image?",
+            "steps": [],
+            "answer": "The city street in the image appears to be very busy and crowded, with a large number of pedestrians and people on skateboards moving through the space. This suggests a vibrant urban environment where various forms of transportation and pedestrian activity coexist, contributing to the bustling atmosphere of the scene."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Describe the following image.",
+            "steps": [],
+            "answer": "The image depicts a very busy city street with a yellow taxi driving through an intersection. The street is crowded with pedestrians crossing the street, some of whom are carrying handbags and backpacks. There are also several people on skateboards moving through the intersection and across the street.\n\nAmong the vehicles, a truck is visible on the left side of the image, and a bicycle can be seen slightly off to the side of the crowded scene. In addition, there are traffic lights evident in the image, ensuring the flow of people and vehicles through the busy intersection. This bustling scene highlights the vibrant atmosphere and daily activities of urban living."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What potential safety concerns could arise at this busy intersection?",
+            "steps": [],
+            "answer": "At this busy intersection, there are several safety concerns, given the mix of vehicles, pedestrians, and skateboarders present. First, the yellow taxi, which is stopped in the middle of the intersection, could obstruct the flow of traffic, leading to potential collisions with other vehicles or obstacles. \n\nSecond, the large group of pedestrians crossing the street, along with several skateboarders moving among them, creates a risk of accidents. Pedestrians and skateboarders could collide with each other or vehicles if they are not careful as they navigate the intersection. The presence of multiple people carrying handbags and backpacks might also make movements more challenging.\n\nLastly, the traffic lights must be functioning correctly and visible to everyone to avoid any misunderstandings in the right of way. In this particular scene, there are multiple traffic lights, which must be maintained and monitored to ensure the safety of both vehicles and pedestrians.\n\nOverall, it is crucial for everyone at such a busy intersection to be vigilant and practice safe behaviors to minimize the risk of accidents and ensure a smooth flow of traffic, pedestrians, and skateboarders."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a vibrant scene from a bustling street in New York City. The street is teeming with life, with people and cars filling the scene. The focal point of the image is a yellow taxi cab, which stands out against the city backdrop with its bright color. The taxi cab is adorned with a blue and white advertisement on top, adding to the city's colorful palette.\n\nThe taxi is driving on the right side of the street, following the rules of the road. On the left side of the street, people can be seen walking on the sidewalk, going about their day. The buildings in the background are made of red and brown brick, typical of New York City architecture.\n\nA traffic light can be spotted on the right side of the image, guiding the flow of vehicles. The sky above is a clear blue, suggesting a sunny day in the city. Overall, this image beautifully encapsulates a typical day in New York City with its busy streets and vibrant colors."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.48382812499999994,
+                0.3704225352112676,
+                0.99771875,
+                0.9704225352112675
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.08542187500000001,
+                0.5652582159624413,
+                0.185640625,
+                0.6738262910798122
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.6934375,
+                0.42805164319248823,
+                0.7476875,
+                0.4592018779342723
+            ]
+        },
+        {
+            "label": "skateboard",
+            "bbox": [
+                0.348875,
+                0.6811971830985916,
+                0.419796875,
+                0.7232863849765259
+            ]
+        },
+        {
+            "label": "skateboard",
+            "bbox": [
+                0.0036718750000000002,
+                0.8181455399061032,
+                0.12948437499999998,
+                0.8967136150234741
+            ]
+        },
+        {
+            "label": "skateboard",
+            "bbox": [
+                0.14796875,
+                0.741244131455399,
+                0.2545,
+                0.8038497652582159
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.039171875,
+                0.6315492957746479,
+                0.094171875,
+                0.7102816901408452
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.112625,
+                0.5122065727699531,
+                0.130640625,
+                0.5809154929577465
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.5011267605633802,
+                0.14060937499999998,
+                0.8696713615023475
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.085265625,
+                0.48833333333333334,
+                0.154734375,
+                0.6755164319248825
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.1696875,
+                0.4604225352112676,
+                0.234265625,
+                0.7724882629107981
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.05040625,
+                0.4754225352112676,
+                0.097265625,
+                0.6510093896713615
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.09275,
+                0.48814553990610327,
+                0.117046875,
+                0.6291079812206573
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.139828125,
+                0.4771830985915493,
+                0.17171874999999998,
+                0.5994835680751174
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.32078125,
+                0.48007042253521126,
+                0.34114062500000003,
+                0.5980985915492958
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.41878125,
+                0.4368544600938967,
+                0.47893749999999996,
+                0.7205633802816901
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.665921875,
+                0.5281924882629108,
+                0.7344062499999999,
+                0.6135680751173709
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.398671875,
+                0.470962441314554,
+                0.41878125,
+                0.5544131455399062
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.23571875000000003,
+                0.47124413145539906,
+                0.281734375,
+                0.6452582159624413
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.515703125,
+                0.46532863849765255,
+                0.5410468749999999,
+                0.5431220657276995
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.235203125,
+                0.49126760563380284,
+                0.26059375,
+                0.5343896713615024
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.386984375,
+                0.48530516431924886,
+                0.41231249999999997,
+                0.5854225352112676
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.5237812500000001,
+                0.5143427230046949,
+                0.551625,
+                0.5586150234741785
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.23351562499999998,
+                0.5703990610328639,
+                0.25015624999999997,
+                0.6106572769953051
+            ]
+        },
+        {
+            "label": "skateboard",
+            "bbox": [
+                0.17225,
+                0.7636150234741784,
+                0.24059375,
+                0.7978169014084507
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.53603125,
+                0.38812206572769953,
+                0.555859375,
+                0.4209154929577465
+            ]
+        },
+        {
+            "label": "skateboard",
+            "bbox": [
+                0.4185,
+                0.6934741784037559,
+                0.477953125,
+                0.7387793427230047
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.34504687500000003,
+                0.46492957746478875,
+                0.40276562499999996,
+                0.7064788732394367
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.432421875,
+                0.4787793427230047,
+                0.47184375,
+                0.5289671361502347
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.13428125,
+                0.3946478873239437,
+                0.314546875,
+                0.5800234741784037
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.6108125,
+                0.02072769953051643,
+                0.642015625,
+                0.1263145539906103
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.637421875,
+                0.03593896713615024,
+                0.65678125,
+                0.12694835680751174
+            ]
+        }
+    ],
+    "hash_id": "250_coco_train2017_000000051985.jpg"
+}

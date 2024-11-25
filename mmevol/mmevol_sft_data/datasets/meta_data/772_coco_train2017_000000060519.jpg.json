@@ -1,0 +1,163 @@
+{
+    "id": "000000060519",
+    "image": "coco/train2017/000000060519.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the couple doing in the image?",
+            "steps": [],
+            "answer": "The couple, a man and a woman, are walking across the lawn while holding and sharing a white umbrella."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the man and woman wearing any footwear or walking barefoot?",
+            "steps": [],
+            "answer": "The young man and woman are walking across the grassy area barefooted."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Who is holding the umbrella?",
+            "steps": [],
+            "answer": "The man is holding the umbrella over both himself and the woman as they walk."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the weather like in the image?",
+            "steps": [],
+            "answer": "Considering that the couple is using an umbrella, it is most likely that the weather is either rainy or drizzling. The umbrella serves to protect them from the rain while they walk across the lawn."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image displays a man and a woman walking on a lawn while the man holds a white umbrella over both of them. They are both barefooted, enjoying their leisurely stroll across the grassy area. \n\nAround the lawn, there are several bottles placed, with two bottles located at the lower-left side of the scene, another two on the lower-right side, and one more in the middle. Additionally, a chair and a bench can be seen at the right side of the scene, suggesting it might be a relaxing outdoor area."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do the man and woman seem to be doing to maintain a pleasant experience during their walk?",
+            "steps": [],
+            "answer": "During their walk across the lawn, the man and the woman are staying under a white umbrella to maintain a pleasant experience. The umbrella likely provides them with protection from the sun, rain, or other weather elements, ensuring their comfort. Additionally, both the man and the woman are barefoot, which could indicate that they are enjoying the feel of the grass beneath their feet, further enhancing their walking experience."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Analyze the image in a comprehensive and detailed manner.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In this image, a man and a woman are taking a leisurely stroll on a lush, green lawn. The man, dressed in a cozy gray sweater, holds a white umbrella aloft, providing shelter for both of them. The woman, adorned in a dress blooming with floral patterns, walks alongside him. Their path is set against a backdrop of verdant bushes and a sturdy brick wall. To the right of the image, an array of glass bottles lie scattered on the ground, catching the light in their transparent surfaces."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.45977083333333335,
+                0.8588437499999999,
+                0.5948333333333333,
+                0.990296875
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.746375,
+                0.8560000000000001,
+                0.8972708333333334,
+                1.0
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.13814583333333333,
+                0.15653125,
+                0.6786875,
+                0.3051875
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7145625,
+                0.618640625,
+                0.8506666666666667,
+                0.695078125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.23589583333333333,
+                0.33278125,
+                0.42764583333333334,
+                0.8161093749999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3928125,
+                0.298390625,
+                0.5938125000000001,
+                0.8220625
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.7180625,
+                0.616765625,
+                0.8484791666666668,
+                0.69271875
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.5660833333333334,
+                0.8639687500000001,
+                0.7351666666666666,
+                1.0
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.7464583333333333,
+                0.924953125,
+                0.8405,
+                1.0
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.6238541666666666,
+                0.84853125,
+                0.7335208333333333,
+                0.9337812499999998
+            ]
+        }
+    ],
+    "hash_id": "772_coco_train2017_000000060519.jpg"
+}

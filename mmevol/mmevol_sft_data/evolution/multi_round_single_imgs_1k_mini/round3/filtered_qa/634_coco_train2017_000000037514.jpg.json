@@ -1,0 +1,284 @@
+{
+    "id": "000000037514",
+    "image": "coco/train2017/000000037514.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there many people in the field flying kites?",
+            "steps": [],
+            "answer": "Yes, there are many people in the field flying kites in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the color of the sky in the image?",
+            "steps": [],
+            "answer": "The sky in the image is blue."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the kite that is on the ground?",
+            "steps": [],
+            "answer": "The kite on the ground is multicolored, indicating that it has a vibrant and eye-catching design."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of kite is described as being flown in the image?",
+            "steps": [],
+            "answer": "One of the kites being flown in the image is a large dragon kite."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of location are the people flying kites at?",
+            "steps": [],
+            "answer": "The people are flying kites in a park, within a grassy field or open area."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The scene is set in a park filled with people enjoying a day flying various kites in the blue sky. There are numerous kites in the air, including a large dragon kite and a multicolored one, with the latter resting on the grassy field. People are scattered all around the field, actively participating in the kite-flying activities.\n\nAround the park, several cars and a truck are visible, likely belonging to the people who have come to fly kites. A bicycle is also present off to the side, possibly a mode of transportation for one of the visitors. With many people and kites visible, it's clear that the park is a popular spot for this fun outdoor activity."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a specific type of kite that stands out in this event?",
+            "steps": [],
+            "answer": "Yes, there is a specific type of kite that stands out in this event. Among the various kites flying in the grassy field and blue sky, there is a large, elaborate dragon kite. This kite is more visually striking and unique compared to the other kites being flown by the people in the park. The presence of the dragon kite adds a sense of excitement and creativity to the event, showcasing the diverse interests of the kite-flyers and the variety of kites available."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Can you elaborate on the elements of the picture provided?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures the vibrant atmosphere of a kite festival in a park. The sky, painted in a soothing shade of blue, is dotted with several kites of varying shapes and sizes. A large, geometric kite with a riot of colors takes center stage in the foreground, while a fish-shaped kite playfully swims in the air in the background.\n\nThe ground is a lush green carpet where some kites have chosen to rest. There are several people scattered across the background, their hands reaching out to the sky, maneuvering the kites. A tent and a flag can also be spotted in the distance, possibly serving as a meeting point or a station for kite repairs.\n\nThe image is a beautiful representation of a day filled with fun, color, and excitement at a kite festival."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.37668,
+                0.39768,
+                0.40256000000000003,
+                0.42277333333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.22386,
+                0.3922933333333334,
+                0.26704,
+                0.42549333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.60722,
+                0.3588533333333333,
+                0.65476,
+                0.5470666666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5074,
+                0.4137066666666666,
+                0.53062,
+                0.48775999999999997
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.49776,
+                0.43328,
+                0.51166,
+                0.48834666666666665
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.66742,
+                0.64944,
+                0.99606,
+                0.8359466666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.96846,
+                0.41317333333333334,
+                0.98138,
+                0.47789333333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.98724,
+                0.42976,
+                1.0,
+                0.4824
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.28114,
+                0.1406133333333333,
+                0.40188,
+                0.27157333333333333
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.0033799999999999998,
+                0.4082933333333334,
+                0.40956,
+                0.8509866666666667
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.7767000000000001,
+                0.15509333333333333,
+                0.9070199999999999,
+                0.22874666666666668
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.7689400000000001,
+                0.28013333333333335,
+                0.8274400000000001,
+                0.3376266666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.12764,
+                0.4044533333333333,
+                0.13958,
+                0.4325333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.89432,
+                0.3967733333333333,
+                0.89992,
+                0.43173333333333325
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.796,
+                0.3944533333333333,
+                0.8036599999999999,
+                0.4336266666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9225800000000001,
+                0.4254133333333333,
+                0.9456,
+                0.49208
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7701399999999999,
+                0.40912,
+                0.77842,
+                0.4507466666666666
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.30754000000000004,
+                0.3795466666666667,
+                0.3773,
+                0.43186666666666673
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.20406,
+                0.3671466666666667,
+                0.22854,
+                0.40565333333333337
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.75858,
+                0.4050933333333333,
+                0.7676000000000001,
+                0.428
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.21116,
+                0.3939466666666666,
+                0.22432,
+                0.43119999999999997
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.08934,
+                0.3910133333333333,
+                0.12392,
+                0.43274666666666667
+            ]
+        }
+    ],
+    "hash_id": "634_coco_train2017_000000037514.jpg"
+}

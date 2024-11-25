@@ -1,0 +1,172 @@
+{
+    "id": "000000017520",
+    "image": "coco/train2017/000000017520.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are visible in the image?",
+            "steps": [],
+            "answer": "There are two people visible in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the relationship between the two people in the image?",
+            "steps": [],
+            "answer": "The two people in the image are described as a couple, which suggests they might be in a romantic relationship, although it is not possible to definitively confirm their relationship from the image alone."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where are the two people walking?",
+            "steps": [],
+            "answer": "The two people are walking on a sidewalk or a path close to a body of water, such as a lake or along a waterfront."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the lighting condition in the image?",
+            "steps": [],
+            "answer": "The image features low light conditions, which can imply that it is either early morning, late evening, or the weather is overcast."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the terrain like in the image?",
+            "steps": [],
+            "answer": "The terrain in the image shows a clear path or sidewalk for the couple to walk on, and it is situated next to a body of water, such as a lake or beachfront. This suggests a relatively flat and well-maintained landscape that is designed for leisurely strolls or recreational activities near the water."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The image features a man and a woman walking down a sidewalk close to a body of water, possibly a lake or beach. It appears to be a romantic setting with a low-light environment, enhancing the ambiance. The couple is engaging in conversation, with both individuals holding cell phones.\n\nIn the background, there are a couple of boats visible on the water, adding to the picturesque scene. There is also a bench further down the path, providing an opportunity for the couple to rest and enjoy the waterfront view. The woman is carrying a handbag, and there is a backpack nearby, possibly belonging to the man. Another person can be seen in the distance, suggesting that the area is open to the public for visiting and leisure activities."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What potential safety concern might the couple face?",
+            "steps": [],
+            "answer": "The couple walking by the water may face a potential safety concern due to the low light conditions. Since it's becoming dark, visibility might be reduced, making it difficult for them to see and navigate their surroundings. This could lead to trips or falls, especially if there are any uneven surfaces or obstacles along the path. In such situations, they should ensure to pay extra attention and maybe even use the flashlight function on their cell phones or other sources of lighting to improve visibility and reduce the risk of accidents."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What's happening in the scene?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a serene scene at a park during sunset. The sky, painted in hues of orange and pink, reflects on the deep blue water below. Two individuals are strolling leisurely on the lush green grass, immersed in their own worlds. One of them is holding a camera, perhaps capturing the picturesque view, while the other is engrossed in their phone.\n\nIn the tranquil background, a solitary bench and a tree stand. The tree, adorned with green leaves, provides a stark contrast to the brown bench beside it. The bench, vacant, invites passersby to sit and soak in the beauty of the setting sun.\n\nAdding to the charm of this idyllic scene is a boat, painted in white and blue, gently floating on the water. Its presence adds a sense of calmness and tranquility to the overall atmosphere of the park. The image as a whole encapsulates a peaceful evening at a park during sunset."
+        }
+    ],
+    "det": [
+        {
+            "label": "boat",
+            "bbox": [
+                0.45968749999999997,
+                0.612605633802817,
+                0.51409375,
+                0.6426291079812207
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.18262499999999998,
+                0.45079812206572767,
+                0.317625,
+                0.8264788732394366
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.06949999999999999,
+                0.47586854460093897,
+                0.189765625,
+                0.8278638497652582
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.25460937499999997,
+                0.47833333333333333,
+                0.264578125,
+                0.4942957746478874
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.084765625,
+                0.5748826291079813,
+                0.11284374999999999,
+                0.660868544600939
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.48498437499999997,
+                0.596244131455399,
+                0.502046875,
+                0.6304225352112676
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.652359375,
+                0.5062676056338028,
+                0.657921875,
+                0.5130985915492957
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.7941874999999999,
+                0.6213380281690141,
+                1.0,
+                0.802582159624413
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.0839375,
+                0.5423708920187794,
+                0.145796875,
+                0.6611032863849765
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.17196875,
+                0.5625352112676056,
+                0.179984375,
+                0.5698591549295774
+            ]
+        }
+    ],
+    "hash_id": "225_coco_train2017_000000017520.jpg"
+}

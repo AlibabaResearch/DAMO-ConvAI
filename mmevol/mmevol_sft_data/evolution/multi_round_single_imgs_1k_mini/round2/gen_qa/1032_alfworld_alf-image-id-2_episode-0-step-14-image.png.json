@@ -1,0 +1,58 @@
+```json
+[
+  {
+    "image_position": "single",
+    "objects": ["sofa", "drawer", "television", "houseplant"],
+    "skills": ["Context Understanding Ability", "Behavior Prediction Ability"],
+    "format": "Complex Reasoning",
+    "question": "Imagine you have a task that requires you to place a keychain into the sofa in a room filled with various objects. In this room, there are several pieces of furniture, including a gray sofa, a modern television on a dresser, and a potted houseplant on a side table. There is also an open drawer containing various items. What would be the most effective series of actions to achieve this, considering possible obstacles or distractions in the environment? Let's think step by step.",
+    "steps": [
+      {"manipulation": "None", "description": "First, assess the layout of the room to understand where the sofa, television, houseplant, and open drawer are located in relation to each other."},
+      {"manipulation": "None", "description": "Identify any potential obstacles, such as items on the floor, other furniture that may block your path to the sofa, or distractions that might divert your attention."},
+      {"manipulation": "None", "description": "Form a plan to first approach the sofa, which is your primary target for placing the keychain."},
+      {"manipulation": "None", "description": "Once you reach the sofa, check if the area is clear of clutter."},
+      {"manipulation": "None", "description": "After ensuring that the space is clear, proceed to place the keychain into the sofa, perhaps in a cushion or gap where it can be easily retrieved later."}
+    ],
+    "answer": "To effectively place the keychain into the sofa, the first step is to assess the room's layout, ensuring I know where each piece of furniture is located, such as the gray sofa and the position of the television on the dresser. Next, I must identify any obstacles in the environment, which could include scattered items or other furniture that may impede my path toward the sofa. After outlining a path, I would approach the sofa, making sure to move any small objects that might be in the way. Upon reaching the sofa, I would scan the surrounding area to determine if it’s clear of clutter. Finally, I would place the keychain in a suitable spot within the sofa cushions, ensuring it's accessible for future retrieval."
+  },
+  {
+    "image_position": "single",
+    "objects": ["drawer", "television", "houseplant"],
+    "skills": ["Descriptive Ability", "Relationship Description Ability"],
+    "format": "Detailed Description",
+    "question": "Can you provide a comprehensive description of the spatial arrangement and relationships among key objects, particularly focusing on the television, drawer, and houseplant present in the room? Include details about how these items relate to the overall setting. Let's think step by step.",
+    "steps": [
+      {"manipulation": "None", "description": "Begin by describing the visual position of the television as it relates to the overall layout of the room."},
+      {"manipulation": "None", "description": "Next, describe the drawer's function and its contents, considering how its position enhances or detracts from the room's aesthetic."},
+      {"manipulation": "None", "description": "Finally, analyze how the houseplant contributes to the atmosphere of the room and its relationship with the other objects."}
+    ],
+    "answer": "The room features a modern setup where the television is centrally positioned on the dresser, drawing attention as it serves as a primary entertainment device. The open drawer beneath the television contains assorted items, suggesting the practicality of the space while also contributing a sense of organization. Adjacent to this, a houseplant is elegantly placed on a round side table, introducing a natural element that complements the technological aesthetics of the television. The relationships among these objects highlight a harmony between nature and modernity; the plant softens the room's sharp lines and introduces warmth, while the drawer behind the television supports a minimalistic design without compromising functionality."
+  },
+  {
+    "image_position": "single",
+    "objects": ["gear", "drawer", "watering can"],
+    "skills": ["Calculating Ability", "Existence Ability"],
+    "format": "Norm",
+    "question": "Suppose the open drawer contains not just the usual items, but also an extra gear that could be important for a task at hand. Describe the contents of the drawer in detail and analyze whether the gear can be found there, while also identifying any other significant objects like the watering can. Let's think step by step.",
+    "steps": [
+      {"manipulation": "None", "description": "First, list the main items visually observable in the open drawer to establish a comprehensive inventory."},
+      {"manipulation": "None", "description": "Next, confirm the presence of the gear by inspecting the total number of items in the drawer and identifying their functions."},
+      {"manipulation": "None", "description": "Finally, analyze if the watering can plays a role in the context of the drawer contents and the overall room setting."}
+    ],
+    "answer": "In the open drawer of the dresser, I can see several items, including a small television, a houseplant, a box, a watering can, and a pencil. To determine if there is an additional gear present, I have closely examined the visual inventory. The drawer's existing contents appear organized; however, no gear is immediately visible among the listed items. The watering can stands out as particularly significant, as it serves not just a decorative purpose but also indicates a possible activity involving plant care within the room. Thus, from this analysis, I conclude that while the drawer is filled with diverse objects, it does not contain the extra gear expected for the task."
+  },
+  {
+    "image_position": "single",
+    "objects": ["television", "houseplant", "sofa"],
+    "skills": ["Context Understanding Ability", "Knowledge Integration Ability"],
+    "format": "Complex Reasoning",
+    "question": "If you were tasked with creating an interactive game level based on this room's layout, considering the television, houseplant, and sofa as key objects, what additional interactive elements and challenges would you integrate into the gameplay mechanics? Let's reason through this intricately.",
+    "steps": [
+      {"manipulation": "None", "description": "Start by conceptualizing the main interactive components to be featured in the level, such as the television potentially displaying clues."},
+      {"manipulation": "None", "description": "Think about how the houseplant could be used for a puzzle, either requiring care or maintenance as part of the gameplay."},
+      {"manipulation": "None", "description": "Lastly, devise challenges related to the sofa, perhaps providing hidden compartments where players may find crucial items."}
+    ],
+    "answer": "In designing an interactive game level based on this room, one of the main elements could be the television, which might display critical hints or animated snippets that aid players in their quests. The houseplant could serve as an interactive puzzle component; for instance, players might have to nurture or reposition the plant to reveal hidden clues about the environment. Additionally, the sofa could offer engaging gameplay by incorporating hidden compartments, where players must search for objects that will lead to further exploration or quests within the game. Gathering all these elements, the gameplay would involve a blend of puzzle-solving, exploration, and interaction, creating a captivating experience for players."
+  }
+]
+```

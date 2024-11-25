@@ -1,0 +1,274 @@
+{
+    "id": "000000131976",
+    "image": "coco/train2017/000000131976.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of objects are clustered near the umbrella?",
+            "steps": [],
+            "answer": "There are several objects clustered near the umbrella, including a basket, a chair, and multiple luggage bags."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What specific type of items are on display at the stand?",
+            "steps": [],
+            "answer": "At the stand, there are bananas on display, and considering it is a fruit stand, there could be a variety of other fruits present as well."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the color of the umbrella in front of the fruit stand?",
+            "steps": [],
+            "answer": "The color of the umbrella in front of the fruit stand is orange."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where is the umbrella in relation to the window with bananas on display?",
+            "steps": [],
+            "answer": "The umbrella is located in front of the window with bananas on display, and it is also in front of the fruit stand. It appears to be part of the market setup, possibly to provide shade or shelter to customers or the fruits."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image features a fruit stand with a large window in the background showcasing an abundant display of bananas. There is an orange umbrella situated in front of and above the fruit stand, providing shade and attracting attention. \n\nMany objects are surrounding the fruit stand, including a variety of luggage bags positioned under the umbrella. Additionally, there are a few chairs spread out throughout the scene. Near the fruit stand, there is also a basket, likely for holding fruit, and a single carrot visible among the many bananas. \n\nA person can be seen on the left side of the image, either browsing the fruits or passing by the area."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the purpose of the orange umbrella in this market scene?",
+            "steps": [],
+            "answer": "The purpose of the orange umbrella in this market scene is to provide shade and protection from sun, rain, or other elements for the variety of fruits on display in front of the fruit stand. This not only helps maintain the fruit's quality and freshness but also contributes to showcasing the fruits in a visually appealing manner. It might also draw the attention of potential customers to the fruit stand due to its vibrant color and prominent placement. Additionally, the umbrella's presence could make shopping at the stand more comfortable for customers who are browsing or buying the fruit."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you see happening in this image?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city, a small fruit stand nestles under the protective shade of an orange umbrella. The stand is a cornucopia of colors, with the vibrant yellow of bananas, the refreshing green of apples, and the warm orange of oranges. The fruits are neatly arranged, inviting passersby to take a closer look.\n\nScattered around the stand are bags and other items, hinting at the busy day of selling and buying. The stand is strategically located in front of a building adorned with red and black Chinese characters, adding an element of cultural richness to the scene.\n\nTo the right of the stand, a pile of green bamboo poles rests, perhaps waiting to be used for another purpose. Their natural color contrasts with the urban environment, adding a touch of nature to the cityscape.\n\nEvery object in this image tells a story, from the carefully arranged fruits to the bamboo poles. It's a snapshot of life in the city, where tradition meets modernity and nature coexists with urban development."
+        }
+    ],
+    "det": [
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.173921875,
+                0.11840749414519906,
+                0.551734375,
+                0.33414519906323187
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.82946875,
+                0.5303981264637002,
+                0.92715625,
+                0.7826463700234192
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.007203125,
+                0.4908196721311476,
+                0.073765625,
+                0.666440281030445
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.006046875,
+                0.4582669789227166,
+                0.06912499999999999,
+                0.48613583138173305
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.38517564402810306,
+                0.038078125000000004,
+                0.48929742388758785
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.0,
+                0.18398126463700235,
+                0.0405625,
+                0.24468384074941452
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.41946874999999995,
+                0.2643793911007026,
+                0.466,
+                0.31353629976580794
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.46624999999999994,
+                0.26344262295081966,
+                0.513671875,
+                0.28988290398126465
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.5148906249999999,
+                0.2340281030444965,
+                0.5626874999999999,
+                0.3895550351288056
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.569984375,
+                0.29814988290398126,
+                0.61284375,
+                0.359672131147541
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.631390625,
+                0.20634660421545667,
+                0.67825,
+                0.38845433255269324
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.44440625,
+                0.4248711943793911,
+                0.48884375,
+                0.4840046838407494
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.559734375,
+                0.4251756440281031,
+                0.580390625,
+                0.46833723653395787
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.6368125,
+                0.4665105386416862,
+                0.67728125,
+                0.5229976580796253
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.6642187500000001,
+                0.37995316159250586,
+                0.695671875,
+                0.4937939110070258
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.465421875,
+                0.3169320843091335,
+                0.5140625,
+                0.3718266978922717
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.5878125,
+                0.4765105386416862,
+                0.635859375,
+                0.5260187353629977
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.42621875,
+                0.44697892271662765,
+                0.4541874999999999,
+                0.48889929742388766
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.83025,
+                0.5059718969555035,
+                0.9125156249999999,
+                0.6382669789227167
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.434921875,
+                0.4872833723653396,
+                0.498921875,
+                0.5040749414519906
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.46684374999999995,
+                0.27442622950819673,
+                0.51015625,
+                0.32526932084309135
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.0054531250000000005,
+                0.4742622950819672,
+                0.06784375000000001,
+                0.556440281030445
+            ]
+        }
+    ],
+    "hash_id": "304_coco_train2017_000000131976.jpg"
+}

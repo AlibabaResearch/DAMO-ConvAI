@@ -1,0 +1,265 @@
+{
+    "id": "000000009999",
+    "image": "coco/train2017/000000009999.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image captures a busy city street bustling with traffic. Various vehicles, including cars, buses, and a truck, are making their way down the street. There's a traffic light in the scene, ensuring the smooth flow of traffic.\n\nAmidst this bustling scene, several people are scattered throughout the street. One man can be seen standing near a bus stop, waiting for his ride. Another person is riding a skateboard down the road, skillfully navigating through the traffic. Some of the pedestrians are carrying handbags and backpacks as they navigate the city.\n\nThe lively atmosphere and diverse modes of transportation make this a typical representation of a bustling urban environment."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the potential risks associated with the young man's skateboarding in the busy city street?",
+            "steps": [],
+            "answer": "The young man skateboarding down the busy city street faces multiple potential risks due to the heavy traffic and various types of vehicles on the road, such as cars, buses, and trucks. The risks include:\n\n1. Collisions: The skateboarder is at a higher risk of colliding with a vehicle or pedestrian, which can result in serious injuries.\n\n2. Visibility issues: Drivers may not expect a skateboarder on the road, making them less likely to notice or react quickly to the skateboarder's presence, further increasing the risk of a collision.\n\n3. Maneuverability limitations: Skateboarders typically have less maneuverability than a car, making it difficult for them to avoid sudden obstacles or changes in traffic flow.\n\n4. Road conditions: The road conditions, such as uneven surfaces or debris, can pose a danger to skateboarders, potentially leading to falls and subsequent injuries.\n\n5. Distraction for other road users: The presence of a skateboarder on the road can cause distractions for drivers and pedestrians, potentially leading to accidents involving other road users.\n\nGiven these risks, it is crucial for the young man to exercise caution while skateboarding on busy city streets and for other road users to remain vigilant and give the skateboarder ample space to safely navigate the traffic."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What do you see happening in this image?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a vibrant day in New York City. The scene unfolds from the perspective of a sidewalk, with the city's iconic tall buildings lining the street, their windows reflecting the clear blue sky. The road is bustling with several cars and taxis, their yellow and black colors adding to the city's dynamic palette. \n\nIn the foreground, a man is seen walking on the sidewalk, his hat tipped slightly as he carries a bag, perhaps returning from work or heading to an appointment. A trash can stands nearby, a common sight in the city's efforts to maintain cleanliness. \n\nA tree stands in the background, a testament to the city's blend of urban and natural elements. The image is bathed in daylight, highlighting the city's constant movement and energy."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.751171875,
+                0.42364705882352943,
+                0.998234375,
+                0.6752705882352942
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.62340625,
+                0.3382823529411765,
+                0.7903125,
+                0.5913882352941177
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.4835,
+                0.4220941176470588,
+                0.6565937500000001,
+                0.6558117647058823
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.355375,
+                0.28647058823529414,
+                0.481859375,
+                0.5041647058823528
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.419359375,
+                0.3659529411764706,
+                0.505375,
+                0.734329411764706
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.164296875,
+                0.40148235294117646,
+                0.243640625,
+                0.7237411764705883
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.327640625,
+                0.41750588235294117,
+                0.3475625,
+                0.4655764705882353
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.407764705882353,
+                0.0386875,
+                0.6083529411764707
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.646015625,
+                0.40903529411764705,
+                0.661265625,
+                0.4436941176470588
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0136875,
+                0.38734117647058824,
+                0.0439375,
+                0.4626823529411765
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.312953125,
+                0.41602352941176474,
+                0.32296874999999997,
+                0.45442352941176467
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.76409375,
+                0.22588235294117648,
+                1.0,
+                0.48411764705882354
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.372078125,
+                0.2515058823529412,
+                0.392296875,
+                0.29289411764705886
+            ]
+        },
+        {
+            "label": "skateboard",
+            "bbox": [
+                0.426,
+                0.7234588235294118,
+                0.47642187499999994,
+                0.7606823529411765
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.41801562499999995,
+                0.4465882352941177,
+                0.43460937499999996,
+                0.5585411764705882
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.981359375,
+                0.36832941176470585,
+                1.0,
+                0.4160705882352941
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.5874843750000001,
+                0.40621176470588233,
+                0.63859375,
+                0.48188235294117643
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.35,
+                0.42658823529411766,
+                0.368078125,
+                0.48564705882352943
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.262296875,
+                0.3671058823529412,
+                0.3180625,
+                0.4430352941176471
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.038828125000000005,
+                0.38825882352941177,
+                0.056171875,
+                0.49039999999999995
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.51971875,
+                0.36978823529411764,
+                0.530875,
+                0.3952
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.261390625,
+                0.4139529411764706,
+                0.316796875,
+                0.4818117647058824
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.48949999999999994,
+                0.39077647058823534,
+                0.560515625,
+                0.4224
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.171140625,
+                0.49228235294117645,
+                0.202390625,
+                0.5501176470588236
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.18157812499999998,
+                0.6764000000000001,
+                0.26646875,
+                0.9239529411764706
+            ]
+        }
+    ],
+    "hash_id": "274_coco_train2017_000000009999.jpg"
+}

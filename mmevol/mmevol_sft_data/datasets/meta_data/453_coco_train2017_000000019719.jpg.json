@@ -1,0 +1,91 @@
+{
+    "id": "000000019719",
+    "image": "coco/train2017/000000019719.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many zebras are present in the image?",
+            "steps": [],
+            "answer": "There are two zebras present in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the mane of the zebra?",
+            "steps": [],
+            "answer": "The mane of the zebra is brown."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the pattern on the zebras' bodies?",
+            "steps": [],
+            "answer": "The zebras have a black and white striped pattern on their bodies."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of the image?",
+            "steps": [],
+            "answer": "The image is set in a grassy area where the zebras are standing near a fence or pen. This suggests that they might be in a protected environment or a wildlife sanctuary."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the proximity of the two zebras to each other?",
+            "steps": [],
+            "answer": "The two zebras are standing next to one another, side by side. Their close proximity indicates that they might have a social bond, as zebras are known to be gregarious animals that live in groups called harems or herds."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How well do the zebras camouflage within their pen?",
+            "steps": [],
+            "answer": "In the image, there are two zebras standing side by side in a pen. Although zebras' black and white stripes work as an excellent camouflage in their natural habitat, helping them blend in with stripes of light filtering through vegetation, their effectiveness in camouflage in the pen is limited. The grassy area and fence within the pen do not offer the same kind of cover as dense vegetation or tall grasses found in their natural environment, which makes them more easily visible and identifiable to onlookers."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you elaborate on the elements of the picture provided?"
+        },
+        {
+            "from": "gpt",
+            "value": "Sure, here's a detailed description of the image:\n\n- The image prominently features a **zebra** in profile, standing in front of a **wooden barn**. \n- The zebra is facing to the right and appears to have its mouth open, as if it's mid-call. \n- Its distinctive **black and white stripes** are clearly visible, contrasting with its **brown mane**. \n- The background of the image is a **grassy field**, adding a touch of green to the scene. \n- A **fence** can be seen in the background, suggesting that this might be a farm or a zoo.\n\nThis description is based on the contents of the image and does not include any assumptions or interpretations. I hope this helps! \ud83d\ude0a"
+        }
+    ],
+    "det": [
+        {
+            "label": "zebra",
+            "bbox": [
+                0.0,
+                0.12810084033613445,
+                0.9506718749999999,
+                0.9836302521008403
+            ]
+        },
+        {
+            "label": "zebra",
+            "bbox": [
+                0.461703125,
+                0.6698655462184874,
+                0.617,
+                0.906890756302521
+            ]
+        }
+    ],
+    "hash_id": "453_coco_train2017_000000019719.jpg"
+}

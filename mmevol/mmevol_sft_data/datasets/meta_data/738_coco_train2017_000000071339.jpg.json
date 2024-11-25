@@ -1,0 +1,181 @@
+{
+    "id": "000000071339",
+    "image": "coco/train2017/000000071339.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The image portrays a group of people enjoying outdoor activities in a backyard. Some of the people are playing volleyball, while two others are sitting in lawn chairs under an umbrella, providing shade from the sun. In total, there are five people standing or playing, and two people sitting.\n\nThere are four chairs visible in the scene, with some of them placed next to each other. Two bottles can be spotted nearby, possibly containing refreshments for the group. A potted plant is situated at the left side of the yard, contributing to the outdoor atmosphere. Additionally, a car can be seen parked in the background.\n\nIn the midst of the activity, two tennis rackets can be noticed, indicating that other games might also be played within the group. A sports ball can also be found near the bottom right corner of the scene."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the sepia-toned image, a tranquil backyard scene unfolds. A patio table with an umbrella stands as the centerpiece, surrounded by four folding chairs. Two individuals have taken a seat, engaged in what appears to be a casual conversation. Another person stands near the table, perhaps listening in or waiting for their turn to speak. \n\nA fourth figure is captured mid-stride, walking away from the group towards the house. The house itself is a two-story structure, its gray exterior complemented by white trim. It stands tall and inviting in the background.\n\nThe yard is well-maintained, with recently mowed grass carpeting the ground. Several trees dot the landscape, their leaves rustling softly in the breeze. On the left side of the image, a clothesline is visible, hinting at the domestic chores that are part of daily life here.\n\nThis image paints a picture of a peaceful gathering on a lazy afternoon, where time seems to slow down and every moment is savored."
+        }
+    ],
+    "det": [
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.09753125,
+                0.7399166666666667,
+                0.35650000000000004,
+                0.9887916666666666
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.5626562500000001,
+                0.6750624999999999,
+                0.684109375,
+                0.9369166666666666
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.698171875,
+                0.6072291666666667,
+                0.796078125,
+                0.7652083333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7660625,
+                0.6704375,
+                0.944328125,
+                0.9273958333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9217656249999999,
+                0.6716458333333333,
+                0.999859375,
+                0.8808333333333332
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.493984375,
+                0.559375,
+                0.58421875,
+                0.795125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.38253125,
+                0.5064583333333333,
+                0.42729687499999996,
+                0.6545208333333332
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.254359375,
+                0.5147083333333333,
+                0.33265625,
+                0.7074791666666668
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5811875,
+                0.5603750000000001,
+                0.695734375,
+                0.6801041666666667
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.439421875,
+                0.4661666666666667,
+                0.6342968750000001,
+                0.5488958333333332
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.976140625,
+                0.6706249999999999,
+                0.9901875,
+                0.7178124999999999
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.7011406250000001,
+                0.7385208333333334,
+                0.717828125,
+                0.8003541666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.623125,
+                0.5581875000000001,
+                0.6660625,
+                0.680875
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.20610937499999998,
+                0.5377291666666667,
+                0.26340624999999995,
+                0.5857083333333333
+            ]
+        },
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.36528125,
+                0.5929791666666666,
+                0.383546875,
+                0.63075
+            ]
+        },
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.451546875,
+                0.5725,
+                0.47195312500000003,
+                0.6035625000000001
+            ]
+        },
+        {
+            "label": "sports ball",
+            "bbox": [
+                0.8091250000000001,
+                0.8190208333333333,
+                0.8631562500000001,
+                0.8802083333333334
+            ]
+        }
+    ],
+    "hash_id": "738_coco_train2017_000000071339.jpg"
+}

@@ -1,0 +1,211 @@
+{
+    "id": "000000211725",
+    "image": "coco/train2017/000000211725.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image is a collage featuring various photographs of a woman and flowers, showcasing different moments and scenes. There are multiple persons in the collage, with the primary focus on the woman who appears in several distinct poses and settings. She is captured standing outside, wearing a hat, and is also seen in vacation-like scenarios.\n\nVarious objects and other elements complement the rich collage scenery. A dining table, a chair, a surfboard, an umbrella, a bench, and even a pizza make an appearance in the composition. A bottle, a cup, and a spoon are also present in the image. The combination of photographs and objects creates an engaging and memorable collage, highlighting moments in the woman's life and the beauty of the surrounding flowers."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image is a vibrant collage of 16 smaller images, each telling its own story, arranged in a 4x4 grid. \n\nStarting from the top left, we see a solitary tree standing tall against a backdrop of a clear blue sky. Moving right, we encounter the delicate beauty of a yellow flower in full bloom. As we continue our journey through the grid, we come across various scenes and objects, each unique in its own way.\n\nIn one frame, we see a woman in a pink hat lost in thought, while another frame captures the mouth-watering sight of a freshly baked pizza. A majestic gorilla makes an appearance, as does an intricately carved statue. The natural beauty of a beach and a waterfall are also part of this visual feast.\n\nThe bottom left corner takes us to an intimate scene of a woman enjoying her drink at a table. Finally, the journey ends at the bottom right with another yellow flower, echoing the one at the top right and bringing a sense of symmetry to the collage.\n\nEach image is distinct yet they come together to form a harmonious whole, much like the diverse elements of life itself."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.24706250000000002,
+                0.070125,
+                0.26815625,
+                0.183625
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.100421875,
+                0.12345,
+                0.13018749999999998,
+                0.24435
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.026718750000000003,
+                0.90425,
+                0.120171875,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.123125,
+                0.0102,
+                0.21959374999999998,
+                0.248575
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3294375,
+                0.058975,
+                0.42114062499999994,
+                0.23895
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.779578125,
+                0.39665,
+                0.8977187499999999,
+                0.5884999999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.612359375,
+                0.705625,
+                0.7233125,
+                0.8898999999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.42718749999999994,
+                0.5281,
+                0.45053124999999994,
+                0.635375
+            ]
+        },
+        {
+            "label": "surfboard",
+            "bbox": [
+                0.1633125,
+                0.3591,
+                0.24557812499999998,
+                0.37379999999999997
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.06528125,
+                0.907525,
+                0.097203125,
+                0.9692999999999999
+            ]
+        },
+        {
+            "label": "pizza",
+            "bbox": [
+                0.7766875,
+                0.543825,
+                0.933984375,
+                0.7033750000000001
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.41428125,
+                0.5172,
+                0.451984375,
+                0.538725
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.71309375,
+                0.72185,
+                0.753640625,
+                0.93215
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.176515625,
+                0.27215,
+                0.238328125,
+                0.36967500000000003
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8894375,
+                0.00315,
+                0.9810625,
+                0.198625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.20006249999999998,
+                0.52095,
+                0.308109375,
+                0.7393500000000001
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.194140625,
+                0.070825,
+                0.302734375,
+                0.21059999999999998
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.802125,
+                0.447975,
+                1.0,
+                0.515625
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.8938750000000001,
+                0.526225,
+                0.95625,
+                0.5810500000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.02715625,
+                0.7392,
+                0.119875,
+                0.9365749999999999
+            ]
+        }
+    ],
+    "hash_id": "280_coco_train2017_000000211725.jpg"
+}

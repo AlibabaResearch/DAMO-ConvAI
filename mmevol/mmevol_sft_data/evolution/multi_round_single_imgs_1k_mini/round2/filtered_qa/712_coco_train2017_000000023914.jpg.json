@@ -1,0 +1,157 @@
+{
+    "id": "000000023914",
+    "image": "coco/train2017/000000023914.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the man doing in the image?",
+            "steps": [],
+            "answer": "The man in the image is sitting on the couch with his dog and a laptop computer."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the color of the dog sitting with the man?",
+            "steps": [],
+            "answer": "The color of the dog sitting with the man is black."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where is the man's laptop placed in the image?",
+            "steps": [],
+            "answer": "The man's laptop is placed either on the couch or directly in front of him and his dog."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of activity might the man and his dog be engaged in?",
+            "steps": [],
+            "answer": "The man and his dog could be engaged in various activities. Some possibilities include the man working from home, browsing the internet, watching a movie or videos, or video chatting with friends or family. The dog, while not directly interacting with the laptop, could be enjoying the company of the man or providing emotional support during the activity. The exact activity cannot be determined with certainty, but the image suggests a relaxed and comfortable environment where the man and dog are spending quality time together."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "The image shows a man sitting comfortably on a couch with his black dog. They are in a cozy living area, and the man has a laptop computer placed in front of him, likely browsing the internet or working on a project. \n\nThere are two chairs in the room, one located to the right of the couch and another close to a dining table, which is situated at the right side of the room. Another laptop can be seen on the dining table, possibly for use during meals or different tasks. Additionally, a remote control is resting on the left side of the couch, suggesting that the room is also equipped with a television or a home entertainment system."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image portrays a cozy scene in a living room. A man and a black dog are the main subjects, both comfortably seated on a green couch. The man, dressed in a white shirt, is positioned on the left side of the couch. He has a laptop resting on his lap, indicating he might be working or perhaps enjoying some leisure time.\n\nThe black dog is seated on the right side of the couch, its attention directed towards the camera, giving the impression of posing for the photo. The dog seems to be at ease, resting its head on the laptop, creating a heartwarming interaction between the man and his pet.\n\nA remote control is placed on the armrest of the couch, suggesting that they might be watching television. The background features a wooden wall and a TV, adding to the homely ambiance of the scene.\n\nThis image captures a moment of tranquility and companionship between a man and his dog in their comfortable living space."
+        }
+    ],
+    "det": [
+        {
+            "label": "dog",
+            "bbox": [
+                0.178421875,
+                0.3528125,
+                0.60484375,
+                0.9213749999999999
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9382343750000001,
+                0.1526875,
+                1.0,
+                0.7126041666666667
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.17059375000000002,
+                0.13304166666666667,
+                0.655046875,
+                0.5193125
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.0,
+                0.6823958333333333,
+                0.609984375,
+                0.9909791666666667
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.859515625,
+                0.24277083333333332,
+                0.9895156250000001,
+                0.6571874999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0034062500000000004,
+                0.058958333333333335,
+                0.80271875,
+                0.9954583333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.84184375,
+                0.16475,
+                0.98115625,
+                0.6170625
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.490453125,
+                0.22022916666666664,
+                0.758421875,
+                0.6247291666666667
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.8723593749999999,
+                0.131875,
+                0.9897343749999999,
+                0.24339583333333334
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.0,
+                0.6516458333333334,
+                0.10496875000000001,
+                0.7371250000000001
+            ]
+        }
+    ],
+    "hash_id": "712_coco_train2017_000000023914.jpg"
+}

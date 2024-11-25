@@ -1,0 +1,248 @@
+{
+    "id": "000000046441",
+    "image": "coco/train2017/000000046441.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "A man in a tan shirt is sitting at a dinner table in an open restaurant with a nearly empty plate of food in front of him. He's smiling while enjoying his meal, surrounded by a table covered with various plates of food like a sandwich, cake, and a bowl filled with something delicious.\n\nThe table is set with several cups, forks, spoons, and a knife spread across it, emphasizing a well-enjoyed dining experience. Other dining tables and chairs are present in the scene, indicating a spacious and welcoming restaurant environment. There is also a bench visible along with several other chairs around the tables."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Why might the man be in a good mood?",
+            "steps": [],
+            "answer": "The man in the image is in a good mood because he is sitting at a table with a variety of food items in front of him. Plates, cups, sandwiches, a cake, and utensils, such as forks, spoons, and knives, can be seen on the table. It appears to be a pleasant dining experience, potentially at an open restaurant, with various dishes to enjoy. The abundance and variety of food at his disposal would naturally make anyone happy and contribute to the man's positive mood, as food is often associated with enjoyment and satisfaction."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Can you describe the main features of this image for me?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a tropical-themed restaurant, a man in a green t-shirt is captured in a moment of anticipation. He's seated at a wooden table, adorned with a pristine white tablecloth. His hand grips a fork, poised for the first bite of the meal that lies before him on a plate. \n\nThe table is not just a surface for his meal, but a stage for various condiments and utensils, each playing their part in the dining experience. The restaurant itself is a symphony of nature and craftsmanship, with lush plants lending freshness to the air and wooden furniture adding a touch of rustic charm.\n\nIn the background, adding depth to the scene, is another person clad in a red shirt. Their presence subtly reminds us that this is a shared space, where stories unfold at every table. \n\nEvery element in this image comes together to paint a vivid picture of a dining experience, frozen in time yet full of potential."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.8064814814814815,
+                0.46046875,
+                0.9774897119341563,
+                0.759578125
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6224691358024691,
+                0.37121875000000004,
+                0.8470987654320987,
+                0.49768749999999995
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.032407407407407406,
+                0.67359375,
+                0.9898559670781892,
+                0.9778437500000001
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.7583744855967078,
+                0.43962500000000004,
+                0.9795267489711934,
+                0.6532500000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.10654320987654321,
+                0.14650000000000002,
+                0.7256378600823045,
+                0.707859375
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.6419135802469136,
+                0.37307812500000004,
+                0.8469753086419753,
+                0.48975
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.5711316872427984,
+                0.817984375,
+                0.665843621399177,
+                0.932578125
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.03510288065843621,
+                0.737890625,
+                0.1625925925925926,
+                0.8935000000000001
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.022222222222222223,
+                0.67621875,
+                0.09360082304526748,
+                0.849171875
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.5118724279835392,
+                0.547046875,
+                0.5468312757201645,
+                0.60628125
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.15592592592592594,
+                0.752,
+                0.2966460905349795,
+                0.8473749999999999
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.6131687242798354,
+                0.8129375,
+                0.7332716049382716,
+                0.8625624999999999
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.157880658436214,
+                0.77803125,
+                0.3496707818930041,
+                0.876890625
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.5809876543209876,
+                0.702265625,
+                0.7139506172839507,
+                0.7434375
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.470514403292181,
+                0.8539375,
+                0.6155349794238683,
+                0.97753125
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.6910082304526749,
+                0.879046875,
+                0.8796502057613168,
+                0.9881875000000001
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.27269547325102883,
+                0.70409375,
+                0.5257407407407407,
+                0.777796875
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.04148148148148148,
+                0.41428125,
+                0.17263374485596708,
+                0.679375
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.48662551440329216,
+                0.345390625,
+                0.5818930041152264,
+                0.38526562500000006
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.5172427983539094,
+                0.33792187500000004,
+                0.6881481481481482,
+                0.39387500000000003
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.041913580246913586,
+                0.43001562499999996,
+                0.0883127572016461,
+                0.481046875
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.5420781893004115,
+                0.543390625,
+                0.5892798353909465,
+                0.633796875
+            ]
+        },
+        {
+            "label": "sandwich",
+            "bbox": [
+                0.46481481481481485,
+                0.66240625,
+                0.5821399176954732,
+                0.776375
+            ]
+        }
+    ],
+    "hash_id": "76_coco_train2017_000000046441.jpg"
+}

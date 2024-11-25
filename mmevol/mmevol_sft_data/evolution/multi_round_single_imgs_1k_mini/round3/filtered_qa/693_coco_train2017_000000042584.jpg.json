@@ -1,0 +1,239 @@
+{
+    "id": "000000042584",
+    "image": "coco/train2017/000000042584.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are walking past the building in the image?",
+            "steps": [],
+            "answer": "There are five people walking past the building in the image, with one person leading and four others following."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the architectural features of the building?",
+            "steps": [],
+            "answer": "The building has several notable architectural features, including many windows, a clock tower or cupola, long columns, and numerous French doors."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you tell if the building is a school house or a historical building?",
+            "steps": [],
+            "answer": "Based on the image, it is not possible to definitively determine if the building is a school house or a historical building. However, the architectural features such as the clock tower and columns, as well as a nice and formal look of the building, suggest that it could be a historical building, possibly used as a school house or another public building."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is a clock cupola, and how does it contribute to the appearance of the building?",
+            "steps": [],
+            "answer": "A clock cupola is a small structure, often dome-shaped, that is built on top of a building's roof or tower. It typically houses a clock and may feature decorative elements such as columns, cornices, or ornamental designs. The presence of a clock cupola contributes to the overall appearance of a building by adding a sense of grandeur, elegance, or historical significance. It can serve as an architectural focal point that draws attention to the building's height and prominence in the surrounding landscape.\n\nIn the case of the building in the image, the clock cupola adds to its attractiveness and may indicate a prominent role within the community, such as a public or educational institution. The combination of the clock, columns, and French doors suggests a sense of architectural refinement and sophistication that could reflect the building's importance or historical significance."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image features a group of people walking past a large, historical building with many French doors and a distinctive clock cupola. Among them, one person seems to be leading the group of four others as they follow. The building appears to be a school house, suggesting that the people walking by could be parents and children.\n\nThere are several chairs located outside the building, likely meant for visitors to sit and enjoy the view. Multiple backpacks can be seen with some of the people in the scene, further supporting the idea that this setting could be related to a school environment."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the primary purpose of the large building with many windows and a clock tower, and how is it being used in this scene?",
+            "steps": [],
+            "answer": "The large building with many windows, French doors, and a clock tower is most likely a historical or an educational institution, such as a school or university. In the image, several people, possibly parents and children or students, are walking past the building. The people walking by appear to be interacting with the building and its surroundings, making it an active part of the community. The presence of chairs outside the building suggests that there might be an event or gathering taking place or that the building serves as a communal space for people to enjoy and relax."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nExplain the visual content of the image in great detail."
+        },
+        {
+            "from": "gpt",
+            "value": "The image depicts a grand, white building with a prominent clock tower. The clock tower is adorned with a black face, gold hands, and gold numbers. The building features a long porch supported by columns and large windows that reflect the gray sky above.\n\nIn front of the building, four individuals can be seen walking on a path made of gravel. Their exact actions or identities are indiscernible from the image.\n\nThe building is situated in a serene, park-like setting. Trees can be seen in the background, providing a natural contrast to the man-made structure.\n\nPlease note that this description is based on the visible elements in the image and does not include any inferred or assumed information."
+        }
+    ],
+    "det": [
+        {
+            "label": "clock",
+            "bbox": [
+                0.46765625,
+                0.20492957746478874,
+                0.51146875,
+                0.2680281690140845
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.051765625,
+                0.6136854460093897,
+                0.10332812499999999,
+                0.8055164319248825
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.168171875,
+                0.6699765258215963,
+                0.21951562500000002,
+                0.7998356807511737
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.098359375,
+                0.6446948356807511,
+                0.1309375,
+                0.7953755868544601
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.10959375,
+                0.6711032863849765,
+                0.1179375,
+                0.7051877934272299
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.5769375,
+                0.6868779342723005,
+                0.6157656250000001,
+                0.7592723004694836
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.54384375,
+                0.6860798122065728,
+                0.5773906249999999,
+                0.7574178403755868
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6505156249999999,
+                0.6884037558685446,
+                0.681359375,
+                0.7614319248826291
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.681828125,
+                0.6885915492957746,
+                0.711546875,
+                0.7638732394366197
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.331546875,
+                0.6799765258215963,
+                0.36315624999999996,
+                0.7449061032863851
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.285734375,
+                0.6791314553990611,
+                0.3016875,
+                0.738943661971831
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.775921875,
+                0.6178169014084507,
+                0.8526718749999999,
+                0.8239671361502348
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.1203125,
+                0.6322065727699531,
+                0.17815625000000002,
+                0.8112910798122066
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.171234375,
+                0.6942488262910798,
+                0.18290625,
+                0.7311032863849765
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.121484375,
+                0.6561267605633803,
+                0.15309375,
+                0.7162206572769954
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.23009374999999999,
+                0.7015962441314554,
+                0.2365,
+                0.7366901408450703
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.201359375,
+                0.6730751173708921,
+                0.21865625,
+                0.7256572769953051
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2296875,
+                0.6451877934272301,
+                0.257859375,
+                0.7326291079812207
+            ]
+        }
+    ],
+    "hash_id": "693_coco_train2017_000000042584.jpg"
+}

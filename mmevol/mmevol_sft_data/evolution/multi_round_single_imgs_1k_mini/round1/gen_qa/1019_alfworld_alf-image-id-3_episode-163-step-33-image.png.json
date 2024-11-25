@@ -1,0 +1,132 @@
+Here's the rewritten version:
+
+```json
+[
+    {
+        "image_position": "single",
+        "objects": ["tomato", "countertop"],
+        "skills": ["Instruction Following", "Planning Skills"],
+        "format": "multi-choice",
+        "question": "You are tasked with placing a cool tomato on countertop 1. First, decide which action to take: \nA) Go to the fridge and cool the tomato\nB) Put the tomato directly on countertop 1\nC) Examine countertop 1 for cooler settings\nD) Inventory check before any action",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Analyze the image and task requirements to determine the best course of action."
+            },
+            {
+                "manipulation": "None",
+                "description": "Consider relevant actions and their outcomes to ensure the tomato is cooled before placing it on the countertop."
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "image_position": "single",
+        "objects": ["kitchen layout", "items"],
+        "skills": ["Describe Scene", "Observation Skills"],
+        "format": "coreference_resolution",
+        "question": "In the kitchen scene, identify which object the term 'it' in the sentence 'Describe its layout' refers to.",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Identify the primary object referred to as 'it' in the description context."
+            },
+            {
+                "manipulation": "None",
+                "description": "Relate the identified object with the overall layout description."
+            }
+        ],
+        "answer": "The kitchen scene."
+    },
+    {
+        "image_position": "single",
+        "objects": ["recipe", "kitchen items"],
+        "skills": ["Creative Content Generation", "Culinary Knowledge"],
+        "format": "creative_content_generation",
+        "question": "Using visible kitchen items, generate two creative but feasible recipes a chef might attempt.",
+        "steps": [
+            {
+                "manipulation": "imagination_1(recipe_1)->output_1",
+                "description": "Use visible items to design a salad recipe that involves basic kitchen ingredients."
+            },
+            {
+                "manipulation": "imagination_2(recipe_2)->output_2",
+                "description": "Utilize other kitchen hints to invent a warm dish incorporating visible vegetables."
+            }
+        ],
+        "answer": "Recipe 1: Tomato and Lettuce Salad. Recipe 2: Warm Tomato and Herb Stir-fry."
+    },
+    {
+        "image_position": "single",
+        "objects": ["kitchen items"],
+        "skills": ["Imaginative Skills", "Narrative Skills"],
+        "format": "rationales_generation",
+        "question": "Imagine the kitchen items at night and list three adventures they could embark on.",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Use creative thinking to picture nighttime activities for kitchen objects."
+            },
+            {
+                "manipulation": "None",
+                "description": "Describe the adventures in a narrative format with rationales for each event."
+            }
+        ],
+        "answer": "1. Discovering hidden spices for magical recipes. 2. Unlocking a secret garden with rare ingredients. 3. Hosting a late-night dance party under the kitchen lights."
+    },
+    {
+        "image_position": "single",
+        "objects": ["kitchen"],
+        "skills": ["Context Awareness", "Artistic Expression"],
+        "format": "art_type",
+        "question": "If the kitchen had a soundtrack, what style of music would best fit the scene's energy? Consider various musical genres.",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Assess the dynamic of the kitchen to decide which musical genre aligns with its atmosphere."
+            },
+            {
+                "manipulation": "None",
+                "description": "Match the energetic vibe of a bustling kitchen to a suitable music style that would enhance its ambiance."
+            }
+        ],
+        "answer": "Upbeat jazz or lively pop music."
+    },
+    {
+        "image_position": "single",
+        "objects": ["ergonomic improvements", "kitchens"],
+        "skills": ["Evaluation Skills", "Design Knowledge"],
+        "format": "completeness_of_response",
+        "question": "What ergonomic improvements in the kitchen ensure both efficiency and safety?",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Evaluate the kitchen layout for potential ergonomic issues."
+            },
+            {
+                "manipulation": "None",
+                "description": "List techniques or modifications to improve kitchen ergonomics, ensuring a complete response."
+            }
+        ],
+        "answer": "1. Adjustable countertop heights. 2. Optimized storage solutions. 3. Anti-slip mats. 4. Enhanced task lighting. 5. Efficient workflow design."
+    },
+    {
+        "image_position": "single",
+        "objects": ["vegetable"],
+        "skills": ["Identification", "Culinary Skills"],
+        "format": "text_image_matching",
+        "question": "Does the text 'The green vegetable is cabbage, suitable for sautéing.' accurately depict the image context?",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Identify the green vegetable based on its visual features and match it with potential counterparts."
+            },
+            {
+                "manipulation": "None",
+                "description": "Assess if cabbage is feasible as per its appearance and suggest a dish."
+            }
+        ],
+        "answer": "Yes, the vegetable resembles cabbage, suitable for sautéing."
+    }
+]
+```

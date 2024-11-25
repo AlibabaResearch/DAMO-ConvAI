@@ -1,0 +1,219 @@
+{
+    "id": "000000082894",
+    "image": "coco/train2017/000000082894.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What objects are placed on the table?",
+            "steps": [],
+            "answer": "The table has a laptop, plates of food, and a drink placed on it."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the table indoors or outdoors?",
+            "steps": [],
+            "answer": "The table is outdoors."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the table made out of?",
+            "steps": [],
+            "answer": "The table is made out of wood."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "In what state is the meal?",
+            "steps": [],
+            "answer": "The meal on the table is ready to be eaten."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Could you describe how mixing work with leisure time during meals could affect the person working on the laptop?",
+            "steps": [],
+            "answer": "Mixing work with leisure time during meals, as seen with the person working on the laptop alongside plates of food and a drink, could have both positive and negative effects.\n\nOn the positive side, it can be more convenient and time-efficient to combine work and mealtime. The person working on the laptop may have a tight schedule or deadlines, in which case multitasking with meals could help them accomplish more within a limited time. Enjoying a meal during work can also provide a much-needed energy boost and refresh their mind, which may lead to increased productivity and creativity.\n\nConversely, the negative aspects involve the potential interference with work-life balance. Constantly merging work and leisure activities can make it difficult for the person to fully disengage from their responsibilities and relax during mealtime. This lack of proper relaxation might increase the risk of burnout and negatively impact their mental well-being. Additionally, multitasking with meals and work can lead to a lack of attention paid to healthy eating habits. The person may unknowingly overeat or not eat mindfully, which may eventually affect their physical health.\n\nIn conclusion, incorporating a laptop and work during leisure time activities like meals may have some benefits like increased productivity and time-efficiency, but it could also lead to negative consequences for mental health and work-life balance in the long run. Hence, it is essential to strike a balance between work and relaxation to maintain overall well-being."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image features an outdoor wooden dining table on which plates of food, a laptop, and a couple of drinks are placed. The meal is ready to be eaten, and the laptop is there for entertainment or work. \n\nIn the surrounding area, there are various vehicles visible, including a car, a truck, a bicycle, and several motorcycles. One motorcycle is situated close to the table, while others are further away. Additionally, there is a potted plant nearby and a bench close to the table. The overall setting appears to be a casual outdoor environment, perfect for enjoying a meal and perhaps engaging in some outdoor activities."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of activity can be inferred from this scene?",
+            "steps": [],
+            "answer": "The scene suggests that someone is likely multitasking or taking a break while working. The laptop and several plates of food are placed on a dining table. This implies that the person might be working on the laptop while enjoying their meal, possibly during lunch or dinner break. Alternatively, they could have finished their work and are now ready to eat. The presence of the laptop indicates that it's either a work-related or casual activity, such as browsing the internet or watching a video, that takes place during the meal. The outdoor setting also adds a relaxing and enjoyable atmosphere to this activity."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of an urban setting, a solitary table stands under the open sky. On this table, a laptop is open, its screen glowing with life, suggesting recent use. The laptop, a symbol of modern technology, contrasts with the simplicity of the meal laid out next to it.\n\nA plate of food is present, offering a balanced meal. A piece of meat, cooked to perfection, lies next to a small bowl of soup, its steam rising in the cool air. A scoop of rice accompanies these, completing the trio. The colors of the meal range from the white of the rice to the rich brown of the meat and the vibrant colors of the soup's ingredients.\n\nBeside the plate, a tall glass of orange juice stands. Its bright color is a splash of cheer on the table. A straw peeks out from it, ready for someone to take a sip.\n\nThe table is not inside a cozy caf\u00e9 or a bustling restaurant; it's outside, adding an element of casualness to the scene. In the background, cars and a motorcycle are parked, hinting at life going on around this quiet tableau.\n\nThis image captures a moment frozen in time - a pause in someone's day where they sat down to work and enjoy a meal amidst the hustle and bustle of city life."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.509296875,
+                0.030583333333333334,
+                0.8924687499999999,
+                0.2452708333333333
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.636546875,
+                0.7009375,
+                0.995203125,
+                0.8513958333333332
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.610359375,
+                0.4892083333333333,
+                0.760828125,
+                0.560625
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.4843125,
+                0.4887916666666667,
+                0.645734375,
+                0.6367708333333333
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.000671875,
+                0.3186458333333333,
+                0.3761875,
+                0.8916249999999999
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.9324843749999999,
+                0.08693749999999999,
+                1.0,
+                0.20554166666666665
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.8865000000000001,
+                0.27404166666666663,
+                1.0,
+                0.47681250000000003
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.32821875,
+                0.14887499999999998,
+                0.4461875,
+                0.6140416666666667
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.42315625,
+                0.28883333333333333,
+                0.48557812499999997,
+                0.5207499999999999
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.07190625,
+                0.0,
+                0.4528125,
+                0.2289375
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.590640625,
+                0.21066666666666667,
+                0.664203125,
+                0.40116666666666667
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.00290625,
+                0.1690625,
+                0.08671875,
+                0.3530208333333333
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.001953125,
+                0.38960416666666664,
+                1.0,
+                0.9870208333333333
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.505296875,
+                0.03272916666666667,
+                0.89784375,
+                0.24714583333333331
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.040796874999999996,
+                0.21839583333333332,
+                0.621765625,
+                0.4075208333333334
+            ]
+        }
+    ],
+    "hash_id": "57_coco_train2017_000000082894.jpg"
+}

@@ -1,0 +1,211 @@
+{
+    "id": "000000006901",
+    "image": "coco/train2017/000000006901.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where is the luggage cart located in the image?",
+            "steps": [],
+            "answer": "The luggage cart is located near a runway at an airport."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the luggage cart covered with?",
+            "steps": [],
+            "answer": "The luggage cart is covered with various pieces of luggage."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a person standing next to the luggage cart, and if so, what is he doing?",
+            "steps": [],
+            "answer": "Yes, there is a man standing on the baggage cart near a runway, assisting with loading or unloading luggage from a plane."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the role of the truck in the image?",
+            "steps": [],
+            "answer": "The truck is being used to pull the luggage cart, transporting the luggage to or from the airplanes at the airport."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How is the luggage being moved on the luggage belt at the airstrip?",
+            "steps": [],
+            "answer": "The luggage is being moved down a luggage belt at the airstrip and onto a transporter, with a man standing on it to facilitate the loading or unloading process."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The image is situated at an airport airstrip, capturing a man standing on a luggage transport truck near the runway. This truck is pulling a large quantity of suitcases, and the man appears to be assisting with loading the luggage onto the airplane visible in the background.\n\nNumerous suitcases are seen being moved along a luggage belt towards the transport truck. Several suitcases are placed on different levels of the belt and the truck, indicating an organized process to streamline the luggage transportation. The airplane, with its presence at the top-left corner of the image, supports the scene's airport setting."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat's happening in the scene?"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a moment on an airport tarmac. The focus is on a worker in the center of the frame, who is dressed in a red shirt and black pants. He is in the process of loading a black suitcase onto a black luggage cart. \n\nThe luggage cart already has several pieces of luggage on it, including a large cardboard box, a blue suitcase, and a black duffel bag. There's also a red traffic cone on the ground next to the cart, perhaps for safety or guidance.\n\nThe tarmac itself is gray with several yellow lines painted on it, possibly indicating different zones or paths for vehicles and workers. In the background, there are several other vehicles and equipment, including a truck and a conveyor belt, suggesting the hustle and bustle typically associated with airport operations.\n\nOverall, this image paints a picture of an ordinary day at an airport, with workers diligently ensuring that passengers' luggage is safely loaded and ready for their journey."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.6486249999999999,
+                0.29809375,
+                0.7526875,
+                0.5229375
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.418375,
+                0.34196875000000004,
+                0.5522083333333333,
+                0.397484375
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.5431041666666666,
+                0.30796875,
+                0.6594791666666667,
+                0.377359375
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.7452916666666667,
+                0.36059375,
+                0.9016875,
+                0.4485625
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.21020833333333336,
+                0.573203125,
+                0.4084166666666667,
+                0.6925625
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.7444583333333333,
+                0.442203125,
+                0.8967499999999998,
+                0.5015625
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.0,
+                0.5101093750000001,
+                0.6142291666666666,
+                1.0
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.0,
+                0.64296875,
+                0.1779375,
+                0.829515625
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.000875,
+                0.49746875,
+                0.17879166666666668,
+                0.5671406250000001
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.5853125,
+                0.394875,
+                0.6962291666666667,
+                0.467390625
+            ]
+        },
+        {
+            "label": "airplane",
+            "bbox": [
+                0.6705208333333333,
+                0.000609375,
+                1.0,
+                0.071875
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.07527083333333334,
+                0.35790625,
+                0.247125,
+                0.43009375
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.44952083333333337,
+                0.41384375,
+                0.5630000000000001,
+                0.50375
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.7446041666666667,
+                0.419421875,
+                0.8902916666666667,
+                0.475
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.4225625,
+                0.503953125,
+                0.6079791666666667,
+                0.592140625
+            ]
+        }
+    ],
+    "hash_id": "967_coco_train2017_000000006901.jpg"
+}

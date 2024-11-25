@@ -1,0 +1,201 @@
+{
+    "id": "000000147753",
+    "image": "coco/train2017/000000147753.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image depicts a group of three men standing around in a kitchen, enjoying each other's company and sharing a drink together. Each of the men is holding a glass in his hand. One man is positioned close to the left side of the scene, while the other two are located towards the right side with one man slightly in front of the other.\n\nThe kitchen is well-equipped with a refrigerator, sink, and various items placed on the counter. There are several bottles, cups, spoons, and bowls spread throughout the scene. A banana and a potted plant are also visible on the counter, adding to the cozy atmosphere of the gathering. The scene appears to take place at night or in dim lighting, as the surroundings have a subdued glow."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can be inferred about the men's preferred beverages in the scene?",
+            "steps": [],
+            "answer": "In the image, three men are holding glasses and standing around the kitchen, laughing and enjoying their time together. We can infer that the men are likely drinking from the cups they are holding. As there are bottles, cups, and glasses present in the scene, it suggests that the men's preferred beverages may be alcoholic, such as wine or beer. This is under the assumption that the bottles contain alcohol. However, the exact type of their preferred beverages cannot be determined without more information or seeing the contents of the glasses and bottles."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Analyze the image in a comprehensive and detailed manner.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a well-lit kitchen, a lively conversation unfolds between three men. The man on the left, clad in a blue sweater, leans casually against a wooden cabinet. His gaze is directed towards the center of the room, where another man stands by the kitchen counter. Dressed in a black t-shirt, he is positioned in front of a sink, his hands resting on the counter's edge.\n\nTo their right, a third man in a black jacket stands by a window, adding to the dynamic of the conversation. The window casts a soft light that illuminates the room, highlighting various kitchen appliances and utensils scattered around them. The scene is one of camaraderie and comfort, as if frozen in a moment of shared stories and laughter."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.761,
+                0.15889583333333332,
+                0.776765625,
+                0.21006249999999999
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.75009375,
+                0.16495833333333335,
+                0.76671875,
+                0.20758333333333337
+            ]
+        },
+        {
+            "label": "refrigerator",
+            "bbox": [
+                0.834921875,
+                0.31958333333333333,
+                0.9969531250000001,
+                0.6258541666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.789546875,
+                0.33268749999999997,
+                1.0,
+                0.9976458333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0033750000000000004,
+                0.3322083333333333,
+                0.28546875,
+                0.9876041666666666
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.332828125,
+                0.46175,
+                0.357828125,
+                0.5043958333333333
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.616203125,
+                0.4832916666666666,
+                0.696328125,
+                0.537125
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.310171875,
+                0.46366666666666667,
+                0.323578125,
+                0.5072916666666667
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.29321875,
+                0.4425,
+                0.32509375,
+                0.5049583333333333
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.617796875,
+                0.4266875,
+                0.64653125,
+                0.4560625
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.79096875,
+                0.5175833333333333,
+                0.8372187500000001,
+                0.5557291666666667
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.6953125,
+                0.497125,
+                0.731890625,
+                0.5348333333333334
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.76515625,
+                0.035479166666666666,
+                0.781765625,
+                0.09502083333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.56146875,
+                0.6592291666666666,
+                0.59984375,
+                0.7176458333333334
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.308046875,
+                0.5019791666666666,
+                0.34959375000000004,
+                0.5705208333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.22554687499999998,
+                0.7189583333333334,
+                0.28128125,
+                0.7912916666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.342015625,
+                0.30345833333333333,
+                0.67021875,
+                0.9534374999999999
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.660140625,
+                0.5321666666666667,
+                0.7505625,
+                0.6089791666666666
+            ]
+        }
+    ],
+    "hash_id": "167_coco_train2017_000000147753.jpg"
+}

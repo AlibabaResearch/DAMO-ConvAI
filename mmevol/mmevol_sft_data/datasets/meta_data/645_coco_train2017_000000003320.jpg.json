@@ -1,0 +1,190 @@
+{
+    "id": "000000003320",
+    "image": "coco/train2017/000000003320.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are visible in the image boarding the boat?",
+            "steps": [],
+            "answer": "There are three people visible in the image boarding the boat."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people carrying with them as they board the boat?",
+            "steps": [],
+            "answer": "The people are carrying luggage, including backpacks and small pieces of luggage, as they board the boat."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of boat are the people boarding?",
+            "steps": [],
+            "answer": "The people are boarding a ferry boat."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the general setting of the image?",
+            "steps": [],
+            "answer": "The general setting of the image is a docking area where people are walking onto the ferry boat with their luggage."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the purpose of a ferry boat, and what kind of services do they typically provide?",
+            "steps": [],
+            "answer": "A ferry boat is a specialized vessel designed to transport passengers, vehicles, and cargo across water bodies such as rivers, lakes, or seas. Ferry boats are an essential mode of transportation, particularly in regions with coastlines, islands, or where the land is divided by rivers or lakes. They offer an economical and efficient way to connect different locations that are not conveniently accessible via land routes or bridges.\n\nFerry boats can vary in size, design, and the type of services they provide, depending on the specific requirements of their routes and the passengers they serve. Some ferry boats focus primarily on passenger transportation, offering seating areas, restrooms, and sometimes onboard cafes or snack bars for the comfort and convenience of travelers. Others are larger and equipped to carry vehicles and heavy cargo in addition to passengers. \n\nFerry services typically operate on regular schedules, with boats departing and arriving at designated terminals or docking areas. In some cases, ferries may also serve as an essential part of public transportation systems, linking different urban areas or facilitating the movement of commuters across large water bodies. \n\nIn the case of the image, the people boarding the ferry boat with their luggage suggest that the service is geared towards passenger transportation, providing a connection between different locations across a body of water. Whether the ferry boat in the image also carries vehicles is unclear, but it is evident that it serves as a convenient mode of transport for people carrying luggage, backpacks, and personal belongings, enabling them to travel from one place to another."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "The image depicts a ferry boat docking area where three people are seen boarding the vessel while carrying their luggage. The first person is on the left side holding a backpack, while the second individual is in the middle, carrying a handbag. The third person is on the right, also holding a handbag. \n\nIn addition to the luggage carried by the passengers, there is a suitcase and two more backpacks placed around them, suggesting that they all have some extra baggage for their journey. Small boats are visible both in front of and behind the ferry, creating a lively waterfront scene."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What precautions should these people take when boarding the ferry boat with their luggage?",
+            "steps": [],
+            "answer": "When boarding the ferry boat with their luggage, the group of people in the image should take precautions to ensure their safety and the well-being of their belongings. This includes:\n\n1. Keeping a close watch on their luggage and personal items, like backpacks and handbags, to prevent theft or loss during the boarding process.\n2. Securing their luggage properly to prevent it from sliding or falling, which could cause accidents or damage to their belongings.\n3. Following any guidelines or instructions provided by the ferry crew regarding the placement and storage of luggage in designated areas.\n4. Boarding the ferry in an orderly manner and maintaining a safe distance from other passengers to prevent any accidents or injuries, especially if the docking area is slippery or wet.\n5. Being aware of their surroundings and prepared to react accordingly to any sudden changes in the ferry's movements or unexpected situations that could arise in a busy environment like a docking area."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat are the key elements in this picture?"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a scene at a dock where a group of people are boarding a white ferry boat. The boat is adorned with blue and red stripes on its sides, adding a vibrant touch to its otherwise plain exterior. Two black smokestacks rise from the top of the boat, possibly indicating that it's powered by a traditional diesel engine. Fluttering atop the boat is a white flag, marked with a distinct red cross.\n\nThe passengers, each carrying their own luggage, are seen walking towards the boat. Their actions suggest they are in the process of boarding, ready to embark on their journey across the water.\n\nThe sky overhead is painted in shades of gray, hinting at overcast weather conditions. Despite this, there doesn't seem to be any hindrance to the boarding process.\n\nThe perspective of the photo is particularly interesting as it's taken from the dock, looking towards the boat. This viewpoint allows for a comprehensive view of both the ferry and its passengers, capturing the essence of travel and transition."
+        }
+    ],
+    "det": [
+        {
+            "label": "boat",
+            "bbox": [
+                0.8227343749999999,
+                0.519,
+                0.8770937499999999,
+                0.5631041666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2674375,
+                0.4780416666666667,
+                0.400890625,
+                0.9983125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.438,
+                0.5275624999999999,
+                0.514328125,
+                0.8169375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5460625,
+                0.5123541666666667,
+                0.589890625,
+                0.7146041666666666
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.53396875,
+                0.5390625,
+                0.566265625,
+                0.60875
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.43859375,
+                0.5771875000000001,
+                0.499046875,
+                0.7150625
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.5560625,
+                0.5415625,
+                0.5855937499999999,
+                0.631125
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.49071875,
+                0.693125,
+                0.55159375,
+                0.8430208333333333
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.30070312499999996,
+                0.5496875,
+                0.39467187499999995,
+                0.7409375
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.88221875,
+                0.5066875000000001,
+                0.9286406250000001,
+                0.5667500000000001
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.258796875,
+                0.5153541666666667,
+                0.3274375,
+                0.7247291666666666
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.97271875,
+                0.4911875,
+                1.0,
+                0.572375
+            ]
+        }
+    ],
+    "hash_id": "645_coco_train2017_000000003320.jpg"
+}

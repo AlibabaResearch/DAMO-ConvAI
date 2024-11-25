@@ -1,0 +1,401 @@
+{
+    "id": "000000150646",
+    "image": "coco/train2017/000000150646.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image portrays a bar scene with a man sitting and reading a book while putting his feet up behind the bar counter. A small television is switched on, mounted on the wall near the left side of the scene above the man. \n\nVarious bottles and cups are scattered all around the bar, placed on various surfaces. There are multiple clocks visible in the scene, placed on different walls and surfaces throughout the area, likely as decorative elements. In addition to the bar items, there is an umbrella placed on the ground, and a wine glass is located near the man on the bar counter."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What types of activities and items can be observed within this bar scene?",
+            "steps": [],
+            "answer": "In the bar scene image, there is a man sitting near the bar with a television turned on. A bartender is reading a book and resting with his feet up behind the bar. Various items can be seen throughout, such as cups, wine glasses, and bottles, which suggests that the bar serves a variety of beverages. Additionally, multiple clocks are visible, which could be an aesthetic choice or provide timekeeping for events or employee shifts. An umbrella is also present, which might belong to a customer who used it as a rain or sun protection before arriving at the bar. Overall, the scene shows a relaxed environment with people engaged in casual activities while enjoying drinks and entertainment provided by the television."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you describe the main features of this image for me?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a dimly lit bar, a solitary man sits hunched over the counter, his back to us. He's perched on a stool, engrossed in a television screen mounted on the wall in front of him. The screen casts a soft blue glow, hinting at a movie or show playing.\n\nThe bar counter, bathed in warm light, is a tableau of typical bar paraphernalia. A glass pitcher filled with golden beer sits next to an empty glass, waiting to be filled. Several beer taps stand at attention nearby, ready to dispense their frothy contents.\n\nThe background is a testament to the bar's character. Shelves laden with an assortment of beer cans and bottles create a colorful mosaic against the wall. Signs and other decorations are scattered amidst the cans and bottles, adding to the eclectic charm of the place.\n\nDespite the clutter, there's an order to the chaos, each object precisely placed, telling its own silent story. The man, the counter, and the background all come together to paint a vivid picture of a quiet evening spent in the comforting embrace of a familiar bar."
+        }
+    ],
+    "det": [
+        {
+            "label": "tv",
+            "bbox": [
+                0.434265625,
+                0.050679156908665104,
+                0.637140625,
+                0.3322014051522248
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.06476562500000001,
+                0.30644028103044496,
+                0.21989062500000003,
+                0.6585714285714287
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.727078125,
+                0.7623653395784543,
+                0.74903125,
+                0.8029976580796253
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.587359375,
+                0.5725292740046838,
+                0.622125,
+                0.6662997658079625
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.49448437500000003,
+                0.4021077283372365,
+                0.5124062500000001,
+                0.442599531615925
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.502953125,
+                0.35250585480093677,
+                0.537578125,
+                0.4475175644028103
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.20099999999999998,
+                0.6094613583138173,
+                0.290484375,
+                0.8011709601873537
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.1399375,
+                0.5748009367681499,
+                0.23153125000000002,
+                0.754847775175644
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.50721875,
+                0.63903981264637,
+                0.550390625,
+                0.7310070257611241
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.54790625,
+                0.6583372365339579,
+                0.5950468750000001,
+                0.7569086651053866
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.618265625,
+                0.6868852459016394,
+                0.6399375,
+                0.745175644028103
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.500796875,
+                0.6310304449648712,
+                0.531890625,
+                0.7094379391100702
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.17881249999999999,
+                0.4850585480093677,
+                0.25159374999999995,
+                0.5660421545667447
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.687765625,
+                0.12559718969555037,
+                0.718640625,
+                0.18156908665105387
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.77609375,
+                0.11388758782201405,
+                0.809765625,
+                0.1702810304449649
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.88903125,
+                0.2900702576112412,
+                0.93196875,
+                0.35946135831381737
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.8149531250000001,
+                0.5023653395784543,
+                0.8569531250000001,
+                0.5752459016393443
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.822828125,
+                0.289344262295082,
+                0.8495312500000001,
+                0.33152224824355975
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.608015625,
+                0.43473067915690866,
+                0.652328125,
+                0.5075175644028103
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.34762499999999996,
+                0.21295081967213117,
+                0.38090625,
+                0.26697892271662765
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.7468281250000001,
+                0.2872131147540984,
+                0.7808125,
+                0.3479391100702576
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.940515625,
+                0.10121779859484777,
+                0.9858281249999999,
+                0.171615925058548
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.8649531250000001,
+                0.08927400468384074,
+                0.8955312500000001,
+                0.13903981264637003
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.701703125,
+                0.4649414519906323,
+                0.7330625,
+                0.5250351288056206
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.282046875,
+                0.5432084309133489,
+                0.31009374999999995,
+                0.635152224824356
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.579359375,
+                0.6695081967213115,
+                0.620546875,
+                0.7530913348946136
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.531703125,
+                0.6495784543325527,
+                0.575078125,
+                0.7421779859484778
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.6205468749999999,
+                0.26252927400468384,
+                0.70459375,
+                0.36470725995316156
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.5341875,
+                0.41789227166276344,
+                0.550875,
+                0.45911007025761125
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.553515625,
+                0.4216627634660422,
+                0.57096875,
+                0.4689227166276347
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.603890625,
+                0.5677049180327869,
+                0.644921875,
+                0.6810772833723653
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.40289062500000006,
+                0.6181498829039812,
+                0.43143750000000003,
+                0.6652224824355972
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.400921875,
+                0.15927400468384076,
+                0.43523437499999995,
+                0.2587353629976581
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.649515625,
+                0.6703512880562061,
+                0.69740625,
+                0.761896955503513
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.737953125,
+                0.6406088992974239,
+                0.7810781250000001,
+                0.723208430913349
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.442828125,
+                0.6243325526932084,
+                0.465328125,
+                0.6807025761124121
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.8493124999999999,
+                0.4710304449648712,
+                0.8586562499999999,
+                0.4963700234192037
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.882234375,
+                0.44037470725995315,
+                0.9379062499999999,
+                0.5216627634660421
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.95409375,
+                0.3071662763466042,
+                0.9995156250000001,
+                0.41252927400468387
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.88628125,
+                0.513887587822014,
+                0.914828125,
+                0.562576112412178
+            ]
+        }
+    ],
+    "hash_id": "586_coco_train2017_000000150646.jpg"
+}

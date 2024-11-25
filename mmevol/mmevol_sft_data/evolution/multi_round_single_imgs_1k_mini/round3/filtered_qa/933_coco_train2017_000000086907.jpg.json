@@ -1,0 +1,365 @@
+{
+    "id": "000000086907",
+    "image": "coco/train2017/000000086907.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are present in the image?",
+            "steps": [],
+            "answer": "In the image, there is a large group of people, but the exact number cannot be determined without more specific information."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the people in the image indoors or outdoors?",
+            "steps": [],
+            "answer": "The people in the image are outdoors, sitting at a picnic table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What types of items are on the picnic table?",
+            "steps": [],
+            "answer": "On the picnic table, there are Frisbees, glasses, various food items, and even a dog."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What activity is the large group of people engaged in?",
+            "steps": [],
+            "answer": "The large group of people is engaged in a picnic lunch, eating, drinking, and socializing together around the picnic table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can this type of social gathering signify about the people or their interaction with each other?",
+            "steps": [],
+            "answer": "A social gathering like a picnic with a large group of people sitting around a table filled with food, drinks, and other items signifies a friendly and informal atmosphere. Picnics are generally associated with relaxation and enjoyment, as they are held outdoors and encourage conversation, laughter, and bonding among friends and family members.\n\nThis kind of gathering brings people together, sharing a meal and engaging in conversations that help build connections, create shared memories, and strengthen existing relationships. The presence of various food items and glasses suggest that people might have contributed to the feast by bringing their own dishes and drinks, further encouraging a sense of community and cooperation.\n\nAdditionally, the presence of non-food items like Frisbees indicates that the group may engage in casual games or other recreational activities after the meal, providing another opportunity for social interaction, friendly competition, and fun. The dog on the table might also imply that the gathering is pet-friendly, creating a welcoming environment for animal lovers to bond over their shared appreciation for pets.\n\nOverall, the image of a group of people gathered around a picnic table filled with food, drinks, and other items suggests a sense of camaraderie, enjoyment, and an informal atmosphere that fosters connection, relaxation, and shared experiences among friends and family members."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "The image shows a large group of people enjoying a picnic at a dining table. The table is filled with various items, such as Frisbees, cups, and bottles, creating a lively leisure atmosphere. In total, there are ten people in the scene, with a mix of people sitting and standing around the table.\n\nA dog can be seen near the table as well, likely joining in on the fun. Backpacks and a handbag are stationed near the group, adding to the assortment of belongings around the picnic area. A bench is also visible next to the gathering, providing additional seating for this social event.\n\nSeveral cups and bottles are dispersed across the table, suggesting that the guests are drinking and enjoying their time. With the abundance of Frisbees, it can be inferred that they may be engaged in some casual outdoor games as well."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Why might there be frisbees at this gathering?",
+            "steps": [],
+            "answer": "There might be frisbees at this gathering because the group of people is likely enjoying outdoor activities or games alongside their picnic. Frisbees are a popular choice for such events as they encourage physical activity, group participation, and social interaction. The frisbees' presence suggests that the attendees have planned a fun and engaging day outdoors, combining food, drinks, and recreational activities to make the gathering enjoyable and well-rounded."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What's happening in the scene?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a rural setting, a lively gathering unfolds around a sturdy wooden picnic table. The table, acting as the centerpiece of the scene, is adorned with an array of objects. A collection of plates and cups, suggesting a meal shared or about to be shared, are scattered across its surface. A few frisbees, possibly hinting at a playful activity, are also present on the table.\n\nThe group of people around the table are engrossed in animated conversations, their faces reflecting enjoyment and relaxation. Their actions and interactions paint a picture of camaraderie and shared joy.\n\nThe backdrop to this convivial scene is a rustic wooden fence, standing guard around the gathering. Beyond the fence, trees rise up, their leaves rustling in the unseen wind. Adding to the charm of the setting is a fountain in the background, its presence lending an air of tranquility to the scene.\n\nThe image is awash with earth tones - the brown of the wooden table and fence, the green of the trees - creating a warm and inviting atmosphere. Yet, amidst these earthy hues, pops of color from the objects on the table stand out, adding vibrancy to the scene.\n\nEvery element in this image - from the people and their actions to the objects and their placement - comes together to narrate a story of a pleasant gathering in a serene rural setting."
+        }
+    ],
+    "det": [
+        {
+            "label": "dog",
+            "bbox": [
+                0.598484375,
+                0.32929166666666665,
+                0.727265625,
+                0.43031250000000004
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.052015624999999996,
+                0.235125,
+                0.10067187500000001,
+                0.385
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.1474375,
+                0.37424999999999997,
+                0.74903125,
+                0.9175833333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.411234375,
+                0.23370833333333335,
+                0.49887499999999996,
+                0.3865208333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.17970312500000002,
+                0.32266666666666666,
+                0.36217187500000003,
+                0.6706875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.006734374999999999,
+                0.32583333333333336,
+                0.21742187500000001,
+                0.8696666666666668
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.37346875,
+                0.24966666666666668,
+                0.4293125,
+                0.4209166666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.720109375,
+                0.32166666666666666,
+                0.9071562500000001,
+                0.8343958333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.30407812500000003,
+                0.286125,
+                0.46448437499999995,
+                0.5192291666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.69225,
+                0.29133333333333333,
+                0.778515625,
+                0.5460416666666668
+            ]
+        },
+        {
+            "label": "frisbee",
+            "bbox": [
+                0.429015625,
+                0.5932916666666667,
+                0.519265625,
+                0.6329791666666666
+            ]
+        },
+        {
+            "label": "frisbee",
+            "bbox": [
+                0.24265625000000002,
+                0.575125,
+                0.335390625,
+                0.6354166666666666
+            ]
+        },
+        {
+            "label": "frisbee",
+            "bbox": [
+                0.5826718750000001,
+                0.5180416666666666,
+                0.65628125,
+                0.5459166666666667
+            ]
+        },
+        {
+            "label": "frisbee",
+            "bbox": [
+                0.52215625,
+                0.5519791666666667,
+                0.594734375,
+                0.5849583333333332
+            ]
+        },
+        {
+            "label": "frisbee",
+            "bbox": [
+                0.434546875,
+                0.4827291666666667,
+                0.48978125000000006,
+                0.5128958333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.473125,
+                0.44470833333333337,
+                0.538515625,
+                0.5575833333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.420984375,
+                0.3998958333333333,
+                0.447171875,
+                0.44247916666666665
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.505390625,
+                0.2967916666666667,
+                0.5302343749999999,
+                0.3534791666666667
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.682578125,
+                0.6426875,
+                0.8898906249999999,
+                0.9887708333333334
+            ]
+        },
+        {
+            "label": "frisbee",
+            "bbox": [
+                0.433625,
+                0.6561666666666667,
+                0.52228125,
+                0.6982083333333333
+            ]
+        },
+        {
+            "label": "frisbee",
+            "bbox": [
+                0.5035937500000001,
+                0.656375,
+                0.56465625,
+                0.6961666666666667
+            ]
+        },
+        {
+            "label": "frisbee",
+            "bbox": [
+                0.46128125000000003,
+                0.6302083333333334,
+                0.550390625,
+                0.6887083333333333
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.60659375,
+                0.6118125,
+                0.6397812500000001,
+                0.6733125
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.522625,
+                0.3534583333333333,
+                0.656375,
+                0.492625
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.654921875,
+                0.46927083333333336,
+                0.7383749999999999,
+                0.5507083333333334
+            ]
+        },
+        {
+            "label": "frisbee",
+            "bbox": [
+                0.574546875,
+                0.5285,
+                0.6442812499999999,
+                0.5533541666666667
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.592078125,
+                0.5135625,
+                0.6271875,
+                0.6061458333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.38525,
+                0.4880833333333333,
+                0.41776562500000003,
+                0.5701875
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.7303124999999999,
+                0.3015833333333333,
+                0.7577968749999999,
+                0.36474999999999996
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.009328125,
+                0.7626041666666666,
+                0.26368749999999996,
+                0.9317291666666667
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.61184375,
+                0.4428958333333333,
+                0.6384375,
+                0.512375
+            ]
+        }
+    ],
+    "hash_id": "933_coco_train2017_000000086907.jpg"
+}

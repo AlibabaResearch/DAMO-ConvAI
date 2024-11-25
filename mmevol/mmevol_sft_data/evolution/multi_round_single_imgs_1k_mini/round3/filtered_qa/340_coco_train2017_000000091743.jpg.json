@@ -1,0 +1,131 @@
+{
+    "id": "000000091743",
+    "image": "coco/train2017/000000091743.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image features three boys standing next to each other against a wall. They are proudly displaying the medals they have won around their necks. Each of them is holding a tennis racquet, adding context to their accomplishments.\n\nThe setting appears to be a casual indoor environment with several household items, such as a refrigerator and an oven in the background. There is also a microwave on the countertop next to the refrigerator, along with a bottle placed nearby. Additionally, a clock is mounted on the wall above the household appliances."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What event might have occurred before the photo was taken?",
+            "steps": [],
+            "answer": "Before the photo was taken, it is likely that the three boys participated in a sports competition involving tennis, as they are all holding tennis racquets in their hands. In the sports competition, they must have performed well, earning medals as a result. After receiving their medals, the boys decided to pose together for a photo, capturing their achievement and the memorable moment."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nExplain the visual content of the image in great detail."
+        },
+        {
+            "from": "gpt",
+            "value": "In this image, we see a moment of triumph captured in the lives of three young boys. They are standing in front of a window with a metal grate, their faces beaming with pride. Each boy is wearing a medal around his neck, a symbol of their recent victory. They are also holding tennis racquets, suggesting they have just finished a match or tournament.\n\nThe boy on the left is wearing a blue and white striped shirt, his racquet held high in his right hand. The boy in the middle, wearing a black shirt with white text, has his racquet resting on his shoulder. The boy on the right, in a black shirt with orange text, holds his racquet in front of him.\n\nThe window behind them is set into a white brick wall. To the side of the window, there's a red fire extinguisher mounted on the wall. The image captures not just their achievement but also the setting in which it took place."
+        }
+    ],
+    "det": [
+        {
+            "label": "refrigerator",
+            "bbox": [
+                0.47184375,
+                0.3566875,
+                0.576875,
+                0.5147916666666668
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.63978125,
+                0.30924999999999997,
+                0.68003125,
+                0.363875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2304375,
+                0.436,
+                0.40834374999999995,
+                0.9964166666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.40843749999999995,
+                0.45345833333333335,
+                0.557921875,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.51525,
+                0.3751666666666667,
+                0.707328125,
+                1.0
+            ]
+        },
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.272875,
+                0.8232708333333334,
+                0.38337499999999997,
+                1.0
+            ]
+        },
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.439953125,
+                0.7779375000000001,
+                0.54159375,
+                0.9992916666666667
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.0,
+                0.4938958333333333,
+                0.0875,
+                0.7556458333333332
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.475078125,
+                0.2954166666666667,
+                0.49103125,
+                0.35870833333333335
+            ]
+        },
+        {
+            "label": "microwave",
+            "bbox": [
+                0.525671875,
+                0.4330833333333333,
+                0.573796875,
+                0.5121666666666667
+            ]
+        }
+    ],
+    "hash_id": "340_coco_train2017_000000091743.jpg"
+}

@@ -1,0 +1,157 @@
+{
+    "id": "000000018839",
+    "image": "coco/train2017/000000018839.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many photos are there in the series?",
+            "steps": [],
+            "answer": "There are four photos in the series."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do these four photos depict?",
+            "steps": [],
+            "answer": "These four photos depict people engaging in skiing and snowboarding activities on a snow-covered slope. The photos show a woman wearing snow gear and interacting with both skis and a snowboard. The activities captured involve her taking a ski lift and resting as well."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the woman in the photos using a snowboard and skis simultaneously?",
+            "steps": [],
+            "answer": "No, the woman in the photos is not using a snowboard and skis simultaneously. They are separate pieces of equipment used for different snow activities. The series of photos capture her with both skis and a snowboard, but not at the same time."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the difference between skiing and snowboarding?",
+            "steps": [],
+            "answer": "Skiing and snowboarding are two popular winter sports that involve sliding down snow-covered slopes using distinct equipment and techniques.\n\n1. Skiing:\nIn skiing, participants wear two separate skis, one for each foot, and they use ski poles to help with balance and propulsion. Skiers face forward, with their legs parallel to each other, and move by shifting their weight and making turns through either parallel, carving, or skidding techniques. Skiing encompasses several disciplines, including downhill (alpine) skiing, cross-country skiing, and ski jumping. The type of equipment and technique used may vary depending on the specific discipline and terrain.\n\n2. Snowboarding:\nSnowboarding involves wearing a single snowboard that is attached to both feet using bindings. Snowboarders face perpendicular to the direction of travel, with either their left foot (regular stance) or right foot (goofy stance) in front. They maneuver by shifting their weight, flexing their knees and ankles, and rotating their hips to change direction. Snowboarding does not involve the use of poles, and participants use their body movements and the terrain's contours to control their speed and execute turns. Snowboarding has evolved into various disciplines, such as freestyle, freeride, and alpine, each with unique styles, techniques, and equipment preferences.\n\nIn summary, skiing and snowboarding are distinct winter sports with different equipment and techniques. While both involve sliding down snow-covered slopes, skiing involves the use of two separate skis and poles, whereas snowboarding uses a single snowboard without poles. The body positioning and style of movement also differ, with skiing focusing on forward-facing parallel movement, and snowboarding using a sideways stance and weight shifts for gliding and turning."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image is a collage of four photos featuring people enjoying winter sports, specifically skiing and snowboarding, on a snow-covered slope. In one of the photos, there is a woman in snow gear carrying her snowboard. Another photo shows a person holding their skies while riding a ski lift, while in the remaining two photos, people can be seen skiing and snowboarding down the slopes.\n\nThere's also a bench visible towards the bottom right of the image, indicating a resting area for the winter sports enthusiasts. In the background, a baseball glove can be seen, which appears unrelated to the snow activities happening throughout the scene."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What various activities are captured across the series of photographs in the snowy environment?",
+            "steps": [],
+            "answer": "The series of photographs captured in the snowy environment showcase people engaging in various winter sports, such as skiing and snowboarding. Some of the photos feature a woman in snow gear with a snowboard, while other pictures illustrate individuals skiing down the snow-covered slopes. Additionally, there is a picture depicting a lady at a ski area with her skis and snowboard, using the ski lift, and taking a break on a bench. These images highlight the different activities and experiences people enjoy in a snowy mountain setting, showcasing both the excitement and the relaxed atmosphere inherent to such winter sports."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What do you think is going on in this snapshot?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures the exhilarating moments of a skier's journey on a beautiful, sunny day in the mountains. The collage is divided into four sections, each depicting a different stage of the adventure.\n\nIn the top left, we see the skier, clad in a vibrant yellow jacket and a protective red helmet, sitting in the snow with their skis on. They appear to be taking a break, perhaps to admire the breathtaking snowy landscape around them.\n\nMoving to the top right, the skier is now standing upright on their skis. The same yellow jacket and red helmet are visible, standing out against the white snow and blue sky. The skier seems ready to glide down the slopes, poised for the thrilling descent.\n\nIn the bottom left, we find our skier once again sitting in the snow, but this time with their skis off. It's possible they've completed their run and are taking a moment to rest and reflect on their journey.\n\nFinally, in the bottom right, we see the skier riding a ski lift. Still wearing the yellow jacket and red helmet, they're likely on their way back up to the top of the mountain for another run.\n\nThroughout all four images, the backdrop is consistently a stunning mountain landscape under clear blue skies - a perfect day for skiing."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.561797385620915,
+                0.5146078431372549,
+                0.9550490196078432,
+                0.9842647058823529
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.09643790849673203,
+                0.19352941176470587,
+                0.29715686274509806,
+                0.3672385620915033
+            ]
+        },
+        {
+            "label": "snowboard",
+            "bbox": [
+                0.06292483660130718,
+                0.3353921568627451,
+                0.26292483660130717,
+                0.4028104575163398
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6458333333333334,
+                0.0457516339869281,
+                0.901781045751634,
+                0.4918954248366013
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.16119281045751635,
+                0.6486928104575164,
+                0.3181045751633987,
+                0.9441339869281045
+            ]
+        },
+        {
+            "label": "baseball glove",
+            "bbox": [
+                0.2653921568627451,
+                0.2281372549019608,
+                0.29197712418300653,
+                0.2616013071895425
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.5065032679738563,
+                0.8620098039215686,
+                0.9887418300653595,
+                0.9878104575163398
+            ]
+        },
+        {
+            "label": "skis",
+            "bbox": [
+                0.8857189542483659,
+                0.19220588235294117,
+                0.9844117647058822,
+                0.48831699346405233
+            ]
+        },
+        {
+            "label": "skis",
+            "bbox": [
+                0.3112908496732026,
+                0.545326797385621,
+                0.3464542483660131,
+                0.9872875816993465
+            ]
+        }
+    ],
+    "hash_id": "496_coco_train2017_000000018839.jpg"
+}

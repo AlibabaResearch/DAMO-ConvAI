@@ -1,0 +1,140 @@
+{
+    "id": "000000189212",
+    "image": "coco/train2017/000000189212.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image depicts a wedding scene with a man and woman standing near their wedding cake. The man is wearing a unique jacket and a tie, while the woman is dressed in a beautiful bridal gown. Together, they are cutting the tall wedding cake using a sword, highlighting an exciting moment in their special day. \n\nA dining table can be seen in the background, likely set up for the wedding celebration. There is a couch and a chair situated on the left side of the image. An additional person is visible further to the left side of the frame, likely a guest at the wedding enjoying the memorable moment."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What interesting detail sets this wedding cake cutting apart from other traditional wedding cake cuttings?",
+            "steps": [],
+            "answer": "In this particular wedding cake cutting, the interesting detail that sets it apart from other traditional cake cuttings is that the couple, a man in uniform and a woman in a bridal gown, are using a sword instead of an ordinary knife to cut the cake. This adds a unique and possibly symbolic touch to their special day, perhaps reflecting the groom's profession, military background, or personal interests. The bride also appears to be smiling while the groom performs the cake cutting with the sword, which indicates that this unconventional choice adds an element of excitement and joy to their wedding celebration."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nDescribe the following image."
+        },
+        {
+            "from": "gpt",
+            "value": "In the center of an elegantly decorated room, a newlywed couple is celebrating their union with the ceremonial cutting of their wedding cake. The groom, dressed in a striking blue military uniform adorned with red and gold accents, stands to the right of his bride. His bride, radiant in her white wedding dress, stands to his left. Together, they hold a sword, using it to slice into their beautiful wedding cake.\n\nThe cake itself is a vision of elegance, with its white icing complemented by blue and silver accents. It rests on a white tablecloth, adding to the overall aesthetic of the scene. The couple's joyous moment is framed by the room's large window in the background, through which soft light filters in. Above them hangs a grand chandelier, casting a warm glow that illuminates the room and highlights this momentous occasion. \n\nEvery detail in this image contributes to the atmosphere of celebration and love that surrounds this couple on their special day."
+        }
+    ],
+    "det": [
+        {
+            "label": "couch",
+            "bbox": [
+                0.04384375,
+                0.3984666666666667,
+                0.14515625000000001,
+                0.5898666666666667
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.23500000000000001,
+                0.7631555555555556,
+                0.9804375000000001,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.13379687499999998,
+                0.15035555555555555,
+                0.34484375,
+                0.9958444444444444
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.298875,
+                0.11557777777777778,
+                0.61503125,
+                0.8023777777777777
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.30257812500000003,
+                0.8481333333333334,
+                0.4725,
+                0.8688888888888889
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.586203125,
+                0.5412,
+                0.7615937500000001,
+                0.8490666666666666
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.41714062500000004,
+                0.8966222222222222,
+                0.6778437500000001,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.00103125,
+                0.3802,
+                0.105765625,
+                0.7360666666666668
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.42806249999999996,
+                0.5030222222222223,
+                0.79509375,
+                0.5807777777777778
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.39871875,
+                0.3022222222222222,
+                0.45006250000000003,
+                0.3380666666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.044,
+                0.40531111111111107,
+                0.14771874999999998,
+                0.5797333333333333
+            ]
+        }
+    ],
+    "hash_id": "188_coco_train2017_000000189212.jpg"
+}

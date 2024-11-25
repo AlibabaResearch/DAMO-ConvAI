@@ -1,0 +1,446 @@
+{
+    "id": "000000035741",
+    "image": "coco/train2017/000000035741.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where are the people in the image located?",
+            "steps": [],
+            "answer": "The people in the image are located in a grocery market, specifically in the produce section."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is it just one person or a group of people in the image?",
+            "steps": [],
+            "answer": "There is a group of people in the image, including two women who are talking in the produce department, and other adults shopping in the grocery market."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a shopping cart in the image?",
+            "steps": [],
+            "answer": "Yes, there is a shopping cart in the image, with a woman standing next to it while talking to someone."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the individuals in the group doing?",
+            "steps": [],
+            "answer": "The individuals in the group are engaged in various activities such as shopping for groceries, walking around the store, and engaging in conversations with one another."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What types of items might be found in the produce section of a grocery market?",
+            "steps": [],
+            "answer": "The produce section of a grocery market typically offers a variety of fresh fruits, vegetables, and herbs. Items commonly found in the produce section include apples, oranges, bananas, strawberries, grapes, carrots, potatoes, onions, lettuce, spinach, kale, broccoli, cauliflower, cucumbers, tomatoes, peppers, and various herbs like cilantro, parsley, and basil, among others. \n\nIn addition to the fresh produce, the section may also have pre-cut and pre-packaged fruits or vegetables, salad mixes, and sometimes even organic or locally sourced options. Occasionally, there may be a section for more exotic or specialty produce items that cater to specific dietary preferences or cultural cuisines.\n\nOverall, the produce department offers a wide range of healthy and fresh options for customers to choose from, and it often serves as an essential component of a balanced diet."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "The image depicts a group of people shopping in a grocery market, particularly in the produce section. People are walking around the store together, talking, and browsing the available items. At least two women are having a conversation in the produce department.\n\nVarious fruits and vegetables can be seen in the scene, with several oranges placed on the left and right side of the image, a bunch of broccoli in the center-right, and different apples scattered throughout the middle area. An abundance of bananas are displayed at the right part of the scene, in various clusters, with a mix of green and ripe ones.\n\nSeveral handbags can also be found throughout the image, mostly on the left side with one on the right side. This indicates that the customers are carrying their personal belongings while they explore the grocery store."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What conversation topics might the two women in the produce department be discussing?",
+            "steps": [],
+            "answer": "The two women in the produce department could be discussing a variety of topics related to their shopping experience. Some possible conversation topics might be their favorite fruits and vegetables, comparing prices and quality of items, discussing any deals or offers within the store, sharing meal ideas and recipes, or talking about their shopping lists and dietary preferences. Additionally, the discussion could extend beyond the immediate context of grocery shopping, such as plans for upcoming meals, events, health-related topics, or personal life updates. The conversation's direction ultimately depends on the nature of their relationship and their interests."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat's happening in the scene?"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a bustling scene in a supermarket's produce section. The area is filled with a variety of fruits and vegetables, their colors creating a vibrant palette of green, yellow, and orange. \n\nIn the foreground, two women are actively shopping, each pushing a cart filled with groceries. One of the carts appears to contain bananas, which are bright yellow and fresh. \n\nThe display includes several types of fruits such as bananas, apples, oranges, and watermelons. The bananas are a vivid yellow, the apples range from red to green, the oranges are a bright citrus color, and the watermelons are a mix of green and white.\n\nThe background is filled with more produce and shoppers, creating a lively atmosphere. The shelves are well-stocked and neatly arranged, indicating a well-maintained store.\n\nPlease note that this description is based on the visible contents of the image and does not include any text that may be present but not legible."
+        }
+    ],
+    "det": [
+        {
+            "label": "orange",
+            "bbox": [
+                0.334078125,
+                0.3031041666666667,
+                0.34284375,
+                0.315875
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.32614062499999996,
+                0.3028958333333333,
+                0.334515625,
+                0.31427083333333333
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.30920312499999997,
+                0.3011041666666667,
+                0.371171875,
+                0.3879791666666667
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.354375,
+                0.2985208333333333,
+                0.39834375,
+                0.3718958333333333
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.644390625,
+                0.3597708333333333,
+                0.714828125,
+                0.4247708333333333
+            ]
+        },
+        {
+            "label": "broccoli",
+            "bbox": [
+                0.5081249999999999,
+                0.4985,
+                0.67940625,
+                0.6208125
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.14029687500000002,
+                0.3528541666666667,
+                0.176875,
+                0.49002083333333335
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.158421875,
+                0.292125,
+                0.286515625,
+                0.7438125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.269984375,
+                0.305875,
+                0.32673437499999997,
+                0.4080833333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.37039062500000003,
+                0.2788333333333333,
+                0.45317187500000006,
+                0.39029166666666665
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.458578125,
+                0.2587083333333334,
+                0.552375,
+                0.39868750000000003
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.689015625,
+                0.29610416666666667,
+                0.856984375,
+                0.9981875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.40715625,
+                0.20810416666666667,
+                0.669796875,
+                0.5565416666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8391093749999999,
+                0.21291666666666667,
+                1.0,
+                0.4987708333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.971671875,
+                0.30483333333333335,
+                0.9994375,
+                0.3574583333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.705078125,
+                0.2659375,
+                0.7872656250000001,
+                0.52575
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.85440625,
+                0.5610833333333333,
+                0.9521718750000001,
+                0.6314166666666666
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.940421875,
+                0.5254583333333334,
+                0.988046875,
+                0.6096041666666667
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.968953125,
+                0.47585416666666663,
+                0.98525,
+                0.5363125
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.86825,
+                0.45977083333333335,
+                0.9428906249999999,
+                0.544
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.880984375,
+                0.5101041666666667,
+                0.947578125,
+                0.5823333333333333
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.84825,
+                0.45241666666666663,
+                0.8916562499999999,
+                0.5283333333333333
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.84509375,
+                0.5070208333333334,
+                0.865625,
+                0.5780833333333334
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.8420937500000001,
+                0.5511874999999999,
+                0.9068125,
+                0.6184999999999999
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.945296875,
+                0.5184375,
+                0.963703125,
+                0.5679375
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.936421875,
+                0.4660625,
+                0.9764687499999999,
+                0.5339791666666667
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.906890625,
+                0.580625,
+                0.9989062499999999,
+                0.6485
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.39540625,
+                0.38527083333333334,
+                0.43162500000000004,
+                0.4052291666666667
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.23684375000000002,
+                0.3796458333333333,
+                0.427015625,
+                0.47408333333333336
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.47614062500000004,
+                0.6184999999999999,
+                0.535484375,
+                0.6854999999999999
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.5185,
+                0.3340208333333334,
+                0.55165625,
+                0.5197083333333333
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.42970312499999996,
+                0.33158333333333334,
+                0.4365,
+                0.358125
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.500046875,
+                0.4696666666666667,
+                0.5257031249999999,
+                0.5477500000000001
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.958359375,
+                0.38104166666666667,
+                1.0,
+                0.4598125
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.435421875,
+                0.37756249999999997,
+                0.4836250000000001,
+                0.41477083333333326
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.228375,
+                0.3086041666666667,
+                0.259515625,
+                0.39197916666666666
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.46796875,
+                0.3503125,
+                0.48420312499999996,
+                0.3645833333333333
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.414953125,
+                0.41058333333333336,
+                0.42103124999999997,
+                0.41775
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.387046875,
+                0.31189583333333337,
+                0.39603125,
+                0.3238541666666667
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.42739062499999997,
+                0.3228125,
+                0.458609375,
+                0.37218749999999995
+            ]
+        }
+    ],
+    "hash_id": "284_coco_train2017_000000035741.jpg"
+}

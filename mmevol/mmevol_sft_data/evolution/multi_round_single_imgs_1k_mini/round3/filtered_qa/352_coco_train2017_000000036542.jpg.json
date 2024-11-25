@@ -1,0 +1,203 @@
+{
+    "id": "000000036542",
+    "image": "coco/train2017/000000036542.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the man doing in the image?",
+            "steps": [],
+            "answer": "The man in the image is sitting on a short wall or ledge with a suitcase, possibly waiting for a bus or transportation."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are in the image?",
+            "steps": [],
+            "answer": "There is only one person in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the man sitting next to?",
+            "steps": [],
+            "answer": "The man is sitting next to a suitcase or a piece of luggage."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the possible reasons for the man sitting on the curb with his luggage?",
+            "steps": [],
+            "answer": "There could be various reasons why the man is sitting on the curb or ledge with his luggage. Some possible explanations include:\n\n1. Waiting for transportation: The man might be waiting for a bus, taxi, or rideshare service to pick him up, so he is sitting with his luggage while waiting.\n\n2. Taking a break: If the man has been walking with his luggage for a while, he could be tired and simply resting for a few minutes before continuing his journey.\n\n3. Orientation: He might be unfamiliar with his surroundings and is taking a moment to check his phone for directions or to make a phone call to clarify his location.\n\n4. Enjoying the surroundings: The man could also be appreciating the surrounding area or taking in some fresh air before moving to his destination.\n\nIt is crucial to consider that there might be other reasons, but given the limited information in the image, these are some of the most plausible explanations."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Explain the visual content of the image in great detail.",
+            "steps": [],
+            "answer": "The image features a man sitting on a short wall or ledge near the sidewalk, waiting with his luggage. His suitcase is located to the right of him, and there's a backpack near the suitcase. Another backpack can be seen a bit further from him, and a handbag is placed in the proximity of the people in the scene.\n\nThere are several other people present in the image, with some standing close together and others more spread out. Various cars are also parked or passing by, illustrating a busy scene. A couple of bottles can be seen in the image, with one at the center-right and another in the far right of the scene. It appears that the man might be waiting for public transportation, such as a bus, as he is sitting by his luggage."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you see happening in this image?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image portrays a tranquil scene in an urban setting. At the forefront, a man is seated on a concrete bench. He is clad in a beige jacket and sports a pair of glasses. An orange suitcase and a black backpack rest beside him, suggesting he might be a traveler.\n\nIn the background, two individuals can be seen. One leans casually against a car, while the other stands by a fence. The backdrop is a blend of nature and architecture, with trees interspersed among buildings.\n\nThe image captures a moment of quiet amidst the hustle and bustle of city life, with each individual engrossed in their own world."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.36374,
+                0.6359733333333334,
+                0.399,
+                0.7884266666666667
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.47702,
+                0.8938933333333333,
+                0.52194,
+                1.0
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.10629999999999999,
+                0.05048,
+                0.23566000000000004,
+                0.19653333333333334
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.28334,
+                0.07322666666666666,
+                0.39364,
+                0.15949333333333335
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.25927999999999995,
+                0.07778666666666667,
+                0.30589999999999995,
+                0.11594666666666668
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.38874000000000003,
+                0.09285333333333333,
+                0.7306,
+                0.9911733333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3053,
+                0.043840000000000004,
+                0.37320000000000003,
+                0.33834666666666663
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.19494,
+                0.04170666666666667,
+                0.2993,
+                0.33912
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.14886000000000002,
+                0.055439999999999996,
+                0.19146000000000002,
+                0.19613333333333333
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.19624,
+                0.10290666666666667,
+                0.24614000000000003,
+                0.23976
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.73658,
+                0.6355733333333333,
+                0.9328800000000002,
+                0.9890399999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.15422,
+                0.061893333333333335,
+                0.21458,
+                0.3374666666666667
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.07522,
+                0.041093333333333336,
+                0.1356,
+                0.19050666666666666
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.6269600000000001,
+                0.62472,
+                0.75168,
+                0.82248
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.30706,
+                0.09935999999999999,
+                0.36792,
+                0.22725333333333333
+            ]
+        }
+    ],
+    "hash_id": "352_coco_train2017_000000036542.jpg"
+}

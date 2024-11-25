@@ -1,0 +1,275 @@
+{
+    "id": "000000152060",
+    "image": "coco/train2017/000000152060.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The image shows a man standing in a kitchen, preparing food on a wooden dining table. He is focused on cutting bread for sandwiches, with two sandwiches already placed on the table. Various items are scattered around the kitchen, including bottles, a knife, cake, spoons, a cell phone, a remote, a wine glass, and an oven. \n\nThe man seems to be enjoying the process of preparing food in the well-equipped kitchen. In addition to the dining table, there is a chair located near the edge of the scene, a sink situated next to the refrigerator, and an oven positioned nearby."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What types of ingredients and items are readily available in the kitchen to prepare a delicious meal?",
+            "steps": [],
+            "answer": "In the kitchen, there are several items and ingredients available that the man can use to create a delicious meal. The man is currently cutting bread for sandwiches, and various sandwich ingredients are visible on the wooden table. Additionally, there are multiple bottles present, which might contain condiments, oils, or beverages. The image also features a cake, spoons, a knife, and a cell phone for reference or entertainment while cooking. The presence of a refrigerator, oven, and sink in the kitchen provides the tools and appliances necessary for preparing, cooking, and cleaning up after meals. Overall, the kitchen is well-equipped with the essential items required for creating a variety of meals and enjoying the cooking process."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you elaborate on the elements of the picture provided?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy kitchen, a man with glasses is engrossed in the act of slicing a long loaf of bread. He's dressed in a blue button-down shirt, adding a touch of color to the warm wooden hues of the kitchen cabinets. The serrated knife in his hand moves with precision, hinting at a routine he's familiar with.\n\nThe kitchen table is a canvas of everyday life. Among the various items, there's a yellow box of tea waiting to be brewed, a jar of jam hinting at the sweetness of breakfast, and a bottle of water reflecting the importance of hydration. Amidst these food items, electronic devices like a phone and a remote control have found their place, symbolizing the blend of technology in our daily routines.\n\nEvery object has its place, every color its significance, painting a picture of an ordinary day in an ordinary kitchen. Yet, it's these ordinary moments that often hold extraordinary stories."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.8346406249999999,
+                0.5275833333333334,
+                0.8851875,
+                0.7513055555555557
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.774734375,
+                0.37075,
+                0.823328125,
+                0.5158055555555555
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.7165468749999999,
+                0.3633888888888889,
+                0.73634375,
+                0.45355555555555555
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.28028125,
+                0.7145833333333333,
+                0.355609375,
+                0.7647777777777778
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.83128125,
+                0.5352777777777777,
+                0.8501875,
+                0.718111111111111
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.72609375,
+                0.8592777777777777,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.24089062499999997,
+                0.3713055555555555,
+                1.0,
+                0.9116666666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.29259375,
+                0.0025,
+                0.58771875,
+                0.675138888888889
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.388421875,
+                0.5355,
+                0.430984375,
+                0.6267222222222222
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.476125,
+                0.6896944444444444,
+                0.5269375000000001,
+                0.7484444444444445
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.37120312499999997,
+                0.753388888888889,
+                0.467484375,
+                0.8660000000000001
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.63565625,
+                0.44480555555555557,
+                0.782,
+                0.4868611111111111
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.870203125,
+                0.2617777777777778,
+                0.8949374999999999,
+                0.42799999999999994
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.884375,
+                0.21833333333333332,
+                0.9055781250000001,
+                0.4424722222222222
+            ]
+        },
+        {
+            "label": "refrigerator",
+            "bbox": [
+                0.5407656249999999,
+                0.5063888888888889,
+                0.674015625,
+                0.6389166666666667
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.8923593750000001,
+                0.6443888888888889,
+                0.92465625,
+                0.7383888888888889
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.7950468749999999,
+                0.48769444444444443,
+                0.81190625,
+                0.5136666666666666
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.8572656249999999,
+                0.22527777777777777,
+                0.8879999999999999,
+                0.35491666666666666
+            ]
+        },
+        {
+            "label": "sandwich",
+            "bbox": [
+                0.42315625,
+                0.6202222222222222,
+                0.53471875,
+                0.6839444444444445
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.543625,
+                0.6698888888888889,
+                0.5839062500000001,
+                0.7362777777777778
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.79925,
+                0.1426388888888889,
+                0.8180937499999998,
+                0.1938055555555556
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.831390625,
+                0.1391111111111111,
+                0.83959375,
+                0.19475
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.278265625,
+                0.7742500000000001,
+                0.32248437500000005,
+                0.8229444444444444
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.5359375,
+                0.5052777777777778,
+                0.675890625,
+                0.9448888888888888
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.8231875000000001,
+                0.15625,
+                0.841359375,
+                0.1947222222222222
+            ]
+        },
+        {
+            "label": "sandwich",
+            "bbox": [
+                0.30240625,
+                0.63825,
+                0.4166875,
+                0.7146111111111111
+            ]
+        }
+    ],
+    "hash_id": "577_coco_train2017_000000152060.jpg"
+}

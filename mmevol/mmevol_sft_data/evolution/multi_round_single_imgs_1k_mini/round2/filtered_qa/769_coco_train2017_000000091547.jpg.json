@@ -1,0 +1,193 @@
+{
+    "id": "000000091547",
+    "image": "coco/train2017/000000091547.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many birds can be seen in the image?",
+            "steps": [],
+            "answer": "There are two birds visible in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of birds are they?",
+            "steps": [],
+            "answer": "The two birds in the image are ducks."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the ducks doing near the water?",
+            "steps": [],
+            "answer": "The ducks are preening themselves near the fountain."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the color of the water in the fountain?",
+            "steps": [],
+            "answer": "The water in the fountain is blue."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the ducks resting on, and where is it located?",
+            "steps": [],
+            "answer": "The ducks are resting on a barrier or a wall, which is located next to the fountain or water park."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The image features two birds, likely ducks, resting near a water source - possibly a swimming pool or a blue water fountain. They are sitting on the side of the pool or on a barrier by the water, perhaps preening themselves. \n\nIn the background, there are various people and vehicles visible. At least six people are scattered throughout the image, with some of them standing near each other. There are also a few cars and a truck present, with one of the cars in a central location and the truck on the right side of the scene. Additionally, a traffic light can be spotted further back in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What activity should someone be cautious about around the water feature?",
+            "steps": [],
+            "answer": "One should exercise caution about the presence of birds, specifically ducks, resting and preening themselves near the edge of the water fountain. This scenario is visible in the image, where two ducks can be seen sitting on the barrier or wall next to the fountain. To prevent disturbing the birds or creating a potential conflict or harm, it is recommended to keep a safe distance from them and not approach them too close. Additionally, maintain cleanliness and hygiene around the water feature by not feeding the birds or littering, as it may attract more birds and create an unfavorable environment for other visitors."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat is this photo about'?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city, a tranquil oasis unfolds. A large circular fountain, filled with turquoise water, serves as the centerpiece. The fountain is encased in a sturdy stone wall, topped with a black metal railing that adds a touch of elegance. \n\nPerched on the right side of this stone wall are two ducks, seemingly enjoying the serene environment. The male mallard, distinguished by his vibrant green head and brown body, stands next to his counterpart, a female mallard. She sports a brown body with a speckled head, providing a beautiful contrast to her mate's colorful plumage.\n\nThe park is nestled amidst urban structures, with buildings looming in the background. A street lamp stands sentinel nearby, ready to bathe the park in a warm glow as dusk falls. The lush trees surrounding the fountain add a touch of nature to this urban setting, creating a harmonious blend of city life and natural beauty."
+        }
+    ],
+    "det": [
+        {
+            "label": "bird",
+            "bbox": [
+                0.24126562499999998,
+                0.5603757225433526,
+                0.41051562500000005,
+                0.9248843930635838
+            ]
+        },
+        {
+            "label": "bird",
+            "bbox": [
+                0.8144375,
+                0.5965895953757225,
+                0.9425625,
+                0.9561849710982658
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.3523125,
+                0.2651734104046243,
+                0.46529687499999994,
+                0.3640462427745665
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.50328125,
+                0.2361849710982659,
+                0.516140625,
+                0.26710982658959537
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.601765625,
+                0.2309248554913295,
+                0.6226406250000001,
+                0.2725722543352601
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.571515625,
+                0.2436994219653179,
+                0.5871562499999999,
+                0.26676300578034684
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.537734375,
+                0.19658959537572254,
+                0.5555625,
+                0.24054913294797686
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.8340937500000001,
+                0.18416184971098265,
+                0.99075,
+                0.2601734104046243
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.5985625,
+                0.13479768786127166,
+                0.62365625,
+                0.21473988439306357
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.43934375000000003,
+                0.2582658959537572,
+                0.448921875,
+                0.2950578034682081
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9505156250000001,
+                0.24182080924855492,
+                0.959765625,
+                0.26141618497109825
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.885515625,
+                0.14921965317919075,
+                0.9151250000000001,
+                0.17635838150289018
+            ]
+        }
+    ],
+    "hash_id": "769_coco_train2017_000000091547.jpg"
+}

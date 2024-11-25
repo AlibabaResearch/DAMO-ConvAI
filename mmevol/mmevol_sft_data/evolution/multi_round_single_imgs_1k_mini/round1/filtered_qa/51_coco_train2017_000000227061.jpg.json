@@ -1,0 +1,282 @@
+{
+    "id": "000000227061",
+    "image": "coco/train2017/000000227061.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the table in the image?",
+            "steps": [],
+            "answer": "The table in the image is green."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the types of food present on the table?",
+            "steps": [],
+            "answer": "The table is topped with plates and dishes full of various types of food, including cheeses, crackers, and different dishes. It appears to be a diverse and plentiful spread of food to enjoy."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the table set up for a gathering or an event?",
+            "steps": [],
+            "answer": "Given the large number of plates and dishes with a variety of food, it is likely that the table is set up for a gathering or an event where people can come together to enjoy the food and socialize."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of events or occasions could have a table set up like this?",
+            "steps": [],
+            "answer": "A table set up with many plates of food like this is suited for a variety of events and occasions, including:\n\n1. Social gatherings: Informal get-togethers of friends and family, where people can mingle and share food while catching up with one another's lives.\n\n2. Buffet-style parties or dinners: This type of setup allows guests the freedom to choose their food and portions, creating a more relaxed and customizable dining experience.\n\n3. Business and corporate events: Conferences, workshops, or meetings may incorporate a spread of food like this during break times or networking sessions to allow attendees to refuel and engage with their colleagues and peers.\n\n4. Charity or community events: Food tables can be set up at fundraisers, neighborhood gatherings, or volunteer events to encourage socializing and foster a sense of unity among participants.\n\n5. Special occasions: Celebrations like birthdays, anniversaries, or holiday parties often involve tables filled with a variety of dishes, showcasing the festive and joyful nature of the event.\n\nIn summary, a table set up with an assortment of plates of food is a versatile arrangement suitable for various types of events and occasions, promoting shared dining experiences and socializing among guests."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "The image features a large green dining table, which is covered with an assortment of plates and dishes full of various foods. Among the items on the table, there is a sandwich, multiple servings of cake in different shapes and sizes, and some donuts. Additionally, there are cheeses, crackers, and other snacks spread across the table. \n\nTo complement the meal, several wine glasses are placed on the table, along with a bottle that is positioned near the top left of the table. A vase is located nearby as well, adding an elegant touch to the setting. A spoon and a knife can be found beside some of the dishes. In the background, there is an oven and a potted plant, giving the room a cozy and inviting atmosphere."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of gathering may be taking place at this table setting?",
+            "steps": [],
+            "answer": "The image depicts a large green dining table filled with various plates of food, including different cheeses, crackers, sandwiches, donuts, and several cakes. In addition, there are wine glasses, a potted plant, and even a bottle on the table. These elements suggest that a social gathering or a celebration might be taking place, such as a party, a festive dinner, or a family gathering, where people come together to enjoy food, drink, and each other's company. The wide array of dishes and the well-set table indicate that the host has put considerable effort into preparing a spread of delicious food for the guests to enjoy."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat's happening in the scene?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy room, a table draped in a vibrant green tablecloth stands as the centerpiece. The table is adorned with an array of delectable dishes and beautiful flowers, creating a feast for both the eyes and the palate. \n\nOn the table, a vase cradles two pristine white lilies and a single, passionate red rose. Their delicate petals add a touch of elegance to the setting. \n\nA plate of cheese, with its varying shades and textures, invites guests to indulge. Beside it, a plate of crackers offers a crunchy companion to the cheese. A plate of sushi, with its intricate rolls and fresh ingredients, adds an exotic flair to the spread.\n\nA plate of cookies, golden-brown and enticing, promises a sweet treat for those with a sweet tooth. A plate of fruit, bursting with colors from nature's palette, provides a refreshing counterpoint to the other dishes. \n\nA plate of deviled eggs holds a special place on the table. A note in front of them reads \"Mom's deviled eggs\", hinting at a cherished family recipe.\n\nA bowl of potato salad and another bowl filled with asparagus add to the variety of flavors on offer. The colors in the image are mainly green, red, and yellow, reflecting both the food and the overall warm ambiance of the room.\n\nIn the background, a piano waits silently, perhaps ready to provide some music to accompany the feast. A rug underfoot adds to the homely atmosphere.\n\nThis image captures not just a meal, but a moment - a snapshot of good food, warm company, and shared memories."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.924640625,
+                0.12410416666666667,
+                0.9672031249999999,
+                0.27025
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0016875000000000002,
+                0.08779166666666667,
+                0.8848281250000001,
+                0.9889166666666667
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.38090625,
+                0.4179791666666667,
+                0.463484375,
+                0.6337083333333333
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.51246875,
+                0.35310416666666666,
+                0.57225,
+                0.5082916666666667
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.7006249999999999,
+                0.26035416666666666,
+                0.74428125,
+                0.3489583333333333
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.46471875,
+                0.0015833333333333333,
+                0.5278125,
+                0.11408333333333333
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.9224375,
+                0.12129166666666666,
+                0.9703125,
+                0.2776875
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.7011406250000001,
+                0.19060416666666666,
+                0.74209375,
+                0.22402083333333334
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.12587500000000001,
+                0.6084791666666667,
+                0.193578125,
+                0.7472083333333333
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.1745625,
+                0.46941666666666665,
+                0.23609375,
+                0.544
+            ]
+        },
+        {
+            "label": "sandwich",
+            "bbox": [
+                0.31403125,
+                0.6425,
+                0.59109375,
+                0.9328749999999999
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.515953125,
+                0.7897291666666667,
+                0.5875,
+                0.867875
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.47409375000000004,
+                0.8278958333333333,
+                0.5300625,
+                0.9191041666666666
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.3876875,
+                0.6795416666666667,
+                0.456875,
+                0.7368333333333333
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.31534375,
+                0.755375,
+                0.37059375,
+                0.83275
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.5983125,
+                0.5776458333333333,
+                0.621203125,
+                0.6098958333333333
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.77471875,
+                0.2911458333333333,
+                0.8405625000000001,
+                0.3469375
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.338484375,
+                0.7928333333333334,
+                0.41157812499999996,
+                0.8463958333333333
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.46281249999999996,
+                0.7451458333333334,
+                0.525546875,
+                0.8361875
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.684078125,
+                0.12366666666666666,
+                0.7601875,
+                0.32529166666666665
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.01075,
+                0.565875,
+                0.1164375,
+                0.6435625
+            ]
+        },
+        {
+            "label": "donut",
+            "bbox": [
+                0.295640625,
+                0.3888125,
+                0.32389062500000004,
+                0.4092291666666667
+            ]
+        },
+        {
+            "label": "donut",
+            "bbox": [
+                0.3270625,
+                0.37245833333333334,
+                0.3555625,
+                0.39216666666666666
+            ]
+        }
+    ],
+    "hash_id": "51_coco_train2017_000000227061.jpg"
+}

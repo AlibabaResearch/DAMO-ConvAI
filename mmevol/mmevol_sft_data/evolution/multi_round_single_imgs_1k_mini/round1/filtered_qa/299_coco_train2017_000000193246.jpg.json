@@ -1,0 +1,309 @@
+{
+    "id": "000000193246",
+    "image": "coco/train2017/000000193246.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The image displays a long table, covered with a red tablecloth, holding a large number of laptops. There are various models and sizes of laptops spread across the table, showcasing an assortment of options, possibly for a computer sale. \n\nIn the background, there are multiple people interacting with the laptops, examining or perhaps testing their features. Some of the individuals are closer to the foreground, while others stand further back in the scene. Apart from laptops, the table also has a keyboard on it, and there are several backpacks placed around the room, possibly belonging to the people present. A chair can also be seen next to the table."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat are the key elements in this picture?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a bustling scene at a convention or trade show. Dominating the foreground is a table draped in a vibrant red tablecloth, serving as a stark contrast to the cool tones of the room. Atop this table, a multitude of laptops, around 50 in total, are neatly stacked. The laptops, in shades of black and gray, are arranged in piles of varying heights, creating an interesting visual dynamic.\n\nThe table is situated in a spacious room characterized by its high ceiling, hinting at the grand scale of the event. In the background, other tables and booths can be discerned, each contributing to the lively atmosphere of the convention. \n\nAlthough people can be seen in the background, they are blurred and not the focus of the image, suggesting that the emphasis is on the products - in this case, the laptops - rather than the attendees. The overall composition of the image conveys a sense of organized chaos typical of such events."
+        }
+    ],
+    "det": [
+        {
+            "label": "laptop",
+            "bbox": [
+                0.37246875,
+                0.32583333333333336,
+                0.57978125,
+                0.5505625
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.182015625,
+                0.2827708333333333,
+                0.3,
+                0.4805208333333333
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.057265625,
+                0.49766666666666665,
+                0.336984375,
+                0.7164791666666666
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.23767187500000003,
+                0.38195833333333334,
+                0.45923437500000003,
+                0.6343125000000001
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.2904375,
+                0.2970416666666667,
+                0.39240624999999996,
+                0.4515833333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.1074375,
+                0.0796875,
+                0.20054687500000004,
+                0.26795833333333335
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.035296875,
+                0.17991666666666667,
+                0.195578125,
+                0.4675625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4613125,
+                0.122375,
+                0.48178125000000005,
+                0.16216666666666668
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.481859375,
+                0.11416666666666667,
+                0.53025,
+                0.2587291666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3773125,
+                0.10564583333333334,
+                0.4324843749999999,
+                0.23710416666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.530875,
+                0.11133333333333333,
+                0.566140625,
+                0.1762291666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2284375,
+                0.11120833333333334,
+                0.267109375,
+                0.25247916666666664
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.624125,
+                0.11775000000000001,
+                0.656859375,
+                0.14910416666666668
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.306640625,
+                0.1035625,
+                0.341109375,
+                0.24525
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.573828125,
+                0.104125,
+                0.621921875,
+                0.15210416666666665
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.41546874999999994,
+                0.13616666666666666,
+                0.43359375,
+                0.18266666666666667
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.13079687499999998,
+                0.12733333333333333,
+                0.190953125,
+                0.1781875
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.065796875,
+                0.13468750000000002,
+                0.08707812499999999,
+                0.17772916666666666
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.008671874999999999,
+                0.3673125,
+                0.178796875,
+                0.5185416666666667
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.092703125,
+                0.6195416666666667,
+                0.36235937500000004,
+                0.756625
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.490609375,
+                0.38662500000000005,
+                0.64128125,
+                0.46208333333333335
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.0,
+                0.6038958333333333,
+                0.058687500000000004,
+                0.69
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.0033750000000000004,
+                0.549375,
+                0.15321875000000001,
+                0.6686041666666667
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.46987500000000004,
+                0.25304166666666666,
+                0.61153125,
+                0.3067083333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.08442187500000001,
+                0.08154166666666667,
+                0.128375,
+                0.21570833333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.032296875,
+                0.11564583333333332,
+                0.049609375,
+                0.17352083333333332
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.001484375,
+                0.11458333333333333,
+                0.031124999999999996,
+                0.23527083333333335
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.6192656249999999,
+                0.28968750000000004,
+                0.7323124999999999,
+                0.35095833333333337
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.07032812499999999,
+                0.46456250000000004,
+                0.24465624999999996,
+                0.5492083333333333
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.0006875,
+                0.50525,
+                0.11695312499999999,
+                0.5916041666666667
+            ]
+        },
+        {
+            "label": "keyboard",
+            "bbox": [
+                0.274984375,
+                0.5369791666666667,
+                0.42128125,
+                0.6117708333333333
+            ]
+        }
+    ],
+    "hash_id": "299_coco_train2017_000000193246.jpg"
+}

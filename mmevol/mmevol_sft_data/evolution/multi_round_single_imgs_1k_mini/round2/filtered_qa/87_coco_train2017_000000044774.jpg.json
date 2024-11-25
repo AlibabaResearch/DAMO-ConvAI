@@ -1,0 +1,373 @@
+{
+    "id": "000000044774",
+    "image": "coco/train2017/000000044774.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the woman doing in the image?",
+            "steps": [],
+            "answer": "The woman is smiling at the viewer while standing in a kitchen in front of a stove, with a cheese and anchovy pizza nearby. She seems to be preparing or cooking the pizza."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is on the pizza?",
+            "steps": [],
+            "answer": "The pizza has cheese and anchovies as its toppings."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the condition of the kitchen?",
+            "steps": [],
+            "answer": "The kitchen needs to be cleaned, but it is not overly messy or chaotic."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the woman's top?",
+            "steps": [],
+            "answer": "The woman is wearing a black top in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the pizza on the stove, ready to be put in the oven, or has it already been cooked?",
+            "steps": [],
+            "answer": "The pizza is ready to be put in the oven, implying that it has not been cooked yet."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might the woman be preparing to do next, and what does the kitchen need attention to?",
+            "steps": [],
+            "answer": "The woman is likely preparing to put the cheese and anchovy pizza into the oven, as it is ready for baking. The kitchen needs attention in terms of cleaning and organization, as there are many items scattered around, like numerous bottles, cups, knives, spoons, and bowls. Ensuring cleanliness and maintaining a well-organized kitchen space can help prevent accidents, maintain hygiene, and enhance efficiency while cooking."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Analyze the image in a comprehensive and detailed manner.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a moment in a well-equipped kitchen. At the center of the scene, a young woman is standing, dressed in a black shirt and blue jeans. She is positioned in front of an open dishwasher that's filled with dishes. The dishwasher, white in color, is conveniently located next to a white sink. Above the sink, a windowsill hosts a green plant and a pink sponge, adding a touch of color to the scene.\n\nTo the woman's side, there's a black stove with a pizza on it. The pizza is topped with red sauce and white cheese, suggesting it might be freshly baked or about to be served. \n\nThe kitchen itself is furnished with wooden cabinets and a white countertop. On the countertop, you can spot various appliances and items including a microwave, a coffee maker, a wooden knife block, and an adorable white cow creamer.\n\nFinally, there's a white refrigerator in the kitchen as well. It's adorned with magnets, possibly mementos or reminders for the woman. Overall, this image paints a picture of an everyday scene in a cozy and lively kitchen."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.727828125,
+                0.09229166666666666,
+                0.7506875,
+                0.19060416666666666
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.7526875000000001,
+                0.06560416666666666,
+                0.78203125,
+                0.1829375
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.778640625,
+                0.06241666666666667,
+                0.79525,
+                0.1770625
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.8329375000000001,
+                0.08254166666666667,
+                0.8663281250000001,
+                0.18133333333333332
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.8619843749999999,
+                0.10720833333333334,
+                0.88653125,
+                0.18502083333333333
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.8909687500000001,
+                0.051437500000000004,
+                0.9232812499999999,
+                0.1924375
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.793140625,
+                0.06899999999999999,
+                0.8285937500000001,
+                0.18227083333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.65878125,
+                0.18131250000000002,
+                0.981421875,
+                0.9853541666666668
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.552734375,
+                0.4987291666666666,
+                0.5856874999999999,
+                0.5515833333333333
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.24278125,
+                0.2876458333333333,
+                0.253953125,
+                0.43720833333333337
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.263203125,
+                0.3141666666666667,
+                0.275328125,
+                0.4282708333333334
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.25389062500000004,
+                0.30347916666666663,
+                0.2635,
+                0.43745833333333334
+            ]
+        },
+        {
+            "label": "pizza",
+            "bbox": [
+                0.09032812500000001,
+                0.78675,
+                0.307828125,
+                0.9075833333333333
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.192640625,
+                0.5232291666666666,
+                0.486078125,
+                0.5750833333333334
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.47071874999999996,
+                0.43654166666666666,
+                0.491328125,
+                0.5333541666666667
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.538890625,
+                0.6252291666666667,
+                0.560828125,
+                0.6473541666666667
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.937703125,
+                0.10572916666666667,
+                0.9753281250000001,
+                0.1945
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.550328125,
+                0.6615,
+                0.5739687499999999,
+                0.7032291666666666
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.507671875,
+                0.6251458333333333,
+                0.53115625,
+                0.6726875
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.23734375000000002,
+                0.2970625,
+                0.24450000000000002,
+                0.43183333333333335
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.60234375,
+                0.8383333333333333,
+                0.615953125,
+                0.86175
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.5379375,
+                0.8590625000000001,
+                0.56859375,
+                0.934
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.581140625,
+                0.49243750000000003,
+                0.62984375,
+                0.518875
+            ]
+        },
+        {
+            "label": "microwave",
+            "bbox": [
+                0.0,
+                0.4086875,
+                0.09646875,
+                0.5545625
+            ]
+        },
+        {
+            "label": "refrigerator",
+            "bbox": [
+                0.664234375,
+                0.18375,
+                1.0,
+                0.9617708333333332
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.600578125,
+                0.508,
+                0.627515625,
+                0.5551458333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.5678124999999999,
+                0.7799583333333333,
+                0.595140625,
+                0.8267291666666666
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.511390625,
+                0.5009791666666666,
+                0.5390625,
+                0.5472291666666667
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.28346875,
+                0.3030625,
+                0.30756249999999996,
+                0.41922916666666665
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.625296875,
+                0.8577083333333333,
+                0.6443125000000001,
+                0.8886666666666667
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.586296875,
+                0.6066458333333333,
+                0.645671875,
+                0.6383125
+            ]
+        },
+        {
+            "label": "scissors",
+            "bbox": [
+                0.3269375,
+                0.34604166666666664,
+                0.348671875,
+                0.39449999999999996
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.64684375,
+                0.8464791666666667,
+                0.6639843750000001,
+                0.8765833333333333
+            ]
+        }
+    ],
+    "hash_id": "87_coco_train2017_000000044774.jpg"
+}

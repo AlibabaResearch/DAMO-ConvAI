@@ -1,0 +1,157 @@
+{
+    "id": "000000032471",
+    "image": "coco/train2017/000000032471.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The image features a parking lot situated in front of a large cemetery. There is a variety of vehicles parked within the lot, including several cars, motorcycles, and even a bicycle. Some of the cars are parked closer to the cemetery, while others are parked further back in the lot.\n\nA couple can be seen standing in the parking lot, examining a couple of motorcycles parked nearby. One person appears to be wearing a backpack, suggesting they might be ready for a day of exploration or visiting the cemetery. The presence of cars, motorcycles, and people gives the scene a sense of activity and engagement with the location."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What could be a reason for the presence of various vehicles and people in the parking lot of the cemetery?",
+            "steps": [],
+            "answer": "A possible reason for the presence of various vehicles, such as cars and motorcycles, and people in the parking lot of the cemetery is that they are attending a funeral or memorial service, or coming to visit the graves of their loved ones. The parking lot might be busy due to an event or gathering, which brings people together to pay their respects or offer support to the bereaved family members. Alternatively, it could simply be a day when many individuals chose to visit the cemetery to remember and honor the lives of those who have passed. In either case, the presence of various vehicles and people indicates that the cemetery serves as a place of significance and remembrance to those visiting."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat's happening in the scene?"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a scene in a parking lot on a sunny day. There are a total of **8 vehicles** parked in the lot, which include **4 motorcycles** and **4 cars**. \n\nThe motorcycles, painted in shades of **black and silver**, are neatly lined up. Each one stands ready, as if eagerly awaiting their riders to mount and ride off into the day.\n\nThe cars, on the other hand, are parked in a more scattered manner. They come in colors of **blue, silver, and black**, each one reflecting the bright sunlight off their polished surfaces.\n\nThe parking lot itself is enclosed by a **black fence**, providing a boundary that separates it from the world beyond. In the distance, a **bus stop** can be seen, perhaps offering a hint of urban life outside this motor haven.\n\nIn the background, the sky is a clear blue, suggesting a beautiful day. The green trees add a touch of nature to this otherwise urban setting. It's a simple scene but one filled with stories waiting to unfold."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.40245312499999997,
+                0.7350208333333333,
+                0.665875,
+                0.9994999999999999
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.9467812500000001,
+                0.5720416666666667,
+                1.0,
+                0.6924791666666666
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.0016875000000000002,
+                0.6449374999999999,
+                0.21404687500000003,
+                0.8898958333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.7030624999999999,
+                0.45516666666666666,
+                0.8813437499999999,
+                0.5148125
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8391249999999999,
+                0.47533333333333333,
+                1.0,
+                0.5403541666666667
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.37712500000000004,
+                0.4779791666666667,
+                0.5112500000000001,
+                0.5865416666666667
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.758875,
+                0.5425416666666667,
+                0.8935625,
+                0.6443125000000001
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.6871875000000001,
+                0.5500624999999999,
+                0.77840625,
+                0.6370208333333333
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.571015625,
+                0.478125,
+                0.7191875,
+                0.6203333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.62021875,
+                0.48089583333333336,
+                0.6505625,
+                0.6359583333333333
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.12345312500000001,
+                0.6227916666666666,
+                0.171875,
+                0.6772916666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.614265625,
+                0.4784583333333333,
+                0.671828125,
+                0.6258541666666666
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.75721875,
+                0.522625,
+                0.79034375,
+                0.567625
+            ]
+        }
+    ],
+    "hash_id": "572_coco_train2017_000000032471.jpg"
+}

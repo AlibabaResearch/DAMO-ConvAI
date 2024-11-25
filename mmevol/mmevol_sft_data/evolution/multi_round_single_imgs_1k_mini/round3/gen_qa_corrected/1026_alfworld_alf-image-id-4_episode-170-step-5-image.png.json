@@ -1,0 +1,44 @@
+[
+  {
+    "image_position": "single",
+    "objects": ["cellphone", "keys", "lamp", "black object", "poster"],
+    "skills": ["Context Understanding Ability", "Behavior Prediction Ability"],
+    "format": "Complex Reasoning",
+    "question": "Analyze the elements present on the desk. Given the organized layout, what can you infer about the possible activities of the desk's owner? Additionally, consider how the presence of certain items like the cellphone and lamp might imply specific habits or routines. Let's think step by step.",
+    "steps": [
+      {"manipulation":"None", "description":"Observe the arrangement and categories of objects present on the desk."},
+      {"manipulation":"None", "description":"Consider the implications of the items, like how the cellphone's location affects its accessibility during tasks."},
+      {"manipulation":"None", "description":"Reflect on the function of the lamp in creating a conducive work environment and its effects on the owner's productivity."},
+      {"manipulation":"None", "description":"Synthesize observations to outline possible daily routines or activities the owner may engage in when using this desk."}
+    ],
+    "answer": "Upon analyzing the desk setup, we notice an organized array of items: a cellphone positioned for easy access, keys suggesting potential mobility, and a lamp enhancing the workspace. This arrangement implies that the owner likely values efficiency and readiness. The cellphone being within reach indicates they frequently communicate or attend to urgent matters. The presence of the lamp suggests that they may work late hours or engage in reading and studying, creating a focused ambiance. Consequently, it's reasonable to infer that the owner leads a busy, productive lifestyle, balancing work commitments while remaining connected to their surroundings."
+  },
+  {
+    "image_position": "single",
+    "objects": ["lamp", "cellphone", "black object", "poster"],
+    "skills": ["Relationship Description Ability", "Context Understanding Ability"],
+    "format": "Detailed Description",
+    "question": "What story can be told about the individual who uses this desk based on the items present? Reflect on how each item might influence their lifestyle and choices. Let's analyze each object step by step.",
+    "steps": [
+      {"manipulation":"None", "description":"Examine the significance of the desk lamp in establishing a primary workspace."},
+      {"manipulation":"None", "description":"Consider the role of the cellphone amidst the desk setup and how it may reflect the user's connectivity."},
+      {"manipulation":"None", "description":"Investigate the potential utility of the black object, which could hint at the owner’s personal or professional interests."},
+      {"manipulation":"None", "description":"Correlate the information to create a comprehensive narrative about the owner's persona and habits."}
+    ],
+    "answer": "The individual utilizing this desk likely embodies qualities of organization and productivity. The desk lamp, which casts a warm light, signifies a welcoming workspace that invites long hours of dedication, perhaps for late-night projects or studying. The cellphone’s placement suggests a reliance on digital communication, emphasizing the importance of staying connected in a fast-paced world. The black object, potentially an alarm clock or similar tool, points toward disciplined time management, indicating the owner is conscientious about adhering to schedules. Collectively, these elements paint a picture of a diligent professional or student who strives for balance between productivity and connectivity."
+  },
+  {
+    "image_position": "single",
+    "objects": ["lamp", "cellphone", "black object", "poster"],
+    "skills": ["Context Understanding Ability", "Behavior Prediction Ability"],
+    "format": "Complex Reasoning",
+    "question": "Considering the current setup of the desk, how might the items reflect the owner's psychological state or routine? Analyze the implications of the warm light from the lamp and proximity of the cellphone on their emotional well-being and productivity. Let's analyze this systematically.",
+    "steps": [
+      {"manipulation":"None", "description":"Evaluate how the warm light from the lamp contributes to the space’s overall ambiance."},
+      {"manipulation":"None", "description":"Analyze the cellphone’s positioning to predict how it may affect the owner's focus and mental state."},
+      {"manipulation":"None", "description":"Reflect on how an organized desk environment might influence the owner's daily productivity or stress levels."},
+      {"manipulation":"None", "description":"Combine these insights to infer the owner's likely emotional state while inhabiting this workspace."}
+    ],
+    "answer": "The arrangement of the desk reveals much about the owner's state of mind and daily routine. The warm light from the lamp creates a cozy, inviting atmosphere, fostering a sense of comfort that may reduce stress and enhance focus during prolonged tasks. The cellphone's easy accessibility suggests the owner is likely to stay in touch with friends, family, or colleagues, which can contribute to a sense of connection and support. This organized environment promotes clarity of thought, suggesting the owner may thrive in a structured setting, reducing anxiety and boosting productivity. Overall, these aspects paint a picture of someone who values their emotional well-being while pursuing their goals with diligence."
+  }
+]

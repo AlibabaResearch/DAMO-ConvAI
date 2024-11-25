@@ -1,0 +1,57 @@
+[
+  {
+    "image_position": "single",
+    "objects": [],
+    "skills": [],
+    "format": "multi_choice",
+    "question": "In the diagram illustrating the life cycle of wild Atlantic salmon, identify the stage represented by 'I'. Is it: A) Eyed eggs B) Fry C) Parr D) Adult",
+    "steps": [
+      {"manipulation":"None", "description":"Analyze the diagram to determine which stage corresponds to 'I'."}
+    ],
+    "answer": "B"
+  },
+  {
+    "image_position": "single",
+    "objects": [],
+    "skills": [],
+    "format": "rationales_generation",
+    "question": "Describe the reasons the diagram indicates that stage 'I' corresponds to 'Fry'.",
+    "steps": [
+      {"manipulation":"None", "description":"Provide detailed characteristics of 'Fry' to justify its identification in the diagram."}
+    ],
+    "answer": "The Fry stage is marked by: 1. Emergence from fertilized eggs. 2. Development of parr marks. 3. Free-swimming behavior crucial for survival."
+  },
+  {
+    "image_position": "single",
+    "objects": [],
+    "skills": [],
+    "format": "instruction_following",
+    "question": "Explain the events that take place during the 'Spawning in a Redd' phase referenced in the diagram with detailed steps.",
+    "steps": [
+      {"manipulation":"None", "description":"Outline the process of 'Spawning in a Redd', detailing each step of the event."}
+    ],
+    "answer": "In the 'Spawning in a Redd' phase: 1. Female lays eggs in a gravel nest. 2. Male fertilizes the eggs. 3. Female covers eggs with gravel for protection."
+  },
+  {
+    "image_position": "single",
+    "objects": [],
+    "skills": [],
+    "format": "completeness_of_response",
+    "question": "What are the major defining features of the 'Parr' stage in the context of the salmon life cycle?",
+    "steps": [
+      {"manipulation":"None", "description":"Highlight key characteristics that must be known regarding the 'Parr' stage."}
+    ],
+    "answer": "The 'Parr' stage is identified by vertical parr marks on their sides, increased size compared to the Fry, and adaptive preparations for migration."
+  },
+  {
+    "image_position": "single",
+    "objects": [],
+    "skills": [],
+    "format": "text_image_matching",
+    "question": "Examine how the diagram illustrates the adaptations 'Parr' undergo to transition from freshwater to seawater. Does it mention: A) Salt balance regulation B) Behavioral changes C) Physiological transformations D) All of the above?",
+    "steps": [
+      {"manipulation":"None", "description":"Review the diagram to verify the mentioned adaptations for transitioning to seawater."}
+    ],
+    "answer": "D"
+  }
+]

@@ -1,0 +1,190 @@
+{
+    "id": "000000231019",
+    "image": "coco/train2017/000000231019.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Explain the visual content of the image in great detail.",
+            "steps": [],
+            "answer": "The image depicts a cozy scene with a man laying down on a fluffy bed positioned to the right half of the room. There is another man standing near the bed and a woman sitting by a dining table located in the middle of the room, both observing the man on the bed. The man on the bed is wearing an orange and black striped shirt.\n\nThe room is furnished with several items such as handbags and suitcases, hinting at the possibility of a trip or recent arrival. The dining table has a wine glass, three cups, and several books scattered across it. There is also a chair on each side of the table. A light is visible on the wall above the bed, adding extra brightness to the room."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What factors may indicate that this could be a temporary living arrangement for the man?",
+            "steps": [],
+            "answer": "Several factors in the image suggest that the man might be in a temporary living arrangement. There is a suitcase near the bed, and suitcases are commonly used for traveling or short-term stays. The presence of dining table and chairs in the same room as the bed could indicate that this is a combined living and sleeping space, which is common in temporary accommodations like hotels or guesthouses. Additionally, there are multiple cups and books scattered around the room, which might hint that the people in the room are in transit or staying temporarily, as proper storage or organization for these items may not be available. The presence of two other people (a woman standing near and a man sitting at the table) also indicates that the man might be sharing the space with others or visiting friends, further supporting the idea of a temporary living situation."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat are the key elements in this picture?"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a moment in a cozy wooden cabin bedroom. On the right, a person is comfortably lounging on a bed, their attire consisting of a red and black striped shirt and blue jeans. Their feet are casually resting on the white bedsheet, while their head is supported by the wooden headboard.\n\nTo the left, another individual stands, donned in a black jacket and a white beanie. They hold a black camera, their gaze directed towards the person on the bed, perhaps capturing a candid moment or directing a scene.\n\nIn the center of the image, a third person is seated on a wooden chair. They are dressed in a gray shirt and blue jeans, their head resting thoughtfully on their hand as they too observe the person on the bed.\n\nThe room itself exudes warmth with its wooden wall on the right and floral wallpaper on the left. A wooden nightstand sits next to the bed, hosting a lamp and a book - perhaps a bedtime read. On the floor next to the nightstand is a black suitcase, possibly indicating recent travel or an impending journey."
+        }
+    ],
+    "det": [
+        {
+            "label": "bed",
+            "bbox": [
+                0.2094375,
+                0.5515801886792453,
+                1.0,
+                0.9843160377358491
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.28704687500000003,
+                0.4054716981132075,
+                0.47540625,
+                0.6710141509433962
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.396015625,
+                0.2854009433962264,
+                0.57615625,
+                0.6539386792452829
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.12484375,
+                0.08374999999999999,
+                0.28914062500000004,
+                0.7540094339622642
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2730625,
+                0.5788207547169811,
+                0.8251406249999998,
+                1.0
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.15990625,
+                0.37851415094339624,
+                0.29934374999999996,
+                0.5666745283018868
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.000171875,
+                0.6353537735849056,
+                0.16828125,
+                0.9050235849056604
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.26570312500000004,
+                0.31806603773584907,
+                0.28128125000000004,
+                0.3721698113207547
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.493234375,
+                0.42495283018867924,
+                0.505890625,
+                0.4568632075471698
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.5760625,
+                0.4583018867924528,
+                0.5956406249999999,
+                0.4929952830188679
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.264015625,
+                0.5208018867924528,
+                0.334671875,
+                0.6537264150943396
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.403421875,
+                0.42087264150943393,
+                0.44728124999999996,
+                0.44516509433962265
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.59465625,
+                0.44740566037735846,
+                0.6370781249999999,
+                0.4805424528301887
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.34835937499999997,
+                0.39466981132075474,
+                0.360984375,
+                0.4295990566037736
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.463796875,
+                0.46389150943396223,
+                0.5779375,
+                0.6059669811320755
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.5934999999999999,
+                0.4662971698113208,
+                0.6336562499999999,
+                0.49264150943396223
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.591625,
+                0.47573113207547174,
+                0.635625,
+                0.5032783018867925
+            ]
+        }
+    ],
+    "hash_id": "330_coco_train2017_000000231019.jpg"
+}

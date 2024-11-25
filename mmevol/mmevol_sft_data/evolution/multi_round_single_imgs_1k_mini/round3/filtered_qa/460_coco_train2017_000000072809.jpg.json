@@ -1,0 +1,203 @@
+{
+    "id": "000000072809",
+    "image": "coco/train2017/000000072809.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "In the image, three men wearing warm clothes are sitting next to each other under a large umbrella-like tent. They are enjoying a meal together and sipping on warm beverages. There are numerous bottles, cups, and bowls placed in front of the men, which contain food and drinks. Eating utensils such as forks and spoons are also present, indicating that the group is having a comfortable meal together under the shelter. The tent provides protection from the elements, creating a cozy space for the men to relax and socialize."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What precautions should the three men take while enjoying their meal?",
+            "steps": [],
+            "answer": "As the three men are sitting under a tent in warm clothes, eating and drinking warm beverages, it appears that they are in a cold or chilly environment. To ensure their safety and comfort, they should take several precautions, including:\n\n1. Ensure they wear appropriate warm clothing layers to protect themselves from the cold, including hats, gloves, scarves, and insulated footwear.\n2. Monitor the weather conditions and, if necessary, adjust their activities or plans accordingly, such as returning to a sheltered area in case of temperature drops or worsening weather.\n3. Make sure to consume enough warm food and beverages to maintain their body temperature and prevent hypothermia.\n4. Keep the surrounding area clean and free of any food scraps or trash to avoid attracting wildlife.\n5. Check the stability of the tent or temporary shelter and ensure it is securely anchored in case of sudden wind gusts or snowfall.\n\nBy taking these precautions, the men can safely enjoy their meal and time under the tent, while minimizing the risk of cold-related health issues or accidents."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWrite a detailed description of the given image."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a snowy landscape, a vibrant yellow tent serves as a cozy refuge for three adventurers. The tent, filled with the warm glow of camaraderie, is scattered with various camping gear, hinting at the rugged life outside.\n\nOn the left, a person clad in a black jacket and a baseball cap sips from a white cup, perhaps enjoying a hot beverage to ward off the chill. In the middle, another adventurer, dressed in a gray jacket and a winter hat, is seen relishing a meal from a metal pot with a spoon, fueling up for the next day's journey. On the right, a companion in a black jacket and winter hat cradles a red mug, perhaps sharing stories over a warm drink.\n\nThe floor of the tent is not just a resting place for weary bodies but also serves as storage for their survival gear. Several water bottles are strewn about, ready to quench their thirst after an exhausting day. A white gas canister sits nearby, its purpose crucial in this harsh environment. A metal pot lies idle, its duty of cooking meals temporarily at rest until the next mealtime.\n\nThis image captures not just a moment in time but also the spirit of adventure and camaraderie that binds these individuals together in their shared journey."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.657828125,
+                0.8267990654205608,
+                0.7411875,
+                1.0
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.6788125,
+                0.6541355140186916,
+                0.730515625,
+                0.8328271028037384
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.58415625,
+                0.8058644859813084,
+                0.661859375,
+                0.9978037383177571
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.003015625,
+                0.007873831775700935,
+                1.0,
+                0.4718457943925234
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.408203125,
+                0.27453271028037385,
+                0.647046875,
+                0.8951168224299065
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.003,
+                0.23976635514018693,
+                0.44182812500000007,
+                0.9858411214953271
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.28965625,
+                0.28254672897196265,
+                0.542484375,
+                0.9971728971962617
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.25842187499999997,
+                0.451588785046729,
+                0.32699999999999996,
+                0.6172429906542056
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.48131250000000003,
+                0.9079672897196261,
+                0.58478125,
+                0.9886682242990655
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.7825,
+                0.8279439252336449,
+                0.809578125,
+                0.8927336448598132
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.41890625000000004,
+                0.5342523364485982,
+                0.45676562500000006,
+                0.6143691588785046
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.48606249999999995,
+                0.91303738317757,
+                0.5861875,
+                1.0
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.757484375,
+                0.8740654205607478,
+                0.829703125,
+                0.9997897196261682
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.9315,
+                0.5167990654205608,
+                0.99840625,
+                0.5682009345794392
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9422656249999999,
+                0.6584345794392523,
+                1.0,
+                0.9865186915887851
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.7483593749999999,
+                0.7351401869158878,
+                0.8080937499999999,
+                0.8456542056074766
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.8052343750000001,
+                0.8484345794392524,
+                0.8355,
+                0.9010981308411216
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.43390625,
+                0.5992289719626169,
+                0.49729687499999997,
+                0.7121962616822431
+            ]
+        }
+    ],
+    "hash_id": "460_coco_train2017_000000072809.jpg"
+}

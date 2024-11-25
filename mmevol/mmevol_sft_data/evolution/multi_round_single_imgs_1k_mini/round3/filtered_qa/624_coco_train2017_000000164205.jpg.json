@@ -1,0 +1,140 @@
+{
+    "id": "000000164205",
+    "image": "coco/train2017/000000164205.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image features a large white propeller airplane with a group of passengers standing and walking around it. The passengers seem to be either arriving or departing from the airplane, as they have luggage with them, including suitcases, backpacks, and a handbag. Some passengers are closer to the airplane, while others are walking away from it.\n\nA truck can be seen in the background towards the left side of the image, most likely there for supporting the airplane or assisting with luggage transportation. The scene suggests a private airstrip or a small airport, given the intimate setting and the lack of airport infrastructure in the frame."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Analyze the image in a comprehensive and detailed manner.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the image, a blue and white propeller plane is parked on a tarmac, basking under the clear blue sky. The plane proudly displays a Chinese flag on its tail and the characters \"\u4e2d\u56fd\u6c11\u822a\" on its side, indicating its affiliation with Chinese civil aviation. \n\nFour individuals are seen approaching the plane, their shadows stretching out on the tarmac beneath them. One of them is carrying a briefcase, perhaps containing important documents or personal items for the journey ahead. \n\nA luggage cart stands ready next to the plane, presumably loaded with the passengers' belongings. The scene is set against a backdrop of a clear blue sky, adding to the anticipation of an imminent journey."
+        }
+    ],
+    "det": [
+        {
+            "label": "airplane",
+            "bbox": [
+                0.028890624999999996,
+                0.25901315789473683,
+                1.0,
+                0.6801754385964913
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.44214062500000006,
+                0.5385526315789474,
+                0.519953125,
+                0.8700000000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.686140625,
+                0.5568859649122807,
+                0.765796875,
+                0.8870833333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.75084375,
+                0.5461842105263158,
+                0.8243281250000001,
+                0.9654605263157895
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.7737499999999999,
+                0.8093640350877193,
+                0.8372031249999999,
+                0.9184429824561403
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9046406250000001,
+                0.543421052631579,
+                0.9350937500000001,
+                0.6555263157894737
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.0,
+                0.6244517543859649,
+                0.09165625,
+                0.8751535087719298
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.87884375,
+                0.8187280701754386,
+                0.968140625,
+                0.9830263157894736
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.655796875,
+                0.7180043859649123,
+                0.708234375,
+                0.8090570175438596
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4033125,
+                0.574890350877193,
+                0.447296875,
+                0.6749561403508771
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8079375000000001,
+                0.5408771929824561,
+                0.942203125,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3400625,
+                0.5597587719298246,
+                0.386515625,
+                0.6757675438596491
+            ]
+        }
+    ],
+    "hash_id": "624_coco_train2017_000000164205.jpg"
+}

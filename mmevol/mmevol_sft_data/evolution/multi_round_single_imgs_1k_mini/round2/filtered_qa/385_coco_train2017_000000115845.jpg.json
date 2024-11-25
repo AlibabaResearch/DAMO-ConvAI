@@ -1,0 +1,130 @@
+{
+    "id": "000000115845",
+    "image": "coco/train2017/000000115845.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many clocks are displayed on the wall?",
+            "steps": [],
+            "answer": "There are four clocks displayed on the wall."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What cities are represented by the clocks?",
+            "steps": [],
+            "answer": "The clocks represent the cities of Los Angeles, St. Petersburg, London, and Tokyo."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the clocks mounted on a wall or on a column?",
+            "steps": [],
+            "answer": "The clocks are mounted on a long column."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is unique about the clock representing St. Petersburg?",
+            "steps": [],
+            "answer": "The clock representing St. Petersburg has a warped appearance, making it stand out from the other clocks."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Why do people often display clocks showing different time zones?",
+            "steps": [],
+            "answer": "People display clocks showing different time zones for several reasons. One reason could be for personal or professional purposes, especially if an individual or business has connections or responsibilities in various locations across the world. Staying aware of the current time in different cities can help facilitate communication, coordination, and decision-making in a global context.\n\nAnother reason could be simply for aesthetic or decorative purposes, as clocks displaying different time zones can add visual interest and a sense of worldliness or sophistication to a space. Such displays can create a conversation starter or serve as a reminder of the interconnected nature of our world.\n\nFinally, in certain environments like airports, train stations, or hotels, clocks displaying different time zones can be displayed for the convenience of travelers who need to adjust to new time zones or plan their journeys accordingly. In these cases, having access to the current times in major cities across the globe can be a helpful and practical resource."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What benefits would a traveler or businessperson gain from observing these clocks?",
+            "steps": [],
+            "answer": "A traveler or businessperson looking at the clocks displaying different time zones can accurately keep track of time in various important locations such as Los Angeles, St. Petersburg, London, and Tokyo. This information can help them manage their activities, meetings, or communication with people in those locations effectively. They can appropriately plan their schedules, avoiding disruptions or inconvenience due to time differences, and ensure smooth coordination with international contacts. This is especially relevant for individuals working with international teams or dealing with global clients or business partners, as well as travelers who need to plan activities or manage jet lag while visiting different countries."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What's happening in the scene?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a moment in a room adorned with a vibrant red curtain on the right and a blue poster on the left. The centerpiece, however, is a wooden panel mounted on the wall. This panel holds four round clocks, each with a white face and black numbers and hands, arranged in a vertical line.\n\nThe topmost clock, representing the time in Los Angeles, is the first to catch your eye. Just below it, the second clock ticks away the hours in St. Petersburg. The third clock, aligned perfectly under the first two, shows London time. Finally, the bottommost clock displays Tokyo time.\n\nEach clock is an individual story, a window into a different city, yet together they form a harmonious narrative of time across the globe. The image is a testament to our interconnected world, where time zones are mere numbers and distances are bridged with a glance at a wall."
+        }
+    ],
+    "det": [
+        {
+            "label": "clock",
+            "bbox": [
+                0.3559832635983263,
+                0.45978125,
+                0.5978451882845188,
+                0.6356093749999999
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.3440794979079498,
+                0.6860625,
+                0.6012133891213389,
+                0.8815625
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.38171548117154813,
+                0.20026562499999997,
+                0.5618619246861924,
+                0.40496874999999993
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.36426778242677826,
+                0.00190625,
+                0.5907740585774058,
+                0.1701875
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.8251255230125524,
+                0.9028124999999999,
+                1.0,
+                0.94265625
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.830794979079498,
+                0.86409375,
+                0.8676150627615064,
+                0.8979062499999999
+            ]
+        }
+    ],
+    "hash_id": "385_coco_train2017_000000115845.jpg"
+}

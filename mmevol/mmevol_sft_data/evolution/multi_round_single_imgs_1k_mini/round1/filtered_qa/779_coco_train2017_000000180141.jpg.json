@@ -1,0 +1,354 @@
+{
+    "id": "000000180141",
+    "image": "coco/train2017/000000180141.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image portrays a family gathered around a dining table, enjoying each other's company while playing a karaoke video game. Two boys are singing into microphones as family members, including kids and their moms, watch enthusiastically. \n\nVarious objects are scattered around the table, such as cups, wine glasses, bottles, and cell phones. There are several chairs surrounding the table, with occupants in some of them. A microwave and sink are also visible in the background, indicating that the setting is likely a dining area connected to a kitchen. Some books and knives are present on the table and nearby surfaces, as well as a couple of remotes, possibly for operating the karaoke game."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What activity is taking place, and how might it strengthen family bonds?",
+            "steps": [],
+            "answer": "In the image, the family is engaged in a karaoke activity, with two boys singing into microphones while the rest of the family members watch and encourage them. This activity helps to strengthen family bonds by providing a fun and interactive way for family members to spend quality time together. Karaoke allows people to showcase their talents, share memorable moments, and support each other in a relaxed environment. Participating in enjoyable shared experiences such as this has the potential to bring families closer together and create lasting memories."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you describe the main features of this image for me?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy kitchen, a family of six is immersed in a lively scene. The kitchen is adorned with wooden cabinets and a sleek black countertop, providing a warm and inviting atmosphere. At the center of the room, a wooden table surrounded by black leather chairs serves as the hub of activity.\n\nOn the table, a myriad of objects are scattered about, each telling its own story. A laptop sits open, perhaps a portal to work or school assignments. A game controller lies nearby, evidence of recent digital adventures. A soda bottle stands among the chaos, its contents providing refreshment during the family's activities.\n\nEach family member is engaged in their own world, yet together they create a harmonious picture of familial bonding. One individual is passionately singing into a microphone, filling the room with melody. Another family member is engrossed in play with a toy, their imagination running wild. Yet another is quenching their thirst with a sip from the soda bottle.\n\nThe scene is bustling with activity and filled with love and laughter. It's a snapshot of everyday life, capturing the beautiful chaos that comes with being part of a family."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.43550000000000005,
+                0.40057017543859647,
+                0.47706250000000006,
+                0.572280701754386
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.45329687500000004,
+                0.5561622807017544,
+                0.5061093750000001,
+                0.5877631578947369
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.50915625,
+                0.18342105263157896,
+                0.525890625,
+                0.23328947368421052
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.10690625000000001,
+                0.4600219298245614,
+                0.346296875,
+                0.9996929824561404
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.024015625,
+                0.3932675438596491,
+                0.179328125,
+                0.9820175438596492
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7014218750000001,
+                0.2920175438596491,
+                0.9998750000000001,
+                0.9998245614035087
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.64228125,
+                0.2616008771929825,
+                0.771921875,
+                0.4973245614035088
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.32553125,
+                0.2707456140350877,
+                0.40009375,
+                0.40067982456140344
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.499421875,
+                0.25798245614035087,
+                0.5371875,
+                0.41451754385964906
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.15226562500000002,
+                0.37912280701754386,
+                1.0,
+                0.9959429824561403
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7394999999999999,
+                0.15267543859649124,
+                0.977375,
+                0.5721271929824561
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.37112500000000004,
+                0.20092105263157894,
+                0.589734375,
+                0.45875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2151875,
+                0.47673245614035087,
+                0.535578125,
+                0.9845614035087719
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.61484375,
+                0.21155701754385964,
+                0.64090625,
+                0.28192982456140353
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.179328125,
+                0.3775219298245614,
+                0.214546875,
+                0.46517543859649124
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.630578125,
+                0.43850877192982457,
+                0.664875,
+                0.556140350877193
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.38692187499999997,
+                0.29758771929824557,
+                0.40996875,
+                0.3726754385964912
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.554515625,
+                0.5838815789473685,
+                0.6020156249999999,
+                0.6964473684210526
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.761765625,
+                0.15048245614035088,
+                0.7824375,
+                0.1968859649122807
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.8153124999999999,
+                0.6298026315789473,
+                0.949421875,
+                0.6729385964912281
+            ]
+        },
+        {
+            "label": "microwave",
+            "bbox": [
+                0.397359375,
+                0.16714912280701755,
+                0.47171874999999996,
+                0.23708333333333334
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.6178281250000001,
+                0.5585526315789473,
+                0.738171875,
+                0.637390350877193
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.8190781250000001,
+                0.5360307017543859,
+                0.9600468750000001,
+                0.6375877192982456
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.474703125,
+                0.43892543859649125,
+                0.558328125,
+                0.4796929824561404
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.76675,
+                0.13219298245614036,
+                0.780375,
+                0.17019736842105262
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.760640625,
+                0.13592105263157894,
+                0.770640625,
+                0.15791666666666665
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.756390625,
+                0.14989035087719296,
+                0.77990625,
+                0.2325657894736842
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.86890625,
+                0.18151315789473682,
+                0.9465625000000001,
+                0.2438815789473684
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.36659375,
+                0.5357675438596491,
+                0.421296875,
+                0.5654605263157895
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.36365625,
+                0.5330263157894737,
+                0.41759375,
+                0.5644736842105262
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.79109375,
+                0.5425438596491228,
+                0.8537812499999999,
+                0.5709649122807018
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.27438596491228073,
+                0.134578125,
+                0.7221271929824561
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.49109375,
+                0.18131578947368424,
+                0.503078125,
+                0.24017543859649126
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.490734375,
+                0.2331140350877193,
+                0.56146875,
+                0.2483114035087719
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5848125,
+                0.005197368421052632,
+                0.742109375,
+                0.47271929824561404
+            ]
+        }
+    ],
+    "hash_id": "779_coco_train2017_000000180141.jpg"
+}

@@ -1,0 +1,100 @@
+{
+    "id": "000000034283",
+    "image": "coco/train2017/000000034283.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How might the people flying the kite be enjoying this activity?",
+            "steps": [],
+            "answer": "The people flying the kite might be enjoying this activity through the excitement of controlling the kite's movements in the air, socializing and bonding with other members of the group, and appreciating the outdoor scenery. In the image, the group stands in a green field near the water, which provides a beautiful and refreshing environment for them to spend time together. Additionally, the act of flying a kite could also provide a sense of challenge and accomplishment when maneuvering the kite against the wind, further adding enjoyment to the experience. The activity allows the group to relax, have fun, and create lasting memories."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Describe the following image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a delightful scene of outdoor recreation. A group of people are gathered in a park, their attention focused on a blue, rectangular kite soaring in the sky. The kite, vibrant against the backdrop of the clear blue sky, is the main object of interest.\n\nThe people are standing on a lush expanse of grass, which stretches out towards a serene body of water visible in the distance. The park is nestled amidst rolling hills that form a picturesque background to this scene.\n\nThe image exudes a sense of tranquility and joy, capturing a moment of simple pleasure on a beautiful day. The exact number of people or objects isn't clear from the image, but their enjoyment of the kite-flying activity is palpable. The relative positions of the objects suggest a spacious park setting with ample room for such leisure activities. \n\nPlease note that this description is based on the available information and some details might not be fully accurate as images can be open to interpretation."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.26348,
+                0.6902666666666667,
+                0.28322,
+                0.7956266666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.23208,
+                0.6937866666666667,
+                0.26148000000000005,
+                0.8030933333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6864600000000001,
+                0.6909333333333334,
+                0.7011600000000001,
+                0.7445066666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5251399999999999,
+                0.7016533333333334,
+                0.53662,
+                0.7370933333333334
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.55206,
+                0.2496,
+                0.5865799999999999,
+                0.33776
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.17388,
+                0.6967733333333334,
+                0.20618,
+                0.7953333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3384,
+                0.6937333333333333,
+                0.36252,
+                0.7942666666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2281,
+                0.6872266666666667,
+                0.24206,
+                0.80072
+            ]
+        }
+    ],
+    "hash_id": "438_coco_train2017_000000034283.jpg"
+}

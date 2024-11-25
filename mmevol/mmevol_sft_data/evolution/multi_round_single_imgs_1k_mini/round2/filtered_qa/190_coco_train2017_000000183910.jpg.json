@@ -1,0 +1,130 @@
+{
+    "id": "000000183910",
+    "image": "coco/train2017/000000183910.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image features a newlywed couple celebrating their wedding day. They are standing near a dining table with a beautifully decorated wedding cake placed in front of them. The bride and groom are feeding each other a bite of the cake, enjoying this cherished moment. \n\nAround the couple and on the dining table, there are various utensils visible such as spoons, a fork, and a knife. Both the bride and groom are dressed elegantly, with the groom wearing a tie, creating a loving and festive atmosphere."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What could be a reason why this newlywed couple is feeding each other cake?",
+            "steps": [],
+            "answer": "A plausible reason for the newlywed couple feeding each other cake is that it is a common wedding tradition that symbolizes their commitment to provide support and sustenance to one another in their married life. This act of sharing a bite of the wedding cake also represents the couple's first joint task as husband and wife, further solidifying their unity and partnership. Additionally, the fun aspect of the activity, such as gently shoving cake into each other's faces, contributes to the celebratory atmosphere and creates memorable moments for the couple and their guests."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWrite a detailed description of the given image."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a joyous celebration, a newlywed couple, radiant in their wedding attire, partake in the delightful tradition of cake cutting. The bride, resplendent in a pristine white dress and veil, and the groom, dapper in a classic black suit, stand side by side, their happiness palpable.\n\nTheir hands meet over a magnificent three-tiered wedding cake adorned with red and pink roses. The cake, an embodiment of their sweet journey ahead, rests on a table draped with a white tablecloth. A gold ribbon elegantly encircles the edge of the table, adding a touch of opulence to the setting.\n\nThe backdrop is a simple gray wall punctuated by a white door, allowing the focus to remain on the couple and their moment of shared joy. The scene is a beautiful tableau of love and celebration, captured in this single frame."
+        }
+    ],
+    "det": [
+        {
+            "label": "tie",
+            "bbox": [
+                0.6746875,
+                0.44775175644028103,
+                0.8216093750000001,
+                0.57807962529274
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.72465625,
+                0.35264637002341925,
+                0.7387499999999999,
+                0.3853395784543326
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.635703125,
+                0.29850117096018736,
+                0.6716875,
+                0.3187353629976581
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.0,
+                0.21782201405152227,
+                0.27109375,
+                0.9988758782201405
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.62546875,
+                0.3016393442622951,
+                0.66825,
+                0.313536299765808
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.19640625,
+                0.6179859484777518,
+                0.54725,
+                0.9887587822014051
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.250828125,
+                0.7010304449648711,
+                0.299171875,
+                0.731967213114754
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.41156249999999994,
+                0.9127634660421545,
+                0.478890625,
+                0.9992505854800937
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.56840625,
+                0.21939110070257614,
+                0.882234375,
+                0.9967213114754099
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.20428125000000003,
+                0.11358313817330211,
+                0.7232031250000001,
+                0.9876580796252927
+            ]
+        }
+    ],
+    "hash_id": "190_coco_train2017_000000183910.jpg"
+}

@@ -1,0 +1,426 @@
+{
+    "id": "000000161719",
+    "image": "coco/train2017/000000161719.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are in the image, and are they sitting or standing?",
+            "steps": [],
+            "answer": "There are two people in the image, and they are sitting down."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the two people doing in the image?",
+            "steps": [],
+            "answer": "The two people, who are women, are sitting down and eating their meals with plates of food in front of them."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there an animal present in the image, and if so, what is it doing?",
+            "steps": [],
+            "answer": "Yes, there is a dog in the image. The dog is watching the two women as they sit and eat their meals."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of the image? Is it indoors or outdoors?",
+            "steps": [],
+            "answer": "The setting of the image is indoors, specifically in a room where the two women and the dog are gathered."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Considering the presence of a dog, what can one infer about the relationship between the women and the dog?",
+            "steps": [],
+            "answer": "It is reasonable to infer that the women have some connection or relationship with the dog, either as owners, friends of the owners, or caretakers. While it cannot be conclusively determined from the image alone, it is clear that the dog feels comfortable being in close proximity to the women as they enjoy their meals. This suggests a certain level of familiarity and trust between the dog and the women, which is usually found in households or environments where dogs are well-acquainted with their owners or caretakers."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "The image shows two women sitting down around a dining table with plates of food in front of them. They seem to be enjoying a meal together in a cozy room. A dog is present in the scene, positioned near the table and watching the women eat.\n\nThere's a TV placed in the background, and a book lies on a nearby surface. Some bottles are also visible in the room, as well as multiple cups, bowls of food, and forks on the table. Specific food items, such as carrots and broccoli, can be identified on the plates.\n\nThere are two chairs placed around the dining table, and they're both occupied by the women. Additionally, a bicycle can be seen in the background of the room."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you describe the main features of this image for me?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy living room, a group of people are gathered around a table, engrossed in conversation. The table is a feast of colors with a variety of snacks and drinks scattered across its surface. A woman on the left, her hand delicately holding a plate of food, is engaged in a lively discussion with her companion. \n\nAt the feet of the second woman, a dog sits patiently, perhaps hoping for a stray snack to fall its way. The women are seated comfortably, their bodies relaxed and at ease in the warm atmosphere.\n\nAgainst the wall, a bicycle leans casually, its presence adding a touch of whimsy to the scene. It's as if someone has just returned from a leisurely ride and joined the gathering.\n\nThe room itself is tastefully decorated. A fireplace anchors the space, its mantel adorned with various items that tell stories of their own. Above it hangs a painting, adding an artistic touch to the room. A shelf nearby holds an array of objects, each contributing to the room's character.\n\nThe scene is one of warmth and camaraderie, a snapshot of a pleasant gathering in a welcoming space."
+        }
+    ],
+    "det": [
+        {
+            "label": "dog",
+            "bbox": [
+                0.499,
+                0.49120833333333336,
+                0.617703125,
+                0.7145625
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.19329687499999998,
+                0.13195833333333334,
+                0.4144375,
+                0.38349999999999995
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.776109375,
+                0.03972916666666667,
+                0.8074843749999999,
+                0.14220833333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6507031249999999,
+                0.5679583333333333,
+                0.73815625,
+                0.6321875
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0,
+                0.6988333333333333,
+                0.9688281249999999,
+                0.9835208333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.200578125,
+                0.145,
+                0.42554687500000005,
+                0.7176250000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.664046875,
+                0.11910416666666666,
+                0.87809375,
+                0.707875
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.1006875,
+                0.9003125,
+                0.3088125,
+                0.9545208333333333
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.9369999999999999,
+                0.8035833333333334,
+                0.9999531249999999,
+                0.9014583333333335
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.13090625,
+                0.7548541666666666,
+                0.24465624999999996,
+                0.8287291666666666
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.137171875,
+                0.7247291666666666,
+                0.25678125,
+                0.7493541666666667
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.7596875,
+                0.6108333333333333,
+                0.815453125,
+                0.7502083333333334
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.6818125,
+                0.5996875,
+                0.7423125,
+                0.7177916666666667
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.33923437500000003,
+                0.6903958333333333,
+                0.4210312500000001,
+                0.8259166666666666
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.8491562500000001,
+                0.6575624999999999,
+                0.9313125000000001,
+                0.7847083333333332
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.9303437499999999,
+                0.6185416666666667,
+                0.9994375,
+                0.7713541666666667
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.11415625,
+                0.33972916666666664,
+                0.142125,
+                0.39093749999999994
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                4.6875e-05,
+                0.850125,
+                0.087890625,
+                0.96325
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.510765625,
+                0.1328125,
+                0.5556249999999999,
+                0.16910416666666667
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.59578125,
+                0.09808333333333333,
+                0.62578125,
+                0.167125
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.41334375,
+                0.7259375,
+                0.57821875,
+                0.8695416666666667
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.71371875,
+                0.6078749999999999,
+                0.866046875,
+                0.8258125
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.57684375,
+                0.7215,
+                0.732375,
+                0.8427916666666666
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.63053125,
+                0.7401041666666667,
+                0.667484375,
+                0.7767083333333333
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.638046875,
+                0.7589791666666666,
+                0.6776562500000001,
+                0.7793958333333334
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.21742187500000001,
+                0.7546875,
+                0.35225,
+                0.8086041666666667
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.620921875,
+                0.7533958333333334,
+                0.638765625,
+                0.774625
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.6752343749999999,
+                0.7512916666666667,
+                0.6889062499999999,
+                0.77675
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.324578125,
+                0.10589583333333333,
+                0.39190625,
+                0.12716666666666668
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.8606406249999999,
+                0.41902083333333334,
+                0.9996562499999999,
+                0.6687708333333333
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.8508437499999999,
+                0.064375,
+                0.8872031249999999,
+                0.17177083333333332
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.415625,
+                0.5974583333333333,
+                0.5050625,
+                0.7487083333333333
+            ]
+        },
+        {
+            "label": "broccoli",
+            "bbox": [
+                0.23096875,
+                0.8215416666666666,
+                0.2775625,
+                0.871375
+            ]
+        },
+        {
+            "label": "broccoli",
+            "bbox": [
+                0.277703125,
+                0.7915625,
+                0.364359375,
+                0.8764583333333333
+            ]
+        },
+        {
+            "label": "broccoli",
+            "bbox": [
+                0.19139062499999998,
+                0.8350624999999999,
+                0.22428125,
+                0.8821041666666666
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.607609375,
+                0.7537708333333334,
+                0.6299375,
+                0.7754375
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.5929375,
+                0.7602708333333333,
+                0.6092500000000001,
+                0.7711666666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.23584375,
+                0.45435416666666667,
+                0.8543749999999999,
+                0.7162916666666667
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.004109375,
+                0.5972500000000001,
+                1.0,
+                0.9835625
+            ]
+        }
+    ],
+    "hash_id": "123_coco_train2017_000000161719.jpg"
+}

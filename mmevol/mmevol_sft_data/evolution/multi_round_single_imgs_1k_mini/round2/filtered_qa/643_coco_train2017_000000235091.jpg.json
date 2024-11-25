@@ -1,0 +1,202 @@
+{
+    "id": "000000235091",
+    "image": "coco/train2017/000000235091.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the main object of interest in the image?",
+            "steps": [],
+            "answer": "The main object of interest in the image is a colorful, cartoonish hot air balloon."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where is this hot air balloon located, and what is the setting around it?",
+            "steps": [],
+            "answer": "The hot air balloon is located at an outdoor event with a green grass field, white tents, and a large air-filled circular kite. There are children playing and a group of people watching the balloon as it lifts into the sky."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any children interacting with the hot air balloon?",
+            "steps": [],
+            "answer": "Yes, there are children playing with a large inflatable balloon character that is part of the colorful hot air balloon."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the main activity happening in the image?",
+            "steps": [],
+            "answer": "The main activity happening in the image is people enjoying the outdoor event, with children playing with the large inflatable balloon character and others watching as this colorful, cartoonish hot air balloon lifts into the sky."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you provide some information about hot air balloons and how they work?",
+            "steps": [],
+            "answer": "Hot air balloons are a type of aircraft that relies on the principle of buoyancy to lift and maneuver. The main components of a hot air balloon include an envelope (the colorful balloon itself), a burner system, and a basket or gondola for passengers and the pilot. The envelope is typically made of durable, lightweight, and heat-resistant materials such as nylon or polyester fabric.\n\nTo make the hot air balloon rise, the air inside the envelope is heated using the burner system, which is fueled by propane or a similar type of gas. As the air inside the balloon is heated, it expands, becoming less dense than the cooler air outside of the envelope. Due to this difference in air density, the hot air balloon then experiences an upward lift, also known as buoyancy, allowing it to rise in the air.\n\nTo descend or control the altitude, the pilot can vent some of the hot air from the envelope through a vent or parachute valve, allowing the cooler air to enter and reducing the buoyancy effect. For steering, hot air balloons rely predominantly on wind patterns and the pilot's knowledge of these patterns since they do not have direct steering control like other types of aircraft.\n\nHot air ballooning is a popular recreational activity and can also be enjoyed as part of special events such as balloon festivals or races. It offers a unique way to experience the beauty of nature and take in breathtaking views from high above the ground."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What challenges do parents need to be aware of at this outdoor event?",
+            "steps": [],
+            "answer": "At this outdoor event, which features a colorful, cartoonish hot air balloon and several children playing with a large inflatable balloon character, parents must be aware of several challenges. They should ensure their children's safety while playing with the inflatable character, as it is large and could pose a risk of injury if not handled properly. In addition, it is crucial for parents to keep a close eye on their children, as there are multiple people present, including adults and children, making it easy for kids to get lost or separated from their parents. Parents should also be mindful of the chairs, bottles, and dining table in the area to prevent accidents, and take precautions to ensure that their children avoid bumping into them or spilling the bottles. Moreover, since the event is held outdoors on a green grass field, parents should ensure their children are protected from the sun, have appropriate clothing for the weather, and stay hydrated throughout the day."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What do you see happening in this image?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a vibrant scene from a kite festival. The star of the show is a large, colorful kite soaring high in the sky. This isn't just any ordinary kite, it's designed in the shape of a fish with a human-like face, adding a whimsical touch to the scene. The kite is a riot of colors with predominant shades of blue, red, and yellow. It also features green fins and accents in purple and pink, making it a truly eye-catching spectacle.\n\nThe kite is flying above a grassy field, which serves as the perfect backdrop for this colorful display. In the distance, you can spot white tents and palm trees, indicating that this is a well-organized event with facilities for attendees.\n\nOn the ground, two children and an adult are seen standing nearby. They appear to be watching the kite with fascination, perhaps marveling at its size, design, and the skill required to keep such a large kite aloft. Their presence adds a human element to the image, reminding us that kite flying is not just about the kites themselves, but also about the joy and wonder they bring to people of all ages."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.8515937499999999,
+                0.6146962616822429,
+                0.909765625,
+                0.7181308411214953
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.09534375,
+                0.5895093457943925,
+                0.145078125,
+                0.6774532710280373
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.8425312500000001,
+                0.6082476635514018,
+                1.0,
+                0.6223364485981308
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.259578125,
+                0.7380607476635513,
+                0.305546875,
+                0.901892523364486
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.19221875,
+                0.6862616822429907,
+                0.23700000000000002,
+                0.9028971962616824
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0015,
+                0.5788317757009346,
+                0.042171875000000004,
+                0.7027102803738318
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.264171875,
+                0.16422897196261685,
+                0.6868593749999999,
+                0.8030373831775702
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.222421875,
+                0.6982242990654205,
+                0.25960937500000003,
+                0.843714953271028
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.927734375,
+                0.5853271028037383,
+                0.93534375,
+                0.6157943925233645
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6676875,
+                0.6159345794392523,
+                0.727625,
+                0.7082943925233645
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.20260937499999998,
+                0.640233644859813,
+                0.24821875,
+                0.7437850467289719
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.042812499999999996,
+                0.6375934579439252,
+                0.095921875,
+                0.9056308411214954
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.8774062499999999,
+                0.5819859813084112,
+                0.8858593749999999,
+                0.6128271028037383
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9477656250000001,
+                0.6019158878504673,
+                1.0,
+                0.7207710280373832
+            ]
+        }
+    ],
+    "hash_id": "643_coco_train2017_000000235091.jpg"
+}

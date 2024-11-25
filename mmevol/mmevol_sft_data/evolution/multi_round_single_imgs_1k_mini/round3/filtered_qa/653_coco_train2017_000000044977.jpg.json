@@ -1,0 +1,311 @@
+{
+    "id": "000000044977",
+    "image": "coco/train2017/000000044977.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The image captures a scene of large kites flying low to the ground on a partly cloudy day. One of the kites is predominantly orange and blue, and it is hovering in the air. Another large orange kite is sitting on the grass, near the first. Several people are enjoying these kites, with one man in the center of the image appearing to control them.\n\nStrewn across the scene, there are many cars and trucks parked alongside the grassy area where the kites are being played with. Among the people and vehicles, a few individuals can be seen standing and walking around the area, likely observing the kites or tending to their own activities."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat is this photo about'?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a vibrant scene from a kite festival. The sky is adorned with four kites of varying sizes and colors. \n\nTwo large kites dominate the scene, their circular shapes standing out against the sky. These kites are composed of orange and blue panels, with the orange panels forming a ring around the blue ones, creating a striking contrast.\n\nIn addition to these, there are two smaller kites in the vicinity. One is red and shaped like a bird, its wings spread wide as if in flight. The other is green and bears the resemblance of a fish, seemingly swimming through the air.\n\nThe kites are being flown by people on the ground, who can be seen in the background. Their presence adds a sense of scale to the image, highlighting the impressive size of the large circular kites.\n\nThe background also includes cars and a building, indicating that the festival is taking place in an open field or park. The presence of these elements suggests a festive atmosphere, with people likely gathered to watch or participate in the kite-flying activities.\n\nOverall, this image beautifully encapsulates the joy and color of a kite festival."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.6354375,
+                0.7566875,
+                0.6863125,
+                0.86434375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.707359375,
+                0.7594531250000001,
+                0.72634375,
+                0.8065468750000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.02634375,
+                0.769921875,
+                0.049562499999999995,
+                0.836265625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.845328125,
+                0.760859375,
+                0.87615625,
+                0.806265625
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.040546874999999996,
+                0.438734375,
+                0.5945937499999999,
+                0.9770312499999999
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.4,
+                0.026968750000000003,
+                0.9438124999999999,
+                0.5370781250000001
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.7075625,
+                0.497234375,
+                0.8272031249999999,
+                0.584265625
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.15145312500000002,
+                0.27821875,
+                0.21373437500000003,
+                0.3291875
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.002265625,
+                0.083375,
+                0.11187500000000002,
+                0.13521875
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.67875,
+                0.724796875,
+                0.7208749999999999,
+                0.756984375
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.9062812499999999,
+                0.7283125,
+                0.9465781249999999,
+                0.754875
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.58328125,
+                0.7282968750000001,
+                0.6265625,
+                0.758265625
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.754015625,
+                0.750765625,
+                0.9203749999999999,
+                0.8203125
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.775125,
+                0.728890625,
+                0.8082968749999999,
+                0.75009375
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8116406250000001,
+                0.727796875,
+                0.896625,
+                0.754953125
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.778421875,
+                0.743515625,
+                0.8277812499999999,
+                0.7542500000000001
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.952109375,
+                0.7224062499999999,
+                0.994453125,
+                0.7526249999999999
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.733171875,
+                0.73265625,
+                0.767859375,
+                0.75703125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.22549999999999998,
+                0.7284531249999999,
+                0.234734375,
+                0.74709375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0435,
+                0.7718281250000001,
+                0.06859375,
+                0.8459375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.944703125,
+                0.722,
+                0.9536718750000001,
+                0.749484375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.27359374999999997,
+                0.79121875,
+                0.2836875,
+                0.8091250000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8938124999999999,
+                0.7246875,
+                0.9032812499999998,
+                0.744921875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.317265625,
+                0.782421875,
+                0.335625,
+                0.826171875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.33675,
+                0.773171875,
+                0.35876562500000003,
+                0.8269062500000001
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.629140625,
+                0.729171875,
+                0.6655156249999999,
+                0.755234375
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.0045156250000000005,
+                0.74059375,
+                0.037734375,
+                0.762875
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.80840625,
+                0.741,
+                0.826046875,
+                0.752765625
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.75590625,
+                0.752578125,
+                0.9186249999999999,
+                0.8186249999999999
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.9525781249999999,
+                0.724078125,
+                0.9915625,
+                0.7512968750000001
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.582515625,
+                0.728703125,
+                0.622234375,
+                0.7578125
+            ]
+        }
+    ],
+    "hash_id": "653_coco_train2017_000000044977.jpg"
+}

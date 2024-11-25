@@ -1,0 +1,373 @@
+{
+    "id": "000000097023",
+    "image": "coco/train2017/000000097023.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the weather like in the image?",
+            "steps": [],
+            "answer": "The weather in the image is a mix of snow and rain, creating a wet and cold atmosphere on the city street."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there many people on the street?",
+            "steps": [],
+            "answer": "Yes, there are many people on the busy street. They can be seen standing at the corner, crossing the street or walking around, trying to navigate through the snow and rain."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are people using to protect themselves from the rain and snow?",
+            "steps": [],
+            "answer": "People are using umbrellas to protect themselves from the rain and snow as they walk or wait on the busy city street."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any vehicles visible in the image?",
+            "steps": [],
+            "answer": "Yes, there are cars visible in the image, adding to the bustling city street scene as they navigate through the poor weather conditions."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How does this mix of snow and rain impact the city's transportation, infrastructure, and daily life?",
+            "steps": [],
+            "answer": "The mix of snow and rain can have a significant impact on the city's transportation, infrastructure, and daily life. Firstly, the combination of wet and cold conditions can create slippery surfaces on roads and sidewalks, leading to a higher risk of accidents or falls for both drivers and pedestrians. Consequently, traffic can become slow-moving, and public transportation (buses, trains, etc.) might experience delays.\n\nPeople's daily routines can also be affected, as they need to adapt to the challenging weather conditions by dressing appropriately, carrying umbrellas, and allocating extra time for travel. It might also discourage outdoor activities and increase the need for indoor alternatives. Moreover, the weather can directly affect businesses, especially those relying on foot traffic, as fewer people may be inclined to venture out in such conditions.\n\nIn terms of infrastructure, the mix of snow and rain can exacerbate the wear and tear on roads, pavements, and buildings. For example, accumulated snow and ice can block drains, causing potential flooding when the rainwater has no outlet. Additionally, fluctuating temperatures between freezing and thawing can cause the pavement to expand and contract, leading to cracks, potholes, and other types of damage. Consequently, city maintenance crews might need to make an extra effort to address these issues and keep the city safe and functioning during inclement weather."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "The scene is a busy city street filled with people and cars during a mix of snow and rain falling. Many people are crossing the street at a corner, some under umbrellas for shelter from the wet weather. One umbrella can be seen in the foreground, while another is located further in the background. \n\nThere are multiple cars and a truck moving through the street, depicting a bustling urban atmosphere. A few parked cars are visible on one side of the street. Additionally, there are traffic lights and potted plants placed along the sidewalk. \n\nSeveral people's belongings can also be seen, such as backpacks and handbags carried by pedestrians. A fire hydrant and a bottle can be spotted on the sidewalk, adding to the overall depiction of a typical city scene."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How are the people in this scene adapting to the current weather conditions?",
+            "steps": [],
+            "answer": "In the image, people in the busy city street are adapting to the current weather conditions of mixed snow and rain by using umbrellas to shield themselves from the precipitation. Umbrellas can be seen in various locations, with people using them during their commute and while waiting at the corner. In addition, individuals might also be wearing appropriate clothing such as jackets, coats, and waterproof footwear to protect themselves from the cold and wet conditions. The presence of cars and other forms of transportation shows that people may be relying on these modes to stay warm and dry while traveling on this inclement day."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you describe the main features of this image for me?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a bustling scene on a rainy day in New York City. The street, identified as the intersection of East 44th St and 5th Ave, is filled with the city's iconic yellow taxis. There are at least a dozen of them scattered across the frame, their vibrant color contrasting against the gray backdrop of the rain-soaked city.\n\nPeople, bundled up in winter clothes, navigate the sidewalk under a sea of umbrellas. The umbrellas vary in color, adding splashes of individuality to the otherwise monotonous winter attire. The pedestrians are in various states of motion - some striding purposefully, others pausing momentarily, all contributing to the dynamic energy of the city.\n\nThe buildings towering in the background are quintessential New York - tall and imposing. Several American flags are seen hanging from these structures, fluttering in the breeze, adding a touch of patriotism to the urban landscape.\n\nThe traffic lights glow red against the gloomy sky, halting the flow of vehicles and adding a sense of order amidst the chaos. From this perspective, one can almost hear the symphony of honking horns, splashing puddles, and distant conversations that is so characteristic of New York City."
+        }
+    ],
+    "det": [
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.1379375,
+                0.38939583333333333,
+                0.41765625,
+                0.5461666666666666
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.7104375,
+                0.4326041666666667,
+                0.7682968750000001,
+                0.4564375
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.28718750000000004,
+                0.4593125,
+                0.42803125,
+                0.5600625
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.450515625,
+                0.4651875,
+                0.50425,
+                0.5374583333333334
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.15518749999999998,
+                0.46995833333333337,
+                0.21109375,
+                0.5486458333333334
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.48465625,
+                0.36575,
+                0.66971875,
+                0.556125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.207765625,
+                0.47410416666666666,
+                0.34290624999999997,
+                0.9876041666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5331875,
+                0.48668750000000005,
+                0.628578125,
+                0.8962916666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.77021875,
+                0.4127916666666666,
+                0.87134375,
+                0.8802083333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.71971875,
+                0.4491875,
+                0.75271875,
+                0.5730833333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.769328125,
+                0.4453125,
+                0.79296875,
+                0.5158958333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5108125,
+                0.44,
+                0.5533593750000001,
+                0.6111875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4194375,
+                0.4469375,
+                0.45834374999999994,
+                0.5833958333333332
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8901406250000001,
+                0.44666666666666666,
+                0.9000937500000001,
+                0.5071458333333333
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.812734375,
+                0.47652083333333334,
+                0.9218437500000001,
+                0.6435624999999999
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.2658125,
+                0.571375,
+                0.343015625,
+                0.7328749999999999
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.541375,
+                0.5748958333333333,
+                0.6155781250000001,
+                0.7258749999999999
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.5309062499999999,
+                0.15437499999999998,
+                0.561234375,
+                0.242
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.340078125,
+                0.458,
+                0.36128125,
+                0.5789375
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.0,
+                0.5263125,
+                0.1099375,
+                0.64375
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.682,
+                0.46360416666666665,
+                0.7172031249999999,
+                0.49341666666666667
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.86946875,
+                0.4544375,
+                0.884,
+                0.48897916666666663
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.6543281249999999,
+                0.46158333333333335,
+                0.70265625,
+                0.5469375
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.032515625,
+                0.4730625,
+                0.179515625,
+                0.5545833333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.19571875,
+                0.48062499999999997,
+                0.24571874999999999,
+                0.5528333333333334
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.44476562499999994,
+                0.46199999999999997,
+                0.47631249999999997,
+                0.4942708333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.9522187499999999,
+                0.4932708333333334,
+                0.9997812500000001,
+                0.5623541666666667
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.577109375,
+                0.365875,
+                0.611140625,
+                0.4020416666666667
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.54015625,
+                0.56,
+                0.5490468749999999,
+                0.5894583333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.7539374999999999,
+                0.45837500000000003,
+                0.777984375,
+                0.483
+            ]
+        },
+        {
+            "label": "fire hydrant",
+            "bbox": [
+                0.90840625,
+                0.493875,
+                0.9225312499999999,
+                0.5381041666666667
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.7489375,
+                0.4547083333333333,
+                0.772078125,
+                0.5131458333333333
+            ]
+        }
+    ],
+    "hash_id": "241_coco_train2017_000000097023.jpg"
+}

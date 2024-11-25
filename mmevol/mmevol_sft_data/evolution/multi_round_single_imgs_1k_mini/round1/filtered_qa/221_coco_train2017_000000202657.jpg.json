@@ -1,0 +1,210 @@
+{
+    "id": "000000202657",
+    "image": "coco/train2017/000000202657.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How are people spending their time at the beach in the image?",
+            "steps": [],
+            "answer": "People in the image are spending their time at the beach by lounging in chairs under colorful umbrellas, relaxing, and enjoying the sunny day."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the purpose of the umbrellas at the beach?",
+            "steps": [],
+            "answer": "The umbrellas at the beach serve the purpose of protecting the beachgoers from the sun, providing them with shade, and helping them keep cool."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the weather like in the image?",
+            "steps": [],
+            "answer": "The weather in the image appears to be sunny and pleasant, making it a perfect day for beach activities."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What precautions should people take while spending time under the sun at the beach?",
+            "steps": [],
+            "answer": "When spending time under the sun at the beach, it is crucial for people to take the following precautions to protect themselves from harmful sun exposure and ensure a safe and enjoyable experience:\n\n1. Sunscreen: Apply a broad-spectrum sunscreen with an SPF of at least 30 to all exposed skin areas. Reapply every 2 hours or after swimming, sweating, or toweling off.\n\n2. Shade: Use beach umbrellas, sunshades, or other shelters to provide shade and minimize direct sun exposure, especially during peak sun intensity periods (usually between 10 am and 4 pm).\n\n3. Protective clothing: Wear UV-protective clothing and wide-brimmed hats to shield skin from the sun. This can help reduce the risk of sunburn and long-term skin damage.\n\n4. Sunglasses: Wear sunglasses with full UV protection to protect the eyes from harmful UV rays and reduce the risk of cataracts and other eye-related conditions.\n\n5. Hydration: Drink sufficient water and stay hydrated throughout the day to prevent dehydration due to sun exposure and heat.\n\n6. Heat stroke prevention: Take regular breaks to cool off, avoid excessive physical activities during peak sun hours, and pay attention to any signs of heat exhaustion or heat stroke.\n\nBy following these precautions, beachgoers can have a safer and more enjoyable time at the beach while minimizing risks associated with sun exposure."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image depicts a sunny day at the beach, with people enjoying their time in lounge chairs under colorful umbrellas. There are at least four umbrellas, providing shade for those sitting under them. The umbrellas seem to be fairly close to one another, giving the impression that the beach is quite crowded. Several lounge chairs of various sizes can be seen scattered across the sand.\n\nThere is an adult sitting in a lounge chair under one of the umbrellas, while another person can be seen sitting towards the edge of the scene. In addition to the people and umbrellas, there are also two backpacks and a bottle placed near chairs, suggesting that the beachgoers brought their personal belongings with them.\n\nLastly, a bird can be seen flying in the sky, adding a touch of nature to the scene."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What precautions are these beachgoers taking to stay safe and comfortable during their beach visit?",
+            "steps": [],
+            "answer": "The beachgoers in the image are taking several precautions to ensure their safety and comfort during their visit to the beach. They are using colorful umbrellas to protect themselves from direct sunlight, reducing the risk of sunburn and excessive exposure to UV rays. Additionally, several people are sitting in chairs, which can make them feel more comfortable and enjoy their time at the beachfront. Some beachgoers have brought backpacks and stowed away essential items like water bottles, which helps them stay hydrated and maintain their well-being in the sunny and warm environment. These measures demonstrate that these visitors are taking the necessary steps to have a safe, enjoyable, and relaxing experience while at the beach."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a serene beach scene. At the heart of the scene are three vibrant umbrellas, each with its own unique pattern. The first umbrella sports a classic green and white stripe, the second is adorned with blue and white stripes, while the third stands out with a multicolored floral pattern. \n\nArranged in a semi-circle facing the deep blue water are beach chairs, inviting and comfortable. They are painted in cheerful colors of blue, red, and orange, perfectly complementing the umbrellas. \n\nThe light beige sand underfoot adds to the warm and relaxing atmosphere of the beach. Overhead, a seagull is captured mid-flight against the backdrop of the sky, adding a touch of life to the scene. The arrangement of the umbrellas and chairs suggests anticipation of a day filled with sun, sand, and sea."
+        }
+    ],
+    "det": [
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.4187278582930756,
+                0.390265625,
+                0.9751207729468598,
+                0.8008593749999999
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.25222222222222224,
+                0.438828125,
+                0.5953945249597423,
+                0.81440625
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.021690821256038648,
+                0.43724999999999997,
+                0.3854106280193237,
+                0.793125
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.16177133655394524,
+                0.668359375,
+                0.367890499194847,
+                0.858234375
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7063607085346215,
+                0.7213437500000001,
+                0.875426731078905,
+                0.966296875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4815458937198068,
+                0.68778125,
+                0.5453462157809984,
+                0.745765625
+            ]
+        },
+        {
+            "label": "bird",
+            "bbox": [
+                0.11763285024154589,
+                0.07171875,
+                0.24610305958132042,
+                0.10279687499999998
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.7689049919484702,
+                0.648609375,
+                0.8043317230273752,
+                0.7345625
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.4468115942028986,
+                0.725328125,
+                0.48136876006441226,
+                0.8106875
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.003043478260869565,
+                0.6640937499999999,
+                0.1028341384863124,
+                0.8039687499999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.017681159420289857,
+                0.64175,
+                0.06265700483091786,
+                0.667359375
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.6855394524959743,
+                0.73584375,
+                0.7599194847020935,
+                0.933
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.22731078904991947,
+                0.637859375,
+                0.4076972624798712,
+                0.7986875
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.12507246376811595,
+                0.739375,
+                0.18616747181964574,
+                0.805625
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.6247665056360708,
+                0.77859375,
+                0.6512721417069243,
+                0.8186249999999999
+            ]
+        }
+    ],
+    "hash_id": "221_coco_train2017_000000202657.jpg"
+}

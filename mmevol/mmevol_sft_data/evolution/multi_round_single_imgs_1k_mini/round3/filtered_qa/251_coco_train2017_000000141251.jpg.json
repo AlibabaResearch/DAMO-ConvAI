@@ -1,0 +1,338 @@
+{
+    "id": "000000141251",
+    "image": "coco/train2017/000000141251.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of vehicles are the police officers using?",
+            "steps": [],
+            "answer": "One police officer is on horseback, while the other is using a motorcycle."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any people in the image besides the police officers?",
+            "steps": [],
+            "answer": "Yes, there are people walking around on the street near the police horse and police motorcycle."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the two officers doing?",
+            "steps": [],
+            "answer": "The two officers are conferring or talking with each other, with one of them on a horse and the other on a motorcycle."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the gender of the person riding the horse?",
+            "steps": [],
+            "answer": "The image shows a woman riding the horse."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the person on the bike in the image a police officer or a civilian?",
+            "steps": [],
+            "answer": "The man on the motorcycle is a police officer."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "In the scene, a police officer riding a horse is interacting with another officer on a motorcycle. They are likely discussing a subject or coordinating their patrol. The officers are on a busy street with several people and vehicles around them.\n\nA few pedestrians of different age groups are walking around the area, with some holding handbags and others wearing backpacks. There's a bus and a couple of cars in the background, indicating city traffic. Two traffic lights can also be spotted further down the street. A bicycle can be seen parked on the right side of the scene."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What could be the advantages of having different types of patrolling methods for police officers in this situation?",
+            "steps": [],
+            "answer": "The advantages of having different types of patrolling methods, such as horseback riding and motorcycle riding, for police officers include increased mobility, accessibility, and versatility. Officers on horseback can quickly move through crowds and access areas where vehicles might face difficulty, while having a higher vantage point for better observation of the surroundings. On the other hand, officers on motorcycles can cover more ground quickly, easily navigate through traffic, and respond rapidly to emergencies. In the image, the police officers are seen in a busy city street with multiple pedestrians, traffic lights, and vehicles. Different patrolling methods allow the officers to adapt to various situations and environments, ensuring more effective policing and maintaining public safety in diverse circumstances."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Can you elaborate on the elements of the picture provided?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city, under a clear blue sky, a scene of law enforcement unfolds. A police officer, donned in a blue helmet, confidently guides his dark brown horse down the street. The horse's hooves echo on the pavement, drawing the attention of several bystanders who pause their day to watch from the sidewalk.\n\nJust behind the mounted officer, another officer rides a sleek motorcycle, its white and black body gleaming in the sunlight. The hum of its engine adds to the symphony of city sounds.\n\nOn the side of the street, a truck stands parked, perhaps belonging to one of the onlookers. The backdrop is a blend of urban and natural elements with buildings towering high and trees providing spots of greenery.\n\nThe image captures a moment in time, where law enforcement and city life intersect under the watchful eyes of the public. It's a snapshot of everyday life, where each element has its place and role in the grand tapestry of the city."
+        }
+    ],
+    "det": [
+        {
+            "label": "horse",
+            "bbox": [
+                0.119796875,
+                0.19494145199063231,
+                0.561296875,
+                0.7996252927400468
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.8625468749999999,
+                0.4021779859484777,
+                0.9803124999999999,
+                0.5281967213114754
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.5531875,
+                0.3762060889929742,
+                0.9036406250000001,
+                0.7440046838407494
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.63434375,
+                0.18365339578454332,
+                0.71196875,
+                0.3245901639344262
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.976046875,
+                0.10112412177985948,
+                1.0,
+                0.24494145199063233
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.04046875,
+                0.4738173302107728,
+                0.06453125,
+                0.5486885245901639
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.846578125,
+                0.343559718969555,
+                0.8791249999999999,
+                0.4357845433255269
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.666640625,
+                0.31491803278688524,
+                0.7770625,
+                0.5557611241217799
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6621875,
+                0.29997658079625295,
+                0.708515625,
+                0.5396252927400469
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.043484375,
+                0.30337236533957845,
+                0.12893749999999998,
+                0.6134894613583137
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.133203125,
+                0.27875878220140515,
+                0.16625,
+                0.3618266978922717
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.531703125,
+                0.2998126463700234,
+                0.5783125,
+                0.49709601873536297
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.45653125,
+                0.320655737704918,
+                0.521953125,
+                0.5868149882903981
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.518421875,
+                0.32843091334894614,
+                0.561328125,
+                0.5504215456674474
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2570625,
+                0.13391100702576111,
+                0.397984375,
+                0.5734426229508197
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8149218749999999,
+                0.30016393442622946,
+                0.8505624999999999,
+                0.47857142857142854
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.9316718749999999,
+                0.33850117096018734,
+                0.96421875,
+                0.4337704918032787
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.73190625,
+                0.33297423887587824,
+                0.863984375,
+                0.44894613583138177
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.953703125,
+                0.20194379391100703,
+                0.9857968749999999,
+                0.2849648711943794
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.9646250000000001,
+                0.3781967213114754,
+                0.9772500000000001,
+                0.4300936768149883
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.62353125,
+                0.3435128805620609,
+                0.65528125,
+                0.44192037470726
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6275000000000001,
+                0.3057142857142857,
+                0.668328125,
+                0.5028103044496487
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9617812499999999,
+                0.32697892271662765,
+                1.0,
+                0.4999531615925059
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.858578125,
+                0.3284777517564403,
+                0.9002343749999999,
+                0.49276346604215454
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.896125,
+                0.34072599531615927,
+                0.92621875,
+                0.48147540983606557
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.8165156250000001,
+                0.3321545667447307,
+                0.834875,
+                0.39320843091334895
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.041203125,
+                0.4731850117096019,
+                0.06453125,
+                0.5520374707259954
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.8718281250000001,
+                0.3554566744730679,
+                0.8959687500000001,
+                0.4186651053864169
+            ]
+        }
+    ],
+    "hash_id": "251_coco_train2017_000000141251.jpg"
+}

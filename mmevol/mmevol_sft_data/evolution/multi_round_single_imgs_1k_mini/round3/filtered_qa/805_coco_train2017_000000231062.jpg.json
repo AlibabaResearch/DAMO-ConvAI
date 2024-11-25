@@ -1,0 +1,275 @@
+{
+    "id": "000000231062",
+    "image": "coco/train2017/000000231062.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the main pieces of furniture in the living room?",
+            "steps": [],
+            "answer": "The main pieces of furniture in the living room are a couch, television, coffee table, and bookshelf."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there an animal present in the living room?",
+            "steps": [],
+            "answer": "Yes, there is a cat in the living room, sitting on top of the couch."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the room?",
+            "steps": [],
+            "answer": "The room is pea green in color."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How would you describe the arrangement of items in the room?",
+            "steps": [],
+            "answer": "The room appears to have lots of items placed on every surface, which might give it a cluttered or busy appearance. Items may be stored or displayed on the bookshelf, coffee table, and other surfaces in the living room."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The image features a cozy living room with a pea-green color scheme. The room is furnished with a couch along the right side, a television in the far left corner, a coffee table in the center, and a bookshelf filled with numerous books on one of the walls. Many items adorn the surfaces of the room, including a laptop on the coffee table, a couple of remotes, a bottle, a teddy bear, and a cup.\n\nA cat can be seen resting comfortably on the right side of the couch, completing the inviting atmosphere of the space."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How can one describe the organization in this room, and what is the cat doing?",
+            "steps": [],
+            "answer": "The organization of the room seems cluttered and full, with various items placed on virtually every surface. There are numerous books on the bookshelf, coffee table, and other surfaces. A laptop, TV remote, bottle, and cup are also present, and a couple of teddy bears are placed in the room. The cat in this room is sitting on top of the couch, which is among the various pieces of furniture such as the television, coffee table, and bookshelf."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Analyze the image in a comprehensive and detailed manner.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of this image lies a living room, brimming with life and character. The room is bathed in the warm hues of a yellow wall, contrasting beautifully with the soft beige of the carpet. \n\nTo the left, a desk stands, its surface a testament to productivity. A computer monitor and keyboard rest upon it, surrounded by a scattering of papers and books. Adjacent to the desk, a bookshelf reaches upwards, its shelves filled with books and topped with a lamp that casts a soft glow.\n\nOn the right, a couch invites relaxation. A cat, the color of midnight, sits regally on the armrest, surveying its domain. The couch is adorned with blankets and pillows, adding to its cozy appeal.\n\nIn front of the couch, a coffee table holds court. A mug - perhaps filled with a warm beverage - shares space with a laptop, hinting at work or leisure activities.\n\nAbove the couch, a shelf hangs. Upon it rests a plant, adding a touch of nature to the room, and a picture frame that holds memories within its borders. The room is a symphony of objects and colors, each playing their part in creating a harmonious living space."
+        }
+    ],
+    "det": [
+        {
+            "label": "tv",
+            "bbox": [
+                0.00671875,
+                0.2233125,
+                0.18160937500000002,
+                0.492375
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.6070625,
+                0.38779166666666665,
+                1.0,
+                0.9894999999999999
+            ]
+        },
+        {
+            "label": "cat",
+            "bbox": [
+                0.870109375,
+                0.3558541666666667,
+                1.0,
+                0.4609583333333333
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.4125,
+                0.547125,
+                0.5630468750000001,
+                0.7334375000000001
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.7225937499999999,
+                0.665625,
+                0.7887187499999999,
+                0.6999583333333333
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.30928125,
+                0.34460416666666666,
+                0.36131250000000004,
+                0.42239583333333336
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.24904687499999997,
+                0.5146666666666666,
+                0.311,
+                0.6036666666666667
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.3209375,
+                0.43825000000000003,
+                0.36165625,
+                0.5064166666666667
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.26509375,
+                0.4424375,
+                0.31140625,
+                0.51075
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.293765625,
+                0.3657083333333333,
+                0.33557812499999995,
+                0.42254166666666665
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.286671875,
+                0.36150000000000004,
+                0.33018749999999997,
+                0.4240416666666667
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.65446875,
+                0.3470416666666667,
+                0.6772812500000001,
+                0.4389375
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.398109375,
+                0.06733333333333333,
+                0.416265625,
+                0.12266666666666666
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.40071874999999996,
+                0.07122916666666666,
+                0.42265625,
+                0.127125
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.40621875,
+                0.067375,
+                0.4329375000000001,
+                0.12789583333333335
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.42121875,
+                0.06595833333333333,
+                0.44914062499999996,
+                0.12722916666666667
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.426578125,
+                0.06729166666666667,
+                0.455609375,
+                0.12779166666666666
+            ]
+        },
+        {
+            "label": "teddy bear",
+            "bbox": [
+                0.5683125,
+                0.08241666666666667,
+                0.5948593750000001,
+                0.1276875
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.50184375,
+                0.6746458333333333,
+                0.55003125,
+                0.7667291666666666
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.5295156249999999,
+                0.6256458333333333,
+                0.5831562499999999,
+                0.6484583333333334
+            ]
+        },
+        {
+            "label": "teddy bear",
+            "bbox": [
+                0.7131406250000001,
+                0.45395833333333335,
+                0.8274531250000001,
+                0.5555833333333333
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.43351562499999996,
+                0.06485416666666667,
+                0.54625,
+                0.12864583333333332
+            ]
+        }
+    ],
+    "hash_id": "805_coco_train2017_000000231062.jpg"
+}

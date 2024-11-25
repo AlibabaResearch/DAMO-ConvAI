@@ -1,0 +1,397 @@
+{
+    "id": "000000002842",
+    "image": "coco/train2017/000000002842.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many tennis players are there in the image?",
+            "steps": [],
+            "answer": "There are two tennis players in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the tennis players doing in the image?",
+            "steps": [],
+            "answer": "The two tennis players are engaged in a match, playing tennis on the court and interacting with each other. They are also holding their racquets, ready for action."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How would you describe the audience at this tennis match?",
+            "steps": [],
+            "answer": "The audience at the tennis match is sparse, meaning there are not many people watching the game from the stands."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the tennis players on the same team or playing against each other?",
+            "steps": [],
+            "answer": "The tennis players are on the same team, as they are participating in a doubles match where two players form a team and compete against another pair."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of this tennis match?",
+            "steps": [],
+            "answer": "The setting of this tennis match is an outdoor tennis court. The two tennis players and the sparse audience are present, creating an atmosphere for a competitive sports event."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The image shows a tennis court with two tennis players actively participating in a match. Both players are holding tennis racquets, with one player in the foreground and the other in the background. They appear to be on the same team and are reaching out towards each other while playing.\n\nIn the background, there is a sparse audience consisting of several people seated on chairs placed around the tennis court. Some have handbags and backpacks with them. A few bottles are also visible in the audience area. The tennis players are well-focused on their match, and the onlookers are observing the game with interest."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can be inferred about this tennis match and its environment?",
+            "steps": [],
+            "answer": "It can be inferred that two tennis players are actively engaged in a match on the court, as two tennis rackets are visible in the hands of the players. Additionally, both players seem to be part of a team, as they stand on the court together. The presence of several chairs suggests that there might be a sparse audience present to watch the tennis match. The players may need to balance their focus on the game while also being conscious of the spectators' presence. However, since the audience is not crowded, the players might face less pressure, allowing them to concentrate more on their performance during the match."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you see happening in this image?"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a moment of camaraderie between two tennis players on a vibrant blue court. The player on the left, clad in a purple shirt, black shorts, and a white visor, is extending their right hand for a high-five. They hold a tennis racket in their right hand, indicating they are likely right-handed.\n\nTheir counterpart on the right, dressed in an orange shirt and black shorts with a black baseball cap, reciprocates the gesture. This player holds their racket in their left hand, suggesting they are left-handed.\n\nThe two players are positioned in the foreground of the image, with the spectators in the stands visible in the background. The wall behind them features a prominent Mercedes-Benz logo, hinting at possible sponsorship or location of the match. The overall atmosphere suggests the conclusion of an exciting match, with both players celebrating their performance."
+        }
+    ],
+    "det": [
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.83315625,
+                0.6161458333333333,
+                0.86365625,
+                0.7348750000000001
+            ]
+        },
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.155,
+                0.6009375,
+                0.24093749999999997,
+                0.8383125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.561234375,
+                0.2584166666666667,
+                0.8561875000000001,
+                0.9078750000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5511250000000001,
+                0.46981249999999997,
+                0.657296875,
+                0.5597083333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.16082812500000002,
+                0.231125,
+                0.33618750000000003,
+                0.9484999999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.35003125,
+                0.40068750000000003,
+                0.44129687500000003,
+                0.5146458333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.46434375,
+                0.44127083333333333,
+                0.52071875,
+                0.49652083333333336
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4605,
+                0.3713125,
+                0.57225,
+                0.5009166666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.405453125,
+                0.2809375,
+                0.493546875,
+                0.4048333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.35135937500000003,
+                0.28731249999999997,
+                0.40759375000000003,
+                0.39139583333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.32321875,
+                0.3389375,
+                0.39860937500000004,
+                0.4722708333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.35145312500000003,
+                0.025145833333333333,
+                0.43379687499999997,
+                0.27895833333333336
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.48746875,
+                0.17433333333333334,
+                0.51128125,
+                0.21004166666666668
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.352390625,
+                0.13925,
+                0.371734375,
+                0.180625
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.419984375,
+                0.3360625,
+                0.4295625,
+                0.3863125
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.90321875,
+                0.06252083333333333,
+                0.9419374999999999,
+                0.12060416666666667
+            ]
+        },
+        {
+            "label": "sports ball",
+            "bbox": [
+                0.30521875,
+                0.4779583333333333,
+                0.32734375,
+                0.5069166666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.621921875,
+                0.09535416666666667,
+                0.6721562499999999,
+                0.1306041666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.56096875,
+                0.09835416666666667,
+                0.620734375,
+                0.13191666666666665
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.595421875,
+                0.05372916666666667,
+                0.644078125,
+                0.12516666666666668
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.646625,
+                0.05447916666666666,
+                0.6953437499999999,
+                0.093625
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7090156249999999,
+                0.051604166666666666,
+                0.758875,
+                0.08714583333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.766828125,
+                0.14179166666666668,
+                0.815625,
+                0.17741666666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.808359375,
+                0.0465625,
+                0.8604218750000001,
+                0.10758333333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.10234375,
+                0.25302083333333336,
+                0.156046875,
+                0.30222916666666666
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.748984375,
+                0.2456458333333333,
+                0.804046875,
+                0.35574999999999996
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.609546875,
+                0.009916666666666666,
+                0.667234375,
+                0.062125
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6646093750000001,
+                0.0115625,
+                0.7120468750000001,
+                0.09158333333333332
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.43792187499999996,
+                0.45658333333333334,
+                0.47315625,
+                0.4968541666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8883749999999999,
+                0.4238958333333333,
+                0.976234375,
+                0.5179166666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.28146875,
+                0.3456666666666666,
+                0.327546875,
+                0.4692083333333333
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.9064375,
+                0.1595,
+                0.91790625,
+                0.19604166666666664
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.279,
+                0.31024999999999997,
+                0.33096875,
+                0.40352083333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.782109375,
+                0.011458333333333333,
+                0.827546875,
+                0.039125
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.238484375,
+                0.06435416666666667,
+                0.270265625,
+                0.144625
+            ]
+        }
+    ],
+    "hash_id": "858_coco_train2017_000000002842.jpg"
+}

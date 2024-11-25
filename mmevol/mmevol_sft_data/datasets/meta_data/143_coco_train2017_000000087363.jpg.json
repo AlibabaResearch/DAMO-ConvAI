@@ -1,0 +1,253 @@
+{
+    "id": "000000087363",
+    "image": "coco/train2017/000000087363.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What appliances can be seen in the kitchen area?",
+            "steps": [],
+            "answer": "In the kitchen area, visible appliances include an electric stove, a refrigerator, and a white stove top oven next to a sink."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there any furniture in the kitchen?",
+            "steps": [],
+            "answer": "Yes, there is a table present in the kitchen."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the condition of the house?",
+            "steps": [],
+            "answer": "The house is in a clean and well-maintained condition, with the kitchen and living room areas appearing tidy and organized."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the house empty or occupied by guests?",
+            "steps": [],
+            "answer": "The house is currently empty, but it is nicely laid out and prepared for the arrival of guests."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Does the kitchen have an open layout connecting to the living room?",
+            "steps": [],
+            "answer": "Yes, the kitchen has an open layout which connects to the living room, allowing for an open and spacious feel within the home."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The image showcases a clean and well-organized kitchen and living room area in a home. The kitchen features a white stove top oven next to a sink, placed against the wall. There are two refrigerators in the kitchen, one closer to the left and the other towards the right. The living room has a dining table surrounded by chairs, with three chairs visible in the scene.\n\nDecorative items are scattered throughout the room, including a potted plant, a vase, and two TVs placed in different parts of the room. There is also a couch in the living area, creating a cozy space for relaxation. Various kitchen utensils like cups and knives can be spotted on the countertops, ready for use by guests or the homeowners. A clock is mounted on the wall, complementing the overall layout of the space."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What features might make this home appealing for gatherings?",
+            "steps": [],
+            "answer": "This home has several features that make it appealing for gatherings. The clean, spacious kitchen area features a dining table with chairs, an electric stove, a refrigerator, and a sink. This layout facilitates meal preparation and serving food easily to guests. The living room area is adjacent to the kitchen, providing a seamless flow between the spaces for socializing. Moreover, there is a couch and a TV, offering a comfortable space for guests to sit and relax while engaging in conversation or enjoying some entertainment. The presence of potted plants and a vase adds a touch of freshness and aesthetic appeal to the living space, creating a welcoming atmosphere. Overall, the open layout and amenities in the kitchen and living room areas make this home suitable for hosting gatherings and entertaining guests."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nExplain the visual content of the image in great detail."
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a cozy kitchen scene, bathed in soft light that filters in through a large window on the far wall. The window, adorned with brown curtains, hosts a solitary plant on its sill, adding a touch of green to the otherwise warm palette of the room.\n\nThe kitchen is a harmonious blend of modern and rustic elements. The wooden floor, polished to a shine, reflects the light streaming in from the window. Against one wall stands a white fridge, its surface gleaming. Next to it is a white oven with a black stovetop, ready for culinary adventures.\n\nOn the left side of the frame, you can see a sink with a yellow dish rack beside it, hinting at recent meal preparations. A black beam runs across the ceiling, adding character to the room and contrasting with the light brown walls.\n\nOn the right side of the photo, there's an intimate dining setup. A small table accompanied by two chairs invites one to sit down for a meal or perhaps enjoy a cup of coffee while gazing out of the window.\n\nOverall, this image paints a picture of a comfortable and inviting kitchen space where both cooking and relaxation can be enjoyed."
+        }
+    ],
+    "det": [
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.7796875,
+                0.5753395784543325,
+                0.9015625,
+                0.769718969555035
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.498328125,
+                0.4626229508196721,
+                0.5436093750000001,
+                0.5193208430913349
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.75653125,
+                0.7975175644028103,
+                0.8804531250000001,
+                0.9897423887587822
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.668625,
+                0.6410070257611241,
+                0.7948906250000001,
+                0.982927400468384
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.68278125,
+                0.5810304449648712,
+                0.738375,
+                0.6615222482435597
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.68284375,
+                0.6610304449648712,
+                0.8895781249999999,
+                0.8558782201405152
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.2026875,
+                0.4127166276346604,
+                0.232453125,
+                0.46337236533957843
+            ]
+        },
+        {
+            "label": "refrigerator",
+            "bbox": [
+                0.5881093749999999,
+                0.40775175644028105,
+                0.685984375,
+                0.7265807962529274
+            ]
+        },
+        {
+            "label": "refrigerator",
+            "bbox": [
+                0.678125,
+                0.4103981264637003,
+                0.8139062499999999,
+                0.664496487119438
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.6028749999999999,
+                0.3748711943793911,
+                0.612671875,
+                0.4018735362997658
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.32684375,
+                0.5236065573770492,
+                0.49176562500000004,
+                0.8921311475409838
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.000390625,
+                0.644519906323185,
+                0.205765625,
+                0.789063231850117
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.10874999999999999,
+                0.663231850117096,
+                0.136484375,
+                0.7018266978922717
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.07926562499999999,
+                0.6587822014051522,
+                0.10510937499999999,
+                0.699672131147541
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.8449843749999999,
+                0.6771194379391101,
+                0.880296875,
+                0.7551990632318502
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.17334375,
+                0.5247306791569086,
+                0.204859375,
+                0.5719672131147542
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.17281249999999998,
+                0.5326932084309134,
+                0.19043749999999998,
+                0.555152224824356
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.168125,
+                0.5182201405152225,
+                0.18753124999999998,
+                0.5485714285714286
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.18939062499999998,
+                0.526112412177986,
+                0.33409374999999997,
+                0.558384074941452
+            ]
+        }
+    ],
+    "hash_id": "143_coco_train2017_000000087363.jpg"
+}

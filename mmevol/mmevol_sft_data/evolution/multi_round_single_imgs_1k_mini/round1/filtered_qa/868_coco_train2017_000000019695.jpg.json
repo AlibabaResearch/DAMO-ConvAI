@@ -1,0 +1,192 @@
+{
+    "id": "000000019695",
+    "image": "coco/train2017/000000019695.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are in the image and what are they doing?",
+            "steps": [],
+            "answer": "There are two people, both men, in the image, and they are playing a Nintendo Wii game using game controllers while standing up."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What gaming console are the men using?",
+            "steps": [],
+            "answer": "The men are using a Nintendo Wii gaming console."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting where the men are playing the game?",
+            "steps": [],
+            "answer": "The men are playing the game in a living room."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the men seated or standing while playing the game?",
+            "steps": [],
+            "answer": "The men are standing while playing the Nintendo Wii game."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of controllers are the men using to play the game?",
+            "steps": [],
+            "answer": "The men are using remotes, also known as Wii controllers or Wii remotes, to play the game."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "The image depicts two men standing in a living room, actively playing a Nintendo Wii game together. Both men are holding game controllers, aiming them as they engage in the game. They are standing close to each other, one on the left and the other on the right, fully immersed in their gameplay.\n\nThe living room features a couch in the background and a chair nearby. There is a potted plant located on the right side of the room. In the scene, there are also several bottles, two placed in the left corner and one in the right corner of the room. A backpack can be seen on the floor, close to the couch."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you think is going on in this snapshot?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy living room, two men are engrossed in an intense video game battle. The man on the left, clad in a black t-shirt, grips a white game controller, his focus unwavering. His opponent, donned in a blue soccer jersey, mirrors his actions with a similar white controller.\n\nThey stand before a green curtain that cascades down the wall, its color contrasting with the beige couch behind them. The couch, unoccupied, hosts a single red pillow, adding a pop of color to the scene.\n\nScattered on the floor are several beer bottles, remnants of their ongoing gaming session. Their expressive hand gestures and concentrated expressions paint a picture of a thrilling virtual contest. The room is filled with an air of camaraderie and friendly competition."
+        }
+    ],
+    "det": [
+        {
+            "label": "couch",
+            "bbox": [
+                0.36129687499999996,
+                0.6064583333333334,
+                0.5919375,
+                0.9892500000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.12303125,
+                0.1960625,
+                0.47696875,
+                0.9915833333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5270312500000001,
+                0.23535416666666667,
+                0.8986562499999999,
+                1.0
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.01071875,
+                0.6742916666666667,
+                0.033718750000000006,
+                0.7673125
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.952421875,
+                0.9024583333333334,
+                0.9816093749999999,
+                1.0
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.0,
+                0.6807291666666667,
+                0.013750000000000002,
+                0.7691041666666667
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.85725,
+                0.5290208333333334,
+                0.892578125,
+                0.5612916666666667
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.40015625000000005,
+                0.58675,
+                0.43884375000000003,
+                0.6191041666666666
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.747421875,
+                0.77825,
+                0.89484375,
+                0.9651458333333333
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.8789843749999999,
+                0.36895833333333333,
+                1.0,
+                0.6645833333333333
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.42809375000000005,
+                0.4847916666666666,
+                0.455234375,
+                0.5197083333333333
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.60665625,
+                0.4135,
+                0.66075,
+                0.5129374999999999
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.36331250000000004,
+                0.5944791666666667,
+                0.5879218749999999,
+                1.0
+            ]
+        }
+    ],
+    "hash_id": "868_coco_train2017_000000019695.jpg"
+}

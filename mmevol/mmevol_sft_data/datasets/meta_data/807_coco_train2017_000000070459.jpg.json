@@ -1,0 +1,262 @@
+{
+    "id": "000000070459",
+    "image": "coco/train2017/000000070459.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the main item attached to the work desk in the image?",
+            "steps": [],
+            "answer": "The main item attached to the work desk in the image is an umbrella."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the umbrella open or closed?",
+            "steps": [],
+            "answer": "The umbrella is open in the image, creating a canopy over the desk."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of desk is the umbrella connected to?",
+            "steps": [],
+            "answer": "The umbrella is connected to a wooden desk."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any other items on the desk besides the umbrella?",
+            "steps": [],
+            "answer": "Yes, there is a computer on the work desk in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the overall condition of the work desk?",
+            "steps": [],
+            "answer": "The work desk appears to be messy, with various items on it and an open umbrella attached. This unusual setup may indicate that the person working at the desk is finding creative ways to make their workspace more comfortable or whimsical, or perhaps they are using the umbrella for some practical purpose such as shielding their computer from bright sunlight or creating a sense of privacy. The presence of the computer suggests that the individual uses the desk for work or study, and the clutter could be a reflection of their busy lifestyle, lack of organization, or personal preference for maintaining a more informal, lived-in environment."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The image shows a messy wooden work desk indoors with an open umbrella attached to it, covering almost the entire desk area. A computer keyboard and mouse are present on the desk, indicating that it's a workspace. Several books are scattered around the desk, adding to the cluttered appearance.\n\nA TV is visible in the background, while a cup and a bottle can be seen placed on the desk. In the vicinity of the desk, there are two people, one located towards the right end of the desk, and the other person is further to the right. A handbag is also present in the scene, resting on the floor near the right side."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What potential difficulties could arise in this workspace?",
+            "steps": [],
+            "answer": "In this image, an open umbrella is attached to a messy wooden desk which has a computer, keyboard, mouse, a cup, a bottle, and numerous books scattered around. The potential difficulties that could arise in such a workspace include distractions, difficulty locating essential items, and reduced productivity. The presence of an open umbrella indoors is not only unconventional but could also lead to accidents or obstructions. Additionally, the cluttered and disorganized state of the desk might make it hard for the user to focus on their work and find important documents or items when needed, ultimately contributing to poor time management and inefficiency. Creating a cleaner, more organized workspace would likely facilitate a more productive and efficient environment."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Describe the following image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a scene of organized chaos on a wooden desk. Dominating the scene is a computer monitor, its screen facing away from us. It's nestled amidst a stack of various papers, their contents hidden from view. A red stapler sits nearby, ready for action, while a white teapot adds a touch of domesticity to the scene.\n\nOn the right side of the desk, an open blue umbrella is propped up, its vibrant color contrasting with the wood. It casts a protective shade over the desk, as if shielding the items underneath from an unseen light source.\n\nIn the background, a bookshelf stands laden with books and binders. Their spines show signs of use, suggesting they are frequently referenced. The entire scene paints a picture of a busy workspace, filled with tools and resources for productivity."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.4449183006535948,
+                0.48186274509803917,
+                0.49014705882352944,
+                0.6007516339869281
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.049444444444444444,
+                0.06741830065359476,
+                1.0,
+                0.8404575163398693
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8945261437908497,
+                0.0967483660130719,
+                0.9176470588235295,
+                0.19576797385620914
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9582352941176472,
+                0.08781045751633987,
+                0.9924836601307191,
+                0.19671568627450983
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.33805555555555555,
+                0.5393954248366013,
+                0.40299019607843134,
+                0.615718954248366
+            ]
+        },
+        {
+            "label": "mouse",
+            "bbox": [
+                0.5697549019607843,
+                0.5671241830065359,
+                0.6384640522875817,
+                0.5894934640522875
+            ]
+        },
+        {
+            "label": "keyboard",
+            "bbox": [
+                0.4248692810457516,
+                0.5662581699346405,
+                0.5959967320261438,
+                0.6545424836601308
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.03155228758169935,
+                0.19194444444444445,
+                0.08926470588235294,
+                0.30637254901960786
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.056290849673202616,
+                0.19165032679738564,
+                0.11400326797385622,
+                0.2894607843137255
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.08594771241830065,
+                0.508562091503268,
+                0.14575163398692811,
+                0.6672712418300654
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.11769607843137254,
+                0.1933169934640523,
+                0.1463562091503268,
+                0.25315359477124183
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.1146078431372549,
+                0.4044934640522876,
+                0.15281045751633987,
+                0.5213562091503268
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.1518627450980392,
+                0.38931372549019605,
+                0.2080392156862745,
+                0.5601143790849673
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.08387254901960783,
+                0.40439542483660135,
+                0.11699346405228757,
+                0.5095751633986928
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.058039215686274515,
+                0.40205882352941175,
+                0.09191176470588236,
+                0.4922222222222222
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.057450980392156854,
+                0.5079411764705882,
+                0.12792483660130718,
+                0.6758006535947713
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.22715686274509805,
+                0.3572222222222222,
+                0.5035294117647058,
+                0.5326143790849673
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.8433660130718954,
+                0.8166013071895425,
+                1.0,
+                0.997483660130719
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.1396732026143791,
+                0.6249509803921569,
+                0.41633986928104577,
+                0.7385784313725491
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.0,
+                0.18895424836601307,
+                0.044591503267973856,
+                0.31986928104575163
+            ]
+        }
+    ],
+    "hash_id": "807_coco_train2017_000000070459.jpg"
+}

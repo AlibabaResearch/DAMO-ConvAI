@@ -1,0 +1,381 @@
+{
+    "id": "000000053939",
+    "image": "coco/train2017/000000053939.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the primary setting of the image?",
+            "steps": [],
+            "answer": "The primary setting of the image is a city street where a black tent has been set up, and people are sitting at a table underneath it."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there any person with a disability visible in the image?",
+            "steps": [],
+            "answer": "Yes, there is a man in a wheelchair visible in the image. He is setting up and/or working with audio equipment under the tent."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the activity happening under the tent?",
+            "steps": [],
+            "answer": "Under the tent, people are sitting at a table and engaging in some sort of gathering or event. A young man in a wheelchair is also involved in the activity, working with audio equipment and possibly contributing to the event's sound or music setup."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there many people in the image, or just a few?",
+            "steps": [],
+            "answer": "There are quite a few people in the image, both around and under the tent. The gathering appears to be a public event, attracting the attention of those passing by and participating in the activities."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can we infer about the young man in the wheelchair's role at the event?",
+            "steps": [],
+            "answer": "We can infer that the young man in the wheelchair has a specific role in the event, likely relating to the audio equipment he is working with. He might be responsible for setting up, managing, or operating the sound system or music for the gathering, contributing to the overall ambiance and enjoyment of the participants."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The scene is set in a bustling urban street where multiple people are gathered around and under a black tent. There is a young man in a wheelchair who appears to be working with audio equipment under the tent. \n\nIn addition to this main activity, there are several people sitting at a dining table on the street, and numerous others can be seen both standing and engaging in different activities like using cell phones or talking to each other. \n\nVarious items are scattered around the area, including backpacks, handbags, bottles, cups, and chairs, some of which are placed around the dining table. There are also traffic lights visible in the background, indicating a busy city environment."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of activity is taking place under the tent, and how does the young man contribute?",
+            "steps": [],
+            "answer": "Under the tent, there seems to be a gathering of people who are sitting around a dining table on the street, possibly for an outdoor event or social gathering. The young man in the wheelchair is seen setting up and working with audio equipment, which suggests that he is contributing to the event by managing and operating the sound system to enhance the atmosphere, music, or any speeches that might take place during the event."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWrite a detailed description of the given image."
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a lively scene at a street fair. The focal point is a black tent, under which a DJ setup is arranged on a table. The sign \"DJ RYAN HAYES\" prominently displayed on the tent indicates the identity of the performer.\n\nBehind the table, two individuals are standing, engrossed in their roles. One is clad in a vibrant red hoodie, while the other sports a black baseball cap, adding to the casual and fun atmosphere of the event.\n\nSeated at the table are two more individuals. One is wearing a blue shirt, and the other is in a gray shirt. Their relaxed postures suggest they are enjoying the music and the overall ambiance of the fair.\n\nIn the background, several people can be seen walking around, exploring the fair and adding to its bustling energy. On the left side of the image, a yellow construction hat stands out, perhaps an unusual find in such a setting.\n\nOverall, this image paints a vivid picture of a day at a street fair, filled with music, color, and life."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.23693749999999997,
+                0.5827916666666667,
+                0.263796875,
+                0.6745
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.8683125,
+                0.5973541666666667,
+                0.9450000000000001,
+                0.8281458333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.33003125,
+                0.550625,
+                0.34484375,
+                0.5828541666666668
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.29371875,
+                0.1814375,
+                0.3093125,
+                0.2147291666666667
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.53446875,
+                0.5427916666666667,
+                0.6636093750000001,
+                0.6592916666666667
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.440828125,
+                0.37104166666666666,
+                0.45475000000000004,
+                0.4440208333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.37517187500000004,
+                0.44147916666666664,
+                0.5834374999999999,
+                0.9423958333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.20600000000000002,
+                0.4166875,
+                0.33578125000000003,
+                0.6386249999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.054421874999999995,
+                0.33958333333333335,
+                0.063125,
+                0.36891666666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.44985937500000006,
+                0.31910416666666663,
+                0.504171875,
+                0.4730416666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.19740625,
+                0.27760416666666665,
+                0.338625,
+                0.6082291666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.835953125,
+                0.27416666666666667,
+                0.886515625,
+                0.5415833333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.052703124999999997,
+                0.2746875,
+                0.122890625,
+                0.5768749999999999
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.29474999999999996,
+                0.22470833333333334,
+                0.31120312499999997,
+                0.27762499999999996
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.230453125,
+                0.3217083333333333,
+                0.32009375,
+                0.4310625
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.6014375000000001,
+                0.7202083333333333,
+                0.7239531250000001,
+                0.9177916666666666
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.459375,
+                0.36041666666666666,
+                0.47153124999999996,
+                0.4238958333333333
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.369453125,
+                0.3403541666666667,
+                0.39859374999999997,
+                0.41520833333333335
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.694703125,
+                0.5996041666666667,
+                0.7245781250000001,
+                0.63775
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.314671875,
+                0.33095833333333335,
+                0.322203125,
+                0.34164583333333337
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.20554687500000002,
+                0.27802083333333333,
+                0.25807812500000005,
+                0.3465625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.504015625,
+                0.2529166666666667,
+                0.6201718749999999,
+                0.6363958333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.334890625,
+                0.31293750000000004,
+                0.36990625,
+                0.43550000000000005
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.364890625,
+                0.31708333333333333,
+                0.39715625,
+                0.44479166666666664
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.000359375,
+                0.30516666666666664,
+                0.060781249999999995,
+                0.5549166666666667
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.696828125,
+                0.6341666666666667,
+                0.7241406250000001,
+                0.6916249999999999
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.253578125,
+                0.7321666666666666,
+                0.36048437499999997,
+                0.8378333333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.35935937500000004,
+                0.7336875,
+                0.476625,
+                0.9312708333333333
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.001921875,
+                0.5362916666666667,
+                0.22723437499999996,
+                0.9701041666666667
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.16425,
+                0.6375208333333333,
+                0.182953125,
+                0.6531666666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.106453125,
+                0.25172916666666667,
+                0.22123437499999996,
+                0.6110625
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.072640625,
+                0.26058333333333333,
+                0.08076562500000001,
+                0.2790625
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.10978125000000001,
+                0.533,
+                0.12896875000000002,
+                0.5866458333333334
+            ]
+        }
+    ],
+    "hash_id": "919_coco_train2017_000000053939.jpg"
+}

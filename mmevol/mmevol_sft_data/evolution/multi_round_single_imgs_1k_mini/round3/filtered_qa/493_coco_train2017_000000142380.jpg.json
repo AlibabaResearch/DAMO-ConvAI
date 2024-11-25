@@ -1,0 +1,167 @@
+{
+    "id": "000000142380",
+    "image": "coco/train2017/000000142380.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the two people in the image holding a snowboard or snowboards?",
+            "steps": [],
+            "answer": "The two people in the image are holding a single snowboard."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of the image? A city street or a snow-covered hill?",
+            "steps": [],
+            "answer": "The image is set on a city street, where the man and woman are standing together in the snow with a snowboard."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What time of day does the image appear to be taken?",
+            "steps": [],
+            "answer": "The image appears to be taken at night, as the man and woman are seen on a snowy street during nighttime hours."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the two people doing in the image?",
+            "steps": [],
+            "answer": "The two people in the image are standing together, holding a snowboard, and engaging in a conversation. The man is carrying the snowboard, and they seem to be discussing something, possibly related to snowboarding or their plans for the evening."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The image features a man and a woman standing together on a snowy city street at night, both holding a snowboard. The man is carrying his snowboard and talking to his friend while surrounded by the snowy landscape. The woman has her snowboard and is holding a handbag, while the man appears to have a backpack. \n\nSeveral parked cars can be seen along the street, with one on the right side, one on the left, and three others further behind. The scene gives a taste of a winter pastime, as the couple likely prepares for a snowboarding adventure."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What outdoor activity might the two individuals in the snow be planning to engage in, and what challenge could they face in the city?",
+            "steps": [],
+            "answer": "The two individuals in the snow are holding a snowboard, which suggests that they might be planning to engage in snowboarding or have just finished participating in the activity. Snowboarding is typically done on snow-covered slopes or hills in the winter. However, the challenge they face is that they are on a snowy city street, not on a ski resort or hilly terrain suitable for snowboarding. Navigating to a proper location for snowboarding or finding a suitable spot within the city could prove difficult, as urban areas are not ideally designed for snow sports."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Describe the following image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the quiet serenity of a snowy night, a couple finds warmth in each other's arms on a sidewalk. The man, with a guitar case in his hand, suggests a musician returning home from a late-night gig. Their affectionate embrace under the soft glow of the streetlight paints a picture of love and companionship.\n\nThe street they stand on is blanketed in fresh snow, untouched except for their footprints. Parked cars line the side of the street, their surfaces dusted with snow, mirroring the peacefulness of the night.\n\nIn the background, a house adorned with twinkling Christmas lights adds to the festive atmosphere. The lights, in various colors, illuminate the snowy landscape with a soft glow, creating a picturesque winter scene.\n\nThis image captures not just a moment, but tells a story of love, music, and holiday cheer in the heart of winter."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.44759374999999996,
+                0.4305910165484633,
+                0.6164531249999999,
+                0.5858156028368794
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.3935,
+                0.39893617021276595,
+                0.516515625,
+                0.5213947990543736
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.0,
+                0.44943262411347523,
+                0.19753125,
+                0.6089834515366431
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.323953125,
+                0.416548463356974,
+                0.43325,
+                0.8450827423167849
+            ]
+        },
+        {
+            "label": "snowboard",
+            "bbox": [
+                0.190625,
+                0.48900709219858157,
+                0.42328124999999994,
+                0.7957446808510639
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.256953125,
+                0.48085106382978726,
+                0.32562499999999994,
+                0.6189361702127659
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.37892187499999996,
+                0.7102364066193854,
+                0.43703125,
+                0.8173995271867612
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.6097187500000001,
+                0.46423167848699765,
+                0.6896093750000001,
+                0.5543735224586288
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.248265625,
+                0.4035224586288416,
+                0.41034375,
+                0.5445390070921986
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.28378125,
+                0.40304964539007093,
+                0.3571875,
+                0.8544917257683217
+            ]
+        }
+    ],
+    "hash_id": "493_coco_train2017_000000142380.jpg"
+}

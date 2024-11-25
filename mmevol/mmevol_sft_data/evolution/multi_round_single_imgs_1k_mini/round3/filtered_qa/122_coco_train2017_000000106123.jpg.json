@@ -1,0 +1,266 @@
+{
+    "id": "000000106123",
+    "image": "coco/train2017/000000106123.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the man doing in the apartment?",
+            "steps": [],
+            "answer": "The man in the apartment is standing and holding a cell phone, possibly observing his surroundings or pointing at something in the well-organized studio apartment."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the lighting condition in the apartment?",
+            "steps": [],
+            "answer": "The lighting in the apartment is great, with plenty of natural light coming in through the windows."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "In which specific area of the apartment is the man standing?",
+            "steps": [],
+            "answer": "The man is standing in the middle of the kitchen, next to a countertop."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the apartment well-organized or cluttered?",
+            "steps": [],
+            "answer": "The apartment, specifically the studio kitchen, appears to be well-organized."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can we infer about the man's lifestyle from the image?",
+            "steps": [],
+            "answer": "Based on the image, we can infer that the man likely values organization and tidiness, as his apartment appears to be well-maintained and clutter-free. The fact that he's holding a cell phone suggests that he might be documenting his living space or sharing something he has noticed with others. It could mean that he takes pride in maintaining his living environment or that he's sharing a moment with someone remotely.\n\nThe ample natural light in the apartment could also indicate that he appreciates bright, open spaces, which can contribute positively to a person's overall well-being and mental health. Additionally, since he is observed within the kitchen area, it might hint at an interest in cooking or spending time preparing meals. This could imply that the man is health-conscious or enjoys the creativity and engagement involved in culinary activities.\n\nIn summary, from this image, we can infer that the man may have an inclination towards organization, cleanliness, and a preference for bright living spaces. He may also have an interest in cooking and maintaining a healthy lifestyle, while using technology to stay connected to others."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "A young man is standing in the middle of a well-organized studio apartment. He is holding a cell phone, possibly observing his surroundings or pointing at something in the apartment. The apartment has great lighting, thanks to the windows letting in natural light.\n\nThe apartment is furnished with various items, including a couch, a bed, and another bed located in a different part of the room. A television, microwave, sink, and oven are set up in the space, making the area a functional kitchen as well. There are other items scattered throughout the apartment, such as a potted plant, chairs, books, vases, cups, and a handbag. Additionally, there are two backpacks placed in different parts of the room. Overall, this space seems comfortable and well-designed with a mix of living and kitchen areas."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the center of the image, a man stands in a modern kitchen, his gray shirt contrasting with the white countertop that stretches out before him. His blue jeans blend with the cool tones of the stainless steel oven and microwave to his right, and the black refrigerator to his left. \n\nBeyond the kitchen, a living room unfolds. A gray couch sits invitingly, facing a white bookshelf that stands against the wall. The objects on the bookshelf are indistinct, adding an air of mystery to the scene.\n\nFurther in the background, a bedroom can be seen. A white bed, dressed with a black comforter, promises rest and relaxation. A black dresser stands nearby, its dark color echoing the comforter on the bed.\n\nThe man's gaze is directed towards the bedroom, suggesting a connection or interest in that space. The overall scene is one of modern comfort and style."
+        }
+    ],
+    "det": [
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.514046875,
+                0.2968794326241135,
+                0.5575,
+                0.36598108747044916
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.1879375,
+                0.408581560283688,
+                0.22368749999999998,
+                0.524822695035461
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.265296875,
+                0.5559338061465721,
+                0.325546875,
+                0.7699290780141844
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.1315,
+                0.7985342789598108,
+                0.38068749999999996,
+                0.9996217494089834
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.589328125,
+                0.27030732860520096,
+                0.8220625,
+                0.9881560283687943
+            ]
+        },
+        {
+            "label": "bed",
+            "bbox": [
+                0.35978125,
+                0.5090543735224586,
+                0.436015625,
+                0.6340189125295508
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.6949687499999999,
+                0.8815839243498819,
+                0.7172031249999999,
+                0.9287706855791962
+            ]
+        },
+        {
+            "label": "microwave",
+            "bbox": [
+                0.6753125,
+                0.13411347517730496,
+                0.8026249999999999,
+                0.28981087470449174
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.8974375,
+                0.4656973995271868,
+                0.98609375,
+                0.5663120567375887
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.14645312500000002,
+                0.5028132387706856,
+                0.170265625,
+                0.5693853427895981
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.17767187499999998,
+                0.603758865248227,
+                0.1943125,
+                0.6460047281323877
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.911984375,
+                0.35418439716312056,
+                0.9372656249999999,
+                0.4424113475177305
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.931953125,
+                0.3505437352245863,
+                0.9541250000000001,
+                0.44416075650118203
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.33382812500000003,
+                0.5616548463356974,
+                0.38415625000000003,
+                0.6681323877068558
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.521046875,
+                0.399692671394799,
+                0.56671875,
+                0.4585579196217494
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.23684375000000002,
+                0.5487706855791962,
+                0.25640625000000006,
+                0.5884633569739952
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.70746875,
+                0.3425531914893617,
+                0.8524843749999998,
+                0.4767848699763593
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.3525,
+                0.08926713947990543,
+                0.43178124999999995,
+                0.18735224586288415
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.22149999999999997,
+                0.5866430260047282,
+                0.24293749999999997,
+                0.6292434988179669
+            ]
+        },
+        {
+            "label": "bed",
+            "bbox": [
+                0.494171875,
+                0.3539007092198581,
+                0.6159843749999999,
+                0.5732151300236406
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.17440625,
+                0.5920567375886525,
+                0.194796875,
+                0.6345862884160757
+            ]
+        }
+    ],
+    "hash_id": "122_coco_train2017_000000106123.jpg"
+}

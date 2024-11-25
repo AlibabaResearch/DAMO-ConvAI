@@ -1,0 +1,293 @@
+{
+    "id": "000000033761",
+    "image": "coco/train2017/000000033761.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image features a woman standing in a small, well-equipped kitchen. She is positioned towards the right side of the kitchen. On the counter in front of her, there are two vases filled with beautiful yellow and red flowers that add color and warmth to the space.\n\nThe kitchen is filled with various items, including an oven on the left side and another one in the background on the right. The countertop is occupied by a collection of cups, spoons, and knives, as well as several bottles placed nearby. A few bowls can also be seen further back on the counter, giving the impression of a professional and organized kitchen setting."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How can the woman ensure that her kitchen remains visually appealing and well-organized?",
+            "steps": [],
+            "answer": "To maintain a visually appealing and well-organized kitchen, the woman can follow some best practices. Firstly, she can declutter the countertops and store any unnecessary items in cabinets or shelves. For example, there are various cups, bottles, and utensils scattered on the surfaces that can be neatly placed in designated storage areas. Secondly, she should keep all essential tools and appliances, like knives, spoons, and ovens, readily accessible to make cooking and food preparation more efficient.\n\nAnother aspect to consider is cleanliness \u2013 ensuring that the kitchen is regularly cleaned can make the space feel more inviting and organized. The woman can also enhance the aesthetic appeal by adding decorative elements like the yellow and red flowers she already has in the vases on the counter. These simple touches of color and natural beauty can elevate the overall appearance of the kitchen. Additionally, she can arrange the displayed items, like vases and cups, symmetrically or in groupings to make the space look more cohesive and visually balanced."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nDescribe the following image."
+        },
+        {
+            "from": "gpt",
+            "value": "Here are the detailed captions for the image:\n\n1. This is a photo of a kitchen counter with a bouquet of flowers, a bell, and a person in the background.\n    - The bouquet of flowers is in two clear glass vases. The flowers are red, yellow, and green.\n    - The bell is silver and is on the right side of the counter.\n    - The person in the background is wearing a white chef's hat and is standing in front of a stove.\n    - The counter is made of wood and is in the foreground of the photo.\n    - The background consists of a kitchen with white cabinets and a window.\n\n2. This is a photo of a kitchen counter with a bouquet of flowers and a bell.\n    - The bouquet of flowers is in two clear glass vases. The flowers are red, yellow, and green.\n    - The bell is silver and is on the right side of the counter.\n    - The counter is made of wood and is in the foreground of the photo.\n    - The background consists of a kitchen with white cabinets.\n\nPlease note that these descriptions are based on the image provided and may not cover every detail. Let me know if you need more information! \ud83d\ude0a"
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.65796875,
+                0.23595936794582392,
+                0.8026250000000001,
+                0.6921444695259594
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.9593281250000001,
+                0.3212189616252822,
+                0.9843125,
+                0.36562076749435674
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.8350156249999999,
+                0.3634085778781039,
+                0.8749531249999999,
+                0.40950338600451475
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.955890625,
+                0.32108352144469526,
+                0.9842187499999999,
+                0.36444695259593685
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.777359375,
+                0.5932054176072236,
+                1.0,
+                0.7212415349887134
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.26909375,
+                0.5775169300225733,
+                0.34065625,
+                0.7730248306997742
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.276578125,
+                0.19494356659142212,
+                0.30432812499999995,
+                0.267313769751693
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.199078125,
+                0.19024830699774267,
+                0.222453125,
+                0.2568848758465011
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.1410625,
+                0.18724604966139954,
+                0.16799999999999998,
+                0.2512866817155756
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.23178125,
+                0.11663656884875846,
+                0.25584375000000004,
+                0.17808126410835215
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.28335937499999997,
+                0.12108352144469527,
+                0.317234375,
+                0.18602708803611737
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.253859375,
+                0.2818284424379232,
+                0.27317187499999995,
+                0.33404063205417606
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.22712500000000002,
+                0.19828442437923252,
+                0.24875000000000003,
+                0.2577200902934537
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.20296875,
+                0.11293453724604967,
+                0.22984374999999999,
+                0.17227990970654625
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.068765625,
+                0.48681715575620765,
+                0.166140625,
+                0.5505643340857788
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.37040625,
+                0.5964334085778782,
+                0.433375,
+                0.7812866817155757
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.047,
+                0.19054176072234763,
+                0.08328125,
+                0.24562076749435666
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.1410625,
+                0.10611738148984198,
+                0.160671875,
+                0.16729119638826184
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.170453125,
+                0.19042889390519188,
+                0.197,
+                0.254920993227991
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.108421875,
+                0.007291196388261851,
+                0.14320312500000001,
+                0.08327313769751692
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.162,
+                0.014695259593679458,
+                0.19756250000000003,
+                0.08677200902934537
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.19975,
+                0.017381489841986456,
+                0.237796875,
+                0.09397291196388262
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.02909375,
+                0.2779232505643341,
+                0.0469375,
+                0.32431151241534995
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.304640625,
+                0.20609480812641082,
+                0.3268125,
+                0.26677200902934534
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.9329375000000001,
+                0.30063205417607225,
+                0.9547500000000001,
+                0.3620767494356659
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.0,
+                0.6155756207674943,
+                0.14742187499999998,
+                0.9844243792325057
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.321625,
+                0.02672686230248307,
+                0.35409375,
+                0.10428893905191874
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.19724999999999998,
+                0.2728442437923251,
+                0.216453125,
+                0.3313995485327314
+            ]
+        }
+    ],
+    "hash_id": "281_coco_train2017_000000033761.jpg"
+}

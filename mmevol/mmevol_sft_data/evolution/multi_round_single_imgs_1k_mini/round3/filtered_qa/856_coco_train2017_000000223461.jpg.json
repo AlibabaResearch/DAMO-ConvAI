@@ -1,0 +1,176 @@
+{
+    "id": "000000223461",
+    "image": "coco/train2017/000000223461.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What unique scene are the people observing from the top of the wall and how does it relate to their surroundings?",
+            "steps": [],
+            "answer": "The group of four people is standing on top of a towering stone wall, observing a unique scene of multiple elephants grazing comfortably in the field below. This interaction of natural wildlife amidst the vast landscape provides a picturesque and rare experience for the observers. It is not common to witness such a gathering of elephants within close proximity to human-built structures, making this an exciting and memorable moment for the people on the wall. It signifies the potential coexistence of human habitats and wildlife, allowing the observers to appreciate nature and the importance of conservation efforts. The presence of backpacks indicates that this might be a planned tour or venture into the wilderness for the people to witness this captivating scene."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What's happening in the scene?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the vast expanse of the savanna, under the blue sky dotted with scattered clouds, a group of four people stand on a stone platform, observing the spectacle before them. The platform, made of stone bricks, is positioned on the left side of the image. Two of the individuals lean on the railing, their eyes captivated by the scene unfolding in the distance.\n\nThe savanna landscape stretches as far as the eye can see, meeting the horizon in a delicate dance of earth and sky. Amidst this sprawling vista, several groups of animals can be seen. Elephants, antelopes, and zebras have gathered around a watering hole located in the center of the image. The watering hole serves as a beacon of life amidst the vastness of the savanna, drawing in creatures big and small.\n\nThe image captures a moment frozen in time, where humans and animals coexist peacefully in the grandeur of nature. It's a scene that speaks volumes about the beauty and diversity of life on our planet."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.173234375,
+                0.6700833333333333,
+                0.22662500000000002,
+                0.8985
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.24879687499999997,
+                0.67175,
+                0.321609375,
+                0.8842083333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.430640625,
+                0.6836875,
+                0.507234375,
+                0.8993541666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.488859375,
+                0.6945208333333334,
+                0.58875,
+                0.9162916666666666
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.254578125,
+                0.7135416666666666,
+                0.288921875,
+                0.7726041666666668
+            ]
+        },
+        {
+            "label": "elephant",
+            "bbox": [
+                0.289484375,
+                0.5530833333333334,
+                0.30003125,
+                0.5756666666666667
+            ]
+        },
+        {
+            "label": "elephant",
+            "bbox": [
+                0.26160937500000003,
+                0.5589375000000001,
+                0.28115625,
+                0.5767500000000001
+            ]
+        },
+        {
+            "label": "elephant",
+            "bbox": [
+                0.23953125000000003,
+                0.5688541666666667,
+                0.252328125,
+                0.5877291666666667
+            ]
+        },
+        {
+            "label": "elephant",
+            "bbox": [
+                0.234953125,
+                0.5498125,
+                0.24775,
+                0.5733333333333335
+            ]
+        },
+        {
+            "label": "elephant",
+            "bbox": [
+                0.2106875,
+                0.5593333333333333,
+                0.23546874999999998,
+                0.5808333333333333
+            ]
+        },
+        {
+            "label": "elephant",
+            "bbox": [
+                0.126953125,
+                0.6246458333333333,
+                0.156453125,
+                0.6546666666666667
+            ]
+        },
+        {
+            "label": "elephant",
+            "bbox": [
+                0.04875,
+                0.6426041666666666,
+                0.0719375,
+                0.6768541666666666
+            ]
+        },
+        {
+            "label": "elephant",
+            "bbox": [
+                0.014109374999999999,
+                0.6176458333333333,
+                0.031203124999999998,
+                0.636375
+            ]
+        },
+        {
+            "label": "elephant",
+            "bbox": [
+                0.01,
+                0.6491041666666667,
+                0.024453125,
+                0.6775625000000001
+            ]
+        },
+        {
+            "label": "elephant",
+            "bbox": [
+                0.909765625,
+                0.6332083333333334,
+                0.9362343750000001,
+                0.6588125
+            ]
+        },
+        {
+            "label": "elephant",
+            "bbox": [
+                0.03215625,
+                0.6471041666666667,
+                0.048921875,
+                0.6644583333333334
+            ]
+        }
+    ],
+    "hash_id": "856_coco_train2017_000000223461.jpg"
+}

@@ -1,0 +1,190 @@
+{
+    "id": "000000068914",
+    "image": "coco/train2017/000000068914.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are featured in the image?",
+            "steps": [],
+            "answer": "The image features two people."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where are the people located?",
+            "steps": [],
+            "answer": "The two people are located in a wooded field, walking towards a recreational area with tents and chairs."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of event or venue is shown in the image?",
+            "steps": [],
+            "answer": "The image shows an outdoor venue or event, likely a recreational or social gathering, in a woodland setting. There are tents, chairs, and two blue umbrellas present in the scene."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people doing in the image?",
+            "steps": [],
+            "answer": "The two people, who are women, are either walking towards the tents or standing near the two blue umbrellas that are covering chairs."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of area is surrounding the outdoor venue?",
+            "steps": [],
+            "answer": "The outdoor venue is surrounded by a wooded field, creating a natural and picturesque setting for the event."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "The image showcases an outdoor venue set within a wooded field. There are two women walking towards the recreational area where two tents are erected. Near the tents, there are four chairs, two of which are covered by blue umbrellas, providing shade and protection from the sun. Two dining tables are also present at the venue, situated next to the chairs. Both women are carrying handbags as they make their way through the area. The entire scene conveys a casual and relaxed atmosphere during an outdoor event."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What activities could these people be participating in at this outdoor venue?",
+            "steps": [],
+            "answer": "In the image, two women are walking towards an outdoor recreational area where there are a couple of blue umbrellas covering chairs, as well as a few other chairs and dining tables in the presence of trees. Based on this scene, it is possible that this wooded field is set up for social gatherings or outdoor activities. The people could be participating in activities such as a picnic, a barbecue, a casual get-together with friends and family, or even attending an outdoor event or festival. They might enjoy their time by engaging in conversations, dining together, and sharing various recreational experiences in the beautiful, natural surroundings."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Can you describe the main features of this image for me?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a lush, verdant forest, a small gathering takes place. Three individuals, two standing and one seated, are scattered across the scene. The standing duo is positioned near a collection of vibrant red chairs on the left side of the image, hinting at a casual outdoor meeting or perhaps a picnic. \n\nOn the opposite side, towards the right, a solitary figure sits near a cluster of blue umbrellas, providing a stark contrast to the surrounding greenery. The umbrellas, with their cool hue, seem to be waiting patiently to serve their purpose against any unforeseen rain.\n\nThe background is a tapestry of towering trees, their leaves whispering stories of the forest. A power line cuts across the scene, a subtle reminder of human presence in this natural setting. The overall color palette is dominated by shades of green, punctuated by splashes of blue and red from the umbrellas and chairs respectively. \n\nThis image paints a serene picture of an outdoor gathering, where nature and human-made objects coexist in harmony."
+        }
+    ],
+    "det": [
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.47178125,
+                0.49232352941176466,
+                0.7480156250000001,
+                0.6420588235294117
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.439984375,
+                0.7469705882352942,
+                0.4866093749999999,
+                0.8292058823529412
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.47657812499999996,
+                0.7521176470588236,
+                0.506546875,
+                0.8215882352941176
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.8188593750000001,
+                0.6240294117647058,
+                0.863875,
+                0.7467058823529411
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.957734375,
+                0.623,
+                0.9995468750000001,
+                0.7246470588235294
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.7338281249999999,
+                0.6667647058823529,
+                0.80003125,
+                0.7623823529411764
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.8743124999999999,
+                0.6646764705882353,
+                0.93578125,
+                0.7517941176470588
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.328875,
+                0.6414705882352941,
+                0.3601875,
+                0.8224117647058824
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.276765625,
+                0.6367058823529411,
+                0.316859375,
+                0.8290882352941176
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.29803125,
+                0.6746764705882352,
+                0.313078125,
+                0.7440294117647058
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.34021875,
+                0.6688823529411765,
+                0.35634375,
+                0.741235294117647
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.728234375,
+                0.44494117647058823,
+                0.999234375,
+                0.8067352941176471
+            ]
+        }
+    ],
+    "hash_id": "767_coco_train2017_000000068914.jpg"
+}

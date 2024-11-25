@@ -1,0 +1,500 @@
+{
+    "id": "000000144018",
+    "image": "coco/train2017/000000144018.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of water body are the wooden rafts and people with umbrellas near?",
+            "steps": [],
+            "answer": "The wooden rafts and people with umbrellas are near a body of water which could be a lake, river, or a beach by the ocean. However, the definite type of water body cannot be concluded solely from the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What objects are on the water in the image?",
+            "steps": [],
+            "answer": "There are wooden rafts on the water, some of which have colorful umbrellas on them."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the people with umbrellas in the water or standing on the shore?",
+            "steps": [],
+            "answer": "The people with umbrellas are standing on the shore and not in the water."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are some of the activities people are engaging in at the location?",
+            "steps": [],
+            "answer": "Some of the possible activities people are engaged in based on the image are enjoying time near the water, operating small wooden rafts, using colorful umbrellas for sunshade, and socializing with each other. There may also be water sports or leisurely activities such as swimming or sunbathing, but that cannot be confirmed without additional information about the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the umbrellas on the rafts and the umbrellas held by people similar in appearance?",
+            "steps": [],
+            "answer": "Yes, both the umbrellas on the wooden rafts and those held by people are similar in appearance, as described as being colorful or featuring rainbow colors. This suggests that the umbrellas serve a common purpose, such as providing shade or aesthetically enhancing the setting for the visitors at the location."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "The image depicts a lively beach scene with a group of people standing on the shore near small wooden rafts. Several boats are scattered around the waters, with some people potentially preparing to set sail. The beach is colorful and vibrant, featuring numerous umbrellas in various sizes and captivating rainbow colors, providing shade for the beachgoers. \n\nIn addition to the people and boats, there are multiple beach chairs dispersed throughout the area for people to relax and enjoy the view. Some handbags and a bottle are placed near the shore, perhaps belongings of those who are conversing, preparing their boats, or taking a dip in the water."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How are the people at the beach protecting themselves from the sun?",
+            "steps": [],
+            "answer": "The people at the beach are protecting themselves from the sun by using umbrellas. In the image, there are at least ten colorful umbrellas that appear to be either on the shore or attached to small wooden rafts floating in the water. These umbrellas provide shade for both the individuals standing by the water and those on the rafts, helping to shield them from the sun's rays and keep them cool during their time at the beach."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Describe the following image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the serene setting of this image, a lively group of people are enjoying a day out on a calm river, their bamboo rafts floating gently on the water's surface. The rafts, bound together by sturdy ropes, are adorned with vibrant umbrellas in shades of yellow, red, and blue, providing a colorful contrast to the surrounding greenery. \n\nThe people, donned in safety orange life jackets, are engaged in various activities - some are walking on the rafts, exploring their buoyant surroundings, while others have chosen to sit under the protective shade of the umbrellas, perhaps taking a moment to appreciate the beauty around them.\n\nThe riverbank is a lush expanse of green trees, standing tall and proud. Their reflection dances on the water surface, creating a mirror image that adds to the tranquility of the scene. Beyond the riverbank, majestic mountains rise in the background, their peaks lost in the misty horizon.\n\nThis picturesque scene is a harmonious blend of human activity and natural beauty - a moment frozen in time that speaks volumes about the simple pleasures of life."
+        }
+    ],
+    "det": [
+        {
+            "label": "handbag",
+            "bbox": [
+                0.312359375,
+                0.8288524590163935,
+                0.34187500000000004,
+                0.9027634660421546
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.0721875,
+                0.6269320843091335,
+                0.11915625,
+                0.7486182669789226
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.827734375,
+                0.6888290398126463,
+                0.87928125,
+                0.921639344262295
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.233734375,
+                0.6487587822014051,
+                0.32432812499999997,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.025343749999999998,
+                0.5683138173302107,
+                0.11456249999999998,
+                0.9875175644028102
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.83925,
+                0.5449414519906323,
+                0.9409218750000001,
+                0.6617330210772834
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.597546875,
+                0.4620374707259953,
+                0.7340312499999999,
+                0.6966276346604215
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.57346875,
+                0.3998126463700234,
+                0.598265625,
+                0.48882903981264636
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.32815625000000004,
+                0.3949648711943794,
+                0.389625,
+                0.4378454332552693
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.409578125,
+                0.4028103044496487,
+                0.45028125,
+                0.5294847775175644
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.456640625,
+                0.3923887587822014,
+                0.474421875,
+                0.5009836065573771
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.6060156250000001,
+                0.42222482435597186,
+                0.6339218750000001,
+                0.5144496487119438
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.620703125,
+                0.38707259953161594,
+                0.7166718750000001,
+                0.4544964871194379
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.10709375000000002,
+                0.6568384074941452,
+                0.121234375,
+                0.7196955503512881
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.5151875,
+                0.8316861826697892,
+                0.6402656250000001,
+                0.9727868852459016
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.60403125,
+                0.7104918032786885,
+                0.694921875,
+                0.8227400468384075
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.159796875,
+                0.5646604215456675,
+                0.1958125,
+                0.687704918032787
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.212875,
+                0.5481030444964871,
+                0.267125,
+                0.6468384074941451
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.19824999999999998,
+                0.5228337236533958,
+                0.22228124999999999,
+                0.6134192037470726
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.354828125,
+                0.5102107728337237,
+                0.39375,
+                0.6555035128805622
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5622499999999999,
+                0.4644730679156909,
+                0.593765625,
+                0.5864168618266979
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5524218750000001,
+                0.4557611241217799,
+                0.574875,
+                0.5378454332552693
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.793203125,
+                0.5361592505854801,
+                0.8403593749999999,
+                0.6688290398126463
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.45025000000000004,
+                0.5793208430913349,
+                0.759609375,
+                0.683536299765808
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.48121875000000003,
+                0.5448477751756441,
+                0.658890625,
+                0.6476346604215457
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.352453125,
+                0.7227400468384075,
+                0.78309375,
+                1.0
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.324359375,
+                0.5508430913348946,
+                0.5005312500000001,
+                0.6734894613583138
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.27553125,
+                0.5551053864168618,
+                0.35675,
+                0.6528337236533958
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.36328125,
+                0.685128805620609,
+                0.968171875,
+                0.9371896955503513
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.630046875,
+                0.42370023419203745,
+                0.64675,
+                0.4776814988290398
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.11159375,
+                0.5877985948477752,
+                0.177,
+                0.6322716627634661
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.616125,
+                0.5771896955503513,
+                0.67128125,
+                0.6731615925058548
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.62553125,
+                0.7189929742388759,
+                0.671546875,
+                0.7513348946135832
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7963125,
+                0.634543325526932,
+                0.8721406249999999,
+                0.7414754098360656
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.77934375,
+                0.6246604215456675,
+                0.86034375,
+                0.7187822014051523
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.59571875,
+                0.5670491803278689,
+                0.657640625,
+                0.6136065573770492
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.56946875,
+                0.808360655737705,
+                0.6843125,
+                0.8630913348946136
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.127125,
+                0.41079625292740046,
+                0.22893749999999996,
+                0.584847775175644
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.26703125,
+                0.5124355971896956,
+                0.28315625,
+                0.5422716627634661
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.028625,
+                0.4501873536299766,
+                0.044125000000000004,
+                0.4908899297423887
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.04353125,
+                0.4511241217798595,
+                0.059687500000000004,
+                0.4900936768149882
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.7580312499999999,
+                0.5477049180327869,
+                0.81690625,
+                0.6163231850117097
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.408765625,
+                0.6292037470725995,
+                0.75940625,
+                0.7221311475409836
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.06937499999999999,
+                0.45524590163934425,
+                0.085859375,
+                0.48295081967213116
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9323281250000001,
+                0.5680093676814988,
+                0.9979062500000001,
+                0.7085011709601873
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.75871875,
+                0.46362997658079624,
+                0.925421875,
+                0.5402341920374707
+            ]
+        }
+    ],
+    "hash_id": "209_coco_train2017_000000144018.jpg"
+}

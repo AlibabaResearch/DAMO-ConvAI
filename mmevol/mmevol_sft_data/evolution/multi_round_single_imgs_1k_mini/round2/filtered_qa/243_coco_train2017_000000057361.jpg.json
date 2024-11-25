@@ -1,0 +1,481 @@
+{
+    "id": "000000057361",
+    "image": "coco/train2017/000000057361.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The image shows a bustling city scene during the day. A busy street filled with cars and motorcycles stretches across the scene, and various modes of transportation such as bicycles and trucks can also be spotted. Buildings line the street, adding to the urban atmosphere.\n\nNumerous people are walking throughout the area, some crossing the street, and others scattered along the sidewalk. A few of them carry items like umbrellas, handbags, or suitcases. In addition to vehicles, there are also several traffic lights placed at various intervals along the road to aid in the flow of traffic. Overall, the image provides a view of a lively city street with people and vehicles moving about throughout the day."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Considering the various modes of transportation visible in the image, how are people likely to navigate the busy city in this particular setting?",
+            "steps": [],
+            "answer": "In the image, people are navigating the busy city using various modes of transportation. They can be seen crossing the street on foot, which indicates that walking could be a popular and convenient way to move around in the city center. Additionally, there are bicycles, motorcycles, cars, and trucks visible in the scene, suggesting that both motorized and non-motorized vehicles are being used to commute and transport goods. The presence of traffic lights also implies that the city has an organized traffic system in place to manage the flow of pedestrians and vehicles. Therefore, people in this city setting may choose their mode of transportation based on factors such as distance, time, and personal preferences, relying on the organized traffic system to safely navigate through the busy streets."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you elaborate on the elements of the picture provided?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a vibrant and bustling street scene in Japan. The street, teeming with life, is filled with a multitude of cars and pedestrians going about their day. The buildings, predominantly white and gray, rise on either side of the street, their facades adorned with a riot of colorful signs and advertisements that add a lively splash of color to the scene.\n\nThe sky above is a clear blue, providing a serene backdrop to the bustling activity below. Lining the street are trees, their green leaves adding a touch of nature to the urban landscape. Scattered throughout the scene are traffic lights and street lamps, standing like sentinels overseeing the orderly flow of traffic.\n\nThe image is taken from an elevated position, offering a bird's eye view of the street. This perspective allows for a comprehensive view of the scene, from the people crossing the street to the cars navigating their way through traffic.\n\nDespite the image's complexity, everything appears harmonious and well-ordered. The relative positions of objects - from the pedestrians crossing the street to the cars waiting patiently at the traffic lights - suggest a well-regulated flow of urban life.\n\nUnfortunately, any text present in the image is too small and blurry to be transcribed accurately. However, this does not detract from the overall impression of a dynamic and vibrant cityscape."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.086140625,
+                0.8169711538461539,
+                0.11567187500000001,
+                0.8771153846153846
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.459078125,
+                0.6468750000000001,
+                0.47357812499999996,
+                0.681923076923077
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.222703125,
+                0.7113461538461539,
+                0.24421875,
+                0.7749038461538462
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.4806875,
+                0.5884375,
+                0.53003125,
+                0.6556730769230769
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.49559375,
+                0.5717067307692308,
+                0.5348125,
+                0.6320432692307693
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.7711875,
+                0.7812259615384616,
+                0.8275,
+                0.8609134615384615
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.13874999999999998,
+                0.7865384615384615,
+                0.2054375,
+                0.8900480769230769
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.1181875,
+                0.8239423076923077,
+                0.17685937499999999,
+                0.8950480769230769
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.53478125,
+                0.37389423076923073,
+                0.54446875,
+                0.3836778846153846
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.763171875,
+                0.8599519230769231,
+                0.8514531250000001,
+                1.0
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.266953125,
+                0.8405288461538463,
+                0.37346874999999996,
+                1.0
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.066265625,
+                0.872235576923077,
+                0.18062499999999998,
+                0.9880048076923077
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.20299999999999999,
+                0.6638461538461539,
+                0.261796875,
+                0.7043509615384617
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.6174999999999999,
+                0.4460336538461539,
+                0.676515625,
+                0.4805769230769231
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.40698437500000006,
+                0.7150961538461539,
+                0.4289375000000001,
+                0.7646394230769231
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5015,
+                0.716298076923077,
+                0.5312812499999999,
+                0.8292067307692309
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.432078125,
+                0.7218028846153846,
+                0.46876562499999996,
+                0.8322115384615384
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.386953125,
+                0.7523076923076922,
+                0.4113125,
+                0.8647836538461539
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.364015625,
+                0.7337980769230769,
+                0.3893125,
+                0.8456009615384615
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.29862500000000003,
+                0.6875721153846153,
+                0.321375,
+                0.7750721153846153
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.360703125,
+                0.6223317307692308,
+                0.373578125,
+                0.7020432692307691
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.39665625000000004,
+                0.6242307692307693,
+                0.40846875000000005,
+                0.6818990384615385
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4185,
+                0.6338221153846154,
+                0.4362031249999999,
+                0.7126682692307693
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.388765625,
+                0.665673076923077,
+                0.41507812499999996,
+                0.7562740384615385
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.446953125,
+                0.615576923076923,
+                0.4655,
+                0.6814903846153846
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.34115625,
+                0.5707451923076923,
+                0.38282812499999996,
+                0.6284134615384616
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.7875,
+                0.9533894230769231,
+                0.898765625,
+                1.0
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.274703125,
+                0.7968269230769232,
+                0.376359375,
+                0.8814423076923077
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.5595625,
+                0.5865625,
+                0.600890625,
+                0.6522115384615385
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.16640625,
+                0.8491586538461539,
+                0.186890625,
+                0.8883173076923078
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.43346875,
+                0.48781250000000004,
+                0.4889843750000001,
+                0.5265865384615385
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.293265625,
+                0.6061538461538462,
+                0.35031249999999997,
+                0.6848798076923076
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.361828125,
+                0.4166346153846154,
+                0.393578125,
+                0.4334134615384615
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.45528124999999997,
+                0.3814423076923077,
+                0.46699999999999997,
+                0.40776442307692307
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.5715312499999999,
+                0.3832211538461538,
+                0.5939374999999999,
+                0.3959855769230769
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.614109375,
+                0.7148798076923076,
+                0.65040625,
+                0.841610576923077
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5509375000000001,
+                0.7734855769230768,
+                0.5702812500000001,
+                0.8628124999999999
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.44578125,
+                0.6535336538461538,
+                0.79078125,
+                0.8086538461538461
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.2296875,
+                0.7174038461538461,
+                0.24937499999999999,
+                0.7485096153846154
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.25910937500000003,
+                0.642235576923077,
+                0.27728125000000003,
+                0.6780048076923078
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.296625,
+                0.6039423076923077,
+                0.35368750000000004,
+                0.684423076923077
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.572859375,
+                0.3640865384615385,
+                0.5791875,
+                0.3721394230769231
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.50915625,
+                0.3626923076923077,
+                0.518171875,
+                0.38165865384615383
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.3969375,
+                0.6334855769230768,
+                0.4105,
+                0.6584855769230769
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.663,
+                0.6880769230769231,
+                0.69065625,
+                0.786923076923077
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.6585468750000001,
+                0.6404086538461539,
+                0.7146718750000001,
+                0.7159134615384617
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.395125,
+                0.8000240384615385,
+                0.41559375000000004,
+                0.8694951923076922
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.0,
+                0.9040625,
+                0.11009374999999999,
+                1.0
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.604671875,
+                0.4020913461538462,
+                0.608328125,
+                0.4122836538461539
+            ]
+        }
+    ],
+    "hash_id": "243_coco_train2017_000000057361.jpg"
+}

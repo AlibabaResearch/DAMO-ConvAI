@@ -2,8 +2,6 @@ import argparse
 import json
 import math
 import os
-import sys
-sys.path.append("/mnt/workspace/lr/workspace/Open-LLaVA-NeXT/")
 
 import argparse
 import json
@@ -94,10 +92,6 @@ def create_data_loader(questions, image_folder, tokenizer, image_processor, mode
 
 def eval_model(mate):
     args=mate
-    print(mate)
-    # os.environ['CUDA_VISIBLE_DEVICES']=str(idx%args.n_gpus)
-    # args.chunk_idx=idx
-    # args.answers_file=f"/mnt/workspace/lr/datasets/playground/playground/data/eval/gqa/answer_{idx}.jsonl"
     disable_torch_init()
     model_path = os.path.expanduser(args.model_path)
     model_name = get_model_name_from_path(model_path)
@@ -189,12 +183,12 @@ from tqdm import tqdm
 if __name__ == "__main__":
     # multiprocessing.set_start_method('spawn')
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="/mnt/workspace/lr/workspace/Open-LLaVA-NeXT/checkpoints/llava-v1.6-8b_llama3-8b_clip-large-336_debug_ablation_sft_seed/checkpoint-11213")
+    parser.add_argument("--model-path", type=str, default="mmevol/checkpoints/llava-v1.6-8b_llama3-8b_clip-large-336_debug_ablation_sft_seed/checkpoint-11213")
     parser.add_argument("--model-base", type=str, default=None)
-    parser.add_argument("--image-folder", type=str, default="/mnt/workspace/lr/datasets/gqa/images")
+    parser.add_argument("--image-folder", type=str, default="datasets/gqa/images")
     parser.add_argument("--question-file", type=str,
-                        default="/mnt/workspace/lr/datasets/playground/playground/data/eval/gqa/share4v_gqa_testdev_balanced.jsonl")
-    parser.add_argument("--answers-file", type=str, default="/mnt/workspace/lr/answers/llama3_seed_gqa_prediction.jsonl")
+                        default="datasets/playground/playground/data/eval/gqa/share4v_gqa_testdev_balanced.jsonl")
+    parser.add_argument("--answers-file", type=str, default="answers/llama3_seed_gqa_prediction.jsonl")
     # parser.add_argument("--conv-mode", type=str, default="qwen_2")
     parser.add_argument("--conv-mode", type=str, default="llava_llama_3")
     parser.add_argument("--num-chunks", type=int, default=1)

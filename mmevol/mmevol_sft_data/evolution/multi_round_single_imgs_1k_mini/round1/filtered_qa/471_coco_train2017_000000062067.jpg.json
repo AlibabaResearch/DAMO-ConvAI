@@ -1,0 +1,300 @@
+{
+    "id": "000000062067",
+    "image": "coco/train2017/000000062067.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are performing tricks and jumps in the image?",
+            "steps": [],
+            "answer": "There are three men performing tricks and jumps in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the people wearing any special clothing or gear for this activity?",
+            "steps": [],
+            "answer": "Yes, the people are wearing wetsuits and water skis for this activity."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of body of water are the water skiers performing stunts over?",
+            "steps": [],
+            "answer": "The water skiers are performing stunts over a large swimming pool filled with blue water."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe some of the stunts the water skiers are performing?",
+            "steps": [],
+            "answer": "The water skiers are executing various tricks that include jumping into the air, flipping, and potentially spinning or twisting. These stunts showcase their skill and athleticism while providing a thrilling spectacle for onlookers. Since the image captures only a single moment, it is not possible to detail every stunt performed by each skier, but the image conveys a sense of excitement and impressive aerial maneuvering."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The scene displays a group of water skiers in action, performing tricks and jumps over a large blue swimming pool. Three men on skis can be seen flying in the air while showcasing stunts. Other people in various positions around the pool are either observing the spectacle or preparing for their turn.\n\nIn addition to the skiers and spectators, there are several cars and trucks parked around the pool area. A few chairs are also situated nearby, providing seating options for those watching the thrilling water skiing display."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of water activity is being performed by people and what extra elements are in the scene that may be unusual for a water sports setting?",
+            "steps": [],
+            "answer": "The individuals in the image are performing water-skiing tricks over a large swimming pool, wearing wetsuits and water skis. They are jumping into the water and doing stunts, such as flips. What is unusual about this setting is the presence of various vehicles, such as cars and trucks, in the area surrounding the pool. Additionally, there are chairs nearby. This combination of elements is not commonly seen in a typical water sports setting, which usually focuses on water activities and lacks vehicular elements. The unique setup suggests that this water-skiing event may have been planned or hosted in a makeshift or non-traditional location, possibly for a special occasion or a competition."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Can you describe the main features of this image for me?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the given image, a breathtaking scene of extreme sports unfolds. Two daring individuals are captured in mid-air, performing awe-inspiring aerial stunts over a pool of water. They have launched themselves from a vibrant green ski ramp, which is held up by sturdy poles and wires.\n\nThe person on the left, clad in a striking black and red outfit, is in the midst of executing a daring flip. Their body is arched gracefully, creating a captivating silhouette against the sky.\n\nOn the right, another person is twisting their body in an impressive display of agility and control. They are wearing a blue and black outfit, which stands out vividly against the backdrop.\n\nThe background paints a serene picture with a cloudy sky and majestic mountains looming in the distance. The contrast between the tranquil scenery and the high-octane action creates a truly dynamic and exciting image."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.5038437499999999,
+                0.620472972972973,
+                0.5283749999999999,
+                0.6766554054054054
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.536296875,
+                0.15886824324324325,
+                0.6194375,
+                0.3094256756756757
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.161921875,
+                0.3181081081081081,
+                0.3349375,
+                0.40096283783783787
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.076546875,
+                0.6198817567567568,
+                0.09509375,
+                0.6706418918918919
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7772187500000001,
+                0.6303885135135135,
+                0.7922187500000001,
+                0.6622972972972972
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6205,
+                0.6070101351351351,
+                0.639796875,
+                0.6593581081081081
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.045484375,
+                0.6243074324324324,
+                0.06065625,
+                0.6725844594594594
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.932625,
+                0.24695945945945944,
+                1.0,
+                0.38413851351351347
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8196406250000001,
+                0.14670608108108107,
+                0.9985156250000001,
+                0.2692060810810811
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.541953125,
+                0.6146114864864866,
+                0.562015625,
+                0.6766047297297297
+            ]
+        },
+        {
+            "label": "skis",
+            "bbox": [
+                0.294328125,
+                0.31959459459459455,
+                0.38575,
+                0.5003209459459459
+            ]
+        },
+        {
+            "label": "skis",
+            "bbox": [
+                0.519671875,
+                0.1343243243243243,
+                0.713859375,
+                0.16826013513513513
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.23371875000000003,
+                0.6207263513513513,
+                0.2641875,
+                0.6655067567567567
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.074390625,
+                0.6036655405405406,
+                0.08451562500000001,
+                0.6355067567567568
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.0006406249999999999,
+                0.6154222972972972,
+                0.03703125,
+                0.6466554054054054
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.013890625,
+                0.6434797297297298,
+                0.048609374999999996,
+                0.6709628378378378
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.1781875,
+                0.6185135135135136,
+                0.23092187500000003,
+                0.6660135135135136
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.11515625,
+                0.6165878378378378,
+                0.163203125,
+                0.6600168918918918
+            ]
+        },
+        {
+            "label": "skis",
+            "bbox": [
+                0.771578125,
+                0.14858108108108106,
+                0.8964531250000001,
+                0.3250337837837838
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.43717187500000004,
+                0.6430405405405406,
+                0.4619531250000001,
+                0.6762668918918919
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.32621875,
+                0.6433952702702702,
+                0.34546875,
+                0.6770101351351351
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.2905,
+                0.6253209459459459,
+                0.3436875,
+                0.659206081081081
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.058296875000000005,
+                0.6124155405405406,
+                0.098484375,
+                0.6549324324324325
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.79415625,
+                0.599222972972973,
+                0.81546875,
+                0.6230405405405406
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.27265625,
+                0.6311993243243244,
+                0.29303124999999997,
+                0.6479054054054054
+            ]
+        }
+    ],
+    "hash_id": "471_coco_train2017_000000062067.jpg"
+}

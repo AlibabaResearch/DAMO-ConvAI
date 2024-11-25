@@ -1,0 +1,291 @@
+{
+    "id": "000000006935",
+    "image": "coco/train2017/000000006935.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are in the group walking with luggage?",
+            "steps": [],
+            "answer": "There is a group of three people consisting of one adult and two children walking with luggage down the sidewalk."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kinds of bags are the people carrying or pulling?",
+            "steps": [],
+            "answer": "The people are carrying and pulling a variety of bags, including backpacks, suitcases, and other pieces of luggage."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the people walking on a street or a sidewalk?",
+            "steps": [],
+            "answer": "The group of people is walking down a sidewalk with their luggage."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What does this scene suggest about the group's activity?",
+            "steps": [],
+            "answer": "The scene suggests that the group, consisting of an adult and two children, is likely traveling. They might be arriving at or departing from their destination. The presence of different pieces of luggage, such as bags, backpacks, and suitcases, indicates that they have packed their belongings for a trip. The fact that they are walking down a city street implies that they could be going to or coming from a transportation hub, such as a train station, bus station, or airport, or they could be making their way to or from their accommodations, like a hotel or an apartment. Overall, the scene depicts a travel-related moment where the group is navigating through the city with their luggage in tow."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The image captures a lively street scene filled with people of various ages walking down the sidewalk, pulling an assortment of luggage items behind them. The group consists of adults and children, some of whom are wearing backpacks, while others have suitcases and handbags. \n\nThe street is bustling with various vehicles, including cars, trucks, and a motorcycle parked on the side. The pedestrians appear to be travelers navigating the city, possibly on their way to or from a vacation or business trip. The presence of suitcases and backpacks hints at the sense of journey and movement in the scene."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What precautions should the people in the scene take while walking with their luggage in the busy city?",
+            "steps": [],
+            "answer": "While walking with their luggage in the busy city, the group of people should take some precautions to ensure their safety and smooth movement. These precautions include:\n\n1. Staying aware of their surroundings, especially when crossing streets or navigating through crowded areas, to avoid collisions and maintain a safe distance from vehicles like cars, trucks, and motorcycles.\n2. Keeping a firm grip on their suitcases, backpacks, and handbags to prevent theft or accidentally dropping their belongings.\n3. Teaching children in the group to walk attentively and stay close to the adults to minimize the risk of getting lost or separated.\n4. Making sure their luggage does not obstruct pedestrian traffic and being considerate while maneuvering around other pedestrians.\n5. Checking for any potential hazards on the sidewalk, like uneven surfaces or wet patches, which could lead to slipping or tripping accidents.\n\nBy following these precautions, the group can ensure a safe and enjoyable journey through the city streets."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image depicts a lively street scene. In the foreground, there are three individuals: two children and one adult. They appear to be on a journey, as indicated by the luggage they're carrying. The adult, dressed in a blue shirt and jeans, is also wearing a red backpack. The children are similarly equipped with backpacks, one blue and one red.\n\nThe street is bustling with activity. People can be seen walking on the sidewalk, and cars are parked along the side of the road. The buildings lining the street are brick, adding a rustic charm to the scene.\n\nOne building stands out in particular - a brick structure with a sign that reads \"MUSEUM\". It's located in the background of the image, near a blue car that's parked on the side of the road.\n\nOverall, this image captures a moment of travel and exploration in an urban setting."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.150546875,
+                0.16070422535211265,
+                0.396140625,
+                0.31699530516431923
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.153203125,
+                0.2306807511737089,
+                0.37978125,
+                0.44781690140845065
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.45220312500000004,
+                0.20650234741784038,
+                0.5313125000000001,
+                0.3724178403755869
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.57309375,
+                0.4150234741784038,
+                0.7029375,
+                0.6325117370892019
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.092625,
+                0.36924882629107986,
+                0.296015625,
+                0.7577464788732394
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.510875,
+                0.6781220657276995,
+                0.6558437500000001,
+                0.9976525821596244
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.37287499999999996,
+                0.5514084507042254,
+                0.46990625,
+                0.7766901408450705
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.14830985915492959,
+                0.282703125,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5519375,
+                0.32584507042253524,
+                0.7105,
+                0.8853990610328639
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.236359375,
+                0.40753521126760567,
+                0.334265625,
+                0.8091784037558686
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.244359375,
+                0.1587793427230047,
+                0.35979687499999996,
+                0.55518779342723
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.36393749999999997,
+                0.20652582159624414,
+                0.43603125,
+                0.5458215962441314
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.577734375,
+                0.18488262910798123,
+                0.6242656249999999,
+                0.34981220657276996
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.507703125,
+                0.16699530516431926,
+                0.5727031250000001,
+                0.45499999999999996
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.414875,
+                0.1316901408450704,
+                0.56953125,
+                0.7342488262910799
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6411875,
+                0.12906103286384976,
+                0.69103125,
+                0.39607981220657273
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5475625,
+                0.18556338028169014,
+                0.5855,
+                0.384037558685446
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.314546875,
+                0.18816901408450704,
+                0.42012499999999997,
+                0.26192488262910796
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.240828125,
+                0.6831455399061033,
+                0.3545,
+                0.9887558685446008
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5379375,
+                0.1681455399061033,
+                0.557734375,
+                0.22471830985915492
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.0,
+                0.15633802816901407,
+                0.043921875,
+                0.20657276995305165
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.23925000000000002,
+                0.1352582159624413,
+                0.46673437500000003,
+                0.2217605633802817
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.57021875,
+                0.16014084507042253,
+                0.594171875,
+                0.263075117370892
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.0,
+                0.2574413145539906,
+                0.253640625,
+                0.4277230046948357
+            ]
+        }
+    ],
+    "hash_id": "8_coco_train2017_000000006935.jpg"
+}

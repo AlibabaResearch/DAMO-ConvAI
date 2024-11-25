@@ -1,0 +1,505 @@
+{
+    "id": "000000077092",
+    "image": "coco/train2017/000000077092.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What types of boats are depicted in the image?",
+            "steps": [],
+            "answer": "The image features a variety of catamarans and other boats floating in the water, with some potentially preparing to set sail."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many boats are there in the water?",
+            "steps": [],
+            "answer": "While I cannot provide an exact count, the image shows a \"bunch\" of boats floating in the water, suggesting a substantial number of them."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of body of water are the boats in? River or narrow stream?",
+            "steps": [],
+            "answer": "The boats are floating in a river that is wider than a narrow stream. This river has sidewalks on both sides, suggesting it is part of a city landscape."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a man visible in any of the boats, and if so, what is he doing?",
+            "steps": [],
+            "answer": "Yes, there is a man visible in one of the boats, and he is sitting next to a dock."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Based on the presence of sidewalks and boats, what can you infer about the setting of the image?",
+            "steps": [],
+            "answer": "The presence of sidewalks on either side of the river and the variety of boats floating in it strongly suggest that the image was taken in an urban setting, possibly a city with waterways as a means of transportation or recreational activities. This type of environment often attracts tourists and residents alike, who engage in leisure activities such as boating, sightseeing, and socializing along the riverbanks. Additionally, the presence of catamarans and other boats may indicate that there is a thriving boating community or a nearby marina in the area. Overall, the setting appears to be lively and engaging, with a focus on waterfront activities and recreation."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image illustrates a city scene with a narrow stream flowing through it. On either side of the stream, sidewalks can be seen. Several boats, including a variety of catamarans, are floating on the water, seemingly preparing to set sail. Some boats are also docked near the sidewalks, and a man can be seen sitting in one of them.\n\nMany people are scattered throughout the scene, some standing on the sidewalks while others are in the boats. There are umbrellas positioned around the area, likely for sun protection. A number of benches can be found alongside the sidewalks, providing a place for people to sit and enjoy their surroundings. Apples and several bananas, possibly meant for consumption, are also noticed within the scene.\n\nOverall, this lively setting depicts a dynamic urban waterway being used for leisure and transportation."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What's happening in the scene?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of Thailand, a vibrant floating market bustles with life. Seven wooden boats, each painted in a unique color, bob gently on the green waters. Each boat is manned by a vendor, their heads shielded from the sun by traditional Thai hats. They sit or stand in their boats, peddling various items to passersby.\n\nThe boats are arranged in a line that extends from the foreground into the distance, creating a sense of depth. The closest boats are filled with details, while the ones further away blend into the background where buildings and umbrellas can be seen.\n\nThe scene is a symphony of colors and activity, a snapshot of daily life in Thailand's floating markets."
+        }
+    ],
+    "det": [
+        {
+            "label": "boat",
+            "bbox": [
+                0.0,
+                0.5225207756232687,
+                0.40271875,
+                0.932437673130194
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.522234375,
+                0.4060664819944598,
+                0.661671875,
+                0.6105540166204986
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.0208125,
+                0.8539058171745152,
+                0.32259374999999996,
+                1.0
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.000390625,
+                0.26581717451523545,
+                0.21628124999999998,
+                0.36706371191135734
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.26823437499999997,
+                0.2474792243767313,
+                0.475203125,
+                0.30662049861495844
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.366328125,
+                0.5280886426592798,
+                0.758,
+                0.7550692520775623
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.288234375,
+                0.40603878116343495,
+                0.36729687499999997,
+                0.5849584487534627
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.60715625,
+                0.5457063711911357,
+                0.7072968749999999,
+                0.7973684210526316
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.852453125,
+                0.18786703601108032,
+                0.999125,
+                0.9977008310249308
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.53721875,
+                0.15332409972299169,
+                0.562796875,
+                0.263213296398892
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.50046875,
+                0.16775623268698062,
+                0.538390625,
+                0.2170083102493075
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.74759375,
+                0.11534626038781164,
+                0.765765625,
+                0.18232686980609417
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.652328125,
+                0.1554016620498615,
+                0.667640625,
+                0.2333240997229917
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4189375,
+                0.03105263157894737,
+                0.44573437499999996,
+                0.1088365650969529
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.35371874999999997,
+                0.09235457063711912,
+                0.45093750000000005,
+                0.14831024930747924
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.32292187499999997,
+                0.1332409972299169,
+                0.40846874999999994,
+                0.2793074792243767
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.64240625,
+                0.11221606648199445,
+                0.7238125,
+                0.1537950138504155
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.0050625,
+                0.03146814404432133,
+                0.15843749999999998,
+                0.12584487534626038
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.21065625,
+                0.08792243767313018,
+                0.30218749999999994,
+                0.1303601108033241
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.21909375,
+                0.07030470914127424,
+                0.26890625,
+                0.08437673130193907
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.230125,
+                0.5833795013850416,
+                0.239953125,
+                0.5936842105263158
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.180296875,
+                0.6031578947368421,
+                0.20009375000000001,
+                0.6349030470914128
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.482796875,
+                0.4540443213296399,
+                0.539828125,
+                0.6278947368421053
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.74028125,
+                0.3377285318559557,
+                0.8014374999999999,
+                0.446786703601108
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.869578125,
+                0.3726315789473684,
+                0.9140312500000001,
+                0.4730470914127424
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.48784375,
+                0.20382271468144045,
+                0.6225,
+                0.2759002770083102
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.71596875,
+                0.3321606648199446,
+                0.862265625,
+                0.4682271468144044
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.621546875,
+                0.21634349030470912,
+                0.7199375,
+                0.2579501385041551
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.8082968749999999,
+                0.18390581717451523,
+                0.8866406249999998,
+                0.2279224376731302
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.000765625,
+                0.06886426592797784,
+                0.04184375,
+                0.13916897506925208
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.10575000000000001,
+                0.67803324099723,
+                0.14270312500000001,
+                0.7281717451523546
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.126359375,
+                0.65,
+                0.150421875,
+                0.6893074792243767
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.21931250000000002,
+                0.6901939058171745,
+                0.22712500000000002,
+                0.7064542936288088
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.9288437500000001,
+                0.17933518005540164,
+                0.9780000000000001,
+                0.21933518005540165
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.196265625,
+                0.6713573407202217,
+                0.2220625,
+                0.7204986149584488
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.18228125,
+                0.6549030470914127,
+                0.20228125000000002,
+                0.691606648199446
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.22528125000000002,
+                0.655595567867036,
+                0.251546875,
+                0.7007479224376731
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.21756250000000002,
+                0.6606094182825485,
+                0.22795312500000003,
+                0.6933240997229917
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.18643749999999998,
+                0.6437396121883656,
+                0.20821874999999998,
+                0.6706371191135734
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.19121875,
+                0.6366759002770083,
+                0.202625,
+                0.6517174515235458
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.82325,
+                0.5835457063711911,
+                0.8770624999999999,
+                0.6276177285318559
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.347609375,
+                0.23130193905817176,
+                0.375875,
+                0.2814127423822715
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9491875000000001,
+                0.058642659279778395,
+                0.972890625,
+                0.1243213296398892
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.92340625,
+                0.18484764542936288,
+                0.9539687499999999,
+                0.2256509695290859
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.822890625,
+                0.4394182825484764,
+                0.8445937499999999,
+                0.47722991689750693
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.5255156249999999,
+                0.08512465373961219,
+                0.602359375,
+                0.14301939058171745
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.59325,
+                0.10836565096952908,
+                0.6371249999999999,
+                0.1420775623268698
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.680390625,
+                0.7198337950138505,
+                0.7385625,
+                0.7681717451523545
+            ]
+        }
+    ],
+    "hash_id": "204_coco_train2017_000000077092.jpg"
+}

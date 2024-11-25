@@ -1,0 +1,271 @@
+{
+    "id": "000000083174",
+    "image": "coco/train2017/000000083174.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Describe the following image.",
+            "steps": [],
+            "answer": "In this image, we can see a baseball game in progress. Multiple players are on the field as a batter in a black and white uniform swings at an approaching ball. A catcher is situated behind the batter, holding out his mitt to catch the ball while an umpire observes the play.\n\nOn the sidelines, several people are watching the game unfold. Some are seated on benches, while others are standing. There are a few cars parked at the edges of the playing area, and one of them is even located close to the action. Also, there's a cup placed on one of the benches nearby.\n\nThe atmosphere suggests a lively event with the crowd engaged in the excitement of the baseball game."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What difficulties might a baseball player encounter in the image's environment?",
+            "steps": [],
+            "answer": "In the image, a baseball player is swinging at an approaching pitch, while the catcher prepares to catch the ball. One of the key difficulties a player might face in this environment is the presence of numerous people and objects around the field, such as cars, benches, and chairs. This could be distracting for the player and can potentially create safety hazards for both players and spectators during the game. Furthermore, these obstacles might interfere with players' movements and limit their ability to focus solely on the game. Consequently, players need to be cautious and adapt to the constraints of their environment while striving to perform at their best."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWrite a detailed description of the given image."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of the action, a baseball game unfolds under a clear blue sky. The batter, donned in a maroon jersey and a blue helmet, is in mid-swing, attempting to connect with the incoming pitch. His stance is firm, his eyes focused on the ball.\n\nJust behind him, the catcher, clad in a black helmet and jersey, extends his gloved hand, ready to catch the ball should the batter miss. His position is low and alert, mirroring the intensity of the game.\n\nOverseeing this duel between batter and pitcher is the umpire. Wearing a blue shirt, he crouches behind the catcher, his eyes trained on the flight of the ball and the swing of the bat.\n\nBeyond this trio, spectators add life to the scene. They are scattered around the field, some sitting on bleachers while others stand along the fence. Their attention is riveted on the game, each play eliciting reactions of anticipation or excitement.\n\nThe field itself is a classic representation of a baseball diamond - a stretch of well-trodden dirt against the backdrop of a sunny day. The entire scene captures the essence of a baseball game - the tension, the anticipation, and the thrill of sport."
+        }
+    ],
+    "det": [
+        {
+            "label": "sports ball",
+            "bbox": [
+                0.80840625,
+                0.5365781710914455,
+                0.8316874999999999,
+                0.573834808259587
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.520203125,
+                0.11654867256637168,
+                0.746546875,
+                0.8525663716814159
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.865359375,
+                0.089882005899705,
+                0.9879531250000001,
+                0.6651622418879056
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0008125000000000001,
+                0.2152212389380531,
+                0.1159375,
+                0.822094395280236
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.072765625,
+                0.0,
+                0.167015625,
+                0.34008849557522125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.00056047197640118,
+                0.097609375,
+                0.3286430678466077
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.32128125,
+                0.08628318584070796,
+                0.42960937499999996,
+                0.4216519174041298
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.072609375,
+                0.4022418879056048,
+                0.379703125,
+                0.8426843657817109
+            ]
+        },
+        {
+            "label": "baseball bat",
+            "bbox": [
+                0.61375,
+                0.4260176991150442,
+                0.703453125,
+                0.5936873156342183
+            ]
+        },
+        {
+            "label": "baseball bat",
+            "bbox": [
+                0.86296875,
+                0.1319174041297935,
+                0.9010624999999999,
+                0.2644837758112094
+            ]
+        },
+        {
+            "label": "baseball glove",
+            "bbox": [
+                0.33001562500000003,
+                0.5592625368731563,
+                0.377828125,
+                0.6676106194690266
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.45821875,
+                0.11516224188790561,
+                0.625875,
+                0.3307079646017699
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.102359375,
+                0.33932153392330383,
+                0.40946875,
+                0.3775221238938053
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.160359375,
+                0.23345132743362831,
+                0.370171875,
+                0.2859882005899705
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8496874999999999,
+                0.09734513274336283,
+                0.90471875,
+                0.47115044247787613
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.848625,
+                0.05666666666666667,
+                0.911328125,
+                0.2086430678466077
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.18625,
+                0.00035398230088495576,
+                0.284859375,
+                0.34424778761061947
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.40582812500000004,
+                0.1636283185840708,
+                0.45075000000000004,
+                0.25825958702064894
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.491015625,
+                0.24755162241887907,
+                0.52646875,
+                0.3297345132743363
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.408140625,
+                0.19191740412979352,
+                0.44046874999999996,
+                0.2918879056047198
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.130734375,
+                0.0,
+                0.1896875,
+                0.12970501474926252
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.11778124999999999,
+                0.4493215339233038,
+                0.4327500000000001,
+                0.4767551622418879
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.144015625,
+                0.1314159292035398,
+                0.3381875,
+                0.15976401179941002
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.2465,
+                0.046519174041297934,
+                0.303796875,
+                0.06890855457227138
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.13382812500000002,
+                0.15041297935103246,
+                0.146625,
+                0.18041297935103245
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.7044374999999999,
+                0.18808259587020648,
+                0.785875,
+                0.21601769911504426
+            ]
+        }
+    ],
+    "hash_id": "857_coco_train2017_000000083174.jpg"
+}

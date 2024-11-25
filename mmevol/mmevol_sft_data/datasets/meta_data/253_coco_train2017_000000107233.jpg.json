@@ -1,0 +1,280 @@
+{
+    "id": "000000107233",
+    "image": "coco/train2017/000000107233.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of establishment are people walking by?",
+            "steps": [],
+            "answer": "People are walking by a restaurant or bar that serves Trappist Biere (beer). The establishment also appears to have an outdoor seating area."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the pedestrians walking on the sidewalk or the street?",
+            "steps": [],
+            "answer": "The pedestrians are walking on the sidewalk next to the restaurant or bar."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the outdoor seating area used for?",
+            "steps": [],
+            "answer": "The outdoor seating area is likely used by the restaurant or bar for customers to enjoy their food or beverages while experiencing the city's atmosphere and watching people passing by."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The image depicts a lively city street scene with people strolling down the sidewalk next to a restaurant or bar. The establishment has a cozy outdoor seating area, featuring several chairs and tables set up for people to enjoy their meals or drinks. Trappist Biere, a popular beer, is available for customers to indulge in. Umbrellas are placed above the outdoor seating area, providing shade and comfort. Greenery, in the form of potted plants, is also visible within the scene, adding a touch of nature to the urban landscape.\n\nAs the pedestrians walk down the sidewalk, there are several cars parked alongside the street, and traffic lights can be seen in various positions. One of the people walking appears to be carrying a handbag. The overall atmosphere suggests a pleasant environment for socializing and enjoying the city's offerings."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What difficulties do the patrons of the outdoor seating area face when the area is congested?",
+            "steps": [],
+            "answer": "In the image, when the outdoor seating area of the restaurant or bar is congested, patrons may face several difficulties. Firstly, navigating through the space and finding an available seat may become challenging due to the limited seating capacity. Moreover, if the restaurant or bar is serving Trappist Biere, it may draw a larger crowd, further contributing to the congestion. Secondly, the close proximity of the pedestrian sidewalk to the outdoor seating area makes it likely that patrons and pedestrians could interfere with each other's paths and personal space. This may create an uncomfortable experience for both the patrons and the pedestrians. Lastly, the congested area might result in slower services and increased wait times due to the limited space and the larger number of patrons."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a lively street scene under a cloudy sky. Dominating the foreground is a vibrant red umbrella, emblazoned with the word \"CHIMAY\" in bold white letters. The umbrella is firmly attached to a black metal railing, providing a stark contrast to its fiery hue.\n\nOn the sidewalk beneath this umbrella, two individuals are captured mid-stride. One is clad in a black jacket, while the other sports a red one, mirroring the color of the umbrella. Their presence adds a dynamic element to the otherwise static scene.\n\nThe backdrop of this image is an urban landscape. Buildings of various heights stretch into the distance, their muted colors and architectural details providing a sense of depth and scale. Alongside these structures, cars are neatly parked, hinting at the rhythm of daily life in this locale.\n\nOverall, this image paints a vivid picture of an everyday moment on a city street, with the red \"CHIMAY\" umbrella serving as a striking focal point."
+        }
+    ],
+    "det": [
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.022468750000000003,
+                0.092125,
+                0.8918593749999999,
+                0.413475
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.272609375,
+                0.425025,
+                0.387765625,
+                0.5632
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.355109375,
+                0.422175,
+                0.408984375,
+                0.5625
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.11565624999999999,
+                0.450225,
+                0.162640625,
+                0.51125
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.0376875,
+                0.42747500000000005,
+                0.12448437500000001,
+                0.519425
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.150515625,
+                0.44895,
+                0.1833125,
+                0.5107
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.5976250000000001,
+                0.7967,
+                0.658671875,
+                0.922825
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.67115625,
+                0.777675,
+                0.7305625,
+                0.92755
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.8008906250000001,
+                0.84705,
+                0.8627500000000001,
+                0.932425
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.11070312499999999,
+                0.44645,
+                0.362953125,
+                0.9868000000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2976875,
+                0.49605,
+                0.42184375,
+                0.98815
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.541953125,
+                0.40840000000000004,
+                0.6559687500000001,
+                0.7867750000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.536025,
+                0.077421875,
+                1.0
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.5200781250000001,
+                0.419375,
+                0.5288125,
+                0.43662500000000004
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.42578125,
+                0.431175,
+                0.44271874999999994,
+                0.5640999999999999
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.630046875,
+                0.549125,
+                0.656265625,
+                0.6098
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.6307968749999999,
+                0.45065,
+                0.6656875,
+                0.553225
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.818984375,
+                0.4551,
+                0.8435312500000001,
+                0.5981749999999999
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.4774375,
+                0.7696999999999999,
+                0.6019062500000001,
+                0.9978
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.07082812499999999,
+                0.40009999999999996,
+                0.07984374999999999,
+                0.41452500000000003
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.06071875,
+                0.384675,
+                0.0714375,
+                0.42825
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.51696875,
+                0.7082999999999999,
+                0.5411718750000001,
+                0.7823
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.8274687500000001,
+                0.8701000000000001,
+                0.9009218750000001,
+                0.9390000000000001
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.823828125,
+                0.9190999999999999,
+                0.86775,
+                0.938375
+            ]
+        }
+    ],
+    "hash_id": "253_coco_train2017_000000107233.jpg"
+}

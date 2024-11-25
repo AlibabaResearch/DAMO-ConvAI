@@ -1,0 +1,237 @@
+{
+    "id": "000000097330",
+    "image": "coco/train2017/000000097330.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are in the image?",
+            "steps": [],
+            "answer": "The image does not provide an exact number of people, but it does show a group or a family of people sitting in the living room."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people doing in the image?",
+            "steps": [],
+            "answer": "The people in the image are sitting on a couch in the living room, all using their laptop computers."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of the image?",
+            "steps": [],
+            "answer": "The setting of the image is a living room where the people are seated on a couch."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "The image portrays a group of people sitting comfortably on a couch in a living room. Each individual is focused on using a laptop, with a total of four laptops in the scene. \n\nIn addition to the people and laptops, there are various objects placed around the room. Two cups can be seen on the dining table behind the couch, and one person appears to have a cell phone near them. Several remote controls are scattered throughout the living room, indicating the presence of multiple electronic devices in the space. A handbag is placed on the floor near the couch, and a computer mouse rests on the table next to one of the laptops."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What could be a possible effect of this family's behavior on their interpersonal relationships?",
+            "steps": [],
+            "answer": "The family's behavior, which involves each person sitting on a couch using their laptops or other electronic devices, might have an effect on their interpersonal relationships. This behavior could lead to a lack of face-to-face interaction and communication, which are important elements for nurturing strong connections and maintaining healthy relationships. When family members spend more time interacting with technology rather than each other, they might miss out on opportunities to bond, share experiences, or discuss their thoughts and emotions. This, in turn, could result in a weaker emotional connection between family members, detachment, and a decrease in quality time spent together. It is important for families to balance their use of technology and spend enough time engaging in activities that promote interpersonal communication and emotional connections."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nDescribe the following image."
+        },
+        {
+            "from": "gpt",
+            "value": "In the image, a vibrant scene unfolds in a room painted with a bold red color. Four individuals are engrossed in their digital worlds, each comfortably nestled on a couch with their laptops. The person on the far left, clad in a white t-shirt, is engrossed in a black laptop. Adjacent to him, a person in a gray sweatshirt is working on a silver MacBook. Next to her, a person wearing a green t-shirt is also using a black laptop. On the far right, another individual in a black t-shirt is absorbed in his black laptop.\n\nIn front of them, a coffee table holds a few objects - a remote control, waiting to switch channels on the television perhaps, and a Rubik's cube, possibly indicating someone's love for puzzles. A blue blanket is also present on the table, perhaps for someone who might feel cold.\n\nThe scene is casual and relaxed, with each person immersed in their own world while sharing the same space. It's a snapshot of modern life where technology and human interaction blend seamlessly."
+        }
+    ],
+    "det": [
+        {
+            "label": "couch",
+            "bbox": [
+                0.266046875,
+                0.25321839080459774,
+                0.9953125,
+                0.8412068965517242
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.342015625,
+                0.10445402298850576,
+                0.70765625,
+                0.6479597701149424
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6149843749999999,
+                0.17083333333333334,
+                0.852359375,
+                0.6970689655172413
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.73484375,
+                0.06658045977011495,
+                0.9544218750000001,
+                0.5058620689655173
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.609359375,
+                0.5785919540229885,
+                0.6508125,
+                0.7285919540229885
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.7700781250000001,
+                0.5664942528735631,
+                0.81590625,
+                0.6690229885057472
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.1359375,
+                0.5439080459770115,
+                0.466609375,
+                0.9322126436781608
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.8032656250000001,
+                0.7085632183908046,
+                0.89690625,
+                0.7477586206896553
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.8425312500000001,
+                0.7264655172413793,
+                0.9568125000000001,
+                0.8199712643678162
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.6060625,
+                0.8577298850574713,
+                0.723375,
+                0.9835919540229886
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.5706249999999999,
+                0.6224712643678161,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.661046875,
+                0.29663793103448277,
+                0.8137968750000001,
+                0.4786494252873563
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.501234375,
+                0.23816091954022986,
+                0.637171875,
+                0.4479597701149425
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.85125,
+                0.24270114942528734,
+                0.998296875,
+                0.41798850574712637
+            ]
+        },
+        {
+            "label": "mouse",
+            "bbox": [
+                0.6165625,
+                0.701580459770115,
+                0.6842812500000001,
+                0.7680459770114944
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.282421875,
+                0.4241666666666667,
+                0.30534374999999997,
+                0.49229885057471273
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.03025862068965517,
+                0.477625,
+                1.0
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.6459374999999999,
+                0.7596264367816092,
+                0.7034374999999999,
+                0.8128448275862069
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.76753125,
+                0.8012068965517242,
+                0.801609375,
+                0.8772701149425286
+            ]
+        }
+    ],
+    "hash_id": "810_coco_train2017_000000097330.jpg"
+}

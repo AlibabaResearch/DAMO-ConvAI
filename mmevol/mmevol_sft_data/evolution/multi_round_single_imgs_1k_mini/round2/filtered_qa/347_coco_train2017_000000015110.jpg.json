@@ -1,0 +1,265 @@
+{
+    "id": "000000015110",
+    "image": "coco/train2017/000000015110.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are in the group walking on the sidewalk?",
+            "steps": [],
+            "answer": "There are three people walking on the sidewalk."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the weather like in the image?",
+            "steps": [],
+            "answer": "The weather in the image is rainy."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are any of the people using an umbrella?",
+            "steps": [],
+            "answer": "Yes, one of the three people is carrying and using an umbrella."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there anything significant about the location where they are walking?",
+            "steps": [],
+            "answer": "The group of people is walking on a sidewalk next to stairs and between parks, which suggests it is an urban area with some green spaces around."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How are the pedestrians dressed for the weather?",
+            "steps": [],
+            "answer": "I cannot provide specific details about their clothing, but based on the fact they are walking in the rain, it can be inferred that the pedestrians are likely wearing appropriate clothing such as raincoats or water-resistant jackets to protect themselves from the rain. The person with the umbrella is particularly prepared, as the umbrella provides additional protection from the rain."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The image features a group of three people walking down the sidewalk on a rainy day, with one of them using an umbrella to shield themselves from the rain. There are two others walking nearby, making a total of five pedestrians in view. They walk next to stairs, which might be the entrance to a park on the side. \n\nIn the scene, various vehicles can be spotted, including two buses and three cars. Traffic lights are interspersed throughout the scene, with a total of five traffic lights at different positions. One person appears to be carrying a bottle as they navigate the downpour."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What precautions should pedestrians take when walking in this weather?",
+            "steps": [],
+            "answer": "In this rainy weather, pedestrians should take several precautions to ensure their safety and comfort. They should carry and use umbrellas, as seen in the image with one of the individuals holding one, to protect themselves from the rain. Beyond personal comfort, these individuals should also wear appropriate clothing, such as waterproof jackets and footwear, to stay dry and warm. Moreover, it is crucial to be aware of their surroundings, as wet sidewalks and roads can be slippery, increasing the risk of accidents. Pedestrians should exercise caution while crossing streets, watching for vehicles, and following traffic signals, as vehicular stopping distances might be impacted by wet road conditions. Additionally, they should maintain a safe distance from traffic, as passing vehicles may splash water onto them. By taking these precautions, pedestrians can safely navigate rainy city streets."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you see happening in this image?"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a scene of three people walking on a sidewalk in a city during a rainy day. The person on the left is holding a colorful umbrella with stripes in hues of blue, green, and red. The person in the middle is clad in a black jacket and is carrying a white plastic bag. On the right, the third person is wearing a blue jacket and has a black backpack slung over their shoulder.\n\nThe backdrop of this image is an urban landscape, featuring tall buildings and a street bustling with cars. A sign reading \"MILTON OLIVE III PARK\" can be spotted on the street. The photograph has been taken from behind the subjects, making their faces invisible to the viewer. The overall atmosphere of the image suggests a typical city life scene on a rainy day."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.3943125,
+                0.7295625,
+                0.42396875000000006,
+                0.8185
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.4426875,
+                0.27127083333333335,
+                0.5407968750000001,
+                0.3949375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.367421875,
+                0.26516666666666666,
+                0.606734375,
+                0.9865208333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.11259375,
+                0.44149999999999995,
+                0.33537500000000003,
+                1.0
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.023484375,
+                0.23735416666666667,
+                0.34564062500000003,
+                0.4834375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.59821875,
+                0.3388333333333333,
+                0.60803125,
+                0.37404166666666666
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.34054687499999997,
+                0.33231249999999996,
+                0.37228125,
+                0.3608958333333333
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.40560937499999994,
+                0.29102083333333334,
+                0.44584375,
+                0.38681249999999995
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.518390625,
+                0.27975,
+                0.523734375,
+                0.2876458333333333
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.58346875,
+                0.32566666666666666,
+                0.61209375,
+                0.34075
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.584453125,
+                0.3251875,
+                0.597859375,
+                0.37414583333333334
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.006390625,
+                0.34489583333333335,
+                0.04584375,
+                0.3689583333333334
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.377859375,
+                0.30231250000000004,
+                0.39532812500000003,
+                0.32635416666666667
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.374546875,
+                0.27291666666666664,
+                0.389140625,
+                0.28860416666666666
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.5942968750000001,
+                0.30106249999999996,
+                0.59975,
+                0.3118958333333333
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.54465625,
+                0.2859583333333333,
+                0.5558124999999999,
+                0.3013958333333333
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.348984375,
+                0.2860625,
+                0.35390625,
+                0.2997916666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.610546875,
+                0.35614583333333333,
+                0.6171562500000001,
+                0.3784374999999999
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.439515625,
+                0.27114583333333336,
+                0.44490625,
+                0.27964583333333337
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.65840625,
+                0.27227083333333335,
+                0.859125,
+                0.9710833333333333
+            ]
+        }
+    ],
+    "hash_id": "347_coco_train2017_000000015110.jpg"
+}

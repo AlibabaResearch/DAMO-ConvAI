@@ -1,0 +1,203 @@
+{
+    "id": "000000005073",
+    "image": "coco/train2017/000000005073.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image shows a young man doing a skateboarding trick on a street, captured in mid-air. In the background and around the skateboarder, there are numerous people going about their day. Some are walking or standing nearby, while others are further away from the scene.\n\nMultiple vehicles can be seen parked or moving on the street, with a truck on the left side of the scene, a couple of cars parked near the sidewalk, and a bicycle also visible. There's a bench on the sidewalk, which stands out among the various elements in the picture."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Considering the environment surrounding the skateboarder, what safety precautions should they take while practicing tricks?",
+            "steps": [],
+            "answer": "The skateboarder should take several safety precautions while practicing tricks in the street environment visible in the image. First, they should wear protective gear such as a helmet, elbow pads, and knee pads to minimize the risk of injury during falls or accidents. Second, they should be aware of their surroundings while practicing, especially the presence of vehicles like cars, bicycles, and trucks. The image shows a few cars and a bicycle nearby, which indicates that the area might have moving traffic. The skateboarder should maintain a safe distance from the vehicles and avoid practicing in high-traffic areas, preferably practice in designated skate parks or sections of the street with less vehicular activity. Finally, they should be courteous to pedestrians and ensure that their activities do not obstruct or pose a risk to others using the sidewalk or street."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nAnalyze the image in a comprehensive and detailed manner."
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a dynamic scene of urban street life. At the center of the frame, a skateboarder is caught in mid-air, executing a trick with their skateboard. The skateboard itself is quite vibrant, with yellow wheels contrasting against a blue deck.\n\nThe skateboarder is dressed in a casual attire suitable for the activity, donning a black hoodie and dark pants. Their position in mid-air suggests motion and skill, as they seem to be in control of their trick above the sidewalk.\n\nSpeaking of the sidewalk, it's composed of gray and white tiles, providing a neutral backdrop that makes the colorful skateboard stand out even more. To the left of the skateboarder, there's a metal railing, perhaps serving as both a boundary and an additional challenge for tricks.\n\nIn the background, the image gives us a glimpse of city life. Blurred figures can be seen walking on the sidewalk, going about their day as this exciting action unfolds near them. Further back, there's a red bus on the street, adding another splash of color to the scene and emphasizing the urban setting.\n\nOverall, this image is a snapshot of a moment full of energy and movement, set against the everyday rhythm of city life."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.04059375,
+                0.12387323943661972,
+                0.11837500000000001,
+                0.2505868544600939
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.06296874999999999,
+                0.06389671361502347,
+                0.23309375000000002,
+                0.22549295774647887
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.52053125,
+                0.004483568075117371,
+                0.9333750000000001,
+                0.15056338028169014
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.34946875,
+                0.009741784037558687,
+                0.381625,
+                0.15164319248826294
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.321546875,
+                0.009342723004694835,
+                0.345078125,
+                0.11920187793427228
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.960234375,
+                0.004882629107981221,
+                0.9994531249999999,
+                0.2855868544600939
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5309999999999999,
+                0.0018779342723004697,
+                0.6880624999999999,
+                0.29176056338028167
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.285734375,
+                0.0027699530516431922,
+                0.318421875,
+                0.1434507042253521
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.01121875,
+                0.025164319248826294,
+                0.031109375,
+                0.08077464788732396
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.159875,
+                0.011126760563380283,
+                0.19154687499999998,
+                0.06105633802816901
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.03359375,
+                0.022089201877934273,
+                0.06351562499999999,
+                0.07107981220657278
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.047031250000000004,
+                0.01136150234741784,
+                0.0753125,
+                0.06842723004694835
+            ]
+        },
+        {
+            "label": "skateboard",
+            "bbox": [
+                0.584265625,
+                0.290093896713615,
+                0.651578125,
+                0.44373239436619716
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4610625,
+                0.0,
+                0.537296875,
+                0.210962441314554
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.16568750000000002,
+                0.07488262910798121,
+                0.27178125,
+                0.17988262910798122
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.0,
+                0.09877934272300469,
+                0.073859375,
+                0.21974178403755867
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9376562500000001,
+                0.014107981220657276,
+                0.9620000000000001,
+                0.060962441314553986
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.38375,
+                0.0,
+                0.47993749999999996,
+                0.2188732394366197
+            ]
+        }
+    ],
+    "hash_id": "464_coco_train2017_000000005073.jpg"
+}

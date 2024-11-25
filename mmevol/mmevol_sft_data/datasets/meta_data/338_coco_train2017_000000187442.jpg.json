@@ -1,0 +1,145 @@
+{
+    "id": "000000187442",
+    "image": "coco/train2017/000000187442.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image features three men sitting together on a green park bench. They appear to be young and enjoying their time outdoors. One of the men is holding a cell phone, perhaps capturing a moment or discussing something with the others.\n\nOn the ground around them, three frisbees can be seen scattered, indicating they might have been playing with them prior. A bottle is also visible near the bench, possibly for hydration during their activities.\n\nIn the background, a car and a truck can be seen parked at a distance, adding to the casual outdoor atmosphere of the scene."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of activity might these three men enjoy in this setting?",
+            "steps": [],
+            "answer": "Based on the presence of multiple frisbees in the scene, it's likely that the three men enjoy playing frisbee in this park setting. They might be taking a break from their game by sitting on the bench before continuing with their activity. The presence of a water bottle also suggests that they are engaging in some physical activity and might need to stay hydrated."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a verdant park, three young men are enjoying a moment of camaraderie on a green bench perched atop a grassy hill. The man on the left, clad in a green shirt and blue jeans, is holding a green frisbee, perhaps reminiscing about a game just played or planning the next throw. \n\nIn the center, another man in a gray shirt and blue jeans is engrossed in his cell phone, possibly sharing their day's adventures on social media or looking up the next fun activity for them. \n\nOn the right, a man in a white shirt and blue jeans is holding a red drink bottle, perhaps taking a moment to hydrate after their frisbee game. \n\nThe bench they're sitting on is nestled among rocks and trees, adding to the serene ambiance of their surroundings. The scene encapsulates a perfect day out in the park, filled with friendship, fun, and the beauty of nature."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.759140625,
+                0.6261041666666666,
+                0.8277187500000001,
+                0.8067499999999999
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.637140625,
+                0.4324791666666667,
+                0.672296875,
+                0.4584375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.240453125,
+                0.058187499999999996,
+                0.55915625,
+                0.7859166666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.281703125,
+                0.09510416666666667,
+                0.6828749999999999,
+                0.8597499999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.395609375,
+                0.0659375,
+                0.9379062499999999,
+                0.9912083333333332
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.63396875,
+                0.24016666666666667,
+                1.0,
+                0.8903958333333333
+            ]
+        },
+        {
+            "label": "frisbee",
+            "bbox": [
+                0.40648437499999995,
+                0.3974375,
+                0.45675,
+                0.5129166666666667
+            ]
+        },
+        {
+            "label": "frisbee",
+            "bbox": [
+                0.82378125,
+                0.7219583333333334,
+                0.9350937500000001,
+                0.7910208333333333
+            ]
+        },
+        {
+            "label": "frisbee",
+            "bbox": [
+                0.313265625,
+                0.379625,
+                0.348703125,
+                0.39720833333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.400484375,
+                0.0005,
+                0.501453125,
+                0.03308333333333333
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.198609375,
+                0.0720625,
+                0.237734375,
+                0.09920833333333334
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.31320312499999997,
+                0.38054166666666667,
+                0.3475,
+                0.397
+            ]
+        }
+    ],
+    "hash_id": "338_coco_train2017_000000187442.jpg"
+}

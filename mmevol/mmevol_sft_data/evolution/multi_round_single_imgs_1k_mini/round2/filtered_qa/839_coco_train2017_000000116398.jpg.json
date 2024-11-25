@@ -1,0 +1,139 @@
+{
+    "id": "000000116398",
+    "image": "coco/train2017/000000116398.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of animal is seen in the image on the road?",
+            "steps": [],
+            "answer": "A bighorn sheep is seen in the image, standing in the middle of the road."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any other objects, such as vehicles, visible in the image?",
+            "steps": [],
+            "answer": "Yes, there are parked cars visible in the image near the bighorn sheep."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the perspective or point of view from which the scene is captured?",
+            "steps": [],
+            "answer": "The scene is captured from the perspective of a person inside their car, viewing the ram in the street."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How is the traffic affected by the presence of the bighorn sheep on the road?",
+            "steps": [],
+            "answer": "The presence of the bighorn sheep on the road could potentially disrupt the traffic flow or cause delays as vehicles might need to slow down, stop or maneuver around the animal to ensure its safety and avoid accidents. In this particular image, however, it seems that the animal is walking near parked cars, so the impact on traffic might not be significant."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there any confusion in describing the animal in the image as a goat or a mountain goat?",
+            "steps": [],
+            "answer": "Yes, there could be some confusion in describing the animal in the image as a goat or a mountain goat, even though it is a bighorn sheep. Bighorn sheep, goats, and mountain goats are different species, but they share some similarities in appearance, such as their horns and overall body shape, which might cause confusion for some observers. \n\nBighorn sheep (Ovis canadensis) are typically known for their large, curved horns, especially in males (rams). They have a stocky body and are often found in mountainous areas of North America. \n\nOn the other hand, goats are a more general term for members of the Capra genus and have a wide variety of breeds and appearances. Mountain goats (Oreamnos americanus), in particular, are a species native to North America and are known for their impressive climbing abilities on steep and rocky terrain. They have shorter, straight horns compared to bighorn sheep.\n\nIt is essential to recognize the difference between these species for accurate identification and understanding of their natural habitats and behaviors. In the image, the animal is a bighorn sheep standing in the road, not a goat or a mountain goat."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What potential hazards could result from this situation?",
+            "steps": [],
+            "answer": "In this situation, the presence of bighorn sheep or mountain goats walking on the road between and near parked cars could lead to potential hazards, such as accidents, traffic disruptions, or harm to the animals. Drivers, especially those unfamiliar with encountering wildlife, might not be prepared to deal with such situations and may react abruptly or unsafely. This could cause collisions with other vehicles, nearby objects, or the animals themselves. Furthermore, the animals might feel threatened or agitated, which may result in unpredictable behavior, increasing the risk of accidents or harm to humans, as well as themselves. To mitigate these hazards, drivers should exercise caution, slow down, and give the animals space to move away from the roadway. This could help ensure the safety of both humans and the wildlife involved."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you think is going on in this snapshot?"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a serene moment in a mountainous landscape where a group of three bighorn sheep are crossing a road. The sheep, with their brown bodies and white patches, are the main focus of the image. \n\nThe sheep in the foreground is standing on the road, appearing to be leading the way for the other two. These two are captured in the midst of their journey across the road, following their leader.\n\nThe perspective of the photo is from a car passenger's point of view, adding a sense of being in the moment to the viewer. Two cars can be seen in the image - a black minivan in the foreground and a black SUV further back on the road.\n\nThe backdrop of this scene is a beautiful mountainous landscape, adorned with trees and shrubs, enhancing the natural beauty of this moment. The overall composition of this image paints a vivid picture of an encounter with wildlife during a drive through mountainous terrain."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.7324375,
+                0.284671875,
+                0.7728958333333333,
+                0.36534374999999997
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.37104166666666666,
+                0.32740625,
+                0.4680625,
+                0.42270312499999996
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.45229166666666665,
+                0.344125,
+                0.843125,
+                0.70390625
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.7960625,
+                0.275,
+                0.9361875000000001,
+                0.3740625
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.7257083333333333,
+                0.3049375,
+                0.809625,
+                0.34754687500000003
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.0,
+                0.226296875,
+                0.3714166666666667,
+                0.514875
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.4386041666666667,
+                0.318453125,
+                0.591875,
+                0.422671875
+            ]
+        }
+    ],
+    "hash_id": "839_coco_train2017_000000116398.jpg"
+}

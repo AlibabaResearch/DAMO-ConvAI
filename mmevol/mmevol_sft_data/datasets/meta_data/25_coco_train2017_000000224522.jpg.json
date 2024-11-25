@@ -1,0 +1,307 @@
+{
+    "id": "000000224522",
+    "image": "coco/train2017/000000224522.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "On what does the sign in the image say?",
+            "steps": [],
+            "answer": "The sign in the image says \"NORTH PARK.\""
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where is the North Park sign located in relation to the street?",
+            "steps": [],
+            "answer": "The North Park sign is located in the middle of the street, extending over both sides of the road as it's placed in the median."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the cars on the street doing as they approach the sign?",
+            "steps": [],
+            "answer": "The cars on the street are heading towards a stop-and-go light, passing by the North Park sign."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there any indication about this sign marking an entrance to a park?",
+            "steps": [],
+            "answer": "Yes, the North Park sign suggests that it is marking the entrance to a park, as it is located on a city street and prominently displayed for everyone to see. This implies that the sign is directing people towards the park entrance."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image depicts a busy city street with many cars, including a bus and a truck, heading towards a stop and go light. There are several traffic lights throughout the scene, with some visible in the foreground and others located further away. \n\nA few pedestrians can also be observed walking or standing near the roadside. In the center of the scene, there is a large street sign extending over both sides of the city street that reads \"NORTH PARK,\" indicating the entrance to the park area. A bench is placed near the side of the street, likely for people to rest and enjoy the surroundings."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What safety feature could be important for both pedestrians and motorists near the park entrance?",
+            "steps": [],
+            "answer": "A significant safety feature for both pedestrians and motorists near the park entrance is the presence of traffic lights. In the image, multiple traffic lights regulate the flow of traffic and ensure safe crossings for pedestrians. These traffic lights help in maintaining order and minimizing the risk of accidents, especially when pedestrians try to cross the busy street to access North Park. As cars and other vehicles, such as buses and trucks, pass through this area, the traffic lights play a crucial role in creating a safe environment for everyone around the park entrance."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you think is going on in this snapshot?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a vibrant street scene in what appears to be the North Park neighborhood. Dominating the scene is a large sign that proudly proclaims \"NORTH PARK\" in bold green letters against a white background. This sign is perched atop a tall, ornate column, which stands out with its yellow and orange tiled base. The column is strategically positioned on a traffic island, serving as a welcoming beacon in the middle of the street.\n\nIn the background, the hustle and bustle of city life unfolds. Several cars, painted in shades of black, white, and red, navigate the streets, adding a dynamic element to the scene. Beyond the traffic, buildings rise up, their white and red facades contributing to the urban landscape.\n\nEvery element in this image - from the North Park sign to the cars and buildings - paints a vivid picture of a lively neighborhood bustling with activity."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.66612,
+                0.7630933333333334,
+                0.85,
+                0.95448
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.5863200000000001,
+                0.8094933333333333,
+                0.63324,
+                0.8662933333333334
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.97702,
+                0.8384533333333334,
+                1.0,
+                0.9214133333333334
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.09572,
+                0.7948266666666667,
+                0.20618,
+                0.9088266666666667
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.45033999999999996,
+                0.8209066666666666,
+                0.46694,
+                0.8596266666666665
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.92686,
+                0.82536,
+                0.99946,
+                0.9105333333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.6474,
+                0.8197333333333333,
+                0.6812999999999999,
+                0.8599199999999999
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.39858,
+                0.7774666666666668,
+                0.46144,
+                0.85368
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.29124,
+                0.7365333333333333,
+                0.30056,
+                0.7751466666666667
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.56676,
+                0.7253066666666667,
+                0.5794199999999999,
+                0.7511466666666667
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.6096,
+                0.7246933333333333,
+                0.61752,
+                0.7528533333333333
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.43694,
+                0.6513066666666667,
+                0.45736,
+                0.68984
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.38688,
+                0.6602133333333333,
+                0.40008,
+                0.6963733333333333
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.36008,
+                0.7575733333333333,
+                0.36713999999999997,
+                0.7809866666666665
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9428799999999999,
+                0.8077333333333333,
+                0.96268,
+                0.8441333333333332
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.29304,
+                0.81896,
+                0.30548000000000003,
+                0.8525866666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.32758,
+                0.8134933333333333,
+                0.33609999999999995,
+                0.8506666666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.36036,
+                0.8155466666666666,
+                0.36892,
+                0.8419733333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.24024,
+                0.8163733333333333,
+                0.24894,
+                0.8498666666666667
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.22352,
+                0.8267466666666666,
+                0.24642000000000003,
+                0.8529599999999998
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.8731,
+                0.8522666666666667,
+                0.8988,
+                0.8578933333333334
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.84576,
+                0.82288,
+                0.86436,
+                0.8523733333333333
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.27986,
+                0.7364266666666668,
+                0.28778000000000004,
+                0.7744533333333333
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.3429,
+                0.7438666666666667,
+                0.35082,
+                0.7842399999999999
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.5885,
+                0.7324533333333334,
+                0.5942200000000001,
+                0.7420533333333335
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.00046,
+                0.81064,
+                0.12165999999999999,
+                0.9260800000000001
+            ]
+        }
+    ],
+    "hash_id": "25_coco_train2017_000000224522.jpg"
+}

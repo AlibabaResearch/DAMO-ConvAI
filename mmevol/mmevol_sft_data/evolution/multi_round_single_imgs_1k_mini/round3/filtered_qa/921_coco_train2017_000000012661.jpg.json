@@ -1,0 +1,257 @@
+{
+    "id": "000000012661",
+    "image": "coco/train2017/000000012661.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The image features a woman standing in a room, dressed in a black jacket and scarf suitable for a cold day. She is happily holding a bowl of warm food, likely pasta, and smiling, seemingly posing for a photo. There are other people in the scene, although they are not the main focus. \n\nThe room contains multiple chairs and dining tables spread across the area. A cup is placed on one of the dining tables, and a spoon is visible nearby. In addition, there are several handbags, a truck, and a potted plant present in the scene. A piece of broccoli can also be spotted inside the main woman's bowl."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might be the purpose of the woman holding the bowl of food in the photo?",
+            "steps": [],
+            "answer": "The woman holding the bowl of food in the photo might be sharing a meal with friends or family in this social setting, surrounded by chairs and dining tables. The image suggests that she is enjoying an informal gathering or a special occasion together. The woman may also be posing for a photo to capture the moment, showcasing her delicious bowl of food, and creating warm memories with others during the cold winter season."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat is this photo about'?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a lively gathering, a woman with auburn hair stands as the focal point of the image. She is adorned with a vibrant purple scarf that adds a pop of color to her attire. In her hands, she holds a white bowl filled with an assortment of food, her face lit up with a warm and inviting smile.\n\nJust in front of her, on the wooden table, rests a black coffee cup, its dark color contrasting against the light surface of the table. The cup sits idle, waiting to be picked up for a sip of the steaming brew inside.\n\nBehind her, under the protective cover of a tent, people are seated at a table, engrossed in their own world of conversations and laughter. Their presence adds a sense of community and camaraderie to the scene.\n\nThe backdrop to this convivial gathering is nothing short of picturesque. A tree, its leaves painted in shades of red by the season, stands tall against the clear blue sky. The vibrant colors of nature seem to be in harmony with the warmth and joy emanating from the gathering."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.133625,
+                0.6819531249999999,
+                0.36821874999999993,
+                0.795890625
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.41478125,
+                0.272453125,
+                0.463421875,
+                0.318125
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.2486875,
+                0.30128125,
+                0.3005625,
+                0.344
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.032390625,
+                0.519984375,
+                0.11446875000000001,
+                0.6798125
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.164328125,
+                0.282171875,
+                0.23689062500000002,
+                0.341203125
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.035296875,
+                0.7623593750000001,
+                0.498828125,
+                0.9694062500000001
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.116015625,
+                0.340296875,
+                0.32528125,
+                0.534828125
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.1650625,
+                0.29671875000000003,
+                0.18912500000000002,
+                0.305640625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.17193750000000002,
+                0.22548437500000001,
+                0.39475,
+                0.52815625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.06353125,
+                0.242375,
+                0.19746875,
+                0.51875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.10882812500000001,
+                0.16298437500000001,
+                0.184296875,
+                0.313921875
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.17528125,
+                0.817984375,
+                0.30562500000000004,
+                0.9662968749999999
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.46765625,
+                0.515171875,
+                0.503609375,
+                0.659
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.46312499999999995,
+                0.605546875,
+                0.6470468749999999,
+                0.742359375
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.176578125,
+                0.240640625,
+                0.2464375,
+                0.28228125
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.060484375,
+                0.302203125,
+                0.17098437500000002,
+                0.42300000000000004
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.03340625,
+                0.32232812499999997,
+                0.13740625,
+                0.518671875
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.38079687500000003,
+                0.293015625,
+                0.434,
+                0.42121875
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.407640625,
+                0.35103125,
+                0.5199999999999999,
+                0.792140625
+            ]
+        },
+        {
+            "label": "broccoli",
+            "bbox": [
+                0.5176406250000001,
+                0.588765625,
+                0.585734375,
+                0.6335625
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.32078125,
+                0.35509375,
+                0.447734375,
+                0.534203125
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.391015625,
+                0.298453125,
+                0.53334375,
+                0.3788125
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.83303125,
+                0.30890625,
+                0.968703125,
+                0.522578125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.37921875,
+                0.083109375,
+                0.9350625000000001,
+                0.9662343750000002
+            ]
+        }
+    ],
+    "hash_id": "921_coco_train2017_000000012661.jpg"
+}

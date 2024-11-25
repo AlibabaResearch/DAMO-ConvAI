@@ -1,0 +1,148 @@
+{
+    "id": "000000214704",
+    "image": "coco/train2017/000000214704.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the man doing in the image?",
+            "steps": [],
+            "answer": "The man in the image is sitting at a kitchen table, looking off to the side, as if observing something or someone away from him."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Does the man have facial hair?",
+            "steps": [],
+            "answer": "Yes, the man has a beard."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the photo colorized or black and white?",
+            "steps": [],
+            "answer": "The photo is a colorized image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a TV in the background?",
+            "steps": [],
+            "answer": "Yes, there is a TV behind the person sitting down."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What could be the reason for the man looking off to the side?",
+            "steps": [],
+            "answer": "There could be multiple reasons why the man is looking off to the side. He might be observing something or someone in his peripheral vision, engaged in a conversation with someone who is not visible in the image, or he could be momentarily distracted. It could also be that he is in deep thought or daydreaming, and his gaze is directed away from the main focus of the scene as he is lost in his thoughts. The exact reason cannot be determined from the image alone, but these possibilities offer some insights into what might be happening in the photo."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might be the reason for the man's distraction or what could he be thinking about in the scene?",
+            "steps": [],
+            "answer": "In the scene, the bearded man is sitting at a kitchen table with a TV behind him, looking off to the side. The table also has a cup, a knife, and a wine glass placed on it. Given his surroundings and the objects present in the image, it's possible that the man is either watching something on the TV, which has drawn his attention away from the table, or he might be looking at something or someone else in the room. He could also be lost in thoughts, possibly contemplating a recent event or making a decision about something. The specific reason for man's distraction or thoughts cannot be determined precisely from the visual information alone, but these are plausible scenarios based on the context provided by the image."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What's happening in the scene?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy, cluttered kitchen, a man finds solace in his solitude. He's seated at a small table, a chilled beer in front of him, untouched. His attire is casual, a striped shirt adorning his torso, and his face is framed by a well-groomed beard. His gaze is directed away from the camera, lost in thought perhaps.\n\nThe kitchen around him tells a story of its own. A fridge stands guard at one corner, possibly filled with culinary delights. A sink is visible too, bearing the remnants of a meal enjoyed. In the background, a TV screen flickers, adding to the homely ambiance.\n\nThe entire scene is bathed in an unusual green tint, casting an almost surreal glow over the man and his surroundings. It's as if time has paused for a while, allowing us to peek into this quiet moment of reflection."
+        }
+    ],
+    "det": [
+        {
+            "label": "tv",
+            "bbox": [
+                0.32751562500000003,
+                0.3922169811320755,
+                0.562296875,
+                0.7195283018867925
+            ]
+        },
+        {
+            "label": "refrigerator",
+            "bbox": [
+                0.9159375000000001,
+                0.15233490566037736,
+                1.0,
+                0.9756132075471697
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.0,
+                0.6176650943396226,
+                0.3986875,
+                0.9890330188679246
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.4649375,
+                0.881061320754717,
+                0.8749218750000001,
+                0.9864386792452831
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.465984375,
+                0.3184198113207547,
+                0.84115625,
+                0.9813443396226414
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.543390625,
+                0.8149764150943396,
+                0.62021875,
+                0.9988443396226415
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.39325,
+                0.9317688679245283,
+                0.481828125,
+                0.9699528301886792
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.546296875,
+                0.8156603773584905,
+                0.6214062499999999,
+                1.0
+            ]
+        }
+    ],
+    "hash_id": "591_coco_train2017_000000214704.jpg"
+}

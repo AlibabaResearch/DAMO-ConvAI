@@ -1,0 +1,238 @@
+{
+    "id": "000000082565",
+    "image": "coco/train2017/000000082565.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of animals are seen on the road in the image?",
+            "steps": [],
+            "answer": "A herd of sheep is seen on the road in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the animals crossing the road or simply walking along it?",
+            "steps": [],
+            "answer": "The sheep are walking along the road and also appear to be crossing it."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of the image? Urban or rural?",
+            "steps": [],
+            "answer": "The setting of the image is rural, as the animals are near stone houses and the overall environment suggests a countryside location."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of buildings are near the sheep on the road?",
+            "steps": [],
+            "answer": "Near the sheep on the road, there are stone houses, which are typical in rural areas and small towns."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Does the image include any other types of animals besides sheep?",
+            "steps": [],
+            "answer": "No, the image only includes a herd of sheep. There are no other types of animals visible."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The scene depicts a rural area where a herd of sheep is crossing a road, creating a picturesque view. There are numerous sheep visible in the image, spread across the road and near stone houses. The quaint setting seems to be near a small town.\n\nVarious vehicles are present along the road, including a truck, a car, and a bus. A stop sign is also visible, indicating an intersection where the road meets another street. The presence of the vehicles suggests that the area may be affected by temporary traffic congestion due to the sheep crossing. However, this makes it an interesting sight and a unique experience of life in the countryside."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What potential challenges might drivers face in this area?",
+            "steps": [],
+            "answer": "In this rural area, drivers might face challenges due to the presence of sheep crossing the road or roaming along the roadside. In the image, a large herd of sheep is situated near a road intersection and stone houses, with some sheep even crossing the road. This situation can lead to potential hazards for both the drivers and the animals, as the drivers must be cautious and attentive to avoid collisions or accidents. As a result, it becomes crucial for drivers in this area to be mindful of the possible presence of sheep and other livestock, adjust their speed accordingly, and be prepared to stop and give way to the animals whenever necessary."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat's happening in the scene?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a serene rural scene, bathed in the soft light of a clear day. A winding road, the color of wet sand, cuts through the heart of the scene, curving gently to the right. On the left side of the road, a sturdy stone wall stands guard, its gray hues contrasting with the vibrant green grass that carpets the landscape.\n\nOn the right side of the road, a flock of sheep grazes peacefully. The majority of them are as white as cotton balls, but a few brown ones add a touch of diversity to the group. They are scattered across the grassy field, some closer to the road, others further away.\n\nLining the road are quaint houses made of stone, their brown roofs adding a warm touch to the cool stone walls. The houses are nestled amidst trees that stand tall and proud. Most of these trees have bare branches, their leaves perhaps fallen in autumn, but a few evergreens add a splash of year-round color to the scene.\n\nA speed limit sign stands on the right side of the road, serving as a reminder for drivers to slow down and enjoy the picturesque view. The blue sky in the background completes this idyllic rural tableau."
+        }
+    ],
+    "det": [
+        {
+            "label": "sheep",
+            "bbox": [
+                0.586984375,
+                0.540235294117647,
+                0.6021875000000001,
+                0.5730352941176471
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.601609375,
+                0.5407529411764705,
+                0.62125,
+                0.5735294117647058
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.621375,
+                0.5427529411764705,
+                0.642765625,
+                0.5783764705882353
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.741140625,
+                0.542329411764706,
+                0.767390625,
+                0.5874117647058824
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.679515625,
+                0.5416941176470588,
+                0.7138125,
+                0.5843764705882353
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.49003125000000003,
+                0.5274117647058824,
+                0.50565625,
+                0.5495294117647059
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.538953125,
+                0.5304705882352941,
+                0.563390625,
+                0.5690588235294117
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.58134375,
+                0.5406352941176471,
+                0.59165625,
+                0.5692470588235294
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.6420625,
+                0.5390352941176471,
+                0.660546875,
+                0.577670588235294
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.20451562499999998,
+                0.42679999999999996,
+                0.28520312499999995,
+                0.47482352941176464
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.7100625,
+                0.5395058823529412,
+                0.743109375,
+                0.5876
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.873671875,
+                0.5574117647058824,
+                0.9219531249999999,
+                0.607835294117647
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.383125,
+                0.46138823529411765,
+                0.42890625,
+                0.48564705882352943
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.43237500000000006,
+                0.452,
+                0.48735937500000004,
+                0.495035294117647
+            ]
+        },
+        {
+            "label": "stop sign",
+            "bbox": [
+                0.70975,
+                0.4630588235294118,
+                0.7310937500000001,
+                0.4936
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.561203125,
+                0.5339999999999999,
+                0.58540625,
+                0.5716470588235294
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.947390625,
+                0.569764705882353,
+                0.9898125,
+                0.6164470588235295
+            ]
+        }
+    ],
+    "hash_id": "763_coco_train2017_000000082565.jpg"
+}

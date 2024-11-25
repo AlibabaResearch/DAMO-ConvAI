@@ -1,0 +1,226 @@
+{
+    "id": "000000124739",
+    "image": "coco/train2017/000000124739.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "This image depicts a busy city street with traffic and pedestrians. On one side of the street, there are shops, and people are walking around. There are numerous cars and trucks traveling on the street, with some cars parked alongside the road as well. Two bicycles can be seen, one near the middle of the street and the other closer to the sidewalk.\n\nA large traffic sign displaying messages is visible among the vehicles, possibly providing warnings or information about construction work ahead. Pedestrians of various heights are scattered throughout the scene, engaging in activities such as carrying a handbag or walking nearby the shops. Additionally, a fire hydrant is located near the middle of the street, ready for use in case of emergencies."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What potential safety concerns might arise in this city street scene?",
+            "steps": [],
+            "answer": "In this busy city street scene, there are several potential safety concerns that might arise. With multiple cars and trucks driving down the street, pedestrians, and cyclists sharing the space, the risk of accidents is higher. Also, the presence of a construction sign indicates upcoming construction activities, which could lead to lane closures, detours, or changes in the traffic pattern, adding to the complexity of navigating the area. Pedestrians crossing the street or cyclists merging into traffic might be at risk of not being seen by drivers, and vice versa.\n\nThe presence of a large traffic sign displaying messages can be vital to informing drivers and pedestrians about ongoing construction, warnings, or other important information. However, it might also distract drivers, contributing to the risk of accidents. In such a busy environment, it is essential for everyone to remain aware of their surroundings, follow traffic rules, and stay vigilant to minimize the risk of accidents and ensure the overall safety of all road users."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you describe the main features of this image for me?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a lively scene on a bustling street in San Francisco. The road, filled with a variety of vehicles, is lined with lush green trees on both sides. A red convertible, a white SUV, and a silver hatchback are among the vehicles on the road, each adding a unique color to the urban landscape.\n\nA bicyclist, donned in a blue shirt, is pedaling along the dedicated bike lane, adding a sense of motion to the scene. The cyclist's presence also subtly hints at the city's eco-friendly transportation options.\n\nOn the right side of the street, a large electronic sign stands out with its bright yellow color and bold black text. The sign announces \"Starting Sept. 29\", perhaps indicating an upcoming event or change in the city's routine.\n\nThe image as a whole paints a vibrant picture of city life, with each element - from the diverse vehicles to the cyclist and the intriguing sign - contributing to the dynamic urban narrative."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.30071875000000003,
+                0.5828271028037383,
+                0.33556250000000004,
+                0.7013551401869159
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.13087500000000002,
+                0.5348364485981308,
+                0.250234375,
+                0.6337616822429907
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.898859375,
+                0.582803738317757,
+                1.0,
+                0.9290420560747663
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.0819375,
+                0.4822196261682243,
+                0.2075625,
+                0.6510046728971962
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.578546875,
+                0.4970327102803738,
+                0.859765625,
+                0.8492056074766354
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.29728125,
+                0.48934579439252335,
+                0.352328125,
+                0.6913084112149532
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.388171875,
+                0.4990186915887851,
+                0.4074375,
+                0.6221495327102804
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.46153125,
+                0.49934579439252336,
+                0.48034375,
+                0.6088785046728973
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.22154687499999998,
+                0.4913551401869159,
+                0.24196874999999998,
+                0.5689953271028038
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.28190624999999997,
+                0.4964252336448598,
+                0.30124999999999996,
+                0.5947429906542057
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.26359374999999996,
+                0.49759345794392523,
+                0.28665624999999995,
+                0.6123831775700935
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.031671875,
+                0.49422897196261684,
+                0.062281249999999996,
+                0.5428504672897196
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.431015625,
+                0.4894626168224299,
+                0.44889062500000004,
+                0.5975233644859813
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.37028125,
+                0.534088785046729,
+                0.3915,
+                0.6054906542056074
+            ]
+        },
+        {
+            "label": "fire hydrant",
+            "bbox": [
+                0.436609375,
+                0.5799766355140187,
+                0.47346875,
+                0.6764252336448598
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.313609375,
+                0.5169392523364486,
+                0.351984375,
+                0.6016355140186916
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.8153124999999999,
+                0.48478971962616824,
+                0.9984999999999999,
+                0.7678037383177571
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.07784375,
+                0.4199532710280374,
+                0.0945625,
+                0.4410514018691589
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.34709375,
+                0.541588785046729,
+                0.38315625,
+                0.6383878504672897
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.2591875,
+                0.5567289719626168,
+                0.299171875,
+                0.6074532710280374
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.06675,
+                0.4221495327102804,
+                0.22454687499999998,
+                0.6222196261682243
+            ]
+        }
+    ],
+    "hash_id": "34_coco_train2017_000000124739.jpg"
+}

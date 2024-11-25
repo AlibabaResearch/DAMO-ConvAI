@@ -1,0 +1,373 @@
+{
+    "id": "000000022863",
+    "image": "coco/train2017/000000022863.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are around the table in the image?",
+            "steps": [],
+            "answer": "There are three men sitting around the table in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people doing at the table?",
+            "steps": [],
+            "answer": "The people at the table are taking pictures of items, likely food, and looking at a phone."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the people standing or sitting around the table?",
+            "steps": [],
+            "answer": "The people are sitting around the table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of the photo? A kitchen or a public space?",
+            "steps": [],
+            "answer": "The setting of the photo is a kitchen table, suggesting that it is likely in a private home or residential space."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "In the image, three men are gathered around a dining table, either sitting or standing, engaged in taking pictures of the food items on the table using cell phones. There are at least two cell phones visible, being used to capture the moment. The table appears to be in a kitchen setting, with a refrigerator and sink nearby.\n\nVarious items can be seen on the table, including several cups, a couple of cakes, and numerous bottles. The room also features a sitting area with a couch and a chair. Additional items in the room include a vase, a TV remote, and another remote control, suggesting an entertainment space combined with a kitchen and dining area."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you describe the main features of this image for me?"
+        },
+        {
+            "from": "gpt",
+            "value": "This is a detailed description of the image:\n\n1. The image captures a warm and inviting kitchen scene with three individuals engaged in different activities.\n2. On the left, a person is comfortably seated on a beige couch, engrossed in their phone. The couch's color complements the warm tones of the room.\n3. In the middle of the frame, another person is seated at a wooden table, sipping from a white mug. The table is laden with various food items and drinks.\n4. A black pot, a green box of tea, and a white plate with food are among the items on the table, adding to the homely atmosphere.\n5. On the right, a third person is standing and leaning over the table, possibly engaging in conversation or observing something on the table.\n6. The kitchen is well-equipped with various appliances and decorated with items on the walls and counters, contributing to the overall cozy ambiance of the scene.\n\nThe image beautifully encapsulates a casual and relaxed moment in a home kitchen setting."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.48778125,
+                0.6426150627615063,
+                0.7164843750000001,
+                0.9894979079497909
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.0,
+                0.5354811715481171,
+                0.37906249999999997,
+                0.9910460251046026
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.1651875,
+                0.5945815899581589,
+                0.625625,
+                0.867510460251046
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.040125,
+                0.2856694560669456,
+                0.325203125,
+                0.9360251046025105
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.43442187499999996,
+                0.31564853556485356,
+                0.6817187499999999,
+                0.8749372384937237
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.57271875,
+                0.35426778242677825,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.30115625,
+                0.5701673640167364,
+                0.32578125,
+                0.6098535564853557
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.57325,
+                0.567531380753138,
+                0.6049374999999999,
+                0.6090167364016735
+            ]
+        },
+        {
+            "label": "refrigerator",
+            "bbox": [
+                0.94215625,
+                0.2571757322175732,
+                1.0,
+                0.8921338912133892
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.404671875,
+                0.5730543933054394,
+                0.44973437499999996,
+                0.6402510460251046
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.48364062499999994,
+                0.7127615062761506,
+                0.5284687499999999,
+                0.8179497907949791
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.45982812500000003,
+                0.5649163179916318,
+                0.485609375,
+                0.6234937238493723
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.467234375,
+                0.5518828451882846,
+                0.49390624999999994,
+                0.61081589958159
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.339453125,
+                0.6538493723849372,
+                0.4494375,
+                0.7100627615062762
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.20800000000000002,
+                0.7730334728033472,
+                0.30534375,
+                0.8244979079497908
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.717609375,
+                0.3807322175732218,
+                0.76065625,
+                0.39675732217573223
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.386328125,
+                0.14085774058577405,
+                0.43134375,
+                0.25508368200836823
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.455453125,
+                0.16338912133891212,
+                0.47740625000000003,
+                0.24627615062761507
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.2846875,
+                0.08234309623430962,
+                0.3128125,
+                0.18824267782426776
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.47625,
+                0.0005857740585774059,
+                0.504359375,
+                0.11117154811715481
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.504765625,
+                0.022280334728033473,
+                0.5295468750000001,
+                0.10964435146443514
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.218671875,
+                0.08138075313807532,
+                0.24396874999999998,
+                0.18472803347280334
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.36209375,
+                0.20926778242677824,
+                0.38078125,
+                0.2519246861924686
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.49701562499999996,
+                0.5812343096234309,
+                0.5324375,
+                0.6207112970711297
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.22537500000000002,
+                0.7552092050209205,
+                0.342796875,
+                0.8082008368200837
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.38665625000000003,
+                0.14225941422594143,
+                0.428125,
+                0.2519456066945607
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.439421875,
+                0.5299581589958159,
+                0.46137500000000004,
+                0.6203974895397489
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.24275000000000002,
+                0.0794979079497908,
+                0.27290625,
+                0.14784518828451884
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.188609375,
+                0.08320083682008368,
+                0.22317187499999996,
+                0.18774058577405858
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.26770312500000004,
+                0.10131799163179916,
+                0.29053125,
+                0.18635983263598327
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.52140625,
+                0.6003138075313807,
+                0.56934375,
+                0.6393723849372385
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.48657812500000003,
+                0.6002719665271967,
+                0.53046875,
+                0.6419456066945607
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.5335468750000001,
+                0.04989539748953975,
+                0.546140625,
+                0.11108786610878661
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.455046875,
+                0.024330543933054394,
+                0.47639062500000007,
+                0.11447698744769876
+            ]
+        }
+    ],
+    "hash_id": "321_coco_train2017_000000022863.jpg"
+}

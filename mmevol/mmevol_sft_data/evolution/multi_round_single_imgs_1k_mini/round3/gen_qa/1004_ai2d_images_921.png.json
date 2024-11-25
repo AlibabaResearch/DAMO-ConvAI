@@ -1,0 +1,44 @@
+```json
+[
+  {
+    "image_position": "single",
+    "objects": ["hawk", "oak tree", "pine tree"],
+    "skills": ["Knowledge Integration Ability", "Context Understanding Ability"],
+    "format": "Norm",
+    "question": "In the food web diagram above, can you analyze the role of the hawk as a tertiary consumer and how it interacts with both the oak and pine trees? Let's think step by step.",
+    "steps": [
+      {"manipulation": "None", "description": "Identify the role of the hawk within the food web, specifically noting its position as a tertiary consumer."},
+      {"manipulation": "None", "description": "Examine how the hawk preys on secondary consumers, and discuss the significance of plant producers like the oak and pine trees in this food web."},
+      {"manipulation": "None", "description": "Integrate the information about the hawk's dietary habits with the relationships it has with the oak and pine trees, explaining how energy flows from these producers to the hawk."}
+    ],
+    "answer": "The hawk, as a tertiary consumer in the food web, plays a critical role in maintaining ecological balance. It preys upon secondary consumers such as snakes and salamanders, which in turn, depend on primary consumers like mice. The energy flow begins with the oak and pine trees, which act as producers, converting sunlight into energy through photosynthesis. When the mice feed on these trees, they convert this energy into a form that can be utilized by secondary consumers. The hawk then occupies a high position in the food web, deriving energy from consuming these secondary consumers. Thus, the hawk's presence is crucial not only for controlling the populations of its prey but also for the overall stability of the ecosystem."
+  },
+  {
+    "image_position": "single",
+    "objects": ["hawk", "salamander", "snake"],
+    "skills": ["Relationship Description Ability", "Calculating Ability"],
+    "format": "Complex Reasoning",
+    "question": "Contemplate the implications of a sudden decline in the salamander population on the hawk and the snake, including how this could affect their interactions. Let's detail this process comprehensively.",
+    "steps": [
+      {"manipulation": "None", "description": "Identify the role of the salamander in the food web as a secondary consumer that the hawk preys upon."},
+      {"manipulation": "None", "description": "Explore how a decrease in salamanders may lead to increased competition between the hawk and snake for alternative food sources."},
+      {"manipulation": "None", "description": "Evaluate the potential consequences on the hawk's population and the snake's survival if salamanders no longer serve as a reliable food source."},
+      {"manipulation": "None", "description": "Conclude by summarizing the interconnectedness of these species and how the decline of one can impact the rest in this food web."}
+    ],
+    "answer": "If the salamander population significantly decreases, it would have serious repercussions for both the hawk and the snake. The salamander serves as a vital food source for the hawk. With fewer salamanders available, the hawk may struggle to find sufficient food, which could lead to a decline in its population. Simultaneously, the snake might also face challenges since it may depend on the same food sources. This reduction in food availability could cause competition between the hawk and snake, potentially leading to increased stress for both species. Consequently, this situation illustrates the intricate relationships in the food web and how the health of one species directly influences the others."
+  },
+  {
+    "image_position": "single",
+    "objects": ["hawk", "pine borer", "mouse"],
+    "skills": ["Knowledge Integration Ability", "Behavior Prediction Ability"],
+    "format": "Norm",
+    "question": "Examine how the presence of the hawk influences the populations of mice and pine borers, and predict future scenarios based on these interactions. Let's think through this systematically.",
+    "steps": [
+      {"manipulation": "None", "description": "Identify the hawk's role as a predator in relation to the mouse and the impact of its hunting behavior."},
+      {"manipulation": "None", "description": "Discuss how the hawk's predation may control the mouse population, which also affects the pine borer, a pest that could increase in number with fewer mice around."},
+      {"manipulation": "None", "description": "Predict potential scenarios that could arise if the hawk population were to decrease significantly."}
+    ],
+    "answer": "The hawk plays a crucial role in regulating the populations of both mice and pine borers. As a predator, the hawk's hunting behavior limits the number of mice, which are primary consumers of various plants. If the hawk effectively controls the mouse population, it indirectly influences the pine borer, which may thrive in an environment with fewer mice. If the hawk population were to decline significantly, we could anticipate an increase in mouse numbers. This boom could lead to more damage to the plants that the pine borer feeds on, creating an ecological imbalance, emphasizing the importance of the hawk in maintaining this delicate ecosystem."
+  }
+]
+```

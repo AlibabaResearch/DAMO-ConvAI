@@ -1,0 +1,156 @@
+{
+    "id": "000000034478",
+    "image": "coco/train2017/000000034478.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "A woman wearing a black shirt and sunglasses is seated at a table, talking on her cell phone. She appears to be outdoors, with the table piled with food and several items. At the end of the table, there is a large bowl, possibly containing clams. A few cups can be seen on the table, and there are two bottles positioned at different areas around the table as well.\n\nIn addition to the cups and bottles, other dining utensils such as a fork and a spoon are present on the table. There is another dining table visible to the right, with a large bowl placed on top. The scene seems to be set up for a meal, with the woman engaging in conversation on the phone before or during the gathering."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might the woman be discussing on her cell phone in this setting?",
+            "steps": [],
+            "answer": "It is not possible to know the exact conversation topic, but given the context of the scene, the woman might be discussing their current meal or the event she is attending. In the image, the woman wearing sunglasses is sitting at a table that is piled with food, such as a bucket of clams, bowls, and other dishes. She might be sharing details about the gathering with someone who is not present, making plans with a friend who is about to join her, or even discussing something completely unrelated in the midst of her meal."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat's happening in the scene?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the image, there is a woman sitting at a table in an outdoor restaurant. She is engaged in a conversation on her cell phone. The woman is stylishly dressed in a black top and has donned a pair of sunglasses. \n\nThe table in front of her is adorned with a white tablecloth and is set with various condiments and utensils. A notable feature on the table is a large pot of mussels, suggesting that she might be enjoying a seafood meal.\n\nThe setting appears to be casual and relaxed, with a brick wall visible in the background, adding a rustic charm to the place. The presence of trees further suggests that the restaurant might be located in a quaint or semi-urban area. \n\nPlease note that this description is based on the provided image and does not include any assumptions or interpretations beyond what can be directly observed."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.028875,
+                0.42542187499999995,
+                0.134171875,
+                0.726796875
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.20628125000000003,
+                0.43946874999999996,
+                0.28475,
+                0.59640625
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.54228125,
+                0.289703125,
+                0.560734375,
+                0.3344375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.312171875,
+                0.110109375,
+                0.6688906250000001,
+                0.5630312500000001
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.2926875,
+                0.52971875,
+                0.41034375,
+                0.5950781249999999
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.5954375,
+                0.546296875,
+                0.7385468749999999,
+                0.6939062500000001
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.735953125,
+                0.762,
+                0.783,
+                0.8307968750000001
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.78040625,
+                0.750484375,
+                0.9694218749999999,
+                1.0
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.7851874999999999,
+                0.639390625,
+                0.9023125000000001,
+                0.7130156249999999
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.710515625,
+                0.59746875,
+                0.9783906250000001,
+                0.8908437499999999
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.860734375,
+                0.593078125,
+                1.0,
+                0.69040625
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.9049375,
+                0.688390625,
+                1.0,
+                0.979265625
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.45575,
+                0.536390625,
+                0.71384375,
+                0.656484375
+            ]
+        }
+    ],
+    "hash_id": "333_coco_train2017_000000034478.jpg"
+}

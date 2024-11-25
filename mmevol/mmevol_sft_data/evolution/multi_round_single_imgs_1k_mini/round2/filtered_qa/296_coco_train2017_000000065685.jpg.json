@@ -1,0 +1,166 @@
+{
+    "id": "000000065685",
+    "image": "coco/train2017/000000065685.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the primary subject of the image?",
+            "steps": [],
+            "answer": "The primary subject of the image is various plants and flowers displayed in vases and placed on a tabletop."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The scene depicts a beautifully adorned hall with various plants and flowers arranged throughout the space. There is a glass dining table topped with multiple vases filled with flowers, featuring a mix of pink flowers and green plants. Around the table, chairs are placed for people to sit and enjoy the blooms. \n\nA few people are present in the hall, enjoying the interesting and captivating floral arrangements. They are standing near the table and to the left of the scene. In addition to the table and flowers, the room is furnished with two couches, one placed in the right background and another closer to the front. Two potted plants stand apart from the table, one on the left side and the other one on the right side of the hall, adding to the overall botanical ambiance."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What function does the floral arrangement play in the room?",
+            "steps": [],
+            "answer": "The floral arrangement in the room, featuring a table topped with vases filled with flowers and several potted plants, serves a decorative and aesthetic purpose. This arrangement adds life, color, and visual interest to the space, creating a more pleasant and inviting ambiance. In a commercial setting, an interesting and attractive floral arrangement can potentially draw and retain customers, as it makes the environment more welcoming and contributes to a positive experience for the visitors."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What are the key elements in this picture?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a moment in a hotel lobby, where a large floral arrangement takes center stage. The arrangement is composed of three tall glass vases, each filled with an abundance of pink flowers and lush greenery that cascades down the sides, creating a waterfall effect. The vases are strategically placed on a round table draped with a green tablecloth, which complements the natural hues of the flowers and leaves.\n\nThe table is positioned in such a way that it becomes the focal point upon entering the lobby. In the background, there's a sense of movement and life as people are seen walking through the space, adding to the dynamic atmosphere of the scene. A wooden lattice divider stands subtly in the backdrop, adding an element of architectural interest and depth to the overall composition.\n\nThe image is a harmonious blend of nature and architecture, creating an inviting and serene atmosphere in the hotel lobby."
+        }
+    ],
+    "det": [
+        {
+            "label": "couch",
+            "bbox": [
+                0.827109375,
+                0.6985680751173708,
+                1.0,
+                0.8555399061032863
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.087703125,
+                0.7835211267605633,
+                0.79875,
+                0.9882394366197182
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.12368749999999999,
+                0.4209154929577465,
+                0.155890625,
+                0.636924882629108
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.07103125,
+                0.39767605633802816,
+                0.12067187500000001,
+                0.6427230046948357
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6823125,
+                0.5903521126760564,
+                0.771296875,
+                0.7689671361502348
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.2205625,
+                0.3624882629107981,
+                0.32268749999999996,
+                0.8568779342723004
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.15228124999999998,
+                0.4944835680751174,
+                0.199859375,
+                0.5673004694835682
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.70228125,
+                0.7007981220657278,
+                0.78065625,
+                0.8305633802816903
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.649,
+                0.41981220657276996,
+                0.700484375,
+                0.8129342723004694
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.700703125,
+                0.7026760563380281,
+                0.7805625,
+                0.8305164319248826
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.416421875,
+                0.42847417840375585,
+                0.51809375,
+                0.7401173708920187
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.919546875,
+                0.5303051643192488,
+                0.9827656250000001,
+                0.6016666666666667
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.013828125,
+                0.3785211267605634,
+                0.07690625,
+                0.4876525821596244
+            ]
+        }
+    ],
+    "hash_id": "296_coco_train2017_000000065685.jpg"
+}

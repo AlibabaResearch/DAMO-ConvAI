@@ -1,0 +1,328 @@
+{
+    "id": "000000036157",
+    "image": "coco/train2017/000000036157.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the man holding in the image?",
+            "steps": [],
+            "answer": "The man in the image is holding a Spiderman kite."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the man wearing on his head and upper body?",
+            "steps": [],
+            "answer": "The man is wearing a hat, a tie, and a pink shirt."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How would you describe the location and setting of the image?",
+            "steps": [],
+            "answer": "The image is set in a park, where the man is surrounded by many other kite fliers, indicating a popular spot for kite flying or possibly a kite festival event."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the overall atmosphere of the image based on the activity happening and the people present?",
+            "steps": [],
+            "answer": "The overall atmosphere of the image seems joyful, recreational, and vibrant. The man holding the Spiderman kite, along with many other kite fliers in the park, suggests a lively outdoor activity that people are participating in and enjoying their time. This kind of activity fosters a sense of community and togetherness, as individuals and families come together to share their enthusiasm for kite flying and engage in a fun and relaxing pastime."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "The image depicts a lively park setting with a man prominently holding a Spiderman kite. He is wearing a hat, pink shirt, and a tie. Several other kite fliers are scattered around the park, engaging in the same activity. \n\nThere are numerous people around the park, and some of them are standing near cars and trucks parked in the vicinity. In total, there are twelve people visible in the scene, including the man with the Spiderman kite. Additionally, there are ten cars and one truck parked around the park area."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Why might the man be wearing a tie while flying a Spiderman kite?",
+            "steps": [],
+            "answer": "The man might be wearing a tie while flying a Spiderman kite as he could be engaging in this recreational activity during a break from work or a formal event. It is possible that he decided to join the numerous kite fliers in the park, allowing him to relax and enjoy his time outdoors while still being dressed in formal clothing. This scenario shows that people can participate in fun activities and take breaks from work, even if they are dressed formally."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What do you think is going on in this snapshot?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "Sure, here's a detailed description of the image:\n\n- The image captures a **moment of joy** in a park, where a man is flying a kite.\n- The man is dressed in a **red shirt** and a **black hat**, adding a pop of color to the scene. He is holding the kite string firmly with his right hand.\n- The kite, soaring to his left, is an eye-catching blend of **blue and red**. It features a design of a bird, perhaps symbolizing freedom and the joy of flight.\n- The kite also has a long, flowing **red tail** that dances in the wind.\n- The park serves as a serene backdrop with its lush green trees under the clear blue sky. It's a typical day out in the park, filled with tranquility and simple pleasures.\n\nPlease note that this description is based on the image provided and does not include any assumptions or interpretations beyond what can be seen in the image."
+        }
+    ],
+    "det": [
+        {
+            "label": "tie",
+            "bbox": [
+                0.5876399999999999,
+                0.5052551020408164,
+                0.6405599999999999,
+                0.7214285714285714
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.9047000000000001,
+                0.9068877551020408,
+                0.98652,
+                0.9525510204081632
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.76186,
+                0.8945918367346939,
+                0.7952400000000001,
+                0.9294387755102042
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8429800000000001,
+                0.8969387755102042,
+                0.90022,
+                0.9414285714285715
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.37186,
+                0.8964030612244898,
+                0.386,
+                0.9359183673469388
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.14382,
+                0.15010204081632653,
+                1.0,
+                0.9890306122448981
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.11122,
+                0.5744132653061225,
+                0.19236,
+                0.6146173469387755
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8211,
+                0.9078826530612245,
+                0.8453,
+                0.9415306122448979
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.42776,
+                0.9046683673469388,
+                0.47224,
+                0.9335969387755101
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.48713999999999996,
+                0.9088520408163265,
+                0.5239199999999999,
+                0.9323214285714285
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.51224,
+                0.9053571428571427,
+                0.5337000000000001,
+                0.9341326530612244
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.31888,
+                0.3659183673469388,
+                0.7575799999999999,
+                0.9883928571428571
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.37851999999999997,
+                0.8191836734693878,
+                0.45189999999999997,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.23324,
+                0.9170408163265307,
+                0.25570000000000004,
+                0.9676275510204082
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.1992,
+                0.8996428571428572,
+                0.22297999999999998,
+                0.9686989795918368
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.173,
+                0.897704081632653,
+                0.18782,
+                0.9488520408163265
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.07718000000000001,
+                0.8718112244897959,
+                0.10616,
+                0.9827040816326531
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.11564,
+                0.8781632653061224,
+                0.1549,
+                0.9815051020408163
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.03066,
+                0.8959183673469387,
+                0.046200000000000005,
+                0.9551530612244897
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.23482,
+                0.8870408163265306,
+                0.24359999999999998,
+                0.9275510204081633
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.18869999999999998,
+                0.8931122448979593,
+                0.2057,
+                0.9486989795918368
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.04912,
+                0.8953061224489796,
+                0.06470000000000001,
+                0.9559438775510203
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.49506,
+                0.9233418367346938,
+                0.5124,
+                0.952219387755102
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.89658,
+                0.9023214285714285,
+                0.95472,
+                0.9328571428571428
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8682799999999999,
+                0.8971938775510204,
+                0.93362,
+                0.9418112244897959
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.44042000000000003,
+                0.9167857142857143,
+                0.46654,
+                0.9344132653061225
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.02524,
+                0.9051275510204082,
+                0.03214,
+                0.9559693877551021
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.9524400000000001,
+                0.9163265306122449,
+                1.0,
+                0.9575765306122449
+            ]
+        }
+    ],
+    "hash_id": "629_coco_train2017_000000036157.jpg"
+}

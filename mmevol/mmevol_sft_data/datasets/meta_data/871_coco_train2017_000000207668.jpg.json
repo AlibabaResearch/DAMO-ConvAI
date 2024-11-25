@@ -1,0 +1,100 @@
+{
+    "id": "000000207668",
+    "image": "coco/train2017/000000207668.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What creative adaptation is seen in the image and how is it positioned with respect to other objects in the scene?",
+            "steps": [],
+            "answer": "The creative adaptation seen in the image is the use of a dining table as a makeshift ping pong table. The man in the blue shirt is playing ping-pong in the kitchen, likely on his dining table. The table is placed between other kitchen furnishings such as a chair, a microwave, and a bowl, with clocks hanging on the wall nearby. This setup showcases the resourcefulness and adaptability of the person involved, as he has utilized the available space and furniture to engage in a recreational activity without needing a dedicated ping pong table."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat's happening in the scene?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy kitchen, a man in a gray sweater is engrossed in a lively game of table tennis. His right hand skillfully grips a red paddle, ready for the next shot, while his left hand holds a white ball, preparing for the serve. The table tennis net, with its alternating blue and white stripes, stands firmly in the middle of the table, awaiting the upcoming rally. Two additional red paddles rest on the table, silent spectators to the unfolding game.\n\nThe kitchen around him tells its own story. Wooden cabinets, filled with unseen treasures of culinary delight, line the walls. A microwave sits nearby, perhaps used for heating up quick snacks during intense table tennis matches. On the wall, two clocks keep track of time - a regular wall clock and an elegant grandfather clock. Their ticking rhythm provides a steady beat to the symphony of this unusual indoor game.\n\nEvery object in this scene is precisely placed, creating a harmonious balance between the joy of sport and the comfort of home."
+        }
+    ],
+    "det": [
+        {
+            "label": "sports ball",
+            "bbox": [
+                0.4882389937106918,
+                0.435984375,
+                0.5341928721174004,
+                0.47807812499999996
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.3485115303983229,
+                0.20340625,
+                0.3967714884696017,
+                0.25539062500000004
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.024654088050314465,
+                0.22459375,
+                0.06995807127882599,
+                0.274984375
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9514255765199161,
+                0.665390625,
+                1.0,
+                0.7325
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.20805031446540878,
+                0.2561875,
+                0.5849266247379454,
+                0.640453125
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.8642348008385744,
+                0.44829687500000004,
+                0.9509643605870022,
+                0.4718125000000001
+            ]
+        },
+        {
+            "label": "microwave",
+            "bbox": [
+                0.7809014675052411,
+                0.47415624999999995,
+                0.9497484276729561,
+                0.5393281249999999
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.009937106918238995,
+                0.698765625,
+                0.9971698113207548,
+                0.9851875
+            ]
+        }
+    ],
+    "hash_id": "871_coco_train2017_000000207668.jpg"
+}

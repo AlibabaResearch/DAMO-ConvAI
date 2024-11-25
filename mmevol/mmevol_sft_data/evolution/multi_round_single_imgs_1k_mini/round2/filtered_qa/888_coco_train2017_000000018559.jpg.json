@@ -1,0 +1,220 @@
+{
+    "id": "000000018559",
+    "image": "coco/train2017/000000018559.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image captures an exciting tennis match being played between a man in a green shirt and another in a white shirt. Both players are skillfully positioned on a tennis court, ready to hit the sports ball with their tennis rackets. The focused tennis player in the foreground seems to be poised to strike the ball, while the other player readies to react to the incoming shot.\n\nThe game has attracted a sizable crowd, with many spectators gathered around the court. They are seated in chairs and benches, paying close attention to the action on the court. Among the spectators' belongings, there is a backpack placed nearby. The atmosphere is lively as the audience intently watches the gripping match unfold."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How can the tennis player improve his gameplay in this environment?",
+            "steps": [],
+            "answer": "The tennis player can improve his gameplay in this environment by taking advantage of the presence of the crowd and using their energy to boost his motivation and performance. He should remain focused on the game and maintain a competitive mindset while adapting to the crowd's reactions. Additionally, the player should also pay attention to the court conditions, as factors like the court surface or weather can impact the ball's movement and bounce. Practicing and refining his techniques, such as serves, backhands, and volleys, will also help improve his gameplay in various environments, including the one depicted in the image. Lastly, continuous physical conditioning, mental training, and learning from both victories and losses will contribute to overall improvement and success in the long term."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you describe the main features of this image for me?"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a dynamic moment in a tennis match. The main subject is a tennis player, who is in the middle of serving the ball. The player is dressed in a green shirt and white shorts, and is holding a tennis racket in their right hand. The ball is suspended in the air above the player's head, indicating that they have just tossed it up for the serve.\n\nThe player is on a clay court, which is recognizable by its distinctive red-brown color. They are standing near the baseline, ready to launch the ball across the court with a powerful serve.\n\nIn the background, you can see a blue stadium filled with spectators, all focused on the ongoing match. There's also a banner that reads \"Casino en Rinconada\", possibly indicating the location or sponsor of the event.\n\nOverall, this image encapsulates the intensity and focus of a professional tennis match, with every element - from the player's concentrated gaze to the anticipatory silence of the crowd - contributing to this captivating scene."
+        }
+    ],
+    "det": [
+        {
+            "label": "sports ball",
+            "bbox": [
+                0.5181666666666667,
+                0.23609375,
+                0.5384375,
+                0.24901562500000002
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6174166666666667,
+                0.237453125,
+                0.6442083333333334,
+                0.32790625
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.0,
+                0.11060937500000001,
+                0.08979166666666667,
+                0.11996875
+            ]
+        },
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.4486875,
+                0.2308125,
+                0.5122708333333333,
+                0.36267187500000003
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.7778541666666666,
+                0.319171875,
+                0.8703958333333334,
+                0.36526562500000004
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4464166666666667,
+                0.21953125,
+                0.662,
+                0.6251875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5638333333333333,
+                0.20071875,
+                0.6420833333333333,
+                0.33178125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7101041666666668,
+                0.085390625,
+                0.7910208333333334,
+                0.191015625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.27852083333333333,
+                0.08792187500000001,
+                0.3700625,
+                0.19206250000000002
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3615833333333333,
+                0.08825,
+                0.4347291666666667,
+                0.192140625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.42825,
+                0.0521875,
+                0.5013541666666667,
+                0.14356249999999998
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6389791666666667,
+                0.07925,
+                0.720375,
+                0.1880625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5006458333333333,
+                0.10979687499999999,
+                0.5679791666666667,
+                0.19324999999999998
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8572083333333332,
+                0.087015625,
+                0.9327083333333334,
+                0.18621875000000002
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5680416666666667,
+                0.04715625,
+                0.6452708333333333,
+                0.11873437500000002
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.07264583333333333,
+                0.09829687499999999,
+                0.16125,
+                0.19720312499999998
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7820208333333334,
+                0.07796875,
+                0.8719166666666667,
+                0.192578125
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9102291666666668,
+                0.250671875,
+                0.9996875000000001,
+                0.36217187500000003
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.0028125000000000003,
+                0.07203125,
+                0.077625,
+                0.08384375000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.20800000000000002,
+                0.09009375,
+                0.3034375,
+                0.1945625
+            ]
+        }
+    ],
+    "hash_id": "888_coco_train2017_000000018559.jpg"
+}

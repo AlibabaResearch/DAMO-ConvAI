@@ -1,0 +1,75 @@
+{
+    "id": "000000219399",
+    "image": "coco/train2017/000000219399.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What could be the reason for the men receiving small presents?",
+            "steps": [],
+            "answer": "The two men in suits are receiving small presents and smiling, which suggests that they may have been recognized for their achievements at a business meeting or a company event. The presentation of the gifts could represent an appreciation for their hard work or contributions to their organization. The fact that they are wearing suits indicates that it is a formal occasion, further supporting the idea that the event is business-related, and the men are being rewarded for their professional accomplishments or milestones."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat's happening in the scene?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the image, two men are standing in a room with brick walls, each holding a small toy car. The man on the left is dressed in a dark suit and has a name tag on his jacket. The man on the right is wearing a blue blazer with a name tag and a US flag pin on his lapel. They are both standing in the foreground of the image, with their bodies facing each other, suggesting they are engaged in a conversation or presentation.\n\nIn the background, there is another man sitting on a chair. He seems to be observing or waiting, but his exact actions or intentions are not clear from the image. Also in the background, there's a poster hanging on the wall. However, the details of the poster are not discernible.\n\nThe room they are in appears to be fairly spacious, with brick walls that give it an industrial or rustic feel. The lighting is soft and even, suggesting an indoor setting with artificial lighting.\n\nPlease note that this description is based on the visible elements in the image and does not include any speculative or inferred information."
+        }
+    ],
+    "det": [
+        {
+            "label": "tie",
+            "bbox": [
+                0.034734375,
+                0.4644356435643564,
+                0.04975,
+                0.5410495049504951
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.582515625,
+                0.22114851485148515,
+                0.9321093749999999,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.3660594059405941,
+                0.135421875,
+                0.8671683168316832
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.07698437500000001,
+                0.04007920792079207,
+                0.443859375,
+                1.0
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.719140625,
+                0.42954455445544554,
+                0.768390625,
+                0.6321980198019802
+            ]
+        }
+    ],
+    "hash_id": "440_coco_train2017_000000219399.jpg"
+}

@@ -1,0 +1,219 @@
+{
+    "id": "000000103589",
+    "image": "coco/train2017/000000103589.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are in the image?",
+            "steps": [],
+            "answer": "There are at least seven people in the image: a man wearing a gray hat and white shirt, two women talking, and four men moving a couch into a truck."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the men doing in the image?",
+            "steps": [],
+            "answer": "The men in the image are carrying a couch and moving it into a truck, presumably as part of a furniture moving process at a storage facility."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where are the men moving the couch located?",
+            "steps": [],
+            "answer": "The men moving the couch are located in a parking lot near a storage shed, which is in the vicinity of a large truck."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the two women doing in the image?",
+            "steps": [],
+            "answer": "The two women in the image are talking while standing next to the man wearing a gray hat and white shirt."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of facility is this taking place at?",
+            "steps": [],
+            "answer": "This scene is taking place at a storage facility, where items such as furniture are being moved and stored."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "The image shows a group of people at a storage facility, working together to move furniture. The main focus of the scene is a couch being carried by four men through a parking lot, presumably from the back of a large truck. The truck is parked close to the group with its rear-facing the storage shed, indicating that the items are being unloaded from the truck.\n\nIn addition to the men carrying the couch, there are several other people around, including a man wearing a gray hat and white shirt standing next to two women who appear to be talking. Another person, standing away from the main activity, seems to be observing the process. \n\nVarious belongings can be seen scattered around the area, including a backpack near the center of the scene and a handbag on the ground closer to the left side. There are also a couple of cars parked nearby, highlighting the location as a common meeting place for their owners."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What potential risks or challenges might this group face during this activity?",
+            "steps": [],
+            "answer": "During the activity of moving furniture at a storage facility, this group might face several potential risks and challenges. For example, there is the possibility of accidentally dropping or damaging the furniture, such as the couch being carried by the men. This may lead to monetary losses or difficulty replacing the items. Additionally, the group must ensure proper handling techniques and coordination while carrying the heavy items to avoid any injuries or strains. Lastly, navigating through the parking lot and moving items between the truck and storage shed can be challenging, as obstacles like parked cars and other objects might obstruct their path or create narrow spaces to maneuver through. The group should always prioritize safety, clear communication, and work as a team to address these challenges efficiently."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city, a large yellow truck stands parked on a black asphalt road. The truck's back door is wide open, revealing its contents and inviting the assistance of a group of people who have gathered to unload it. \n\nTwo men are perched inside the truck, their muscles straining as they maneuver a gray couch. One man holds the couch firmly, preparing to pass it down to his companions below. The other man assists him, ready to guide the couch safely to the ground.\n\nOn the ground, several more people stand ready to receive the couch. They are poised and alert, their hands outstretched and their eyes focused on the task at hand.\n\nThe scene is set against a backdrop of lush green trees and a nondescript building, adding a touch of tranquility to the otherwise busy scene. Above them, the sky is a clear blue with just a few clouds scattered across it, suggesting a beautiful day for outdoor activities.\n\nThis image captures not just a moment in time but also the spirit of teamwork and cooperation. It's an everyday scene perhaps, but one that speaks volumes about the power of working together."
+        }
+    ],
+    "det": [
+        {
+            "label": "couch",
+            "bbox": [
+                0.43423437500000006,
+                0.4573239436619718,
+                0.688484375,
+                0.7684976525821596
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.670953125,
+                0.4972300469483568,
+                0.7460625000000001,
+                0.8309859154929577
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.655109375,
+                0.3300469483568075,
+                0.72503125,
+                0.5292253521126761
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.559734375,
+                0.26237089201877933,
+                0.638765625,
+                0.5461032863849765
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.404515625,
+                0.4542723004694836,
+                0.47624999999999995,
+                0.8040140845070423
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.20096875,
+                0.38232394366197187,
+                0.32429687500000004,
+                0.9591314553990611
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.095953125,
+                0.4335680751173709,
+                0.197890625,
+                0.9898591549295773
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.376578125,
+                0.14720657276995305,
+                0.70834375,
+                0.7540845070422534
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.27754687499999997,
+                0.46319248826291076,
+                0.3246875,
+                0.5984037558685446
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.368875,
+                0.510093896713615,
+                0.37917187500000005,
+                0.5293427230046949
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.361828125,
+                0.48866197183098586,
+                0.3803125,
+                0.5222769953051642
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4730625,
+                0.3693661971830986,
+                0.49578125,
+                0.46530516431924884
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.167015625,
+                0.6351408450704226,
+                0.22301562500000002,
+                0.7967136150234742
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.000921875,
+                0.3812910798122066,
+                0.10771875,
+                0.9802816901408451
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.3719375,
+                0.5163849765258216,
+                0.38,
+                0.5415258215962441
+            ]
+        }
+    ],
+    "hash_id": "948_coco_train2017_000000103589.jpg"
+}

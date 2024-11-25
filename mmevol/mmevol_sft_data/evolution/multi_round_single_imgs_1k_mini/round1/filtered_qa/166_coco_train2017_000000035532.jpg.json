@@ -1,0 +1,282 @@
+{
+    "id": "000000035532",
+    "image": "coco/train2017/000000035532.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people in the image doing?",
+            "steps": [],
+            "answer": "The people in the image, consisting of two men in camouflage uniforms, presumably soldiers, and two young boys, are gathered around a table with a cake on it, apparently preparing to engage in a celebration."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the attire of the two men in the image?",
+            "steps": [],
+            "answer": "The two men in the image are wearing camouflage uniforms, indicating that they are likely members of the military."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the relationship between the men and the children in the image?",
+            "steps": [],
+            "answer": "While it is not explicitly stated, it is suggested that the men, who are likely soldiers, are in a familial relationship with the children - possibly as fathers, uncles, or close family friends. The image portrays a celebration that involves both the military men and the children, indicating a close bond between them."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are present in the image?",
+            "steps": [],
+            "answer": "There are a total of four people in the image - two men in camouflage uniforms and two young boys."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the centerpiece of the table around which the people are gathered?",
+            "steps": [],
+            "answer": "The centerpiece of the table around which the people are gathered is a sheet cake, which appears to be a symbol of the celebration taking place."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Explain the visual content of the image in great detail.",
+            "steps": [],
+            "answer": "The image depicts a celebration with two men in camouflage uniforms and two young boys standing together around a dining table. On the table, there is a sheet cake placed in the center, which the men are preparing to cut. Various utensils like forks and knives are visible on the table, as well as a couple of bowls. The setting exudes a warm and festive atmosphere.\n\nIn addition to the dining table, the room also has a couch along the wall and chairs positioned around the table. A bottle can be seen on the table's left side, perhaps as part of the celebration. The gathering appears to be an intimate celebration among family members, honoring the achievements of the two military men."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think was the purpose of this gathering involving the soldiers?",
+            "steps": [],
+            "answer": "The purpose of this gathering appears to be a celebration involving the two soldiers and their children. In the image, the two men in camouflage uniforms are standing at a table with two young boys, and there is a cake on the table. The presence of the cake, along with the dining set-up and other items like forks, knives, and bowls, suggests that it is a special occasion or a celebration to honor the two military men, possibly for their achievements or homecoming. The event is organized in a way that allows the soldiers to spend time and share the joyous occasion with their children, reflecting the importance of bonding and family time for people who serve in the military."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat's happening in the scene?"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a special moment in a room with red walls. At the center of the scene is a table covered with a white tablecloth. On the table, there's a red and gold cake, flanked by two red candles. \n\nTwo men in military uniforms are standing behind the table. The man on the left is holding a microphone, perhaps ready to make a speech or announcement. The man on the right is holding a knife, possibly preparing to cut the cake.\n\nOn the left side of the table, there are two children attentively watching the proceedings. Their exact actions or emotions are not clear from the image.\n\nAdding to the formal atmosphere of the event, a red flag with a yellow emblem is hanging on the wall behind them. On the right side of the room, there's a brown leather couch.\n\nThe image seems to depict a celebration or ceremony of some sort, but without additional context, it's hard to determine exactly what occasion is being celebrated."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.60078125,
+                0.4449375,
+                0.6184999999999999,
+                0.5090625
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.073984375,
+                0.5473541666666667,
+                1.0,
+                0.9890416666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.192140625,
+                0.18877083333333333,
+                0.47190624999999997,
+                0.701125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.719171875,
+                0.24516666666666667,
+                0.826046875,
+                0.6176875000000001
+            ]
+        },
+        {
+            "label": "cake",
+            "bbox": [
+                0.49265625,
+                0.6148958333333333,
+                0.780875,
+                0.7335208333333333
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.2485,
+                0.6547708333333334,
+                0.263671875,
+                0.7342708333333334
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.23253125,
+                0.6580208333333334,
+                0.24284374999999997,
+                0.6869166666666667
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.23646875,
+                0.65325,
+                0.25346875,
+                0.6865
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.8020156249999999,
+                0.5868125000000001,
+                0.8597187499999999,
+                0.628625
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.81365625,
+                0.39658333333333334,
+                0.999296875,
+                0.6160416666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9135312499999999,
+                0.3845,
+                1.0,
+                0.5345208333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3994375,
+                0.12583333333333332,
+                0.5983124999999999,
+                0.6674166666666665
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.4908125,
+                0.119234375,
+                1.0
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.20800000000000002,
+                0.6568541666666667,
+                0.22453125000000002,
+                0.698125
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.88815625,
+                0.5522083333333333,
+                0.90003125,
+                0.5867916666666667
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.362765625,
+                0.6875416666666666,
+                0.4220625,
+                0.7531874999999999
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.7809375000000001,
+                0.6805833333333333,
+                0.92521875,
+                0.6958958333333334
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.4505,
+                0.0,
+                0.48054687500000004,
+                0.25702083333333337
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.24240625,
+                0.6517708333333334,
+                0.26521874999999995,
+                0.6959375
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.8522968750000001,
+                0.5823958333333333,
+                0.8823125,
+                0.6218333333333333
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.220796875,
+                0.6531874999999999,
+                0.233875,
+                0.6979166666666666
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.914125,
+                0.38477083333333334,
+                1.0,
+                0.5540416666666667
+            ]
+        }
+    ],
+    "hash_id": "166_coco_train2017_000000035532.jpg"
+}

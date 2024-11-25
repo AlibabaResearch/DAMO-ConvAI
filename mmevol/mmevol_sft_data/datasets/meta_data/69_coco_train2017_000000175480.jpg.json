@@ -1,0 +1,316 @@
+{
+    "id": "000000175480",
+    "image": "coco/train2017/000000175480.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Describe the following image.",
+            "steps": [],
+            "answer": "The image features two young boys sitting at a kitchen table, enjoying a meal together. They are both eating pizza off their plates, surrounded by the kitchen environment.\n\nThe kitchen is well-equipped with a dining table, chairs, a microwave, and an oven. A sink can be spotted in the background with multiple bottles on the countertop. The dining table features cups for beverages, and a potted plant can be seen beside the table, adding a touch of greenery to the space."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are some precautions parents should take when children are eating in the kitchen?",
+            "steps": [],
+            "answer": "When children are eating in the kitchen, parents should take several precautions to ensure their safety and well-being. First, they should ensure that any sharp objects, such as knives, scissors, or forks, are out of reach. Second, they should store any breakable items, such as glassware or dishes, away from the edges of counters or tables where they could accidentally be knocked over. Third, parents should monitor the heat sources in the kitchen like the stove, oven, or microwave, and make sure they are not accessible to children during mealtime. Fourth, parents should supervise the children while they eat, especially if they are handling potentially messy or challenging foods like pizza, to help prevent choking hazards. Lastly, storing cleaning supplies, medications, and other potentially harmful substances in secure cabinets and out of children's reach is essential for avoiding accidental ingestion or exposure."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy kitchen, two young children are seated at a white table, their faces lit up with joy. The child on the left is in the middle of a delicious adventure, taking a bite from a slice of pizza held in their hand. The pizza, resting on a vibrant red plate, seems to be the source of their delight.\n\nAcross the table, the child on the right is caught in a moment of pure laughter, their mouth open in a wide grin. Their untouched pizza sits on an identical red plate, waiting to be enjoyed.\n\nThe white table stands out against the backdrop of a kitchen counter laden with various bottles and appliances, painting a picture of a typical day filled with simple pleasures and shared meals. The image captures not just a moment, but a story of childhood, camaraderie, and the joy found in something as simple as a slice of pizza."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.6546000000000001,
+                0.5645600000000001,
+                0.7154400000000001,
+                0.6527733333333334
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0033799999999999998,
+                0.5973866666666667,
+                1.0,
+                0.9838933333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.67248,
+                0.26066666666666666,
+                1.0,
+                0.7617866666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.28922666666666663,
+                0.43386,
+                0.7892266666666666
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.50392,
+                0.57824,
+                0.59316,
+                0.7160266666666666
+            ]
+        },
+        {
+            "label": "pizza",
+            "bbox": [
+                0.3364,
+                0.6589066666666666,
+                0.49933999999999995,
+                0.7947466666666666
+            ]
+        },
+        {
+            "label": "pizza",
+            "bbox": [
+                0.61882,
+                0.7203999999999999,
+                0.6991600000000001,
+                0.7804266666666666
+            ]
+        },
+        {
+            "label": "pizza",
+            "bbox": [
+                0.14022,
+                0.64984,
+                0.37039999999999995,
+                0.8959466666666667
+            ]
+        },
+        {
+            "label": "pizza",
+            "bbox": [
+                0.5650599999999999,
+                0.6601333333333333,
+                0.67826,
+                0.7260266666666666
+            ]
+        },
+        {
+            "label": "microwave",
+            "bbox": [
+                0.34836,
+                0.42552,
+                0.5367000000000001,
+                0.6249600000000001
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.9442200000000001,
+                0.34888,
+                1.0,
+                0.3723466666666667
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.24506,
+                0.20584,
+                0.27446,
+                0.35384
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.30134,
+                0.23797333333333331,
+                0.33279999999999993,
+                0.3374933333333333
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.38288,
+                0.23506666666666667,
+                0.40204,
+                0.33082666666666666
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.3227,
+                0.15226666666666666,
+                0.36607999999999996,
+                0.33496000000000004
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.17018,
+                0.23165333333333335,
+                0.20528,
+                0.31992
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.19408,
+                0.24589333333333332,
+                0.22456,
+                0.3433333333333333
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.21628,
+                0.24344000000000002,
+                0.24680000000000002,
+                0.3535466666666667
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.35774,
+                0.20989333333333332,
+                0.38014,
+                0.33301333333333333
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.45148,
+                0.25304,
+                0.47006,
+                0.3084
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.26036000000000004,
+                0.20512,
+                0.29431999999999997,
+                0.3387466666666667
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.28884,
+                0.1821066666666667,
+                0.31327999999999995,
+                0.33424
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.0272,
+                0.69696,
+                0.1415,
+                0.88168
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.0079,
+                0.11634666666666667,
+                0.041659999999999996,
+                0.30317333333333335
+            ]
+        },
+        {
+            "label": "pizza",
+            "bbox": [
+                0.7002200000000001,
+                0.7211733333333333,
+                0.8496600000000001,
+                0.7807733333333334
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.34836,
+                0.4274133333333333,
+                0.53696,
+                0.6206933333333333
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.643,
+                0.33301333333333333,
+                0.76616,
+                0.37493333333333334
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.25874,
+                0.27824,
+                0.2748,
+                0.3396266666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.0,
+                0.5977333333333333,
+                0.04934,
+                0.67808
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.41222000000000003,
+                0.23359999999999997,
+                0.42604000000000003,
+                0.2822133333333333
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.00232,
+                0.2561066666666667,
+                0.0419,
+                0.43242666666666674
+            ]
+        }
+    ],
+    "hash_id": "69_coco_train2017_000000175480.jpg"
+}

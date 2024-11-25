@@ -1,0 +1,212 @@
+{
+    "id": "000000225399",
+    "image": "coco/train2017/000000225399.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "The image features a park in the middle of a city with two gold statues as the main attraction. The most noticeable statue is of a man on a horse, surrounded by trees and buildings. Several people are enjoying the park, with some of them carrying umbrellas. \n\nThe park is bordered by a street where a few cars are parked, and a traffic light is visible in the scene. The atmosphere appears to be calm and relaxing, with people appreciating the beauty of the statues and the greenery of the park."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can you observe about the location of the statue and what is a possible challenge for some visitors?",
+            "steps": [],
+            "answer": "The statue is located in a city park, surrounded by trees, grass, and buildings. It depicts a man on a horse, which suggests that it might represent an important historical figure or an iconic cultural symbol. Considering the presence of umbrellas around the park, it can be inferred that the weather might be rainy at times, which could pose a challenge for visitors as they may need to take extra precautions to protect themselves from rain and wet conditions while exploring the park and admiring the statue. Access to the statue might be hindered in case of heavy rain or wet ground, and this could limit the enjoyment of visitors who do not come prepared."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWrite a detailed description of the given image."
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures the grandeur of the William Tecumseh Sherman Monument, a prominent feature of Manhattan's Grand Army Plaza. The monument is a large bronze statue, its patina lending it a greenish hue. It depicts General William Tecumseh Sherman, a key figure in American history, astride a horse. The general appears in mid-motion, as if caught in the midst of a parade or a charge.\n\nLeading the way for the horse and its rider is a figure of winged Victory, her golden form contrasting with the bronze of the rest of the statue. She holds a palm frond in one hand, symbolizing victory, and with the other hand, she leads the horse forward.\n\nThe statue is mounted on a large granite pedestal, its gray solidity grounding the dynamic figures above. On each side of the pedestal are bas-reliefs, their details hard to make out from this distance.\n\nThe monument is nestled amidst lush green trees, their leaves forming a verdant canopy overhead. The surrounding buildings peek through these trees, their windows glinting in the sunlight. A street stretches out behind the monument, cars parked along its sides hinting at the bustling city life beyond this tranquil scene.\n\nIn summary, this image is a beautiful blend of history and nature in an urban setting, showcasing a piece of New York City's rich cultural heritage."
+        }
+    ],
+    "det": [
+        {
+            "label": "horse",
+            "bbox": [
+                0.322578125,
+                0.05575,
+                0.55828125,
+                0.567078125
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.940828125,
+                0.788578125,
+                0.9997031249999999,
+                0.829703125
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.9233750000000001,
+                0.77371875,
+                0.9998750000000001,
+                0.8213125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.34959375000000004,
+                0.07425000000000001,
+                0.45899999999999996,
+                0.36885937500000004
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.968375,
+                0.780046875,
+                0.9981249999999999,
+                0.8399531250000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8362187499999999,
+                0.7864687499999999,
+                0.850046875,
+                0.8210156249999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8237500000000001,
+                0.78309375,
+                0.8354531250000001,
+                0.820140625
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.178265625,
+                0.7712656250000001,
+                0.19498437500000002,
+                0.7835156249999999
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.136953125,
+                0.761421875,
+                0.17634375000000002,
+                0.780234375
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.074328125,
+                0.762046875,
+                0.10246875,
+                0.8125937499999999
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.0171875,
+                0.768171875,
+                0.05709375,
+                0.781578125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8553124999999999,
+                0.77878125,
+                0.874421875,
+                0.815015625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.10915625,
+                0.7872656250000001,
+                0.11878124999999999,
+                0.82321875
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.86115625,
+                0.749109375,
+                0.889828125,
+                0.77021875
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.0,
+                0.7680625,
+                0.021328125,
+                0.782375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.016640625,
+                0.780765625,
+                0.026968750000000003,
+                0.825359375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.50978125,
+                0.03053125,
+                0.7435937499999999,
+                0.521296875
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.21078125,
+                0.780265625,
+                0.2305,
+                0.793984375
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.7658437499999999,
+                0.759015625,
+                0.7754218749999999,
+                0.7715624999999999
+            ]
+        }
+    ],
+    "hash_id": "675_coco_train2017_000000225399.jpg"
+}

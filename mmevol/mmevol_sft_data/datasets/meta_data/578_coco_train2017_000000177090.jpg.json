@@ -1,0 +1,370 @@
+{
+    "id": "000000177090",
+    "image": "coco/train2017/000000177090.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color are the counters in the kitchen?",
+            "steps": [],
+            "answer": "The counters in the kitchen are green."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the table in the room?",
+            "steps": [],
+            "answer": "The table in the room is brown."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How would you describe the state of the kitchen?",
+            "steps": [],
+            "answer": "The kitchen is in a very cluttered state, with tools and various items everywhere. It appears to be partially deconstructed, indicating that it might be undergoing renovations or maintenance."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of room is depicted in the image?",
+            "steps": [],
+            "answer": "The image depicts a kitchen, which is a room primarily used for cooking and food preparation."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of items are filling up the kitchen in the image?",
+            "steps": [],
+            "answer": "The kitchen is filled with various items, including tools that might be used for renovation or maintenance, electric knives, and cabinets. This combination of items contributes to the cluttered and disorganized appearance of the space."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The image shows a cluttered kitchen filled with a variety of items and tools. The kitchen has green counters, a brown table, and windows in the background. Throughout the room, multiple electric knives, scissors, cups, and bottles can be seen scattered among the disarray. \n\nIn addition, there are several bowls, a few spoons, an oven, and two toasters. A potted plant is located near the left edge of the room, and a sink is also visible. A suitcase is placed on the floor, having seemingly been left amidst the chaos. The kitchen appears to be in a state of disorganization, with various objects occupying different spaces throughout the space."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What issues could someone face while working in this kitchen, and how can they improve the situation?",
+            "steps": [],
+            "answer": "The main issue someone would face while working in this cluttered kitchen is the lack of organization and cleanliness. The kitchen is filled with various items like electric knives, scissors, bottles, cups, bowls, and more scattered throughout the space. This can make it hard to find tools and equipment needed for cooking or cleaning, increasing the chance of accidents, and making the space inefficient to work in.\n\nTo improve the situation, the person using the kitchen should start by decluttering and organizing the items. They can create designated storage spaces for tools and utensils like knives, scissors, and spoons, putting them in drawers or holders for easy access. They should also find a proper place for appliances like the toaster, oven, and others and store dishes like cups, bowls, and plates neatly in the cabinets. Furthermore, removing any unnecessary items or rarely used objects can free up valuable counter space and make the kitchen safer to navigate. Implementing consistent cleaning habits and maintaining organization will result in a more efficient and pleasant working environment in the kitchen."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat's happening in the scene?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of this image lies a bustling kitchen, brimming with life and color. The room is dominated by a green counter, its vibrant hue standing out amidst the chaos. A white fridge stands tall, a silent sentinel amidst the culinary storm. \n\nHanging on the wall, a collection of pots and pans tell tales of meals past and future. They dangle above a blue cooler resting on the floor, a temporary storage for ingredients yet to be transformed into delicious dishes.\n\nIn the background, a white stove and a black grill stand ready for action, their surfaces gleaming under the room's light. They are the heart of this culinary universe, where raw ingredients are transformed into delectable dishes.\n\nA window punctuates one wall of the kitchen, offering a glimpse of the world outside. It brings in natural light that dances off the wooden ceiling, casting warm hues throughout the room.\n\nThe objects scattered around the room are as diverse in color as they are in function. Blues, greens, whites, and blacks create a visual symphony that speaks to the vibrancy of this space. Each object, each color, each detail contributes to the story of this kitchen - a story of creativity, passion, and culinary delight."
+        }
+    ],
+    "det": [
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.056374999999999995,
+                0.4522273781902552,
+                0.09528125,
+                0.534245939675174
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.9592499999999999,
+                0.25705336426914155,
+                0.9645624999999999,
+                0.38262180974477955
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.972828125,
+                0.26085846867749424,
+                0.97990625,
+                0.3875174013921114
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.941171875,
+                0.27016241299303945,
+                0.95425,
+                0.3717865429234339
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.9237500000000001,
+                0.2663109048723898,
+                0.9338125000000002,
+                0.36872389791183297
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.8686875000000001,
+                0.24160092807424594,
+                0.881375,
+                0.2924129930394432
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.39268749999999997,
+                0.4767981438515081,
+                0.40709375000000003,
+                0.5153828306264501
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.058953124999999995,
+                0.5779814385150812,
+                0.10474999999999998,
+                0.6206264501160093
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.63859375,
+                0.5561948955916474,
+                0.8181406250000001,
+                0.8845939675174014
+            ]
+        },
+        {
+            "label": "toaster",
+            "bbox": [
+                0.72390625,
+                0.47575406032482603,
+                0.8096249999999999,
+                0.5527378190255221
+            ]
+        },
+        {
+            "label": "toaster",
+            "bbox": [
+                0.13287500000000002,
+                0.5687703016241299,
+                0.23101562500000003,
+                0.6696519721577726
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.257625,
+                0.518538283062645,
+                0.31540625,
+                0.540092807424594
+            ]
+        },
+        {
+            "label": "scissors",
+            "bbox": [
+                0.84471875,
+                0.251322505800464,
+                0.8610625000000001,
+                0.32030162412993035
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.337578125,
+                0.6388863109048725,
+                0.54953125,
+                0.8003944315545244
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.25059375,
+                0.515475638051044,
+                0.26753125,
+                0.6150580046403712
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.32442187499999997,
+                0.5048723897911833,
+                0.34165625,
+                0.5307192575406032
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.34140625,
+                0.5045475638051045,
+                0.35103125,
+                0.5293271461716937
+            ]
+        },
+        {
+            "label": "scissors",
+            "bbox": [
+                0.828640625,
+                0.24703016241299303,
+                0.8473593750000001,
+                0.3152204176334107
+            ]
+        },
+        {
+            "label": "scissors",
+            "bbox": [
+                0.877828125,
+                0.2766821345707657,
+                0.9060625,
+                0.36327146171693736
+            ]
+        },
+        {
+            "label": "scissors",
+            "bbox": [
+                0.89609375,
+                0.28104408352668214,
+                0.909390625,
+                0.35568445475638055
+            ]
+        },
+        {
+            "label": "scissors",
+            "bbox": [
+                0.9125,
+                0.2857772621809745,
+                0.9242968749999999,
+                0.3525522041763341
+            ]
+        },
+        {
+            "label": "scissors",
+            "bbox": [
+                0.8811249999999999,
+                0.2474013921113689,
+                0.8957656249999999,
+                0.3010672853828306
+            ]
+        },
+        {
+            "label": "scissors",
+            "bbox": [
+                0.8608281249999999,
+                0.24633410672853828,
+                0.8739999999999999,
+                0.31533642691415315
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.234640625,
+                0.505986078886311,
+                0.26176562499999995,
+                0.629814385150812
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.9811562500000001,
+                0.2859396751740139,
+                0.9856562500000001,
+                0.3459628770301624
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.368890625,
+                0.46255220417633414,
+                0.395078125,
+                0.5024129930394432
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.742078125,
+                0.35863109048723896,
+                0.75884375,
+                0.44331786542923435
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.7283125,
+                0.3582366589327146,
+                0.743671875,
+                0.44099767981438515
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.715703125,
+                0.35777262180974473,
+                0.73259375,
+                0.44092807424593966
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.7556406250000001,
+                0.3759860788863109,
+                0.768765625,
+                0.44385150812064966
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.305140625,
+                0.5029002320185615,
+                0.313265625,
+                0.525707656612529
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.34990625,
+                0.5022273781902552,
+                0.36375,
+                0.5299071925754061
+            ]
+        }
+    ],
+    "hash_id": "578_coco_train2017_000000177090.jpg"
+}

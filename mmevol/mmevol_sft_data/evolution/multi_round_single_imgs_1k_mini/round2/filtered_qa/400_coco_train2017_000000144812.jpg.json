@@ -1,0 +1,121 @@
+{
+    "id": "000000144812",
+    "image": "coco/train2017/000000144812.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The image showcases a bookshelf filled with a group of books arranged in various ways. There are several paperback books, some placed horizontally and others vertically. The shelf is mostly occupied by the books, with several books occupying the majority of the shelf space. These books are of different heights and widths, creating an assorted and visually interesting collection. There is also a small umbrella tucked away amongst the books, adding a unique touch to the scene."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What advice can you give to someone looking for a specific book on this shelf?",
+            "steps": [],
+            "answer": "To find a specific book on this shelf, I would recommend the following steps:\n\n1. Start by scanning the shelf from left to right, paying attention to the book titles and author names on the spines. Since the books appear to be assorted and not organized by any specific category, you would need to scrutinize each book individually.\n\n2. Take note of any patterns in the way the books are arranged or stacked, such as by size, color, or thickness. This might provide some clues or make it easier to spot the desired book.\n\n3. If the shelf has multiple layers, ensure you check the books at the back, as the book you are looking for might be hidden from immediate view.\n\n4. As a long-term solution, consider organizing the books in a systematic manner, such as by topic, author name, or genre. This will make it easier to find a specific book in the future and maintain order on the shelf.\n\nRemember to be patient and methodical while searching for a specific book among a collection of assorted books on a shelf."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a close-up view of a bookshelf, rich with an array of novels. Dominating the center is a blue book titled \"We are now beginning our descent\" by James Meek, distinguished by a red sticker on its cover. \n\nTo the left of this central book, companionship is found in two other novels. The first one is \"Twelve\" by Nick McDonell, and the second is \"The Counterfeit Guest\" by Rose Melikan. \n\nOn the right side of the central book, stands another novel titled \"The Tenth Justice\" by Brad Meltzer. All these books are in English and they all seem to be inviting the viewer into their unique worlds of stories and adventures. \n\nThe books are neatly arranged, suggesting a well-organized collection. The colors of the books vary, adding a vibrant touch to the scene. The overall image paints a picture of a quiet corner dedicated to the joy of reading and the exploration of different narratives."
+        }
+    ],
+    "det": [
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.20935937500000001,
+                0.7833958333333333,
+                0.252109375,
+                0.8154583333333333
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.28371875,
+                0.3236458333333333,
+                0.6737500000000001,
+                0.9977499999999999
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.6540468749999999,
+                0.37145833333333333,
+                1.0,
+                0.8545625
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.20393750000000002,
+                0.3101041666666667,
+                0.286515625,
+                0.9887708333333334
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.087640625,
+                0.31235416666666665,
+                0.20729687500000002,
+                0.9865208333333334
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.0016875000000000002,
+                0.34529166666666666,
+                0.09921875,
+                0.9887916666666666
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.15626562500000002,
+                0.47679166666666667,
+                0.210109375,
+                1.0
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.8458593750000001,
+                0.11435416666666667,
+                1.0,
+                0.7668125
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.618546875,
+                0.42935416666666665,
+                0.731453125,
+                0.9844166666666666
+            ]
+        }
+    ],
+    "hash_id": "400_coco_train2017_000000144812.jpg"
+}

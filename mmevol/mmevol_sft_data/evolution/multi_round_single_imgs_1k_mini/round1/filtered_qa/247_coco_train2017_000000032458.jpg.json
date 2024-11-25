@@ -1,0 +1,435 @@
+{
+    "id": "000000032458",
+    "image": "coco/train2017/000000032458.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of bus is visible in the image?",
+            "steps": [],
+            "answer": "A red double-decker bus is visible in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the bus doing in the image?",
+            "steps": [],
+            "answer": "The bus is traveling down a road, likely providing transportation services for the city's commuters and tourists."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of street is the bus traveling on?",
+            "steps": [],
+            "answer": "The bus is traveling on a busy street, with various businesses such as restaurants and historic buildings, suggesting that it might be a popular or central area of the city."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the perspective of the image from inside or outside of a building?",
+            "steps": [],
+            "answer": "The perspective of the image is from inside a building, as the view is out of a window onto the busy street where the bus is traveling."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can we determine the location based on the presence of a red double-decker bus?",
+            "steps": [],
+            "answer": "While the presence of a red double-decker bus might suggest that the location is London, it is not certain based on this information alone. Double-decker buses can also be found in other cities, and the image does not provide enough unique landmarks or other clear indicators to definitively establish the location. However, it is possible that the scene takes place in a city with a strong British influence or where double-decker buses are commonly used for public transportation or tourism purposes."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "The scene shows a busy street with a large red double-decker bus dominating the view, traveling along the road, possibly in London due to the historic buildings around. Other vehicles can be spotted as well, including a couple of cars and motorcycles scattered throughout the street. You can also see multiple traffic lights, with some placed near the bus and others along the road. A bicycle is visible near the center of the image.\n\nPeople are walking on the sidewalks, interacting with each other, and some are even crossing the street. There are plenty of pedestrians in the scene, giving it a lively atmosphere. \n\nOn the right-hand side of the image, several chairs and dining tables can be seen outdoors, indicating the presence of a restaurant or cafe. Adding to the bustling ambiance, a person appears to be carrying a backpack, contributing to the sense of daily life and activity on this busy street."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What mode of transportation is common in this city, and what challenges might be faced by travelers?",
+            "steps": [],
+            "answer": "In the image, a red double-decker bus is seen traveling past historic buildings, which is a distinctive mode of transportation in London. These buses have two levels of seating, offering increased capacity while maintaining a smaller road footprint. However, the busy street and multiple objects like traffic lights, cars, motorcycles, bicycles, and pedestrians in the photo suggest that travelers in this city might experience challenges related to traffic congestion, navigating urban streets, and maintaining the flow of various modes of transport. These issues could lead to potential delays or difficulties for commuters, emphasizing the need for a well-planned transit system and proper traffic management to facilitate efficient transportation for residents and visitors."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What's happening in the scene?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a bustling scene from a street in London, UK. The viewpoint is from the interior of a coffee shop, with wooden tables and chairs visible on the right side of the frame. \n\nIn the foreground, the street is filled with various vehicles, including a distinctive red double-decker bus and a black taxi, both iconic symbols of London. There are several other cars and buses adding to the busy traffic.\n\nThe background features white and gray buildings, typical of London's architectural style. A large square is visible, with a statue standing prominently in its center, adding a touch of historical charm to the scene.\n\nThe sky overhead is gray and cloudy, creating a somewhat overcast atmosphere. Despite this, the scene is vibrant and full of life, encapsulating the dynamic energy of London's city streets."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.46309374999999997,
+                0.5998333333333333,
+                0.495140625,
+                0.6345625
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.0016875000000000002,
+                0.5291458333333333,
+                0.43385937499999994,
+                0.9887916666666666
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.376046875,
+                0.4860833333333333,
+                0.399765625,
+                0.5351250000000001
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.433984375,
+                0.48812500000000003,
+                0.49478124999999995,
+                0.5223541666666667
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.22907812500000002,
+                0.5175416666666667,
+                0.24139062500000003,
+                0.5534374999999999
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.429875,
+                0.48708333333333337,
+                0.4363125,
+                0.4951666666666667
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.42128125,
+                0.5086666666666667,
+                0.43090625000000005,
+                0.5433541666666667
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.395890625,
+                0.5080416666666667,
+                0.4054375,
+                0.5372916666666667
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.497546875,
+                0.4951875,
+                0.5060781249999999,
+                0.5159583333333333
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.30789062500000003,
+                0.5046875,
+                0.31895312500000006,
+                0.5308333333333334
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.36215625,
+                0.4875833333333333,
+                0.37446875,
+                0.5185
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.46559375000000003,
+                0.574875,
+                0.48850000000000005,
+                0.6283958333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5046406250000001,
+                0.5180208333333334,
+                0.512125,
+                0.5461041666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6953750000000001,
+                0.5140208333333333,
+                0.70175,
+                0.5229374999999999
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.5647656249999999,
+                0.51275,
+                0.6084687499999999,
+                0.5358333333333333
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.43171875000000004,
+                0.5046041666666666,
+                0.447328125,
+                0.5425416666666667
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.41789062499999996,
+                0.4860625,
+                0.423640625,
+                0.4964791666666667
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.621046875,
+                0.5092083333333333,
+                0.63928125,
+                0.5332291666666666
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.690953125,
+                0.5198333333333334,
+                0.711453125,
+                0.541375
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.481890625,
+                0.5838958333333333,
+                0.49117187500000004,
+                0.5977291666666666
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6539375,
+                0.7415833333333333,
+                1.0,
+                0.9887708333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7797031249999999,
+                0.5559791666666667,
+                0.936484375,
+                0.6567916666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.806515625,
+                0.4829791666666667,
+                0.8721406249999999,
+                0.5031041666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.793390625,
+                0.5072291666666666,
+                0.891375,
+                0.5553333333333333
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.7184062499999999,
+                0.646625,
+                1.0,
+                0.705125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.49217187500000004,
+                0.5287708333333333,
+                0.497046875,
+                0.5435625000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.46076562499999996,
+                0.5227708333333333,
+                0.47240624999999997,
+                0.5502708333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5056093749999999,
+                0.5015625,
+                0.509546875,
+                0.5189791666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.31456249999999997,
+                0.5218541666666667,
+                0.323140625,
+                0.5368333333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.505953125,
+                0.47889583333333335,
+                0.5123125,
+                0.5045625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.528296875,
+                0.5157291666666667,
+                0.535140625,
+                0.5408125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5094375,
+                0.51025,
+                0.515109375,
+                0.530875
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.667578125,
+                0.49752083333333336,
+                0.707453125,
+                0.5274791666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5535,
+                0.5136666666666667,
+                0.56346875,
+                0.5294166666666666
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.545734375,
+                0.5212291666666666,
+                0.566421875,
+                0.5381250000000001
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.260171875,
+                0.5296041666666667,
+                0.269234375,
+                0.5404375
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.5334531250000001,
+                0.48402083333333334,
+                0.5475625,
+                0.5056041666666666
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.48375,
+                0.49120833333333336,
+                0.491015625,
+                0.5099375
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.709796875,
+                0.6754374999999999,
+                0.9991406250000001,
+                0.7682916666666666
+            ]
+        }
+    ],
+    "hash_id": "247_coco_train2017_000000032458.jpg"
+}

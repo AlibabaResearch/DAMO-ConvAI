@@ -1,0 +1,70 @@
+```json
+[
+    {
+        "image_position": "single",
+        "objects": ["apple", "fridge", "sinkbasin"],
+        "skills": ["Context Understanding Ability", "Instruction Following"],
+        "format": "instruction_following",
+        "question": "Considering the image and setting, which of the locations or actions would logically lead to successfully placing a cool apple in the sinkbasin? Be sure to justify your reasoning by creating a prioritized plan and the rationale for each step.",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Identify that the task involves placing a cool apple in the sinkbasin."
+            },
+            {
+                "manipulation": "None",
+                "description": "Recognize that finding an apple is the first priority. The fridge is a common storage place for apples, so consider this location first."
+            },
+            {
+                "manipulation": "None",
+                "description": "Based on the goal of using a cool apple, assert that finding an apple in the fridge and then carrying it to the sink would accomplish the task."
+            },
+            {
+                "manipulation": "None",
+                "description": "Highlight the logical sequence: find apple → retrieve apple → transport apple to sinkbasin for placement."
+            }
+        ],
+        "answer": "The logical sequence to place a cool apple in the sinkbasin is: Start by searching for an apple in the fridge due to it being a likely storage location, retrieve the apple from there, and then take it to the sink to complete the task. This order maximizes efficiency and adheres to the task requirements."
+    },
+    {
+        "image_position": "single",
+        "objects": ["egg", "bread", "microwave"],
+        "skills": ["Context Understanding Ability", "Imaginative Skills"],
+        "format": "creative_content_generation",
+        "question": "Imagine an animated sequence where the egg and bread inside the microwave come to life. Create an imaginative dialogue and interaction between these characters in a magical kitchen setting.",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Visualize the egg and bread as animated characters within the microwave, ready for an entertaining interaction."
+            },
+            {
+                "manipulation": "None",
+                "description": "Create a dialogue that reflects their personalities, with the bread perhaps boasting about its crispy achievements and the egg sharing experiences from the farm."
+            },
+            {
+                "manipulation": "None",
+                "description": "Include whimsical elements of magic within the kitchen, perhaps through narration or actions like a dance."
+            }
+        ],
+        "answer": "In this whimsical animated sequence, the bread proudly declares, 'I was born to be toast!' while the egg replies, 'Let's make breakfast history together!' They leap into a rhythmic dance, celebrating their culinary fate as the microwave glows with a gentle, magical hum. In this enchanted kitchen, every item has a role and a tale to tell."
+    },
+    {
+        "image_position": "single",
+        "objects": ["apple", "sinkbasin"],
+        "skills": ["Instruction Following", "Grounding Ability"],
+        "format": "coreference_resolution",
+        "question": "In the given scene task, what object does the term 'it' most likely refer to, considering you’re advised to put it into the sinkbasin?",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Determine the object referred to by 'it' in the context of placing something into the sinkbasin."
+            },
+            {
+                "manipulation": "None",
+                "description": "Consider the task requirements and examine what needs to be placed in the sink, which is ultimately an apple."
+            }
+        ],
+        "answer": "The term 'it' most likely refers to the apple, which you are directed to place into the sinkbasin to complete the scene task."
+    }
+]
+```

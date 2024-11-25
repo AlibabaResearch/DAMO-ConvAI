@@ -1,0 +1,62 @@
+[
+  {
+    "image_position": "single",
+    "objects": ["polar bear", "ringed seal", "arctic cod", "shrimp", "algae"],
+    "skills": ["Knowledge Integration Ability"],
+    "format": "Norm",
+    "question": "How does each species depicted contribute to the energy flow within the Arctic ecosystem?",
+    "steps": [
+      {"manipulation":"None", "description":"Identify the role each species plays in the food chain"},
+      {"manipulation":"None", "description":"Explain how energy is transferred among these species in the ecosystem."}
+    ],
+    "answer": "Each species contributes to the energy flow of the Arctic ecosystem. Polar bears, as apex predators, consume ringed seals, transferring energy from seals up the food chain. Ringed seals feed on Arctic cod, which in turn consume shrimp. Shrimp gain their energy from algae, the primary producers capturing energy from sunlight. This chain of consumption efficiently transfers energy, maintaining ecological balance."
+  },
+  {
+    "image_position": "single",
+    "objects": ["polar bear"],
+    "skills": ["Context Understanding Ability"],
+    "format": "Norm",
+    "question": "How might a reduction in sea ice affect the polar bear's role in this food web?",
+    "steps": [
+      {"manipulation":"None", "description":"Consider how sea ice impacts hunting habits of polar bears."},
+      {"manipulation":"None", "description":"Evaluate how a reduction in their hunting success might affect the entire food web."}
+    ],
+    "answer": "A reduction in sea ice would severely impact polar bears' ability to hunt seals, their primary prey, potentially leading to a decline in their population. With fewer polar bears, seal populations could increase, which may lead to an overconsumption of Arctic cod. This disruption would cascade through the food web, affecting each species' energy dynamics and the overall health of the ecosystem."
+  },
+  {
+    "image_position": "single",
+    "objects": ["ringed seal", "arctic cod"],
+    "skills": ["Behavior Prediction Ability"],
+    "format": "Norm",
+    "question": "What changes might occur in the feeding habits of ringed seals if Arctic cod numbers dwindle?",
+    "steps": [
+      {"manipulation":"None", "description":"Assess the relationship between ringed seals and Arctic cod as prey and predator."},
+      {"manipulation":"None", "description":"Predict the adaptive behavior of seals if their primary food source becomes scarce."}
+    ],
+    "answer": "If Arctic cod numbers dwindle, ringed seals might be forced to diversify their diet, possibly switching to other available fish or invertebrates to meet their nutritional needs. Such dietary changes might affect their health and reproductive success, leading to potential shifts in their population dynamics."
+  },
+  {
+    "image_position": "single",
+    "objects": ["shrimp", "algae"],
+    "skills": ["Relationship Description Ability"],
+    "format": "Norm",
+    "question": "Describe the relationship between shrimp and algae in maintaining aquatic health in the Arctic ecosystem.",
+    "steps": [
+      {"manipulation":"None", "description":"Explain how shrimp feeding habits impact algae populations."},
+      {"manipulation":"None", "description":"Discuss how this relationship affects the overall aquatic environment."}
+    ],
+    "answer": "Shrimp play a vital role in controlling algae populations by grazing on them, which helps prevent overgrowth and ensures that oxygen levels remain stable in the aquatic environment. This balance supports a healthy habitat for other marine organisms, maintaining the integrity of the Arctic ecosystem."
+  },
+  {
+    "image_position": "single",
+    "objects": ["polar bear", "ringed seal"],
+    "skills": ["Knowledge Integration Ability"],
+    "format": "Norm",
+    "question": "What adaptive features enable polar bears and ringed seals to survive the harsh Arctic conditions?",
+    "steps": [
+      {"manipulation":"None", "description":"Identify the adaptive traits of polar bears that aid in survival."},
+      {"manipulation":"None", "description":"Explore the adaptations of ringed seals that allow them to thrive in the Arctic."}
+    ],
+    "answer": "Polar bears possess a thick layer of blubber and dense fur for insulation against the cold, along with large paws for efficient swimming and walking on ice. Ringed seals have streamlined bodies, allowing them to swim quickly, and are capable of creating breathing holes in sea ice with their claws, which is crucial for accessing air in icy waters. Both species are highly adapted to extreme conditions, ensuring their survival and role in the ecosystem."
+  }
+]

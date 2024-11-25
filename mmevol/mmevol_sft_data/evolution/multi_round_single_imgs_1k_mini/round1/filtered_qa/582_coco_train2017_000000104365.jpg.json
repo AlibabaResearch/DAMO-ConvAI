@@ -1,0 +1,246 @@
+{
+    "id": "000000104365",
+    "image": "coco/train2017/000000104365.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the woman holding in the image?",
+            "steps": [],
+            "answer": "The woman in the image is holding a pink umbrella."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the two people doing by the fence?",
+            "steps": [],
+            "answer": "The two people, a woman with an umbrella and a man in a bicycle helmet, are standing next to the fence, leaning on a metal barrier, and watching something on the opposite side of the fence."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the man wearing on his head?",
+            "steps": [],
+            "answer": "The man is wearing a bicycle helmet on his head."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Does the image feature any modes of transportation, such as a bike?",
+            "steps": [],
+            "answer": "Yes, the image features a cyclist with glasses standing next to his bike while a woman with an umbrella smiles."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The image features a man and a woman standing next to a fence, possibly watching an event or enjoying a view on the other side. The woman is holding a pink umbrella, while the man is wearing a bicycle helmet, indicating that he is a cyclist. His bike can be seen leaning against the fence nearby.\n\nThere are other people scattered around the scene, some of them carrying items like cell phones, handbags, and backpacks. In the surrounding area, there are a few chairs, a dining table, and potted plants. Overall, this scene appears to capture a relaxed, outdoor social gathering."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the two people possibly watching or waiting for?",
+            "steps": [],
+            "answer": "The two people, a woman holding a pink umbrella and a man wearing a bicycle helmet, are standing next to a fence. It is likely that they are watching or waiting for an event, a performance, or someone on the opposite side of the fence. They could be observing an outdoor event, a competition, or simply enjoying a view while having a break from their activities. The presence of the bicycle in the image suggests that the man may have been cycling, and they might both be taking a break to watch something or wait for a friend."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city, a man and a woman stand side by side on a sidewalk, each absorbed in their own world. The man, clad in a blue and white cycling jersey, sports a yellow helmet that speaks of his love for cycling. His bicycle, a silent companion, rests behind him against a metal railing. The woman, on the other hand, is dressed in a blue and white floral dress that mirrors the vibrant energy of the city. A straw hat rests on her head, providing respite from the sun's rays. In her hand, she holds a pink umbrella, ready to shield her from any unexpected showers.\n\nBehind them, life goes on. A white building stands tall, its patio bustling with people sitting at tables, engaged in conversations and enjoying their time. The scene is a beautiful blend of colors and activities, each element telling its own story. It's a snapshot of life in the city - vibrant, energetic, and full of surprises."
+        }
+    ],
+    "det": [
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.441015625,
+                0.666625,
+                0.527640625,
+                0.8549375
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.53628125,
+                0.7455208333333334,
+                0.6560625,
+                0.8380833333333334
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.32746875000000003,
+                0.8394375000000001,
+                0.6426093749999999,
+                0.8910833333333333
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.062765625,
+                0.6751041666666667,
+                0.600125,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6050625000000001,
+                0.11460416666666666,
+                0.9168593749999999,
+                0.9865208333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.339515625,
+                0.48335416666666664,
+                0.436640625,
+                0.6858958333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.52646875,
+                0.5774166666666667,
+                0.607,
+                0.7475
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0033750000000000004,
+                0.098875,
+                0.34045312499999997,
+                0.9865208333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.92678125,
+                0.481375,
+                0.997671875,
+                0.7000833333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.44470312500000003,
+                0.5804583333333333,
+                0.4756250000000001,
+                0.7192500000000001
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.45726562499999995,
+                0.0083125,
+                0.9460312500000001,
+                0.68075
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.0005625,
+                0.0004791666666666667,
+                0.401625,
+                0.29106249999999995
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.799765625,
+                0.45579166666666665,
+                0.839453125,
+                0.5003125
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.07323437499999999,
+                0.3108333333333333,
+                0.268484375,
+                0.5504791666666667
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.606421875,
+                0.33189583333333333,
+                0.709546875,
+                1.0
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.54540625,
+                0.6146875,
+                0.572015625,
+                0.6979166666666666
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.382859375,
+                0.6423749999999999,
+                0.439171875,
+                0.7245416666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8675937499999999,
+                0.5358541666666666,
+                0.926140625,
+                0.5990833333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.928171875,
+                0.688125,
+                0.9936718749999999,
+                0.8395833333333333
+            ]
+        }
+    ],
+    "hash_id": "582_coco_train2017_000000104365.jpg"
+}

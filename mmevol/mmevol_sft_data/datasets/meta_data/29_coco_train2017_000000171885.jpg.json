@@ -1,0 +1,262 @@
+{
+    "id": "000000171885",
+    "image": "coco/train2017/000000171885.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What architectural style is featured in the building in the image?",
+            "steps": [],
+            "answer": "The building in the image features a Spanish architectural style."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of outdoor area is located next to the building?",
+            "steps": [],
+            "answer": "Next to the building, there is an outdoor lounging area or seating area, likely for a caf\u00e9 or a restaurant."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a clock on the building in the image?",
+            "steps": [],
+            "answer": "Yes, there is a tall house with a large clock mounted on its face in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Describe the following image.",
+            "steps": [],
+            "answer": "The scene depicts a European outdoor restaurant set against a Spanish-style building. The building features a large clock mounted on its facade, adding a unique architectural touch to the space. \n\nIn front of the building, there are several dining tables and chairs providing outdoor seating for the cafe. Guests enjoy the outdoor lounging experience, with multiple people occupying the chairs at these tables. Potted plants are scattered throughout the area, enhancing the lively atmosphere of the restaurant. There are also a few umbrellas installed to provide shade when needed."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nDescribe the following image."
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a charming scene from a European city. The focal point is a vibrant yellow building, adorned with a large white clock that stands out against the building's facade. The clock, with its black numbers and hands, indicates a time that could tell a story of its own.\n\nAdjacent to the clock, a statue of a man adds an artistic touch to the building, silently observing the world below. The buildings around it share a similar architectural style, suggesting a rich history and culture.\n\nOn the sidewalk, a collection of blue tables and chairs invite passersby to rest and enjoy the surroundings. They are neatly arranged, ready to serve the next customer.\n\nA red and white no entry sign stands on the street, ensuring the safety of pedestrians and adding a pop of color to the scene. Overhead, power lines crisscross against the clear blue sky, connecting the old world charm with modern necessities.\n\nOverall, this image paints a picture of a peaceful day in a European city, where history and modernity coexist harmoniously."
+        }
+    ],
+    "det": [
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.10945833333333334,
+                0.795546875,
+                0.15897916666666667,
+                0.836109375
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.5117708333333334,
+                0.8157343750000001,
+                0.6061458333333333,
+                0.9135781250000001
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.13041666666666668,
+                0.847796875,
+                0.241375,
+                0.9664843750000001
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.5942291666666667,
+                0.801859375,
+                0.6802708333333334,
+                0.8973593750000001
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.8517291666666666,
+                0.8565625000000001,
+                0.9392291666666667,
+                0.9591875000000002
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9502083333333334,
+                0.8575156249999999,
+                1.0,
+                0.96271875
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6913333333333332,
+                0.851421875,
+                0.7645833333333333,
+                0.94296875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6790833333333333,
+                0.7931250000000001,
+                0.734125,
+                0.83525
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.6511666666666667,
+                0.665140625,
+                0.9935833333333334,
+                0.720421875
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6303958333333333,
+                0.8495156250000001,
+                0.6949375,
+                0.936890625
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.5006875000000001,
+                0.238828125,
+                0.5820416666666667,
+                0.303359375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7646666666666667,
+                0.792828125,
+                0.8343125,
+                0.897453125
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.9027499999999999,
+                0.848171875,
+                0.997375,
+                0.8612031250000001
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.6664583333333333,
+                0.847484375,
+                0.7461249999999999,
+                0.8588437499999999
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.6493541666666667,
+                0.25303125,
+                0.6878333333333333,
+                0.319046875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9633333333333333,
+                0.782,
+                1.0,
+                0.829578125
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.2938125,
+                0.83871875,
+                0.36522916666666666,
+                0.951796875
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.9732708333333334,
+                0.832859375,
+                0.9989166666666667,
+                0.8421875
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9592291666666667,
+                0.8273906249999999,
+                0.999625,
+                0.8501875
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7704583333333334,
+                0.835234375,
+                0.8316250000000001,
+                0.8985468749999999
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.8966875000000001,
+                0.8425625,
+                0.9555416666666667,
+                0.8593125
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.36664583333333334,
+                0.768015625,
+                0.42570833333333336,
+                0.851171875
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.4410833333333333,
+                0.8045625,
+                0.5215625,
+                0.870515625
+            ]
+        }
+    ],
+    "hash_id": "29_coco_train2017_000000171885.jpg"
+}

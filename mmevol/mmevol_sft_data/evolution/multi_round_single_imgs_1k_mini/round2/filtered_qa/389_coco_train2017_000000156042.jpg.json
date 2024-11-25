@@ -1,0 +1,112 @@
+{
+    "id": "000000156042",
+    "image": "coco/train2017/000000156042.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many canisters are present in the image?",
+            "steps": [],
+            "answer": "There are two canisters present in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the arrangement of the canisters?",
+            "steps": [],
+            "answer": "The two canisters are stacked on top of each other, one on top of the other."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is inside the canisters?",
+            "steps": [],
+            "answer": "The canisters contain tea."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What objects are placed next to the canisters?",
+            "steps": [],
+            "answer": "A pile of books is placed next to the canisters."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What about the appearance of the tea canisters is notable?",
+            "steps": [],
+            "answer": "The tea canisters have a very pretty and visually appealing design."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What purpose might have caused the two cans to be placed near the pile of books?",
+            "steps": [],
+            "answer": "One possibility for the two tea canisters to be placed near the pile of books is that the owner of the items might enjoy reading while sipping tea. Having the tea cans close to the reading area could make it more convenient for them to access and brew the tea while they read. Additionally, the beautiful appearance of the cans might serve as a decorative element in the reading space, contributing to a more pleasant and cozy environment. The combination of books and tea canisters together might indicate that the person values relaxation, comfort, and leisurely activities such as reading and enjoying tea."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What do you think is going on in this snapshot?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the center of the image, two tins of tea are stacked on top of each other on a cluttered pink dresser. The top tin, colored red with gold accents, features a label with an image of the Tower Bridge and the words \"English Breakfast Tea\" and \"125g net wt 4 1/2 oz\". The bottom tin, colored blue with gold accents, has a label with an image of Big Ben. \n\nTo the left of the tins, there is a book lying flat on the dresser. In the background, various objects can be seen, including a plant and a lamp. The plant is located to the right of the tins and the lamp is further in the background. The overall scene gives a cozy and homely feeling."
+        }
+    ],
+    "det": [
+        {
+            "label": "book",
+            "bbox": [
+                0.0,
+                0.567671875,
+                0.44908665105386414,
+                1.0
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.22892271662763466,
+                0.12521875,
+                0.7833957845433255,
+                0.536078125
+            ]
+        },
+        {
+            "label": "scissors",
+            "bbox": [
+                0.09868852459016393,
+                0.18557812499999998,
+                0.24873536299765805,
+                0.34175
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.5584777517564403,
+                0.6950000000000001,
+                0.5975878220140515,
+                0.721671875
+            ]
+        }
+    ],
+    "hash_id": "389_coco_train2017_000000156042.jpg"
+}

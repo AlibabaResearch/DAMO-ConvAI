@@ -1,0 +1,436 @@
+{
+    "id": "000000224112",
+    "image": "coco/train2017/000000224112.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image features a group of people sitting at a dining table in an Asian restaurant, sharing a meal. There are several bowls of food placed on the table, along with cups, and various utensils such as forks, knives, and spoons scattered around for everyone's use. \n\nThere are chairs placed around the dining tables, with people seated on them. It appears that there are about nine people in the group, engaged in conversation and enjoying the meal together. \n\nThe dining area is well-furnished, including multiple dining tables and possibly a separate area for smaller gatherings. Everybody seems to be having a good time in a lively restaurant ambiance."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "If someone has dietary restrictions and desires a vegetarian option, can this restaurant offer it?",
+            "steps": [],
+            "answer": "Based on the image, it's apparent that the group is enjoying a meal at an Asian restaurant. Although we cannot determine the specific dishes served, it is likely that the restaurant offers a variety of options, including vegetarian choices. Most Asian cuisines typically have several vegetarian dishes that cater to those with dietary restrictions. To confirm, one should consult the menu or speak with the restaurant staff to inquire about the available vegetarian options."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling restaurant, a lively scene unfolds. A group of people are gathered around a table draped in a pristine white tablecloth, which is adorned with an array of plates, bowls, and cups. A man, distinguished by his red shirt, is in the midst of pouring tea from a white teapot into a cup, his movements fluid and practiced. \n\nAcross from him, a woman in a burgundy dress is seated, her attention seemingly captivated by the cup in front of her. The background is a blur of other diners, their conversations adding to the vibrant hum of the restaurant. The walls are tastefully decorated with paintings and plants, adding an artistic touch to the warm and inviting atmosphere. \n\nThis image captures not just a meal, but a moment of connection and camaraderie, framed by the comforting familiarity of a shared dining experience."
+        }
+    ],
+    "det": [
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.62975,
+                0.6723333333333333,
+                0.69115625,
+                0.7522500000000001
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7675,
+                0.21835416666666668,
+                0.934546875,
+                0.4653125000000001
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.67528125,
+                0.21872916666666667,
+                0.750984375,
+                0.2977083333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.431453125,
+                0.6314583333333333,
+                0.488765625,
+                0.7438125000000001
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.25401562499999997,
+                0.6334583333333333,
+                0.329671875,
+                0.721625
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.82125,
+                0.7378541666666667,
+                0.881875,
+                0.8683541666666666
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.07040625,
+                0.8015625,
+                0.17654687500000002,
+                0.8409166666666666
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.35575,
+                0.6775,
+                0.38790625,
+                0.7563541666666667
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.479140625,
+                0.6800625,
+                0.500578125,
+                0.781625
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.530625,
+                0.5725208333333334,
+                0.5675000000000001,
+                0.6989791666666666
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.585375,
+                0.9217083333333334,
+                0.7420625,
+                1.0
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.52053125,
+                0.8125625,
+                0.651890625,
+                0.9430833333333333
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.657765625,
+                0.8153541666666667,
+                0.867578125,
+                0.9992291666666666
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.32359375,
+                0.7617916666666668,
+                0.4449375,
+                0.8763958333333334
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.46215624999999994,
+                0.9752708333333333,
+                0.5531406249999999,
+                0.9997916666666666
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.182890625,
+                0.8902916666666666,
+                0.3194375,
+                1.0
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.42096875,
+                0.8224374999999999,
+                0.46984375000000006,
+                0.8508333333333333
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.393859375,
+                0.3939166666666667,
+                0.46626562499999996,
+                0.44035416666666666
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.87734375,
+                0.6249166666666667,
+                0.9496874999999999,
+                0.6755833333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.469921875,
+                0.5250208333333333,
+                0.72396875,
+                0.6856041666666666
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.44926562499999995,
+                0.15983333333333333,
+                0.4893437499999999,
+                0.33441666666666664
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9356249999999999,
+                0.171625,
+                0.9997343749999998,
+                0.28677083333333336
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.188453125,
+                0.5706249999999999,
+                0.4466875,
+                0.6772291666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.432078125,
+                0.04429166666666667,
+                0.7829531249999999,
+                0.6819791666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.734796875,
+                0.28941666666666666,
+                1.0,
+                0.7105833333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7615624999999999,
+                0.03277083333333333,
+                0.9233281249999999,
+                0.3724166666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8681093750000001,
+                0.026479166666666668,
+                0.9554218750000001,
+                0.31020833333333336
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.053937500000000006,
+                0.20897916666666666,
+                0.41798437499999996,
+                0.7168541666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6150625,
+                0.017604166666666664,
+                0.67446875,
+                0.13222916666666668
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.634265625,
+                0.050229166666666665,
+                0.77140625,
+                0.2916875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.519453125,
+                0.0071875,
+                0.56259375,
+                0.053625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.020520833333333332,
+                0.054625,
+                0.15810416666666666
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.872921875,
+                0.6669583333333333,
+                0.993765625,
+                0.9995833333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.163546875,
+                0.6890416666666667,
+                0.23726562499999998,
+                0.8438541666666667
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.22265625,
+                0.6467291666666667,
+                0.3063125,
+                0.6720208333333333
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.043609375,
+                0.824375,
+                0.142703125,
+                0.9427291666666666
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.525015625,
+                0.6501874999999999,
+                0.59559375,
+                0.739875
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.29471875000000003,
+                0.8464583333333333,
+                0.49623437500000006,
+                1.0
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.928125,
+                0.6601041666666667,
+                1.0,
+                0.7304375000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7253125,
+                0.015166666666666667,
+                0.8124375,
+                0.16954166666666665
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.2549375,
+                0.6302916666666667,
+                0.330578125,
+                0.7252708333333333
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0,
+                0.5727916666666667,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0,
+                0.16039583333333332,
+                0.20049999999999998,
+                0.4603333333333333
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.72934375,
+                0.11512499999999999,
+                0.7846718749999999,
+                0.2029375
+            ]
+        }
+    ],
+    "hash_id": "913_coco_train2017_000000224112.jpg"
+}

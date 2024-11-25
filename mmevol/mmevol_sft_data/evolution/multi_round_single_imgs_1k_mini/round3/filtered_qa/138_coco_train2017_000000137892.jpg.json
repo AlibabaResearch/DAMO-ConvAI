@@ -1,0 +1,293 @@
+{
+    "id": "000000137892",
+    "image": "coco/train2017/000000137892.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the furniture in the living room?",
+            "steps": [],
+            "answer": "The furniture in the living room is white."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of seating options are available in the living room?",
+            "steps": [],
+            "answer": "The living room has a white couch and a bean bag chair for seating options."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What main elements and decorations are in the living room?",
+            "steps": [],
+            "answer": "The main elements and decorations in the living room include a white couch with a pillow, white tables, a desk, a television, a bean bag chair, a fireplace, and some plants by the wall."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of atmosphere does this white living room create?",
+            "steps": [],
+            "answer": "The white living room creates a clean, bright, and airy atmosphere. The dominance of the white color palette, combined with the presence of the plants by the wall, helps to make the space feel more spacious, open, and inviting. Additionally, the inclusion of a fireplace creates a cozy and warm ambiance that is welcoming and soothing.\n\nThe choice of comfortable seating options, such as the couch and bean bag chair, encourages relaxation and socialization, making it an ideal setting for spending time with family or friends. The desk and television further contribute to the overall functionality and versatility of the room, offering options for work, entertainment, or leisure activities.\n\nIn conclusion, this white living room, with its well-chosen elements and decorations, creates a pleasant, cozy, and inviting atmosphere that is perfect for relaxation, social gatherings, and various indoor activities."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "The image displays a spacious living room filled with white furniture. The main attraction is a large white couch situated next to a fireplace. The room also features a bean bag chair, a desk, and a dining table. There are several chairs placed around the furniture, adding to the room's seating options. \n\nA television can be seen mounted on the wall, not far from the fireplace. Around the room, there are multiple decorative elements, such as potted plants, a vase, and numerous books placed on tables and around the seating area. On the desk, there is a laptop, and some remotes are scattered around the room, likely used to control the electronic devices. Additionally, there are a couple of oranges on a table, a backpack placed on the floor, and a cup resting on a surface. The presence of potted plants by the wall contributes to the refreshing ambiance of the room."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of atmosphere does this living room create, and how is it achieved?",
+            "steps": [],
+            "answer": "The living room creates a cozy and inviting atmosphere that is achieved through the use of white furniture, a fireplace, comfortable seating options, and well-arranged decorative elements. The white couch, chairs, and tables contribute to a clean and bright ambiance. The fireplace adds warmth, making the space even more welcoming, while diverse seating options like a couch, bean bag chair, and dining chairs cater to a variety of relaxation preferences. The presence of potted plants, books, and a television suggests leisurely activities and adds a sense of homeyness to the living room. All these elements work together to create a comfortable and welcoming atmosphere where someone can relax, unwind, and spend quality time with family or friends."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a serene living room bathed in a harmonious white color scheme. Dominating the space is a large window on the left wall, partially veiled by white blinds and a curtain, allowing a soft light to filter into the room. \n\nA comfortable white sofa invites relaxation, facing a white coffee table that holds a magazine, a remote control, and a single, vibrant orange. To the right of the sofa, an unoccupied white armchair stands, casually draped with a black jacket.\n\nA white desk is positioned against the wall, a laptop open atop it, perhaps indicating work in progress or recently completed. Nearby, a tall white floor lamp stands sentinel, ready to illuminate the room as dusk falls.\n\nIn front of the window, a sleek white TV stand houses a television, with a vase of white flowers adding a touch of nature to the modern setup. The floor is adorned with a plush white rug, upon which sits a blue bean bag chair, offering an alternative seating option.\n\nFinally, on the pristine white wall hangs a single shelf, proudly displaying a gold trophy - perhaps an indication of achievement or success. The room is an embodiment of minimalist elegance and comfort."
+        }
+    ],
+    "det": [
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.4971875,
+                0.353375,
+                0.5983124999999999,
+                0.6185416666666667
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.7971874999999999,
+                0.12583333333333332,
+                1.0,
+                0.3617916666666667
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                3.125e-05,
+                0.5866458333333333,
+                0.68521875,
+                1.0
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.178015625,
+                0.4546041666666667,
+                0.34159375000000003,
+                0.7082708333333334
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.057171875000000004,
+                0.41839583333333336,
+                0.38340625,
+                0.7479791666666666
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.447828125,
+                0.6953333333333334,
+                0.47178125,
+                0.7278125
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.420421875,
+                0.6843958333333333,
+                0.444140625,
+                0.7162708333333333
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.062328125,
+                0.392,
+                0.18015625,
+                0.48472916666666666
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.459515625,
+                0.7449583333333333,
+                0.5353125,
+                0.7638333333333333
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.419390625,
+                0.7320416666666667,
+                0.46953125,
+                0.7738958333333332
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.23312499999999997,
+                0.6355625,
+                0.307265625,
+                0.6796875
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.5205,
+                0.6954166666666667,
+                0.61240625,
+                0.7620833333333333
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.2545,
+                0.7258333333333333,
+                0.365734375,
+                0.7955
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.197109375,
+                0.44077083333333333,
+                0.24210937500000002,
+                0.47883333333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.329484375,
+                0.6764166666666667,
+                0.359015625,
+                0.7293333333333333
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.7305937499999999,
+                0.5378958333333334,
+                0.79121875,
+                0.6885833333333333
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.0009062499999999999,
+                0.6178958333333333,
+                0.12067187500000001,
+                0.7694791666666666
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.24231250000000001,
+                0.45379166666666665,
+                0.291671875,
+                0.4815833333333333
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.1390625,
+                0.46275,
+                0.18209375,
+                0.4901875
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.260140625,
+                0.6644375,
+                0.333984375,
+                0.6928958333333334
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.15035937500000002,
+                0.48210416666666667,
+                0.206796875,
+                0.4921666666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.11870312499999999,
+                0.41102083333333334,
+                0.25225,
+                0.5871666666666666
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.38446875,
+                0.45675000000000004,
+                0.49690625,
+                0.6525625
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.46557812500000006,
+                0.6838333333333334,
+                0.5097812500000001,
+                0.7236875
+            ]
+        }
+    ],
+    "hash_id": "138_coco_train2017_000000137892.jpg"
+}

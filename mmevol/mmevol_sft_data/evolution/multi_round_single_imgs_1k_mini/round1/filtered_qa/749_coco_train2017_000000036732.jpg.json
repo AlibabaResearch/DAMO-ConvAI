@@ -1,0 +1,210 @@
+{
+    "id": "000000036732",
+    "image": "coco/train2017/000000036732.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the woman doing in the picture?",
+            "steps": [],
+            "answer": "The woman in the picture is petting a white adult sheep."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where is the woman petting the sheep?",
+            "steps": [],
+            "answer": "The woman is petting the sheep in a petting zoo or at a farm inside an enclosure."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the woman alone or with others in the picture?",
+            "steps": [],
+            "answer": "The picture shows the woman with at least one other person who is taking her photo while she pets the sheep."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the color of the sheep being petted?",
+            "steps": [],
+            "answer": "The color of the sheep being petted is white."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think is going on in this snapshot?",
+            "steps": [],
+            "answer": "The image features an outdoor setting, likely a farm or petting zoo, where a woman is petting an adult white sheep, surrounded by a few other sheep in the enclosure. A person, standing to the right of the woman, is taking a photo of the moment with a cell phone. There are other people in the scene observing the sheep and the woman interacting with them.\n\nAdditional details in the scene include a bench located to the right side of the enclosure, and a horse appearing nearby. There are a couple of backpacks placed within the enclosure, possibly belongings of the visitors."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What could be the purpose of this interaction for the woman and the photographer?",
+            "steps": [],
+            "answer": "The purpose of this interaction for the woman petting the sheep could be to experience a connection with the animal, learn about its behavior, and enjoy a moment of gratitude towards nature. For the person photographing the woman, it could be to capture this special moment and create a lasting memory of the experience. The photograph may be shared with friends and family or used on social media platforms to share the experience with a larger audience, and it might inspire others to engage with animals and appreciate the beauty of nature."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nExplain the visual content of the image in great detail."
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a serene moment at a petting zoo. In the foreground, a young woman, dressed in a gray hoodie, is reaching over a wooden fence to pet a light brown alpaca. The alpaca, with its white face turned towards the woman, seems to be enjoying the attention.\n\nThe woman has a backpack slung over one shoulder and holds a blue notebook in her hand, perhaps recording her experiences of the day. The wooden fence, made of planks and posts, separates the visitors from the animals, ensuring safety for both.\n\nIn the background, you can see other alpacas grazing peacefully on the grassy hill. The hill slopes gently upwards and is dotted with trees, adding to the idyllic setting. The clear blue sky overhead completes this picturesque scene. It's a beautiful day at the petting zoo!"
+        }
+    ],
+    "det": [
+        {
+            "label": "sheep",
+            "bbox": [
+                0.534671875,
+                0.34988290398126465,
+                1.0,
+                0.9891803278688525
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.49465624999999996,
+                0.5326697892271662,
+                0.537921875,
+                0.5959484777517564
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.1244375,
+                0.12770491803278688,
+                0.551734375,
+                0.9052459016393442
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8259375,
+                0.4151288056206089,
+                0.920546875,
+                0.585503512880562
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.192875,
+                0.5465105386416862,
+                0.25784375,
+                0.6114285714285715
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.11387499999999999,
+                0.4575644028103044,
+                0.1273125,
+                0.49864168618266974
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.06867187500000001,
+                0.3954098360655738,
+                0.105265625,
+                0.5296252927400469
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0045,
+                0.4314519906323185,
+                0.15292187499999998,
+                0.9842622950819672
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.389046875,
+                0.41461358313817326,
+                0.4101875,
+                0.4417798594847775
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.767390625,
+                0.39660421545667446,
+                1.0,
+                0.5046838407494145
+            ]
+        },
+        {
+            "label": "horse",
+            "bbox": [
+                0.43065625,
+                0.4184309133489461,
+                0.506328125,
+                0.4571662763466042
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.743484375,
+                0.4950351288056206,
+                0.7706718749999999,
+                0.5212646370023419
+            ]
+        },
+        {
+            "label": "sheep",
+            "bbox": [
+                0.37710937499999997,
+                0.5339110070257611,
+                0.399703125,
+                0.5986416861826698
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.140328125,
+                0.4034426229508197,
+                0.389546875,
+                0.6384309133489462
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.090796875,
+                0.4136533957845433,
+                0.0965,
+                0.4353161592505855
+            ]
+        }
+    ],
+    "hash_id": "749_coco_train2017_000000036732.jpg"
+}

@@ -1,0 +1,338 @@
+{
+    "id": "000000230340",
+    "image": "coco/train2017/000000230340.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there an elephant present in the image?",
+            "steps": [],
+            "answer": "Yes, there is a humongous decorated elephant among the large crowd of people in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of the image?",
+            "steps": [],
+            "answer": "The setting of the image is an outdoor street festival, where a large group of people has gathered in an open space, and there is an elaborately decorated stage."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the people in the image doing anything specific or just standing around?",
+            "steps": [],
+            "answer": "The crowd of people is standing around, possibly watching a performance or event related to the giant elephant and the elaborately decorated stage. Their exact actions cannot be determined from the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the significance of the decorated elephant in the crowd?",
+            "steps": [],
+            "answer": "The decorated elephant holds cultural and potentially religious significance in street festivals and celebrations in some countries, particularly in South Asia. It is a symbol of strength, wisdom, and nobility, and having a decorated elephant as a part of a festival or procession signifies the importance of the event.\n\nElephants are often elaborately adorned with vibrant colors, intricate patterns, fabrics, and ornaments. This enhancement in appearance signifies their role as vehicles for gods, kings, and other important figures in religious and cultural ceremonies. During processions and parades, the decorated elephants can draw attention, bringing excitement and a sense of grandeur to the festivities.\n\nIn the context of this image, the presence of the humongous decorated elephant among the large crowd of people suggests that the event could be a significant celebration, such as a religious festival, cultural event, or even a marriage ceremony. The crowd's gathering around the elephant indicates their interest in the spectacle and the importance of the animal's role within the event."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "The scene depicts a festive outdoor event, with a humongous decorated elephant standing as the center of attraction among a large crowd of people. The group of people is gathered in an open space, with some carrying handbags. There are numerous individuals standing around the elephant, appreciating its elaborate decorations.\n\nOther elements of the street festival can be noticed throughout the scene. In the background, there is a truck, possibly used for transportation or setup purposes. Various handbags can be spotted throughout the crowd, adding to the lively ambiance. An umbrella is also present in the scene, adding a touch of shade and respite from the sun.\n\nOverall, the image captures the energetic atmosphere of a vibrant street festival, where people of all ages come together to enjoy the outdoor activities and the company of the spectacular elephant."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What could be the possible reason behind this large gathering of people?",
+            "steps": [],
+            "answer": "The large gathering of people could be attending a street festival or an outdoor event, as suggested by the image. A key attraction of this gathering appears to be a giant, elaborately decorated elephant, drawing attention and interest from the crowd. The presence of several handbags also indicates that the attendees are likely carrying their belongings and possibly participating in various festival activities. Such events often feature entertaining performances, cultural displays, and various interactive experiences, contributing to a lively and enjoyable atmosphere for the attendees."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Describe the following image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of the scene, a colossal elephant-like structure commands attention. Crafted from wood and metal, it stands tall and proud, its trunk reaching skyward in a silent salute. A platform is perched atop the structure, providing a vantage point for people who are standing there, surveying the scene below.\n\nThe elephant is oriented towards the right side of the image, as if ready to march off into the distance. The crowd of people gathered around it adds to the sense of scale, their numbers too many to count accurately. They seem to be in awe of the spectacle before them, their attention riveted on the towering figure.\n\nThe backdrop features a building with a large antenna on top, standing solitary against the clear sky. The colors in the image are predominantly earthy browns and grays, punctuated by the cool blue of the sky.\n\nEvery element in this image contributes to a narrative of grandeur and spectacle, from the elephant-like structure that dominates the scene to the crowd of onlookers and the solitary building in the background."
+        }
+    ],
+    "det": [
+        {
+            "label": "handbag",
+            "bbox": [
+                0.264140625,
+                0.8384583333333333,
+                0.29831250000000004,
+                0.9540833333333333
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.352578125,
+                0.7616875000000001,
+                0.3925,
+                0.822375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.57371875,
+                0.7372083333333334,
+                0.711640625,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5154375,
+                0.699875,
+                0.572703125,
+                0.9703333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3328125,
+                0.6996041666666667,
+                0.382765625,
+                0.8166041666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.307328125,
+                0.6982083333333333,
+                0.35357812499999997,
+                0.7731041666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.23040625,
+                0.7000624999999999,
+                0.31109375000000006,
+                0.8594999999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.20470312499999999,
+                0.77,
+                0.29293749999999996,
+                0.9888333333333335
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.015140625,
+                0.7386874999999999,
+                0.10853125000000001,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.112140625,
+                0.6369166666666667,
+                0.17796875,
+                0.829875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.48217187499999997,
+                0.6877708333333333,
+                0.5280156249999999,
+                0.9537916666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.40575,
+                0.6484166666666666,
+                0.44693750000000004,
+                0.8212916666666668
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6156406249999999,
+                0.6434791666666667,
+                0.641828125,
+                0.7367291666666667
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.8912968749999999,
+                0.5820000000000001,
+                0.940046875,
+                0.6304791666666667
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.58809375,
+                0.2585625,
+                0.76471875,
+                0.29789583333333336
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.07646875,
+                0.7885208333333333,
+                0.11415625,
+                0.9243541666666667
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.9707812499999999,
+                0.8333333333333334,
+                0.9977499999999999,
+                0.9524375
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.627046875,
+                0.7863541666666667,
+                0.66853125,
+                0.94375
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.9061406249999999,
+                0.651375,
+                0.91859375,
+                0.6731875000000002
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.9429375,
+                0.6380416666666666,
+                0.9571093750000002,
+                0.6734375
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.0375,
+                0.6914791666666668,
+                0.044109375,
+                0.7214791666666667
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.167859375,
+                0.6592708333333334,
+                0.195015625,
+                0.7478750000000001
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.7069687499999999,
+                0.7129166666666666,
+                0.729234375,
+                0.7728958333333333
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.088953125,
+                0.829125,
+                0.12356249999999999,
+                0.8781041666666667
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.211671875,
+                0.693,
+                0.23165624999999998,
+                0.7223958333333333
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.121171875,
+                0.6935416666666666,
+                0.13540625,
+                0.7326875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.35825,
+                0.7141458333333334,
+                0.41801562499999995,
+                0.9582708333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.797921875,
+                0.6982708333333334,
+                0.8338281249999999,
+                0.8469375
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.574890625,
+                0.7536041666666667,
+                0.586328125,
+                0.8100416666666667
+            ]
+        }
+    ],
+    "hash_id": "686_coco_train2017_000000230340.jpg"
+}

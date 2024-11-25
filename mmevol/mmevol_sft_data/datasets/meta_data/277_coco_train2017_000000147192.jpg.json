@@ -1,0 +1,253 @@
+{
+    "id": "000000147192",
+    "image": "coco/train2017/000000147192.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image portrays an accident scene at an intersection, where a fire truck and several cars can be seen. A police car is also present, indicating that emergency personnel are in attendance and managing the situation. Several people, including police officers and firefighters, can be observed scattered around the incident site. \n\nAmidst the chaos, a man on a bicycle is riding down the street, passing by the accident scene. A stop sign and a fire hydrant are visible near the intersection, emphasizing the urban setting. Another motorcycle and various vehicles can be seen in different locations around the intersection, contributing to the busy atmosphere of the scene."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How might the presence of the bicyclist affect the ongoing situation at the accident scene involving emergency personnel?",
+            "steps": [],
+            "answer": "As the bicyclist passes by the accident scene, it is essential for them to remain cautious and avoid interfering with the emergency personnel who are handling the incident. The presence of the bicyclist could potentially distract the police officers and firefighters or obstruct their movements if the cyclist gets too close. It might also make it more challenging for other vehicles or pedestrians to navigate around the area. Therefore, the bicyclist should maintain a safe distance from the scene, follow any instructions given by the authorities, and pass by the area as carefully and quickly as possible to minimize any disruptions or risks during this critical situation."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you think is going on in this snapshot?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a vibrant street scene in San Francisco. The right side of the image is dominated by a large, yellow building with a fire escape, while the left side features a row of colorful buildings. The street itself is bustling with activity. A fire truck, painted in the traditional red, is parked on the street, and a bicycle is seen in motion, adding dynamism to the scene.\n\nA group of people are gathered on the sidewalk near the fire truck, engaged in conversation or perhaps observing something of interest. Their exact number is hard to determine from this perspective, but they add a human element to the urban landscape.\n\nOverhead, power lines crisscross against the clear blue sky, a common sight in many cities. The person on the bicycle is riding past the group of people, perhaps on their way to work or out for a leisurely ride.\n\nThe image is taken from the perspective of someone standing on the sidewalk, giving us a ground-level view of this lively city scene. The relative positions of the objects suggest a typical day in the city, with people and vehicles going about their daily routines.\n\nOverall, this image beautifully encapsulates the energy and color of life in San Francisco."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.5313125000000001,
+                0.6020416666666667,
+                0.644015625,
+                0.7243333333333334
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.4911875,
+                0.5503750000000001,
+                0.676734375,
+                0.660625
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.27534375,
+                0.5380208333333333,
+                0.34754687500000003,
+                0.5901041666666667
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.201265625,
+                0.5209583333333333,
+                0.26778124999999997,
+                0.5742499999999999
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.15045312500000002,
+                0.5266041666666667,
+                0.19425,
+                0.5607083333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.040453125,
+                0.5344583333333334,
+                0.1550625,
+                0.6333333333333333
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.187390625,
+                0.5521666666666667,
+                0.220734375,
+                0.6426041666666668
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5430625,
+                0.5182291666666666,
+                0.62784375,
+                0.7143125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.42154687500000004,
+                0.5317083333333333,
+                0.457,
+                0.6202083333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.356140625,
+                0.5318333333333334,
+                0.38146875,
+                0.6504166666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.394234375,
+                0.5353333333333333,
+                0.4194375,
+                0.583625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4505,
+                0.6050416666666667,
+                0.5157499999999999,
+                0.6716041666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.41634374999999996,
+                0.6127708333333334,
+                0.452046875,
+                0.6715
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.51390625,
+                0.27908333333333335,
+                0.527859375,
+                0.33729166666666666
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.093796875,
+                0.5220416666666667,
+                0.128359375,
+                0.5417083333333335
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.79359375,
+                0.4816875,
+                0.99375,
+                0.6640416666666666
+            ]
+        },
+        {
+            "label": "fire hydrant",
+            "bbox": [
+                0.061921875,
+                0.6082083333333334,
+                0.08446875000000001,
+                0.6664791666666666
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.585546875,
+                0.5376458333333333,
+                0.6266406250000001,
+                0.5810624999999999
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.13184374999999998,
+                0.5224375,
+                0.16484375,
+                0.5545208333333334
+            ]
+        },
+        {
+            "label": "stop sign",
+            "bbox": [
+                0.06839062500000001,
+                0.4407083333333333,
+                0.10865625000000001,
+                0.5025833333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.05440625,
+                0.5185625,
+                0.07671875,
+                0.5332916666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.380296875,
+                0.5721041666666667,
+                0.39284375,
+                0.5915208333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.373484375,
+                0.5814583333333334,
+                0.419203125,
+                0.6627500000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.16793750000000002,
+                0.5392291666666666,
+                0.19296875,
+                0.6404583333333332
+            ]
+        }
+    ],
+    "hash_id": "277_coco_train2017_000000147192.jpg"
+}

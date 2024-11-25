@@ -1,0 +1,325 @@
+{
+    "id": "000000216694",
+    "image": "coco/train2017/000000216694.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the lawn chair in the image?",
+            "steps": [],
+            "answer": "The lawn chair in the image is white."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of beach furniture is visible in the image?",
+            "steps": [],
+            "answer": "There is a white lawn chair, a sun shade, an umbrella, and a table with bottles on top visible in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of the table and umbrella?",
+            "steps": [],
+            "answer": "The table and umbrella are set up on a sandy beach."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any boats visible in the image? If so, where are they?",
+            "steps": [],
+            "answer": "Yes, various boats can be seen out in the ocean in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you discuss the ambiance and potential usage of the beach setup in the image?",
+            "steps": [],
+            "answer": "The beach setup in the image seems to be designed for relaxation and leisure, providing a comfortable space to enjoy the beautiful ocean views and the sea breeze. The empty white lawn chair, sun shade, umbrella, and table with bottles on top suggest that someone has established a cozy spot to rest, perhaps after a swim or a walk on the beach.\n\nBy positioning their beach gear under the shade of the umbrella and with the ocean's calming presence in the background, the individual(s) may also be seeking respite from the sun while still enjoying outdoor activities. Boats can be seen out in the ocean, adding variety to the view and possibly creating opportunities for recreational watersports, fishing, or sightseeing.\n\nAdditionally, the table indicates that there might be refreshments \u2013 possibly snacks and beverages \u2013 available for consumption during their beach stay. This setup offers a serene environment to unwind and enjoy the natural beauty of the beach, while also providing necessary protection from the sun and a comfortable place to sit and socialize.\n\nIn conclusion, the beach setup depicted in the image creates an inviting atmosphere for relaxation, enjoyment of the ocean's serenity, and leisurely activities such as socializing, snacking, or simply appreciating the view."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image depicts a peaceful and relaxing scene at the beach. There is a white lawn chair and a table placed under a sunshade umbrella directly on the sandy shore. The table has several bottles on top, indicating some refreshments are ready for beachgoers. In the background, various boats can be seen floating in the ocean, adding to the serene atmosphere.\n\nThere are also a few people scattered around the beach, enjoying the day outdoors. Some other seating options, such as benches, can be seen in the scene, offering additional spots for visitors to unwind and take in the coastal view. Overall, it is a picturesque beach setting with ample seating and leisure opportunities."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a serene beach scene under the clear sky. Dominating the center of the image is an open umbrella, painted in alternating stripes of blue and white, casting a cool shade on the sandy beach. To the left of the umbrella, a small table stands, hosting three bottles that glint in the sunlight. Adjacent to the right of the umbrella, a white chair is positioned, its back facing us and its front offering a view of the vast ocean.\n\nThe chair and umbrella seem to be engaged in a silent dialogue, both facing the endless expanse of water where several boats are scattered, their silhouettes tiny against the vastness of the ocean. A lone figure can be seen swimming in the water, adding a touch of life to this tranquil setting.\n\nThe image is a symphony of colors - the blue and white umbrella echoing the hues of the sky and ocean, the white chair blending with the sandy beach, and the bottles on the table capturing tiny reflections of their surroundings. The relative positions of these objects create a harmonious balance, making this beach scene not just a picture but a story waiting to be told."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.350875,
+                0.6191666666666666,
+                0.370203125,
+                0.7003541666666666
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.395328125,
+                0.6136041666666666,
+                0.411921875,
+                0.6953541666666666
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.453625,
+                0.6560416666666666,
+                0.713765625,
+                0.8034999999999999
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.27578125,
+                0.17847916666666666,
+                0.75840625,
+                0.7973125000000001
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.368765625,
+                0.6379583333333334,
+                0.38626562499999995,
+                0.7011666666666667
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.21915625,
+                0.6730625,
+                0.45601562500000004,
+                0.8513749999999999
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.26573437499999997,
+                0.21006249999999999,
+                0.32437499999999997,
+                0.23735416666666664
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.401359375,
+                0.07400000000000001,
+                0.487234375,
+                0.16910416666666667
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.518953125,
+                0.14435416666666667,
+                0.594609375,
+                0.18043750000000003
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.8539999999999999,
+                0.1486875,
+                0.9082343749999999,
+                0.18639583333333334
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.764375,
+                0.18164583333333334,
+                0.80890625,
+                0.1977708333333333
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.6585468750000001,
+                0.1145,
+                0.7685937500000001,
+                0.29935416666666664
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.127203125,
+                0.22260416666666666,
+                0.21201562499999999,
+                0.2718125
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.0,
+                0.13266666666666665,
+                0.074875,
+                0.20304166666666668
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.34387500000000004,
+                0.6375624999999999,
+                0.35440625000000003,
+                0.6993958333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.42034374999999996,
+                0.15043749999999997,
+                0.42578125,
+                0.16416666666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.879078125,
+                0.16368749999999999,
+                0.885953125,
+                0.17416666666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.44615625000000003,
+                0.15125,
+                0.44901562500000003,
+                0.16220833333333334
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.012140624999999999,
+                0.20460416666666664,
+                0.14559375,
+                0.31633333333333336
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.7629374999999999,
+                0.09395833333333334,
+                0.957203125,
+                0.27020833333333333
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.174671875,
+                0.213,
+                0.275828125,
+                0.2484375
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.7363906250000001,
+                0.15783333333333335,
+                0.8049843750000001,
+                0.18350000000000002
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.132203125,
+                0.19416666666666668,
+                0.22878125000000002,
+                0.22820833333333335
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.329203125,
+                0.6629583333333334,
+                0.346,
+                0.7009166666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7588125,
+                0.217375,
+                0.7711718750000001,
+                0.24002083333333335
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.66515625,
+                0.44445833333333334,
+                0.68203125,
+                0.47070833333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.05240625,
+                0.24152083333333335,
+                0.07228124999999999,
+                0.2657083333333333
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.4528125,
+                0.6585416666666667,
+                0.713640625,
+                0.8027083333333334
+            ]
+        }
+    ],
+    "hash_id": "215_coco_train2017_000000216694.jpg"
+}

@@ -1,0 +1,221 @@
+{
+    "id": "000000024105",
+    "image": "coco/train2017/000000024105.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Describe the following image.",
+            "steps": [],
+            "answer": "The image shows a group of three people sitting comfortably on a red couch. There is a man positioned between the other two young adults, who appear to be a man and a woman. The individuals are working on their laptops, with one placed on the left side and another on the right side of the couch.\n\nIn addition to the laptops, there are several items on the table in front of the couch. These include a wine glass, a cup, a cell phone, a few books, a handbag, a bowl, a fork, and a spoon. A potted plant can be seen at the rightmost part of the image, while a remote control rests further to the right on the couch."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Considering the objects in the scene, what can we infer about the people's activities and habits?",
+            "steps": [],
+            "answer": "Given the scene, we can infer that the people are engaged in a casual and relaxed setting, likely at home or in a shared living space. They are sitting on a red couch and using laptops, suggesting that they are working, studying, or exploring personal interests online. The presence of wine glasses, cups, bowls, and utensils indicates that they are also eating or enjoying a meal together, making the setting a social and collaborative environment. The books and a handbag, scattered around, signify their interests in reading or their academic/professional endeavors. A potted plant and remote control reflect a cozy residential ambiance. Overall, the people's activities and habits seem to center around comfort, socializing, multitasking, and informal work or learning experiences."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat's happening in the scene?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy living room, a vibrant red couch serves as the hub of activity. Three individuals are comfortably seated on it, each engrossed in their own world. \n\nOn the left, a person is savoring a slice of pizza, the cheesy delight held aloft in their hand. The middle occupant is engrossed in work or perhaps browsing the web on a laptop that rests on their lap. The person on the right mirrors this scene, also engaged with a laptop.\n\nIn front of the couch, a coffee table holds an array of items. A red plate, possibly the companion to the pizza eater's meal, sits alongside a pink cup and a wine glass, hinting at recent or upcoming refreshments. A collection of books and magazines are scattered across the table, suggesting varied interests among the room's occupants.\n\nThe walls of the room are painted in a soothing light brown color, providing a warm backdrop to this scene of relaxation and productivity. In the background, a lamp stands sentinel, ready to cast its light when needed."
+        }
+    ],
+    "det": [
+        {
+            "label": "couch",
+            "bbox": [
+                0.0,
+                0.2821666666666667,
+                1.0,
+                0.9680416666666667
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.35703125,
+                0.5819166666666666,
+                0.39390625,
+                0.6100208333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.474046875,
+                0.19583333333333333,
+                0.68228125,
+                0.7601666666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5134218749999999,
+                0.11879166666666667,
+                1.0,
+                0.8727083333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.02853125,
+                0.12997916666666667,
+                0.291953125,
+                0.5550208333333334
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.2965,
+                0.5411458333333333,
+                0.34767187499999996,
+                0.7051666666666667
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.19424999999999998,
+                0.8277083333333334,
+                0.309125,
+                0.989875
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.648875,
+                0.305625,
+                0.8477499999999999,
+                0.5348333333333333
+            ]
+        },
+        {
+            "label": "laptop",
+            "bbox": [
+                0.259546875,
+                0.39325,
+                0.40954687500000003,
+                0.5393333333333333
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.34390624999999997,
+                0.6632916666666666,
+                0.427546875,
+                0.6827291666666666
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.34173437500000003,
+                0.6245416666666667,
+                0.42615625,
+                0.6513333333333333
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.34203125,
+                0.6192916666666667,
+                0.42356249999999995,
+                0.6438333333333333
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.323359375,
+                0.5751041666666666,
+                0.475203125,
+                0.7238125
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.7541562500000001,
+                0.21789583333333334,
+                0.7894375,
+                0.28650000000000003
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.113359375,
+                0.7441041666666667,
+                0.222796875,
+                0.7727083333333334
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.9473750000000001,
+                0.06177083333333333,
+                1.0,
+                0.191625
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.8420156249999999,
+                0.5792291666666666,
+                0.952375,
+                0.595375
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.34046875,
+                0.6451458333333334,
+                0.42843749999999997,
+                0.6730416666666666
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.113109375,
+                0.7403125,
+                0.223140625,
+                0.7768750000000001
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.28967187499999997,
+                0.7819791666666667,
+                0.6263124999999999,
+                0.9922708333333333
+            ]
+        }
+    ],
+    "hash_id": "777_coco_train2017_000000024105.jpg"
+}

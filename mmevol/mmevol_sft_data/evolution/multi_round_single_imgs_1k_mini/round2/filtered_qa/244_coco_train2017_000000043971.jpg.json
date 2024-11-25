@@ -1,0 +1,481 @@
+{
+    "id": "000000043971",
+    "image": "coco/train2017/000000043971.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the main focus of the image?",
+            "steps": [],
+            "answer": "The main focus of the image is a scenic area with a canal, where people are traveling in a small boat and many vases are on display in a window overlooking the canal."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of boat is traversing the canal?",
+            "steps": [],
+            "answer": "The boat traversing the canal is a tourist river boat, and it appears to be loading passengers from a dock."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting of the image?",
+            "steps": [],
+            "answer": "The setting of the image is a picturesque marketplace alongside a canal, where local businesses, such as the one displaying vases, interact with passing tourists on river boats."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the purpose of the market area?",
+            "steps": [],
+            "answer": "The purpose of the market area is to provide a space for local businesses to showcase and sell their products, such as the vases displayed in the window. The market area likely attracts both locals and tourists, offering a vibrant and diverse shopping experience. The proximity to the canal allows tourists on river boats to easily access the marketplace, contributing to the dynamic atmosphere and local economy.\n\nIn addition to supporting local artisans, the marketplace serves as an attraction for tourists who want to explore the culture and artwork of the region. Tourists on river boats can conveniently disembark and roam the market area, experiencing a mix of local flavors and possibly purchasing unique items as souvenirs.\n\nThe presence of a canal also adds aesthetic value to the marketplace, making it an attractive destination for sightseeing and leisurely strolling. It creates a serene atmosphere that blends well with the bustling energy of the market, ultimately offering a memorable experience for both locals and visitors alike."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "This scene takes place in a picturesque, scenic area, where a small boat filled with numerous tourists can be seen passing through the water. The boat is surrounded by a group of people, some of whom are loading passengers from a dock. Along the waterfront, there is a market place where various objects are on display, including a couple of dozen vases in a window that overlooks the canal. \n\nIn the background, multiple potted plants are scattered around, and a clock can be seen on a wall. Additionally, several cups, bowls, and handbags are placed throughout the area, with some tourists likely shopping for souvenirs.EMPLARY"
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What unique experiences can tourists enjoy in the area?",
+            "steps": [],
+            "answer": "In the image, tourists can enjoy a unique and memorable experience of traveling through the picturesque canals on a small boat. As the boat passes through a marketplace, they can witness a beautiful window display of ornamental vases. This scenic ride allows tourists to appreciate both the natural beauty of the waterways and the local culture reflected in the market and handcrafted items. Such an experience brings together the historical charm and artistic aspects of the destination, creating unforgettable moments for the visitors to cherish."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nExplain the visual content of the image in great detail."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of Bruges, Belgium, a bustling scene unfolds on a canal. A white boat, adorned with a blue canopy, glides through the water, carrying a group of tourists eager to soak in the city's charm. The boat is in the midst of passing a market stall situated on the canal's bank. \n\nThe stall, distinguished by its red and white striped awning, offers an array of antiques and trinkets to passersby. Among the items displayed for sale are brass teapots, vases, and clocks, each piece telling its own story and adding to the rich tapestry of the market.\n\nIn the background, traditional Belgian houses stand tall with their red roofs and white walls, their architecture a testament to the city's history. The canal bank is adorned with trees and flowers, adding a touch of nature to this urban landscape. The relative positions of these elements create a harmonious balance, making this scene quintessentially Bruges."
+        }
+    ],
+    "det": [
+        {
+            "label": "boat",
+            "bbox": [
+                0.5232812499999999,
+                0.4265696465696466,
+                1.0,
+                0.5614968814968816
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.649953125,
+                0.3466943866943867,
+                0.6919062500000001,
+                0.45261954261954257
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.69659375,
+                0.4223284823284823,
+                0.718890625,
+                0.48199584199584194
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.721265625,
+                0.39698544698544697,
+                0.7519375,
+                0.4869022869022869
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.763625,
+                0.4364033264033264,
+                0.800984375,
+                0.49326403326403323
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8713906250000001,
+                0.4499376299376299,
+                0.9016406250000001,
+                0.5063825363825364
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8423437500000001,
+                0.4498960498960499,
+                0.872265625,
+                0.5058419958419959
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6312656249999999,
+                0.3234719334719335,
+                0.6621875,
+                0.39790020790020786
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5980624999999999,
+                0.3353430353430354,
+                0.6318125,
+                0.4495841995841996
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.801796875,
+                0.4411850311850312,
+                0.83790625,
+                0.5009771309771309
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.53753125,
+                0.3257172557172557,
+                0.565421875,
+                0.37937629937629935
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.46518750000000003,
+                0.32116424116424114,
+                0.485796875,
+                0.3713097713097713
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.42715625,
+                0.31334719334719335,
+                0.447640625,
+                0.3698128898128898
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.376734375,
+                0.31168399168399163,
+                0.39725,
+                0.36706860706860706
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.22007812499999999,
+                0.25584199584199585,
+                0.32206250000000003,
+                0.5255093555093555
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.12703124999999998,
+                0.8837629937629937,
+                0.184546875,
+                0.9996257796257796
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.008890625000000001,
+                0.9116216216216216,
+                0.05503125,
+                0.9989189189189189
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.0625625,
+                0.8728898128898129,
+                0.12121875,
+                0.9993347193347194
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.182203125,
+                0.902037422037422,
+                0.24270312499999996,
+                1.0
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.12334375,
+                0.8429106029106029,
+                0.176109375,
+                0.8944074844074844
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0973125,
+                0.298004158004158,
+                0.124140625,
+                0.4190852390852391
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.53553125,
+                0.34891891891891896,
+                0.55159375,
+                0.37771309771309775
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.635203125,
+                0.34255717255717255,
+                0.66003125,
+                0.3838669438669439
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.084328125,
+                0.6852390852390853,
+                0.25339062500000004,
+                0.7900207900207901
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.504,
+                0.36266112266112266,
+                0.5567031250000001,
+                0.4252390852390852
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.20442187500000003,
+                0.3515384615384615,
+                0.23328125000000002,
+                0.4219126819126819
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.175203125,
+                0.3508939708939709,
+                0.20121875,
+                0.37288981288981293
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.034187499999999996,
+                0.3315800415800416,
+                0.11014062499999999,
+                0.3903950103950104
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.563296875,
+                0.37933471933471935,
+                0.57746875,
+                0.39711018711018714
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.570171875,
+                0.6674220374220373,
+                0.7034375,
+                0.8834303534303534
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.43059375,
+                0.7828898128898129,
+                0.5051249999999999,
+                0.8605613305613306
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.196453125,
+                0.7605821205821205,
+                0.251953125,
+                0.8970686070686071
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.234359375,
+                0.6755093555093555,
+                0.367984375,
+                0.7411434511434511
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.73921875,
+                0.3501247401247401,
+                0.784421875,
+                0.416008316008316
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.428296875,
+                0.3646985446985447,
+                0.439015625,
+                0.39155925155925153
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.475484375,
+                0.37166320166320166,
+                0.48820312499999996,
+                0.3918087318087318
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.42951562499999996,
+                0.8254261954261953,
+                0.48373437499999994,
+                0.9964449064449064
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.48790625,
+                0.8502910602910603,
+                0.5524843749999999,
+                0.9971517671517671
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.699796875,
+                0.5663201663201662,
+                0.8170781250000001,
+                0.9028482328482328
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.37084375,
+                0.6879002079002079,
+                0.527421875,
+                0.8568399168399168
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.737828125,
+                0.43943866943866944,
+                0.7632656250000001,
+                0.4739293139293139
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.53525,
+                0.3483160083160083,
+                0.54875,
+                0.3784199584199584
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.8704375000000001,
+                0.4958835758835759,
+                0.8765625,
+                0.5061746361746362
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.7688125,
+                0.4608108108108108,
+                0.7913125,
+                0.4910602910602911
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.67878125,
+                0.3891268191268191,
+                0.702109375,
+                0.4298336798336798
+            ]
+        }
+    ],
+    "hash_id": "244_coco_train2017_000000043971.jpg"
+}

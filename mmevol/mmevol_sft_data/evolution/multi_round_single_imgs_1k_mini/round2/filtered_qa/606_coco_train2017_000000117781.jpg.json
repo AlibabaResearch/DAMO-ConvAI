@@ -1,0 +1,382 @@
+{
+    "id": "000000117781",
+    "image": "coco/train2017/000000117781.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "The image portrays a bustling Asian canal city featuring a large group of boats floating next to each other on the water. Many people are riding small boats down the river, representing a diverse range of individuals scattered throughout the scene.\n\nIn addition to the people and boats, umbrellas are a common sight on the boats and along the riverbank, providing shade and protection from the sun. The scene seems to resemble an oriental floating market, where people shop and trade from their boats. Various items, such as apples and a handbag, can be spotted in the market setting.\n\nNear the dock, we can observe a large group of people standing in close proximity to each other, indicating the busy nature of the location. Overall, the image captures the vibrant atmosphere of the canal city and its unique way of life."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How do the people in this scene interact with others and conduct their shopping activities?",
+            "steps": [],
+            "answer": "In the image, people are interacting and conducting their shopping activities in a lively and bustling Oriental floating market located in an Asian canal city. They are using small boats to navigate through the water, with many boats floating next to each other. The boats carry people and goods, such as fruits, and some are even equipped with umbrellas to provide shade from the sun. People can be seen on different boats, either shopping or selling their products, creating a unique and culturally rich shopping experience. As they float down the river, people converse, barter, and trade, allowing them to shop and socialize in an environment different from a traditional storefront market."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of Thailand, a vibrant floating market comes to life. The scene is a symphony of colors and activity, set against the backdrop of a murky green waterway. Wooden boats, painted in a rainbow of bright hues, bob gently on the water, their hulls laden with an array of goods. Fruits of every color, fresh vegetables, and delicate flowers are displayed in abundance, ready for the discerning buyer.\n\nA large wooden roof stretches across the market, its weathered planks bearing witness to countless sunny days and rainy afternoons. It provides shelter to the bustling commerce below, casting a warm, dappled light on the scene. Dotting the landscape are colorful umbrellas, their vibrant canopies unfurled to offer additional shade. They stand like cheerful sentinels amidst the hustle and bustle, their hues mirrored in the painted boats below.\n\nWooden poles rise from the water, their sturdy forms supporting the roof and umbrellas. They stand in silent testament to the market's enduring presence, their weathered surfaces etched with the passage of time. Amidst this lively tableau, people move with purposeful energy, their actions painting a dynamic portrait of life on the water.\n\nThis is more than just a market; it's a living tapestry woven from countless threads of human endeavor, each one contributing to a vibrant tableau that is uniquely Thai."
+        }
+    ],
+    "det": [
+        {
+            "label": "boat",
+            "bbox": [
+                0.27809375,
+                0.6423125,
+                0.6050625000000001,
+                0.8153541666666667
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.089171875,
+                0.6791041666666667,
+                0.32759375,
+                0.8033333333333333
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.7756875,
+                0.6360208333333334,
+                0.958734375,
+                0.7422708333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3539375,
+                0.5363958333333334,
+                0.52246875,
+                0.7229166666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.118875,
+                0.5132708333333333,
+                0.18965625,
+                0.6481041666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0845625,
+                0.3186666666666667,
+                0.149390625,
+                0.5854583333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.67428125,
+                0.5217291666666667,
+                0.7795,
+                0.6891666666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8231093749999999,
+                0.5495208333333333,
+                0.8820937499999999,
+                0.6375416666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.188765625,
+                0.5321874999999999,
+                0.35440625,
+                0.7349374999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.656515625,
+                0.5476875,
+                0.699046875,
+                0.6087083333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.79075,
+                0.541125,
+                0.82365625,
+                0.5690416666666667
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.6720312500000001,
+                0.67725,
+                0.770390625,
+                0.7389583333333333
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.601390625,
+                0.6715208333333333,
+                0.678703125,
+                0.7343958333333334
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.32309375,
+                0.165625,
+                0.5303281249999999,
+                0.2682291666666667
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.3219375,
+                0.3777916666666667,
+                0.614578125,
+                0.4841875
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.5855312500000001,
+                0.3846458333333333,
+                0.7380625000000001,
+                0.5235
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.71484375,
+                0.44335416666666666,
+                0.8074999999999999,
+                0.5157291666666667
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.673875,
+                0.3755625,
+                0.7681875,
+                0.4358125
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.00096875,
+                0.169,
+                0.256265625,
+                0.465375
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.3499375,
+                0.25508333333333333,
+                0.53553125,
+                0.35874999999999996
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.18553124999999998,
+                0.3767083333333333,
+                0.260578125,
+                0.5346666666666666
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.46434375,
+                0.32,
+                0.67603125,
+                0.3955416666666666
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.764140625,
+                0.47581249999999997,
+                0.8516406249999999,
+                0.5226458333333333
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.05046874999999999,
+                0.5689166666666666,
+                0.08265625,
+                0.5909166666666666
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.62715625,
+                0.6335625,
+                0.633421875,
+                0.6424166666666667
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.6306875,
+                0.6476458333333334,
+                0.6726249999999999,
+                0.6824791666666667
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.5898125000000001,
+                0.6255624999999999,
+                0.6247812500000001,
+                0.6530833333333332
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.6036718750000001,
+                0.6429791666666667,
+                0.6360468750000001,
+                0.6723333333333332
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.0,
+                0.6547083333333333,
+                0.18021875,
+                0.7981041666666666
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.9458437500000001,
+                0.6254583333333333,
+                0.979875,
+                0.6451041666666667
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.0,
+                0.020833333333333332,
+                0.3541875,
+                0.2182083333333333
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.24878125,
+                0.45739583333333333,
+                0.286265625,
+                0.5439375000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.31046874999999996,
+                0.47025,
+                0.35667187499999997,
+                0.5156458333333334
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.74175,
+                0.40227083333333336,
+                0.8033906250000001,
+                0.44754166666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.314265625,
+                0.5086666666666667,
+                0.35306249999999995,
+                0.5894583333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8824375,
+                0.5563333333333333,
+                0.93371875,
+                0.6604791666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.78603125,
+                0.5604791666666666,
+                0.82165625,
+                0.6305833333333333
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.6305,
+                0.6285000000000001,
+                0.659890625,
+                0.656
+            ]
+        }
+    ],
+    "hash_id": "606_coco_train2017_000000117781.jpg"
+}

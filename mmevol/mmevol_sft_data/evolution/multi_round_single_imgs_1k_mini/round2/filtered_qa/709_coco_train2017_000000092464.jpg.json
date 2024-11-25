@@ -1,0 +1,184 @@
+{
+    "id": "000000092464",
+    "image": "coco/train2017/000000092464.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the teddy bear in the image?",
+            "steps": [],
+            "answer": "The teddy bear in the image is orange."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What objects are surrounding the teddy bear on the table?",
+            "steps": [],
+            "answer": "The teddy bear is surrounded by various objects on the table, including decor, books, a candle, and a vase."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of surface is the teddy bear sitting on?",
+            "steps": [],
+            "answer": "The teddy bear is sitting on a table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a bow on the teddy bear?",
+            "steps": [],
+            "answer": "Yes, there is a bow on the teddy bear."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is inside the vase next to the teddy bear?",
+            "steps": [],
+            "answer": "The vase next to the teddy bear is filled with flowers."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "The image features a large teddy bear with a bow, sitting near several books and items on a dining table. The teddy bear is positioned next to a vase filled with flowers, and there is also a candle close by, adding a touch of decor to the scene. \n\nThe table is adorned with an assortment of books, spread across its surface. Alongside the teddy bear, books are placed on the left and right, creating an inviting and cozy environment. A remote can be seen placed near some of the books, alluding to the possibility of a television nearby. \n\nIn addition to the vase, there is a cup placed close to it, as well as a bowl located on the right side of the table. The dining table takes up the majority of the space in the image, from the left edge to the right, with a Persian rug beneath it enhancing the overall aesthetic."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What factors might have influenced the arrangement of objects on the table?",
+            "steps": [],
+            "answer": "Several factors might have influenced the arrangement of objects on the table, including aesthetics, personal preferences, and function. The teddy bear, which is a prominent item on the table, might be placed there as a decorative element, especially considering its presence next to items like books, a vase filled with flowers, and possibly a candle. This suggests that the table might be a centerpiece in the room, and the arrangement of these objects aims to create an appealing and visually engaging display. The books, too, contribute to the aesthetic of the scene, potentially showcasing the interests of the individuals living in the space or reflecting their taste in literature. Additionally, the vase filled with flowers introduces a touch of nature to the display and adds a sense of freshness to the arrangement. In summary, the combination of personal preferences, aesthetics, and the functional aspects of each object on the table has likely influenced the arrangement, creating a unique and appealing display reflective of the individuals who reside there."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What's happening in the scene?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of the room, a large, light orange teddy bear takes center stage. It sits comfortably on a vibrant, multicolored rug, its arms and legs spread out in a welcoming gesture. A darker orange ribbon is tied neatly around its neck, adding a touch of elegance to its appearance.\n\nTo the left of the teddy bear, a small orange candle and a book are placed. The candle, with its soft glow, adds warmth to the scene. The book, lying closed, suggests a quiet moment of reading just interrupted or about to begin.\n\nOn the right side of the teddy bear, a vase filled with pink and white roses stands tall. The roses, in full bloom, add a touch of nature and freshness to the room. Next to the vase is a stack of books, suggesting that this is a space for relaxation and intellectual pursuit.\n\nIn the background, a wooden bookshelf filled with various books and trinkets can be seen. A fireplace is also visible, adding an element of coziness to the scene. The arrangement of these elements creates a harmonious balance in the room, making it appear both inviting and comfortable."
+        }
+    ],
+    "det": [
+        {
+            "label": "bowl",
+            "bbox": [
+                0.870125,
+                0.6044859813084112,
+                0.999375,
+                0.7573130841121495
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.7161562499999999,
+                0.20509345794392522,
+                0.9001875,
+                0.25191588785046726
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.707828125,
+                0.2516822429906542,
+                0.9046875,
+                0.3235981308411215
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.69778125,
+                0.2764485981308411,
+                0.8889374999999999,
+                0.3672429906542056
+            ]
+        },
+        {
+            "label": "teddy bear",
+            "bbox": [
+                0.067625,
+                0.13707943925233645,
+                0.643203125,
+                0.9483177570093457
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.723125,
+                0.389392523364486,
+                0.8874062500000001,
+                0.4423598130841121
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.706234375,
+                0.22383177570093457,
+                0.8978906249999999,
+                0.29133177570093455
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.6988125000000001,
+                0.3280841121495327,
+                0.88515625,
+                0.39999999999999997
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.48690625,
+                0.11684579439252336,
+                0.643203125,
+                0.552803738317757
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.48243749999999996,
+                0.10287383177570093,
+                0.640140625,
+                0.5494859813084112
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0017343750000000002,
+                0.4233878504672897,
+                1.0,
+                1.0
+            ]
+        }
+    ],
+    "hash_id": "709_coco_train2017_000000092464.jpg"
+}

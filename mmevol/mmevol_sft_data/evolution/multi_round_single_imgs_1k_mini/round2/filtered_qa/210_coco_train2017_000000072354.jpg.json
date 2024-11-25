@@ -1,0 +1,463 @@
+{
+    "id": "000000072354",
+    "image": "coco/train2017/000000072354.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the main setting of the image?",
+            "steps": [],
+            "answer": "The main setting of the image is a crowded beach filled with many people, umbrellas, chairs, and swimmers in the water."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What activities are people engaging in at the beach?",
+            "steps": [],
+            "answer": "People at the beach are engaging in various activities such as sitting under umbrellas, swimming in the water, and standing or socializing with each other on the shoreline."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can be said about the number of people at the beach?",
+            "steps": [],
+            "answer": "It can be said that there are a large number of people at the beach, possibly numbering in the thousands, as it is described as filled with lots of people standing next to each other and having many umbrellas and chairs."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How is the beach visually characterized?",
+            "steps": [],
+            "answer": "The beach is visually characterized by the presence of colorful umbrellas and a large number of people enjoying various activities. The lively atmosphere conveyed in the image suggests a popular and busy beach on a sunny day."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image captures a lively and crowded beach scene with many people, colorful umbrellas, and chairs scattered throughout the area. The beach is filled with visitors, some of whom are standing, while others are enjoying themselves under the numerous umbrellas or on multiple chairs around. A mix of umbrellas and chairs can be seen across the beach, providing shade and relaxation spots for beachgoers.\n\nSeveral people are swimming in the water, enjoying the sea and adding to the bustling atmosphere of the beach. A boat can be spotted floating on the water as well. On the shore, some personal belongings, such as backpacks and handbags, are visible. They've likely been left behind by the beachgoers as they step into the water or explore the surrounding area. Overall, the beach is packed with activity and fun for everyone involved."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are some measures people at the beach have taken to enjoy a comfortable day?",
+            "steps": [],
+            "answer": "At the crowded beach, people have taken several measures to ensure their comfort during the day. Many colorful umbrellas of different sizes are scattered across the beach, providing shade and protection from the sun. There are also numerous chairs placed in various areas on the beach to offer seating and relaxation for the visitors. Additionally, some people have brought handbags and backpacks, which they can use to store essential items like snacks, sunscreen, and towels. These preparations contribute to creating a pleasant and enjoyable beach experience, despite the large number of people present."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What do you think is going on in this snapshot?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a vibrant and lively scene at a beach. The beach is teeming with people, some leisurely strolling along the shore, while others are comfortably seated or reclining on colorful beach chairs. The chairs, painted in hues of green, blue, and yellow, are scattered across the sandy expanse.\n\nAdding to the riot of colors are numerous beach umbrellas, providing shade to the beachgoers. These umbrellas, in shades of yellow, green, blue, and red, dot the landscape and create a cheerful atmosphere.\n\nIn the distance, a hill adorned with buildings and trees can be seen. The structures appear to be residential or perhaps holiday homes, nestled amidst the greenery. The sky above is a clear blue, suggesting a sunny day perfect for a beach outing.\n\nThe sand of the beach is light brown, typical of coastal areas. It's easy to imagine the feel of warm sand underfoot and the sound of waves gently lapping at the shore. This image truly encapsulates the joy and relaxation of a day at the beach."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.22107812500000001,
+                0.47101415094339627,
+                0.2380625,
+                0.5212735849056604
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.08931249999999999,
+                0.9327122641509434,
+                0.140140625,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3736875,
+                0.45441037735849055,
+                0.388375,
+                0.4946933962264151
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.414859375,
+                0.42566037735849055,
+                0.4338125,
+                0.46955188679245274
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.42090625,
+                0.7039858490566038,
+                0.4425625,
+                0.7487971698113208
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.305890625,
+                0.825377358490566,
+                0.48462500000000003,
+                0.922570754716981
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.37115624999999997,
+                0.7556132075471698,
+                0.539078125,
+                0.8558018867924528
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.43515625,
+                0.6959905660377359,
+                0.5906875,
+                0.7918632075471698
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.517296875,
+                0.641179245283019,
+                0.661015625,
+                0.7307783018867925
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.577640625,
+                0.5735849056603773,
+                0.702703125,
+                0.6522405660377358
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.635,
+                0.534245283018868,
+                0.7258437499999999,
+                0.5875235849056604
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.737078125,
+                0.8893632075471698,
+                0.840171875,
+                0.9992216981132075
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7609375,
+                0.8187971698113208,
+                0.8380468750000001,
+                0.9143867924528303
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.43140625000000005,
+                0.9185849056603774,
+                0.49167187500000004,
+                0.997806603773585
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.480625,
+                0.8144575471698113,
+                0.5540312500000001,
+                0.9322877358490566
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.913484375,
+                0.8072169811320754,
+                0.96559375,
+                0.8688679245283019
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.52921875,
+                0.3399764150943396,
+                0.53828125,
+                0.3560849056603774
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.41509375000000004,
+                0.6664858490566037,
+                0.45140625000000006,
+                0.7670518867924527
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.346375,
+                0.39837264150943397,
+                0.36729687499999997,
+                0.4797641509433962
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.218984375,
+                0.3939858490566038,
+                0.230765625,
+                0.4073349056603774
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.990625,
+                0.6286084905660376,
+                1.0,
+                0.7665566037735848
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.371984375,
+                0.3950943396226415,
+                0.381859375,
+                0.4295283018867925
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.307140625,
+                0.3081839622641509,
+                0.317140625,
+                0.32858490566037735
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.287296875,
+                0.30686320754716984,
+                0.297359375,
+                0.32091981132075476
+            ]
+        },
+        {
+            "label": "boat",
+            "bbox": [
+                0.149859375,
+                0.30766509433962264,
+                0.182109375,
+                0.3218396226415094
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.688328125,
+                0.47341981132075467,
+                0.76696875,
+                0.5152594339622641
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.74328125,
+                0.4203537735849056,
+                0.785109375,
+                0.45408018867924527
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.6947656249999999,
+                0.7315801886792452,
+                0.8643124999999999,
+                0.817877358490566
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.71240625,
+                0.6935141509433963,
+                0.860390625,
+                0.7610377358490567
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.7694687499999999,
+                0.5065094339622641,
+                0.8591875,
+                0.5377594339622641
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.77628125,
+                0.595754716981132,
+                0.89290625,
+                0.6509433962264151
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.380140625,
+                0.7137735849056603,
+                0.401859375,
+                0.7793160377358491
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.874390625,
+                0.8068396226415094,
+                0.8864375000000001,
+                0.8419103773584906
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.07520312500000001,
+                0.7968396226415094,
+                0.123,
+                0.911132075471698
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2415,
+                0.2661556603773585,
+                0.24928124999999998,
+                0.2887264150943396
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.788109375,
+                0.6311792452830188,
+                0.9240625,
+                0.7012971698113208
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.5393125000000001,
+                0.8416981132075472,
+                0.56059375,
+                0.8871933962264151
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.545296875,
+                0.7863915094339623,
+                0.577171875,
+                0.881745283018868
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9430156249999999,
+                0.6469103773584907,
+                0.953625,
+                0.6741509433962265
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9512656249999999,
+                0.577570754716981,
+                0.9780937499999999,
+                0.641132075471698
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.71175,
+                0.5945283018867925,
+                0.73771875,
+                0.6486320754716982
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.818609375,
+                0.8827830188679245,
+                0.8598906249999999,
+                0.9829245283018868
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6253124999999999,
+                0.7584669811320754,
+                0.6615624999999999,
+                0.8258490566037735
+            ]
+        }
+    ],
+    "hash_id": "210_coco_train2017_000000072354.jpg"
+}

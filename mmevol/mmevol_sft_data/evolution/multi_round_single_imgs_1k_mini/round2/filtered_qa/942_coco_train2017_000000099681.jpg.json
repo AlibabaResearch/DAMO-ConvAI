@@ -1,0 +1,229 @@
+{
+    "id": "000000099681",
+    "image": "coco/train2017/000000099681.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image depicts a factory with several workers busily performing their jobs. There are five people in total in the scene, with three mainly concentrated in the center of the factory workspace while the other two are positioned further apart. The workers are surrounded by tables loaded with various kinds of equipment and boxes.\n\nSeveral baseball bats can be observed throughout the workspace, likely indicating that the factory specializes in manufacturing this product. In addition to the baseball bats, there are two TVs, two clocks, a mouse, a keyboard, and a pair of scissors, indicating that the workers are utilizing a combination of tools and technology in their manufacturing processes."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of manufacturing activity is most likely being carried out in this facility?",
+            "steps": [],
+            "answer": "In the image, the manufacturing facility has workers standing around tables with equipment and boxes scattered around, along with numerous baseball bats. Based on this information, it is likely that this facility specializes in the manufacturing, assembly, or processing of sports equipment, particularly baseball bats. The workers are probably involved in the production steps or quality control, ensuring that the baseball bats are made according to set specifications and quality standards."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling factory, four diligent workers are engrossed in their respective tasks. The worker on the left, clad in safety gear, is operating a machine with focused precision. The machine, a robust structure painted in a shade of green, dominates the foreground of the image.\n\nIn the center, another worker is stationed at a conveyor belt, meticulously overseeing the smooth transition of goods. The conveyor belt, a symbol of industrial efficiency, stretches across the middle ground of the image.\n\nOn the right side of the image, two workers are collaborating on a different machine. Their teamwork is evident as they navigate through their task with ease and expertise.\n\nThe factory itself is a marvel of modern engineering. Various machines and equipment fill the space, each serving its unique purpose in the production process. A white machine stands tall in the background, its purpose unknown but undoubtedly crucial to the operations.\n\nThe concrete floor underfoot and white walls enclosing the space complete the industrial setting. The image captures a moment in time where human endeavor and mechanical precision come together to create something truly remarkable."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.51932,
+                0.20833333333333334,
+                0.78476,
+                0.9876229508196722
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.74186,
+                0.26224043715846995,
+                0.93926,
+                0.6532513661202186
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.51008,
+                0.19830601092896175,
+                0.6198199999999999,
+                0.5583333333333333
+            ]
+        },
+        {
+            "label": "baseball bat",
+            "bbox": [
+                0.4304,
+                0.5460655737704918,
+                0.57504,
+                0.6292076502732241
+            ]
+        },
+        {
+            "label": "baseball bat",
+            "bbox": [
+                0.45072,
+                0.5640710382513661,
+                0.5772,
+                0.6152732240437159
+            ]
+        },
+        {
+            "label": "baseball bat",
+            "bbox": [
+                0.57768,
+                0.7109016393442623,
+                0.59498,
+                0.7314207650273223
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.53042,
+                0.24366120218579237,
+                0.55902,
+                0.2889617486338798
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.39316,
+                0.22726775956284154,
+                0.46638,
+                0.30857923497267764
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.69784,
+                0.5158196721311475,
+                0.71584,
+                0.5504098360655737
+            ]
+        },
+        {
+            "label": "clock",
+            "bbox": [
+                0.7759199999999999,
+                0.5515300546448088,
+                0.78858,
+                0.5649726775956284
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.30248,
+                0.18590163934426232,
+                0.4031,
+                0.4401639344262296
+            ]
+        },
+        {
+            "label": "baseball bat",
+            "bbox": [
+                0.52034,
+                0.6697814207650273,
+                0.58714,
+                0.7110928961748634
+            ]
+        },
+        {
+            "label": "baseball bat",
+            "bbox": [
+                0.51196,
+                0.6505737704918033,
+                0.58038,
+                0.6897540983606558
+            ]
+        },
+        {
+            "label": "baseball bat",
+            "bbox": [
+                0.47238,
+                0.597896174863388,
+                0.57984,
+                0.6510382513661203
+            ]
+        },
+        {
+            "label": "baseball bat",
+            "bbox": [
+                0.46142,
+                0.5701639344262295,
+                0.57916,
+                0.6489890710382513
+            ]
+        },
+        {
+            "label": "baseball bat",
+            "bbox": [
+                0.47804,
+                0.6186065573770492,
+                0.5779200000000001,
+                0.6566939890710383
+            ]
+        },
+        {
+            "label": "baseball bat",
+            "bbox": [
+                0.49898000000000003,
+                0.6351092896174864,
+                0.57678,
+                0.6791803278688524
+            ]
+        },
+        {
+            "label": "mouse",
+            "bbox": [
+                0.34908,
+                0.7991530054644809,
+                0.40628,
+                0.837103825136612
+            ]
+        },
+        {
+            "label": "keyboard",
+            "bbox": [
+                0.32989999999999997,
+                0.8393989071038253,
+                0.5005,
+                1.0
+            ]
+        },
+        {
+            "label": "scissors",
+            "bbox": [
+                0.85848,
+                0.6699453551912568,
+                0.88868,
+                0.7249726775956283
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6936599999999999,
+                0.1592622950819672,
+                0.71248,
+                0.18551912568306012
+            ]
+        }
+    ],
+    "hash_id": "942_coco_train2017_000000099681.jpg"
+}

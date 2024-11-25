@@ -1,0 +1,120 @@
+```json
+[
+  {
+    "image_position": "single",
+    "objects": [],
+    "skills": [],
+    "format": "completeness_of_response",
+    "question": "Considering the description 'You arrive at loc 5. The drawer 1 is closed.', outline your observations of the scene and articulate your next course of action based on the provided admissible actions.",
+    "steps": [
+      {"manipulation": "None", "description": "Analyze the current location and stated condition of drawer 1."},
+      {"manipulation": "None", "description": "Determine the immediate action required to accomplish the task."}
+    ],
+    "answer": "{\n  \"thoughts\": \"We are located at 'loc 5', which is confirmed by the closed state of 'drawer 1'. The objective is to put a clean soap bar into the drawer, thus our first step should be to open drawer 1.\",\n  \"action\": \"open drawer 1\"\n}"
+  },
+  {
+    "image_position": "single",
+    "objects": [],
+    "skills": [],
+    "format": "rationales_generation",
+    "question": "Identify the visible items in the scene and provide a rationale for the appropriate action to take regarding them.",
+    "steps": [
+      {"manipulation": "None", "description": "Describe the objects present in the image and their arrangement."},
+      {"manipulation": "None", "description": "Assess which object needs to be interacted with next to proceed with the task."}
+    ],
+    "answer": "The scene showcases a clean soap bar resting on top of a closed white drawer, accompanied by a spherical object and some tissues. To put the soap in the drawer, we should first open drawer 1."
+  },
+  {
+    "image_position": "single",
+    "objects": [],
+    "skills": [],
+    "format": "depth_order",
+    "question": "Upon opening drawer 1, evaluate the subsequent logical step to continue fulfilling the task you've identified.",
+    "steps": [
+      {"manipulation": "None", "description": "Speculate on the necessary actions to continue once drawer 1 is opened."}
+    ],
+    "answer": "After opening drawer 1, the next logical step would be to retrieve the soap bar and place it inside the drawer."
+  },
+  {
+    "image_position": "single",
+    "objects": [],
+    "skills": [],
+    "format": "creative_content_generation",
+    "question": "Envision a whimsical adventure where the soap bar possesses mystical qualities. Describe the various adventures that may unfold from this scenario.",
+    "steps": [
+      {"manipulation": "None", "description": "Create a narrative based on the magical attributes of the soap bar."}
+    ],
+    "answer": "This magical soap bar could transport us to an enchanting realm where mundane objects exhibit life. As we place it in the drawer, the environment might metamorphose into a wonderland where furniture engages in conversation, and our soap bar turns into a spirited companion guiding us through puzzles and quests for hidden treasures!"
+  },
+  {
+    "image_position": "single",
+    "objects": [],
+    "skills": [],
+    "format": "object_region_matching",
+    "question": "In a realistic context, construct a brief scenario highlighting the necessity to clean the soap bar before utilizing it.",
+    "steps": [
+      {"manipulation": "None", "description": "Imagine a situation that requires sanitation of the soap bar."}
+    ],
+    "answer": "Observing that the soap bar has gathered dust while left exposed, it becomes necessary to rinse it in the sink to ensure cleanliness. You then proceed to sink 1, allowing water to cleanse away any dirt before drying it off with a towel and placing it into drawer 1."
+  },
+  {
+    "image_position": "single",
+    "objects": [],
+    "skills": [],
+    "format": "text_image_matching",
+    "question": "Craft a scenario where you encounter an unexpected item inside drawer 1 after unlocking it. Describe the item and its potential significance.",
+    "steps": [
+      {"manipulation": "None", "description": "Detail a surprising find within drawer 1 and its implications."}
+    ],
+    "answer": "Opening drawer 1, you unexpectedly encounter a beautifully designed journal. Its aged leather exterior signifies frequent use. Flipping through its pages unveils sketches and personal reflections from the author’s travels, each story revealing past experiences and treasures of historical value. It captivates your interest, leading you to contemplate its significance before gently placing it back."
+  },
+  {
+    "image_position": "single",
+    "objects": [],
+    "skills": [],
+    "format": "rationales_generation",
+    "question": "Engage in a conversation regarding the spherical object noted in the visual context. What could it represent or suggest?",
+    "steps": [
+      {"manipulation": "None", "description": "Dissect the significance and potential aspects of the spherical object in the scene."}
+    ],
+    "answer": "The spherical object appears ornamental, positioned adjacent to the soap bar and crumpled tissues. Let's explore its purpose further, considering whether it's simply decor or holds deeper significance."
+  },
+  {
+    "image_position": "single",
+    "objects": [],
+    "skills": [],
+    "format": "completeness_of_response",
+    "question": "Is there a possibility that the spherical object's presence could impact the action of placing the soap bar in the drawer?",
+    "steps": [
+      {"manipulation": "None", "description": "Assess the relationship between the spherical object and the task at hand."}
+    ],
+    "answer": "It seems the spherical object does not directly relate to placing the soap bar in the drawer, although if it obstructs drawer 1, we might need to move it for unobstructed access."
+  },
+  {
+    "image_position": "single",
+    "objects": [],
+    "skills": [],
+    "format": "multichoice",
+    "question": "If the spherical object had extraordinary properties in a fantastical context, what function might it serve? 
+A) A source of endless light 
+B) A gateway to parallel universes 
+C) A tool for shaping reality 
+D) A mere decorative item",
+    "steps": [
+      {"manipulation": "None", "description": "Deliberate on the hypothetical capabilities attributed to the spherical object."}
+    ],
+    "answer": "A"
+  },
+  {
+    "image_position": "single",
+    "objects": [],
+    "skills": [],
+    "format": "instruction_following",
+    "question": "If the spherical object hinders access to drawer 1, what steps would you take to resolve the obstruction?",
+    "steps": [
+      {"manipulation": "None", "description": "Wolf down the potential solutions for the obstruction issue."}
+    ],
+    "answer": "In the event that the spherical object obstructs access to drawer 1, I would carefully move it aside temporarily. Once the drawer is accessible, I'd proceed to place the soap bar inside, ensuring to return the spherical object back to its original position thereafter."
+  }
+]
+```

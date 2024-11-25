@@ -1,0 +1,487 @@
+{
+    "id": "000000051630",
+    "image": "coco/train2017/000000051630.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are visible in the kitchen preparing food?",
+            "steps": [],
+            "answer": "There are six men visible in the kitchen preparing food."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there anyone just observing the food preparation?",
+            "steps": [],
+            "answer": "Yes, there is another man looking in as the six men prepare the meal in the galley kitchen."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the appearance of the kitchen?",
+            "steps": [],
+            "answer": "The kitchen appears to be a galley kitchen, with counters, cabinets, and workspace on both sides. The men are working on both sides of the kitchen to prepare the meal efficiently, and there are various utensils, appliances, and ingredients on the counters for their use."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What sort of meal might they be preparing based on the visible ingredients and equipment?",
+            "steps": [],
+            "answer": "Unfortunately, I cannot provide specifics about the exact meal being prepared, as I am only a visual AI assistant and cannot taste or smell the ingredients. However, given that there are multiple people working in the kitchen, it might suggest a more elaborate meal is being prepared. This could involve several courses or a variety of dishes that require a team effort to put together efficiently. The presence of various utensils and appliances indicates that they are likely using different techniques and methods to prepare the food, which implies a diverse menu."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "The image features a bustling galley kitchen with six men preparing a meal together. They are working diligently on both sides of the kitchen to prepare the food, using the counters for support. An additional man is also present, looking in and observing the group.\n\nVarious kitchen items and food can be seen in the room. There are several bottles placed throughout the space, as well as wine glasses, cups, and bowls. A toaster can be identified in the scene, along with a sink and an oven. Different types of fruits, such as bananas and apples, are visible across the kitchen. Additionally, there is a bird in the room, possibly a pet, perched near the center of the kitchen."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is a concern for the people working in this kitchen, considering the number of wine glasses seen in the image?",
+            "steps": [],
+            "answer": "A concern for the people working in this busy kitchen with numerous wine glasses could be the proper handling and storage of the delicate glassware to prevent breakage or accidents. With various kitchen activities going on, such as food preparation and cooking, it is essential to ensure that the wine glasses are stored safely and out of the way. The workers need to be cautious and organized, handling the glasses carefully during the hustle of the kitchen environment to avoid any accidents or potential injuries due to broken glass. Additionally, they should communicate effectively with each other, as coordination and teamwork are critical to an efficient and safe kitchen operation."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a lively scene in a cozy kitchen bathed in warm yellow light. The kitchen, with its wooden floor that adds a touch of rustic charm, is the heart of the home where three individuals are engaged in various activities.\n\nOn the left, a person is standing at the wooden counter that houses a sink and a stove. The counter, cluttered with a bowl of assorted fruits, a plate of food, and a cutting board, suggests meal preparation is underway. The individual at the counter appears to be deeply involved in this culinary endeavor.\n\nIn the middle of the kitchen, another person is stationed at the sink. Whether they're washing dishes or rinsing ingredients for the meal isn't clear, but their participation adds to the communal atmosphere.\n\nOn the right, the third person is standing by the fridge, which also serves as a platform for another bowl of fruit. Their action is unclear but contributes to the overall bustling energy of the kitchen scene.\n\nAbove them, two lamps - one pink and one yellow - hang from the ceiling, casting a soft glow over the room. A wooden shelf mounted on the wall holds an array of glasses and plates, ready for use. A hanging fruit basket and pot rack add to the functional yet homely decor.\n\nEach person is wearing a hat, adding a touch of whimsy to this everyday scene. Their presence and activity fill the kitchen with an aura of camaraderie and warmth, turning this ordinary room into a hub of home life."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.157484375,
+                0.7363231850117097,
+                0.23128125000000002,
+                0.8705854800936769
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.274328125,
+                0.6455503512880562,
+                0.293921875,
+                0.6866042154566744
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.21578124999999998,
+                0.6785245901639345,
+                0.243453125,
+                0.7490866510538642
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.327609375,
+                0.3369789227166276,
+                0.48457812499999997,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5250781250000001,
+                0.3600936768149883,
+                0.6671875,
+                0.9273536299765809
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.709359375,
+                0.2928805620608899,
+                0.9171875,
+                0.9881498829039813
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.43346875,
+                0.35758782201405154,
+                0.48540625000000004,
+                0.5266042154566745
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.356734375,
+                0.40922716627634664,
+                0.398078125,
+                0.48796252927400474
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3425625,
+                0.35784543325526935,
+                0.37696875,
+                0.49236533957845435
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.142234375,
+                0.21519906323185012,
+                0.18409375,
+                0.31311475409836065
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.09992187500000001,
+                0.20152224824355972,
+                0.146125,
+                0.3128571428571429
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.07240625,
+                0.01800936768149883,
+                0.10015625000000002,
+                0.11735362997658079
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.124171875,
+                0.020960187353629974,
+                0.1555,
+                0.11878220140515222
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.048109374999999996,
+                0.8140983606557377,
+                0.14528124999999997,
+                0.8831615925058548
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.267875,
+                0.7080562060889929,
+                0.39114062499999996,
+                0.7769789227166276
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.87440625,
+                0.787728337236534,
+                1.0,
+                0.915784543325527
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.26796875,
+                0.4411241217798595,
+                0.32765625,
+                0.5355503512880562
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.224890625,
+                0.15950819672131147,
+                0.32234375000000004,
+                0.2578220140515223
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.9572499999999999,
+                0.6389461358313817,
+                0.9866406249999999,
+                0.6761358313817329
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.9318125,
+                0.6555971896955504,
+                0.959625,
+                0.6921779859484778
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.9571875000000001,
+                0.6773067915690866,
+                0.980484375,
+                0.7145667447306792
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.9783593749999999,
+                0.6738875878220141,
+                0.9939218750000001,
+                0.6976112412177986
+            ]
+        },
+        {
+            "label": "toaster",
+            "bbox": [
+                0.1076875,
+                0.712271662763466,
+                0.20218750000000002,
+                0.8133255269320843
+            ]
+        },
+        {
+            "label": "bird",
+            "bbox": [
+                0.694234375,
+                0.38800936768149885,
+                0.725171875,
+                0.44072599531615925
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.27259375,
+                0.684168618266979,
+                0.29871875000000003,
+                0.7205620608899298
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.6756249999999999,
+                0.5753161592505854,
+                0.69203125,
+                0.6171896955503513
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.3223125,
+                0.6902810304449649,
+                0.382671875,
+                0.7077751756440281
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.259375,
+                0.5097892271662764,
+                0.280890625,
+                0.5379625292740047
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.67615625,
+                0.6342388758782201,
+                0.7170625,
+                0.6684309133489462
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.528296875,
+                0.33320843091334895,
+                0.613125,
+                0.4609836065573771
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.091140625,
+                0.025878220140515225,
+                0.10259375,
+                0.1164871194379391
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.157421875,
+                0.03899297423887588,
+                0.18235937500000002,
+                0.12819672131147541
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.094125,
+                0.03943793911007026,
+                0.11260937500000001,
+                0.1157142857142857
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.17171875,
+                0.05494145199063232,
+                0.19153125000000001,
+                0.135152224824356
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.141921875,
+                0.04768149882903981,
+                0.15834375,
+                0.1205152224824356
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.92721875,
+                0.7292740046838407,
+                0.9668125,
+                0.7924355971896956
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.12125,
+                0.021007025761124124,
+                0.15340625,
+                0.09627634660421545
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.165734375,
+                0.055175644028103044,
+                0.192609375,
+                0.11784543325526932
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.07307812500000001,
+                0.0214519906323185,
+                0.105078125,
+                0.11768149882903982
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.284890625,
+                0.36259953161592506,
+                0.3075,
+                0.39044496487119446
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.9359375,
+                0.6927634660421546,
+                0.95684375,
+                0.7211007025761125
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.93315625,
+                0.6204449648711944,
+                0.9604375,
+                0.6566978922716629
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.322734375,
+                0.6172833723653396,
+                0.39,
+                0.7000936768149882
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.21396874999999999,
+                0.7383606557377048,
+                0.2461875,
+                0.8730679156908664
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.27717187499999996,
+                0.6297892271662764,
+                0.29870312499999996,
+                0.6831850117096019
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.23557812500000003,
+                0.7076580796252928,
+                0.25079687500000003,
+                0.7765807962529274
+            ]
+        }
+    ],
+    "hash_id": "86_coco_train2017_000000051630.jpg"
+}

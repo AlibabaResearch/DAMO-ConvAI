@@ -1,0 +1,64 @@
+```json
+[
+  {
+    "image_position": "single",
+    "objects": ["cup", "shelf", "utensils"],
+    "skills": ["Context Understanding Ability", "Behavior Prediction Ability"],
+    "format": "Norm",
+    "question": "What might someone use the cup for in this kitchen setting?",
+    "steps": [
+      {"manipulation": "None", "description": "Analyze the kitchen setting to identify the presence of a cup and other objects."},
+      {"manipulation": "None", "description": "Consider the typical uses of a cup in a kitchen environment."}
+    ],
+    "answer": "In this kitchen setting, someone might use the cup for holding beverages such as coffee or tea. Given the context of a kitchen, it could also be used for serving small snacks or mixing ingredients."
+  },
+  {
+    "image_position": "single",
+    "objects": ["utensils", "shelf"],
+    "skills": ["Calculating Ability"],
+    "format": "Norm",
+    "question": "How many types of utensils can you identify in this kitchen?",
+    "steps": [
+      {"manipulation": "None", "description": "Observe the utensils visible in the kitchen environment."},
+      {"manipulation": "None", "description": "Classify and count the distinct types of utensils seen on the countertop."}
+    ],
+    "answer": "There are three distinct types of utensils visible in the kitchen: a pan, a spatula, and a mixing bowl."
+  },
+  {
+    "image_position": "single",
+    "objects": ["shelf", "cup"],
+    "skills": ["Relationship Description Ability"],
+    "format": "Norm",
+    "question": "What can you infer about the relationship between the cup and the shelf?",
+    "steps": [
+      {"manipulation": "None", "description": "Identify the placement of the cup in relation to the shelf in the kitchen."},
+      {"manipulation": "None", "description": "Interpret the likely interaction between the cup and the shelf's functionality."}
+    ],
+    "answer": "The cup is likely intended to be placed on the shelf for storage when not in use, indicating that the shelf serves as a space for organizing kitchen essentials."
+  },
+  {
+    "image_position": "single",
+    "objects": ["cup", "utensils"],
+    "skills": ["Context Understanding Ability", "Knowledge Integration Ability"],
+    "format": "Norm",
+    "question": "What type of cuisine might be prepared using the items in this kitchen?",
+    "steps": [
+      {"manipulation": "None", "description": "Evaluate the utensils and equipment present in the kitchen."},
+      {"manipulation": "None", "description": "Integrate the identified items with common cooking styles to assess potential cuisine."}
+    ],
+    "answer": "Given the utensils in the kitchen, it appears suitable for preparing a variety of cuisines, possibly Italian, as indicated by the pan and the cup, which might be used for serving sauces or drinks."
+  },
+  {
+    "image_position": "single",
+    "objects": ["cup", "shelf", "countertop"],
+    "skills": ["Behavior Prediction Ability"],
+    "format": "Norm",
+    "question": "What would be the next logical step after putting the cup on the shelf?",
+    "steps": [
+      {"manipulation": "None", "description": "Consider the actions available in the kitchen once the cup is on the shelf."},
+      {"manipulation": "None", "description": "Predict common subsequent actions based on kitchen routines."}
+    ],
+    "answer": "After placing the cup on the shelf, the next logical step would likely be to clean the countertop or prepare the next meal, as both actions contribute to maintaining an organized kitchen space."
+  }
+]
+```

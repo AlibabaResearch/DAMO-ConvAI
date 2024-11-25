@@ -1,0 +1,138 @@
+{
+    "id": "000000170706",
+    "image": "coco/train2017/000000170706.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of airplane is visible in the image?",
+            "steps": [],
+            "answer": "The image features a Lufthansa jet parked outside an airport terminal."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the airplane near an airport terminal or on a runway?",
+            "steps": [],
+            "answer": "The airplane is parked outside an airport terminal, and it is not directly on a runway."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the purpose of the airplane being stationed in this location?",
+            "steps": [],
+            "answer": "The Lufthansa jet is stationed in this location to receive passengers, as it is about to be boarded by them for an upcoming flight. The close proximity to the airport terminal allows for efficient and convenient boarding and disembarkation for the passengers."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What possible preparations could be made by the airplane crew or ground staff before passengers start boarding?",
+            "steps": [],
+            "answer": "Before passengers begin boarding an airplane, several essential preparations are carried out by the airplane crew and ground staff. Some of these preparations include:\n\n1. Cleaning and servicing: The aircraft is thoroughly cleaned and checked by a cabin cleaning crew who ensure that the cabin is ready for the incoming passengers. Meanwhile, ground staff may also perform routine inspections and maintain the aircraft's critical systems.\n\n2. Fueling: Ground staff members refuel the airplane with the necessary amount of fuel needed for the proposed flight.\n\n3. Catering: The onboard meals and beverages for passengers and crew are loaded onto the aircraft by catering staff.\n\n4. Baggage loading: The luggage and cargo of passengers are carefully loaded into the aircraft's cargo hold by dedicated ground crew members.\n\n5. Pre-flight checks: Pilots perform pre-flight checks, which include verifying the aircraft's weight distribution, checking the flight plan, ensuring all instruments are functioning correctly, and communicating with air traffic control.\n\n6. Boarding announcements and procedures: Once the flight is ready for boarding, airport staff will make announcements and guide passengers toward the aircraft through designated boarding gates. \n\nThese preparations, among others, are crucial for ensuring a safe and comfortable flight for passengers and maintaining a well-coordinated operation at the airport."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What preparations need to be done before passengers can board the plane?",
+            "steps": [],
+            "answer": "Before passengers can board the Lufthansa jet, several preparations need to be made. In the image, the airplane is parked outside an airport terminal, and there are various vehicles around, such as buses, trucks, and cars. Firstly, the airplane needs to undergo preflight checks and maintenance by ground service personnel to ensure its safety and proper functioning. This includes refueling, checking the engines and landing gear, and making sure that all necessary equipment is onboard.\n\nAdditionally, the luggage of the passengers must be loaded onto the plane, which involves transport trucks collecting bags from the terminal, and ground crew members loading them into the cargo hold. Meanwhile, the bus visible in the image is likely going to transport passengers from the terminal to the plane. It needs to be adequately prepared and in position to ensure a smooth boarding process.\n\nLastly, the cabin crew needs to prepare the plane's interior, setting up appropriate lighting, temperature, and entertainment options for the passengers. They also need to be ready to provide the necessary safety demonstrations and assist passengers during boarding. Once all these preparations are complete, the passengers can safely and comfortably board the plane for their journey."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat are the key elements in this picture?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of an airport, a Lufthansa airplane, painted in a pristine white, rests at a terminal. The tail of the airplane proudly displays the company's logo in hues of blue and yellow. An orange jet bridge, a symbol of human ingenuity, connects the terminal to the airplane, serving as a gateway for passengers to embark on their journey.\n\nOn the tarmac surrounding the airplane, the bustle of airport activity is evident. Several vehicles and luggage carts, integral to the smooth operation of flight services, are scattered around. Amidst this orchestrated chaos, a worker donned in a safety yellow vest is seen near the nose of the airplane, perhaps ensuring that all is in order for the upcoming flight.\n\nThe image captures not just an airplane at a terminal but a snapshot of the intricate workings of air travel. Every object, every color, and every action has its unique role in this grand ballet of aviation."
+        }
+    ],
+    "det": [
+        {
+            "label": "airplane",
+            "bbox": [
+                0.0,
+                0.20825882352941177,
+                0.768046875,
+                0.7944
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.43051562499999996,
+                0.7669411764705882,
+                0.4589687499999999,
+                0.8334588235294117
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.9179375000000001,
+                0.4644470588235294,
+                0.9795781250000001,
+                0.5850117647058823
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.20192187499999997,
+                0.8255529411764706,
+                0.526828125,
+                0.9975529411764706
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.92559375,
+                0.45854117647058823,
+                1.0,
+                0.6179529411764706
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.9266875000000001,
+                0.46155294117647055,
+                1.0,
+                0.6164235294117647
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.157796875,
+                0.2863529411764706,
+                0.26545312499999996,
+                0.33456470588235293
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.15615625,
+                0.2832,
+                0.277375,
+                0.33797647058823527
+            ]
+        }
+    ],
+    "hash_id": "650_coco_train2017_000000170706.jpg"
+}

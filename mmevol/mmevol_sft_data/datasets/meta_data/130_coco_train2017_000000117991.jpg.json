@@ -1,0 +1,271 @@
+{
+    "id": "000000117991",
+    "image": "coco/train2017/000000117991.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are sitting on the couch in the image?",
+            "steps": [],
+            "answer": "There are two people, a man and a woman, sitting on the couch in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the people sitting on the couch engaged in any activity?",
+            "steps": [],
+            "answer": "Yes, the couple is watching television and enjoying their time together on the couch."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the mood of the people in the image?",
+            "steps": [],
+            "answer": "The mood of the people in the image is happy and content as they enjoy each other's company and watch television together."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the proximity of the couch to the kitchen?",
+            "steps": [],
+            "answer": "The couch is located near the kitchen, suggesting an open layout where the living room and kitchen areas flow together seamlessly."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "The image depicts a cozy living room with a man and woman sitting comfortably on a couch, enjoying television together. They are accompanied by a dog, which is lying nearby on the floor. The room has a combined kitchen and dining area, with a refrigerator, microwave, and oven in the kitchen section, and a dining table surrounded by chairs.\n\nVarious items are scattered throughout the room, such as cups, bottles, and a handbag. A remote control can be seen on the couch, within reach for the couple to use. The scene portrays a relaxed and enjoyable atmosphere, with the couple sharing quality time in their living space."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What activity do the man and woman seem to be doing together, and are there any other living beings in the room with them?",
+            "steps": [],
+            "answer": "The man and woman are sitting on a couch, watching television together, and enjoying each other's company. In the same room, there is also a dog present. The dog is not far from the couple and is likely contributing to the cozy and relaxed atmosphere in the living room."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Can you describe the main features of this image for me?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the dimly lit living room, a person is comfortably seated on a beige couch, their attire casual with a blue shirt and shorts. A dog, the picture of contentment, is nestled on their lap, enjoying the gentle strokes from the person's hand. The couch, adorned with a blue blanket and a striped pillow, adds a touch of coziness to the scene.\n\nJust in front of the couch, a coffee table holds a mug and a candle, casting a soft glow that further enhances the warm ambiance. Beyond this intimate setting, the kitchen can be seen in the background. Various appliances and dishes are neatly arranged on the counter, suggesting a well-used and loved space.\n\nThe image beautifully captures an everyday moment, turning it into a scene of tranquility and comfort. It's a snapshot of life at its simplest and most serene."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.224171875,
+                0.3186480186480186,
+                0.23928124999999997,
+                0.35531468531468524
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.364953125,
+                0.214032634032634,
+                0.41640625,
+                0.331025641025641
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.382,
+                0.24874125874125871,
+                0.40390625,
+                0.34673659673659674
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.155015625,
+                0.3727972027972028,
+                0.77940625,
+                0.9402564102564103
+            ]
+        },
+        {
+            "label": "refrigerator",
+            "bbox": [
+                0.003,
+                0.006923076923076923,
+                0.11096874999999999,
+                0.24853146853146854
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5798125,
+                0.36953379953379956,
+                0.8909375,
+                0.7525174825174826
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.266546875,
+                0.6162703962703963,
+                0.31834375000000004,
+                0.7172960372960374
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.22303125000000001,
+                0.31256410256410255,
+                0.25529687500000003,
+                0.35986013986013987
+            ]
+        },
+        {
+            "label": "microwave",
+            "bbox": [
+                0.22584374999999998,
+                0.0,
+                0.35596875,
+                0.125011655011655
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.203359375,
+                0.16853146853146853,
+                0.3705625,
+                0.30785547785547784
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.194703125,
+                0.3207925407925408,
+                0.30596875,
+                0.35200466200466196
+            ]
+        },
+        {
+            "label": "dog",
+            "bbox": [
+                0.649765625,
+                0.5494638694638695,
+                0.74140625,
+                0.6423310023310024
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.03575,
+                0.3017948717948718,
+                0.13695312499999998,
+                0.40587412587412586
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.103640625,
+                0.25664335664335663,
+                0.12787500000000002,
+                0.3816317016317016
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.131421875,
+                0.26400932400932403,
+                0.151578125,
+                0.35053613053613053
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.08390625,
+                0.8068764568764568,
+                0.183765625,
+                0.8434265734265733
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.494078125,
+                0.3258508158508158,
+                0.745625,
+                0.7955011655011655
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.8987812500000001,
+                0.7024242424242424,
+                0.9411250000000001,
+                0.8067599067599067
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7419687500000001,
+                0.21153846153846154,
+                0.8034687500000001,
+                0.3062937062937063
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.709265625,
+                0.2441025641025641,
+                0.806640625,
+                0.4638927738927739
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.00696875,
+                0.16104895104895106,
+                0.598921875,
+                0.7428671328671329
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.0376875,
+                0.25305361305361307,
+                0.086546875,
+                0.27337995337995336
+            ]
+        }
+    ],
+    "hash_id": "130_coco_train2017_000000117991.jpg"
+}

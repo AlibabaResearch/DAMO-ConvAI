@@ -1,0 +1,247 @@
+{
+    "id": "000000232279",
+    "image": "coco/train2017/000000232279.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you see happening in this image?",
+            "steps": [],
+            "answer": "The image depicts a man in a grey shirt sitting at a dining table while enjoying his lunch. An empty tray of food and a remote control are placed in front of him. He appears to be engaged with his mobile phone, which sits on the tray. \n\nVarious items are scattered around the table, such as a fountain drink in a cup, a fork, a knife, a spoon, and several bottles. There are two chairs situated around the table, one of which the man is seated in. As an additional detail, there is a wine glass visible in the background along with a couple of bowls."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might be the man's purpose for having his mobile phone on the tray while eating?",
+            "steps": [],
+            "answer": "The man might have his mobile phone on the tray to stay connected to his friends, family, or work, or for entertainment purposes. He could be browsing social media, reading news articles, chatting with friends, or watching videos while enjoying his meal. Having the mobile phone on the tray allows easy access and visibility, so he can remain engaged with his phone while eating lunch. This is a common practice, as many people multitask during meal times to multitask or maximize their time spent on various activities."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat is this photo about'?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling diner, a man finds solace in his solitude. He's comfortably seated at a table, savoring a drink from a cup that's as blue as the ocean and as white as the clouds. The table, his temporary domain, is adorned with a blue tray that holds a pristine white plate and a black fork, ready for the meal to come. A white napkin sits neatly folded, while a yellow card announces an enticing offer - a free car wash with any entree purchase from Orbitz Car Wash. A gray remote control lies idle, perhaps waiting for its moment of use.\n\nBeside the table stands a green chair, empty but inviting. In the background, the waiter is in motion, walking by, perhaps attending to the needs of other patrons. Each element in this scene tells its own story, contributing to the vibrant tapestry of life in the diner."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.19338,
+                0.0002666666666666667,
+                0.48766,
+                0.63928
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.48969999999999997,
+                2.6666666666666667e-05,
+                0.9315999999999999,
+                0.6676266666666666
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.1706,
+                0.7758933333333333,
+                0.33952,
+                0.98536
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.13516,
+                0.16562666666666667,
+                0.15878,
+                0.23973333333333335
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.1589,
+                0.16304,
+                0.18042000000000002,
+                0.23890666666666668
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.80724,
+                0.10288,
+                0.85234,
+                0.21501333333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.68274,
+                0.15157333333333334,
+                0.81222,
+                0.46098666666666666
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.49442,
+                0.68504,
+                0.6601,
+                0.8302133333333332
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.56298,
+                0.6426933333333333,
+                0.6551800000000001,
+                0.7135199999999999
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.9114,
+                0.2184,
+                0.9670599999999999,
+                0.25632
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.88522,
+                0.20767999999999998,
+                0.9181600000000001,
+                0.24850666666666665
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.14598,
+                0.36488000000000004,
+                0.42113999999999996,
+                0.6422666666666668
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.33876,
+                0.6310133333333333,
+                0.48484000000000005,
+                0.7301866666666667
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.15168,
+                0.15485333333333334,
+                0.16204000000000002,
+                0.1932
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.2155,
+                0.16685333333333333,
+                0.23928,
+                0.23976
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.20408,
+                0.14522666666666667,
+                0.22032000000000002,
+                0.23973333333333335
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.16408,
+                0.13176,
+                0.17996,
+                0.16584
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.17898,
+                0.15386666666666668,
+                0.20826,
+                0.24050666666666667
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.56088,
+                0.6406933333333333,
+                0.65304,
+                0.7157333333333332
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0,
+                0.6181866666666667,
+                0.27662,
+                0.9964266666666666
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.19102000000000002,
+                0.12954666666666667,
+                0.20014,
+                0.15586666666666665
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.21228,
+                0.13234666666666667,
+                0.22447999999999999,
+                0.16621333333333332
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.16708,
+                0.63984,
+                1.0,
+                0.9888533333333334
+            ]
+        }
+    ],
+    "hash_id": "52_coco_train2017_000000232279.jpg"
+}

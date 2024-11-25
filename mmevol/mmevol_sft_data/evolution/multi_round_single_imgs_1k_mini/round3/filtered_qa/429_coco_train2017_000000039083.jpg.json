@@ -1,0 +1,176 @@
+{
+    "id": "000000039083",
+    "image": "coco/train2017/000000039083.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image captures a group of people enjoying their time on a sandy beach. There are multiple people scattered across the beach, with some standing close together and others further apart. At least 8 individuals can be seen, focused on various activities. \n\nA major point of interest is a group of people getting ready to fly giant kites. Several kites are visible in the scene, with one larger kite on the left side of the image and others smaller and distributed across the space. There is also a backpack located near one person, likely storing their belongings for a day spent at the beach."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Analyze the image in a comprehensive and detailed manner.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a lively scene on a beach. In the foreground, there are three people engaged in setting up a large kite. The kite is predominantly white, adorned with accents of orange and red. One person is kneeling on the light brown sand, another is standing, and the third is crouching, all focused on their task.\n\nIn the background, a red tower stands tall, accompanied by several buildings. The sky overhead is a light blue color, adding to the serene beach atmosphere. The relative positions of the objects suggest that the group with the kite is closer to the viewer, while the tower and buildings are further away.\n\nPlease note that this description is based on the information available in the image and does not include any assumptions or interpretations."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.5437000000000001,
+                0.06654986522911052,
+                0.80042,
+                0.8431805929919137
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.30757999999999996,
+                0.4077358490566038,
+                0.51644,
+                0.6972506738544475
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.13978,
+                0.34725067385444747,
+                0.2273,
+                0.5011051212938006
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.50422,
+                0.19455525606469004,
+                0.55786,
+                0.3882749326145553
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.23192,
+                0.22700808625336927,
+                0.25088,
+                0.28757412398921833
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.77326,
+                0.24029649595687333,
+                0.85762,
+                0.4008086253369272
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.2902,
+                0.038679245283018866,
+                0.3026,
+                0.05102425876010781
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.42346,
+                0.05455525606469002,
+                0.432,
+                0.06819407008086252
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.58594,
+                0.22202156334231807,
+                0.63286,
+                0.366522911051213
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.0,
+                0.6053908355795148,
+                0.43212,
+                1.0
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.34394,
+                0.054285714285714284,
+                0.36572000000000005,
+                0.071455525606469
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.8383400000000001,
+                0.577843665768194,
+                0.9986400000000001,
+                0.7071698113207547
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.19936,
+                0.23169811320754716,
+                0.20902,
+                0.2695956873315364
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.09072,
+                0.24690026954177896,
+                0.10036,
+                0.27940700808625335
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.18996000000000002,
+                0.23973045822102426,
+                0.20014,
+                0.27140161725067385
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.41802,
+                0.21226415094339623,
+                0.47506,
+                0.38185983827493264
+            ]
+        }
+    ],
+    "hash_id": "429_coco_train2017_000000039083.jpg"
+}

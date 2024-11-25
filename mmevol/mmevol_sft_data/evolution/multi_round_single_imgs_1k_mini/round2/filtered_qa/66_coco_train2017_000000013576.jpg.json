@@ -1,0 +1,373 @@
+{
+    "id": "000000013576",
+    "image": "coco/train2017/000000013576.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are sitting at the table in the image?",
+            "steps": [],
+            "answer": "There are two people, a man and a woman, sitting at the table in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people doing at the table?",
+            "steps": [],
+            "answer": "The man and woman are eating lunch at the table, and the woman is also using her cell phone while they eat."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Describe the following image.",
+            "steps": [],
+            "answer": "The image captures a man and a woman sitting at a dining table with food. They appear to be enjoying lunch together, and the woman is engaged with her cell phone while they eat. Bowls and cups are placed on the table containing various food items, including a carrot. The table appears to be set in a shaded area, providing a comfortable atmosphere.\n\nAround the main dining table, there are additional chairs, some empty and others occupied by more people in the scene. A couple of cars and motorcycles can be seen in the background, further contributing to the outdoor setting. Additional dining tables are also scattered around the scene, suggesting a gathering or social event. Some more personal belongings, like a handbag, can be spotted nearby."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Why might the woman be on her phone during lunch with the man?",
+            "steps": [],
+            "answer": "The woman might be on her phone during lunch with the man for various reasons. She could be checking an important message, responding to a work email, looking up information relevant to their conversation, or possibly sharing a photo or social media post related to their meal. It is also possible that she might be momentarily distracted or momentarily attending to a personal matter. However, without knowing the context of the situation or the relationship between the two individuals, it is open to interpretation. It is encouraged to focus on each other and enjoy the shared meal to maintain good social etiquette and improve the quality of their interactions."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWrite a detailed description of the given image."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city, a couple finds solace in a quaint restaurant patio. The white tablecloth on their table gleams under the soft light, adorned with an array of colorful food and drink items. A plate of golden-brown waffles, a vibrant plate of assorted fruits, a healthy serving of vegetables, and a comforting bowl of soup create a gastronomic symphony. Accompanying the food are three glasses filled with clear water, fizzy soda, and an unidentified beverage.\n\nThe woman, engrossed in her phone, is seemingly sharing this visual feast with someone not present. Her companion, however, seems lost in thought, his gaze directed away from the table and towards the lively street beyond. The backdrop is a typical cityscape - buildings standing tall amidst the greenery of trees.\n\nThis image captures not just a meal, but a moment - a slice of urban life where technology meets tradition, and the fast pace of the city blends with the slow pleasure of a shared meal."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.0016093750000000001,
+                0.4021458333333333,
+                0.082265625,
+                0.7763541666666666
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.228421875,
+                0.3340625,
+                0.313484375,
+                0.6455208333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.493546875,
+                0.28172916666666664,
+                0.57096875,
+                0.3785
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.532296875,
+                0.29172916666666665,
+                0.6895625000000001,
+                0.5313541666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.876328125,
+                0.31854166666666667,
+                1.0,
+                0.48610416666666667
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.855328125,
+                0.12172916666666667,
+                0.9991562499999999,
+                0.28775
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.27471875,
+                0.2038125,
+                0.5376406250000001,
+                0.8015833333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.512984375,
+                0.06885416666666666,
+                0.995484375,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8706406250000001,
+                0.15716666666666665,
+                0.978515625,
+                0.3324583333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.874046875,
+                0.16816666666666666,
+                0.909734375,
+                0.21683333333333332
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.308296875,
+                0.11522916666666667,
+                0.3225,
+                0.16397916666666668
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.360296875,
+                0.09504166666666666,
+                0.37253125000000004,
+                0.140625
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.31928125,
+                0.47289583333333335,
+                0.382765625,
+                0.5321458333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.037484375,
+                0.8063125,
+                0.1371875,
+                1.0
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.28021875,
+                0.8200833333333333,
+                0.34357812499999996,
+                0.8892083333333333
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.192140625,
+                0.7887708333333333,
+                0.2561875,
+                0.8629166666666668
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.458796875,
+                0.8388958333333334,
+                0.521921875,
+                0.9140625
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.19859374999999999,
+                0.618875,
+                0.4365,
+                0.7774791666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.34181249999999996,
+                0.09697916666666666,
+                0.35207812499999996,
+                0.14320833333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.8415312500000001,
+                0.8150625,
+                0.9427968750000002,
+                0.9981041666666667
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.205109375,
+                0.7587916666666668,
+                0.250609375,
+                0.7976458333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.532546875,
+                0.47833333333333333,
+                0.573625,
+                0.6084375000000001
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.281515625,
+                0.3557916666666667,
+                0.601359375,
+                0.4394166666666667
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.320765625,
+                0.8017708333333334,
+                0.80371875,
+                0.9987708333333334
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.840921875,
+                0.30693750000000003,
+                0.9132968750000001,
+                0.336
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6929375,
+                0.1711875,
+                0.70878125,
+                0.21016666666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.571125,
+                0.10554166666666666,
+                0.5772968749999999,
+                0.12641666666666665
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.35028125,
+                0.09545833333333334,
+                0.36307812500000003,
+                0.12983333333333333
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.49796874999999996,
+                0.14662499999999998,
+                0.575140625,
+                0.20758333333333334
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.39045312499999996,
+                0.8548125,
+                0.442890625,
+                0.932125
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.575046875,
+                0.8553333333333334,
+                0.640546875,
+                0.9321041666666667
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.507984375,
+                0.12520833333333334,
+                0.5465156250000001,
+                0.16920833333333332
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.4600625,
+                0.8367916666666667,
+                0.523171875,
+                0.9106666666666666
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.287671875,
+                0.3688125,
+                0.33875,
+                0.47660416666666666
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.9378125,
+                0.3653541666666667,
+                0.9947812500000002,
+                0.4019166666666667
+            ]
+        }
+    ],
+    "hash_id": "66_coco_train2017_000000013576.jpg"
+}

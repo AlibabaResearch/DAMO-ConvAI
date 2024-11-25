@@ -1,0 +1,397 @@
+{
+    "id": "000000072189",
+    "image": "coco/train2017/000000072189.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any umbrellas at the beach scene in the image?",
+            "steps": [],
+            "answer": "Yes, there are umbrellas at the beach scene, providing shade for the people who are relaxing under them."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people doing on the beach?",
+            "steps": [],
+            "answer": "People on the beach are hanging out, reclining, and relaxing under umbrellas. They are enjoying the sun, sand, and likely the soothing sounds of water."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is there a dog present in the image, and if so, what is it doing?",
+            "steps": [],
+            "answer": "Yes, there is a dog in the image. The dog is laying down in the sand, likely enjoying the beach atmosphere alongside the people."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How would you describe the overall atmosphere of the beach scene?",
+            "steps": [],
+            "answer": "The overall atmosphere of the beach scene is lively and bustling, with a large crowd of people gathered to enjoy the sand, sun, and water. The presence of numerous umbrellas and people reclining under them suggests a relaxed and leisurely ambiance where individuals can unwind and take pleasure in their beach-going experience. \n\nThe fact that there's a dog present in the scene lounging on the sand adds to the relaxed and welcoming environment, indicating that the beach might be pet-friendly as well. The image likely captures a warm and sunny day, with people looking for an escape from their daily routines to enjoy nature and the company of others in a vibrant, outdoor setting. All these elements contribute to creating an inviting and appealing atmosphere on this busy beach landscape."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How can one maximize their relaxation at this crowded beach?",
+            "steps": [],
+            "answer": "To maximize relaxation at this crowded beach, visitors can follow some strategies like arriving early to find and secure a favorable spot near the water or in a shade. Bringing or renting an umbrella, such as the several umbrellas seen in the image, will provide shade and protect them from direct sunlight, making them feel more comfortable. Another option is to bring or rent comfortable beach chairs, like the ones seen in the picture, for laying down and reclining. Engaging in activities like reading a book, listening to soothing music, or taking a refreshing swim in the sea can also add to the overall relaxation at the crowded beach. And finally, engaging in friendly conversations with nearby people or playing with the dog seen lying down in the sand can create a fun and relaxing atmosphere."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you elaborate on the elements of the picture provided?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a serene beach scene, where the sand is dotted with objects and people. A total of 12 beach chairs, mostly brown in color, are arranged in two rows. Some of these chairs are oriented towards the vast expanse of the ocean, while others are facing the opposite direction. \n\nCloser to the water, there are 4 white tents and 2 blue tents, providing a stark contrast against the sandy beach. The tents seem to be a popular spot, as they are closer to the water's edge.\n\nThe ocean itself is a spectacle, with waves rhythmically crashing onto the shore. Despite the gloomy weather and cloudy sky, the beach scene holds a certain charm. The overall mood of the image is somber yet peaceful, as if inviting viewers to breathe in the salty air and listen to the symphony of waves."
+        }
+    ],
+    "det": [
+        {
+            "label": "dog",
+            "bbox": [
+                0.15392,
+                0.9197066666666667,
+                0.24295999999999998,
+                0.9720266666666666
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.03984,
+                0.5916266666666667,
+                0.22894,
+                0.7474666666666667
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.21912,
+                0.60696,
+                0.352,
+                0.7118666666666668
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.34792,
+                0.6153333333333333,
+                0.42146000000000006,
+                0.64888
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.40127999999999997,
+                0.6170399999999999,
+                0.5010399999999999,
+                0.6468533333333333
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.53742,
+                0.6054666666666667,
+                0.61778,
+                0.63256
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.60422,
+                0.6090399999999999,
+                0.6665800000000001,
+                0.65848
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.65838,
+                0.6065333333333333,
+                0.6954199999999999,
+                0.6210133333333333
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.7592000000000001,
+                0.5837066666666666,
+                0.78824,
+                0.5940799999999999
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.8939600000000001,
+                0.5633333333333334,
+                0.931,
+                0.57352
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.29762,
+                0.6913333333333334,
+                0.32842,
+                0.7676266666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6855800000000001,
+                0.6111466666666667,
+                0.70436,
+                0.6770133333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.053899999999999997,
+                0.69672,
+                0.0852,
+                0.7631466666666666
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.71672,
+                0.5922933333333333,
+                0.74236,
+                0.6029333333333334
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.7412000000000001,
+                0.5945866666666667,
+                0.7682,
+                0.6025866666666667
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.0002,
+                0.6568533333333333,
+                0.0269,
+                0.6850133333333334
+            ]
+        },
+        {
+            "label": "surfboard",
+            "bbox": [
+                0.36148,
+                0.6695466666666667,
+                0.39178,
+                0.6823733333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.34164,
+                0.6886933333333333,
+                0.46334,
+                0.7543733333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.21068,
+                0.7124266666666668,
+                0.30348,
+                0.7699466666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.17978,
+                0.74456,
+                0.2268,
+                0.8032533333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.5781000000000001,
+                0.6638666666666666,
+                0.60502,
+                0.6906933333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.63454,
+                0.63608,
+                0.68356,
+                0.6730933333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.62514,
+                0.6246933333333333,
+                0.63218,
+                0.6490666666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.42172000000000004,
+                0.6528533333333333,
+                0.44024,
+                0.6899199999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5674199999999999,
+                0.6722133333333333,
+                0.57574,
+                0.6836266666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7003400000000001,
+                0.6281866666666667,
+                0.7215,
+                0.6693333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.95562,
+                0.5865066666666666,
+                0.99102,
+                0.6179733333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8046599999999999,
+                0.5771999999999999,
+                0.81704,
+                0.6166666666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.06495999999999999,
+                0.67072,
+                0.07219999999999999,
+                0.688
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5338200000000001,
+                0.6730666666666667,
+                0.54334,
+                0.6945066666666666
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.85672,
+                0.5602933333333334,
+                0.8870800000000001,
+                0.5785066666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.0394,
+                0.7437333333333332,
+                0.19948000000000002,
+                0.8304266666666665
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.45996,
+                0.67664,
+                0.5281999999999999,
+                0.72968
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.5328999999999999,
+                0.6905866666666668,
+                0.5670599999999999,
+                0.71016
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.74822,
+                0.6148266666666666,
+                0.79434,
+                0.63888
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.8028200000000001,
+                0.6100533333333333,
+                0.847,
+                0.6311733333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.17064,
+                0.7128,
+                0.21595999999999999,
+                0.7785866666666668
+            ]
+        }
+    ],
+    "hash_id": "212_coco_train2017_000000072189.jpg"
+}

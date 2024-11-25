@@ -1,0 +1,166 @@
+{
+    "id": "000000192524",
+    "image": "coco/train2017/000000192524.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image depicts a group of people sitting on a train, engaged in various activities to pass the time during their commute. They appear to be mostly Asian in ethnicity. Some passengers are reading books, while others are checking their cell phones. A woman can be seen using her cell phone, likely browsing or texting.\n\nLuggage and personal belongings are scattered around the train, including backpacks, handbags, and a tie. The train's interior spans across the entire image, indicating a spacious and well-lit public transportation setting."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are some of the activities people engage in during their transit to keep themselves occupied?",
+            "steps": [],
+            "answer": "During their transit, passengers on the train are engaging in various activities to keep themselves busy. For instance, some people are reading books, while others are checking or using their cell phones to communicate, browse the internet, or stay updated on news and social media. These activities help passengers pass the time, stay connected with friends and family, or simply relax and enjoy themselves during their commute."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the image, a group of people are seen sitting on a train, each engaged in their own activities. The train's interior is adorned with blue seats, providing a cool contrast to the scene. \n\nOn the far left, a person is engrossed in their phone, their fingers lightly tapping on the screen. Next to them, another individual is seen holding a bag in one hand and a phone in the other, perhaps multitasking between securing their belongings and staying connected.\n\nMoving further right, a person is captured in the act of reading a book. Their eyes are focused on the pages, oblivious to their surroundings. Lastly, on the far right, a person with a pink bag is seen looking out of the window, possibly lost in the moving scenery outside.\n\nThe casual attire of the individuals suggests an everyday scene, and the slight blur indicates that the train is in motion. The image beautifully captures a slice of life during a train journey."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.02375,
+                0.03389583333333333,
+                0.343453125,
+                0.8677083333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.33968750000000003,
+                0.013458333333333333,
+                0.61546875,
+                0.9865416666666665
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6343593750000001,
+                0.016625,
+                0.9591875,
+                0.9871458333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.881453125,
+                0.058416666666666665,
+                0.9960625000000001,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.22883333333333333,
+                0.06909375,
+                0.7793958333333334
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.46754687500000003,
+                0.2465416666666667,
+                0.503859375,
+                0.35877083333333337
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.14246875,
+                0.36693749999999997,
+                0.289546875,
+                0.4908125
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.72746875,
+                0.27020833333333333,
+                0.8520625,
+                0.44081249999999994
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.73121875,
+                0.7038958333333334,
+                0.91290625,
+                1.0
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.346734375,
+                0.35160416666666666,
+                0.6138125000000001,
+                0.5939583333333334
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.91871875,
+                0.42293749999999997,
+                1.0,
+                0.5745625
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.19634374999999998,
+                0.48037500000000005,
+                0.29348437499999996,
+                0.6088958333333333
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.73540625,
+                0.26308333333333334,
+                0.7847812500000001,
+                0.4825625
+            ]
+        },
+        {
+            "label": "train",
+            "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    ],
+    "hash_id": "337_coco_train2017_000000192524.jpg"
+}

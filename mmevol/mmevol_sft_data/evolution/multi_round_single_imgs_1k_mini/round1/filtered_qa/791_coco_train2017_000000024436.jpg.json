@@ -1,0 +1,246 @@
+{
+    "id": "000000024436",
+    "image": "coco/train2017/000000024436.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are sitting around the table?",
+            "steps": [],
+            "answer": "There are five young adults sitting around the table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What activity are the people engaged in?",
+            "steps": [],
+            "answer": "The people are engaged in playing cards."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the table made of?",
+            "steps": [],
+            "answer": "The table is made of wood."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is one person doing with the deck of cards?",
+            "steps": [],
+            "answer": "One man is shuffling the deck of cards while the other people are sitting around the table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can you infer about the atmosphere and relationships among the people at the table?",
+            "steps": [],
+            "answer": "Based on the image, it can be inferred that the atmosphere is likely casual and friendly, as the group of people are gathered around a wooden table to enjoy a card game together. Their shared interest in the activity suggests that they might have a common bond or camaraderie, which could indicate that they are friends or acquaintances. The fact that several people are participating in the game further implies that it is a social event where the participants are engaging in a shared experience, fostering a sense of community and connection within the group.\n\nPlaying cards together is a popular pastime for many individuals across different cultures and age groups, symbolizing relaxation, leisure, and social interaction. This type of scenario is commonly found in various casual settings such as homes, cafes, or recreational facilities. The simple act of sitting down together to play cards may serve as a way for people to bond, unwind, and escape from the stresses of daily life while enjoying the company of others who share their enthusiasm for the game."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The image captures a group of five young adults sitting around a wooden dining table, engaged in a card game. Each person can be seen sitting on chairs positioned around the table, with one of them shuffling a deck of cards. A few additional chairs are visible, although unoccupied.\n\nVarious objects are placed on and around the table, such as a couple of bottles, one near the center of the table and another at the edge. Additionally, a cup and a cell phone can be found on the table \u2014 the phone apparently not being used during the game. \n\nIn the background, there is a couch, a TV on the wall, and a couple of vases placed on different surfaces. A potted plant is also visible, adding a touch of greenery to the space."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people doing together and how does their environment look?",
+            "steps": [],
+            "answer": "In the image, a group of five young adults is sitting around a wooden dining table, engaging in a card game. A man shuffles a deck, while others prepare for the game. The table has items like bottles, cups, and a cell phone on it. The environment appears to be a cozy, casual gathering place with a TV, chairs, a couch, and potted plants in the background. The presence of vases, a cup, and a cell phone on the table indicates the relaxed and informal nature of their gathering. The scene depicts a social, fun atmosphere, where people are spending time together, enjoying each other's company and sharing a playful activity."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Describe the following image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy living room, a lively scene unfolds. Six individuals, their faces alight with concentration and amusement, are engrossed in a card game around a sturdy wooden table. The table, acting as the epicenter of their gathering, is adorned with red plastic cups and soda cans, remnants of their ongoing merriment.\n\nThe players are comfortably nestled on wooden chairs and a plush couch, their postures relaxed yet attentive. Each one holds a hand of playing cards, their eyes flickering between their own cards and those of their opponents, strategizing their next move.\n\nIn the backdrop, a television and a bookshelf stand against the wall, silent observers to the unfolding camaraderie. The bookshelf, filled with various books and trinkets, adds a personal touch to the room.\n\nThe atmosphere is one of friendly competition and shared enjoyment, a snapshot of a pleasant evening spent in good company."
+        }
+    ],
+    "det": [
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.345015625,
+                0.0004791666666666667,
+                0.4340625,
+                0.11920833333333333
+            ]
+        },
+        {
+            "label": "tv",
+            "bbox": [
+                0.5273125000000001,
+                0.14639583333333334,
+                0.6634062500000001,
+                0.29897916666666663
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.5645156250000001,
+                0.3975208333333333,
+                0.5874218750000001,
+                0.4942291666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6463281249999999,
+                0.358,
+                0.775921875,
+                0.498375
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.6306406250000001,
+                0.25095833333333334,
+                1.0,
+                0.5391458333333333
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0035312499999999997,
+                0.47293749999999996,
+                0.8276406249999999,
+                0.9882291666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.35562499999999997,
+                0.13708333333333333,
+                0.4971875,
+                0.5730416666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.156734375,
+                0.2629166666666667,
+                0.3960625,
+                0.6719166666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0016875000000000002,
+                0.32583333333333336,
+                0.337078125,
+                0.9460625
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.5921406250000001,
+                0.48243749999999996,
+                0.648390625,
+                0.5119374999999999
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.7088281249999999,
+                0.4356666666666667,
+                0.746015625,
+                0.4994166666666667
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.38459374999999996,
+                0.051145833333333335,
+                0.41442187499999994,
+                0.11822916666666666
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.293328125,
+                0.06824999999999999,
+                0.337078125,
+                0.12958333333333333
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.54375,
+                0.8360416666666667,
+                0.59296875,
+                1.0
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.8221718750000001,
+                0.8438333333333333,
+                0.8839375,
+                0.9457083333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.0,
+                0.42304166666666665,
+                0.040578125,
+                0.5293958333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5396093750000001,
+                0.4987083333333333,
+                1.0,
+                0.9870208333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7620312499999999,
+                0.22927083333333334,
+                0.975859375,
+                0.5727708333333333
+            ]
+        }
+    ],
+    "hash_id": "791_coco_train2017_000000024436.jpg"
+}

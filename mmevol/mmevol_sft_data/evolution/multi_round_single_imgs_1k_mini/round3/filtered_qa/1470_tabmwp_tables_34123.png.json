@@ -1,0 +1,22 @@
+{
+    "id": "34123",
+    "image": "tabmwp/tables/34123.png",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "A sociology teacher asked her students to complete a survey at the beginning of the year. One survey question asked, \"How responsible are you?\" Another question asked, \"How many siblings do you have?\" What is the probability that a randomly selected student is responsible and has 1 sibling? Simplify any fractions.",
+            "steps": [],
+            "answer": "Let A be the event \"the student is responsible\" and B be the event \"the student has 1 sibling\".\nTo find the probability that a student is responsible and has 1 sibling, first identify the sample space and the event.\nThe outcomes in the sample space are the different students. Each student is equally likely to be selected, so this is a uniform probability model.\nThe event is A and B, \"the student is responsible and has 1 sibling\".\nSince this is a uniform probability model, count the number of outcomes in the event A and B and count the total number of outcomes. Then, divide them to compute the probability.\n\nFind the number of outcomes in the event A and B.\nA and B is the event \"the student is responsible and has 1 sibling\", so look at the table to see how many students are responsible and have 1 sibling.\nThe number of students who are responsible and have 1 sibling is 5.\n\nFind the total number of outcomes.\nAdd all the numbers in the table to find the total number of students.\n3 + 4 + 3 + 5 = 15\n\nFind P(A and B).\nSince all outcomes are equally likely, the probability of event A and B is the number of outcomes in event A and B divided by the total number of outcomes.\nP(A and B) = \\frac{# of outcomes in A and B}{total # of outcomes}\n = \\frac{5}{15}\n = \\frac{1}{3}\nThe probability that a student is responsible and has 1 sibling is \\frac{1}{3}."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [],
+    "det": [],
+    "hash_id": "1470_tabmwp_tables_34123.png"
+}

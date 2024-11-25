@@ -1,0 +1,302 @@
+{
+    "id": "000000192585",
+    "image": "coco/train2017/000000192585.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people in the image doing?",
+            "steps": [],
+            "answer": "The people in the image are standing around a carousel at an airport, waiting for their luggage."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the crowd large or small?",
+            "steps": [],
+            "answer": "The crowd consists of a large number of people at the airport terminal."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any people queuing at a station?",
+            "steps": [],
+            "answer": "No, there are no people queuing at a station in the image. The people present are at an airport, specifically around a baggage carousel, waiting for their luggage."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What essential information should be provided at baggage claim areas to help passengers locate their luggage?",
+            "steps": [],
+            "answer": "At baggage claim areas, the following essential information should be provided to help passengers locate their luggage efficiently:\n\n1. Flight number and arrival time: Displays should show the flight numbers and arrival times of the planes whose baggage is being unloaded onto the carousel. This enables passengers to know if they are waiting at the correct carousel corresponding to their flight.\n\n2. Estimated wait time: Providing an estimated time for luggage distribution can help passengers manage their expectations and plan accordingly.\n\n3. Luggage tracking system: Some airports have implemented luggage tracking systems that help passengers track their luggage's arrival and location on the carousel. This service can be provided through display screens and, in some cases, mobile apps.\n\n4. Baggage service office location: In case of lost, damaged, or missing luggage, passengers need to be informed about the location of the baggage service office, where they can report the issue and seek assistance.\n\n5. Clear signage and directions: At larger airports, clear directional signs should guide passengers to their assigned baggage carousel, considering there might be multiple carousels operating at the same time.\n\nBy providing these essential pieces of information in baggage claim areas, airports can ensure a more seamless and efficient process, minimizing confusion and improving the overall experience for passengers."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The image depicts a large crowd of people gathered in an airport terminal, waiting for their luggage at a baggage carousel. There are numerous people standing at different positions around the carousel, showing a mix of patients and anticipation as they look for their belongings.\n\nVarious types of luggage are visible in the scene, including suitcases, handbags, and backpacks. Some are already in the possession of passengers while others might still be on the carousel. There are also chairs scattered throughout the terminal, offering passengers a place to sit when they are not in the queue.\n\nIt seems like a typical busy day at the airport, with everyone eager to pick up their luggage and continue to their next destination."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might be a concern for these people as they wait for their luggage?",
+            "steps": [],
+            "answer": "As these people are waiting for their luggage around the baggage carousel in an airport, a concern they might share is the possibility of losing or not being able to find their luggage. The large crowd of people and the presence of multiple suitcases and bags in the scene could create confusion and make it challenging for individuals to quickly identify and retrieve their belongings when they arrive on the carousel. Moreover, the risk of luggage being delayed, damaged, or misplaced by the airline can also add to their worries. To address these concerns, people often place tags or identifiers on their bags to help them easily recognize their belongings when they arrive on the baggage carousel."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What are the key elements in this picture?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a moment in an airport baggage claim area. The central focus is a conveyor belt, which is currently empty, indicating that the luggage has not yet arrived. Above the conveyor belt, a red sign with the number \"2\" is prominently displayed, suggesting that this is the second baggage claim area in the airport.\n\nA group of people, dressed in various styles and colors of clothing, are waiting for their luggage. Some are standing, while others have found seats. A few individuals are holding bags or luggage, perhaps carry-on items from their flight.\n\nThe background features a yellow and green advertisement on the wall behind the conveyor belt. The ad adds a splash of color to the otherwise neutral tones of the airport interior, which includes a white ceiling and a gray floor.\n\nThe overall scene is one of anticipation as travelers await their belongings to continue their journey."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.16896875,
+                0.6058541666666667,
+                0.31671875,
+                0.8445416666666666
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.29765625,
+                0.612,
+                0.389296875,
+                0.7791250000000001
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.169484375,
+                0.5804791666666667,
+                0.237015625,
+                0.7032916666666666
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.7943749999999999,
+                0.5763333333333333,
+                0.8677187499999999,
+                0.6890208333333334
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.19929687499999998,
+                0.4531041666666667,
+                0.246546875,
+                0.5467291666666667
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.110546875,
+                0.6223124999999999,
+                0.173328125,
+                0.7013958333333332
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.36124999999999996,
+                0.36041666666666666,
+                0.479109375,
+                0.7903541666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.484671875,
+                0.412875,
+                0.5356875,
+                0.6716666666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5295468750000001,
+                0.3906458333333333,
+                0.6095625,
+                0.6844166666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.63025,
+                0.389375,
+                0.691765625,
+                0.6855625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.69971875,
+                0.3670208333333333,
+                0.804625,
+                0.7506875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8399374999999999,
+                0.3486458333333333,
+                0.9286249999999999,
+                0.6874375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.864609375,
+                0.4,
+                1.0,
+                0.9865208333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3276875,
+                0.38877083333333334,
+                0.38670312500000004,
+                0.6507083333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.20414062500000002,
+                0.4075833333333333,
+                0.2658125,
+                0.5919375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.46028125,
+                0.374,
+                0.507546875,
+                0.627375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.79515625,
+                0.36854166666666666,
+                0.8624375000000001,
+                0.7325208333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.1620625,
+                0.38008333333333333,
+                0.21335937500000002,
+                0.584
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.8515937499999999,
+                0.39464583333333336,
+                0.9050312500000001,
+                0.5175625
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.33478125,
+                0.42845833333333333,
+                0.373625,
+                0.5300208333333333
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.28246875,
+                0.5693541666666667,
+                0.370203125,
+                0.6726666666666666
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.285453125,
+                0.5763333333333333,
+                0.36215625,
+                0.6738125
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.161703125,
+                0.5865416666666667,
+                0.17485937499999998,
+                0.6187916666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6717500000000001,
+                0.3839166666666667,
+                0.718609375,
+                0.6493333333333333
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.0,
+                0.7881250000000001,
+                0.192203125,
+                1.0
+            ]
+        }
+    ],
+    "hash_id": "632_coco_train2017_000000192585.jpg"
+}

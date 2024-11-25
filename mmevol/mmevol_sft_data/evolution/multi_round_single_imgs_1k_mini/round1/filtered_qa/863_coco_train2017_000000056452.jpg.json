@@ -1,0 +1,309 @@
+{
+    "id": "000000056452",
+    "image": "coco/train2017/000000056452.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are playing a game of soccer in the image?",
+            "steps": [],
+            "answer": "There are two children playing a game of soccer in the image."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Who is watching the children play soccer?",
+            "steps": [],
+            "answer": "A crowd of people is watching the children play soccer."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the children doing with the ball?",
+            "steps": [],
+            "answer": "The children are kicking around the soccer ball while playing the game."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the image showing men or children playing soccer?",
+            "steps": [],
+            "answer": "The image is showing children playing soccer, not men."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where are the children playing soccer?",
+            "steps": [],
+            "answer": "The children are playing soccer on a field near a crowd of spectators."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image showcases a lively scene of a couple of kids playing soccer on a field. They are kicking a sports ball around while several people, including young men and other onlookers, are watching and enjoying the game. \n\nThe spectators are spread throughout the scene, with some standing in different spots around the grassy area. There are also numerous chairs set up in the vicinity, possibly for the audience to take a rest or gather at a later time. Furthermore, various personal items, such as backpacks and a handbag, can be observed near the chairs.\n\nAdditionally, a few cars and an umbrella are present in the background, hinting at an outdoor, casual setting for this friendly soccer match."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the potential benefits of the children participating in this soccer activity together?",
+            "steps": [],
+            "answer": "There are several potential benefits for the children participating in this soccer activity together. Engaging in physical activity like soccer helps improve physical fitness, coordination, and motor skills. In addition, playing soccer with others fosters important social skills, such as teamwork, communication, and sportsmanship, as they learn to cooperate and interact effectively with their peers. The presence of the crowd, including family and friends, creates a supportive environment, which may boost the children's self-confidence and sense of belonging. Moreover, participating in such activities can also provide a fun and engaging way to teach children about the importance of a healthy and active lifestyle, making it more likely for them to maintain an active lifestyle as they grow older."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What are the key elements in this picture?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a vibrant scene from a youth soccer game. At the heart of the action, a player dressed in a blue jersey is skillfully maneuvering a yellow soccer ball. The player is moving towards the right side of the image, deftly dribbling past an opponent in a red jersey who is moving in the opposite direction.\n\nThe soccer field, lush and green, serves as the perfect backdrop for this energetic display. In the distance, spectators can be seen sitting in folding chairs, their attention riveted on the unfolding game. A trash can is also visible near them, promoting cleanliness at the venue.\n\nFurther back, other players can be spotted, their figures slightly blurred but their presence undeniable. Team tents dot the landscape, adding to the atmosphere of a well-organized sporting event. The image is a beautiful representation of youth sports, filled with action, competition, and camaraderie."
+        }
+    ],
+    "det": [
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.0,
+                0.011381733021077284,
+                0.284859375,
+                0.12824355971896956
+            ]
+        },
+        {
+            "label": "sports ball",
+            "bbox": [
+                0.42665625,
+                0.6969320843091334,
+                0.5023593749999999,
+                0.8123653395784544
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.5905,
+                0.0,
+                0.8577187500000001,
+                0.1304449648711944
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.0,
+                0.17079625292740047,
+                0.08246875000000001,
+                0.3168618266978923
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.0,
+                0.26447306791569086,
+                0.106453125,
+                0.6824590163934425
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.84959375,
+                0.17114754098360654,
+                0.9529375,
+                0.4460655737704918
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.4539375,
+                0.1520608899297424,
+                0.5325,
+                0.4514285714285714
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.119265625,
+                0.2765339578454333,
+                0.2598125,
+                0.6901170960187354
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.3785,
+                0.2733723653395785,
+                0.44731250000000006,
+                0.4505152224824356
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.164921875,
+                0.17526932084309135,
+                0.350828125,
+                0.7033723653395785
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.442296875,
+                0.04044496487119438,
+                0.6387031249999999,
+                0.8269555035128805
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5617656249999999,
+                0.06037470725995316,
+                0.8885781249999999,
+                0.8843091334894614
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.478984375,
+                0.1072599531615925,
+                0.518796875,
+                0.15838407494145199
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.335390625,
+                0.0719672131147541,
+                0.450546875,
+                0.3340515222482435
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.773640625,
+                0.04044496487119438,
+                0.8805156249999999,
+                0.45266978922716633
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.85609375,
+                0.07864168618266978,
+                1.0,
+                0.5685480093676815
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.163359375,
+                0.15695550351288054,
+                0.24582812499999998,
+                0.2998360655737705
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.74815625,
+                0.0,
+                0.799125,
+                0.22023419203747074
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.10123437500000002,
+                0.23770491803278687,
+                0.17129687500000002,
+                0.4093208430913349
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.3365,
+                0.001873536299765808,
+                0.407953125,
+                0.11063231850117095
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.47828125000000005,
+                0.0022482435597189696,
+                0.6536875,
+                0.12583138173302108
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.059140625,
+                0.2230679156908665,
+                0.1214375,
+                0.3368852459016393
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.408046875,
+                0.24995316159250586,
+                0.48271875,
+                0.44667447306791574
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.330703125,
+                0.38880562060889934,
+                0.404203125,
+                0.5497892271662763
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.325984375,
+                0.38875878220140514,
+                0.4074375,
+                0.5524355971896955
+            ]
+        }
+    ],
+    "hash_id": "863_coco_train2017_000000056452.jpg"
+}

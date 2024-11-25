@@ -196,12 +196,12 @@ from tqdm import tqdm
 if __name__ == "__main__":
     multiprocessing.set_start_method('spawn')
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="/mnt/workspace/lr/workspace/Open-LLaVA-NeXT/checkpoints/llava-v1.6-8b_llama3-1-8b_clip-large-336_debug_low_high_mix_sft/checkpoint-15000")
+    parser.add_argument("--model-path", type=str, default="mmevol/checkpoints/llava-v1.6-8b_llama3-1-8b_clip-large-336_debug_low_high_mix_sft/checkpoint-15000")
     parser.add_argument("--model-base", type=str, default=None)
-    parser.add_argument("--image-folder", type=str, default="/mnt/workspace/lr/datasets/checkpoints/zwq2018/Multi-modal-Self-instruct/test")
+    parser.add_argument("--image-folder", type=str, default="datasets/zwq2018/Multi-modal-Self-instruct/test")
     parser.add_argument("--question-file", type=str,
-                        default="/mnt/workspace/lr/datasets/checkpoints/zwq2018/Multi-modal-Self-instruct/test/questions.json")
-    parser.add_argument("--answers-file", type=str, default="/mnt/workspace/lr/datasets/checkpoints/zwq2018/Multi-modal-Self-instruct/test/answer.jsonl")
+                        default="datasets/zwq2018/Multi-modal-Self-instruct/test/questions.json")
+    parser.add_argument("--answers-file", type=str, default="datasets/zwq2018/Multi-modal-Self-instruct/test/answer.jsonl")
     parser.add_argument("--conv-mode", type=str, default="llava_llama_3")
     parser.add_argument("--num-chunks", type=int, default=4)
     parser.add_argument("--chunk-idx", type=int, default=0)
@@ -220,11 +220,11 @@ if __name__ == "__main__":
     
     merge_data=[]
     for idx in range(args.num_chunks):
-        merge_data+=[json.loads(i) for i in open(f"/mnt/workspace/lr/datasets/checkpoints/zwq2018/Multi-modal-Self-instruct/test/answer_{idx}.jsonl",'r')]
+        merge_data+=[json.loads(i) for i in open(f"datasets/zwq2018/Multi-modal-Self-instruct/test/answer_{idx}.jsonl",'r')]
     # all_answers = []
     # for line_idx, res in enumerate(merge_data):
     #     question_id = res['question_id']
     #     text = res['text'].rstrip('.').lower()
     #     all_answers.append({"questionId": question_id, "prediction": text})
-    json.dump(merge,open(f"/mnt/workspace/lr/datasets/checkpoints/zwq2018/Multi-modal-Self-instruct/test/prediction_all.jsonl",'w'))
+    json.dump(merge,open(f"datasets/zwq2018/Multi-modal-Self-instruct/test/prediction_all.jsonl",'w'))
 

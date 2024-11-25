@@ -1,0 +1,274 @@
+{
+    "id": "000000028307",
+    "image": "coco/train2017/000000028307.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the person holding in the image?",
+            "steps": [],
+            "answer": "The person in the image is holding a red stop sign."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where is the person with the stop sign standing?",
+            "steps": [],
+            "answer": "The person with the stop sign is standing on a busy street."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the worker's purpose for holding the stop sign?",
+            "steps": [],
+            "answer": "The construction worker is holding the stop sign to manage traffic flow and ensure the safety of pedestrians and motorists while the road is being fixed or construction work is taking place."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any other construction workers visible in the image?",
+            "steps": [],
+            "answer": "Yes, there are other construction workers in the image who are fixing the road."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Why is it important for construction workers to hold stop signs while working on a street project?",
+            "steps": [],
+            "answer": "It is crucial for construction workers to hold stop signs while working on a street project for the following reasons:\n\n1. Safety: Holding stop signs is a crucial part of maintaining a safe working environment. It ensures that all parties involved, including construction workers, pedestrians, and motorists, are aware of the ongoing work and act accordingly to avoid accidents.\n\n2. Traffic control: Road construction often requires partial or complete lane closures, necessitating the need for efficient traffic management. Holding a stop sign helps organize traffic flow and minimizes congestion by indicating when vehicles should stop or proceed.\n\n3. Communication: Stop signs held by construction workers act as an excellent communication tool, informing drivers and passersby about the construction site's ongoing activities. It helps keep people informed, so they are more likely to proceed cautiously and comply with the directed traffic flow.\n\n4. Adherence to regulations: In many cities and countries, holding a stop sign during road construction or maintenance projects is a legal requirement. It is a necessary step to ensure that legal and safety standards are followed, protecting both workers and the general public.\n\nIn summary, construction workers holding stop signs during street projects play a critical role in maintaining safety, controlling traffic, communicating with the public, and adhering to regulatory requirements. This practice helps prevent accidents and keeps the work zone organized, ultimately contributing to smoother and more efficient construction projects."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "The image is a busy street scene that features a construction worker standing in the street, holding a red stop sign. Alongside the worker, there are several other people with some involved in repairing the road or taking part in the construction work.\n\nNumerous vehicles can be seen on the street, including multiple cars and trucks. There is also a backpack that seems to be placed on the ground, possibly belonging to one of the construction workers or a passerby.\n\nInterestingly, there are two kites in the air, adding more color and activity to the scene. Overall, it's a bustling environment with various activities taking place concurrently."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What safety measures are in place during the road construction?",
+            "steps": [],
+            "answer": "During the road construction, safety measures are in place to ensure the smooth flow of traffic and protect both workers and drivers. In the image, a construction worker is holding a stop sign near the busy street, which helps control vehicle movement and inform drivers about the ongoing work. This action is important for preventing accidents and ensuring that drivers approach the construction zone slowly and cautiously. The presence of multiple construction workers and vehicles, such as trucks and cars, indicates that the area is an active construction zone; hence, it is crucial to establish and follow safety protocols for the well-being of everyone involved."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you elaborate on the elements of the picture provided?"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a bustling scene at a construction site on a street. The street is lined with buildings and trees, creating an urban backdrop for the activity taking place. \n\nIn the foreground, there's a **black camera** mounted on a tripod, poised to document the ongoing work. On the left side of the street, a man in a **yellow vest** is holding a **red and white stop sign**, controlling the flow of traffic around the site. \n\nOn the right side of the street, a large **blue and white truck** with a sizable tank is parked. Near this truck, a group of workers clad in **orange vests** are gathered, possibly discussing their tasks for the day.\n\nThe image is rich with detail, from the color of the workers' vests to the precise location of objects. It's a snapshot of a moment in time at this construction site, where every element has its place and purpose."
+        }
+    ],
+    "det": [
+        {
+            "label": "stop sign",
+            "bbox": [
+                0.14384375,
+                0.0014375,
+                0.299203125,
+                0.21108333333333332
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.84628125,
+                0.03716666666666667,
+                1.0,
+                0.6903124999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.04846875,
+                0.05316666666666667,
+                0.27596875,
+                0.8383749999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.63478125,
+                0.46181249999999996,
+                0.6599062499999999,
+                0.5761666666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6536562499999999,
+                0.4876875,
+                0.66921875,
+                0.559625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.512984375,
+                0.4932708333333334,
+                0.53259375,
+                0.5450625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.57890625,
+                0.49322916666666666,
+                0.5940000000000001,
+                0.5477708333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5297031249999999,
+                0.49416666666666664,
+                0.53803125,
+                0.5317708333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.313546875,
+                0.49241666666666667,
+                0.351640625,
+                0.5401875
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.27109375,
+                0.47679166666666667,
+                0.32084375,
+                0.5597083333333334
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.605890625,
+                0.5047708333333333,
+                0.640265625,
+                0.545125
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.168546875,
+                0.4719166666666667,
+                0.244375,
+                0.5910208333333333
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.214625,
+                0.47250000000000003,
+                0.294578125,
+                0.5685833333333333
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.0,
+                0.41122916666666665,
+                0.091015625,
+                0.6337083333333333
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.5799531250000001,
+                0.6780416666666667,
+                0.79278125,
+                1.0
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.6744687500000001,
+                0.110625,
+                0.699125,
+                0.162375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.667875,
+                0.5000416666666667,
+                0.676515625,
+                0.534
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6785,
+                0.487,
+                0.697921875,
+                0.5610208333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.310125,
+                0.494375,
+                0.328609375,
+                0.541875
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.736890625,
+                0.45875,
+                0.8418281249999999,
+                0.5570208333333333
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.6814218750000001,
+                0.18072916666666666,
+                0.686734375,
+                0.23379166666666668
+            ]
+        }
+    ],
+    "hash_id": "946_coco_train2017_000000028307.jpg"
+}

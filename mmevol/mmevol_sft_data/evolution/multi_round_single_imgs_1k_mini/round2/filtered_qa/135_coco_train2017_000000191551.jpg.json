@@ -1,0 +1,400 @@
+{
+    "id": "000000191551",
+    "image": "coco/train2017/000000191551.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are in the living room?",
+            "steps": [],
+            "answer": "There are eight people in the living room."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the people eating and conversing in the living room?",
+            "steps": [],
+            "answer": "Yes, the people are eating and conversing while sitting around in the living room."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the placement of the food in the living room?",
+            "steps": [],
+            "answer": "The food is placed on the floor and on chairs in the living room, allowing the people easy access to it while they sit and converse."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any notable features in the living room, such as a fireplace or a television?",
+            "steps": [],
+            "answer": "Yes, the living room features a fireplace and a television, which add warmth and entertainment options for the people gathered in the room."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of gathering does this scene likely represent?",
+            "steps": [],
+            "answer": "This scene likely represents a casual and friendly gathering of people, such as a house party, a potluck, or a family get-together, where everyone comes together to enjoy a meal, converse, and share good times in a relaxed and comfortable setting. The presence of food on the floor and chairs and the informal seating arrangement indicate a laid-back atmosphere, while the fireplace and television suggest that the people can either engage in conversation or enjoy some form of entertainment during the event.\n\nSuch gatherings can foster a sense of community, strengthen relationships, and create positive memories for the participants. Sharing a meal in this setting allows people to connect, engage in conversation, and learn more about each other, contributing to the overall positive experience of the gathering. In conclusion, the image of the eight people sitting in a living room, eating food, and conversing most likely represents a social event where people have come together to enjoy each other's company and share a meal in a casual atmosphere."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Explain the visual content of the image in great detail.",
+            "steps": [],
+            "answer": "The image depicts a lively living room scene where a group of eight people are gathered around, sitting on chairs and couches, enjoying a meal together. They are engaged in conversation and laughter, creating a warm atmosphere. The room is furnished with a dining table where various foods and cups are placed, and some food items can also be found on the floor and chairs.\n\nA television is present near the center of the room along with a cozy fireplace, creating a comfortable ambiance. A potted plant adds a touch of greenery to the scene. Additional items like wine glasses, forks, bowls, spoons, and bottles are scattered around the room, indicating beverages and various dishes being served during this social gathering."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What could be the reason behind this gathering of people in the living room?",
+            "steps": [],
+            "answer": "Given the image showing eight people sitting around a living room with food items such as cups, bowls, forks, and spoons scattered on the chairs, dining table, and floor, it appears to be a casual gathering or get-together. The reason for this gathering could be a friendly meet-up, a special event, or a simple desire to spend quality time together with family or friends. The presence of a television and a fireplace in the room also contribute to this cozy and intimate atmosphere, allowing the group to enjoy conversations, food, and perhaps even a movie or show together."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat is this photo about'?"
+        },
+        {
+            "from": "gpt",
+            "value": "In this image, we are welcomed into a cozy living room scene where a group of six people are gathered, creating a warm and inviting atmosphere. The room is bathed in the soft glow of a ceiling light and a lamp, casting a gentle illumination on the scene.\n\nThree individuals have made themselves comfortable on a beige couch, while two others have opted for chairs. The sixth person has chosen a spot on the carpeted floor, cradling a guitar in their hands, perhaps serenading their friends with a melody.\n\nThe room itself is tastefully furnished. A coffee table sits in the middle of the room, possibly holding drinks or snacks for the group. A television is present, but it seems to be ignored in favor of the live music. Adding to the homely feel is a fireplace, which although not lit, adds a touch of charm to the room.\n\nThe walls of the room are painted white, providing a neutral backdrop that enhances the mostly beige and brown color palette of the furniture and carpet. The overall impression is one of comfort and camaraderie, a snapshot of good times shared among friends."
+        }
+    ],
+    "det": [
+        {
+            "label": "tv",
+            "bbox": [
+                0.5104062500000001,
+                0.24124413145539905,
+                0.65965625,
+                0.4251173708920188
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6998593750000001,
+                0.4496244131455399,
+                0.785015625,
+                0.6272769953051643
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.573609375,
+                0.422793427230047,
+                0.68,
+                0.6323004694835681
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7565000000000001,
+                0.5340610328638498,
+                1.0,
+                0.9604460093896713
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.0,
+                0.604718309859155,
+                0.22568749999999999,
+                0.9502112676056339
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.23570312499999999,
+                0.5766901408450704,
+                0.48767187500000003,
+                0.8180985915492958
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.34515625,
+                0.4103286384976526,
+                0.44281249999999994,
+                0.6303990610328639
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.260265625,
+                0.6936854460093896,
+                0.40685937499999997,
+                0.9835915492957746
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.900015625,
+                0.3559389671361502,
+                0.994203125,
+                0.5484976525821597
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.625,
+                0.298328125,
+                0.9268075117370892
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.46585937499999996,
+                0.43730046948356804,
+                0.566515625,
+                0.6222535211267606
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.634140625,
+                0.36373239436619714,
+                0.7795625,
+                0.6790610328638497
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6972343750000001,
+                0.45347417840375587,
+                0.964078125,
+                0.7419483568075117
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.72246875,
+                0.6876291079812207,
+                0.7583593750000001,
+                0.7865258215962442
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.117390625,
+                0.894906103286385,
+                0.16690624999999998,
+                0.9656572769953051
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.6994687500000001,
+                0.47772300469483564,
+                0.7075625000000001,
+                0.5058450704225351
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.76009375,
+                0.6890845070422535,
+                0.8247031249999999,
+                0.7376291079812207
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.17453125,
+                0.3170892018779343,
+                0.199359375,
+                0.3861971830985916
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.071078125,
+                0.8575117370892019,
+                0.11295312500000002,
+                0.99462441314554
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.72046875,
+                0.6584976525821595,
+                0.7498750000000001,
+                0.6949530516431924
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.10871875,
+                0.8713380281690141,
+                0.148546875,
+                0.9279342723004695
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.156109375,
+                0.885492957746479,
+                0.20853124999999997,
+                0.9568779342723006
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.407546875,
+                0.6413145539906103,
+                0.4305,
+                0.6844131455399061
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.25503125,
+                0.6509859154929577,
+                0.273125,
+                0.6896713615023474
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.6940937500000001,
+                0.649413145539906,
+                0.7195,
+                0.7012676056338027
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.287734375,
+                0.18441314553990612,
+                0.349984375,
+                0.27492957746478874
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.5827699530516431,
+                0.02459375,
+                0.6443427230046949
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.682421875,
+                0.5842957746478873,
+                0.70378125,
+                0.6505633802816901
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.434078125,
+                0.5194366197183099,
+                0.445703125,
+                0.5660328638497653
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.769546875,
+                0.6931220657276995,
+                0.7886875,
+                0.7257042253521127
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.8500624999999999,
+                0.5213615023474178,
+                0.862890625,
+                0.538661971830986
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.06637499999999999,
+                0.7040610328638498,
+                0.1220625,
+                0.7560798122065728
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.9543593749999999,
+                0.5147652582159624,
+                0.997296875,
+                0.5626291079812207
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.262796875,
+                0.7324647887323943,
+                0.6500625,
+                0.987018779342723
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.84803125,
+                0.5162676056338028,
+                0.8618125000000001,
+                0.5372300469483569
+            ]
+        }
+    ],
+    "hash_id": "135_coco_train2017_000000191551.jpg"
+}

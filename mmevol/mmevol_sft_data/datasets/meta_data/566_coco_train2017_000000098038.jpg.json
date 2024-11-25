@@ -1,0 +1,172 @@
+{
+    "id": "000000098038",
+    "image": "coco/train2017/000000098038.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the unusual situation the motorcyclist encounters, and how might this impact their travel plans?",
+            "steps": [],
+            "answer": "The motorcyclist encounters an unexpected and unusual situation, where a herd of cows is blocking the road ahead, as they face the same direction as the motorcycle. This impediment might impact the motorcyclist's travel plans by causing delays, as they must navigate around the cows safely without alarming or causing harm to the animals. The motorcyclist may need to wait for the cows to move or find an alternative route to their destination. Additionally, this scenario emphasizes the importance of being attentive and adapting to unexpected situations while driving, especially when sharing the road with diverse traffic, including animals or pedestrians."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What do you think is going on in this snapshot?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In this vivid scene captured in India, a group of at least six cows, adorned in shades of gray and white, are seen ambling towards the left side of the image. They are traversing a road that is lined with lush trees, adding a touch of green to the otherwise concrete landscape.\n\nOn the right side of the image, a motorcyclist is spotted. The rider, donned in a protective helmet, is astride a sleek black motorcycle, seemingly paused to give way to the bovine parade.\n\nFurther enhancing the authenticity of the scene is an orange truck parked on the right side of the road. The truck proudly displays a sign that reads \"GREAT INDIAN TRUCKING\", perhaps indicating its role in the local transportation industry.\n\nThe image is bathed in the soft light of daytime under a hazy sky, painting an everyday yet uniquely captivating picture of life in India."
+        }
+    ],
+    "det": [
+        {
+            "label": "cow",
+            "bbox": [
+                0.17859375,
+                0.3361041666666667,
+                0.36015625,
+                0.8726875
+            ]
+        },
+        {
+            "label": "cow",
+            "bbox": [
+                0.42857812500000003,
+                0.4027291666666667,
+                0.556671875,
+                0.8651458333333333
+            ]
+        },
+        {
+            "label": "cow",
+            "bbox": [
+                0.362421875,
+                0.49695833333333334,
+                0.45299999999999996,
+                0.8325
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.871875,
+                0.4887708333333334,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.50959375,
+                0.6405208333333333,
+                0.678890625,
+                0.981375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.44898437500000005,
+                0.3578541666666667,
+                0.72140625,
+                0.9520208333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.40946875,
+                0.39185416666666667,
+                0.446484375,
+                0.4557083333333333
+            ]
+        },
+        {
+            "label": "cow",
+            "bbox": [
+                0.390265625,
+                0.4023541666666667,
+                0.46799999999999997,
+                0.5271875
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.711234375,
+                0.0,
+                0.9994375,
+                0.9348333333333334
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.696171875,
+                0.5039374999999999,
+                0.751234375,
+                0.7967291666666666
+            ]
+        },
+        {
+            "label": "cow",
+            "bbox": [
+                0.294296875,
+                0.36916666666666664,
+                0.391671875,
+                0.5481874999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.676140625,
+                0.4125625,
+                0.71221875,
+                0.5962708333333334
+            ]
+        },
+        {
+            "label": "cow",
+            "bbox": [
+                0.528921875,
+                0.42304166666666665,
+                0.57603125,
+                0.48408333333333337
+            ]
+        },
+        {
+            "label": "cow",
+            "bbox": [
+                0.508171875,
+                0.38325000000000004,
+                0.529625,
+                0.4359166666666667
+            ]
+        },
+        {
+            "label": "cow",
+            "bbox": [
+                0.55171875,
+                0.38849999999999996,
+                0.578109375,
+                0.43208333333333326
+            ]
+        },
+        {
+            "label": "cow",
+            "bbox": [
+                0.576890625,
+                0.40822916666666664,
+                0.61815625,
+                0.4480833333333333
+            ]
+        }
+    ],
+    "hash_id": "566_coco_train2017_000000098038.jpg"
+}

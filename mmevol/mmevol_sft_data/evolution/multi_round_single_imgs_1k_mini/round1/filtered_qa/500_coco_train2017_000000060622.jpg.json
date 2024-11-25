@@ -1,0 +1,156 @@
+{
+    "id": "000000060622",
+    "image": "coco/train2017/000000060622.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "The image features a lively scene with people and children outdoors. In the center of the scene, a young boy is pushing a cart holding a Styrofoam box with an infant in it. Another little boy is riding in the cart, having fun with his sibling. \n\nThere's a dog present, watching the children play, located in the right half of the image. A train can be seen in the background, traveling behind the ongoing activities. Other people are scattered throughout the scenario, including one person with an umbrella near the left side of the image. Some of the objects found among the people include a chair, a handbag, and a bench in the middle-right side of the image."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you think is going on in this snapshot?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling train station, a young boy with a gray shirt is joyfully pushing a cart. The cart carries a precious cargo - a baby nestled comfortably in a white box. The boy's smile radiates warmth and happiness, adding a touch of innocence to the busy surroundings.\n\nA brown dog, possibly their faithful companion, is walking alongside them, heading towards the right side of the image. The dog's presence adds a sense of companionship to the scene.\n\nIn the background, the station comes alive with activity. A blue train waits patiently on the tracks, ready to embark on its next journey. A woman stands behind a food stall, perhaps preparing for the day's business or waiting for her next customer.\n\nThe image captures a moment of joy and companionship amidst the hustle and bustle of daily life at the train station. It's a snapshot of life in motion, where every character has their own story to tell."
+        }
+    ],
+    "det": [
+        {
+            "label": "dog",
+            "bbox": [
+                0.29242,
+                0.67272,
+                0.82728,
+                1.0
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.8326399999999999,
+                0.5002933333333334,
+                0.95472,
+                0.7118933333333334
+            ]
+        },
+        {
+            "label": "train",
+            "bbox": [
+                0.13146000000000002,
+                0.01728,
+                1.0,
+                0.3768533333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.19966,
+                0.16416,
+                0.35738,
+                0.7653066666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.77022,
+                0.0472,
+                0.8882000000000001,
+                0.48765333333333327
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.94002,
+                0.13074666666666668,
+                1.0,
+                0.23621333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5130800000000001,
+                0.4626133333333333,
+                0.65122,
+                0.5799466666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.68216,
+                0.16442666666666667,
+                0.76228,
+                0.2919733333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.33618000000000003,
+                0.19762666666666667,
+                0.42196000000000006,
+                0.4928266666666667
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.654,
+                0.32461333333333336,
+                0.77458,
+                0.5142666666666668
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.6329600000000001,
+                0.48802666666666666,
+                0.84574,
+                0.6826133333333333
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.0,
+                0.0007733333333333332,
+                0.17782,
+                0.6416266666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5562999999999999,
+                0.19392,
+                0.5749399999999999,
+                0.21389333333333332
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.84658,
+                0.12304,
+                0.90838,
+                0.2473866666666667
+            ]
+        }
+    ],
+    "hash_id": "500_coco_train2017_000000060622.jpg"
+}

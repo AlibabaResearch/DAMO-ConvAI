@@ -1,0 +1,382 @@
+{
+    "id": "000000244986",
+    "image": "coco/train2017/000000244986.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What's happening in the scene?",
+            "steps": [],
+            "answer": "The scene is set at a busy street intersection in a city. A group of motorcycle riders is waiting to merge into traffic, along with numerous cars, buses, and trucks. Tall buildings likely surround the area, giving the impression of a cityscape.\n\nThere are several motorcycles present, both in the middle of the intersection and further back, trying to navigate through the congested traffic. Cars are positioned around the motorcycles in various sizes and orientations, some closer to the riders and others farther away. A couple of buses and trucks can also be spotted on the street, adding to the traffic. \n\nSeveral pedestrians with backpacks and handbags are scattered throughout the scene, perhaps waiting to cross the street or walking along the sidewalk. One person is even seen riding a bicycle amidst the traffic, showcasing the diversity of transport modes in this bustling urban environment."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What concerns should the motorcycle riders be aware of when trying to navigate through this busy intersection?",
+            "steps": [],
+            "answer": "The motorcycle riders should be cautious and aware of the following concerns when navigating through the busy intersection:\n1. Surrounding vehicles: There are multiple cars, buses, and trucks in the vicinity, making the street congested. The riders need to be watchful of these vehicles' movements and maintain a safe distance to avoid collisions or accidents.\n2. Pedestrians: The image indicates the presence of several people on the street or on crosswalks. Riders should be conscious of pedestrian safety and should yield to them when required.\n3. Traffic flow: At busy intersections, the flow of traffic can be unpredictable. Motorcycle riders need to stay vigilant, observe traffic signals, and follow the right-of-way rules.\n4. Road conditions: With the possible presence of bicycles, backpacks, and handbags in the area, riders should be attentive to any obstacles or road hazards that may affect their safety.\n5. Blind spots: Larger vehicles, like buses and trucks, can cause blind spots for the riders. They should be alert to this issue and position themselves carefully to ensure visibility to other drivers.\n\nBy being mindful of these concerns, motorcycle riders can mitigate risks as they navigate through the busy city intersection. Riding defensively and respectfully sharing the road with various road users help ensure everyone's safety."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat are the key elements in this picture?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a vibrant scene from a bustling street in Paris, France. The street, lined with beige buildings adorned with balconies, is teeming with life and activity. A variety of vehicles, including black, gray, and white cars along with white and yellow trucks, fill the street, hinting at the rhythm of city life.\n\nTwo motorcyclists are the main focus of the image. One is astride a black motorcycle while the other is on a white one. Both are wearing helmets, emphasizing safety amidst the hustle and bustle. They are currently stationary, obediently waiting at a red traffic light.\n\nThe street is also lined with lush green trees that add a touch of nature to the urban landscape. Street signs and traffic lights are visible too, guiding the flow of traffic. The clear blue sky in the background contrasts beautifully with the urban scenery, completing this picturesque snapshot of a day in Paris."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.713875,
+                0.3617798594847775,
+                0.72325,
+                0.39341920374707257
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.0015,
+                0.35918032786885246,
+                0.22189062500000004,
+                0.7681733021077283
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.205046875,
+                0.4167213114754098,
+                0.35546875,
+                0.6477985948477752
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8590937500000001,
+                0.43875878220140513,
+                1.0,
+                0.643255269320843
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.686671875,
+                0.33707259953161595,
+                0.7196562500000001,
+                0.4044964871194379
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.934375,
+                0.39615925058548007,
+                0.97875,
+                0.46978922716627636
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.76846875,
+                0.3249882903981265,
+                0.7985781249999999,
+                0.3748009367681499
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.9199999999999999,
+                0.6403512880562061,
+                1.0,
+                0.828688524590164
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.22189062499999998,
+                0.5056206088992974,
+                0.6611874999999999,
+                0.9438173302107729
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.6536875,
+                0.6782669789227166,
+                0.812625,
+                0.929953161592506
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.788625,
+                0.6288290398126464,
+                0.9190625000000001,
+                0.8760187353629977
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.809234375,
+                0.42826697892271665,
+                0.86471875,
+                0.5700936768149883
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.899515625,
+                0.32379391100702576,
+                0.9865781250000001,
+                0.42370023419203745
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.816578125,
+                0.3108665105386417,
+                0.893171875,
+                0.4405620608899298
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.5965625,
+                0.28088992974238874,
+                0.687515625,
+                0.46341920374707257
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.44415625,
+                0.293231850117096,
+                0.60365625,
+                0.42765807962529273
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.47509375,
+                0.4785948477751757,
+                0.5630312500000001,
+                0.6380093676814989
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.8012812500000001,
+                0.5439812646370024,
+                0.83925,
+                0.6305386416861827
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.702671875,
+                0.4923887587822014,
+                0.7404375,
+                0.6252459016393443
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.34665625,
+                0.3837704918032787,
+                0.540140625,
+                0.8477751756440282
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.568625,
+                0.4255737704918033,
+                0.7206875,
+                0.7336768149882903
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7105625,
+                0.38430913348946133,
+                0.81346875,
+                0.6379391100702576
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.250328125,
+                0.34121779859484774,
+                0.28240625,
+                0.41426229508196716
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8338906250000001,
+                0.4257142857142857,
+                0.93084375,
+                0.5604683840749415
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.561046875,
+                0.39948477751756445,
+                0.685421875,
+                0.6044262295081968
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.11451562500000001,
+                0.32199063231850117,
+                0.14700000000000002,
+                0.37543325526932086
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9084687499999999,
+                0.4075409836065574,
+                0.952421875,
+                0.4895081967213115
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.269265625,
+                0.36552693208430914,
+                0.293921875,
+                0.4187353629976581
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2955625,
+                0.3443793911007026,
+                0.31284375,
+                0.42384074941451994
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.04765625,
+                0.32985948477751753,
+                0.0856875,
+                0.3655269320843091
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7305625,
+                0.35997658079625294,
+                0.76096875,
+                0.49477751756440286
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.727453125,
+                0.2992505854800937,
+                0.74934375,
+                0.3226932084309133
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.416046875,
+                0.4963700234192037,
+                0.43695312499999994,
+                0.5308430913348946
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.772625,
+                0.4595081967213115,
+                0.83921875,
+                0.641615925058548
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.28565625,
+                0.397096018735363,
+                0.2956875,
+                0.419016393442623
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.684671875,
+                0.2955737704918033,
+                0.69596875,
+                0.32875878220140514
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.311359375,
+                0.3086416861826698,
+                0.44809375000000007,
+                0.528384074941452
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.80290625,
+                0.2822014051522248,
+                0.8603125,
+                0.3510304449648712
+            ]
+        }
+    ],
+    "hash_id": "258_coco_train2017_000000244986.jpg"
+}

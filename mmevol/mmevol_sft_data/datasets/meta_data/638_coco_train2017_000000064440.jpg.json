@@ -1,0 +1,190 @@
+{
+    "id": "000000064440",
+    "image": "coco/train2017/000000064440.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image displays an airport scene with several airplanes parked on the tarmac. There are a few large white airplanes visible, including one on the left side and two more towards the center-right of the scene. In addition to the planes, there is also a small plane on the airfield, situated towards the right side.\n\nThere are various other vehicles in the scene, such as two buses, several cars, and work trucks dispersed around the aircraft. Many people can be seen in the area, possibly staff and crew members attending to the planes and vehicles or passengers navigating the airport. The scene conveys a busy and active airport environment with multiple planes and personnel."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the implications for the air traffic at this airport?",
+            "steps": [],
+            "answer": "At the airport, several aircraft, including large and small airplanes, are parked on the tarmac among other vehicles such as buses, work trucks, and cars. The presence of multiple aircraft and ground support vehicles suggests that the airport may be busy, with potential implications for the air traffic. This could lead to increased wait times for aircraft, both for takeoff and landing, as well as departure and arrival gate assignments. Additionally, there might be a need for efficient taxiing patterns to accommodate ground traffic, ensuring proper access to runways and minimizing delays. Furthermore, the airport may need to ensure proper allocation of resources and personnel to maintain the efficient and safe operation of flight schedules, servicing planes in a timely manner, and addressing the needs of passengers."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat are the key elements in this picture?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a bustling scene at an airport tarmac. Dominating the center of the frame is a large airplane, painted in hues of blue and white, with \"Air One\" emblazoned on its side. The plane is parked at a gate, being serviced by a small white truck, indicating ongoing preparations for its next journey.\n\nTo the right of this central plane, two smaller aircraft can be seen. One of them sports a blue tail while the other flaunts a green one, adding splashes of color to the scene. \n\nThe background is a hive of activity with several other planes and vehicles in sight. A large white truck and a small red truck are among the vehicles that can be spotted, contributing to the dynamic atmosphere of the airport.\n\nAbove all this activity, the sky stretches out in a serene expanse of blue, dotted with a few clouds in the distance, providing a calm contrast to the busy tarmac below."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.47490625,
+                0.6098249452954048,
+                0.54084375,
+                0.6517286652078774
+            ]
+        },
+        {
+            "label": "airplane",
+            "bbox": [
+                0.03640625,
+                0.34514223194748356,
+                0.648203125,
+                0.6257768052516411
+            ]
+        },
+        {
+            "label": "airplane",
+            "bbox": [
+                0.19532812500000002,
+                0.6076148796498906,
+                0.997453125,
+                0.988796498905908
+            ]
+        },
+        {
+            "label": "airplane",
+            "bbox": [
+                0.6895156250000001,
+                0.437746170678337,
+                0.99409375,
+                0.5445951859956236
+            ]
+        },
+        {
+            "label": "airplane",
+            "bbox": [
+                0.6163125,
+                0.45730853391684906,
+                0.99571875,
+                0.6435010940919038
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.59028125,
+                0.5731728665207877,
+                0.813265625,
+                0.654945295404814
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.71690625,
+                0.6171334792122538,
+                0.72453125,
+                0.652363238512035
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.70365625,
+                0.6211159737417944,
+                0.715234375,
+                0.6487746170678337
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.633796875,
+                0.6120131291028447,
+                0.65046875,
+                0.6537199124726477
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.456453125,
+                0.658687089715536,
+                0.72259375,
+                0.819015317286652
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.44140625,
+                0.5807221006564551,
+                0.5487968750000001,
+                0.6473304157549233
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.726609375,
+                0.6192560175054704,
+                0.7367968749999999,
+                0.6496936542669585
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7526875000000001,
+                0.6186214442013128,
+                0.761953125,
+                0.6512472647702408
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.687234375,
+                0.617199124726477,
+                0.695046875,
+                0.655492341356674
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.442828125,
+                0.5812910284463895,
+                0.5501250000000001,
+                0.647964989059081
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.48840625,
+                0.7441137855579869,
+                0.5135625,
+                0.7868052516411378
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.44340624999999995,
+                0.5809409190371991,
+                0.54684375,
+                0.6491903719912473
+            ]
+        }
+    ],
+    "hash_id": "638_coco_train2017_000000064440.jpg"
+}

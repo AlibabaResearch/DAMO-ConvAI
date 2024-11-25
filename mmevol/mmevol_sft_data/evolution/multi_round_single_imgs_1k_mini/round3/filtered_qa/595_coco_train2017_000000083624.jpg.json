@@ -1,0 +1,212 @@
+{
+    "id": "000000083624",
+    "image": "coco/train2017/000000083624.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image shows a man riding a bike in a city setting. He is holding an umbrella while riding, possibly to protect himself from rain or sun. Many parked bicycles can be seen around him, indicating a popular area for bike use. Several parked cars and a truck are visible in the background as well. \n\nThere is another person, likely a pedestrian, standing in the scene, and a handbag is present near the man riding the bike, perhaps indicating someone nearby or the rider's belongings. Traffic lights scattered across the scene contribute to the urban environment."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What precautions should the man take while riding in this situation?",
+            "steps": [],
+            "answer": "In this image, the man is riding a bike or scooter while holding an umbrella in a city at night, surrounded by parked bicycles and vehicles. There are several precautions he should take to ensure his safety:\n\n1. Use proper lighting: Since it's nighttime, he should have functional lights (headlight and taillight) on his bike or scooter to increase visibility and alert other road users to his presence.\n\n2. Hold the handlebars with both hands: Holding an umbrella while riding might be unsafe as it requires one hand to be off the handlebars. He should consider finding an alternative method to stay protected from the rain, such as wearing a waterproof jacket or using a bicycle-mounted umbrella holder.\n\n3. Be cautious around parked vehicles: As there are several parked bicycles and cars in the area, drivers or cyclists might suddenly open doors or move, posing potential hazards. He should maintain a safe distance and be alert to his surroundings.\n\n4. Follow traffic signals: The presence of traffic lights indicates that he's biking in an area with traffic. He must follow traffic signals and rules to ensure his safety and the safety of others.\n\n5. Wear reflective gear: To increase visibility and alertness, wearing reflective gear or clothes can greatly help.\n\nBy taking these precautions, the man can safely navigate the city at night while riding his bike or scooter."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What are the key elements in this picture?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the quiet solitude of the night, a young man embarks on a journey, his faithful white folding bike by his side. The bike, adorned with a blue basket on the handlebars and a comfortable black seat, is compact and ready for travel. The man, dressed in a casual ensemble of a black jacket and blue jeans, carries a large brown bag, perhaps filled with the day's necessities or treasures from an evening adventure.\n\nThe sidewalk they tread upon is slick with the recent rain, the wet pavement reflecting the glow of the nearby streetlights. The orange traffic cones scattered about hint at some recent activity or cautionary tale. In the background, other bicycles stand parked and stationary, silent observers to the young man's journey.\n\nEvery object in this scene tells a story - from the man and his bike to the traffic cones and parked bicycles. They all contribute to painting a vivid picture of an ordinary moment captured in time."
+        }
+    ],
+    "det": [
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.37048437500000003,
+                0.5118333333333334,
+                0.6720937499999999,
+                0.9796041666666667
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.8834375,
+                0.45527083333333335,
+                1.0,
+                0.856625
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.21585937500000002,
+                0.28468750000000004,
+                0.34421875,
+                0.48358333333333337
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.8109531249999999,
+                0.443125,
+                0.8988125,
+                0.7373333333333333
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.5233749999999999,
+                0.17758333333333332,
+                0.7338281249999999,
+                0.24254166666666663
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.38509375,
+                0.138125,
+                0.565015625,
+                0.8309375
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0016875000000000002,
+                0.13258333333333333,
+                0.092703125,
+                0.9865208333333333
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.500375,
+                0.26045833333333335,
+                0.6466875,
+                0.5183125
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.34826562499999997,
+                0.25852083333333337,
+                0.502921875,
+                0.4955625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.381703125,
+                0.16779166666666667,
+                0.39909374999999997,
+                0.2094166666666667
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.763078125,
+                0.4169583333333333,
+                0.8384218750000001,
+                0.7121666666666666
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.14095312499999998,
+                0.24766666666666665,
+                0.21560937500000002,
+                0.40602083333333333
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.1014375,
+                0.22370833333333331,
+                0.154375,
+                0.4009583333333333
+            ]
+        },
+        {
+            "label": "bicycle",
+            "bbox": [
+                0.12598437499999998,
+                0.2324375,
+                0.19720312499999998,
+                0.39256250000000004
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.23518750000000002,
+                0.13795833333333332,
+                0.280703125,
+                0.23247916666666668
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.52575,
+                0.1741875,
+                0.7438750000000001,
+                0.23656249999999998
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.33759375,
+                0.025333333333333333,
+                0.348625,
+                0.042499999999999996
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.48501562500000006,
+                0.09489583333333333,
+                0.4948437500000001,
+                0.11212499999999999
+            ]
+        },
+        {
+            "label": "traffic light",
+            "bbox": [
+                0.314921875,
+                0.07864583333333333,
+                0.32553125,
+                0.11385416666666666
+            ]
+        }
+    ],
+    "hash_id": "595_coco_train2017_000000083624.jpg"
+}

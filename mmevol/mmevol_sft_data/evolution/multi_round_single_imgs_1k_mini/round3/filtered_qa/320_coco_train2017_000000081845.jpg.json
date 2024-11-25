@@ -1,0 +1,572 @@
+{
+    "id": "000000081845",
+    "image": "coco/train2017/000000081845.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many ladies are sitting at the table?",
+            "steps": [],
+            "answer": "There are three ladies sitting at the table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the ladies drinking?",
+            "steps": [],
+            "answer": "The ladies are drinking beer."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where are the ladies located while they are drinking?",
+            "steps": [],
+            "answer": "The ladies are sitting at an outdoor restaurant table, on a wooden patio, enjoying their drinks."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there other people in the background?",
+            "steps": [],
+            "answer": "Yes, there are other people in the background, indicating that the ladies are at a social gathering or a public place."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of ambiance does the outdoor setting provide for the ladies?",
+            "steps": [],
+            "answer": "The outdoor setting provides the ladies with a relaxed and comfortable ambiance, allowing them to enjoy their drinks and each other's company in a pleasant environment. The fact that they are sitting in the shade adds to the overall comfort and appeal of the setting, as it keeps them cool and protected from the direct sunlight. \n\nThe presence of other people in the background also suggests that the location is popular and potentially a lively place for socialization. This contributes to a sense of community and enjoyment, as the ladies can engage in conversations and interactions with a diverse group of individuals around them. \n\nOverall, the outdoor restaurant table on the wooden patio provides an ideal setting for the ladies to unwind, socialize, and indulge in their drinks, while being surrounded by a vibrant atmosphere and fellow patrons."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image depicts an outdoor gathering at a restaurant with several people seated around dining tables, enjoying each other's company. Three women are the main focus of the scene, sitting at a wooden patio table under the shade. They are having a drink, with various cups and bottles in front of them.\n\nIn the background, there are more people mingling and sitting at other tables. Some of the tables have umbrellas providing shade from the sun. Chairs and potted plants are spread throughout the space, adding character and ambiance to the scene.\n\nAdditional dining utensils like forks, knives, and spoons can also be seen on the tables, alongside cell phones and wine glasses. The setting appears to be a cozy and lively spot for socializing and dining outdoors."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the common habits or behaviors of the people in this image?",
+            "steps": [],
+            "answer": "The people in this image have gathered around outdoor dining tables in what appears to be a restaurant or a social event. A common behavior among them is enjoying drinks together as there are several cups, wine glasses, and bottles on the tables. They are engaging in social interaction and relaxation, which is typical at such gatherings. Some women are sitting together, drinking, and having conversations, while other individuals are also present in the background. It can be inferred that this group of people values spending time together in a casual setting, participating in conversations, and enjoying beverages."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What are the key elements in this picture?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the image, a lively scene unfolds on the patio of a restaurant. Three individuals are seated around a table draped in a gray tablecloth. The table, acting as the centerpiece of the image, holds a few drinks and condiments, hinting at a meal shared or about to be enjoyed.\n\nOn the left, a person is captured mid-smile, their joy palpable even through the photograph. They're dressed in a black and white striped shirt, adding a touch of casual elegance to the scene.\n\nIn the middle, another person is also smiling at the camera. They're sporting a blue visor, perhaps shielding their eyes from the sun or simply making a fashion statement.\n\nTo the right, there's a person in a white shirt. Unlike their companions, they're looking away from the camera, their attention seemingly caught by something or someone off-frame.\n\nThe background is filled with other tables and chairs, suggesting that this is a popular spot for patrons. Umbrellas are spotted throughout, offering shade on sunny days, while plants add a touch of greenery to the urban setting. The image beautifully captures an ordinary moment made extraordinary by good company and shared laughter."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.23985937499999999,
+                0.7701170960187353,
+                0.294359375,
+                1.0
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0015625,
+                0.6114754098360656,
+                0.65625,
+                0.9885245901639345
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.421296875,
+                0.6150351288056206,
+                0.48278125000000005,
+                0.8352693208430914
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.308859375,
+                0.7550585480093678,
+                0.36882812499999995,
+                0.9865105386416863
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.31256249999999997,
+                0.6407728337236535,
+                0.357640625,
+                0.697072599531616
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.32690625,
+                0.6386651053864169,
+                0.36521875000000004,
+                0.722295081967213
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.109109375,
+                0.9069789227166276,
+                0.19632812500000002,
+                0.9990163934426229
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.172265625,
+                0.7245667447306792,
+                0.24428125,
+                0.7554098360655738
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.128328125,
+                0.9043559718969556,
+                0.170875,
+                0.9837470725995316
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.11873437499999999,
+                0.8470257611241218,
+                0.21432812499999998,
+                0.9016861826697892
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.357890625,
+                0.645456674473068,
+                0.38301562499999997,
+                0.7029274004683842
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.003453125,
+                0.234192037470726,
+                0.274671875,
+                0.8985011709601874
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.640203125,
+                0.2831381733021077,
+                0.9400625,
+                0.9910070257611241
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.485359375,
+                0.09571428571428571,
+                0.5680156249999999,
+                0.26688524590163937
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.691796875,
+                0.11786885245901639,
+                0.7606875000000001,
+                0.32372365339578457
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8126093750000001,
+                0.1419672131147541,
+                0.942484375,
+                0.41096018735362994
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.588859375,
+                0.10517564402810303,
+                0.655578125,
+                0.33543325526932083
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.522328125,
+                0.11344262295081967,
+                0.5601875000000001,
+                0.2053629976580796
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.766,
+                0.12236533957845433,
+                0.823984375,
+                0.20688524590163934
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9627812499999999,
+                0.5223419203747073,
+                1.0,
+                0.6117798594847775
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.83575,
+                0.12292740046838407,
+                0.8752187499999999,
+                0.22049180327868853
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.898625,
+                0.06072599531615925,
+                0.9775937499999999,
+                0.08714285714285715
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.8069062499999999,
+                0.004543325526932084,
+                0.84734375,
+                0.17569086651053864
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.7189375,
+                0.0,
+                0.74865625,
+                0.12250585480093677
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.50125,
+                0.6484543325526931,
+                0.560125,
+                0.8089695550351288
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.251421875,
+                0.5709133489461359,
+                0.30115625,
+                0.7050819672131148
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.5735,
+                0.765831381733021,
+                0.640328125,
+                0.9551756440281031
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.43309375,
+                0.550327868852459,
+                0.482828125,
+                0.6323185011709602
+            ]
+        },
+        {
+            "label": "fork",
+            "bbox": [
+                0.17671874999999998,
+                0.7238407494145199,
+                0.24506250000000002,
+                0.7419906323185012
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.333265625,
+                0.6394379391100703,
+                0.364375,
+                0.7165105386416862
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.331203125,
+                0.4228103044496487,
+                0.6118750000000001,
+                0.6652927400468384
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.3831875,
+                0.004496487119437939,
+                0.47034374999999995,
+                0.28829039812646373
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.0,
+                0.0032084309133489463,
+                0.0665,
+                0.5184543325526932
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.554125,
+                0.20491803278688525,
+                0.6658125,
+                0.24346604215456677
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.8603125,
+                0.4276112412177986,
+                1.0,
+                0.5510070257611241
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.11128125,
+                0.7034426229508197,
+                0.153125,
+                0.7507962529274006
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.386328125,
+                0.2135831381733021,
+                0.5722343750000001,
+                0.6688758782201405
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.590375,
+                0.000234192037470726,
+                0.613625,
+                0.1712646370023419
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6474375,
+                0.20105386416861826,
+                0.7134218750000001,
+                0.29508196721311475
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.919484375,
+                0.569016393442623,
+                1.0,
+                0.6749414519906323
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.66584375,
+                0.27459016393442626,
+                0.699078125,
+                0.3764871194379391
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.48373437499999994,
+                0.1947072599531616,
+                0.5907031249999999,
+                0.38725995316159256
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.47396874999999994,
+                0.18114754098360655,
+                0.48523437499999994,
+                0.21166276346604215
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7576562499999999,
+                0.18840749414519908,
+                0.8278281249999999,
+                0.3323653395784544
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.9116875,
+                0.19894613583138174,
+                0.9604531250000001,
+                0.22014051522248243
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.6501718750000001,
+                0.16866510538641685,
+                0.692109375,
+                0.18468384074941452
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.7495937500000001,
+                0.20599531615925057,
+                0.8587187500000001,
+                0.22880562060889928
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.0,
+                0.47728337236533963,
+                0.076078125,
+                0.7153161592505854
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.92696875,
+                0.192576112412178,
+                1.0,
+                0.3095550351288056
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.6547031249999999,
+                0.2029274004683841,
+                0.697921875,
+                0.24391100702576113
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.64403125,
+                0.3556206088992974,
+                0.716796875,
+                0.522271662763466
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.56190625,
+                0.14899297423887586,
+                0.5989375,
+                0.207423887587822
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.7049218749999999,
+                0.6305854800936768,
+                0.999640625,
+                0.9953161592505855
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.236015625,
+                0.6475175644028103,
+                0.29282812500000005,
+                0.7382903981264637
+            ]
+        }
+    ],
+    "hash_id": "320_coco_train2017_000000081845.jpg"
+}

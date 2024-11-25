@@ -1,0 +1,298 @@
+{
+    "id": "000000022529",
+    "image": "coco/train2017/000000022529.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image depicts a large crowd of people enjoying a day at the park, with several of them flying kites. There are numerous people standing, sitting, and milling around the green park-like area, creating a lively atmosphere. \n\nThe most eye-catching attraction is a giant kite with trailing ribbons and a death's head design. This kite is drawing the attention of people as it sits with one end buried in the park. \n\nIn addition to the large kite, there are several smaller kites flying around in different areas of the park. The scene also includes people carrying backpacks, a handbag, and someone holding a cell phone. This event showcases people of different backgrounds and age groups coming together in the park to engage in outdoor recreational activities."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the primary activity people are engaging in at the park, and what challenges might they face while participating in this activity?",
+            "steps": [],
+            "answer": "The primary activity people are engaging in at the park is flying kites. The scene depicts a festive atmosphere, with a large crowd gathered for this event. Some people are sitting and standing while others are flying kites of various sizes, including smaller ones and a significantly larger kite with trailing ribbons and a death's head. The challenges they might face during this activity are ensuring they have sufficient open space for the kites to fly without tangling or interfering with each other. They also need to manage the wind conditions to keep the kites at the desired height and prevent crashes or collisions with people or surrounding structures."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What do you see happening in this image?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a vibrant scene from a kite festival held in a park. The sky, a clear canvas of blue, is dotted with kites of various shapes and sizes, adding a splash of color to the scene. The most prominent kite is a majestic dragon kite, painted in bold hues of red and white, soaring high above the others.\n\nThe park itself is a lively gathering spot. People are scattered throughout the green expanse, engaged in various activities. Some are flying kites, their eyes on the sky as they maneuver the strings. Others are seated on blankets spread out on the grass, soaking in the festive atmosphere and enjoying the spectacle.\n\nIn the background, trees stand tall, providing a natural boundary for the park and adding an element of tranquility to the scene. Overall, it's a beautiful day out in the park, filled with joy, color, and the simple pleasure of flying kites."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.37712500000000004,
+                0.6598124999999999,
+                0.42200000000000004,
+                0.8371041666666665
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.319640625,
+                0.6864166666666667,
+                0.376125,
+                0.8330208333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.657703125,
+                0.7676875,
+                0.692453125,
+                0.8608958333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.674578125,
+                0.7693958333333334,
+                0.7171875,
+                0.8717708333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.713484375,
+                0.7967291666666667,
+                0.757234375,
+                0.8746666666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.81521875,
+                0.8008958333333334,
+                0.8817343750000001,
+                0.8890833333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.165875,
+                0.6345833333333334,
+                0.21778124999999998,
+                0.7684583333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.22342187500000002,
+                0.63325,
+                0.26915625000000004,
+                0.7815
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9033749999999999,
+                0.8247291666666666,
+                0.9741562499999998,
+                0.9640416666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0085,
+                0.647625,
+                0.047359375,
+                0.6967916666666667
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.20520312500000001,
+                0.6527916666666667,
+                0.22557812500000002,
+                0.7001041666666665
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.22170312499999997,
+                0.7214583333333333,
+                0.23415624999999998,
+                0.7631875000000001
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.155765625,
+                0.018145833333333337,
+                0.1898125,
+                0.05443750000000001
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.764265625,
+                0.21408333333333335,
+                0.783671875,
+                0.23343750000000002
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.634875,
+                0.5829166666666666,
+                0.730328125,
+                0.6464166666666668
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.9318593749999999,
+                0.4746458333333334,
+                0.9936406249999999,
+                0.520625
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.36746875,
+                0.3543541666666667,
+                0.663859375,
+                0.7323541666666666
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.777484375,
+                0.577375,
+                0.794703125,
+                0.5897916666666666
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.77753125,
+                0.4477291666666667,
+                0.8024531250000001,
+                0.454125
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.717,
+                0.6186875000000001,
+                0.8194531250000001,
+                0.6711875
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.79025,
+                0.6608958333333333,
+                0.8056093750000001,
+                0.675875
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.097375,
+                0.43777083333333333,
+                0.1101875,
+                0.44456249999999997
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.924,
+                0.8305833333333333,
+                0.9301406249999999,
+                0.8472916666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.65059375,
+                0.6872708333333333,
+                0.676921875,
+                0.7828333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.779625,
+                0.7096458333333333,
+                0.822328125,
+                0.8188333333333333
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.11353125,
+                0.3331458333333333,
+                0.1190625,
+                0.3400416666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6138281250000001,
+                0.7306875,
+                0.6510312500000001,
+                0.8021458333333334
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.750015625,
+                0.8387083333333333,
+                0.79171875,
+                0.8879166666666667
+            ]
+        },
+        {
+            "label": "kite",
+            "bbox": [
+                0.0440625,
+                0.3095,
+                0.056296875,
+                0.33064583333333336
+            ]
+        }
+    ],
+    "hash_id": "628_coco_train2017_000000022529.jpg"
+}

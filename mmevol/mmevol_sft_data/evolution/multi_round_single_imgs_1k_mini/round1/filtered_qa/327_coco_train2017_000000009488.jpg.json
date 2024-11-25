@@ -1,0 +1,219 @@
+{
+    "id": "000000009488",
+    "image": "coco/train2017/000000009488.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The image depicts four people sitting together in lawn chairs on an asphalt surface near a fence. They are surrounded by sports equipment, including two tennis rackets resting near them, suggesting they have been engaged in physical activity. \n\nThere are various drinks and bottles placed around the seating area, indicating they might be taking a break to hydrate and relax. Some other items, such as backpacks, handbags, and cups, are also scattered in the scene. A car is parked in the background and a bench can be seen further away from the group."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is peculiar about the way these people are spending their time?",
+            "steps": [],
+            "answer": "In the image, there is a group of four people sitting in lawn chairs on the asphalt by a fence, surrounded by sports equipment, drinks, and other belongings. What is peculiar is that they are holding tennis rackets while sitting in their chairs, rather than using them to play tennis on a court. This odd combination of being seated with their tennis rackets and not actively engaged in a game suggests that they might be taking an unconventional break or sharing a unique bonding moment with their friends."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What are the key elements in this picture?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a serene moment in a park. Four individuals are seated on a vibrant green bench, each engrossed in their own world. \n\nStarting from the left, the first person is donned in a cool blue shirt, holding a red drink that adds a pop of color. Next to them, the second person is wearing a classic black shirt, contrasting with the yellow drink in their hand.\n\nThe third person, sitting beside the one in black, is wearing a warm brown shirt and is also holding a red drink, mirroring the first person. Finally, on the far right, the fourth person is wearing a neutral gray shirt and holding an orange drink.\n\nTheir belongings are casually scattered around the bench, suggesting a relaxed atmosphere. The background of the image features a sturdy fence and lush trees, encapsulating the essence of a peaceful park setting."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.7799400000000001,
+                0.46048,
+                0.8061200000000001,
+                0.5599466666666667
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.94528,
+                0.2515733333333333,
+                1.0,
+                0.3204533333333333
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.22982,
+                0.48575999999999997,
+                0.24834,
+                0.5309066666666666
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.44122,
+                0.43584,
+                0.48988,
+                0.5371466666666667
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.43960000000000005,
+                0.3178933333333333,
+                0.5201399999999999,
+                0.4431733333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5993200000000001,
+                0.17325333333333334,
+                0.8295800000000001,
+                0.7127466666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.28354,
+                0.32832,
+                0.50482,
+                0.5951733333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.12516,
+                0.2641866666666666,
+                0.27424,
+                0.5201333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.26746,
+                0.3490933333333333,
+                0.60474,
+                0.874
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.75128,
+                0.5122933333333334,
+                1.0,
+                0.7420533333333332
+            ]
+        },
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.36851999999999996,
+                0.3001066666666667,
+                0.42382,
+                0.46381333333333336
+            ]
+        },
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.47956,
+                0.5046666666666667,
+                0.6785599999999999,
+                0.6704
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.5921799999999999,
+                0.23469333333333334,
+                0.673,
+                0.40682666666666667
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.91848,
+                0.6724,
+                0.9994,
+                0.8311200000000001
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.32030000000000003,
+                0.5601333333333334,
+                0.3451,
+                0.6639466666666667
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.7012999999999999,
+                0.6587466666666667,
+                0.8946,
+                0.8902666666666668
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.6699400000000001,
+                0.7249866666666667,
+                0.69686,
+                0.786
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.3332,
+                0.40602666666666665,
+                0.35646,
+                0.4517866666666666
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.12228,
+                0.31288,
+                0.34952,
+                0.5502933333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.42888,
+                0.41341333333333335,
+                0.63488,
+                0.8025066666666667
+            ]
+        }
+    ],
+    "hash_id": "327_coco_train2017_000000009488.jpg"
+}

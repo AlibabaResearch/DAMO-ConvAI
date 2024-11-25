@@ -1,0 +1,244 @@
+{
+    "id": "000000009112",
+    "image": "coco/train2017/000000009112.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are visible in the image?",
+            "steps": [],
+            "answer": "There is a group of people visible in the image, including at least one man, walking down the sidewalk."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any birds present in the image?",
+            "steps": [],
+            "answer": "Yes, there are some birds in the image, and they are located close to the people walking on the sidewalk."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people doing in the image?",
+            "steps": [],
+            "answer": "The people are walking down the sidewalk, possibly engaging in their daily activities or commuting. They are passing by street signs and birds on the street."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are there any traffic or street signs visible in the image?",
+            "steps": [],
+            "answer": "Yes, there are numerous street signs visible in the image, including \"no turn\" signs. These signs help regulate traffic and provide guidance to drivers and pedestrians."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "The scene captures a city street with people walking down the sidewalk. There are multiple individuals walking, some closer while others are further away. One of the more prominent people in the scene is a man walking past a group of birds on the pavement. \n\nAside from pedestrians, there are numerous birds scattered around the street. Some are closer to the people, while others are on the sidewalk further away.\n\nVehicles are also present in the scene, with a few cars parked or driving by, and a truck visible in the background. A handbag can also be seen near one of the pedestrians, perhaps belonging to them."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is an unusual element in this street scene?",
+            "steps": [],
+            "answer": "In this street scene, an unusual element is the presence of multiple birds along the sidewalk where people are walking. Birds are typically not found in large numbers in urban areas with heavy foot traffic. They are generally more common in parks or open spaces. These birds (a total of seven) add a unique aspect to the scene, as the people walking by must be mindful of their presence while navigating the sidewalk."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Can you describe the main features of this image for me?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a typical street scene in London, UK. Here's a detailed description:\n\n- **Three individuals** are present on the sidewalk. Two of them are walking away from the camera, while one is walking towards it. Their exact identities or actions beyond this cannot be determined from the image.\n- On the right side of the photo, there are **two 'No Entry' signs**. These signs are predominantly red and white.\n- Also on the right side of the photo, there are **two black lampposts**. Their precise height or design details cannot be determined from this image.\n- The background of the image features **two buildings**. One appears to be painted white, while the other is made of brown bricks. The specific architectural style or purpose of these buildings cannot be determined from this image.\n- Lastly, there are **several pigeons** scattered on the ground. Their exact number or actions cannot be determined from this image.\n\nPlease note that this description is based on what can be confidently determined from the image. Some details might not be fully accurate due to limitations in image resolution and perspective."
+        }
+    ],
+    "det": [
+        {
+            "label": "bird",
+            "bbox": [
+                0.611765625,
+                0.8499529411764706,
+                0.638109375,
+                0.9006588235294118
+            ]
+        },
+        {
+            "label": "bird",
+            "bbox": [
+                0.650015625,
+                0.8390823529411765,
+                0.67096875,
+                0.8914352941176471
+            ]
+        },
+        {
+            "label": "bird",
+            "bbox": [
+                0.40071874999999996,
+                0.9299294117647059,
+                0.446671875,
+                0.9718117647058825
+            ]
+        },
+        {
+            "label": "bird",
+            "bbox": [
+                0.28925,
+                0.9116235294117647,
+                0.323359375,
+                0.9509411764705882
+            ]
+        },
+        {
+            "label": "bird",
+            "bbox": [
+                0.5644218750000001,
+                0.8272,
+                0.5919375,
+                0.8633647058823529
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.819359375,
+                0.5194823529411765,
+                0.8893281249999999,
+                0.5902117647058823
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8675937499999999,
+                0.5008235294117647,
+                0.8955,
+                0.5291294117647058
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.45317187499999995,
+                0.4454823529411765,
+                0.49345312499999994,
+                0.6704470588235294
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.148,
+                0.4984470588235294,
+                0.198671875,
+                0.720494117647059
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.746328125,
+                0.5247764705882353,
+                0.78371875,
+                0.7162117647058823
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.788671875,
+                0.5214117647058824,
+                0.83090625,
+                0.588870588235294
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8149218749999999,
+                0.4919529411764706,
+                0.828921875,
+                0.5200235294117648
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.778453125,
+                0.49522352941176473,
+                0.784078125,
+                0.5135058823529411
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.016828125,
+                0.4389411764705883,
+                0.052390625,
+                0.5989882352941176
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.13479687499999998,
+                0.5282117647058824,
+                0.16228125,
+                0.668329411764706
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8405156249999999,
+                0.5080941176470588,
+                0.8956249999999999,
+                0.5520470588235294
+            ]
+        },
+        {
+            "label": "bird",
+            "bbox": [
+                0.48392187499999995,
+                0.8395058823529412,
+                0.502953125,
+                0.8910588235294119
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.7125625,
+                0.4595294117647059,
+                0.783890625,
+                0.5612705882352942
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.45518749999999997,
+                0.5140705882352941,
+                0.570671875,
+                1.0
+            ]
+        }
+    ],
+    "hash_id": "422_coco_train2017_000000009112.jpg"
+}

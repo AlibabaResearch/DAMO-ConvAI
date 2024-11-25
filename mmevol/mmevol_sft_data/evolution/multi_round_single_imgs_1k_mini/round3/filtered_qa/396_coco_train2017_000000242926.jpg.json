@@ -1,0 +1,59 @@
+{
+    "id": "000000242926",
+    "image": "coco/train2017/000000242926.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What do you think the purpose of this book or poster is?",
+            "steps": [],
+            "answer": "Based on the image, the purpose of this book or poster seems to be a tribute or dedication to the man whose black and white picture is featured in it. The presence of words surrounding the man's image suggests that the material could be providing information about the man's life, accomplishments, or legacy. It is possible that the man has passed away, and this book or poster serves as a commemoration or memorial to honor his memory and contributions. The exact purpose may vary depending on the content of the surrounding text and the context in which the book or poster is displayed."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat is this photo about'?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image is a black and white representation of a bookplate from the Harvard College Library. The bookplate is encased in an ornate frame, at the center of which is a portrait of William Henry Schofield. The frame is adorned with the Harvard seal and the Icelandic flag, adding a touch of prestige and international flair to the overall design. The text on the bookplate, \"Given in Memory of William Henry Schofield Professor of Comparative Literature 1906-1920 by his Wife Mary Lyon Cheney Schofield 6th April 1931\", reveals that this bookplate was given in memory of Professor William Henry Schofield by his wife, Mary Lyon Cheney Schofield, on April 6th, 1931. This text provides a glimpse into the history and significance of this bookplate, indicating that it was not just a label in a book, but a memorial to a beloved professor."
+        }
+    ],
+    "det": [
+        {
+            "label": "tie",
+            "bbox": [
+                0.5188528138528139,
+                0.44564062499999996,
+                0.5991774891774891,
+                0.577328125
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.11874458874458875,
+                0.08984375,
+                0.8845670995670996,
+                0.905640625
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.28285714285714286,
+                0.198953125,
+                0.7131818181818183,
+                0.5979062500000001
+            ]
+        }
+    ],
+    "hash_id": "396_coco_train2017_000000242926.jpg"
+}

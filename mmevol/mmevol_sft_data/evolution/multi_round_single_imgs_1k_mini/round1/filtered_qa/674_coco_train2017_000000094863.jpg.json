@@ -1,0 +1,210 @@
+{
+    "id": "000000094863",
+    "image": "coco/train2017/000000094863.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Analyze the image in a comprehensive and detailed manner.",
+            "steps": [],
+            "answer": "The image features a large statue of a man standing in a courtyard in front of a Romanesque-style building, which appears to be a library or museum. Mounted on the side is a clock, connecting the historical atmosphere with the current time. \n\nThe courtyard appears to be a popular spot, as there are several people scattered throughout the area, some walking and others possibly sitting on benches near the edges of the scene. Some of the visitors are carrying handbags and backpacks, likely bringing their belongings for a day spent at the venue. Overall, the scene looks like a lively and attractive public space."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What purpose might the clock serve apart from showing time to the visitors?",
+            "steps": [],
+            "answer": "Apart from showing time to the visitors, the clock mounted on the side of the statue in front of the library could serve as a landmark and meeting point for people in the area. It might help them easily identify and navigate the surroundings, making it convenient to locate the library or museum-like building. The clock also adds an aesthetic element to the location, enhancing the appeal and significance of the area. Overall, the clock serves not only a functional purpose but also contributes to the visual and utilitarian aspects of the location."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nExplain the visual content of the image in great detail."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a bustling city, a grand neoclassical building stands tall, its light-colored stone facade exuding an air of solemnity and elegance. Six sturdy columns support the front of the building, above which a clock is embedded in the pediment, silently keeping time for the city's inhabitants.\n\nIn front of this architectural marvel, a statue of a distinguished man strides confidently. Dressed in a suit and tie, he walks with the aid of a cane, forever frozen mid-step. His bronze form contrasts sharply with the light stone of the building behind him.\n\nAround these two central figures, life goes on. Several people can be seen walking around the building and the statue, their forms small in comparison to the grandeur of their surroundings. A few trees dot the scene, their green leaves providing a touch of nature amidst the urban landscape. Lampposts stand sentinel here and there, ready to bathe the area in warm light as dusk falls.\n\nThe sky above is overcast, casting a soft light over everything. The ground below appears wet, perhaps from a recent rain shower. Despite this, there's a sense of calm and tranquility that permeates the scene. It's as if this corner of the city, with its grand building and statue, exists in its own serene bubble."
+        }
+    ],
+    "det": [
+        {
+            "label": "clock",
+            "bbox": [
+                0.351046875,
+                0.12899441340782122,
+                0.404140625,
+                0.18802607076350092
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.10204687500000001,
+                0.4177839851024208,
+                0.2475625,
+                0.872756052141527
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.479171875,
+                0.6779329608938548,
+                0.501375,
+                0.7895716945996276
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5020781249999999,
+                0.6638175046554935,
+                0.546671875,
+                0.7886964618249535
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.545875,
+                0.6767225325884544,
+                0.573015625,
+                0.7661266294227187
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.67834375,
+                0.6756983240223464,
+                0.713265625,
+                0.7716014897579144
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8637812500000001,
+                0.6745065176908752,
+                0.8921718750000001,
+                0.7534636871508379
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.90290625,
+                0.6957541899441341,
+                0.94315625,
+                0.773072625698324
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.355234375,
+                0.6374301675977654,
+                0.3799375,
+                0.714096834264432
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.8817812500000001,
+                0.7381378026070763,
+                0.9596718750000001,
+                0.7718621973929237
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.675875,
+                0.7281936685288641,
+                0.6896875,
+                0.7513035381750467
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.56515625,
+                0.6982495344506517,
+                0.5735781249999999,
+                0.7214897579143389
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.39315625,
+                0.6415642458100558,
+                0.41200000000000003,
+                0.7127932960893855
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.849,
+                0.6729981378026071,
+                0.8748125,
+                0.7528677839851023
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.637625,
+                0.635754189944134,
+                0.656203125,
+                0.7108752327746741
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.91634375,
+                0.7008938547486033,
+                0.926671875,
+                0.7276908752327746
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.473515625,
+                0.6405586592178771,
+                0.49281250000000004,
+                0.6999255121042831
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.940609375,
+                0.6940223463687151,
+                0.965859375,
+                0.7393109869646183
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.32928125,
+                0.6746927374301676,
+                0.34290625,
+                0.705977653631285
+            ]
+        }
+    ],
+    "hash_id": "674_coco_train2017_000000094863.jpg"
+}

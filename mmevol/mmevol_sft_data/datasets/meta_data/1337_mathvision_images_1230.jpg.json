@@ -1,0 +1,36 @@
+{
+    "id": "1230",
+    "image": "mathvision/images/1230.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "The distance between two shelves in Monika's kitchen is $36 \\mathrm{~cm}$. She knows that a stack of 8 identical glasses is $42 \\mathrm{~cm}$ high and a stack of 2 such glasses is $18 \\mathrm{~cm}$ high. How many glasses has the biggest stack that will fit between two shelves?",
+            "steps": [],
+            "answer": "Given that a stack of 8 glasses is 42 cm tall and one of 2 glasses is 18 cm tall, we can calculate the height of each glass individually. With these data, the height of one glass is determined to be (42 cm - 18 cm) / (8-2) = 4 cm per glass. To fit between shelves spaced 36 cm apart, we divide 36 cm by the height of one glass: 36 cm / 4 cm per glass = 9 glasses. Therefore, Monika could stack 9 glasses between her shelves."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Based on the image of the stacked glasses, how reflective do the glass materials seem in terms of lighting and shadowing effects?",
+            "steps": [],
+            "answer": "The glasses in the image display a moderate level of reflectivity. The transparency and the smoothness of the glass surfaces allow for some light to be absorbed and refracted, creating subtle shadowing effects visible on the sides and at the base of each glass. This reflectivity also suggests that the glasses would create interesting light patterns if exposed to direct lighting sources."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Considering the design of these glasses, what kind of drinks would be best served in them, based on their shape and size?",
+            "steps": [],
+            "answer": "The tall and relatively narrow shape of these glasses makes them ideal for serving long drinks that benefit from less ice dilution, such as iced teas, lemonades, or certain cocktails like a Tom Collins or Mojitos. The design encourages slow sipping and helps to maintain the temperature of the drink longer, which is particularly beneficial for chilled beverages."
+        }
+    ],
+    "caption": [],
+    "det": [],
+    "hash_id": "1337_mathvision_images_1230.jpg"
+}

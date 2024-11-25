@@ -1,0 +1,184 @@
+{
+    "id": "2168",
+    "image": "ai2d/images/2168.png",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "The given diagram depicts the life cycle of wild atlantic salmon. Which stage of the cycle is shown at I?",
+            "steps": [],
+            "answer": "Fry"
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "The given diagram depicts the life cycle of wild atlantic salmon. Which stage of the cycle is shown at I?",
+            "steps": [],
+            "answer": "The stage labeled 'I' in the diagram represents the 'Fry' stage of the wild Atlantic salmon's life cycle. At this point, the young salmon have emerged from their eggs, developed into free-swimming fish, and are characterized by their vertical stripes or parr marks. This is a critical growth phase before they transform into 'Parr.'"
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you explain what happens during the 'Spawning in a Redd' stage depicted in the image?",
+            "steps": [],
+            "answer": "Certainly! During the 'Spawning in a Redd' stage, female Atlantic salmon select a spot in a riverbed to lay their eggs. A 'Redd' is a gravel nest where the female deposits her eggs. The male then fertilizes the eggs with his milt, and the female covers them with gravel for protection. This process ensures the eggs' safety from predators and the current, allowing them to develop into 'Eyed eggs' where you can see the developing embryos inside."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the defining characteristics of the 'Parr' stage in the salmon's life cycle?",
+            "steps": [],
+            "answer": "The 'Parr' stage is one of the juvenile phases of Atlantic salmon life where the fish display prominent vertical bars known as parr marks along their sides. These marks provide camouflage against the riverbed. During this stage, the salmon are larger than during the 'Fry' stage and start to prepare for their eventual migration to the ocean by undergoing physiological changes, a process known as smoltification."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "And how do they adapt to moving from freshwater to seawater?",
+            "steps": [],
+            "answer": "As the 'Parr' transition into 'Smolt,' they undergo significant changes in their bodies to adapt from a freshwater to a seawater environment. This includes changes in their gills, kidneys, and scales to maintain the proper salt balance in their bodies, a shift in behavior to become more active at night, and changes in their body shape and coloration to better suit life in the ocean. These adaptations help prepare them for their challenging journey into the marine waters where they will grow to adulthood."
+        }
+    ],
+    "conversations_v1": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What significant changes occur during the 'Alevin' stage in the salmon's life cycle?",
+            "steps": [],
+            "answer": "During the 'Alevin' stage, the young salmon has just hatched and is still attached to its yolk sac, which provides nutrition. This stage occurs within the gravel, and the alevin remains hidden to avoid predators. This period is crucial for developing basic structures and preparing for the 'Fry' stage when it will start feeding independently.",
+            "score": 6
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Describe the transition from the 'Smolt' stage to 'Adult' in the salmon's life cycle as illustrated in the diagram.",
+            "steps": [],
+            "answer": "The transition from 'Smolt' to 'Adult' involves the salmon migrating from freshwater to the sea. During the 'Smolt' stage, the fish undergoes physiological transformations to survive in saltwater, such as changes in salt and water regulation. Upon reaching the ocean, the salmon grows rapidly, eventually reaching adulthood. As adults, they return to their natal rivers to spawn, completing the life cycle.",
+            "score": 7
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What adaptations occur during the 'Egg' stage that ensure survival?",
+            "steps": [],
+            "answer": "During the 'Egg' stage, several adaptations occur to ensure survival, such as the development of a tough outer shell that protects against physical damage and predators. The eggs also rely on their environment, being laid in a gravel nest ('Redd'), where the flow of water provides oxygen necessary for development. The location and covering contribute to camouflaging the eggs from predators.",
+            "score": 6
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How does the salmon's behavior change during the 'Smolt' stage?",
+            "steps": [],
+            "answer": "During the 'Smolt' stage, salmon behavior changes dramatically as they prepare for ocean life. They become more silvery in appearance to blend into the open water and begin schooling for protection during migration. They also become more active during twilight and nighttime hours, aiding in predator evasion during this vulnerable period of transition from freshwater to marine environments.",
+            "score": 7
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What factors influence salmon during the transition from 'Parr' to 'Smolt'?",
+            "steps": [],
+            "answer": "The transition from 'Parr' to 'Smolt' is influenced by environmental cues such as light levels, water temperature, and flow. These cues trigger hormonal changes that facilitate physical and behavioral transformations necessary for marine life. The preparation for saltwater includes improving the efficiency of osmoregulation and changes in physical appearance to enhance survival during migration.",
+            "score": 8
+        }
+    ],
+    "conversations_v2": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "multi_choice",
+            "question": "In the diagram illustrating the life cycle of wild Atlantic salmon, identify the stage represented by 'I'. Is it: A) Eyed eggs B) Fry C) Parr D) Adult",
+            "steps": [
+                {
+                    "manipulation": "None",
+                    "description": "Analyze the diagram to determine which stage corresponds to 'I'."
+                }
+            ],
+            "answer": "B",
+            "score": 4
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "rationales_generation",
+            "question": "Describe the reasons the diagram indicates that stage 'I' corresponds to 'Fry'.",
+            "steps": [
+                {
+                    "manipulation": "None",
+                    "description": "Provide detailed characteristics of 'Fry' to justify its identification in the diagram."
+                }
+            ],
+            "answer": "The Fry stage is marked by: 1. Emergence from fertilized eggs. 2. Development of parr marks. 3. Free-swimming behavior crucial for survival.",
+            "score": 4
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "instruction_following",
+            "question": "Explain the events that take place during the 'Spawning in a Redd' phase referenced in the diagram with detailed steps.",
+            "steps": [
+                {
+                    "manipulation": "None",
+                    "description": "Outline the process of 'Spawning in a Redd', detailing each step of the event."
+                }
+            ],
+            "answer": "In the 'Spawning in a Redd' phase: 1. Female lays eggs in a gravel nest. 2. Male fertilizes the eggs. 3. Female covers eggs with gravel for protection.",
+            "score": 5
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "completeness_of_response",
+            "question": "What are the major defining features of the 'Parr' stage in the context of the salmon life cycle?",
+            "steps": [
+                {
+                    "manipulation": "None",
+                    "description": "Highlight key characteristics that must be known regarding the 'Parr' stage."
+                }
+            ],
+            "answer": "The 'Parr' stage is identified by vertical parr marks on their sides, increased size compared to the Fry, and adaptive preparations for migration.",
+            "score": 4
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "text_image_matching",
+            "question": "Examine how the diagram illustrates the adaptations 'Parr' undergo to transition from freshwater to seawater. Does it mention: A) Salt balance regulation B) Behavioral changes C) Physiological transformations D) All of the above?",
+            "steps": [
+                {
+                    "manipulation": "None",
+                    "description": "Review the diagram to verify the mentioned adaptations for transitioning to seawater."
+                }
+            ],
+            "answer": "D",
+            "score": 5
+        }
+    ],
+    "topic_name": [],
+    "caption": [],
+    "det": [],
+    "hash_id": "1009_ai2d_images_2168.png"
+}

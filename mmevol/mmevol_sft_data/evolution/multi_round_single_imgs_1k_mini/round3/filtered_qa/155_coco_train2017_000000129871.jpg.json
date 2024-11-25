@@ -1,0 +1,239 @@
+{
+    "id": "000000129871",
+    "image": "coco/train2017/000000129871.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many people are gathered around the table in the living room?",
+            "steps": [],
+            "answer": "There are five people gathered around the table in the living room."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the gender breakdown of the people gathered around the table?",
+            "steps": [],
+            "answer": "The group around the table consists of one man and four women."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can be observed in the background of the image?",
+            "steps": [],
+            "answer": "In the background of the image, there is an older, now obsolete television."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How is the size of the room described?",
+            "steps": [],
+            "answer": "The room is described as tiny and crowded, indicating limited space for the people gathered around the table."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the setting or atmosphere in the image?",
+            "steps": [],
+            "answer": "The setting is a living room with a group of people gathered around a table, suggesting a casual, social atmosphere where family or friends are enjoying each other's company."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "The image features a small gathering of five people\u2014 one man and four women\u2014 sitting around a dining table in a living room. The five people seem to be enjoying each other's company and engaging in conversation. The room has cozy and crowded feel to it, with various furniture and items scattered around.\n\nAn obsolete television is visible in the background, further adding to the atmosphere of the room. There are two couches and a chair around the table offering seating options for the gathering. A potted plant can be seen on the right side of the TV, while a handbag is placed near the third couch.\n\nSeveral items are present on the dining table, including a cup, a remote, a book, and two bottles. This arrangement makes the gathering seem candid and authentic, as though the people have come together to enjoy each other's company and share their thoughts in a casual setting."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What signs indicate that this image might have been taken some time ago?",
+            "steps": [],
+            "answer": "One sign that indicates this image might have been taken some time ago is the presence of an obsolete television in the background. While most modern TVs are slim and flat-screened, the TV in the image is likely an older model with a larger, box-like shape. This suggests that the photo was taken during a time when such televisions were more common, and flat-screen TVs were not as widespread. Furthermore, the gathering of a small group of people around a table in a living room, with distinct elements like a dining table, couch, chairs, and various personal items, could also depict a more traditional setting that might be encountered less frequently in today's increasingly digital and fast-paced society."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nDescribe the following image."
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy living room, a group of people are gathered around a wooden coffee table, immersed in a lively conversation. The coffee table, which serves as the focal point of the scene, is adorned with a variety of objects. A glass jar, reflecting the soft light in the room, sits next to an open book, its pages filled with untold stories. A candle, unlit but full of potential, adds a touch of warmth to the scene.\n\nThe people around the table are animated, their casual clothing adding to the relaxed atmosphere. One person is leaning on their hand, their attention fully on the discussion. Another is gesturing with their hands, perhaps emphasizing a point or sharing an exciting story.\n\nThe room itself is comfortably furnished with a television and a sofa. The beige walls and wooden furniture create a neutral color scheme that's soothing to the eye. A window in the background lets in natural light, illuminating the room and casting soft shadows.\n\nThis image captures a moment of connection and camaraderie, a snapshot of everyday life beautifully framed within four walls."
+        }
+    ],
+    "det": [
+        {
+            "label": "tv",
+            "bbox": [
+                0.558453125,
+                0.15241666666666667,
+                0.7679218750000001,
+                0.43495833333333334
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.24706250000000002,
+                0.5064166666666667,
+                0.29009375,
+                0.691125
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.36129687499999996,
+                0.3139791666666667,
+                0.41773437499999994,
+                0.5483958333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.8822656249999999,
+                0.6731250000000001,
+                0.9983906250000001,
+                0.9892500000000001
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.0017656249999999998,
+                0.5084583333333333,
+                0.6760625,
+                0.9356875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.17229166666666668,
+                0.207765625,
+                0.6204999999999999
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.36348437499999997,
+                0.26658333333333334,
+                0.65546875,
+                0.9966041666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.7183437500000001,
+                0.15177083333333333,
+                0.9266875000000001,
+                0.6066041666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.743296875,
+                0.0035833333333333333,
+                0.998875,
+                0.8571666666666667
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.761796875,
+                0.5701041666666666,
+                0.886515625,
+                0.9813333333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.090015625,
+                0.564375,
+                0.138796875,
+                0.6435833333333333
+            ]
+        },
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.544484375,
+                0.3056041666666667,
+                0.649671875,
+                0.5037708333333334
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.147,
+                0.5770208333333334,
+                0.17425,
+                0.6120833333333333
+            ]
+        },
+        {
+            "label": "book",
+            "bbox": [
+                0.1663125,
+                0.5508541666666668,
+                0.3538125,
+                0.6435
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.7203906250000001,
+                0.496625,
+                0.7484375,
+                0.5911041666666667
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.17340625,
+                0.32875000000000004,
+                0.22765624999999998,
+                0.5718541666666667
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.19309375,
+                0.14045833333333332,
+                0.37396875,
+                0.5619166666666667
+            ]
+        }
+    ],
+    "hash_id": "155_coco_train2017_000000129871.jpg"
+}

@@ -1,0 +1,185 @@
+{
+    "id": "000000039078",
+    "image": "coco/train2017/000000039078.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What color is the passenger bus in the image?",
+            "steps": [],
+            "answer": "The passenger bus in the image is white."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are some features of the bus?",
+            "steps": [],
+            "answer": "The bus has two large rear-view mirrors and a commercial coach design, indicating that it is likely intended for public transit or long-distance travel."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Is the bus in motion or stationary?",
+            "steps": [],
+            "answer": "The bus is stationary, parked alongside a curb, waiting for passengers to board, with its door open."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What can be seen in the background of the image?",
+            "steps": [],
+            "answer": "In the background of the image, there are trees, indicating a natural or suburban setting for the bus's location."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the purpose of the bus in the image?",
+            "steps": [],
+            "answer": "The purpose of the bus in the image is to transport passengers. Based on the context provided, it could be a transit bus operating within a city or a commercial coach bus for longer-distance travel. Its parked position along the curb with the door open suggests that it is currently waiting for passengers to board or disembark the bus at a designated stop."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the key elements in this picture?",
+            "steps": [],
+            "answer": "The image features a large white passenger bus parked on the side of a street, near a curb, waiting for passengers. The bus has two large rear view mirrors, which enhances its visibility while driving. Trees can be seen in the background, providing a pleasant environment for the passengers.\n\nThere are several people in the scene. One person is close to the left side of the bus, two people are located farther back, and another person is standing on the right side of the bus. Another person seems to be using a cell phone near the right edge of the scene. \n\nLuggage is scattered around the area, including a handbag and a suitcase near the center of the scene, and two backpacks - one on the right side and the other near the bottom of the image. This suggests that the passengers have just arrived at their destination or are preparing to board the bus for their journey."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image depicts a scene on a road where a white tour bus is parked. The bus is adorned with a blue stripe and has the words \"Glendalough\" and \"Kevins Bus Service\" written on it. It's a Scania Irizar i6 model, as indicated by the visible branding. The license plate of the bus reads \"12-D-18027\", suggesting it's registered in the year 2012.\n\nA group of people can be seen standing on the right side of the bus, possibly passengers waiting to board or just disembarked. Their exact number is not clear from the image.\n\nThe location appears to be a tree-lined road, as evidenced by a tree visible in the background. The precise location or the direction of the road is not discernible from the image.\n\nPlease note that this description is based on the visible elements in the image and does not include any inferred or assumed information."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.016453125,
+                0.5693911007025761,
+                0.065828125,
+                0.6030210772833724
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.029859375,
+                0.2820843091334895,
+                0.88809375,
+                0.883887587822014
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.797546875,
+                0.5772599531615925,
+                0.9032031249999999,
+                0.9213583138173302
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.872234375,
+                0.5468149882903981,
+                0.9680937500000001,
+                0.9125995316159251
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.829703125,
+                0.6571428571428573,
+                0.90265625,
+                0.7991334894613583
+            ]
+        },
+        {
+            "label": "suitcase",
+            "bbox": [
+                0.519640625,
+                0.786768149882904,
+                0.584046875,
+                0.9808430913348946
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.00078125,
+                0.7246604215456675,
+                0.129453125,
+                0.9999063231850118
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9721249999999999,
+                0.5304449648711944,
+                1.0,
+                0.6192740046838408
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.866953125,
+                0.5950585480093676,
+                0.8902968750000001,
+                0.6362295081967213
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.19143749999999998,
+                0.49067915690866515,
+                0.251390625,
+                0.5810538641686183
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.582359375,
+                0.8985245901639345,
+                0.613765625,
+                0.9647540983606558
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.9171250000000001,
+                0.6333021077283373,
+                0.9268437500000001,
+                0.6390866510538643
+            ]
+        }
+    ],
+    "hash_id": "16_coco_train2017_000000039078.jpg"
+}

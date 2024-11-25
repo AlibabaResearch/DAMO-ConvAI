@@ -1,0 +1,192 @@
+{
+    "id": "000000010130",
+    "image": "coco/train2017/000000010130.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Describe the following image.",
+            "steps": [],
+            "answer": "The image is a collage of a scene taking place at a phone store where various customers and salespersons are interacting with different smartphones. There are a couple of women exploring the capabilities of the devices, with one talking to a person at the store, and another being shown various features by a salesperson.\n\nA total of eleven cell phones are spread across the collage, some held by the customers and others displayed across the image. The people in the scene include five individuals, with two customers and one salesperson featured prominently in the foreground, and two others engaged in discussions or exploring the store in the background. The overall atmosphere seems to be lively, with many conversations and activities taking place around the latest smartphone offerings."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the various ways women are interacting with cell phones in this collage?",
+            "steps": [],
+            "answer": "In this collage, women are interacting with cell phones in several ways, such as browsing devices in a phone store, talking with salespersons, and showcasing phone features to others. The collage includes numerous cell phones ranging from individual devices to groups of phones on display. Some women are examining phones on display, while others are engaged in conversation with salespersons or other individuals in the store. This combination of interactions highlights various customer experiences in an electronics store, from exploring and comparing different phone models to receiving assistance from a salesperson in making an informed purchasing decision."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat are the key elements in this picture?"
+        },
+        {
+            "from": "gpt",
+            "value": "This is a collage of three images, each with a blue and white background:\n\n1. The first image features two women in a store. One woman, presumably a salesperson, is dressed in a white lab coat. The other woman, likely a customer, is wearing a red jacket. Their exact actions are not clear from the image.\n\n2. The second image showcases a Samsung Galaxy S phone. The phone is black and displays a vibrant image of a car on its screen. \n\n3. The third image again features the same two women from the first image. This time, the salesperson is showing the customer a phone, which is black and has a gold home button.\n\nPlease note that these descriptions are based on the information available in the image and may not capture all details."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.73615625,
+                0.667423887587822,
+                0.967046875,
+                0.9865105386416863
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.3853125,
+                0.16629976580796255,
+                0.562234375,
+                0.4921311475409836
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.28003125,
+                0.35974238875878223,
+                0.335,
+                0.3991803278688525
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.655046875,
+                0.09695550351288056,
+                0.9724999999999999,
+                0.47355971896955507
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.0125,
+                0.5117096018735363,
+                0.16640625,
+                0.9355971896955504
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.46606249999999994,
+                0.14187353629976582,
+                0.48278124999999994,
+                0.185807962529274
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.48364062499999994,
+                0.13992974238875877,
+                0.50215625,
+                0.1857377049180328
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.83671875,
+                0.6249414519906323,
+                0.85453125,
+                0.6696252927400469
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.8731406249999999,
+                0.6219672131147541,
+                0.8912968749999999,
+                0.6672365339578453
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.21140625000000002,
+                0.515175644028103,
+                0.361328125,
+                0.9353864168618267
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.4501875,
+                0.14402810304449648,
+                0.46410937500000005,
+                0.17255269320843092
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.080875,
+                0.07557377049180329,
+                0.3375625,
+                0.4275409836065574
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4760625,
+                0.545175644028103,
+                0.67290625,
+                0.9247072599531616
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.614203125,
+                0.7994847775175644,
+                0.6503281249999999,
+                0.8408196721311475
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.856828125,
+                0.6247306791569086,
+                0.873859375,
+                0.6686651053864168
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.816359375,
+                0.5697423887587822,
+                0.8344843750000001,
+                0.6195550351288056
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.47765625,
+                0.9062295081967212,
+                0.506140625,
+                0.9259718969555035
+            ]
+        }
+    ],
+    "hash_id": "397_coco_train2017_000000010130.jpg"
+}

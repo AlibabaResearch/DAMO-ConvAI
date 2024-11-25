@@ -1,0 +1,154 @@
+{
+    "id": "000000154379",
+    "image": "coco/train2017/000000154379.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image features a man in a suit preparing to uncork a bottle of wine. He is leaning down and appears focused on opening the bottle. The man is wearing a tie, which adds to his professional appearance. \n\nThe setting appears to be a dining area, with a dining table in the background. Several wine glasses and cups are scattered across the table. In addition to the wine glasses and cups, there is a cell phone and a handbag placed on the table, indicating a social gathering."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What other utensils are present and in close proximity to the man in the suit uncorking a wine bottle?",
+            "steps": [],
+            "answer": "Near the man in the suit uncorking a wine bottle, there is a dining table containing several wine glasses and cups. These utensils are in close proximity to the man, suggesting that they could be used to serve the wine after the bottle is opened. In addition, there is a handbag and a cell phone on the table as well."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you describe the main features of this image for me?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the center of the image, a man dressed in a navy blue suit and a red tie is the main subject. He is engaged in the action of opening a champagne bottle with a corkscrew. The champagne bottle, with its green body and gold foil top, is being held firmly in his hands.\n\nThe man is standing in front of a white table, which holds a clear wine glass and a bottle of water. The wine glass is empty and stands to the left of the water bottle.\n\nThe backdrop to this scene is a beige wall, against which rests a silver serving cart. The cart appears to be empty and is located to the right of the man.\n\nThe entire scene paints a picture of a celebration or a special occasion about to commence with the popping of the champagne bottle."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.6781666666666666,
+                0.6152968750000001,
+                0.7959791666666667,
+                0.9256406250000001
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.8880625,
+                0.55246875,
+                0.9963124999999999,
+                0.821453125
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.4572083333333333,
+                0.319234375,
+                0.550125,
+                0.7388125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.065171875,
+                0.8209791666666667,
+                0.9528125000000001
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.47479166666666667,
+                0.746703125,
+                0.6304375,
+                0.999109375
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.8889583333333333,
+                0.36253125,
+                0.9225625,
+                0.394046875
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.32060416666666663,
+                0.72321875,
+                0.9977499999999999,
+                0.9906406249999999
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.0,
+                0.8295937500000001,
+                0.36172916666666666,
+                0.9865468750000002
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.9242916666666667,
+                0.33137500000000003,
+                0.9507083333333334,
+                0.38921875000000006
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.9077083333333333,
+                0.326859375,
+                0.934125,
+                0.391734375
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.8528958333333333,
+                0.422828125,
+                0.897625,
+                0.46482812500000004
+            ]
+        },
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.3324166666666667,
+                0.9575156249999999,
+                0.5410833333333334,
+                0.9995624999999999
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.06266666666666666,
+                0.9399531250000001,
+                0.27220833333333333,
+                1.0
+            ]
+        }
+    ],
+    "hash_id": "175_coco_train2017_000000154379.jpg"
+}

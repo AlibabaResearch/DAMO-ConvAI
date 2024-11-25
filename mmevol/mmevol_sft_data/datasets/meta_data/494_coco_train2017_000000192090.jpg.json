@@ -1,0 +1,163 @@
+{
+    "id": "000000192090",
+    "image": "coco/train2017/000000192090.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people doing in the image?",
+            "steps": [],
+            "answer": "The people in the image, specifically a couple of young men, are skateboarding at a skate park and performing tricks."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is one of the skateboarders wearing?",
+            "steps": [],
+            "answer": "One of the skateboarders is wearing a cap and a checkered shirt."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the skateboarder in the checkered shirt doing in the photo?",
+            "steps": [],
+            "answer": "The skateboarder in the checkered shirt is performing a trick, where he balances on the edge of a cement rim at the skateboard park."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of facility are they skateboarding in?",
+            "steps": [],
+            "answer": "They are skateboarding in a skate park, which is a designated area with ramps, ledges, and other obstacles designed specifically for skateboarding activities."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the features and functions of a skate park?",
+            "steps": [],
+            "answer": "A skate park is an outdoor or indoor facility specifically designed for skateboarding, BMX biking, and other similar wheeled sports. The purpose of a skate park is to provide a safe and designated area for these activities with various obstacles, features, and terrain that allow participants to perform tricks, improve their skills, and challenge themselves.\n\nSome common features of a skate park include:\n\n1. Ramps: These inclined surfaces allow skateboarders to gain speed and elevation, perform aerial tricks, and transition between different levels of the park. Ramps can be of varying sizes, shapes, and steepness.\n\n2. Rails: Rails are metal bars that skateboarders can grind or slide along, allowing them to demonstrate balance and technical skills.\n\n3. Ledges: These raised, flat surfaces provide skateboarders with an opportunity to perform grinding or sliding tricks similar to rails but use a wider surface.\n\n4. Bowls and Pools: These are large, curved, and concave surfaces that resemble an empty swimming pool. They allow skateboarders to gain momentum and perform various tricks while riding along the walls of the bowl or pool.\n\n5. Halfpipes and Quarter pipes: These are curved ramps that enable skateboarders to perform vertical tricks and transitions between the ground and ramp surfaces. Halfpipes are larger structures with two opposite-facing ramps, while quarter pipes have just one side open.\n\n6. Stair sets: These are a series of stairs with accompanying handrails that skateboarders can use to perform jumping, grinding, and sliding tricks.\n\nSkate parks can be made of various materials such as wood, concrete, or metal, depending on the location, budget, and intended use. They serve as a gathering point for the local skating community, where skaters can practice their craft, socialize, and even participate in events or competitions. The design and features of a skate park ultimately aim to cater to different skill levels and foster creativity and progression in the sport."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What safety precautions should the skateboarders consider in this environment?",
+            "steps": [],
+            "answer": "As the skateboarders are performing tricks in a skate park, they should take several safety precautions to minimize the risk of injury and ensure an enjoyable experience. These precautions include:\n\n1. Wearing appropriate protective gear, such as helmets, knee pads, elbow pads, and wrist guards, to protect themselves from possible falls and collisions.\n2. Inspecting the skate park for any hazards or obstacles before starting, including checking the skating surfaces for debris, cracks, or other irregularities that might affect their performance and safety.\n3. Being aware of their surroundings, including the presence of other skateboarders, pedestrians, parked cars or buses, and potential obstacles like stop signs near the skate park.\n4. Practicing proper skateboarding etiquette by taking turns with other park users, watching out for beginners or younger skaters, and respecting the skate park's rules and guidelines.\n5. Staying within their skill level, performing tricks they are comfortable with, and gradually progressing to more complex maneuvers to avoid injuries from attempting risky stunts."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat is this photo about'?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a concrete jungle, a young man in a blue and white plaid shirt and black pants is caught in a moment of pure exhilaration. He's skateboarding, his arms outstretched for balance as his skateboard defies gravity, suspended in mid-air. The trick he's performing is a testament to his skill and daring.\n\nThe skate park around him is a symphony of concrete curves, ramps, and obstacles, each one a challenge to be conquered. Two other people share this urban playground with him, one of them also engaged in the dance of skateboarding.\n\nThe sky above them is a clear blue canvas, unmarred by clouds. It contrasts sharply with the grey concrete of the skate park and the urban landscape that surrounds them. Buildings rise in the distance, silent spectators to the spectacle at the park. Trees dot the scene, their green foliage adding a touch of nature to this man-made setting.\n\nEvery element in this image tells a story of motion, skill, and the joy of skateboarding."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.049984375,
+                0.16107936507936507,
+                0.16184375,
+                0.22041269841269842
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.101,
+                0.17087301587301587,
+                0.20909375,
+                0.223968253968254
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.482890625,
+                0.17787301587301588,
+                0.540921875,
+                0.21103174603174601
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.301515625,
+                0.1834761904761905,
+                0.69296875,
+                0.6385079365079365
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.292171875,
+                0.11644444444444445,
+                0.4405,
+                0.4771746031746032
+            ]
+        },
+        {
+            "label": "skateboard",
+            "bbox": [
+                0.267765625,
+                0.548984126984127,
+                0.506328125,
+                0.6613492063492064
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.64115625,
+                0.19482539682539682,
+                0.743015625,
+                0.21557142857142858
+            ]
+        },
+        {
+            "label": "skateboard",
+            "bbox": [
+                0.0,
+                0.45668253968253963,
+                0.0775,
+                0.48171428571428565
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.11334920634920634,
+                0.053609375,
+                0.46439682539682536
+            ]
+        },
+        {
+            "label": "stop sign",
+            "bbox": [
+                0.5603906249999999,
+                0.1233968253968254,
+                0.5815937499999999,
+                0.15012698412698414
+            ]
+        }
+    ],
+    "hash_id": "494_coco_train2017_000000192090.jpg"
+}

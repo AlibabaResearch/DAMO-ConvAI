@@ -1,0 +1,75 @@
+{
+    "id": "000000025102",
+    "image": "coco/train2017/000000025102.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kind of repurposed vehicle is shown, and what is the purpose of this setup?",
+            "steps": [],
+            "answer": "The image features a green bus repurposed as an outdoor vehicle kiosk. The bus displays the words \"Somerset cider,\" which suggests that it might be selling cider or promoting a cider brand. The crowd of patrons gathered outside the bus indicates that it is serving as an outdoor bar, providing drinks and possibly refreshments to customers. This unique setup creates an interesting and engaging environment for people to enjoy Somerset cider and socialize."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat's happening in the scene?"
+        },
+        {
+            "from": "gpt",
+            "value": "The image features a vibrant scene from a festival. The centerpiece is a **blue double-decker bus** adorned with a charming **green and white floral design**. The bus is parked on a grassy area, serving as a mobile bar for the festival, as indicated by the sign that reads \"**Somerset Cider**\". \n\nIn the foreground, there are festival-goers enjoying the event. They are casually dressed, some wearing hats, and holding cups - likely enjoying the cider mentioned on the bus. \n\nThe background of the image reveals a serene setting of trees under a clear blue sky, adding to the overall festive and relaxed atmosphere of the scene. \n\nPlease note that this description is based on the provided image and does not include every single detail due to the limitations of visual perception and interpretation."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.5505555555555556,
+                0.8040849673202615,
+                0.8031209150326797,
+                0.9806862745098041
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.017941176470588235,
+                0.15604575163398693,
+                0.9887908496732026,
+                0.7502287581699346
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8736437908496731,
+                0.7035130718954249,
+                0.9808333333333333,
+                0.9816993464052287
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.055751633986928104,
+                0.8130228758169935,
+                0.318218954248366,
+                0.9798856209150327
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.4968954248366013,
+                0.8494444444444444,
+                0.598218954248366,
+                0.9779901960784313
+            ]
+        }
+    ],
+    "hash_id": "439_coco_train2017_000000025102.jpg"
+}

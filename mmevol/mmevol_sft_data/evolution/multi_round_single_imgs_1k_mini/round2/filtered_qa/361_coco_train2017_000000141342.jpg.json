@@ -1,0 +1,202 @@
+{
+    "id": "000000141342",
+    "image": "coco/train2017/000000141342.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "The image depicts an outdoor vegetable and fruit market bustling with activity. There are several people shopping in the market, with four customers visible around the market area and one person potentially selling the produce. Crates of fresh produce, like apples, bananas, carrots, and broccoli, are arranged on stands throughout the market.\n\nCustomers are seen examining and selecting various vegetables and fruits from the stands. One customer in the scene is accompanied by a handbag for carrying the purchased items. A clock is mounted on a wall in the background, adding to the market's ambiance."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What kinds of interactions might one encounter in this setting?",
+            "steps": [],
+            "answer": "In this outdoor fruit and vegetable market, one could encounter various interactions, such as customers asking vendors about the prices or quality of the produce, bargaining for better deals, discussing the freshness or origin of the products, or requesting recommendations for selecting the best items. People might also be seen comparing different fruits and vegetables, exchanging cooking tips or recipes, and engaging in casual conversations or small talk with other shoppers or vendors. Additionally, vendors may provide information about their produce, offer samples to taste, or suggest alternatives to customers. This kind of setting promotes a social and interactive shopping experience, fostering a sense of community and engagement among the participants."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nExplain the visual content of the image in great detail."
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a bustling market scene, teeming with life and color. At the heart of the scene are several wooden crates, stacked in an inviting display. Each crate is a treasure trove of fresh produce, showcasing a variety of fruits and vegetables. The colors are a feast for the eyes, with the vibrant greens, yellows, and reds of the produce dominating the scene, punctuated by hints of orange and brown.\n\nThree people animate the scene. A vendor stands guard behind the crates, presumably ready to weigh, bag, and sell the produce. Two customers are engrossed in browsing the items on display, their attention captured by the quality and variety of the offerings.\n\nThe image is taken from a slightly elevated angle, providing a comprehensive view of the market scene. This perspective allows us to appreciate not only the individual elements within the image but also their relative positions and interactions. The vendor is clearly separated from the customers by the barrier of crates, yet they are all connected through their engagement with the fresh produce.\n\nThis image is a snapshot of everyday life, capturing a moment in time at a busy market. It's a testament to the simple beauty found in daily routines and interactions."
+        }
+    ],
+    "det": [
+        {
+            "label": "clock",
+            "bbox": [
+                0.390484375,
+                0.06011600928074246,
+                0.429203125,
+                0.1365661252900232
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.003046875,
+                0.20146171693735498,
+                0.15050000000000002,
+                0.9847563805104409
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.49890625,
+                0.321368909512761,
+                0.5792343750000001,
+                0.4282134570765661
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9432031249999999,
+                0.3688399071925754,
+                0.9995312499999999,
+                0.714292343387471
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.13753125,
+                0.6596287703016241,
+                0.20896875,
+                0.7366589327146171
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.150921875,
+                0.6105568445475638,
+                0.189046875,
+                0.6687935034802784
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.10278125,
+                0.669860788863109,
+                0.11659375000000001,
+                0.7015081206496518
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9079218750000001,
+                0.4074245939675174,
+                0.9229843750000001,
+                0.46125290023201854
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.21373437499999998,
+                0.503155452436195,
+                0.22331249999999997,
+                0.5310904872389791
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.173515625,
+                0.5532250580046404,
+                0.24428125,
+                0.6110440835266822
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.2290625,
+                0.5375638051044084,
+                0.28671875,
+                0.5833178654292344
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.18851562500000002,
+                0.5088631090487239,
+                0.23543750000000002,
+                0.5650116009280742
+            ]
+        },
+        {
+            "label": "carrot",
+            "bbox": [
+                0.777734375,
+                0.03334106728538283,
+                0.8056875,
+                0.08243619489559165
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.232203125,
+                0.5238515081206496,
+                0.25089062500000003,
+                0.5446867749419954
+            ]
+        },
+        {
+            "label": "broccoli",
+            "bbox": [
+                0.24128124999999997,
+                0.6155452436194896,
+                0.27971874999999996,
+                0.6658236658932716
+            ]
+        },
+        {
+            "label": "broccoli",
+            "bbox": [
+                0.22315625,
+                0.6106496519721578,
+                0.242296875,
+                0.6546867749419953
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.79296875,
+                0.3225290023201856,
+                0.930765625,
+                0.734106728538283
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.781359375,
+                0.6736658932714618,
+                0.8598281249999999,
+                0.8856612529002321
+            ]
+        }
+    ],
+    "hash_id": "361_coco_train2017_000000141342.jpg"
+}

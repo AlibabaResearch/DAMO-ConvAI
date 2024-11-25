@@ -1,0 +1,78 @@
+```json
+[
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "instruction_following",
+        "question": "Given the scene, outline a series of actions to successfully locate the credit card that is supposedly hidden under the floor lamp. Include necessary steps based on the provided text description.",
+        "steps": [
+            {"manipulation":"None", "description":"Understand that you are facing sidetable 1 and there’s nothing next to it."},
+            {"manipulation":"go to floorlamp", "description":"Move towards the floorlamp to check beneath it."},
+            {"manipulation":"examine floorlamp area", "description":"Thoroughly look under the floorlamp for the credit card."},
+            {"manipulation":"None", "description":"Evaluate findings and determine if additional actions or searches are needed."}
+        ],
+        "answer": "To find the credit card, first face sidetable 1, then approach the floorlamp, examine beneath it, and evaluate what you discover."
+    },
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "completeness_of_response",
+        "question": "In a brief description, encapsulate the entirety of what this scene reveals, considering the various items present.",
+        "steps": [
+            {"manipulation":"None", "description":"Consider all visible elements on the sidetable."},
+            {"manipulation":"None", "description":"Combine the observed items into a cohesive description."}
+        ],
+        "answer": "The sidetable features a potted plant, a hand-shaped statue, a set of keys, and a credit card, creating a blend of decorative and functional objects."
+    },
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "rationales_generation",
+        "question": "What might the rationale be behind the inclusion of the hand-shaped statue on the sidetable? Provide three reasons.",
+        "steps": [
+            {"manipulation":"None", "description":"Explore the potential meanings or purposes of the statue."},
+            {"manipulation":"None", "description":"Consider artistic, symbolic and practical aspects of its design."}
+        ],
+        "answer": "1. The hand-shaped statue may symbolize creativity and artistry. 2. It could serve as an eye-catching decorative element that enhances the room's aesthetics. 3. It might hold sentimental value, representing a gift or a personal connection to the owner."
+    },
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "creative_content_generation",
+        "question": "Envision a scenario where this sidetable resides within a wizard's study. What unique magical attributes might be attributed to each object present?",
+        "steps": [
+            {"manipulation":"None", "description":"Imaginatively link each item to potential magical functions."},
+            {"manipulation":"None", "description":"Describe the fascinating implications of such a setting."}
+        ],
+        "answer": "In a wizard's study, the potted plant could be an essential ingredient for powerful potions, the hand-shaped statue might protect against dark spells, the keys could open portals to other worlds, while the credit card could serve as a modern conduit for magical exchanges."
+    },
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "text_image_matching",
+        "question": "If a detective were to analyze this sidetable in the context of a crime scene, what procedures and considerations would they undertake concerning the items visible?",
+        "steps": [
+            {"manipulation":"None", "description":"Assess each item for forensic evidence like fingerprints or hairs."},
+            {"manipulation":"None", "description":"Establish any connections between the items and potential suspects or victims."}
+        ],
+        "answer": "A detective would inspect items for latent prints or DNA, consider the hand-shaped statue for any hidden clues, relate the keys to locations of interest, and trace ownership of the credit card to link it to suspects or the victim’s actions."
+    },
+    {
+        "image_position": "single",
+        "objects": [],
+        "skills": [],
+        "format": "creative_content_generation",
+        "question": "Compose a narrative involving the items on this sidetable, weaving them into a compelling short story.",
+        "steps": [
+            {"manipulation":"None", "description":"Conceptualize a plot that utilizes all listed items creatively."},
+            {"manipulation":"None", "description":"Craft a coherent and engaging storyline."}
+        ],
+        "answer": "In an old attic, Lily unearthed a peculiar hand statue that she placed beside her cherished plant and mislaid keys. Strangely, the keys returned to the sidetable whenever lost. One day, the statue revealed a secret compartment, unveiling a faded map alongside an encrypted message: 'Unlock the secret of time.'"
+    }
+]
+```

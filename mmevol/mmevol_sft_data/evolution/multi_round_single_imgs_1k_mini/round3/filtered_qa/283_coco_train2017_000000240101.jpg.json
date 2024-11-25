@@ -1,0 +1,95 @@
+{
+    "id": "000000240101",
+    "image": "coco/train2017/000000240101.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How could the man improve his living room's organization?",
+            "steps": [],
+            "answer": "To improve his living room's organization, the man could consider rearranging or decluttering the furniture and decorative items. In the image, there are a chair, dining table, couch, potted plant, and vase. He could create a more visually balanced layout by positioning the furniture in a way that better utilizes the available space and creates distinct functional areas. For example, he could move the dining table and chair closer together to define a designated dining area. Additionally, he could consider removing or relocating any unnecessary items, such as extra decorative pieces, which could not only create more space but also simplify the overall aesthetic. By organizing and optimizing the layout of his living room, the man can enjoy a more comfortable and functional environment."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a cozy living room, a young man stands confidently, his right hand gripping a camera. His black t-shirt contrasts with the blue of his jeans, and a tattoo adorns his left arm, adding an element of intrigue to his persona. \n\nThe room around him is filled with objects that tell a story of their own. A tablecloth, vibrant in its red hue, graces a table where a vase cradles yellow roses, their petals a burst of sunshine against the rich backdrop. \n\nOn the wall hangs a wooden mask, its features carved with an artisan's precision, silently observing the room's activities. Nearby, a painting captures the tranquility of a field of flowers, their colors immortalized on canvas. Each object in this room, from the man to the mask, contributes to a narrative that is as captivating as it is unique."
+        }
+    ],
+    "det": [
+        {
+            "label": "potted plant",
+            "bbox": [
+                0.7346868250539957,
+                0.40978125,
+                0.9997408207343412,
+                0.660671875
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.45373650107991365,
+                0.5892031249999999,
+                0.8447084233261339,
+                1.0
+            ]
+        },
+        {
+            "label": "remote",
+            "bbox": [
+                0.4681209503239741,
+                0.78840625,
+                0.748207343412527,
+                0.8529375
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.8455507559395249,
+                0.5373281249999999,
+                0.9400863930885529,
+                0.656078125
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0496976241900648,
+                0.03078125,
+                0.7361771058315334,
+                1.0
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.5444708423326134,
+                0.57165625,
+                0.9969330453563716,
+                0.7477343750000001
+            ]
+        },
+        {
+            "label": "couch",
+            "bbox": [
+                0.0,
+                0.517953125,
+                0.1048596112311015,
+                1.0
+            ]
+        }
+    ],
+    "hash_id": "283_coco_train2017_000000240101.jpg"
+}

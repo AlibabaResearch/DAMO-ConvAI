@@ -1,0 +1,163 @@
+{
+    "id": "000000189239",
+    "image": "coco/train2017/000000189239.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image captures a giraffe walking in what appears to be a zoo or a park with several vehicles, such as trucks and possibly jeeps, parked nearby. A few chairs are also visible in the area, where visitors may sit and enjoy the view.\n\nThere are multiple people in the scene, some of them likely riding in the vehicles or standing near the giraffe. They appear to be situated around the giraffe at various distances, observing the majestic creature or participating in a guided jeep tour of the area. One person can be seen further in the background, possibly a staff member or another visitor. The presence of the tree next to the giraffe provides a natural touch to the environment."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is an unusual aspect of the giraffe's situation?",
+            "steps": [],
+            "answer": "An unusual aspect of the giraffe's situation is its proximity to vehicles, people, and chairs. In the image, the giraffe is walking near trucks, and there are people situated around it, suggesting this might be a zoo or a reserve where visitors are allowed to interact or observe the animal up close. This is unlike what would be experienced in the wild, where giraffes would not be surrounded by vehicles, chairs or human activity. This high level of interaction allows visitors to observe the giraffe at a much closer range than they would be able to in a traditional safari or natural habitat, making the experience unique and uncommon."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat are the key elements in this picture?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a lively zoo, a majestic giraffe, adorned with a coat of brown and white spots, strides confidently towards the left side of the frame. Its long neck, a symbol of its unique beauty, stands out against the backdrop of lush green trees. \n\nA fence, a boundary between the spectators and the spectacle, stretches across the foreground of the image. Beyond this barrier, life buzzes with activity. People are gathered around a picnic table, their attention captivated by the giraffe's graceful movements. \n\nAdding to this vibrant scene is a child, small in stature but brimming with curiosity. The child is moving towards the right side of the image, perhaps drawn by the allure of other fascinating creatures in this wildlife haven. \n\nEvery element in this image paints a vivid picture of a day at the zoo, where humans and animals coexist in harmony, each going about their day under the same bright sky."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.7231599999999999,
+                0.46648,
+                0.7699199999999999,
+                0.57008
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.24446,
+                0.57368,
+                0.29584000000000005,
+                0.6644533333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.08932,
+                0.6202133333333334,
+                0.15674000000000002,
+                0.8
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.27074000000000004,
+                0.5937066666666666,
+                0.32766,
+                0.6769866666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.52248,
+                0.6674133333333333,
+                0.58484,
+                0.8179733333333333
+            ]
+        },
+        {
+            "label": "giraffe",
+            "bbox": [
+                0.15674000000000002,
+                0.17528000000000002,
+                0.67584,
+                0.92136
+            ]
+        },
+        {
+            "label": "truck",
+            "bbox": [
+                0.0016799999999999999,
+                0.6561866666666667,
+                0.49213999999999997,
+                0.8449333333333334
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.27388,
+                0.62616,
+                0.33039999999999997,
+                0.6734133333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.15342,
+                0.6499199999999999,
+                0.21242,
+                0.72096
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.15524000000000002,
+                0.42064,
+                0.25312,
+                0.5160533333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.33574,
+                0.5584533333333332,
+                0.37066000000000004,
+                0.6415466666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.14746,
+                0.4203733333333333,
+                0.18142000000000003,
+                0.48677333333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.17158,
+                0.4006133333333333,
+                0.23632,
+                0.4881333333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9024800000000001,
+                0.5958666666666667,
+                0.91538,
+                0.6182399999999999
+            ]
+        }
+    ],
+    "hash_id": "828_coco_train2017_000000189239.jpg"
+}

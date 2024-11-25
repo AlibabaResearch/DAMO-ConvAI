@@ -1,0 +1,122 @@
+{
+    "id": "000000095124",
+    "image": "coco/train2017/000000095124.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is this photo about'?",
+            "steps": [],
+            "answer": "In the image, a woman wearing a black coat is walking up a set of stairs towards a building's doorway. She is carrying a handbag with her as she ascends the steps. Further up, there are two men standing near the top of the stairs, possibly waiting or having a conversation. \n\nIn the surroundings, there is another handbag situated near the ground, and an umbrella can be seen placed against the stair railing. A cell phone and a cup are present in the scene as well, showing that someone may have misplaced their belongings or is sitting nearby. A backpack is also visible on the ground, adding to the variety of items in the scene."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "conversations_v3": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat are the key elements in this picture?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the image, a trio of individuals are engaged in their own worlds on the steps of a grand stone building. The building, with its wooden double doors and stained glass window above, exudes an air of antiquity. Two columns stand guard on either side of the entrance, adding to the structure's imposing presence.\n\nOn the top step, to the left, stands a person engrossed in a phone conversation, their device held up to their ear. Their attire is dark, blending them into the shadows of the building. \n\nIn the middle, another individual is captured mid-stride, ascending the stone steps. They carry a brown bag, perhaps holding the day's necessities or treasures found.\n\nTo the right, on the second step from the top, another person mirrors the actions of their companion on the top step. They too are deep in conversation on their phone, oblivious to their surroundings.\n\nEach person is wrapped in their own bubble amidst the grandeur of the stone building, creating a scene that is both ordinary and extraordinary at once."
+        }
+    ],
+    "det": [
+        {
+            "label": "cell phone",
+            "bbox": [
+                0.64259375,
+                0.11281030444964872,
+                0.648140625,
+                0.12426229508196722
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.229640625,
+                0.25309133489461355,
+                0.389828125,
+                0.8122950819672131
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.58309375,
+                0.06213114754098361,
+                0.68565625,
+                0.536791569086651
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.11396875,
+                0.15133489461358315,
+                0.126953125,
+                0.18377049180327867
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.07270312500000001,
+                0.2859484777517564,
+                0.091671875,
+                0.3585011709601873
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.232765625,
+                0.35229508196721315,
+                0.291671875,
+                0.5696018735362999
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.6725156250000001,
+                0.28988290398126465,
+                0.702109375,
+                0.39285714285714285
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.069265625,
+                0.11053864168618267,
+                0.173453125,
+                0.5151756440281031
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.06378125,
+                0.28639344262295086,
+                0.092640625,
+                0.422903981264637
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.2493125,
+                0.576440281030445,
+                0.28645312500000003,
+                0.718430913348946
+            ]
+        }
+    ],
+    "hash_id": "664_coco_train2017_000000095124.jpg"
+}

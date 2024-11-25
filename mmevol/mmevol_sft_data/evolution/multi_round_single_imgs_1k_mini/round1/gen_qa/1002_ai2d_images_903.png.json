@@ -1,0 +1,48 @@
+```json
+[
+  {
+    "image_position": "single",
+    "objects": ["grasshopper", "bird", "snake"],
+    "skills": ["Context Understanding Ability", "Relationship Description Ability"],
+    "format": "Complex Reasoning",
+    "question": "In the depicted food web, analyze the dietary relationships and determine the implications of the bird preying on the grasshopper, considering the potential effects on both its population and the overall ecosystem dynamics. Let's think through the relationships and outcomes step by step.",
+    "steps": [
+      {
+        "manipulation": "None",
+        "description": "Identify the bird's prey within the food web, focusing on the grasshopper as its primary food source."
+      },
+      {
+        "manipulation": "None",
+        "description": "Examine how the bird's feeding behavior affects grasshopper population levels and what consequences this might have on other organisms and energy flow within the ecosystem."
+      },
+      {
+        "manipulation": "None",
+        "description": "Consider the role of other predators like the snake and how they contribute to balancing the ecosystem. Discuss the potential impact of any changes to this balance."
+      }
+    ],
+    "answer": "In this food web, the bird preys on the grasshopper. By regulating the grasshopper population, the bird indirectly supports the health of the grasses, preventing overgrazing. This interaction is crucial for maintaining ecosystem stability. If the bird's presence were reduced, grasshopper numbers could surge, leading to overconsumption of grasses, which could then affect other herbivores and disrupt the food chain. Additionally, the snake helps control the mouse population, interacting with this dynamic. Such interdependencies illustrate the complex balance within ecosystems, where each predator-prey relationship helps regulate and sustain the environmental equilibrium."
+  },
+  {
+    "image_position": "single",
+    "objects": ["bird", "mouse", "snake"],
+    "skills": ["Knowledge Integration Ability", "Calculating Ability"],
+    "format": "Complex Reasoning",
+    "question": "Assess how the bird and other predators contribute to the ecosystem's population control mechanisms. How might these relationships change if external factors, such as human intervention, alter the snake population? Think carefully through the ecological interactions and possible outcomes.",
+    "steps": [
+      {
+        "manipulation": "None",
+        "description": "Identify the roles of the bird, snake, and mouse in the ecosystem, focusing on how these organisms contribute to population control."
+      },
+      {
+        "manipulation": "None",
+        "description": "Analyze the implications of a decrease in the snake population, especially considering increased competition and overpopulation of mice."
+      },
+      {
+        "manipulation": "None",
+        "description": "Evaluate potential long-term ecological impacts of human intervention and how it might disrupt these natural balances."
+      }
+    ],
+    "answer": "The bird contributes to the ecosystem by preying on grasshoppers, which regulates their population and prevents overgrazing of grasses. The snake similarly controls the mouse population. If human activities led to a decline in the snake population, mouse numbers could increase unchecked, possibly leading to resource depletion and further ecological strain. Such changes would also affect the bird's prey availability, potentially shifting its feeding habits and impacting other species. This scenario underscores the delicate interdependence within ecosystems and the significant role each species plays in maintaining ecological balance."
+  }
+]
+```

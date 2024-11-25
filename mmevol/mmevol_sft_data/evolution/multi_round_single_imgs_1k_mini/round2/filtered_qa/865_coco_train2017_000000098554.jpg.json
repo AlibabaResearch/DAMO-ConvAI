@@ -1,0 +1,229 @@
+{
+    "id": "000000098554",
+    "image": "coco/train2017/000000098554.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the people standing near a tennis court or a table and chairs?",
+            "steps": [],
+            "answer": "The people are standing near a tennis court."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Do the people have any objects with them, such as tennis rackets?",
+            "steps": [],
+            "answer": "Yes, the people are holding tennis rackets."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is the position of the group relative to the tennis court?",
+            "steps": [],
+            "answer": "The group of people is standing on the side of the tennis court."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you tell me more about the possible purpose of this gathering?",
+            "steps": [],
+            "answer": "Based on the image, it appears that the individuals have come together to engage in or watch a game of tennis. People may have gathered for a friendly tennis match, practice session, or even a competition. The presence of tennis rackets suggests that at least some of the people in the group are planning to play.\n\nTennis courts often serve as social hubs for people with a shared interest in the sport, and meeting at a tennis court can provide opportunities for individuals to interact, make friends, share tips, and improve their skills. Additionally, people may gather to support and cheer for their friends or family members playing in a match.\n\nThough it is not possible to know the exact purpose of the gathering without additional context, the presence of the group near the tennis court and the fact that they are holding tennis rackets indicate that they have come together to participate in, observe, or support tennis-related activities."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you elaborate on the elements of the picture provided?",
+            "steps": [],
+            "answer": "In the image, a group of people is standing together near a tennis court. They're positioned around a table and chairs, and some of them are holding tennis rackets, suggesting they're participants or spectators of a tennis match. There's a bench near the table and chairs, which could be used for resting or watching the game.\n\nSeveral personal items can be spotted in the scene, such as a handbag, resting on the ground, and two backpacks placed nearby. There are also sports balls visible, likely tennis balls, scattered around the area, further emphasizing the sports setting.\n\nThe people appear to be enjoying themselves, socializing or preparing for a tennis match."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What might be the purpose of this gathering?",
+            "steps": [],
+            "answer": "The purpose of this gathering appears to be a recreational tennis-based event or activity, where a group of people has come together to play tennis, socialize, and enjoy each other's company. In the image, several people are standing on the side of a tennis court holding tennis rackets, while others are near a table, chairs, and a bench. There are also some sports balls, backpacks, and a handbag nearby, suggesting that these participants came prepared to play tennis and spend some time with friends or fellow enthusiasts. They may take turns playing matches, practice their skills, or simply engage in casual conversations while enjoying the outdoor sports activity."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Write a detailed description of the given image.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a sunny day, six tennis enthusiasts gather on a vibrant red clay court, enclosed by a sturdy green fence. The court, kissed by the sun, is a stark contrast to the tranquil blue sky overhead and the lush green trees in the distance.\n\nOn the right, a man in white attire is seen smiling, his hand raised to shield his eyes from the sun's bright rays. His joy is palpable, adding a touch of warmth to the scene. \n\nTo his left, another man holds a tennis racket with an air of readiness. He seems engrossed in conversation with a woman standing next to him. Their interaction suggests a shared passion for the sport.\n\nAt the center of the group, a woman holds a basket brimming with tennis balls, perhaps preparing for an intense practice session or an upcoming match.\n\nIn the background, two more individuals stand near the fence, their roles unclear but their presence contributing to the overall camaraderie of the scene.\n\nThis image captures not just a moment in time but also the spirit of tennis - camaraderie, competition, and joy."
+        }
+    ],
+    "det": [
+        {
+            "label": "chair",
+            "bbox": [
+                0.304328125,
+                0.5517291666666666,
+                0.48003125,
+                0.8887916666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.45515625000000004,
+                0.28472916666666664,
+                0.664453125,
+                1.0
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.71953125,
+                0.18227083333333333,
+                0.965015625,
+                0.9881458333333334
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.446,
+                0.33075,
+                0.483328125,
+                0.4609791666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2460625,
+                0.33670833333333333,
+                0.360671875,
+                0.7704166666666666
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.0,
+                0.23870833333333333,
+                0.17099999999999999,
+                0.9881458333333334
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.31821875,
+                0.5513750000000001,
+                0.73059375,
+                0.9595416666666667
+            ]
+        },
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.8014687500000001,
+                0.70625,
+                0.9960625000000001,
+                0.9879583333333334
+            ]
+        },
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.532734375,
+                0.5193125000000001,
+                0.5828749999999999,
+                0.7389583333333334
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.335140625,
+                0.6136041666666666,
+                0.41042187500000005,
+                0.7086458333333333
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.10162500000000001,
+                0.26368749999999996,
+                0.25071875,
+                0.9991041666666667
+            ]
+        },
+        {
+            "label": "tennis racket",
+            "bbox": [
+                0.2405,
+                0.5032916666666667,
+                0.257203125,
+                0.5670833333333333
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.723140625,
+                0.6368333333333334,
+                0.9419375000000001,
+                0.8134374999999999
+            ]
+        },
+        {
+            "label": "sports ball",
+            "bbox": [
+                0.473375,
+                0.5255416666666667,
+                0.4984375,
+                0.5522916666666666
+            ]
+        },
+        {
+            "label": "sports ball",
+            "bbox": [
+                0.46071875,
+                0.5384791666666667,
+                0.4756250000000001,
+                0.5638541666666668
+            ]
+        },
+        {
+            "label": "sports ball",
+            "bbox": [
+                0.437203125,
+                0.4593333333333333,
+                0.443171875,
+                0.46962499999999996
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.26040625,
+                0.7571875,
+                0.329109375,
+                0.8885000000000001
+            ]
+        }
+    ],
+    "hash_id": "865_coco_train2017_000000098554.jpg"
+}

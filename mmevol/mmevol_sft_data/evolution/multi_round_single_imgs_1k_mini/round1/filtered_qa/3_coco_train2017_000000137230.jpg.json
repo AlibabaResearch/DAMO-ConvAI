@@ -1,0 +1,390 @@
+{
+    "id": "000000137230",
+    "image": "coco/train2017/000000137230.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of stand is seen in the image?",
+            "steps": [],
+            "answer": "The image features a stand that has been fashioned into a roadside fruit and vegetable stand, functioning as a small produce market."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where is the stand located in relation to the sidewalk and city street?",
+            "steps": [],
+            "answer": "The stand is located next to a sidewalk and near a busy city street, making it easily accessible for pedestrians."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What items are being sold at the stand?",
+            "steps": [],
+            "answer": "The stand sells fruits and vegetables, offering a variety of produce to customers."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the colors of the stand, and what does it look like?",
+            "steps": [],
+            "answer": "The stand is small and green in color. The green color of the stand is likely intended to reflect its connection to fresh produce and a natural, healthy lifestyle."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Why might small produce stands like this one be popular in a busy city setting?",
+            "steps": [],
+            "answer": "Small produce stands like the one in the image can be popular in busy city settings for several reasons:\n\n1. Convenience: These stands are often located near sidewalks and busy streets, making them easily accessible to pedestrians and city dwellers. Shoppers can quickly purchase fresh fruits and vegetables without having to visit a larger grocery store or travel far from their daily routes.\n\n2. Freshness: Small produce stands typically offer fresh, locally sourced fruits and vegetables. Their smaller scale allows them to bring in produce more frequently than larger stores, ensuring that customers have access to fresh and high-quality items.\n\n3. Local support: By shopping at small produce stands, customers are usually supporting local farmers and suppliers, promoting a sustainable local economy and reducing the environmental impact of transportation.\n\n4. Unique selection: Some small produce stands may offer unique or exotic fruits and vegetables that are not commonly found in larger grocery stores, attracting customers who are seeking variety in their diets or who are interested in trying new ingredients.\n\n5. Community and atmosphere: Shopping at small produce stands can provide a sense of community and connection with local vendors. These stands may also add a vibrant, colorful touch to urban streetscapes, creating a welcoming and lively atmosphere for city dwellers.\n\nIn summary, small produce stands in busy city settings offer convenience, freshness, local support, unique selections, and a sense of community, making them attractive shopping choices for city residents and visitors alike."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Describe the following image.",
+            "steps": [],
+            "answer": "The image features a small vegetable market converted from a magazine stand, located near a busy city street beside a sidewalk. The stand is well-stocked with various fruits and vegetables, including bananas, apples, and oranges. \n\nThe street is bustling with cars, including a bus, and multiple people going about their day. One person is seen carrying a handbag, walking near the produce market. The scene captures the everyday life of a city with the small, green produce shop adding a touch of vibrancy to the urban setting."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What effect might this small vegetable market have on the local community?",
+            "steps": [],
+            "answer": "The small vegetable market situated near the city street has the potential to positively impact the local community in several ways. First, it provides easy access to fresh fruits and vegetables, promoting healthy eating choices. This in turn can contribute to the overall wellness of the community members. Second, the market may stimulate the local economy by supporting local farmers or suppliers and providing a point of sale for their produce. Moreover, it can also serve as a gathering place for locals, fostering a sense of community and social interaction. Lastly, the presence of the small market may help reduce the number of car trips people make to larger stores to buy produce, ultimately reducing traffic congestion and environmental impact in the area."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nWhat do you think is going on in this snapshot?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the bustling heart of a city, a quaint green grocery store nestles on a corner, its vibrant colors contrasting with the urban gray. The store's yellow sign proudly proclaims \"Off Licence\", while a white sign hints at the multicultural offerings within - \"English-Turkish-Polish Food\". \n\nA cornucopia of fresh produce is on display, with a bunch of ripe bananas, a cluster of oranges, and a pile of apples adding splashes of color to the scene. The fruits are arranged in an inviting manner, beckoning passersby to partake in their freshness.\n\nIn the background, the iconic red double-decker bus, a symbol of urban life, is captured mid-journey, adding a dynamic element to the scene. A solitary pedestrian walks on the sidewalk, perhaps contemplating a visit to the store.\n\nThe store is strategically located at the intersection of two streets - one in front and another to its right. This corner location offers it high visibility and easy access for customers. The overall scene paints a picture of everyday city life, with the grocery store serving as a focal point."
+        }
+    ],
+    "det": [
+        {
+            "label": "car",
+            "bbox": [
+                0.7669866666666667,
+                0.4923,
+                0.9745866666666667,
+                0.59172
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.60496,
+                0.48388,
+                0.68128,
+                0.53066
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.5729333333333333,
+                0.48102,
+                0.6189066666666667,
+                0.51314
+            ]
+        },
+        {
+            "label": "bus",
+            "bbox": [
+                0.6802666666666667,
+                0.3352,
+                0.9522133333333332,
+                0.55792
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6580266666666666,
+                0.4819,
+                0.7533333333333333,
+                0.65938
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.18333333333333332,
+                0.48957999999999996,
+                0.21338666666666667,
+                0.52342
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.12224000000000002,
+                0.5605,
+                0.15869333333333335,
+                0.60374
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.21087999999999998,
+                0.67116,
+                0.24421333333333334,
+                0.71712
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.25104,
+                0.5612999999999999,
+                0.31312,
+                0.58404
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.22421333333333332,
+                0.5950599999999999,
+                0.26672,
+                0.6194799999999999
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.21416000000000002,
+                0.57296,
+                0.29389333333333334,
+                0.6035400000000001
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.1706133333333333,
+                0.5699,
+                0.23421333333333333,
+                0.6225
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.14279999999999998,
+                0.5574600000000001,
+                0.17613333333333334,
+                0.6054
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.17728000000000002,
+                0.67588,
+                0.21037333333333333,
+                0.71302
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.23506666666666667,
+                0.67972,
+                0.26448,
+                0.7124400000000001
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.17530666666666667,
+                0.7689600000000001,
+                0.29056,
+                0.81932
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.7361866666666667,
+                0.5756,
+                0.76552,
+                0.61994
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5311199999999999,
+                0.4754,
+                0.5640799999999999,
+                0.5358399999999999
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.5196533333333333,
+                0.47422000000000003,
+                0.57136,
+                0.50254
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.11098666666666666,
+                0.67496,
+                0.14477333333333334,
+                0.6996800000000001
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.13984,
+                0.7708400000000001,
+                0.1636,
+                0.78814
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.19746666666666665,
+                0.47972000000000004,
+                0.23986666666666667,
+                0.51988
+            ]
+        },
+        {
+            "label": "banana",
+            "bbox": [
+                0.27384,
+                0.5806399999999999,
+                0.31245333333333336,
+                0.59842
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.39613333333333334,
+                0.5568200000000001,
+                0.40717333333333333,
+                0.5641
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.14402666666666666,
+                0.66806,
+                0.17309333333333332,
+                0.6901799999999999
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.13920000000000002,
+                0.68902,
+                0.16992,
+                0.7069399999999999
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.34919999999999995,
+                0.5542,
+                0.37679999999999997,
+                0.5649400000000001
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.09912,
+                0.66026,
+                0.11936000000000001,
+                0.6839
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.61152,
+                0.46636,
+                0.6651733333333333,
+                0.48698
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.5192266666666667,
+                0.45676,
+                0.5478133333333334,
+                0.47071999999999997
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.50488,
+                0.44327999999999995,
+                0.5195200000000001,
+                0.46508
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.66256,
+                0.4687,
+                0.6853866666666666,
+                0.4955
+            ]
+        },
+        {
+            "label": "orange",
+            "bbox": [
+                0.23557333333333333,
+                0.68038,
+                0.27096,
+                0.7201799999999999
+            ]
+        },
+        {
+            "label": "apple",
+            "bbox": [
+                0.11941333333333333,
+                0.66026,
+                0.14690666666666669,
+                0.6782
+            ]
+        }
+    ],
+    "hash_id": "3_coco_train2017_000000137230.jpg"
+}

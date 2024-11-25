@@ -1,0 +1,255 @@
+{
+    "id": "000000191188",
+    "image": "coco/train2017/000000191188.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of animals are standing next to each other in the image?",
+            "steps": [],
+            "answer": "In the image, there are two baby zebras standing next to each other, with a fence separating them from two other animals, which are pigs."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Where are the zebras and pigs located?",
+            "steps": [],
+            "answer": "The zebras and pigs are located behind fences, suggesting that they are in a zoo or an animal park where people can observe them."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are the people in the image doing?",
+            "steps": [],
+            "answer": "The people in the image are looking at the zebras and pigs, observing and enjoying their presence at the zoo or the animal park."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "How many adult zebras are in the image?",
+            "steps": [],
+            "answer": "There are no adult zebras in the image, only two baby zebras are visible."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Are the zebras and pigs sharing the same enclosure?",
+            "steps": [],
+            "answer": "No, the zebras and pigs are separated by a fence or a gate, which indicates that they are not sharing the same enclosure. This separation might be due to the different living requirements of the species and to ensure their comfort and well-being in the zoo or the animal park. \n\nBy keeping the animals in separate enclosures, the zoo or the animal park can better cater to their specific needs, such as diet, habitat, and social interaction. Moreover, it can also help prevent conflicts, as introducing different species into a shared environment might cause stress or lead to territorial disputes. Finally, keeping the animals in separate enclosures ensures that visitors can easily identify and observe the different species, enabling them to learn more about the animals and appreciate their unique characteristics."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Can you describe the main features of this image for me?",
+            "steps": [],
+            "answer": "The image features a herd of zebras and cows in an enclosure, likely at a zoo. Two zebras are standing close together near a fence that separates them from the two cows. Many people are gathered around the fences, admiring and observing the animals.\n\nThere are at least ten individuals of various ages looking at the animals, with some standing closer to the zebras, while others are near the cows. The zoo visitors are spread out along the enclosure, with some on the left, others in the middle, and a few more on the right side. A couple of people appear to be wearing ties, adding a touch of formality to the scene. Overall, this setting seems like an enjoyable, educational day at the zoo for the visitors."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What type of interactions might people have with different animal species in this setting?",
+            "steps": [],
+            "answer": "In this image, people are observed observing various animals, such as zebras and cows, which are separated by fences at a location that appears to be a zoo. In this setting, the interactions between people and animals are likely limited to observation and watching the animals' behavior from a distance. Since the animals are behind fences, direct contact between humans and animals is unlikely, emphasizing animal safety and preventing the transmission of zoonotic diseases. Visitors to this place may learn from educational materials or guided tours about the animals' characteristics, habits, and natural environments, fostering an understanding of and appreciation for animals and their conservation."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "What is this photo about'?\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "In the heart of a black and white photograph, a tranquil scene unfolds within a zoo enclosure. Dominating the center is a majestic rhinoceros, its imposing form captured in mid-stride, facing the camera with an air of quiet dignity. To its left, a pair of zebras stand in line, their distinctive stripes creating a stark contrast against the grassy terrain. The first zebra is positioned slightly ahead of its companion, both appearing to be in a state of rest.\n\nOn the right of the rhinoceros, a lone donkey is seen, its back turned towards the camera, adding an element of intrigue to the composition. The enclosure itself is bordered by a wire fence supported by wooden posts, serving as a boundary between the captivated spectators and the inhabitants of this miniature wilderness.\n\nThe ground beneath the animals is carpeted with grass, providing a naturalistic environment within their enclosure. In the distance, trees rise against the backdrop, their leafy canopies adding depth to the scene. Outside the fence, several people are scattered, their attention riveted on the spectacle before them. Each element in this image contributes to a harmonious snapshot of life within a zoo."
+        }
+    ],
+    "det": [
+        {
+            "label": "person",
+            "bbox": [
+                0.5721875,
+                0.0,
+                0.6175625,
+                0.13304609218436875
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.963859375,
+                0.038336673346693384,
+                0.9934843750000001,
+                0.177875751503006
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.44278125,
+                0.007595190380761523,
+                0.4841875,
+                0.1264128256513026
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.30684374999999997,
+                0.009138276553106211,
+                0.34612499999999996,
+                0.1164929859719439
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6248437499999999,
+                0.028957915831663326,
+                0.65471875,
+                0.13156312625250502
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.49629687499999997,
+                0.010821643286573148,
+                0.5290781250000001,
+                0.12917835671342687
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.36146875,
+                0.01691382765531062,
+                0.394234375,
+                0.12142284569138276
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8977031249999999,
+                0.06555110220440882,
+                0.92740625,
+                0.16599198396793588
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.9348593749999999,
+                0.02685370741482966,
+                0.9692656249999999,
+                0.16751503006012025
+            ]
+        },
+        {
+            "label": "zebra",
+            "bbox": [
+                0.6052500000000001,
+                0.45541082164328656,
+                0.706875,
+                0.7644088176352706
+            ]
+        },
+        {
+            "label": "zebra",
+            "bbox": [
+                0.70221875,
+                0.43713426853707416,
+                0.77546875,
+                0.7177154308617234
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.277484375,
+                0.02098196392785571,
+                0.303140625,
+                0.11971943887775552
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.926859375,
+                0.07468937875751504,
+                0.95,
+                0.16761523046092183
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6634375,
+                0.004468937875751503,
+                0.694390625,
+                0.1427254509018036
+            ]
+        },
+        {
+            "label": "cow",
+            "bbox": [
+                0.34215625,
+                0.38943887775551106,
+                0.4800625,
+                0.705691382765531
+            ]
+        },
+        {
+            "label": "cow",
+            "bbox": [
+                0.451765625,
+                0.2828456913827655,
+                0.62271875,
+                0.505811623246493
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.9579531250000001,
+                0.052745490981963926,
+                0.9590781250000001,
+                0.06386773547094189
+            ]
+        },
+        {
+            "label": "tie",
+            "bbox": [
+                0.675265625,
+                0.018096192384769536,
+                0.680015625,
+                0.046653306613226454
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.8890781249999999,
+                0.054509018036072145,
+                0.9145312499999999,
+                0.16274549098196392
+            ]
+        }
+    ],
+    "hash_id": "826_coco_train2017_000000191188.jpg"
+}

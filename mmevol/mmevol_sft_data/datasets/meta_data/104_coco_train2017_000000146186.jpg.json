@@ -1,0 +1,172 @@
+{
+    "id": "000000146186",
+    "image": "coco/train2017/000000146186.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image shows a well-used, messy kitchen area with oak cabinets giving it a warm ambiance. The kitchen is cluttered with various items such as dishes, cooking ingredients, and utensils. The counter is covered with multiple objects, including cups, bottles, and bowls. A spoon and a knife can also be seen among these items.\n\nThere is a big window positioned over the sink, which provides natural light and a view while doing dishes. Two sinks can be observed in the room, with one towards the left side and another closer to the center. Appliances like an oven and a microwave are also present, adding to the functionality of the space.\n\nA couple of vases, possibly for decorative purposes or storing kitchen utensils, are placed on the countertops. Overall, the image depicts a cozy, small kitchen that could use some tidying."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What advice would you give to the person using this kitchen to create a better cooking experience?",
+            "steps": [],
+            "answer": "To create a better cooking experience in this small and cluttered kitchen, I would suggest the following steps:\n\n1. Declutter the kitchen counter: Before starting any cooking task, it is essential to clear the counter space and remove any unnecessary items that might obstruct the cooking process. This will make it easier to find ingredients and tools, and help maintain a clean workspace.\n\n2. Organize kitchen utensils and tools: Organize utensils like spoons, knives, and cups in designated areas, such as drawers or holders. This will make it easier to access them when needed and keep the kitchen visually tidy.\n\n3. Store frequently used items within easy reach: Keep items like bottles, bowls, and cups in easy-to-reach places like the cabinets above the sink or open shelves.\n\n4. Clean as you cook: To avoid a pile-up of dirty dishes in the sink, it is recommended to wash dishes and utensils while cooking if possible. This keeps the sink area clean and prevents a buildup of tasks after the cooking process is completed.\n\n5. Utilize vertical storage: Install hooks, shelves, or magnetic strips to hang and store items like pots, pans, or cutting boards on walls or inside cabinet doors, freeing up counter space.\n\nThese steps will contribute to a more organized, functional, and enjoyable cooking experience while keeping the kitchen neat and visually appealing."
+        }
+    ],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Explain the visual content of the image in great detail.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "The image captures a cozy kitchen bathed in the warm glow of natural light streaming in from a window. The window, situated above the sink, offers a tranquil view of a backyard, complete with a tree and a fence. The wooden cabinets, imbued with a rich, earthy tone, house various appliances and utensils that hint at a well-used and loved kitchen.\n\nOn the countertop, an array of objects are scattered about. A coffee maker, blender, and toaster stand ready for use, while dishes and a cutting board suggest recent culinary activities. A bowl brimming with fruit adds a splash of vibrant color to the scene.\n\nThe sink is noticeably empty, with a dish rack positioned next to it on the counter. Despite the clutter on the countertop, there's an inherent sense of homeliness that pervades the image. It's not just a kitchen; it's a space where memories are made, one meal at a time."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.09090625,
+                0.45260416666666664,
+                0.124609375,
+                0.558375
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.16003125,
+                0.580875,
+                0.208953125,
+                0.6655625
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.9325625000000001,
+                0.6202500000000001,
+                1.0,
+                0.7245625
+            ]
+        },
+        {
+            "label": "bowl",
+            "bbox": [
+                0.787,
+                0.5725208333333334,
+                0.94675,
+                0.7125833333333333
+            ]
+        },
+        {
+            "label": "oven",
+            "bbox": [
+                0.0,
+                0.6337083333333333,
+                0.1516875,
+                0.9887708333333334
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.631453125,
+                0.626625,
+                0.8045937500000001,
+                0.6911875
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.63578125,
+                0.37045833333333333,
+                0.676875,
+                0.463375
+            ]
+        },
+        {
+            "label": "vase",
+            "bbox": [
+                0.7164843750000001,
+                0.3403958333333333,
+                0.73884375,
+                0.4695833333333333
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.045390625000000004,
+                0.49289583333333337,
+                0.077828125,
+                0.56925
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.3295625,
+                0.5435833333333334,
+                0.36503125,
+                0.6096666666666667
+            ]
+        },
+        {
+            "label": "microwave",
+            "bbox": [
+                0.0016875000000000002,
+                0.098875,
+                0.030343750000000003,
+                0.3842708333333334
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.380625,
+                0.5045,
+                0.46098437499999995,
+                0.6066666666666667
+            ]
+        },
+        {
+            "label": "knife",
+            "bbox": [
+                0.264015625,
+                0.6050833333333333,
+                0.366953125,
+                0.6266041666666666
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.4345625,
+                0.5370416666666666,
+                0.7225625,
+                0.6747291666666667
+            ]
+        },
+        {
+            "label": "spoon",
+            "bbox": [
+                0.007375,
+                0.4516458333333333,
+                0.035843749999999994,
+                0.528125
+            ]
+        }
+    ],
+    "hash_id": "104_coco_train2017_000000146186.jpg"
+}

@@ -1,0 +1,247 @@
+{
+    "id": "000000117784",
+    "image": "coco/train2017/000000117784.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image portrays a very clean and well-organized kitchen at nighttime. The kitchen features a sink located near the left corner of the room, a refrigerator on the right side, and a dining table close to it. The refrigerator is adorned with numerous pictures and magnets, giving it a personalized touch.\n\nIn addition to the main fixtures, there is a microwave sitting above the counter and various items like cups, wine glasses, and bottles placed on the countertops and dining table. A backpack is also visible in the room, situated close to the dining table. A chair is positioned next to the table, emphasizing the kitchen's comfortable and functional atmosphere."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What are some potential hazards or issues in this kitchen?",
+            "steps": [],
+            "answer": "While the image showcases a generally clean kitchen, some potential hazards or issues include the presence of various bottles, wine glasses, and cups that could break or spill if knocked over. With a refrigerator full of pictures and magnets, there's also a possibility of items falling or getting knocked off when the refrigerator is accessed. Additionally, there's a pile of junk, such as a backpack, nearby which might be a tripping hazard or create clutter if not properly organized. It's important to mind these potential issues and maintain a tidy kitchen to ensure a safe and functional environment."
+        }
+    ],
+    "conversations_v1": [],
+    "conversations_v2": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "Analyze the image in a comprehensive and detailed manner.\n<image>"
+        },
+        {
+            "from": "gpt",
+            "value": "This image captures a cozy kitchen scene, bathed in warm light. Dominating the space is a wooden counter, its rich brown tones complementing the matching cabinets. The counter is a hub of activity, hosting a variety of appliances. A sink is nestled into the counter, ready for use. Next to it, a coffee maker stands at attention, its black and silver body gleaming. A microwave and toaster oven are also present, their metallic surfaces reflecting the light.\n\nAbove the counter, wine glasses hang upside down from a rack, their delicate stems and clear bowls catching the light. A clock is also mounted on the wall, silently keeping time.\n\nTo one side of the room stands a fridge, its white surface almost entirely covered in an eclectic mix of magnets and stickers, each one a memento or message. The floor next to the fridge is home to a black bag, its contents hidden from view.\n\nThe kitchen is more than just a collection of objects; it's a space filled with stories and memories, each item playing its part in the daily rhythm of life."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.8211718749999999,
+                0.10908333333333334,
+                0.86015625,
+                0.2748333333333334
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.8725781250000001,
+                0.12652083333333333,
+                0.9145156250000002,
+                0.27706250000000004
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.7945781249999999,
+                0.16422916666666668,
+                0.8205781249999999,
+                0.2733125
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.723234375,
+                0.18427083333333333,
+                0.739375,
+                0.2734375
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.7347187500000001,
+                0.18739583333333334,
+                0.7420156250000001,
+                0.22879166666666667
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.7695000000000001,
+                0.16672916666666668,
+                0.7921875,
+                0.2729375
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.0870625,
+                0.5095,
+                0.10787499999999998,
+                0.5832083333333333
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.069234375,
+                0.5137916666666666,
+                0.08084375,
+                0.5945
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.8661562500000001,
+                0.8298749999999999,
+                0.9992968750000001,
+                0.9881666666666666
+            ]
+        },
+        {
+            "label": "refrigerator",
+            "bbox": [
+                0.647421875,
+                0.27566666666666667,
+                0.9433906249999999,
+                0.9976458333333333
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.30240625,
+                0.5283333333333333,
+                0.336125,
+                0.6089166666666667
+            ]
+        },
+        {
+            "label": "microwave",
+            "bbox": [
+                0.46539062500000006,
+                0.45247916666666665,
+                0.6527812500000001,
+                0.6001666666666666
+            ]
+        },
+        {
+            "label": "sink",
+            "bbox": [
+                0.0,
+                0.57825,
+                0.213171875,
+                0.6518958333333333
+            ]
+        },
+        {
+            "label": "backpack",
+            "bbox": [
+                0.84121875,
+                0.61825,
+                1.0,
+                0.8389583333333334
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.338921875,
+                0.17445833333333333,
+                0.365578125,
+                0.24818749999999998
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.36478125,
+                0.17720833333333333,
+                0.38809375,
+                0.24139583333333334
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.38190625,
+                0.17685416666666667,
+                0.404109375,
+                0.24139583333333334
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.47954687500000004,
+                0.1529791666666667,
+                0.49457812500000004,
+                0.25033333333333335
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.41109375000000004,
+                0.17316666666666666,
+                0.43478125000000006,
+                0.24289583333333334
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.4378125,
+                0.13304166666666667,
+                0.46414062500000003,
+                0.21883333333333332
+            ]
+        },
+        {
+            "label": "cup",
+            "bbox": [
+                0.000265625,
+                0.5260625,
+                0.0199375,
+                0.6052708333333333
+            ]
+        },
+        {
+            "label": "chair",
+            "bbox": [
+                0.760703125,
+                0.8391249999999999,
+                0.8346875,
+                1.0
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.50071875,
+                0.16472916666666665,
+                0.519421875,
+                0.24281249999999996
+            ]
+        }
+    ],
+    "hash_id": "98_coco_train2017_000000117784.jpg"
+}

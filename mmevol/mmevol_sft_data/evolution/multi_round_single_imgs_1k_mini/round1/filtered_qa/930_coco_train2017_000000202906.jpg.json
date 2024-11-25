@@ -1,0 +1,354 @@
+{
+    "id": "000000202906",
+    "image": "coco/train2017/000000202906.jpg",
+    "conversations_v0": [
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "Write a detailed description of the given image.",
+            "steps": [],
+            "answer": "The image captures a lively outdoor scene where several people are enjoying their lunch. They are seated at a number of picnic tables that are designed like surfboards, adding a unique and creative touch to the atmosphere. \n\nThe lunch crowd appears to be fairly large, with people seated at tables located in various areas of the scene. There are a few cars and a motorcycle parked nearby, suggesting that visitors have come from different places to dine at this location.\n\nIn addition to the main seating areas, there are several benches in the surrounding environment for people to relax on. There are also some umbrellas providing shade on this sunny day.\n\nOn the tables, you can spot wine glasses and bottles, showcasing that patrons are enjoying both food and drinks during their lunchtime outing."
+        },
+        {
+            "image_position": "single",
+            "objects": [],
+            "skills": [],
+            "format": "Norm",
+            "question": "What is unique about the outdoor dining setup in this restaurant?",
+            "steps": [],
+            "answer": "The unique aspect of the outdoor dining setup at this restaurant is that the tables are shaped like surfboards. This design element adds a fresh and distinctive atmosphere to the dining experience, attracting customers who enjoy eating in a casual and lively setting. The lunch crowd can be seen enjoying their food at these surfboard-inspired tables, giving the place a sense of seaside or coastal vibe."
+        }
+    ],
+    "conversations_v1": [],
+    "topic_name": [],
+    "caption": [
+        {
+            "from": "human",
+            "value": "<image>\nCan you describe the main features of this image for me?"
+        },
+        {
+            "from": "gpt",
+            "value": "In the given image, a lively scene unfolds on a wooden outdoor patio situated on a boardwalk. The patio is adorned with several tables and benches, creating a cozy dining setting. A group of people, numbering at least nine, are seated around these tables, engrossed in conversation and enjoying their food and drinks. The objects in the image, including tables, benches, plates, cups, and a hat, are arranged in a manner typical of an outdoor dining setting.\n\nThe colors in the image are predominantly neutral, providing a calm backdrop to the vibrant social gathering. However, the blue sky above and the green plants nearby add a splash of color to the scene. The people are all seated, some facing each other while others are turned towards the boardwalk, perhaps taking in the view or watching passersby.\n\nEvery element in this image contributes to painting a picture of a relaxed and enjoyable outdoor dining experience."
+        }
+    ],
+    "det": [
+        {
+            "label": "bottle",
+            "bbox": [
+                0.5304800000000001,
+                0.47396,
+                0.5837333333333333,
+                0.5918399999999999
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.24810666666666667,
+                0.5462400000000001,
+                0.9994933333333333,
+                0.8631
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.13357333333333335,
+                0.44564,
+                0.9974666666666665,
+                0.60808
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.4984,
+                0.3412,
+                0.6097066666666667,
+                0.37126
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.8716,
+                0.1805,
+                0.9448800000000002,
+                0.21631999999999998
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.20237333333333332,
+                0.14606,
+                0.3407733333333333,
+                0.2155
+            ]
+        },
+        {
+            "label": "handbag",
+            "bbox": [
+                0.017386666666666665,
+                0.42796,
+                0.09,
+                0.47579999999999995
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5585600000000001,
+                0.33672,
+                0.9129066666666668,
+                0.7961800000000001
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5705600000000001,
+                0.2849,
+                0.6997066666666666,
+                0.48536
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.5264266666666667,
+                0.25408000000000003,
+                0.6063733333333333,
+                0.34693999999999997
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2635733333333333,
+                0.26832,
+                0.38616,
+                0.40134000000000003
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.29362666666666665,
+                0.30338,
+                0.6112266666666666,
+                0.59102
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.011840000000000002,
+                0.13568,
+                0.15613333333333332,
+                0.3981
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.08,
+                0.25872,
+                0.2084,
+                0.40722
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.2664,
+                0.28448,
+                0.4216266666666667,
+                0.45770000000000005
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.12613333333333332,
+                0.3187,
+                0.28143999999999997,
+                0.614
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.6327466666666667,
+                0.25668,
+                0.70824,
+                0.34778
+            ]
+        },
+        {
+            "label": "car",
+            "bbox": [
+                0.15061333333333332,
+                0.17628,
+                0.23957333333333333,
+                0.21738
+            ]
+        },
+        {
+            "label": "motorcycle",
+            "bbox": [
+                0.9206133333333334,
+                0.18,
+                0.9857600000000001,
+                0.24462
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.1624,
+                0.60248,
+                0.28232,
+                0.68252
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.30591999999999997,
+                0.78024,
+                1.0,
+                0.9359200000000001
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.06528,
+                0.39632,
+                0.3409066666666667,
+                0.47546
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.004053333333333333,
+                0.34174,
+                0.05549333333333333,
+                0.37260000000000004
+            ]
+        },
+        {
+            "label": "bench",
+            "bbox": [
+                0.23237333333333335,
+                0.67498,
+                0.9953333333333333,
+                0.7904
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.04533333333333334,
+                0.24609999999999999,
+                0.24888,
+                0.33753999999999995
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.6451733333333334,
+                0.10442,
+                0.8203466666666667,
+                0.24174
+            ]
+        },
+        {
+            "label": "umbrella",
+            "bbox": [
+                0.0052,
+                0.11884,
+                0.09272000000000001,
+                0.14792000000000002
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.47357333333333335,
+                0.50978,
+                0.5174666666666667,
+                0.5931
+            ]
+        },
+        {
+            "label": "wine glass",
+            "bbox": [
+                0.92048,
+                0.50618,
+                0.9594133333333335,
+                0.58238
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.17349333333333333,
+                0.23082,
+                0.2231466666666667,
+                0.30438
+            ]
+        },
+        {
+            "label": "bottle",
+            "bbox": [
+                0.56384,
+                0.37557999999999997,
+                0.5737333333333333,
+                0.4024
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.47098666666666666,
+                0.85714,
+                1.0,
+                0.98702
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.80616,
+                0.38632,
+                0.9431200000000001,
+                0.42845999999999995
+            ]
+        },
+        {
+            "label": "person",
+            "bbox": [
+                0.28042666666666666,
+                0.11368,
+                0.3966933333333333,
+                0.28336
+            ]
+        },
+        {
+            "label": "dining table",
+            "bbox": [
+                0.04898666666666667,
+                0.34472,
+                0.10984,
+                0.37332000000000004
+            ]
+        }
+    ],
+    "hash_id": "930_coco_train2017_000000202906.jpg"
+}

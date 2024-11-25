@@ -1,0 +1,84 @@
+[
+    {
+        "image_position": "single",
+        "objects": ["mug", "desk"],
+        "skills": ["Context Understanding Ability", "Instruction Following"],
+        "format": "completeness_of_response",
+        "question": "Given the description and the image content, is the response complete when asked to put two mugs on the desk?",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Understand the current scene: one mug is on the desk, and the goal is to place two mugs there."
+            },
+            {
+                "manipulation": "None",
+                "description": "Evaluate if the response addresses the task of finding and placing another mug on the desk."
+            }
+        ],
+        "answer": "No, the response is incomplete as it does not provide a method to find or place a second mug on the desk."
+    },
+    {
+        "image_position": "single",
+        "objects": ["desk", "lamp", "mug", "tissue box", "cellphone"],
+        "skills": ["Context Understanding Ability", "Relational Understanding"],
+        "format": "rationales_generation",
+        "question": "Provide two rationales to support the action of examining desk 1 in the context of finding an additional mug.",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "One rationale for examining the desk is that the task requires locating items present on it, possibly revealing a hidden mug."
+            },
+            {
+                "manipulation": "None",
+                "description": "Another rationale is that understanding the current arrangement can offer clues on where to search next."
+            }
+        ],
+        "answer": "1. The examination may uncover a hidden mug on the desk. 2. It provides insight into potential locations for searching further."
+    },
+    {
+        "image_position": "single",
+        "objects": ["mug", "desk"],
+        "skills": ["Coreference Resolution", "Grounding Ability"],
+        "format": "coreference_resolution",
+        "question": "In the task description, what does 'it' correspond to on desk 1?",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Identify 'it' in the context of the task description concerning desk 1."
+            },
+            {
+                "manipulation": "grounding_1(it)->bbx_1",
+                "description": "Locate 'it' on desk 1, corresponding to 'mug.'"
+            }
+        ],
+        "answer": "'It' corresponds to the mug located on desk 1."
+    },
+    {
+        "image_position": "single",
+        "objects": ["mug"],
+        "skills": ["Grounding Ability", "Instruction Following"],
+        "format": "multi-choice",
+        "question": "Where should you explore next to find another mug? Choose the best option. A) Drawer 1 B) Sidetable 1 C) Shelf 1",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Evaluate potential next steps for locating another mug based on the given actions."
+            }
+        ],
+        "answer": "A) Drawer 1"
+    },
+    {
+        "image_position": "single",
+        "objects": ["desk", "mug"],
+        "skills": ["Creative Content Generation", "Context Understanding Ability"],
+        "format": "creative_content_generation",
+        "question": "Envision the events at the desk following the placement of a second mug. Create a narrative reflecting this change.",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Develop a short story about what could happen after placing two mugs on the desk."
+            }
+        ],
+        "answer": "With both mugs now settled on the desk, a sense of completion filled the room. Each represented a shared journey of collaboration. The desk, once a space for lonely work, now hummed with life and connection, speaking of friendships and the warmth of shared moments over endless cups of coffee."
+    }
+]

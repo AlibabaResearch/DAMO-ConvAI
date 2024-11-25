@@ -1,0 +1,70 @@
+```json
+[
+    {
+        "image_position": "single",
+        "objects": ["mug", "cabinet", "coffeemachine"],
+        "skills": ["Context Understanding Ability", "Behavior Prediction Ability"],
+        "format": "Complex Reasoning",
+        "question": "Imagine you are in a kitchen environment and you are tasked with the specific action of cooling a mug and placing it into a coffeemachine. Given the following description: 'Upon arrival at location 1, you notice cabinet 2 is wide open, but you find nothing on its shelves.' What sequence of actions should you consider next to accomplish your task, and what might you expect to find in other possible locations? Let's think step by step.",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Observe the situation to understand that cabinet 2 is empty and analyze why it is relevant."
+            },
+            {
+                "manipulation": "None",
+                "description": "Identify potential locations like other cabinets, countertops, or near the sink to search for a mug."
+            },
+            {
+                "manipulation": "None",
+                "description": "Predict the likelihood of finding a mug in each location based on usual kitchen arrangements."
+            },
+            {
+                "manipulation": "None",
+                "description": "Plan a logical sequence of actions to efficiently search those locations."
+            }
+        ],
+        "answer": "In this task, you're faced with the objective of cooling a mug and putting it into a coffeemachine. The description tells you cabinet 2 is empty, prompting you to search other logical locations. Start by predicting likely locations such as other cabinets or countertops where mugs are commonly stored. Evaluate the proximity of these places relative to the coffeemachine for convenience. Plan to move sequentially to these spots: begin with a search of 'countertop 1', then extend your search to nearby cabinets, and perhaps the area around the sink where mugs might be left to dry. By taking these steps, you increase your chances of finding the mug and completing your task efficiently."
+    },
+    {
+        "image_position": "single",
+        "objects": ["cabinet", "kitchen"],
+        "skills": ["Relationship Description Ability", "Knowledge Integration Ability"],
+        "format": "Detailed Description",
+        "question": "Consider the layout and elements present in the described kitchen scene with an open cabinet. How might the arrangement of these elements suggest the room's intended use, and what expected items might you seek to find in such a domestic setting? Let’s unravel this scene in detail.",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Identify the presence of kitchen-related furniture like cabinets and analyze their typical utility."
+            },
+            {
+                "manipulation": "None",
+                "description": "Utilize general knowledge about kitchen settings to predict typical activities or stored items."
+            },
+            {
+                "manipulation": "None",
+                "description": "Formulate potential actions or tasks based on this understanding of the room’s function."
+            }
+        ],
+        "answer": "Analyzing the elements present in the kitchen scene, the open cabinet signals an area designed for storing culinary items. The presence of cabinets, particularly being empty, leads one to expect functions linked to storage, likely for dishes or groceries. With general knowledge about domestic kitchens, the setup suggests possible activities, primarily cooking or food preparation. Consequently, in such a setting, you might expect to find not only mugs but also plates, cooking utensils, and possibly pantry goods. This understanding sparks a strategy to either organize or search for specific kitchenware, underpinning the room's practical role in daily life."
+    },
+    {
+        "image_position": "single",
+        "objects": ["fridge", "cabinet"],
+        "skills": ["Existence Ability", "Knowledge Integration Ability"],
+        "format": "Norm",
+        "question": "In a typical household setting, what reasons might there be for a mug to be found inside a fridge? Can you think of scenarios or rationales supporting this placement? Let’s explore the possibilities.",
+        "steps": [
+            {
+                "manipulation": "None",
+                "description": "Consider the traditional use of fridges and how it contrasts with the storage of mugs."
+            },
+            {
+                "manipulation": "None",
+                "description": "Explore any non-traditional scenarios where a mug could logically be placed in a fridge."
+            }
+        ],
+        "answer": "Conventionally, fridges are utilized for storing perishable goods, which makes the presence of a mug inside somewhat unorthodox. Nonetheless, conceptualizing various scenarios, one could think of reasons such as pre-chilling a glass or mug to keep its future contents cool or storing a beverage within the mug that requires refrigeration. Such rationales integrate an untraditional function, pondering the flexible and adaptive use of kitchen spaces. Thus, although locating a mug in a fridge might seem unconventional, specific circumstances might rationalize this choice."
+    }
+]
+```
