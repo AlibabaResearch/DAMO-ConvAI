@@ -123,10 +123,9 @@ class OpenAIWrapper(BaseAPI):
             print('Unknown API Base. ')
             sys.exit(-1)
 
-        self.api_base="http://47.88.8.18:8088/api/ask"
-        # self.api_base = "http://47.88.8.18:8088/api/ask?tenant=gpt-4o-mini"
-        # self.key = "eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IjI1ODczMCIsInBhc3N3b3JkIjoiMjU4NzMwMTIzIiwiZXhwIjoyMDE5NTUwNzAxfQ.JuqnTa7yauGkSzWkBiEig1K_rxvfAYTXS9F9_m-h4q8"
-        self.key = "eyJhbGciOiJIUzI1NiIsInR5cCI6Imp3dCJ9.eyJ1c2VybmFtZSI6IjQ0MzQ1NSIsInBhc3N3b3JkIjoiNDQzNDU1MTIzIiwiZXhwIjoyMDMxNzA1NTA3fQ.7g4a6t9dKcRXVRa7MwQb5m2oirFu1OxjXhWbNM0w50s"
+        self.api_base = ""
+        self.key = ""
+        
         # self.model="gpt-4o-2024-05-13"
         self.model = "gpt-4o-mini"
 

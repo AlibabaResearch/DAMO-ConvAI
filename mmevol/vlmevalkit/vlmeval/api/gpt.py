@@ -92,13 +92,11 @@ class OpenAIWrapper(BaseAPI):
             self.logger.error('Unknown API Base. ')
             sys.exit(-1)
         # your api_base
-        self.api_base=""
+        self.api_base = ""
         # your key
-        self.key=""
+        self.key = ""
 
         assert len(self.api_base)>0 and len(self.key)>0, "make sure tha both api_base and key are configured correctly"
-
-
 
         # self.model="gpt-4o-2024-05-13"
         model = "gpt-4o-mini"
