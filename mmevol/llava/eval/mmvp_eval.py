@@ -109,11 +109,12 @@ data=[(idx,f"Given the following question {i['prompt']}, the correct answer is {
 with Pool(processes=50) as pool:
     output = list(tqdm(pool.imap(make_request, data), total=len(data)))
 
-print(output)
-for i in set(all_types):
+# print(output)
+# for i in set(all_types):
     
-    for j in data:
-        if j['type']==i
+#     for j in data:
+#         if j['type']==i
+
 num_correct, num_total = 0, 0
 # Continue with the processing of the JSONL file
 index=0

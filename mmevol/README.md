@@ -1,6 +1,9 @@
 <!-- # MMEvol -->
 
 # MMEvol: Empowering Multimodal Large Language Models with Evol-Instruct
+<p align="center">
+    <img src="dataengine/assets/mmevol_logo.png" width="50%" height="50%">
+</p>
 
 <div align="center">
 <br>
@@ -23,8 +26,6 @@
 <a>Jingkuan Song<sup><span>4🌟</span></sup>,
 <br>
 
-
-
 \* Equal contribution 🌟 Corresponding author
 
 <sup>1</sup> Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences<br>
@@ -38,12 +39,9 @@
 
 </div>
 
-<p align="center">
-    <img src="mmevol_sft_data/assets/mmevol.jpg" width="100%" height="100%">
-</p>
 
 <font size=5><div align='center' >  [[📖 arXiv Paper](https://arxiv.org/pdf/2409.05840)] [[📊 Dataset](https://huggingface.co/datasets/Tongyi-ConvAI/MMEvol)] [[🏆 Models](https://huggingface.co/models/Tongyi-ConvAI/MMEvol)]  </div></font>
-MMEvol is the first method that successfully introduces Evol-Instruct into multimodal domain to improve the diversity and complexity of multimodal instruction data. Compared with previous methods like  vila2, MIMIC-IT, and MMInstruct, it can perform iterative evolution in a very elegant and simple way in a fully automatic way, breaking through human imagination of data complexity and diversity. It has no restrictions on the form of data, the type of task, or complex processing. It can quickly perform self-iterative evolution on limited image instruction data to obtain ultra-high-quality multimodal data, thereby giving multimodal models more powerful capabilities. At the same time, it can be orthogonally combined with other data flow-driven methods such as vila2, MIMIC-IT, and MMInstruct to obtain more powerful data construction effects. Everyone is welcome to experience it now!
+MMEvol is the first method that successfully introduces Evol-Instruct into multimodal domain to improve the diversity and complexity of multimodal instruction data. Compared with previous methods like  VILA2, MIMIC-IT, and MMInstruct, it can perform iterative evolution in a very elegant and simple way in a fully automatic way, breaking through human imagination of data complexity and diversity. It has no restrictions on the form of data, the type of task, or complex processing. It can quickly perform self-iterative evolution on limited image instruction data to obtain ultra-high-quality multimodal data, thereby giving multimodal models more powerful capabilities. At the same time, it can be orthogonally combined with other data flow-driven methods such as VILA2, MIMIC-IT, and MMInstruct to obtain more powerful data construction effects. Everyone is welcome to experience it now!
 
 ## 🔥 Update
 
@@ -103,8 +101,8 @@ Here are the pretrained weights and instruction tuning weights
 
 | Model            | Pretrained Projector | Base LLM  | PT Data                                                      | IT Data | Download |
 | ---------------- | -------------------- | --------- | ------------------------------------------------------------ | ------- | -------- |
-| MMEvol-Qwen2-7B  | [mm_projector]()     | Qwen2-7B  | [LLaVA-Pretrain](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain) | MMEvol  | [ckpt]() |
-| MMEvol-LLaMA3-8B | [mm_projector]()     | LLaMA3-8B | [LLaVA-Pretrain](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain) | MMEvol  | [ckpt]() |
+| MMEvol-Qwen2-7B  | [mm_projector](https://huggingface.co/models/Tongyi-ConvAI/MMEvol)     | Qwen2-7B  | [LLaVA-Pretrain](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain) | MMEvol  | [ckpt](https://huggingface.co/models/Tongyi-ConvAI/MMEvol) |
+| MMEvol-LLaMA3-8B | [mm_projector](https://huggingface.co/models/Tongyi-ConvAI/MMEvol)     | LLaMA3-8B | [LLaVA-Pretrain](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain) | MMEvol  | [ckpt](https://huggingface.co/models/Tongyi-ConvAI/MMEvol) |
 
 ### Performance
 
@@ -255,8 +253,9 @@ bash scripts/v1_6/train/llama3/finetune.sh
 bash scripts/v1_6/train/qwen2/finetune.sh
 ```
 
-
 ## 📈 Evaluation
+
+#### Ensure that your api_base and key are correctly configured before evaluation.
 
 ## opencompass
 
@@ -313,6 +312,8 @@ While scoring on each benchmark directly, set `MODE=all`. If only inference resu
 ./script/run_inference.sh MMEvol-Llama3-V-1_6 MathVista_MINI all
 .....
 
+# NOTE you should use llava/eval/blink_eval.py for blink evaluation individually.
+python llava/eval/blink_eval.py
 ```
 
 <br />
@@ -335,22 +336,24 @@ python llava/eval/mminst_eval.py
 
 <br />
 
+
+
 ## 👀 Visualization
 
 The Tongyi-ConvAI generates this dataset for multi-modal supervised fine-tuning. This dataset was used to train **Evol-Llama3-8B-Instruct** and **Evol-Qwen2-7B** reported in [our paper](https://arxiv.org/pdf/2409.05840). To create this dataset, we first selected 163K Seed Instruction Tuning Dataset for Evol-Instruct, then we enhance data quality through an iterative process that involves a refined combination of fine-grained perception, cognitive reasoning, and interaction evolution. This process results in the generation of a more complex and diverse image-text instruction dataset, which in turn empowers MLLMs with enhanced capabilities. Below we showcase the detailed data distribution of the SEED-163K, which is prepared for multi-round evolution mentioned above. More details can be found in our paper. 
 
 <div align=center>
-<img width="90%" src="mmevol_sft_data/assets/mmevol.jpg"/>
+<img width="90%" src="dataengine/assets/mmevol_seed_dis.jpg"/>
 </div>
 
 <div align='center' >
 <details>
 <summary> Click to expand more examples</summary>
 <p align="center">
-    <img src="mmevol_sft_data/assets/mmevol.jpg" width="60%" height="60%">
-    <img src="mmevol_sft_data/assets/mmevol.jpg" width="60%" height="60%">
-    <img src="mmevol_sft_data/assets/mmevol.jpg" width="60%" height="60%">
-    <img src="mmevol_sft_data/assets/mmevol.jpg" width="60%" height="60%">
+    <img src="dataengine/assets/mmevol_pai.png" width="90%" height="90%">
+    <img src="dataengine/assets/mmevol_dis_cam.png" width="90%" height="90%">
+    <img src="dataengine/assets/mmevol_long_tail.png" width="90%" height="90%">
+    <img src="dataengine/assets/mmevol_performance.png" width="90%" height="90%">
 </details>
 </div>
 
