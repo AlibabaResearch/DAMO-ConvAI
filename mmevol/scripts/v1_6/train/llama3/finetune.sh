@@ -12,8 +12,8 @@ export MASTER_PORT=29588
 export CPUS_PER_TASK=16
 export QUOTA=reserved
 
-export DATA_PATH=datasets/data_sft/mix_evol_sft.json
-export SAVE_PATH=llava-v1.6-8b_llama3-1-8b_clip-large-336_debug_ablation_sft_mmevol_3407
+export DATA_PATH=datasets/json/mix_evol_sft.json
+export SAVE_PATH=llava-v1.6-8b_llama3-8b_clip-large-336_mmevol_sft
 export BASE_LR=2e-5
 export VIT_LR=2e-6
 
@@ -26,7 +26,7 @@ bash -c 'torchrun --nproc_per_node $GPUS_PER_NODE llava/train/train_mem.py \
 --image_folder datasets \
 --vision_tower checkpoints/openai/clip-vit-large-patch14-336 \
 --mm_projector_type mlp2x_gelu \
---pretrain_mm_mlp_adapter pretrain/mm_projector.bin \
+--pretrain_mm_mlp_adapter checkpoints/llava-v1.6-8b_llama3-8b_clip-large-336_pretrain/mm_projector.bin \
 --unfreeze_mm_vision_tower True \
 --mm_vision_tower_lr ${VIT_LR} \
 --image_aspect_ratio anyres \

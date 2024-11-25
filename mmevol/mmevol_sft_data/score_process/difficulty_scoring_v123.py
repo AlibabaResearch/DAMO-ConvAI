@@ -1,24 +1,26 @@
 import sys
 import os
-# Add the parent directory to sys.path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-import json
+import json 
 import numpy as np
 import multiprocessing
+import sys
 import os.path as osp
 import requests
+import cv2
+import time
+import pprint
 import base64
 from tqdm import tqdm
-from uuid import uuid4
-from PIL import Image
 from utils import data_process
+from uuid import uuid4
 from base import BaseAPI
-from prompt_score import difficuty_score_prompt_latest
+from .prompt_score import difficuty_score_prompt_latest
 
 
 APIBASES = {
     'OFFICIAL': 'https://api.openai.com/v1/chat/completions',
 }
+
 
 def GPT_context_window(model):
     length_map = {
@@ -121,8 +123,11 @@ class OpenAIWrapper(BaseAPI):
             print('Unknown API Base. ')
             sys.exit(-1)
 
-        self.api_base = "http://47.88.8.18:8088/api/ask"
-        self.key = ""
+        self.api_base="http://47.88.8.18:8088/api/ask"
+        # self.api_base = "http://47.88.8.18:8088/api/ask?tenant=gpt-4o-mini"
+        # self.key = "eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IjI1ODczMCIsInBhc3N3b3JkIjoiMjU4NzMwMTIzIiwiZXhwIjoyMDE5NTUwNzAxfQ.JuqnTa7yauGkSzWkBiEig1K_rxvfAYTXS9F9_m-h4q8"
+        self.key = "eyJhbGciOiJIUzI1NiIsInR5cCI6Imp3dCJ9.eyJ1c2VybmFtZSI6IjQ0MzQ1NSIsInBhc3N3b3JkIjoiNDQzNDU1MTIzIiwiZXhwIjoyMDMxNzA1NTA3fQ.7g4a6t9dKcRXVRa7MwQb5m2oirFu1OxjXhWbNM0w50s"
+        # self.model="gpt-4o-2024-05-13"
         self.model = "gpt-4o-mini"
 
         print(f'Using API Base: {self.api_base}; API Key: {self.key}')
@@ -211,24 +216,24 @@ class OpenAIWrapper(BaseAPI):
 
 
 class GPT4V(OpenAIWrapper):
-
+    
     def generate(self, task, dataset=None):
         message, path = task
         with open(path, 'w') as file:
             file.write(super(GPT4V, self).generate(message))
 
-def score_parallel(data_path, save_path, round_n, root_path):
-
+def score_parallel(data_path, save_path, round_n, root_path):    
+    
     # Read Data
     data_list = os.listdir(data_path)
     # run_idx = ['000000203269', '000000000540']
-
+    
     messages, paths, raw_paths = [], [], []
 
     for d in data_list:
         with open(os.path.join(data_path, d), 'r') as file:
             data = json.load(file)
-
+        
         # before
         given_qa = []
         rewritten_qa = []
@@ -239,7 +244,7 @@ def score_parallel(data_path, save_path, round_n, root_path):
             tmp = data['conversations_v1']
         else:
             tmp = data['conversations_v0']
-
+        
         for index in tmp:
             given_qa.append({
                 "question": index['question'],
@@ -255,7 +260,7 @@ def score_parallel(data_path, save_path, round_n, root_path):
                 })
         except:
             continue
-
+        
         try:
             ss_ = json.load(open(os.path.join(root_path, "round{}/score_gpt4_mini_corrected".format(round_n), d), "r"))
             assert len(ss_) == len(gen_info)
@@ -275,7 +280,7 @@ def score_parallel(data_path, save_path, round_n, root_path):
 
             messages.append(message)
             paths.append(save_path.format(d.replace(".json", "")))
-
+    
     gpt4v = GPT4V()
     tasks = list(zip(messages, paths))
     with multiprocessing.Pool(processes=50) as pool:
@@ -284,26 +289,28 @@ def score_parallel(data_path, save_path, round_n, root_path):
     return messages
 
 def socre(data_path, round_n, root_path):
+
     save_path = osp.join(root_path, "round{}".format(round_n), "score_gpt4_mini/{}.json")
     messages = score_parallel(data_path, save_path, round_n=round_n, root_path=root_path) # round_n
     return messages
 
-if __name__=='__main__':
-    root_path = "datasets/evolution/multi_round_v1_single_imgs_ini_prompt"
-    round_n = 3
+# if __name__=='__main__':
 
-    # previous evo data
-    if round_n == 1:
-        data_path = "datasets/meta_data" # 用于第一轮演化
-    else:
-        data_path = osp.join(root_path, "round{}".format(round_n-1), "filtered_qa")
+#     root_path = "/mnt/workspace/workgroup/haonan/evolution-code/evolution/single_imgs/multi_round_v1_single_imgs_ini_prompt"
+#     round_n = 3
 
-    save_path = osp.join(root_path, "round{}".format(round_n), "score_gpt4_mini/{}.json")
-    score_parallel(data_path, save_path, round_n=round_n, root_path=root_path) # round_n
+#     # previous evo data
+#     if round_n == 1:
+#         data_path = "/mnt/workspace/code/self_evolve_mllm/evolution-code/datasets/meta_data" # 用于第一轮演化
+#     else:
+#         data_path = osp.join(root_path, "round{}".format(round_n-1), "filtered_qa")
 
-    tmp = osp.join(root_path, "round{}".format(round_n))
-    data_process.func_4_score(
-        path=tmp,
-        data_path=osp.join(tmp, "score_gpt4_mini"),
-        data_path_corrected=osp.join(tmp, "score_gpt4_mini_corrected")
-    )
+#     save_path = osp.join(root_path, "round{}".format(round_n), "score_gpt4_mini/{}.json")
+#     score_parallel(data_path, save_path, round_n=round_n, root_path=root_path) # round_n
+
+#     tmp = osp.join(root_path, "round{}".format(round_n))
+#     data_process.func_4_score(
+#         path=tmp, 
+#         data_path=osp.join(tmp, "score_gpt4_mini"), 
+#         data_path_corrected=osp.join(tmp, "score_gpt4_mini_corrected")
+#     )

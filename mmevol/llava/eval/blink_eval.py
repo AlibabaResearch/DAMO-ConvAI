@@ -1,7 +1,11 @@
 import os
+import pandas as pd
 import json
+from tqdm import tqdm
 import requests
 import time
+from io import BytesIO
+import urllib
 import numpy as np
 from uuid import uuid4
 import base64
@@ -47,9 +51,13 @@ def prepare_inputs(inputs):
 
 def make_request(meta):
 
-    api_base="http://47.88.8.18:8088/api/ask"
-    key = ""
+    api_base=""
+    key=""
+
+    assert len(api_base)>0 and len(key)>0, "make sure tha both api_base and key are configured correctly"
+
     gpt_model="gpt-4o-2024-05-13"
+    # gpt_model = "gpt-4o-mini"
 
     source, question =  meta
     generated = False
@@ -96,8 +104,8 @@ def make_request(meta):
     # else:
     #     return "Could not determine yes or no."
         
-answer_file="workspace/MiniCPM-V/blink_prediction.jsonl"
-# answer_file="workspace/Open-LLaVA-NeXT/eval_mm/vlmevalkit/LLaVA-Llama3-V-1_6_ablation_evol_14k_evol/LLaVA-Llama3-V-1_6_ablation_evol_14k_evol_BLINK.xlsx"
+# answer_file="workspace/MiniCPM-V/blink_prediction.jsonl"
+answer_file="vlmevalkit/LLaVA-Llama3-V-1_6_mmevol_sft/LLaVA-Llama3-V-1_6_mmevol_sft_14k_BLINK.xlsx"
 if not answer_file.endswith(".xlsx"):
 
     data=[json.loads(i) for i in open(answer_file,'r')]
@@ -124,7 +132,6 @@ data=[(i['source'],f"Given the following question {i['prompt']}, the correct ans
 with Pool(processes=50) as pool:
     output = list(tqdm(pool.imap(make_request, data), total=len(data)))
 
-# print(output)
 
 # Continue with the processing of the JSONL file
 all_sources=['Art_Style', 'Functional_Correspondence', 'Multi-view_Reasoning', 'Relative_Reflectance', 'Visual_Correspondence', 'Counting', 'IQ_Test', 'Object_Localization', 'Semantic_Correspondence', 'Visual_Similarity', 'Forensic_Detection', 'Jigsaw', 'Relative_Depth', 'Spatial_Relation']
@@ -147,14 +154,3 @@ for k in all_sources:
 combined_accuracy=sum([correct_num_dict[k]/num_dict[k] for k in all_sources])/len(all_sources)
 # Print the results
 print(f"BLINK Accuracy: {combined_accuracy:.4f}")
-
-
-    # if index == 2:
-    #     index = 0
-    #     if round_correct == 2:
-    #         num_correct += 1
-    #     round_correct = 0
-
-    #     num_total += 1
-
-# print(f"The accuracy is {num_correct/num_total}")

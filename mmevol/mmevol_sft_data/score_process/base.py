@@ -11,8 +11,6 @@ def parse_file(s):
         assert osp.isfile(s)
         suffix = osp.splitext(s)[1].lower()
         mime = mimetypes.types_map.get(suffix, 'unknown')
-        if suffix == '.webp':
-            mime = "image/jpeg"
         return (mime, s)
     elif validators.url(s):
         suffix = osp.splitext(s)[1].lower()
@@ -185,9 +183,7 @@ class BaseAPI:
                             log = log.text
                         except:
                             print(f'Failed to parse {log} as an http response. ')
-                    # print(f'RetCode: {ret_code}\nAnswer: {answer}\nLog: {log}')
-                    # if answer != self.self.fail_msg:
-                    print(f'RetCode: {ret_code}\nAnswer: {answer}') 
+                    print(f'RetCode: {ret_code}\nAnswer: {answer}\nLog: {log}')
             except Exception as err:
                 if self.verbose:
                     print(f'An error occured during try {i}:')
