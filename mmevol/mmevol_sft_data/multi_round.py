@@ -1,15 +1,20 @@
 import os
 import sys
+sys.path.append("/mnt/data/haonan/code/mmevol_sft_data")
 from base import BaseAPI
 import numpy as np
 from tqdm import tqdm
 import multiprocessing
+import os.path as osp
 import requests
+import cv2
+import jsonlines
 import os.path as osp
 import shutil
+import time
 import json
 from utils import data_process
-from score_process import difficulty_scoring
+from score_process import difficulty_scoring_v123
 from uuid import uuid4
 import base64
 
@@ -121,8 +126,19 @@ class OpenAIWrapper(BaseAPI):
             print('Unknown API Base. ')
             sys.exit(-1)
 
-        self.api_base = "http://47.88.8.18:8088/api/ask"
-        self.key = ""
+        self.api_base="http://47.88.8.18:8088/api/ask"
+        # self.api_base = "http://47.88.8.18:8088/api/ask?tenant=gpt-4o-mini"
+        
+        # m6
+        # self.key = "eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImZhbnpoaWhhby5memhAYWxpYmFiYS1pbmMuY29tIiwicGFzc3dvcmQiOiIwOGU3NTk1ZjgyYTk4ZGY2NDRjMmI0NDM4NzM1Y2Y4Y2U0NDBmMWNjIiwiZXhwIjoyMDA5NjA5NTM4fQ.CmIJOx7fvERV2PP7eQ3sZVLhtO1aRB2B5DU7BIETVC8"
+        
+        # coai
+        # self.key = "eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IjI1ODczMCIsInBhc3N3b3JkIjoiMjU4NzMwMTIzIiwiZXhwIjoyMDE5NTUwNzAxfQ.JuqnTa7yauGkSzWkBiEig1K_rxvfAYTXS9F9_m-h4q8" 
+        
+        # norm
+        self.key = "eyJhbGciOiJIUzI1NiIsInR5cCI6Imp3dCJ9.eyJ1c2VybmFtZSI6IjQ0MzQ1NSIsInBhc3N3b3JkIjoiNDQzNDU1MTIzIiwiZXhwIjoyMDMxNzA1NTA3fQ.7g4a6t9dKcRXVRa7MwQb5m2oirFu1OxjXhWbNM0w50s"
+        
+        # self.model="gpt-4o-2024-08-06"
         self.model = "gpt-4o-mini"
         print(f'Using API Base: {self.api_base}; API Key: {self.key}')
 
@@ -458,24 +474,43 @@ def filter_round3(meta_data, conversation_v3_path):
 
 
 if __name__=='__main__':
-    final_save_path = "./datasets/seed_data_1k_demo_evo.json"
-    root_path = './datasets/evolution/multi_round_single_imgs_1k_mini'
+
+    final_save_path = "/mnt/data/haonan/code/mmevol_sft_data/datasets/seed_data_1k_demo_evo.json"
+    root_path = '/mnt/data/haonan/code/mmevol_sft_data/evolution/multi_round_single_imgs_1k_mini'
     img_path = '/mnt/workspace/lr/datasets'
 
-    for round_n in [1, 2, 3]:
+    for round_n in [1,2,3]:
         if round_n == 1: 
-            seed_data_path = "./datasets/meta_data"
+            seed_data_path = "/mnt/data/haonan/code/mmevol_sft_data/datasets/meta_data"
         else:
             seed_data_path = osp.join(root_path, "round{}".format(round_n-1), "filtered_qa")
         
         round_path = osp.join(root_path, "round{}".format(round_n))
         gen_save_path = osp.join(round_path, "gen_qa/{}.json")
         raw_save_path = osp.join(round_path, "evo_path/{}.json")
+        
+        # patience = 0
+        # while True:
+            
+        #     # evol
+        #     num_messages = evolution_parallel(seed_data_path, img_path, gen_save_path, raw_save_path=raw_save_path, round_n=round_n, root_path=root_path)
 
+        #     # post-process
+        #     data_process.func_4_qa(
+        #         path = round_path,
+        #         data_path = osp.join(round_path, "gen_qa"),
+        #         data_path_corrected = osp.join(round_path, "gen_qa_corrected"),
+        #         round_n = round_n
+        #     )
+        #     patience += 1
+        #     if len(num_messages) < 50 or patience >= 5:
+        #         print("Round: {} QA Evo Finished".format(round_n))
+        #         break
+            
         patience = 0
         while True:
             # score
-            scores = difficulty_scoring.score_parallel(seed_data_path, osp.join(root_path, "round{}".format(round_n), "score_gpt4_mini/{}.json"), round_n, root_path)
+            scores = difficulty_scoring_v123.score_parallel(seed_data_path, osp.join(root_path, "round{}".format(round_n), "score_gpt4_mini/{}.json"), round_n, root_path)
             # score-process
             data_process.func_4_score(
                 path=round_path, 

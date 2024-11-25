@@ -11,8 +11,10 @@ We are continuously refactoring our code, be patient and wait for the latest upd
 
 ## 🔗 Links
 - Project Web: https://mmevol.github.io/
-- Arxiv: https://arxiv.org/pdf/2409.05840
-- Dataset: https://huggingface.co/datasets/Tongyi-ConvAI/MMEvol/tree/main
+
+- Arxiv Paper: https://arxiv.org/pdf/2409.05840
+
+- Code: Coming soon
 
 ## 🧪 Dataset Details
 
@@ -27,10 +29,6 @@ Below we showcase the detailed data distribution of the SEED-163K, which is prep
     <span><b>Fig. 2. SEED-163K: 163K Curated Seed Instruction Tuning Dataset for Evol-Instruct</b></span>
 </p>
 
-## Usage
-We provide the example data for mmevol, which can be get with following steps:
-1. Download example [data.zip](http://alibaba-research.oss-cn-beijing.aliyuncs.com/mmevol/datasets.zip) and unzip it.
-2. Place the unzipped data folder in the `mmevol_sft_data` directory of the project.
 
 
 **License**: Please follow [Meta Llama 3.1 Community License](https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE) and [Gemma License](https://www.kaggle.com/models/google/gemma/license/).

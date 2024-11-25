@@ -3,8 +3,6 @@ import json
 import math
 import os
 os.environ['HF_ENDPOINT']='https://hf-mirror.com'
-import sys
-sys.path.append("/mnt/workspace/lr/workspace/Open-LLaVA-NeXT/")
 
 import shortuuid
 import torch
@@ -124,12 +122,12 @@ def eval_model(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="/mnt/workspace/lr/workspace/Open-LLaVA-NeXT/checkpoints/llava-v1.6-8b_llama3-1-8b_clip-large-336_debug_ablation_sft_evol/checkpoint-14655")
+    parser.add_argument("--model-path", type=str, default="mmevol/checkpoints/llava-v1.6-8b_llama3-1-8b_clip-large-336_debug_ablation_sft_evol/checkpoint-14655")
     parser.add_argument("--model-base", type=str, default=None)
-    parser.add_argument("--image-folder", type=str, default="/mnt/workspace/lr/datasets/checkpoints/zwq2018/Multi-modal-Self-instruct/test")
+    parser.add_argument("--image-folder", type=str, default="datasets/zwq2018/Multi-modal-Self-instruct/test")
     parser.add_argument("--question-file", type=str,
-                        default="/mnt/workspace/lr/datasets/checkpoints/zwq2018/Multi-modal-Self-instruct/test/questions.json")
-    parser.add_argument("--answers-file", type=str, default="/mnt/workspace/lr/answers/llava_llama3_evol_mminst_predition.jsonl")
+                        default="datasets/checkpoints/zwq2018/Multi-modal-Self-instruct/test/questions.json")
+    parser.add_argument("--answers-file", type=str, default="answers/llava_llama3_evol_mminst_predition.jsonl")
     parser.add_argument("--conv-mode", type=str, default="llava_llama_3")
     parser.add_argument("--num-chunks", type=int, default=1)
     parser.add_argument("--chunk-idx", type=int, default=0)
@@ -139,8 +137,8 @@ if __name__ == "__main__":
     parser.add_argument("--square_eval", type=bool, default=True)
     args = parser.parse_args()
 
-    # base_question_dir="/mnt/workspace/lr/datasets/checkpoints/zwq2018/Multi-modal-Self-instruct/test"
-    # base_answer_dir="/mnt/workspace/lr/datasets/checkpoints/zwq2018/Multi-modal-Self-instruct/eval"
+    # base_question_dir="datasets/checkpoints/zwq2018/Multi-modal-Self-instruct/test"
+    # base_answer_dir="datasets/checkpoints/zwq2018/Multi-modal-Self-instruct/eval"
     # question_files=[os.path.join(base_question_dir,i) for i in ['chart/test_3k.jsonl',
     # 'dashboard/test_1k.jsonl','flowchart/test_1k.jsonl','iq/test_1k.jsonl','layout/test.jsonl',
     # 'maze/test_3k.jsonl','org/test_1k.jsonl','table/test_1k.jsonl']]

@@ -104,11 +104,10 @@ def get_score_dict(df, column_name):
         cat_score_dict_average[key] = sum(val)/len(val)
     return cat_score_dict_average
 
-df = pd.read_json('/mnt/workspace/lr/workspace/ml-mia-bench/instruction_benchmark_all_image.json')
+df = pd.read_json('datasets/ml-mia-bench/instruction_benchmark_all_image.json')
 print(df.head())
 
-# ans_file = '/mnt/workspace/lr/answers/seed_11k_step_caption_answer.jsonl'
-ans_file="/mnt/workspace/lr/answers/llava_llama_3d1_mia_predition.jsonl"
+ans_file="answers/llava_llama_3d1_mia_predition.jsonl"
 
 answers = [json.loads(q) for q in open(ans_file, 'r')]
 
@@ -130,12 +129,18 @@ print(len(data))
 print(data[0])
 
 def make_request(meta):
-    api_base = "http://47.88.8.18:8088/api/ask"
-    key = ""
-    gpt_model = "gpt-4o-2024-05-13"
 
-    response, image, d = meta
-    question = generate_prompt(d, response)
+    api_base=""
+    key=""
+
+    assert len(api_base)>0 and len(key)>0, "make sure tha both api_base and key are configured correctly"
+
+    gpt_model="gpt-4o-2024-05-13"
+    # gpt_model = "gpt-4o-mini"
+
+
+    response, image, d= meta
+    question =  generate_prompt(d, response)
     generated = False
     assert response != 'error'
 

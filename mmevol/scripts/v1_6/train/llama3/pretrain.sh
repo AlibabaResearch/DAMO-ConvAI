@@ -13,7 +13,7 @@ export CPUS_PER_TASK=16
 export QUOTA=reserved
 
 export DATA_PATH=datasets/llava/llava_pretrain/blip_laion_cc_sbu_558k.json
-export SAVE_PATH=llava-v1.6-8b_llama3-1-8b_clip-large-336_pretrain_blip_laion_cc_sbu_558k
+export SAVE_PATH=llava-v1.6-8b_llama3-8b_clip-large-336_pretrain_blip_laion_cc_sbu_558k
 export BASE_LR=1e-3
 
 
