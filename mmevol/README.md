@@ -366,13 +366,11 @@ The Tongyi-ConvAI generates this dataset for multi-modal supervised fine-tuning.
 If you find this repo useful for your research, please consider citing the paper
 
 ```
-@article{xu2024magpie,
-    title={MMEvol: Empowering Multimodal Large Language Models with Evol-Instruct}, 
-    author={Run Luo, Haonan Zhang, Longze Chen, Ting-En Lin, Xiong Liu, Yuchuan Wu, Min Yang, Minzheng Wang, Pengpeng Zeng, Lianli Gao, Heng Tao Shen, Yunshui Li, Xiaobo Xia, Fei Huang, Jingkuan Song, Yongbin Li},
-    year={2024},
-    eprint={2409.05840},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@article{luo2024mmevol,
+  title={Mmevol: Empowering multimodal large language models with evol-instruct},
+  author={Luo, Run and Zhang, Haonan and Chen, Longze and Lin, Ting-En and Liu, Xiong and Wu, Yuchuan and Yang, Min and Wang, Minzheng and Zeng, Pengpeng and Gao, Lianli and others},
+  journal={arXiv preprint arXiv:2409.05840},
+  year={2024}
 }
 ```
 
