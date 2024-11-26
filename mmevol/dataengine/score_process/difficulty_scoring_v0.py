@@ -124,12 +124,9 @@ class OpenAIWrapper(BaseAPI):
             print('Unknown API Base. ')
             sys.exit(-1)
 
-        self.api_base="http://47.88.8.18:8088/api/ask"
-        # self.api_base = "http://47.88.8.18:8088/api/ask?tenant=gpt-4o-mini"
-        # self.key = "eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IjI1ODczMCIsInBhc3N3b3JkIjoiMjU4NzMwMTIzIiwiZXhwIjoyMDE5NTUwNzAxfQ.JuqnTa7yauGkSzWkBiEig1K_rxvfAYTXS9F9_m-h4q8"
-        # self.key = "eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IjI3NDM2OCIsInBhc3N3b3JkIjoiMjc0MzY4MTIzIiwiZXhwIjoyMDEyNjEzNjA4fQ.7OUpHs-AFPaFHuUy_p7XxXyNYhca2_-7F5GBtaahfe4"
-        self.key = "eyJhbGciOiJIUzI1NiIsInR5cCI6Imp3dCJ9.eyJ1c2VybmFtZSI6IjQ0MzQ1NSIsInBhc3N3b3JkIjoiNDQzNDU1MTIzIiwiZXhwIjoyMDMxNzA1NTA3fQ.7g4a6t9dKcRXVRa7MwQb5m2oirFu1OxjXhWbNM0w50s"
-        # self.key = "eyJhbGciOiJIUzI1NiIsInR5cCI6Imp3dCJ9.eyJ1c2VybmFtZSI6IjQzOTg2OSIsInBhc3N3b3JkIjoiNDM5ODY5MTIzIiwiZXhwIjoyMDMxNzA3NjkzfQ.ly9XNzVW7pEeW_bTZxzaqB3jt2kRr14XQIpT0DbCTto"
+        self.api_base = ""
+        self.key = ""
+        
         # self.model = "gpt-4o-2024-08-06"
         self.model = "gpt-4o-mini"
 

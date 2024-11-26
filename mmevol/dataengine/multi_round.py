@@ -1,6 +1,6 @@
 import os
 import sys
-sys.path.append("/mnt/data/haonan/code/mmevol_sft_data")
+sys.path.append("/mnt/data/haonan/code/dataengine")
 from base import BaseAPI
 import numpy as np
 from tqdm import tqdm
@@ -466,13 +466,13 @@ def filter_round3(meta_data, conversation_v3_path):
 
 if __name__=='__main__':
 
-    final_save_path = "/mnt/data/haonan/code/mmevol_sft_data/datasets/seed_data_1k_demo_evo.json"
-    root_path = '/mnt/data/haonan/code/mmevol_sft_data/evolution/multi_round_single_imgs_1k_mini'
+    final_save_path = "/mnt/data/haonan/code/dataengine/datasets/seed_data_1k_demo_evo.json"
+    root_path = '/mnt/data/haonan/code/dataengine/evolution/multi_round_single_imgs_1k_mini'
     img_path = '/mnt/workspace/lr/datasets'
 
     for round_n in [1,2,3]:
         if round_n == 1: 
-            seed_data_path = "/mnt/data/haonan/code/mmevol_sft_data/datasets/meta_data"
+            seed_data_path = "/mnt/data/haonan/code/dataengine/datasets/meta_data"
         else:
             seed_data_path = osp.join(root_path, "round{}".format(round_n-1), "filtered_qa")
         
