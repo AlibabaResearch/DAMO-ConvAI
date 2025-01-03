@@ -1,0 +1,23 @@
+from __gin__ import dynamic_registration
+import __main__ as main_script
+
+BATCH_SIZE=10
+ENV_MODEL="gpt-4"
+AGENT1_MODEL="gpt-3.5-turbo"
+AGENT2_MODEL="gpt-3.5-turbo"
+VERBOSE=False
+TAG_TO_CHECK_EXISTING_EPISODES=None
+
+MODEL_NAMES={"env": %ENV_MODEL, "agent1": %AGENT1_MODEL, "agent2": %AGENT2_MODEL}
+ENV_IDS=%gin.REQUIRED
+
+
+main_script.run_async_server_in_batch:
+    batch_size=%BATCH_SIZE
+    model_names=%MODEL_NAMES
+    verbose=%VERBOSE
+    tag=%TAG
+
+main_script._iterate_env_agent_combo_not_in_db:
+    env_ids=%ENV_IDS
+    tag=%TAG_TO_CHECK_EXISTING_EPISODES
