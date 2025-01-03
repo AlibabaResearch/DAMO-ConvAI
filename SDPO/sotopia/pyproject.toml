@@ -1,0 +1,83 @@
+[tool.poetry]
+name = "sotopia"
+version = "0.0.11"
+description = "A platform for simulating and evaluating social interaction."
+authors = ["Hao Zhu <prokilchu@gmail.com>, Xuhui Zhou <xuhuiz@cs.cmu.edu>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "sotopia"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.13"
+lxml = ">=4.9.3,<6.0.0"
+openai = "^1.11.0"
+langchain = "~0.2.5"
+rich = "^13.6.0"
+PettingZoo = "1.24.3"
+redis-om = "^0.2.1"
+gin-config = "^0.5.0"
+absl-py = "^2.0.0"
+together = "^0.2.4"
+pydantic = "1.10.12"
+beartype = "^0.14.0"
+langchain-openai = "~0.1.8"
+litellm = ">=1.23.12,<1.41.0"
+
+# dependency versions for extras
+fastapi = { version = ">=0.109.2,<0.111.0", optional = true }
+tabulate = { version = "^0.9.0", optional = true }
+anthropic = { version = ">=0.26,<0.32", optional = true }
+xmltodict = { version = "^0.13.0", optional = true }
+groq = { version = ">=0.4.2,<0.10.0", optional = true }
+cohere = { version = "^5.1.8", optional = true }
+google-generativeai = { version = ">=0.5.4,<0.8.0", optional = true }
+transformers = { version = "^4.41.0", optional = true }
+datasets = { version = "^2.19.0", optional = true }
+scipy = { version = "^1.13.1", optional = true }
+torch = { version = "^2.3.0", optional = true }
+pandas = { version = "^2.1.1", optional = true }
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "*"
+nbmake = "*"
+types-setuptools = "*"
+types-requests = "*"
+types-tqdm = "*"
+ruff = "*"
+
+[tool.poetry.group.test.dependencies]
+pytest = "*"
+pytest-cov = "*"
+pytest-asyncio = "*"
+mypy = ">=1.8.0,<1.11.0"
+
+[tool.poetry.extras]
+anthropic = ["anthropic"]
+groq = ["groq"]
+cohere = ["cohere"]
+google-generativeai = ["google-generativeai"]
+examples = ["transformers", "datasets", "scipy", "torch", "pandas"]
+chat = ["fastapi"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+mypy_path = "stubs"
+strict = true
+plugins = [
+    "pydantic.mypy"
+]
+
+[[tool.mypy.overrides]]
+module = "transformers.*"
+ignore_missing_imports = true
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+
+[tool.poetry.scripts]
+sotopia = "sotopia.cli:app"
