@@ -2,7 +2,7 @@
 
 ![picture](./case.png)
 
-This is the code of our paper: Segment-Level Direct Preference Optimization for Social Agents. Our method focuses on specific key segments within interactions to optimize multi-turn agent behavior. The data for SFT, ETO, DMPO, SDPO is open-sourced in LLaMA-Factory/data/.
+This is the code of our paper: Segment-Level Direct Preference Optimization for Social Agents. Our method focuses on specific key segments within interactions to optimize multi-turn agent behavior. The data for SFT, ETO, DMPO, SDPO is open-sourced at [here](https://huggingface.co/datasets/Tongyi-ConvAI/SDPO).
 
 The data format for SDPO:
 ```json
@@ -85,7 +85,7 @@ cd ../LLaMA-Factory
 pip install -e.
 ```
 
-Second, you should install and start redis:
+Second, you should install and start redis: (download rdb files at [here](https://huggingface.co/datasets/Tongyi-ConvAI/SDPO))
 ```shell
 # 1. install redis
 dpkg -i libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb
