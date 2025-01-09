@@ -1,5 +1,9 @@
 
-# <img src="assets/logo.png" width=5% align="left" /> OpenOmni: Large Language Models Pivot Zero-shot Omnimodal Alignment across Language with Real-time Self-Aware Emotional Speech Synthesis
+<div align=center>
+<img src="assets/logo.png" width="140px">
+</div>
+
+# OpenOmni: Large Language Models Pivot Zero-shot Omnimodal Alignment across Language with Real-time Self-Aware Emotional Speech Synthesis
 
 ## <font style="color:rgb(31, 35, 40);">👀</font><font style="color:rgb(31, 35, 40);"> Contents</font>
 + <font style="color:rgb(31, 35, 40);">Setup</font>
