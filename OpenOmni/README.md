@@ -251,11 +251,159 @@ python openomni/eval/qwen2/et2s_eavl.py
 ```
 
 ### Cases
+<table>
+<tr>
+<td align="center">
+
+**四是四，十是十，十四是十四，四十是四十。**
+
+</td>
+<td align="center">
+
+**黑化肥发灰，灰化肥发黑，黑化肥发灰会挥发，灰化肥挥发会发黑。**
+
+</td>
+<td align="center">
+
+**吃葡萄不吐葡萄皮，不吃葡萄倒吐葡萄皮。**
+
+</td>
+</tr>
+<tr>
+<td align="center">
+
+[四是四，十是十，十四是十四，四十是四十。](https://github.com/user-attachments/assets/64dcbe0d-6f28-43ce-916e-5aea264f13f0)
+
+</td>
+<td align="center">
+
+[黑化肥发灰，灰化肥发黑，黑化肥发灰会挥发，灰化肥挥发会发黑。](https://github.com/user-attachments/assets/996e5ec9-8baa-491d-a731-51d454fca493)
+
+</td>
+<td align="center">
+  
+[吃葡萄不吐葡萄皮，不吃葡萄倒吐葡萄皮。](https://github.com/user-attachments/assets/e7035bc0-1b11-4b9c-9491-e86c289daa2f)
+
+</td>
+</tr>
+<tr>
+<td align="center">
+
+**八百标兵奔北坡，炮兵并排北边跑，炮兵怕把标兵碰，标兵怕碰炮兵炮。**
+
+</td>
+<td align="center">
+
+**红凤凰，黄凤凰，粉红凤凰，花凤凰。**
+
+</td>
+<td align="center">
+
+**牛郎年年恋刘娘，刘娘念念恋牛郎。**
+
+</td>
+</tr>
+<tr>
+<td align="center">
+
+[八百标兵奔北坡，炮兵并排北边跑，炮兵怕把标兵碰，标兵怕碰炮兵炮。](https://github.com/user-attachments/assets/626c5732-2386-49cb-992c-0bd251af40df)
+
+
+</td>
+<td align="center">
+
+[红凤凰，黄凤凰，粉红凤凰，花凤凰。](https://github.com/user-attachments/assets/2d5e862b-abb1-4656-b80f-1576f730005e)
+
+</td>
+<td align="center">
+
+[牛郎年年恋刘娘，刘娘念念恋牛郎。](https://github.com/user-attachments/assets/89207b65-7855-425d-84ae-0badb5c1e73f)
+
+</td>
+</tr>
+</table>
 
 
 
-[en_0.webm](https://github.com/user-attachments/assets/987f7cf2-52af-459f-b653-ae2464c66c9d)
 
+
+
+
+<table>
+<tr>
+<td align="center">
+
+**She sells seashells by the seashore.**
+
+</td>
+<td align="center">
+
+**Peter Piper picked a peck of pickled peppers.**
+
+</td>
+<td align="center">
+
+**Six slippery snails slid slowly seaward.**
+
+</td>
+</tr>
+<tr>
+<td align="center">
+  
+[en_0.webm](https://github.com/user-attachments/assets/cc61b680-1f80-416e-89f7-418222f2de74)
+
+</td>
+<td align="center">
+  
+[en_1.webm](https://github.com/user-attachments/assets/74c058dd-9674-4832-9a08-fa882a16d539)
+
+
+</td>
+<td align="center">
+
+[en_2.webm](https://github.com/user-attachments/assets/bcdbf12d-c5e0-4373-bc92-625fb61fe9ab)
+
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
+
+**Six sleek swans swam swiftly southwards.**
+
+</td>
+<td align="center">
+
+**I saw Susie sitting in a shoeshine shop.**
+
+</td>
+<td align="center">
+
+**Can you can a can as a canner can can a can?**
+
+</td>
+</tr>
+<tr>
+<td align="center">
+
+[en_3.webm](https://github.com/user-attachments/assets/aab3314f-b03c-4398-a935-e013aac02235)
+
+
+</td>
+<td align="center">
+
+[en_4.webm](https://github.com/user-attachments/assets/6b4cdf14-4a87-4dce-8063-252ef5078428)
+
+</td>
+<td align="center">
+
+[en_5.webm](https://github.com/user-attachments/assets/9d0794f0-a36b-415d-a264-8935bbf96921)
+
+
+</td>
+</tr>
+</table>
 
 ## <font style="color:rgb(31, 35, 40);">📚</font><font style="color:rgb(31, 35, 40);">Citation</font> 
 
