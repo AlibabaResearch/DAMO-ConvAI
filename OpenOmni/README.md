@@ -250,6 +250,12 @@ python openomni/eval/llama3/et2s_eavl.py
 python openomni/eval/qwen2/et2s_eavl.py
 ```
 
+### Cases
+
+
+
+[en_0.webm](https://github.com/user-attachments/assets/987f7cf2-52af-459f-b653-ae2464c66c9d)
+
 
 ## <font style="color:rgb(31, 35, 40);">📚</font><font style="color:rgb(31, 35, 40);">Citation</font> 
 
