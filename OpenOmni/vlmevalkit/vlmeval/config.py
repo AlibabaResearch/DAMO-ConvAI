@@ -5,8 +5,8 @@ from functools import partial
 model_path="./checkpoints/openomni_stage3_llama_3/checkpoint-20000"
 model_path2="./checkpoints/openomni_stage3_qwen_2/checkpoint-20000"
 ungrouped = {
-    'OpenOmni-Llama3-V-1_6':partial(LLaVA_Llama3_V, model_path=model_path),
-    'OpenOmni-Qwen2-V-1_6':partial(LLaVA_Qwen2_V, model_path=model_path2),
+    'OpenOmni-Llama3-V-1_6':partial(OpenOmni_Llama3, model_path=model_path),
+    'OpenOmni-Qwen2-V-1_6':partial(OpenOmni_Qwen2, model_path=model_path2),
 }
 
 # "oss://coaidatasets-intern/minzheng/luorun/data/seed_data_15k_mini.json "

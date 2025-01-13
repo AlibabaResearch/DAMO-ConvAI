@@ -6,7 +6,8 @@ import math
 import ast
 
 from transformers import StoppingCriteria
-from openomni.constants import IMAGE_TOKEN_INDEX,SPEECH_TOKEN_INDEX
+from llava.constants import IMAGE_TOKEN_INDEX
+
 
 def select_best_resolution(original_size, possible_resolutions):
     """
@@ -181,27 +182,19 @@ def process_images(images, image_processor, model_cfg):
     return new_images
 
 
-def tokenizer_image_token(prompt, tokenizer, image_token_index=IMAGE_TOKEN_INDEX, speech_token_index=SPEECH_TOKEN_INDEX, return_tensors=None):
-    assert not ('<image>' in prompt and '<speech>' in prompt)
-    mode_token_index=0
-    if '<image>' in prompt:
-        prompt_chunks = [tokenizer(chunk).input_ids for chunk in prompt.split('<image>')]
-        mode_token_index=image_token_index
-    elif '<speech>' in prompt:
-        prompt_chunks = [tokenizer(chunk).input_ids for chunk in prompt.split('<speech>')]
-        mode_token_index=speech_token_index
-    else:
-        raise ValueError("No <image> and <speech> exists in prompt")
-    
+def tokenizer_image_token(prompt, tokenizer, image_token_index=IMAGE_TOKEN_INDEX, return_tensors=None):
+    prompt_chunks = [tokenizer(chunk).input_ids for chunk in prompt.split('<image>')]
+
     def insert_separator(X, sep):
         return [ele for sublist in zip(X, [sep]*len(X)) for ele in sublist][:-1]
+
     input_ids = []
     offset = 0
     if len(prompt_chunks) > 0 and len(prompt_chunks[0]) > 0 and prompt_chunks[0][0] == tokenizer.bos_token_id:
         offset = 1
         input_ids.append(prompt_chunks[0][0])
 
-    for x in insert_separator(prompt_chunks, [mode_token_index] * (offset + 1)):
+    for x in insert_separator(prompt_chunks, [image_token_index] * (offset + 1)):
         input_ids.extend(x[offset:])
 
     if return_tensors is not None:

@@ -1,1 +1,1 @@
-from openomni.model import LlavaHerLlamaForCausalLM,LlavaHerQwen2ForCausalLM
+from llava.model import LlavaLlamaForCausalLM

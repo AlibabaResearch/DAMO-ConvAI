@@ -11,19 +11,19 @@ export MASTER_PORT=29504
 export CPUS_PER_TASK=16
 export QUOTA=reserved
 
-export DATA_PATH=/mnt/workspace/lr/datasets/openomni/json/openomni_stage2-1.json
+export DATA_PATH=./datasets/openomni/json/openomni_stage2-1.json
 export SAVE_PATH=openomni_stage2-1_qwen_2
 export BASE_LR=1e-3
 
 
 bash -c "torchrun --nproc_per_node $GPUS_PER_NODE openomni/train/train_mem.py \
 --deepspeed ./scripts/zero2.json \
---model_name_or_path  /mnt/workspace/lr/datasets/checkpoints/Meta-Llama-3.1-8B-Instruct \
+--model_name_or_path  ./checkpoints/Meta-Llama-3.1-8B-Instruct \
 --version plain \
 --data_path ${DATA_PATH} \
---image_folder /mnt/workspace/lr/datasets/llava/llava_pretrain/images \
---vision_tower /mnt/workspace/lr/datasets/checkpoints/openai/clip-vit-large-patch14-336 \
---speech_encoder /mnt/workspace/lr/datasets/checkpoints/llava_her_pretrained/large-v3.pt \
+--image_folder ./datasets/llava/llava_pretrain/images \
+--vision_tower ./checkpoints/openai/clip-vit-large-patch14-336 \
+--speech_encoder ./checkpoints/openai-whisper/large-v3.pt \
 --mm_projector_type mlp2x_gelu \
 --tune_mm_mlp_adapter True \
 --unfreeze_mm_vision_tower False \
@@ -34,7 +34,7 @@ bash -c "torchrun --nproc_per_node $GPUS_PER_NODE openomni/train/train_mem.py \
 --mm_use_im_start_end False \
 --mm_use_im_patch_token False \
 --bf16 True \
---output_dir checkpoints/${SAVE_PATH} \
+--output_dir ./checkpoints/${SAVE_PATH} \
 --num_train_epochs 1 \
 --per_device_train_batch_size ${BATCH_SIZE} \
 --per_device_eval_batch_size 4 \

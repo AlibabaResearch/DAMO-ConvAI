@@ -308,7 +308,7 @@ class SpeechGeneratorCTC(nn.Module):
         _config._attn_implementation = "flash_attention_2"
         self.upsample_factor = config.ctc_upsample_factor
         self.unit_vocab_size = config.unit_vocab_size
-        qwen_tiny_path="/mnt/workspace/lr/datasets/checkpoints/Qwen/Qwen2.5-0.5B-Instruct"
+        qwen_tiny_path="Qwen/Qwen2.5-0.5B-Instruct"
         self.llm = Qwen2Encoder(qwen_tiny_path)
         
         self.n_dims=896 # fix

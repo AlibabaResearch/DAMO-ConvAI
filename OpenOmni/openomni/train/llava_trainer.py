@@ -65,40 +65,27 @@ def split_to_even_chunks(indices, lengths, num_chunks):
 
 def get_modality_length_grouped_indices(lengths, batch_size, world_size, generator=None):
     # We need to use torch for the random part as a distributed sampler will set the random seed for torch.
-    assert all(l[1] != 0 for l in lengths), "Should not have zero length."
-    if len(set([l[0] for l in lengths]))==1:
+    assert all(l != 0 for l in lengths), "Should not have zero length."
+    if all(l > 0 for l in lengths) or all(l < 0 for l in lengths):
         # all samples are in the same modality
-        return get_length_grouped_indices([i[1] for i in lengths], batch_size, world_size, generator=generator)
+        return get_length_grouped_indices(lengths, batch_size, world_size, generator=generator)
+    # mm_indices, mm_lengths = zip(*[(i, l) for i, l in enumerate(lengths) if l > 0 and l> 1000000])
+    # lang_indices, lang_lengths = zip(*[(i, -l) for i, l in enumerate(lengths) if l < 0 and l < -1000000])
 
     mm_indices, mm_lengths = [], []
-    for item in [(i, l[1]) for i, l in enumerate(lengths) if l[0]=="image"]:
+    for item in [(i, l) for i, l in enumerate(lengths) if l > 0]:
         mm_indices.append(item[0])
         mm_lengths.append(item[1])
     lang_indices, lang_lengths=[], []
-    for item in [(i, l[1]) for i, l in enumerate(lengths) if l[0]=="text"]:
+    for item in [(i, -l) for i, l in enumerate(lengths) if l < 0]:
         lang_indices.append(item[0])
         lang_lengths.append(item[1])
 
-    omni_indices, omni_lengths = [], []
-    for item in [(i, l[1]) for i, l in enumerate(lengths) if l[0]=="omni"]:
-        omni_indices.append(item[0])
-        omni_lengths.append(item[1])
-    speech_indices, speech_lengths=[], []
-    for item in [(i, l[1]) for i, l in enumerate(lengths) if l[0]=="speech"]:
-        speech_indices.append(item[0])
-        speech_lengths.append(item[1])
-
     mm_shuffle = [mm_indices[i] for i in get_length_grouped_indices(mm_lengths, batch_size, world_size, generator=None)]
     lang_shuffle = [lang_indices[i] for i in get_length_grouped_indices(lang_lengths, batch_size, world_size, generator=None)]
-    omni_shuffle = [omni_indices[i] for i in get_length_grouped_indices(omni_lengths, batch_size, world_size, generator=None)]
-    speech_shuffle = [speech_indices[i] for i in get_length_grouped_indices(speech_lengths, batch_size, world_size, generator=None)]
-
     megabatch_size = world_size * batch_size
     mm_megabatches = [mm_shuffle[i : i + megabatch_size] for i in range(0, len(mm_shuffle), megabatch_size)]
     lang_megabatches = [lang_shuffle[i : i + megabatch_size] for i in range(0, len(lang_shuffle), megabatch_size)]
-    omni_megabatches = [omni_shuffle[i : i + megabatch_size] for i in range(0, len(omni_shuffle), megabatch_size)]
-    speech_megabatches = [speech_shuffle[i : i + megabatch_size] for i in range(0, len(speech_shuffle), megabatch_size)]
-
     additional_batch=[]
     if len(mm_indices)>0:
         last_mm = mm_megabatches[-1]
@@ -108,22 +95,50 @@ def get_modality_length_grouped_indices(lengths, batch_size, world_size, generat
         last_lang = lang_megabatches[-1]
         if len(last_lang)>0:
             additional_batch+=[lang_shuffle[-megabatch_size:]]
-    if len(omni_indices)>0:
-        last_omni = omni_megabatches[-1]
-        if len(last_omni)>0:
-            additional_batch+=[omni_shuffle[-megabatch_size:]]
-    if len(speech_indices)>0: 
-        last_speech= speech_megabatches[-1]
-        if len(last_speech)>0:
-            additional_batch+=[speech_shuffle[-megabatch_size:]]
     # additional_batch = last_mm + last_lang
-    megabatches = mm_megabatches[:-1]+ additional_batch + lang_megabatches[:-1]+ omni_megabatches[:-1]+ speech_megabatches[:-1]
+    megabatches = mm_megabatches[:-1]+ additional_batch + lang_megabatches[:-1]
     megabatch_indices = torch.randperm(len(megabatches), generator=generator)
     megabatches = [megabatches[i] for i in megabatch_indices]
 
-    indices=[i for megabatch in megabatches for i in megabatch]
+    # if len(additional_batch) > 0:
+    #     megabatches.append(sorted(additional_batch))
 
-    return indices
+    high_quality_indices=[i for megabatch in megabatches for i in megabatch]
+
+    # mm_indices, mm_lengths = [], []
+    # for item in [(i, l) for i, l in enumerate(lengths) if l > 0 and l < 100000000]:
+    #     mm_indices.append(item[0])
+    #     mm_lengths.append(item[1])
+    # lang_indices, lang_lengths=[], []
+    # for item in [(i, -l) for i, l in enumerate(lengths) if l < 0 and l > -100000000]:
+    #     lang_indices.append(item[0])
+    #     lang_lengths.append(item[1])
+
+    # mm_shuffle = [mm_indices[i] for i in get_length_grouped_indices(mm_lengths, batch_size, world_size, generator=None)]
+    # lang_shuffle = [lang_indices[i] for i in get_length_grouped_indices(lang_lengths, batch_size, world_size, generator=None)]
+    # megabatch_size = world_size * batch_size
+    # mm_megabatches = [mm_shuffle[i : i + megabatch_size] for i in range(0, len(mm_shuffle), megabatch_size)]
+    # lang_megabatches = [lang_shuffle[i : i + megabatch_size] for i in range(0, len(lang_shuffle), megabatch_size)]
+    # additional_batch=[]
+    # if len(mm_indices)>0:
+    #     last_mm = mm_megabatches[-1]
+    #     if len(last_mm)>0:
+    #         additional_batch+=[mm_shuffle[-megabatch_size:]]
+    # if len(lang_indices)>0: 
+    #     last_lang = lang_megabatches[-1]
+    #     if len(last_lang)>0:
+    #         additional_batch+=[lang_shuffle[-megabatch_size:]]
+    # # additional_batch = last_mm + last_lang
+    # megabatches = mm_megabatches[:-1]+ additional_batch + lang_megabatches[:-1]
+    # megabatch_indices = torch.randperm(len(megabatches), generator=generator)
+    # megabatches = [megabatches[i] for i in megabatch_indices]
+
+    # # if len(additional_batch) > 0:
+    # #     megabatches.append(sorted(additional_batch))
+
+    # low_quality_indices=[i for megabatch in megabatches for i in megabatch]
+
+    return high_quality_indices
 
 
 def get_length_grouped_indices(lengths, batch_size, world_size, generator=None, merge=True):
@@ -208,9 +223,6 @@ class LLaVATrainer(Trainer):
                 if self.args.mm_vision_tower_lr is not None:
                     vision_tower_parameters = [
                         name for name, _ in opt_model.named_parameters() if "vision_tower" in name]
-                    if self.args.speech_generator_lr is not None:
-                        vision_tower_parameters = [name for name, _ in opt_model.named_parameters() if "speech_generator.llm" in name]
-                        print("sssssssssssssssssss",len(vision_tower_parameters))
                     optimizer_grouped_parameters = [
                         {
                             "params": [
@@ -341,7 +353,7 @@ class LLaVATrainer(Trainer):
 
 
     def _save(self, output_dir: Optional[str] = None, state_dict=None):
-        # if getattr(self.args, 'tune_mm_mlp_adapter', False):
-        #     pass
-        # else:
-        super(LLaVATrainer, self)._save(output_dir, state_dict)
+        if getattr(self.args, 'tune_mm_mlp_adapter', False):
+            pass
+        else:
+            super(LLaVATrainer, self)._save(output_dir, state_dict)
