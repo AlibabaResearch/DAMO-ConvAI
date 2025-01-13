@@ -250,7 +250,7 @@ python openomni/eval/llama3/et2s_eavl.py
 python openomni/eval/qwen2/et2s_eavl.py
 ```
 
-### Cases
+## <font style="color:rgb(31, 35, 40);"> 📌 Cases </font>
 <table>
 <tr>
 <td align="center">
@@ -308,7 +308,6 @@ python openomni/eval/qwen2/et2s_eavl.py
 
 [八百标兵奔北坡，炮兵并排北边跑，炮兵怕把标兵碰，标兵怕碰炮兵炮。](https://github.com/user-attachments/assets/626c5732-2386-49cb-992c-0bd251af40df)
 
-
 </td>
 <td align="center">
 
@@ -322,11 +321,6 @@ python openomni/eval/qwen2/et2s_eavl.py
 </td>
 </tr>
 </table>
-
-
-
-
-
 
 
 <table>
