@@ -3,8 +3,6 @@ import torch
 import os
 os.environ['HF_ENDPOINT']='https://hf-mirror.com'
 import json
-import sys
-sys.path.append("/mnt/workspace/lr/workspace/OpenOmni")
 from tqdm import tqdm
 import shortuuid
 import whisper
@@ -147,7 +145,7 @@ def eval_model(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="/mnt/workspace/lr/workspace/LLaVA_Her/checkpoints/openomni_stage2_qwen_2/checkpoint-2180")
+    parser.add_argument("--model-path", type=str, default="./checkpoints/openomni_stage2_qwen_2/checkpoint-last")
     parser.add_argument("--model-base", type=str, default=None)
     parser.add_argument("--conv-mode", type=str, default="llava_qwen2")
     parser.add_argument("--num-chunks", type=int, default=1)

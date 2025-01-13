@@ -2,8 +2,6 @@ import warnings
 warnings.filterwarnings("ignore")
 import torch
 import torch.distributed as dist
-import sys
-sys.path.append("/mnt/workspace/lr/workspace/LLaVA_Her")
 from .vlmeval.smp import *
 from .vlmeval.evaluate import *
 from .vlmeval.inference import infer_data_job

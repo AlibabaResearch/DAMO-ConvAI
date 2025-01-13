@@ -3,7 +3,17 @@
 <img src="assets/logo.png" width="140px">
 </div>
 
-# OpenOmni: Large Language Models Pivot Zero-shot Omnimodal Alignment across Language with Real-time Self-Aware Emotional Speech Synthesis
+# OpenOmni: A Fully Open-Source Omni Large Language Model with Real-time Self-Aware Emotional Speech Synthesis
+
+<font size=5><div align='center' >  [[📖 arXiv Paper](https://arxiv.org/pdf/2501.04561)] [[📊 Dataset (Coming Soon)](https://github.com/RainBowLuoCS/OpenOmni)] [[🏆 Models(Coming Soon)](https://github.com/RainBowLuoCS/OpenOmni)]  </div></font>
+OpenOmni is the end-to-end fully open-source pioneering method that successfully incorporates image,speech and text into the omni large language model. OpenOmni's design for speech generation through language bridging and text-guided speech can be quickly trained in situations where omni-modal data and VRAM resources are scarce. OpenOmni not only supports omni-modal nderstanding, but also supports two real-time emotional speech generation modes, CTC mode and AR mode, so that users can flexibly choose according to their needs to achieve a balance between generation speed and quality. The flexible framework design allows OpenOmni to be easily and quickly applied to a variety of downstream tasks, such as speech embodied navigation, multi-role-playing speech dialogue, etc. Everyone is welcome to come and experience it now!
+
+## 🔥 Update
+
+- [2025/01/13]🔥OpenOmni is coming! We release the [code](https://github.com/RainBowLuoCS/OpenOmni)
+- [2025/01/09]🔥After two months of company audit! We release the [paper](https://arxiv.org/pdf/2501.04561)
+- [2024/11/14]🔥We submit the [paper](https://arxiv.org/pdf/2501.04561) for peer review
+
 
 ## <font style="color:rgb(31, 35, 40);">👀</font><font style="color:rgb(31, 35, 40);"> Contents</font>
 + <font style="color:rgb(31, 35, 40);">Setup</font>
@@ -20,8 +30,8 @@
 1. <font style="color:rgb(31, 35, 40);">Clone this repository</font>
 
 ```plain
-git clone https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/OpenOMNI.git
-cd OpenOMNI
+git clone https://github.com/RainBowLuoCS/OpenOmni.git
+cd OpenOmni
 ```
 
 1. <font style="color:rgb(31, 35, 40);">Install Package</font>
@@ -33,6 +43,7 @@ pip install --upgrade pip  # enable PEP 660 support
 pip install -e .
 pip install openai-whisper
 pip install transformers==4.43.4
+pip install -r requirements.txt
 ```
 
 1. <font style="color:rgb(31, 35, 40);">Install additional packages for training</font>
@@ -40,6 +51,19 @@ pip install transformers==4.43.4
 ```plain
 pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
+```
+## 🔥 Fast Usage
+
+After downloading the weights and configuring the paths properly. Two open-sourced speech tokenizer are needed for speech discretization and reconstruction with different vocabulary size!  [CosVoice for 6K CTC Mode](https://github.com/FunAudioLLM/CosyVoice) and [GLM4Voice for 16K AR Mode](https://github.com/THUDM/GLM-4-Voice)
+
+Fast inference for omnimodal input (speech,text,image and video)
+```plain
+python inference.py
+```
+
+Fast interation for omnimodal input (speech,text,image and video)
+```plain
+python demo.py
 ```
 
 ## <font style="color:rgb(31, 35, 40);">Model</font>
@@ -49,16 +73,18 @@ pip install flash-attn --no-build-isolation
 
 | Stage | <font style="color:rgb(31, 35, 40);">Model</font> | <font style="color:rgb(31, 35, 40);">Speech Projector</font> | <font style="color:rgb(31, 35, 40);">Image</font><br/><font style="color:rgb(31, 35, 40);">Projector</font> | <font style="color:rgb(31, 35, 40);">IT Data</font> | <font style="color:rgb(31, 35, 40);">Download</font> |
 | --- | --- | --- | --- | --- | --- |
-| 1-1 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage1-1</font> |  |  | <font style="color:rgb(31, 35, 40);">aishell2+wetnetspeech+librispeech</font> | ckpt |
-| 2-1 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage2-1</font> |  |  | <font style="color:rgb(31, 35, 40);">llava-pretrain</font> | ckpt |
-| 2-2 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage2-2</font> |  |  | <font style="color:rgb(31, 35, 40);">mmevol</font> | ckpt |
-| 3-1 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage3-1</font> |  |  | <font style="color:rgb(31, 35, 40);">openomni-1M</font> | ckpt |
-| 3-2 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage3-2</font> |  |  | <font style="color:rgb(31, 35, 40);">openomni-prefer</font> | ckpt |
+| 1-1 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage1-1</font> | ckpt | ckpt | <font style="color:rgb(31, 35, 40);">openomni_stage1-1.json</font> | ckpt |
+| 2-1 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage2-1</font> | ckpt | ckpt | <font style="color:rgb(31, 35, 40);">openomni_stage2-1.json</font> | ckpt |
+| 2-2 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage2-2</font> | ckpt | ckpt | <font style="color:rgb(31, 35, 40);">openomni_stage2-2.json</font> | ckpt |
+| 3-1 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage3-1</font> | ckpt | ckpt | <font style="color:rgb(31, 35, 40);">openomni_stage3-1.json</font> | ckpt |
+| 3-2 | <font style="color:rgb(31, 35, 40);">OpenOMNI-Qwen2-7B-Stage3-2</font> | ckpt | ckpt | <font style="color:rgb(31, 35, 40);">openomni_stage3-2.json</font> | ckpt |
 
 
 ## <font style="color:rgb(31, 35, 40);">Preparation</font>
 ### <font style="color:rgb(31, 35, 40);">Dataset</font>
-<font style="color:rgb(31, 35, 40);">Please follow [MMEvol](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/mmevol) to prepare the corresponding images-text datasets. Here we provide the details of speech-text datasets.</font>
+<font style="color:rgb(31, 35, 40);">Please follow [MMEvol](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/mmevol) to prepare the corresponding images-text datasets. Here we only provide the details of speech-text datasets.</font>
+
+The following is the data directory tree of OpenOmni
 
 ### <font style="color:rgb(31, 35, 40);">data structure</font>
 ```plain
@@ -94,9 +120,11 @@ datasets
 + All file/path starting with "audio" are self-synthesized.  
 + DPO contains approximately 9k entries for "prefer" and "reject," covering 9 types of emotions.
 
+More details about data curation can be found in our [paper](https://arxiv.org/pdf/2501.04561).
+
 ## <font style="color:rgb(31, 35, 40);">Train</font>
 ### <font style="color:rgb(31, 35, 40);">Speech2Text Pretrain</font>
-<font style="color:rgb(31, 35, 40);">Please download the MMEvol, AIShell-4, LibriSPeech, WeNetSpeech,  OpenOmniData and organize the data following Preparation before training .  Make sure set up the corresponding train script with correct setting (data path, weight path, and hyper-paramaters)</font>
+<font style="color:rgb(31, 35, 40);">Please download the MMEvol, AIShell-4, LibriSPeech, WeNetSpeech,  OpenOmni Data and organize the data following Preparation before training .  Make sure set up the corresponding train script with correct setting (data path, weight path, and hyper-paramaters)</font>
 
 ```plain
 bash scripts/train/llama3/speech2text_pretrain.sh
@@ -210,8 +238,6 @@ python openomni/eval/llama3/ov_odyssey_eavl.py
 python openomni/eval/qwen2/ov_odyssey_eavl.py
 ```
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/png/136956739/1734596642459-bd580742-7ee4-4f25-bd6e-3dcc89ffa58c.png)
-
 ### <font style="color:rgb(31, 35, 40);">Text-Speech Evaluation </font>
 ```plain
 python openomni/eval/llama3/t2s_eavl.py
@@ -230,9 +256,17 @@ python openomni/eval/qwen2/et2s_eavl.py
 If you find this repo useful for your research, please consider citing the paper
 
 ```
-@article{luo2024openomni,
+@article{luo2025openomni,
   title={OpenOmni: Large Language Models Pivot Zero-shot Omnimodal Alignment across Language with Real-time Self-Aware Emotional Speech Synthesis},
   author={Run Luo, Ting-En Lin, Haonan Zhang, Yuchuan Wu, Xiong Liu, Min Yang, Yongbin Li, Longze Chen, Jiaming Li, Lei Zhang, Yangyi Chen, Hamid Alinejad-Rokny, Fei Huang},
+  journal={arXiv preprint arXiv:2501.04561},
+  year={2025}
+}
+```
+```
+@article{luo2024mmevol,
+  title={Mmevol: Empowering multimodal large language models with evol-instruct},
+  author={Luo, Run and Zhang, Haonan and Chen, Longze and Lin, Ting-En and Liu, Xiong and Wu, Yuchuan and Yang, Min and Wang, Minzheng and Zeng, Pengpeng and Gao, Lianli and others},
   journal={arXiv preprint arXiv:2409.05840},
   year={2024}
 }
@@ -245,3 +279,14 @@ if you have any question, please consider following concat for help
 - Run Luo — r.luo@siat.ac.cn
 
 - Haonan Zhang — zchiowal@gmail.com
+
+
+## Acknowledgement
+
+\- [LLaVA](https://github.com/haotian-liu/LLaVA) and [LLaVA-Omni](https://github.com/ictnlp/LLaMA-Omni): the codebase we built upon. Thanks for their brilliant contributions to the community! We just can't wait to use OpenOmni.
+
+\- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit): the amazing open-sourced suit for evaluating various LMMs!
+
+\- [CosVoice](https://github.com/FunAudioLLM/CosyVoice): the amazing open-sourced speech tokenizer for speech discretization and reconstruction with 6k vocabulary size!
+
+\- [GLM4Voice](https://github.com/THUDM/GLM-4-Voice): he amazing open-sourced speech tokenizer for speech discretization and reconstruction with 16k vocabulary size!

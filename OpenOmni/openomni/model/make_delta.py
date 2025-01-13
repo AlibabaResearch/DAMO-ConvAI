@@ -7,7 +7,7 @@ import argparse
 import torch
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForCausalLM
-from openomni.model.utils import auto_upgrade
+from llava.model.utils import auto_upgrade
 
 
 def make_delta(base_model_path, target_model_path, delta_path, hub_repo_id):

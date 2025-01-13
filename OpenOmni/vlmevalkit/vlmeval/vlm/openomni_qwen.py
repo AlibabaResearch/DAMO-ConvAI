@@ -113,7 +113,7 @@ def get_mosaic_coordinate(mosaic_index, xc, yc, w, h, input_h, input_w, pix_line
 
     return (x1, y1, x2, y2), min_scale
 
-class LLaVA_Qwen2_V(BaseModel):
+class OpenOmni_Qwen2(BaseModel):
     INSTALL_REQ = False
     INTERLEAVE = True
 

@@ -15,7 +15,7 @@ export MASTER_PORT=29588
 export CPUS_PER_TASK=16
 export QUOTA=reserved
 
-export DATA_PATH=/mnt/workspace/lr/datasets/openomni/json/openomni_stage2-2.json
+export DATA_PATH=./datasets/openomni/json/openomni_stage2-2.json
 export SAVE_PATH=openomni_stage2-2_qwen_2
 export BASE_LR=2e-5
 export VIT_LR=2e-6
@@ -40,17 +40,17 @@ retry_count=0
 # 要执行的命令
 command_to_run="torchrun --nproc_per_node $GPUS_PER_NODE openomni/train/train_mem.py \
 --deepspeed ./scripts/zero2.json \
---model_name_or_path /mnt/workspace/lr/datasets/checkpoints/qwen/Qwen2-7B-Instruct \
+--model_name_or_path ./checkpoints/qwen/Qwen2-7B-Instruct \
 --version llava_qwen_2 \
 --data_path ${DATA_PATH} \
---image_folder /mnt/workspace/lr/datasets \
---speech_folder /mnt/workspace/lr/datasets \
---vision_tower /mnt/workspace/lr/datasets/checkpoints/openai/clip-vit-large-patch14-336 \
+--image_folder ./datasets \
+--speech_folder ./datasets \
+--vision_tower ./datasets/checkpoints/openai/clip-vit-large-patch14-336 \
 --mm_projector_type mlp2x_gelu \
 --freeze_backbone False \
 --tune_speech_adapter False \
---pretrain_mm_mlp_adapter /mnt/workspace/lr/workspace/LLaVA_Her/checkpoints/openomni_stage2_qwen_2/mm_projector.bin \
---speech_encoder /mnt/workspace/lr/datasets/checkpoints/llava_her_pretrained/large-v3.pt \
+--pretrain_mm_mlp_adapter ./checkpoints/openomni_stage2_qwen_2/mm_projector.bin \
+--speech_encoder ./checkpoints/openai-whisper/large-v3.pt \
 --unfreeze_mm_vision_tower True \
 --mm_vision_tower_lr ${VIT_LR} \
 --image_aspect_ratio anyres \
@@ -61,7 +61,7 @@ command_to_run="torchrun --nproc_per_node $GPUS_PER_NODE openomni/train/train_me
 --mm_use_im_start_end False \
 --mm_use_im_patch_token False \
 --bf16 True \
---output_dir checkpoints/${SAVE_PATH} \
+--output_dir ./checkpoints/${SAVE_PATH} \
 --num_train_epochs 1 \
 --per_device_train_batch_size ${BATCH_SIZE} \
 --per_device_eval_batch_size 4 \

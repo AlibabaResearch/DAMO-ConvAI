@@ -37,8 +37,6 @@ import torch
 import os
 os.environ['HF_ENDPOINT']='https://hf-mirror.com'
 import json
-import sys
-sys.path.append("/mnt/workspace/lr/workspace/OpenOmni")
 from tqdm import tqdm
 import shortuuid
 import whisper
@@ -136,7 +134,7 @@ def eval_model(args):
     use_speech=False
     random.shuffle(questions)
 
-    for line in tqdm(questions[:4000]):
+    for line in tqdm(questions):
 
         answer=line["emotion"]
         prompt=line['prompt']
@@ -218,8 +216,8 @@ def eval_model(args):
 
         tts_speech = torch.cat(tts_speechs, dim=-1).cpu()
 
-        torchaudio.save(f"./assets/emotion_temp_2.wav", tts_speech.unsqueeze(0), 22050, format="wav")
-        rec_result = emotion_inference_pipeline("./assets/emotion_temp_2.wav", output_dir="./assets", granularity="utterance", extract_embedding=False)
+        torchaudio.save(f"./assets/emotion_temp.wav", tts_speech.unsqueeze(0), 22050, format="wav")
+        rec_result = emotion_inference_pipeline("./assets/emotion_temp.wav", output_dir="./assets", granularity="utterance", extract_embedding=False)
         ["Angry and Disgusted",
         "Angry and Disgusted",
         "Fearful and Concerned",
@@ -291,17 +289,17 @@ def eval_model(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="/mnt/workspace/lr/workspace/LLaVA_Her/checkpoints/openomni_stage3_qwen_audio_ar_final_16k_fusion/checkpoint-24944")
+    parser.add_argument("--model-path", type=str, default="./checkpoints/openomni_stage3_qwen_ar/checkpoint-last")
     parser.add_argument("--model-base", type=str, default=None)
     parser.add_argument("--image-folder", type=str, default="")
-    parser.add_argument("--voice_config_path", type=str, default="/mnt/workspace/lr/datasets/checkpoints/ZhipuAI/glm-4-voice-decoder/config.yaml")
-    parser.add_argument("--flow_ckpt_path", type=str, default="/mnt/workspace/lr/datasets/checkpoints/ZhipuAI/glm-4-voice-decoder/flow.pt")
-    parser.add_argument("--hift_ckpt_path", type=str, default="/mnt/workspace/lr/datasets/checkpoints/ZhipuAI/glm-4-voice-decoder/hift.pt")
-    parser.add_argument("--encoder_path", type=str, default="/mnt/workspace/lr/datasets/checkpoints/llava_her_pretrained/large-v3.pt")
+    parser.add_argument("--voice_config_path", type=str, default="ZhipuAI/glm-4-voice-decoder/config.yaml")
+    parser.add_argument("--flow_ckpt_path", type=str, default="ZhipuAI/glm-4-voice-decoder/flow.pt")
+    parser.add_argument("--hift_ckpt_path", type=str, default="ZhipuAI/glm-4-voice-decoder/hift.pt")
+    parser.add_argument("--encoder_path", type=str, default="./checkpoints/openai-whisper/large-v3.pt")
     parser.add_argument("--dataset", type=str, default="librispeech")
     parser.add_argument("--speech-folder", type=str, default="")
-    parser.add_argument("--question-file", type=str,default="./openomni/eval/openomni_emotion_val.json")
-    parser.add_argument("--answer-file", type=str,default="./openomni/eval/openomni_emotion_val_pre_sample.jsonl")
+    parser.add_argument("--question-file", type=str,default="./openomni/eval/qwen/openomni_emotion_val.json")
+    parser.add_argument("--answer-file", type=str,default="./openomni/eval/qwen/openomni_emotion_val_pre.jsonl")
     parser.add_argument("--conv-mode", type=str, default="llava_qwen_2")
     parser.add_argument("--num-chunks", type=int, default=1)
     parser.add_argument("--chunk-idx", type=int, default=0)
