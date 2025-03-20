@@ -1,0 +1,62 @@
+# basic
+seed: 42
+device: 'cuda'
+model_name: 'uda'
+datatype: 'graph'
+enable_uda_relative_pos: True
+tokenizer_path: '/pretraining/config_and_tokenizer'
+special_token_path: '/UnifiedData2TextPretrain/cleanout_datasets/special_tokens.txt'
+data_processor: 'uda'
+task_source_prefix: 'describe the following data: '
+modified_default_plm_config: True
+plms_dropout_rate: 0.1
+
+
+# training
+matrix: "all"
+position_style: "token"
+
+train_type: 'finetune'
+dist_train: False
+experiment_name: 'ck-finetuning_t5_on_dart_token'
+init_model_path: "/1126_pretrain/six_meta_dataset/models/epoch_9_step_340000_bleu_40.4700.pkl"
+max_epochs: 20
+max_steps: -1
+early_stopping_patience: 8
+start_eval_from: 0
+eval_every: 1
+max_keep_checkpoints: -1
+report_every: 100
+saved_dir: '/finetuning/dart_ck'
+
+learner: fairseq_adafactor
+learning_rate: 7e-05
+adam_epsilon: 0.00000001
+max_grad_norm: 2.0
+lr_scheduler: 'none'
+warmup_steps: 0
+
+# training data
+train_file_src: '/cleanout_datasets/dart/dart-v1.1.1-full-train_with_unified_graph_simplified_and_lower_relationt.json'
+train_n_example: -1
+update_freq: 8
+train_batch_size: 32
+max_source_length: 384
+max_target_length: 384
+train_num_workers: 5
+
+
+# evaluate data
+eval_noise_data: False
+eval_task_source_prefix: "describe the following data: "
+val_metric: bleu
+eval_file_src: '/cleanout_datasets/dart/dart-v1.1.1-full-test_with_unified_graph_simplified_and_lower_relationt.json'
+eval_n_example: -1
+eval_batch_size: 16
+num_beams: 5
+eval_max_source_length: 384
+eval_max_target_length: 384
+eval_num_workers: 5
+
+
+
