@@ -1,0 +1,68 @@
+
+# basic
+seed: 42
+device: 'cuda'
+model_name: 'uda'
+datatype: 'graph'
+enable_uda_relative_pos: False
+data_processor: 'uda'
+tokenizer_path: './pretraining/config_and_tokenizer/'
+special_token_path: './cleanout_datasets/special_tokens.txt'
+dataset_style: 'iterable'
+# model
+modified_default_plm_config: True
+plms_dropout_rate: 0.2
+
+# training
+train_type:
+dist_train: True
+experiment_name: 'dtwikinlgbio'
+init_model_path: './pretraining/09-02-large/models/epoch_9_step_262144_bleu_71.5400.pkl'
+max_epochs: -1
+max_steps: 262144
+early_stopping_patience: -1
+start_eval_from: 5000
+eval_every: 5000
+max_keep_checkpoints: -1
+saved_dir: './pretraining/202211-largesix_bt16'
+
+learner: fairseq_adafactor
+learning_rate: 1e-3
+adam_epsilon: 0.00000001
+max_grad_norm: -1
+lr_scheduler: 'linear'
+warmup_steps: 5000
+update_freq: 2
+
+report_every: 200
+
+# pretraining
+random_allocation_mask: True
+random_delete_rate: 0.15
+noise_types:
+ - 't5_denoising'
+ - 'data2text'
+noise_type_rates:
+ - 0.4
+ - 0.6
+noise_task_source_prefix: '{"t5_denoising": "", "data2text":"describe the following data: "}'
+
+train_file_src: './cleanout_datasets/dart_totto_tabelT_nlg_bio_cosql/train.json'
+train_n_example: -1
+train_batch_size: 16
+max_source_length: 1024
+max_target_length: 208
+train_num_workers: 2
+train_pin_memory: True
+
+# evaluate data
+eval_noise_data: False
+eval_task_source_prefix: "describe the following data: "
+val_metric: bleu
+eval_file_src: './cleanout_datasets/dart_totto_tabelT_nlg_bio_cosql/dev.json'
+eval_n_example: 3000
+eval_batch_size: 16
+num_beams: 5
+eval_max_source_length: 1024
+eval_max_target_length: 128
+eval_num_workers: 4

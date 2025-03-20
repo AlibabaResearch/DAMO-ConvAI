@@ -1,0 +1,29 @@
+# basic
+seed: 42
+train_type: "inference"
+device: 'cuda'
+model_name: 'uda'
+datatype: 'graph'
+tokenizer_path: '/config_and_tokenizer'
+special_token_path: '/cleanout_datasets/special_tokens.txt'
+data_processor: 'uda'
+enable_uda_relative_pos: False
+
+# Infer
+#checkpoint_path: '/mnt/guanbao_nas/guanbao/finetuning/dart_ck/ck-finetuning_t5_on_dart/models/epoch_9_step_17172_bleu_37.2900.pkl'
+checkpoint_path: '/webnlg_ck/ck-finetuning_t5_on_dart_instruct/models/best_fintune_webnlg.pkl'
+infer_generated_text_dir: '/generate/webnlg'
+file_save_prefix: 'webnlg_instruct'
+
+# evaluate data
+eval_task_source_prefix: "Describe the following data: "
+val_metric: bleu
+
+eval_file_src: '/root/data/cleanout_datasets/webnlg3.0_meta/test.json'
+eval_n_example: -1
+eval_batch_size: 64
+num_beams: 5
+eval_max_source_length: 1024
+eval_max_target_length: 128
+eval_num_workers: 5
+

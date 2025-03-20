@@ -1,0 +1,54 @@
+# basic
+seed: 42
+device: 'cuda'
+model_name: 't5'
+datatype: 'linear'
+enable_uda_relative_pos: False
+
+tokenizer_path: 't5-base'
+special_token_path: '/cleanout_datasets/special_tokens.txt'
+data_processor: 'linear'
+# task_source_prefix: 'Describe the following data: '
+modified_default_plm_config: True
+plms_dropout_rate: 0.1
+
+# training
+train_type: 'finetune'
+dist_train: False
+experiment_name: 'finetuning_t5_base_on_cosql_2e-4'
+init_model_path: 't5-base'
+max_epochs: 80
+max_steps: -1
+early_stopping_patience: 8
+start_eval_from: 0
+eval_every: 1
+max_keep_checkpoints: -1
+report_every: 100
+saved_dir: '/guanbao/finetuning/cosql_linear'
+
+learner: fairseq_adafactor
+learning_rate: 2e-04
+adam_epsilon: 0.00000001
+max_grad_norm: 2.0
+lr_scheduler: 'none'
+warmup_steps: 0
+
+# training data
+train_file_src: '/cleanout_datasets/cosql_with_unified_graph/cosql_train.json'
+train_n_example: -1
+train_batch_size: 16
+max_source_length: 1024
+max_target_length: -1
+train_num_workers: 5
+
+
+# evaluate data
+eval_noise_data: False
+val_metric: bleu
+eval_file_src: '/cleanout_datasets/cosql_with_unified_graph/cosql_dev.json'
+eval_n_example: -1
+eval_batch_size: 32
+num_beams: 5
+eval_max_source_length: 1024
+eval_max_target_length: 128
+eval_num_workers: 5

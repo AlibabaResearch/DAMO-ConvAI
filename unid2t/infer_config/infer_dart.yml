@@ -1,0 +1,24 @@
+# basic
+seed: 42
+device: 'cuda'
+model_name: 'uda'
+datatype: 'graph'
+tokenizer_path: '/Uni/finetune_checkpoint/dart_ck/config_and_tokenizer'
+special_token_path: '/Uni/cleanout_datasets/special_tokens.txt'
+data_processor: 'uda'
+enable_uda_relative_pos: False
+
+# Infer
+checkpoint_path: '/Uni/finetune_checkpoint/dart_ck/best_fintune_dart.pkl'
+infer_generated_text_dir: './finetuning/dart_ck'
+file_save_prefix: 'dart_dev'
+
+val_metric: bleu
+eval_file_src: '/cleanout_datasets/dart/dart-v1.1.1-full-dev_with_unified_graph_simplified_and_lower_relationt.json'
+
+eval_n_example: -1
+eval_batch_size: 16
+num_beams: 5
+eval_max_source_length: 1024
+eval_max_target_length: 128
+eval_num_workers: 5
