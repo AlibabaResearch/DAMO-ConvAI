@@ -1,7 +1,0 @@
-from __gin__ import dynamic_registration
-import __main__ as main_script
-
-TAGS_TO_FIX=%gin.REQUIRED
-
-main_script.rerun_missing_episodes:
-    tags=%TAGS_TO_FIX
