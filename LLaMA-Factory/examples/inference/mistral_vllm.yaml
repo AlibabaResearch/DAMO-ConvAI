@@ -1,0 +1,7 @@
+model_name_or_path: saves/mistral-7b/sotopia/reason-model  # change this to the path of the model you want to use
+template: mistral
+infer_backend: vllm
+vllm_enforce_eager: true
+max_new_tokens: 4096
+vllm_maxlen: 4096
+flash_attn: fa2

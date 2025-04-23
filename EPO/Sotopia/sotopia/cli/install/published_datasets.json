@@ -1,0 +1,28 @@
+{
+    "datasets": [
+        {
+            "id": "sotopia-pi",
+            "display_name": "Sotopia-\u03c0 Dataset",
+            "url": "https://huggingface.co/datasets/cmu-lti/sotopia-pi/resolve/main/dump.rdb?download=true",
+            "venue": "ACL 2024",
+            "license": "CC-BY-SA 4.0",
+            "citation": "@inproceedings{\n    wang2024sotopiapi,\n    title={SOTOPIA-$\\pi$: Interactive Learning of Socially Intelligent Language Agents},\n    author={Ruiyi Wang and Haofei Yu and Wenxin Zhang and Zhengyang Qi and Maarten Sap and Graham Neubig and Yonatan Bisk and Hao Zhu},\"\n    booktitle={Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL) 2024},\n    year={2024},\n}\n@inproceedings{\n    zhou2024sotopia,\n    title={{SOTOPIA}: Interactive Evaluation for Social Intelligence in Language Agents},\n    author={Xuhui Zhou and Hao Zhu and Leena Mathur and Ruohong Zhang and Haofei Yu and Zhengyang Qi and Louis-Philippe Morency and Yonatan Bisk and Daniel Fried and Graham Neubig and Maarten Sap},\n    booktitle={The Twelfth International Conference on Learning Representations},\n    year={2024},\n    url={https://openreview.net/forum?id=mM7VurbA4r}\n}\n"
+        },
+        {
+            "id": "sotopia",
+            "display_name": "Sotopia Dataset",
+            "url": "https://cmu.box.com/shared/static/xiivc5z8rnmi1zr6vmk1ohxslylvynur",
+            "venue": "ICLR 2024",
+            "license": "CC-BY-SA 4.0",
+            "citation": "@inproceedings{\n    zhou2024sotopia,\n    title={{SOTOPIA}: Interactive Evaluation for Social Intelligence in Language Agents},\n    author={Xuhui Zhou and Hao Zhu and Leena Mathur and Ruohong Zhang and Haofei Yu and Zhengyang Qi and Louis-Philippe Morency and Yonatan Bisk and Daniel Fried and Graham Neubig and Maarten Sap},\n    booktitle={The Twelfth International Conference on Learning Representations},\n    year={2024},\n    url={https://openreview.net/forum?id=mM7VurbA4r}\n}\n"
+        },
+        {
+            "id": "agent_vs_script",
+            "display_name": "Agent vs. Script Dataset",
+            "url": "https://huggingface.co/datasets/cmu-lti/agent_vs_script/resolve/main/dump.rdb?download=true",
+            "venue": "arXiv",
+            "license": "AI2 Impact License",
+            "citation": "@misc{zhou2024real,\n    title={Is this the real life? Is this just fantasy? The Misleading Success of Simulating Social Interactions With LLMs},\n    author={Xuhui Zhou and Zhe Su and Tiwalayo Eisape and Hyunwoo Kim and Maarten Sap},\n    year={2024}}\n    eprint={2403.05020},\n    archivePrefix={arXiv},\n}\n@inproceedings{\n    zhou2024sotopia,\n    title={{SOTOPIA}: Interactive Evaluation for Social Intelligence in Language Agents},\n    author={Xuhui Zhou and Hao Zhu and Leena Mathur and Ruohong Zhang and Haofei Yu and Zhengyang Qi and Louis-Philippe Morency and Yonatan Bisk and Daniel Fried and Graham Neubig and Maarten Sap},\n    booktitle={The Twelfth International Conference on Learning Representations},\n    year={2024},\n    url={https://openreview.net/forum?id=mM7VurbA4r}\n}\n"
+        }
+    ]
+}

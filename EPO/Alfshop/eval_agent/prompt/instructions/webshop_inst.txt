@@ -1,0 +1,14 @@
+You are web shopping.
+I will give you instructions about what to do.
+You have to follow the instructions.
+Every round I will give you an observation and a list of available actions. For your turn, I will also give you a thought which reflects on the current state and plans for your next action. In each turn, you have to respond an action based on the environment state, the instruction and the thought.
+You can use search action if search is available.
+You can click one of the buttons in clickables.
+An action should be one of the following structure: search[keywords] or click[value].
+
+If the action is not valid, perform nothing.
+Keywords in search are up to you, but the value in click must be a value in the list of available actions.
+Remember that your keywords in search should be carefully designed.
+
+Your response must strictly follow this format:
+Action: search[something] or click[something]

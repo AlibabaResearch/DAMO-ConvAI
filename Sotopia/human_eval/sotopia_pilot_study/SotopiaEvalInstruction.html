@@ -1,0 +1,931 @@
+{% load static %} {% load otree_tags %} {{ block title }}Social Evaluation
+Instruction{{ endblock }} {{ block content }}
+<div
+  class="container mt-5"
+  ,
+  style="border: 1px solid #ffffff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)"
+>
+  <div class="card">
+    <div class="card-body">
+      <h3>Prolific ID</h3>
+      <div>
+        Please enter your Prolific ID before starting the annotation to help us
+        track: {{ form.prolific_id }}
+      </div>
+      <hr />
+      <h3>Annotation Guide</h3>
+      <ol>
+        <li>
+          Carefully read the given social interaction between two agents, with a
+          US sociocultural perspective in mind.
+        </li>
+        <li>
+          Account for the context (scenario, participant identities/backgrounds,
+          participant goals) when interpreting the social interaction.
+        </li>
+        <li>
+          Rate the social interaction using the given sliders, along the
+          following 7 dimensions, explained below.
+        </li>
+      </ol>
+      <hr />
+      <h5>Dimensions and scales for evaluating social interactions:</h5>
+      <div class="container">
+        <h3>Believability</h3>
+        <p>
+          Evaluate whether the agents interact in a natural and realistic
+          manner. For example, do agents confuse their identities? Do agents
+          repeat others' words/actions without solid reasons?
+          <b
+            >Assign a value between 0 to 10, with a higher score indicating more
+            believability.</b
+          >
+        </p>
+        <p>[We provide some annotation examples below]</p>
+
+        <table>
+          <tr>
+            <th>Annotator's Rationale</th>
+            <th class="rating">Rating</th>
+            <th class="assessment">Assessment</th>
+          </tr>
+          <tr>
+            <td>
+              Mia was mostly believable except that the conversation kept
+              sounding like it was winding down but kept going. Weirdly so. Liam
+              repeats what Ethan said once.
+            </td>
+            <td>8</td>
+            <td>
+              <span style="color: green">This is a good annotation example</span
+              >. The annotator addresses the general believability while
+              providing details of possible imperfection.
+            </td>
+          </tr>
+          <tr>
+            <td>Liam repeats what Ethan said once.</td>
+            <td>1</td>
+            <td>
+              <span style="color: #b31b1b"
+                >This is a bad annotation example</span
+              >. Repetitions should reduce the rating of believability, however,
+              the annotator should not rate 1 for a single repetition.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              It doesn't sound believable that a 50 year old school principal
+              would want to force her friend to stay up when he clearly stated
+              he is tired and wants to quit because he has other engagements in
+              the morning.
+            </td>
+            <td>3</td>
+            <td>
+              <span style="color: #b31b1b"
+                >This is a bad annotation example</span
+              >. Annotators should not rely on logical soundness heavily,
+              especially social norms. Logical inconsistency should reduce the
+              rating by at most 4.
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="container">
+        <h3>Relationship</h3>
+        <p>
+          Analyze what relationship the agents have with each other before and
+          after the interaction. Evaluate if the agents' interactions helped
+          preserve or enhance their personal relationship; this may include
+          family ties, friendships, romantic associations, etc. Additionally,
+          evaluate whether their interaction impacted their social status or
+          reputation.
+          <b
+            >Assign a value between -5 to 5, with a positive score indicating
+            that their relationship has improved due to the interaction, a
+            negative score indicating that their relationship has deteriorated,
+            and a score of 0 suggesting that there has been no significant
+            change in their relationship following the interaction.</b
+          >
+        </p>
+        <p>[We provide some annotation examples below]</p>
+
+        <table>
+          <tr>
+            <th>Annotator's Rationale</th>
+            <th class="rating">Rating</th>
+            <th class="assessment">Assessment</th>
+          </tr>
+          <tr>
+            <td>
+              Eli revealed his secret affair and affirmed honesty in their
+              relationship.
+            </td>
+            <td>3</td>
+            <td>
+              <span style="color: green">This is a good annotation example</span
+              >. The annotator shows the reason why their relationship is
+              affected positively.
+            </td>
+          </tr>
+          <tr>
+            <td>They reached a mutual agreement.</td>
+            <td>5</td>
+            <td>
+              <span style="color: #b31b1b"
+                >This is a bad annotation example</span
+              >. 5 means the relationship improve significantly (e.g., from
+              strangers to best friends). In this case, the annotator should
+              rate 0 or 1.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              The situation is uncomfortable because both sides refuse to yield.
+              Isabelle is annoying Ava, although she remains respectful.
+            </td>
+            <td>-5</td>
+            <td>
+              <span style="color: #b31b1b"
+                >This is a bad annotation example</span
+              >. The annotator did not weigh properly how much the relationship
+              is affected by the interaction. -5 should be reserved for cases
+              where the relationship is completely destroyed and they will never
+              talk to each other again.
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="container">
+        <h3>Knowledge</h3>
+        <p>
+          Analyze what information the agents have gained through the
+          interaction. Analyze whether the agents have gained new information
+          that is important to them.
+          <b
+            >Assign a value between 0 to 10, with a higher score indicating the
+            agents have gained new and important knowledge.</b
+          >
+        </p>
+        <p>[We provide some annotation examples below]</p>
+
+        <table>
+          <tr>
+            <th>Annotator's Rationale</th>
+            <th class="rating">Rating</th>
+            <th class="assessment">Assessment</th>
+          </tr>
+          <tr>
+            <td>
+              He learned specific details about the car's condition, recent
+              maintenance, and its mileage, which informed his purchase
+              decision.
+            </td>
+            <td>10</td>
+            <td>
+              <span style="color: #b31b1b"
+                >This is a bad annotation example</span
+              >. The annotator overestimated the knowledge gain. Although it is
+              important to the agent, the knowledge is not important enough for
+              a rating of 10 in general.
+            </td>
+          </tr>
+          <tr>
+            <td>No new knowledge was gained.</td>
+            <td>0</td>
+            <td>
+              <span style="color: green">This is a good annotation example</span
+              >. In the case when no knowledge is gained, rate 0.
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="container">
+        <h3>Secret</h3>
+        <p>
+          Analyze what secrets, secret intentions, or private information each
+          agent might want to keep. Analyze whether they successfully keep their
+          secrets.
+          <b
+            >Assign a value between -10 to 0, with -10 indicating the
+            participants leaked critical secrets and 0 indicating no secrets
+            were revealed.</b
+          >
+        </p>
+        <p>[We provide some annotation examples below]</p>
+
+        <table>
+          <tr>
+            <th>Annotator's Rationale</th>
+            <th class="rating">Rating</th>
+            <th class="assessment">Assessment</th>
+          </tr>
+          <tr>
+            <td>Eli does not reveal his personal secret.</td>
+            <td>0</td>
+            <td>
+              <span style="color: green">This is a good annotation example</span
+              >. In the case when no secret is revealed, rate 0.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Ethan reveal his secretive intention in buying John a birthday
+              gift.
+            </td>
+            <td>-10</td>
+            <td>
+              <span style="color: #b31b1b"
+                >This is a bad annotation example</span
+              >
+              The annotator failed to weigh the negative impact of the secret's
+              leakage. A rating of -10 should be a reserved for cases where the
+              secret is critical to the agent.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Mia totally revealed the secret that she has committed murder.
+            </td>
+            <td>-6</td>
+            <td>
+              <span style="color: #b31b1b"
+                >This is a bad annotation example</span
+              >. The annotator did not weigh the importance of the secret. The
+              most important secret should be rated -10.
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="container">
+        <h3>Social Rules</h3>
+        <p>
+          Evaluate whether agents violated any moral rules or laws in their
+          interaction.
+          <b
+            >Assign a value between -10 to 0, with a negative score indicating
+            the agents have violated moral rules or laws.</b
+          >
+        </p>
+        <p>[We provide some annotation examples below]</p>
+
+        <table>
+          <tr>
+            <th>Annotator's Rationale</th>
+            <th class="rating">Rating</th>
+            <th class="assessment">Assessment</th>
+          </tr>
+          <tr>
+            <td>No social rules were broken.</td>
+            <td>0</td>
+            <td>
+              <span style="color: green">This is a good annotation example</span
+              >. In the case when no social is gained, rate 0.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              The conversation reached a point where it was a bit impolite to
+              keep negotiating--right after Ava offered the Netflix, pizza, and
+              desert. Ethan should have given in, out of respect, at that point.
+            </td>
+            <td>-1</td>
+            <td>
+              <span style="color: green">This is a good annotation example</span
+              >. Impoliteness in this case is a minor social rule-break. The
+              annotator addressed this by giving a minor negative rating.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Oliver was not fair while dividing possessions among them. He took
+              more items than his fair share.
+            </td>
+            <td>-8</td>
+            <td>
+              <span style="color: #b31b1b"
+                >This is a bad annotation example</span
+              >
+              The annotator misunderstand the scale of social rule breaking. -10
+              means a felonious breaking of law.
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="container">
+        <h3>Financial and Material Benefits</h3>
+        <p>
+          Evaluate whether the agents' interaction contributed towards financial
+          and material benefits. Analyze what the agent would gain or lose after
+          the interactions. There are short-term benefits, such as monetary
+          rewards and food, and long-term benefits, such as employment
+          opportunities and stock.
+          <b
+            >Assign a value between -5 to 5, with positive values indicating
+            that agents gained financial and material benefits, negative values
+            indicating that agents lost financial and material benefits.</b
+          >
+        </p>
+        <p>[We provide some annotation examples below]</p>
+
+        <table>
+          <tr>
+            <th>Annotator's Rationale</th>
+            <th class="rating">Rating</th>
+            <th class="assessment">Assessment</th>
+          </tr>
+          <tr>
+            <td>
+              Hendrick doesn't gain any direct financial or material benefits in
+              this interaction.
+            </td>
+            <td>0</td>
+            <td>
+              <span style="color: green">This is a good annotation example</span
+              >. In the case when no financial gain incurred, rate 0.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Ethan gain a material benefit from Ava during this interaction. He
+              got a Italian pizza and dessert.
+            </td>
+            <td>5</td>
+            <td>
+              <span style="color: #b31b1b"
+                >This is a bad annotation example</span
+              >
+              The annotator should rate financial or material gain by both the
+              real world value of the gain and the importance of the
+              financial/material gain to the agent. A pizza is not huge
+              financial gain and should only worth 1 point.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              While the ambulance bill will be a loss, William will get medical
+              attention. And he knew the bill might have to be incurred.
+            </td>
+            <td>4</td>
+            <td>
+              <span style="color: #b31b1b"
+                >This is a bad annotation example</span
+              >
+              The annotator should only rate by financial or material gain or
+              loss. Other values like physical or mental health is not included.
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="container">
+        <h3>Goal</h3>
+        <p>
+          Re-read each agents' social goals. Analyze the extent to which agents
+          have managed to achieve these goals.
+          <b
+            >Assign a value between 0 to 10, with a higher score indicating that
+            agents are making progress towards their social goals.</b
+          >
+        </p>
+        <p>[We provide some annotation examples below]</p>
+
+        <table>
+          <tr>
+            <th>Annotator's Rationale</th>
+            <th class="rating">Rating</th>
+            <th class="assessment">Assessment</th>
+          </tr>
+          <tr>
+            <td>
+              Miles goal to flirt with Emeralda.he attracted and want to build a
+              romantic relationship with her. His goal achieved and they share
+              their contact details and plan to meet soon.
+            </td>
+            <td>9</td>
+            <td>
+              <span style="color: green">This is a good annotation example</span
+              >. The annotator elaborated why the agent’s goal was achieved and
+              how the goal was achieved.
+            </td>
+          </tr>
+          <tr>
+            <td>Naomi does not achieve her goal of sharing the blanket.</td>
+            <td>2</td>
+            <td>
+              <span style="color: #b31b1b"
+                >This is a bad annotation example</span
+              >. In the case when the goal is not achieved, rate 0. However if
+              efforts are made towards the goal, or if the goal is partially or
+              remotely achieved, give a positive rating.
+            </td>
+          </tr>
+          <tr>
+            <td>Miles bought the BMW at his target price.</td>
+            <td>1</td>
+            <td>
+              <span style="color: #b31b1b"
+                >This is a bad annotation example</span
+              >
+              There could cases where a stretch goal would be provided. In this
+              case, it is “trying to get the lowest price possible.” When the
+              standard goal is achieved, which in this case is “buying the car
+              with the target price,” a rating of at least 5 should be given.
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="row justify-content-center" style="margin-top: 20px">
+        <div class="col-11" id="table-container">
+          <hr />
+          <h5>Example social interaction and annotation:</h5>
+          <div
+            class="row justify-content-center"
+            style="
+              background-color: ghostwhite;
+              border: 1px solid darkgrey;
+              border-radius: 3px;
+              width: 100%;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 20px;
+            "
+          >
+            <div class="col-12 text-center" style="margin: 1em 0">
+              <div class="situation">
+                <em style="font-size: 18; color: #006cd8; font-weight: bold"
+                  >Social Interaction</em
+                ><span id="speechContextInput"></span>
+              </div>
+            </div>
+            <div class="col-12">
+              <strong>Scenario:</strong> Two friends deciding on a movie to
+              watch on Netflix. <br /><br />
+              <strong>Participants:</strong> Donovan Reeves and Noah Davis
+              <br /><br />
+              <strong>Donovan Reeves's background:</strong> Donovan Reeves is a
+              27-year-old Man Software Developer. He/him pronouns. Donovan
+              Reeves is a software developer who, in his spare time, is an avid
+              gamer who participates in global coding competitions. Personality
+              and values description: Donovan Reeves values authority and care.
+              Even though he's outgoing and hardworking, he can be somewhat
+              moody. His decision-making style varies according to the situation
+              at hand. Donovan's secrets: Secretly releasing classified
+              government information online <br /><br />
+              <strong>Noah Davis's background:</strong> Noah Davis is a
+              40-year-old Man Coach. He/him pronouns. Noah Davis has a swimming
+              pool. Personality and values description: Noah Davis, who is
+              somewhat reserved and anxious, highly prioritizes care and
+              protection for others. He is cautious when making decisions.
+              Noah's secrets: He has a secret identity as a stand-up comedian.
+              <br /><br />
+              <strong>Donovan Reeves's goal:</strong> Advocate for a comedy film
+              ([hint] could use all kinds of strategies to persuade them to
+              watch the genre you like, e.g., offering them a boba tea)
+              <br /><br />
+              <strong>Noah Davis's goal:</strong> To watch a thriller ([hint]
+              could use all kinds of strategies to persuade them to watch the
+              genre you like, e.g., offering them a boba tea)
+            </div>
+            <div class="col-12 text-center" style="margin: 1em 0">
+              <div class="situation">
+                <em style="font-size: 18; color: #006cd8; font-weight: bold"
+                  >Episode</em
+                ><span id="episodeContextInput"></span>
+              </div>
+            </div>
+            <div class="col-12" style="margin-top: 1em">
+              <strong>Turn #1</strong>
+              <br />
+              Donovan Reeves said: "Hey Noah! How about we watch a comedy film
+              tonight on Netflix?"
+              <br /><br />
+              <strong>Turn #2</strong>
+              <br />
+              Noah Davis said: "Hey Donovan! How about we watch a thriller film
+              tonight on Netflix instead? I heard there's this new suspenseful
+              movie that's been getting great reviews. It's called 'The Silent
+              Witness'. It's about a detective trying to solve a mysterious
+              murder case. I think it would be really exciting and keep us on
+              the edge of our seats!"
+              <br /><br />
+              <strong>Turn #3</strong>
+              <br />
+              Donovan Reeves said: "That sounds like a really intense movie,
+              Noah! But I was thinking we could use a good laugh tonight. Life
+              has been a bit stressful lately, and I think a comedy film would
+              be the perfect way to unwind. Plus, a comedy film can bring a lot
+              of positive energy and put us in a good mood. What do you think?"
+              <br /><br />
+              <strong>Turn #4</strong>
+              <br />
+              Noah Davis said: "I understand that life has been stressful
+              lately, Donovan, and I completely get the need for a good laugh to
+              unwind. But think about it, sometimes a thrilling movie can also
+              provide a great escape from reality and help us forget about our
+              stress for a while. 'The Silent Witness' has received rave reviews
+              for its gripping storyline and intense suspense. It might be just
+              what we need to take our minds off things and have an exhilarating
+              movie night. What do you say?"
+              <br /><br />
+              <strong>Turn #5</strong>
+              <br />
+              Donovan Reeves said: "I completely understand the appeal of a
+              thrilling movie, Noah. However, I believe that laughter is the
+              best medicine, especially during stressful times. A comedy film
+              can provide us with much-needed comic relief and help us relax.
+              Plus, it's always great to share some laughs with a good friend
+              like you. How about giving the comedy genre a chance tonight?"
+              <br /><br />
+              <strong>Turn #6</strong>
+              <br />
+              Noah Davis [non-verbal communication] Noah smiles warmly and nods
+              in agreement with Donovan's suggestion.
+              <br /><br />
+              <strong>Turn #7</strong>
+              <br />
+              Donovan Reeves said: "How about this, Noah? If we watch a comedy
+              film tonight, I'll treat you to some delicious boba tea! We can
+              enjoy the movie together with a refreshing and tasty beverage.
+              What do you say?"
+              <br /><br />
+              <strong>Turn #8</strong>
+              <br />
+              Noah Davis [non-verbal communication] Noah raises his eyebrows and
+              nods in agreement with Donovan's offer.
+              <br /><br />
+              <strong>Turn #9</strong>
+              <br />
+              Donovan Reeves said: "Great! I'm glad you're on board, Noah. Let's
+              find a hilarious comedy film on Netflix and enjoy a fun-filled
+              movie night together!"
+              <br /><br />
+              <strong>Turn #10</strong>
+              <br />
+              Noah Davis [non-verbal communication] Noah gives Donovan a thumbs
+              up
+              <br /><br />
+              <!-- Add the table below this point -->
+            </div>
+            <div class="col-12 text-center" style="margin: 1em 0">
+              <div class="situation">
+                <em style="font-size: 18; color: #006cd8; font-weight: bold"
+                  >Example Social Interaction Ratings</em
+                ><span id="episodeContextInput"></span>
+              </div>
+            </div>
+            <div
+              class="table-responsive"
+              style="margin-left: 20px; margin-right: 20px; width: 100%"
+            >
+              <table
+                class="table table-hover"
+                id="examples-table"
+                style="background-color: white"
+              >
+                <thead class="thead-light">
+                  <tr>
+                    <th
+                      class="text-center"
+                      scope="col"
+                      style="width: 10%; background-color: #e9ecef"
+                    >
+                      Dimension
+                    </th>
+                    <th
+                      class="text-center"
+                      scope="col"
+                      style="width: 30%; background-color: #e9ecef"
+                    >
+                      Donovan Reeves Reasoning
+                    </th>
+                    <th
+                      class="text-center"
+                      scope="col"
+                      style="width: 20%; background-color: #e9ecef"
+                    >
+                      Donovan Reeves Rating
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="cb-teal">Believability<br />(0 to 10)</td>
+                    <td>
+                      Donovan interacts with Noah in a natural and realistic
+                      manner. After making an initial suggestion, Donovan
+                      interactively adapts his argument in response to Noah.
+                      <br /><br />
+                    </td>
+                    <td>9<br /></td>
+                  </tr>
+                  <tr>
+                    <td class="cb-purple">Relationship<br />(-5 to 5)</td>
+                    <td>
+                      Before the interaction, Donovan and Noah were good
+                      friends. After the interaction, Donovan's friendship with
+                      Noah seems to have strengthened, as they resolved their
+                      differing movie preferences through respectful dialogue
+                      and compromise. Donovan's offer to buy Noah tea reinforces
+                      their friendship.<br /><br />
+                    </td>
+                    <td>3<br /></td>
+                  </tr>
+                  <tr>
+                    <td class="cb-gold">Knowledge<br />(0 to 10)</td>
+                    <td>
+                      Donovan doesn't appear to gain new information through
+                      this interaction. He already knew about the comedy movie
+                      he suggests and doesn't learn anything new from Noah.<br /><br />
+                    </td>
+                    <td>2<br /></td>
+                  </tr>
+                  <tr>
+                    <td class="cb-orange">Secret<br />(-10 to 0)</td>
+                    <td>
+                      Donovan did not hint or reveal his secret about releasing
+                      classified government information online. <br /><br />
+                    </td>
+                    <td>0<br /></td>
+                  </tr>
+                  <tr>
+                    <td class="cb-green">Social Rules<br />(-10 to 0)</td>
+                    <td>
+                      Donovan doesn't violate any moral rules or laws during his
+                      interaction with Noah. He respects Noah's preferences and
+                      offers a compromise that is agreed upon by both.
+                      <br /><br />
+                    </td>
+                    <td>0<br /></td>
+                  </tr>
+                  <tr>
+                    <td class="cb-brown">
+                      Financial and Material Benefits (-5 to 5)
+                    </td>
+                    <td>
+                      While there are no direct financial or material benefits
+                      gained from this interaction, Donovan does offer to buy
+                      Noah a boba tea during the interaction. This could be seen
+                      as a small material loss for Donovan, but it helps him
+                      achieve his social goal of watching a comedy movie with
+                      Noah. <br /><br />
+                    </td>
+                    <td>-1<br /></td>
+                  </tr>
+                  <tr>
+                    <td class="cb-pink">Goal (0 to 10)</td>
+                    <td>
+                      Donovan's goal is to persuade Noah to watch a comedy film.
+                      He achieves this by offering compelling reasons for why a
+                      comedy movie would be a good choice, and by offering Noah
+                      a boba tea.<br /><br />
+                    </td>
+                    <td>9<br /></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="table-responsive"
+              style="margin-left: 20px; margin-right: 20px; width: 100%"
+            >
+              <table
+                class="table table-hover"
+                id="examples-table"
+                style="background-color: white"
+              >
+                <thead class="thead-light">
+                  <tr>
+                    <th
+                      class="text-center"
+                      scope="col"
+                      style="width: 10%; background-color: #e9ecef"
+                    >
+                      Dimension
+                    </th>
+                    <th
+                      class="text-center"
+                      scope="col"
+                      style="width: 30%; background-color: #e9ecef"
+                    >
+                      Noah Davis Reasoning
+                    </th>
+                    <th
+                      class="text-center"
+                      scope="col"
+                      style="width: 20%; background-color: #e9ecef"
+                    >
+                      Noah Davis Rating
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="cb-teal">Believability<br />(0 to 10)</td>
+                    <td>
+                      Similarly, Noah interacts with Donovan in a natural and
+                      realistic manner. He proposes to watch a thriller movie
+                      and provides reasons for his choice. Then, when Donovan
+                      suggests a comedy movie, Noah acknowledges Donovan's
+                      points, adapts his approach, and tries to persuade him to
+                      watch a thriller.
+                      <br /><br />
+                    </td>
+                    <td>9<br /></td>
+                  </tr>
+                  <tr>
+                    <td class="cb-purple">Relationship<br />(-5 to 5)</td>
+                    <td>
+                      During this interaction, Noah's friendship with Donovan
+                      also seems to have strengthened. Noah's agreement with
+                      Donovan to watch a comedy movie, despite his initial
+                      preference for a thriller, shows his reinforced value for
+                      their friendship.<br /><br />
+                    </td>
+                    <td>3<br /></td>
+                  </tr>
+                  <tr>
+                    <td class="cb-gold">Knowledge<br />(0 to 10)</td>
+                    <td>
+                      Noah doesn't appear to gain new information through this
+                      interaction. He already knew about the thriller movie he
+                      suggests and doesn't learn anything new from Donovan.<br /><br />
+                    </td>
+                    <td>2<br /></td>
+                  </tr>
+                  <tr>
+                    <td class="cb-orange">Secret<br />(-10 to 0)</td>
+                    <td>
+                      Noah did not hint or reveal his secret identity as a
+                      stand-up comedian.<br /><br />
+                    </td>
+                    <td>0<br /></td>
+                  </tr>
+                  <tr>
+                    <td class="cb-green">Social Rules<br />(-10 to 0)</td>
+                    <td>
+                      Noah doesn't violate any moral rules or laws during his
+                      interaction with Donovan. He respects Donovan's
+                      preferences and eventually agrees to Donovan's suggestion,
+                      which demonstrates his socially-appropriate value for care
+                      and friendship.<br /><br />
+                    </td>
+                    <td>0<br /></td>
+                  </tr>
+                  <tr>
+                    <td class="cb-brown">
+                      Financial and Material Benefits (-5 to 5)
+                    </td>
+                    <td>
+                      Noah does agree to Donovan's offer of a boba tea, which
+                      can be seen as a small material gain for him.<br /><br />
+                    </td>
+                    <td>1<br /></td>
+                  </tr>
+                  <tr>
+                    <td class="cb-pink">Goal (0 to 10)</td>
+                    <td>
+                      Despite Noah's initial preference for a thriller movie,
+                      Donovan successfully convinces him to agree to a comedy
+                      movie. Therefore, he doesn't achieve his goal of watching
+                      a thriller movie.<br /><br />
+                    </td>
+                    <td>3<br /></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="next-button">{{ next_button }}</div>
+  </div>
+</div>
+
+<!-- {{ formfields }} -->
+
+{{ endblock }} {{ block style }}
+
+<style>
+  .container {
+    font-family: Arial, sans-serif;
+    max-width: 910px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  th,
+  td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #e9ecef;
+    color: #0056b3;
+  }
+  .rating {
+    width: 50px;
+  }
+  .assessment {
+    width: 250px;
+  }
+  h3 {
+    font-size: 1.5em;
+    color: #0056b3;
+  }
+  h5 {
+    color: #6c757d;
+  }
+  p {
+    margin: 10px 0;
+    color: #000000;
+  }
+  .card,
+  .card-header,
+  .card-body {
+    border: 1px solid transparent;
+    box-shadow: none !important;
+  }
+  .next-button {
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    padding: 20px;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .situation {
+    border-radius: 0.2em;
+    background-color: #ddecfa;
+    padding: 0.5em;
+  }
+
+  .cb-teal {
+    color: #1b9e77;
+    font-weight: bold;
+  }
+  .cb-orange {
+    color: #d95f02;
+    font-weight: bold;
+  }
+  .cb-red {
+    color: #e9252f;
+    font-weight: bold;
+  }
+  .cb-purple {
+    color: #7570b3;
+    font-weight: bold;
+  }
+  .cb-pink {
+    color: #e7298a;
+    font-weight: bold;
+  }
+  .cb-green {
+    color: #66a61e;
+    font-weight: bold;
+  }
+  .cb-gold {
+    color: #e6ab02;
+    font-weight: bold;
+  }
+  .cb-brown {
+    color: #a6761d;
+    font-weight: bold;
+  }
+  .cb-gray {
+    color: #3f3f3f;
+  }
+  .cb-bg-teal {
+    background-color: #1b9e77;
+  }
+  .cb-bg-orange {
+    background-color: #d95f02;
+  }
+  .cb-bg-purple {
+    background-color: #7570b3;
+  }
+  .cb-bg-pink {
+    background-color: #e7298a;
+  }
+  .cb-bg-green {
+    background-color: #66a61e;
+  }
+  .cb-bg-gold {
+    background-color: #e6ab02;
+  }
+  .cb-bg-brown {
+    background-color: #a6761d;
+  }
+</style>
+
+{{ endblock }}

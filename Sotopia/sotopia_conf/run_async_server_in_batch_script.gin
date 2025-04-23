@@ -1,0 +1,26 @@
+from __gin__ import dynamic_registration
+import __main__ as main_script
+
+BATCH_SIZE=10
+
+SCRIPT_MODEL="gpt-3.5-turbo"
+VERBOSE=False
+TAG="script_gpt3.5_1122"
+TAG_TO_CHECK_EXISTING_EPISODES=None
+PUSH_TO_DB=False
+FULL_GEN=True
+
+ENV_IDS=%gin.REQUIRED
+
+
+main_script.run_async_server_in_batch_script:
+    batch_size=%BATCH_SIZE
+    model=%SCRIPT_MODEL
+    tag=%TAG
+    push_to_db=%PUSH_TO_DB
+    generate_in_full=%FULL_GEN
+    verbose=%VERBOSE
+
+main_script._iterate_env_agent_combo_not_in_db:
+    env_ids=%ENV_IDS
+    tag=%TAG_TO_CHECK_EXISTING_EPISODES
