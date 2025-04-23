@@ -1,0 +1,18 @@
+from __gin__ import dynamic_registration
+import __main__ as train_script
+import sotopia.server as server
+import sotopia.samplers as samplers
+
+ACTION_ORDER="round-robin"
+TAG=None
+PUSH_TO_DB=False
+OMNISCIENT=False
+
+server.run_async_server:
+    model_dict={"env": "gpt-4", "agent1": "gpt-3.5-turbo", "agent2": "gpt-3.5-turbo"}
+    action_order=%ACTION_ORDER
+    push_to_db=%PUSH_TO_DB
+    using_async=True
+    tag=%TAG
+    omniscient=%OMNISCIENT
+    sampler=@samplers.UniformSampler()
