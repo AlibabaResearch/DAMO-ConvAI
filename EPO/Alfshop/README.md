@@ -1,6 +1,6 @@
 # Evaluation on WebShop and ALFWorld
 
-We build our WebShop and ALFWorld implementation on top of [EPO] (https://github.com/Yifan-Song793/ETO/tree/main).
+We build our WebShop and ALFWorld implementation on top of [ETO](https://github.com/Yifan-Song793/ETO/tree/main).
 
 
 ## Structure
