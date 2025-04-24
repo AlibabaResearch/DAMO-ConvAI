@@ -1,6 +1,6 @@
 # Evaluation on Sotopia
 
-We build our Sotopia implementation on top of [Sotopia] (https://github.com/sotopia-lab/sotopia).
+We build our Sotopia implementation on top of [Sotopia](https://github.com/sotopia-lab/sotopia).
 
 
 ## Setup
@@ -13,7 +13,7 @@ cd sotopia
 pip install -e.
 ```
 
-Then install and start redis-server with the following commands:
+Then install and start redis-server with the following commands (download dump.rdb [here](https://huggingface.co/datasets/Tongyi-ConvAI/EPO-RL-data):
 
 ```bash
 # Install redis
