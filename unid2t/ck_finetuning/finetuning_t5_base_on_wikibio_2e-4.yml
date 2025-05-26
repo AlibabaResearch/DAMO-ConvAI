@@ -1,0 +1,54 @@
+# basic
+seed: 42
+device: 'cuda'
+model_name: 't5'
+datatype: 'graph'
+enable_uda_relative_pos: True
+
+tokenizer_path: '/pretraining/config_and_tokenizer'
+special_token_path: './cleanout_datasets/special_tokens.txt'
+data_processor: 'uda'
+# task_source_prefix: 'Describe the following data: '
+modified_default_plm_config: True
+plms_dropout_rate: 0.1
+
+# training
+train_type: 'finetune'
+dist_train: False
+experiment_name: 'ck-finetuning_t5_base_on_wikibio_2e-4'
+init_model_path: '/pretraining/models/epoch_5_step_200000_bleu_38.6200.pkl'
+max_epochs: 80
+max_steps: -1
+early_stopping_patience: 8
+start_eval_from: 0
+eval_every: 1
+max_keep_checkpoints: -1
+report_every: 100
+saved_dir: '/finetuning/wikibio_ck'
+
+learner: fairseq_adafactor
+learning_rate: 2e-04
+adam_epsilon: 0.00000001
+max_grad_norm: 2.0
+lr_scheduler: 'none'
+warmup_steps: 0
+
+# training data
+train_file_src: '/cleanout_datasets/wikibio/train.json'
+train_n_example: -1
+train_batch_size: 16
+max_source_length: 1024
+max_target_length: -1
+train_num_workers: 5
+
+
+# evaluate data
+eval_noise_data: False
+val_metric: bleu
+eval_file_src: '/cleanout_datasets/wikibio/test.json'
+eval_n_example: -1
+eval_batch_size: 32
+num_beams: 5
+eval_max_source_length: 1024
+eval_max_target_length: 128
+eval_num_workers: 5

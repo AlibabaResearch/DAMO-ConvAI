@@ -1,0 +1,57 @@
+# basic
+seed: 42
+device: 'cuda'
+model_name: 'uda'
+datatype: 'graph'
+enable_uda_relative_pos: True
+tokenizer_path: '/pretraining/config_and_tokenizer'
+special_token_path: '/UnifiedData2TextPretrain/cleanout_datasets/special_tokens.txt'
+data_processor: 'uda'
+task_source_prefix: 'describe the following data: '
+modified_default_plm_config: False
+plms_dropout_rate: 0.2
+plms_enable_sim_cse: False
+
+# training
+train_type: 'finetune'
+dist_train: False
+experiment_name: 'ck-finetuning_t5_on_cosql_38.62'
+init_model_path: "/pretraining/models/epoch_5_step_200000_bleu_38.6200.pkl"
+max_epochs: 10
+max_steps: -1
+early_stopping_patience: 8
+start_eval_from: 0
+eval_every: 1
+max_keep_checkpoints: -1
+report_every: 100
+saved_dir: '/finetuning/cosql_ck'
+
+learner: fairseq_adafactor
+#learning_rate: 2e-04
+learning_rate: 3e-05
+
+adam_epsilon: 0.00000001
+max_grad_norm: 2.0
+lr_scheduler: 'none'
+warmup_steps: 0
+
+# training data
+train_file_src: '/cleanout_datasets/cosql_with_unified_graph/cosql_train.json'
+train_n_example: -1
+train_batch_size: 16
+max_source_length: 512
+max_target_length: -1
+train_num_workers: 5
+
+
+# evaluate data
+eval_task_source_prefix: "describe the following data: "
+eval_noise_data: False
+val_metric: bleu
+eval_file_src: '/cleanout_datasets/cosql_with_unified_graph/cosql_dev.json'
+eval_n_example: -1
+eval_batch_size: 32
+num_beams: 5
+eval_max_source_length: 512
+eval_max_target_length: 128
+eval_num_workers: 5

@@ -1,0 +1,58 @@
+# basic
+seed: 42
+device: 'cuda'
+model_name: 'uda'
+datatype: 'graph'
+enable_uda_relative_pos: True
+tokenizer_path: '/pretrain/six_meta_dataset/config_and_tokenizer'
+special_token_path: '/UnifiedData2TextPretrain/cleanout_datasets/special_tokens.txt'
+data_processor: 'uda'
+# task_source_prefix: 'Describe the following data: '
+task_source_prefix: 'describe the following data: '
+modified_default_plm_config: False
+plms_dropout_rate: 0.2
+plms_enable_sim_cse: False
+
+# training
+train_type: 'finetune'
+dist_train: False
+experiment_name: 'ck-finetuning_t5_on_webnlg_40.47ck_no_attention'
+init_model_path: "/1126_pretrain/six_meta_dataset/models/epoch_9_step_340000_bleu_40.4700.pkl"
+max_epochs: 10
+max_steps: -1
+early_stopping_patience: 8
+start_eval_from: 0
+eval_every: 1
+max_keep_checkpoints: -1
+report_every: 100
+saved_dir: '/finetuning/totto_ablation'
+
+learner: fairseq_adafactor
+learning_rate: 3e-5
+#learning_rate: 2e-4
+
+adam_epsilon: 0.00000001
+max_grad_norm: 2.0
+lr_scheduler: 'none'
+warmup_steps: 0
+
+# training data
+train_file_src: '/UnifiedData2TextPretrain/cleanout_datasets/totto_with_unified_graph/totto_train_data.jsonl'
+train_n_example: -1
+train_batch_size: 8
+max_source_length: 1024
+max_target_length: -1
+train_num_workers: 5
+
+
+# evaluate data
+eval_noise_data: False
+eval_task_source_prefix: "describe the following data: "
+val_metric: bleu
+eval_file_src: '/UnifiedData2TextPretrain/cleanout_datasets/totto_with_unified_graph/totto_dev_data.jsonl'
+eval_n_example: -1
+eval_batch_size: 16
+num_beams: 5
+eval_max_source_length: 1024
+eval_max_target_length: 128
+eval_num_workers: 5

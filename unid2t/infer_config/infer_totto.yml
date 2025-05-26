@@ -1,0 +1,25 @@
+# basic
+seed: 42
+device: 'cuda'
+model_name: 't5'
+datatype: 'linear'
+tokenizer_path: '/root/data/guanbao/finetuning/webnlg_ck/ck-finetuning_on_totto/config_and_tokenizer'
+special_token_path: '/root/data/cleanout_datasets/special_tokens.txt'
+data_processor: 'linear'
+enable_uda_relative_pos: False
+
+# Infer
+checkpoint_path: '/root/data/guanbao/finetuning/webnlg_ck/ck-finetuning_on_totto/models/best_fintune_totto.pkl'
+#epoch_7_step_105672_bleu_40.9400.pkl
+infer_generated_text_dir: '/root/data/guanbao/generate/totto'
+file_save_prefix: 'totto_ck_finetuning'
+# evaluate data
+eval_task_source_prefix: "describe the following data: "
+val_metric: bleu
+eval_file_src: '/root/data/liliang/experiments/UnifiedData2TextPretrain/cleanout_datasets/totto_with_unified_graph/totto_dev_data.jsonl'
+eval_n_example: -1
+eval_batch_size: 16
+num_beams: 5
+eval_max_source_length: 1024
+eval_max_target_length: 128
+eval_num_workers: 5

@@ -1,0 +1,59 @@
+# basic
+seed: 42
+device: 'cuda'
+model_name: 'uda'
+datatype: 'graph'
+enable_uda_relative_pos: True
+# tokenizer_path: '/data/nt12_ssd_gluster/myself/pretrained_models/t5-small'
+tokenizer_path: 't5-large'
+special_token_path: './cleanout_datasets/special_tokens.txt'
+data_processor: 'uda'
+#task_source_prefix: 'describe the following data: '
+#eval_task_source_prefix: "describe the following data: "
+modified_default_plm_config: True
+plms_dropout_rate: 0.1
+
+# training
+matrix: "all"
+position_style: "0"
+train_type: 'finetune'
+dist_train: False
+experiment_name: 'finetuning_t5_large_uda_on_webnlg'
+init_model_path: 't5-large'
+max_epochs: 40
+max_steps: -1
+early_stopping_patience: 8
+start_eval_from: 0
+eval_every: 1
+max_keep_checkpoints: -1
+report_every: 100
+saved_dir: '/root/data/guanbao/finetuning/webnlg3.0_2.14'
+
+learner: fairseq_adafactor
+learning_rate: 7e-5
+adam_epsilon: 0.00000001
+max_grad_norm: 2.0
+lr_scheduler: 'none'
+warmup_steps: 0
+
+# training data
+train_file_src: '/root/data/cleanout_datasets/webnlg3.0/train.json'
+
+#train_file_src: '/root/data/cleanout_datasets/dart_all_link/dart_train.json'
+train_n_example: -1
+train_batch_size: 16
+max_source_length: 384
+max_target_length: 384
+train_num_workers: 5
+
+
+# evaluate data
+eval_noise_data: False
+val_metric: bleu
+eval_file_src: '/root/data/cleanout_datasets/webnlg3.0/test.json'
+eval_n_example: -1
+eval_batch_size: 32
+num_beams: 5
+eval_max_source_length: 384
+eval_max_target_length: 384
+eval_num_workers: 5

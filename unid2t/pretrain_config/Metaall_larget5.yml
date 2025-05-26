@@ -1,0 +1,70 @@
+
+# basic
+seed: 42
+device: 'cuda'
+model_name: 'uda'
+datatype: 'graph'
+enable_uda_relative_pos: True
+data_processor: 'uda'
+tokenizer_path: 't5-3b'
+special_token_path: '/UnifiedData2TextPretrain/cleanout_datasets/special_tokens.txt'
+dataset_style: 'iterable'
+
+# model
+modified_default_plm_config: True
+plms_dropout_rate: 0.2
+
+# training
+matrix: "all"
+position_style: "inf"
+train_type: 'pretrain'
+dist_train: True
+experiment_name: 'Metaall'
+init_model_path: 't5-3b'
+max_epochs: -1
+max_steps: 262144
+early_stopping_patience: -1
+start_eval_from: 5000
+eval_every: 5000
+max_keep_checkpoints: -1
+saved_dir: '/230221_pretrain'
+
+learner: fairseq_adafactor
+learning_rate: 1e-3
+adam_epsilon: 0.00000001
+max_grad_norm: -1
+lr_scheduler: 'linear'
+warmup_steps: 5000
+update_freq: 2
+
+report_every: 200
+
+# pretraining
+random_allocation_mask: True
+random_delete_rate: 0.15
+noise_types:
+ - 't5_denoising'
+ - 'data2text'
+noise_type_rates:
+ - 0.4
+ - 0.6
+noise_task_source_prefix: '{"t5_denoising": "", "data2text":"describe the following data: "}'
+train_file_src: '/cleanout_datasets/METAall_totto_dart_wikitableT_webnlg_wikibio_cosql/train.json'
+train_n_example: -1
+train_batch_size: 16
+max_source_length: 768
+max_target_length: 208
+train_num_workers: 8
+train_pin_memory: True
+
+# evaluate data
+eval_noise_data: False
+eval_task_source_prefix: "describe the following data: "
+val_metric: bleu
+eval_file_src: '/cleanout_datasets/METAall_totto_dart_wikitableT_webnlg_wikibio_cosql/dev.json'
+eval_n_example: 3000
+eval_batch_size: 16
+num_beams: 5
+eval_max_source_length: 1024
+eval_max_target_length: 128
+eval_num_workers: 4
