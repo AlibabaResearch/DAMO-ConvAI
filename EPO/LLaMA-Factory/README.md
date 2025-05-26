@@ -16,7 +16,7 @@ pip install -e.
 Take Sotopia as an example, the process of constructing training data for RL is as follows:
 ```bash
 1. Collect strategy and dialogue data from sotopia_pi
-2. cd utils
+2. cd data/utils
 2. python prm.py
 3. python preprocessing.py
 ```
