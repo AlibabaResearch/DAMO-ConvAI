@@ -1,0 +1,1101 @@
+[
+  {
+    "id": "000000033471",
+    "images": [
+      "lmms-lab/LLaVA-NeXT-Data/images/000000033471.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "<image>\nWhat are the colors of the bus in the image?\nAnswer the question with GPT-T-COCO format."
+      },
+      {
+        "role": "assistant",
+        "content": "The bus in the image is white and red."
+      },
+      {
+        "role": "user",
+        "content": "What feature can be seen on the back of the bus?"
+      },
+      {
+        "role": "assistant",
+        "content": "The back of the bus features an advertisement."
+      },
+      {
+        "role": "user",
+        "content": "Is the bus driving down the street or pulled off to the side?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus is driving down the street, which is crowded with people and other vehicles."
+      }
+    ],
+    "instance_type": "mm_conversation"
+  },
+  {
+    "id": "http://en.wikipedia.org/wiki/Guy_de_Bryan,_1st_Baron_Bryan",
+    "images": [
+      "aburns4/WikiWeb2M/images-86k/https_----upload.wikimedia.org--wikipedia--commons--a--a2--Sir_Guy_de_Bryan%2C_1st_Baron_Bryan%2C_KG.png"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the wiki pages."
+      },
+      {
+        "role": "assistant",
+        "content": "Guy de Bryan, 1st Baron Bryan, KG (born before 1319, died 17 August 1390) was an English military commander and Admiral.\n\nHe was the son of Sir Guy de Bryan (d.1349) (alias de Briene), of Walwyn's Castle in Pembrokeshire and Torbryan in Devon he was sometime before 1319.\n\nHe served on the English side in the Second War of Scottish Independence and in France and Flanders during the Hundred Years' War. In 1341, he was made  Warden of the Forest of Dean, in Gloucestershire, and Governor of St Briavel's Castle, the seat of the Warden, which offices he held until his death.\nOn 26 August 1346 he was named a Knights Bachelor.\nIn 1349, he was temporarily Keeper of the Great Seal of England, and in 1350 was granted an annuity of 200 marks for bearing the King's Standard against the French at Calais. From 25 November 1350, he was summoned to Parliament and may thereby be held to have been created Baron Bryan. On 1 March 1356 he was appointed Admiral of the West a post he held till 18 July 1360 under Edward III of England. In 1361, he was Ambassador to Pope Innocent VI. Following the death of Sir John Chandos on 31 December 1369, he was made a Knight of the Garter.  On 3 May 1370, he was once again appointed Admiral of the West until 6 October 1372.\n\nHe married twice and left children by his second wife only:\nFirstly, before 1348, to Joan Carew, daughter of Sir John Carew of Carew Castle, Pembrokeshire; childless.\nSecondly, before 10 July 1350, to Elizabeth Montagu (d. 31 May 1359), daughter of William Montagu, 1st Earl of Salisbury (by his wife Catherine Grandison), and widow of Hugh le Despencer, Baron le Despencer and of Giles de Badlesmere, 2nd Baron Badlesmere. By his second wife, he is known to have had at least five children, certainly three sons and a daughter, including:\n\nSir Guy de Bryan (d.1386), who predeceased his father by four years and married a certain Alice (still living 20 May 1409) and had children:\nPhillipe de Bryan, wife firstly of John Devereux, 2nd Baron Devereux, and secondly of Sir Henry le Scrope; died childless, 8 Hen. IV\nElizabeth de Bryan, wife of Sir Robert Lovel (second son of John Lovel, 5th Baron Lovel), by whom she had an only daughter:\nMaud Lovell, the wife firstly of Sir Richard Stafford and secondly of John FitzAlan, 14th Earl of Arundel, and had children by both husbands:\nAvice Stafford (4 December 1423 \u2013 3 June 1457), wife of James Butler, 5th Earl of Ormonde\nHumphrey FitzAlan, 15th Earl of Arundel (30 January 1429 \u2013 24 April 1438)\nSir William de Bryan (d.22 September 1395), married Joan FitzAlan, died childless\nPhilip de Bryan (d. pre-14 February 1388), died childless\n\nMargaret de Bryan, wife of Hugh de Courtenay (d.1374) (son of Sir Hugh Courtenay, KG, and grandson of Hugh de Courtenay, 2nd Earl of Devon); childless\n\nBryan died on 17 August 1390. Although he had a tomb in Tewkesbury Abbey, Gloucestershire, he was buried at Slapton Parish Church, Devon.\n\nHis executrix was his daughter-in-law Alice and his co-heiresses were his granddaughters Phillipe (age 12) and Elizabeth (age 10). Any barony that may be held to have been created by the writ of 1350 fell (according to modern doctrine) into abeyance between these granddaughters. Sir Thomas Bryan assumed his arms at a later date.\n\nWarden of the Forest of Dean, 1341.\nGovernor of St Briavel's Castle, 1341.\nKeeper of the Great Seal of England, 1349.\nAdmiral of the West, 1 March 1356 \u2013 18 July 1360.\nAmbassador to the Holy See, 1361.\nAdmiral of the West, 3 May 1370 - 6 October 1372."
+      }
+    ],
+    "instance_type": "mm_wiki_pages"
+  },
+  {
+    "id": "http://en.wikipedia.org/wiki/Naomasa_Yokawa",
+    "images": [
+      "aburns4/WikiWeb2M/images-86k/https_----upload.wikimedia.org--wikipedia--commons--8--8f--%E9%99%BD%E5%B7%9D%E5%B0%9A%E5%B0%8620140501.JPG"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the wiki pages."
+      },
+      {
+        "role": "assistant",
+        "content": "Naomasa Yokawa (\u967d\u5ddd \u5c1a\u5c06, Y\u014dkawa Naomasa, born July 17, 1991 in Osaka) is a Japanese professional baseball infielder for the Hanshin Tigers in Japan's Nippon Professional Baseball.\n\nYokawa started playing baseball in 2nd grade as a third baseman for the East Sekime Lions (little league), then he doubled as a pitcher and infielder in junior high. He was converted to a shortstop upon entering Konk\u014d\u014dsaka High School, and experienced playing in the Spring Koshien in his third year. He hit a total of 36 home runs in his high school career.\nDuring the 2009 draft, the Yomiuri Giants chose him as their third pick for the ikusei draft (developmental draft), but he rejected their offer and opted to enroll in Tokyo Nodai instead. He played as third baseman and was a regular in the Tohto League games. In 4 years, he recorded 109 hits, 51 RBIs, and 23 home runs.\n\nBefore the 2013 draft, he said that he would turn pro only if he was drafted in the 3rd round or earlier, but will play for the industrial leagues otherwise. The Tigers chose him as their 3rd pick, and he accepted their offer. He was assigned the jersey number 55.\n2014\nHe spent his first year playing in minor league games. In his 98-game appearances, he batted 0.241, recorded 38 RBIs and 6 home runs. Although he alternated playing as 1st and 3rd baseman, he committed 12 errors when he played the latter.\n2015\nHe started training as an infielder with the main squad during spring camp, but dislocated his left shoulder when he made a diving catch during a friendly match with the Samsung Lions (KBO). Afterwards, he underwent rehabilitation for 3 months. He resumed playing in the Western League (minors) in June, and even got selected as a nominee for Fresh All Star Games. In 54 games, he recorded a batting average of 0.213, 16 RBIs and 3 home runs.\nDuring off-season, he was selected to play for the national team in the Winter League games in Taiwan. He played as a short stop or 2nd baseman in 17 games, batted an average of 0.345, and recorded 13 RBIs including 2 home runs.\u3002\n2016\nHe started the year with an impressive performance during the pre-season exhibition games and farm games. By April, he secured the cleanup position, topped the player rankings by hitting 0.347,  and got awarded the MVP of the month for 2 consecutive months for scoring 18 RBIs (5 home runs). He got promoted to the main squad during the April 15 match against the Dragons, and recorded his first hit on his first at-bat during the top of the 7th inning. On April 29, his first career home run won the match against the Baystars, and he got to experience his first hero interview with pitcher and fellow 2013 draftee Yuta Iwasada. He then alternated as a 3rd baseman or left outfielder during his next appearances, though mostly as substitute for other starters, until he fell into a slump and was eventually sent back to the farm. While his performance in the main squad games was not the best, he redeemed himself in the minors where he got the triple crown title; he was the batting champion with an average of 0.301, RBI leader with 62 RBIs, and home run leader with 14 home runs (tied with another Softbank player). He also got awarded the 2016 Hanshin Farm MVP.\n2017\nExcept for a brief and unsuccessful stint with the main squad in July, he spent most of the season in the farms. He continued to play well in the Western League games and peaked in September when he hit home runs in 5 consecutive games. This got him brought back to the main squad again, but saw fewer plate appearances after falling short of expectations. He finished the season in the farms and once again topped the league in RBIs with 91, and tied with Carp's Xavier Batista as the home run leader with 21. But despite these achievements, his lackluster performance in the main squad earned him a half a million pay cut which brought his annual salary to 8.5 million yen, as management deemed the minor league titles useless if he cannot bring his A-game to where it matters.\n2018\nHe once more spent the first half of the season in the minors where he competed with Yutaro Itayama for the clean up position. Only when new import Willin Rosario fell into a slump in June was he finally given a spot in the main squad. He rose to the occasion and went 2-for-4 with 4 RBIs(1 HR) in his first game against the Lions on June 4. He continued his hitting streak and batted 0.358 in June, and by July he was a regular cleanup and starter. Later on, he was assigned to man the outfield as there was a surplus of good infielders. He finished the season in the main squad, where more than half of his 75 appearances were as a clean up hitter. His record was a personal best of 48 RBIs including 6 home runs, and an average of 0.252. In October, he also underwent surgery to clean out his right elbow as he experienced pain with it that caused him to be taken off the roster in August. His productive season earned him an 11.5 million yen pay raise, bringing his annual salary to 20 million.\n2019\nHe was not in top form at the start of the season, owing partly to his surgery in the previous year. He appeared in a handful of outings starting late April, and was used mostly as a pinch hitter throughout the season. He only got included in the line-up during starts of left-handed pitchers, and finished the season with a dismal 0.109 batting average, 4 RBIs which included 3 solo home runs in 28 games. This earned him a 1 million pay cut for the next year.\n\nHe employs a powerful swing on the plate, and possesses stamina that can last him throughout an entire game, as he demonstrated during his university days.\n\nWhen his performance began to improve in 2017, his teammates in the farm noticed his habit of pounding his chest with his palms after he hits a home run, and promptly gave him the nickname \"Gorilla\". By 2018, his teammates would do the \"Gorilla Pose\" (\"Go-ri-ra Po-su\" or \u30b4\u30ea\u30e9\u30dd\u30fc\u30ba) after he hit one home run after another, both in the farm and main squad games. This eventually spread and even the main squad members now call him by this nickname, and greet him with this chest-slapping gesture as he returns to the dugout after a successful run.\nAfter his hitting picked up in the latter half of the 2020 season, he owned up to his \"Gorilla\" character and his home runs became known as the \"Gorilla Punch\". During a post-match interview with Onelki Garcia on August 26, the pitcher jokingly said that Yokawa's strength came from \"banana power\" and handed him a banana. Afterwards, Hanshin began selling banana-themed banners to promote him to the fans. Despite not really liking bananas, he said that he was able to hit the winning home run on September 13 against the Carps because he ate a banana before the game. Later on, in addition to chest-slaps, his teammates now present him with bananas when he returns to the dugout after a home run."
+      }
+    ],
+    "instance_type": "mm_wiki_pages"
+  },
+  {
+    "id": "51cb8f6a-ba0b-5af3-aa1d-26e4197b79fe",
+    "images": [
+      "N24News/images/51cb8f6a-ba0b-5af3-aa1d-26e4197b79fe.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the news."
+      },
+      {
+        "role": "assistant",
+        "content": "If the name Bedminster sounds familiar, perhaps that's because the world's most talked-about citizen is a part-time resident there. Some refer to the Trump National Golf Club in Bedminster as the Summer White House, because President Trump regularly retreats there in the warmer months, enjoying the 535-acre property and grand brick house he bought in 2002 from the estate of the auto magnate John DeLorean. He opened a 36-hole golf course on the site two years later, and his daughter Ivanka married Jared Kushner there in 2009.\n\n\"We know when he's coming to town, because the helicopters can be very loud over the houses, but it is short-lived,\" said Mary Licata, a sales associate with Turpin Realtors, who left Bedminster in 2006 and moved back last year. \"It doesn't feel too intrusive. And people respect each other's privacy here.\" Indeed, respecting neighbors' privacy extends beyond the president in this horse-country township in central New Jersey, which is home to Steve Forbes, Robert Wood Johnson IV and other wealthy executives. Politicians and corporate leaders are drawn to Bedminster's large farm estates and low property taxes, made possible by limited public services and the presence of sizable corporations like Verizon, AT&T and Mallinckrodt Pharmaceuticals. But not all of Bedminster's 8,165 residents are wealthy. More than a third of the township's population lives in the Hills, a planned community built in the 1980s in response to the state's Mount Laurel decisions, requiring New Jersey towns to provide more affordable housing. Of the more than 3,000 townhouses, condos and single-family houses that make up the Hills, about a fifth are designated for moderate- to low-income residents.\n\nFinding something affordable doesn't automatically limit one's choices to the Hills. Kristen and Marcelo Dos Santos moved to Bedminster five years ago with their daughter, Sophia, renting a carriage house on a 56-acre farm for three years before deciding to buy a home. Ms. Dos Santos, who grew up helping her grandfather with beekeeping and fruit-tree farming, wasn't interested in living in a planned community. Instead, they found a three-bedroom, two-bathroom 1860s farmhouse on two acres, which they bought two years ago for $400,000. They spent another $100,000 installing a new kitchen and bathroom, and replacing ceilings, windows and wiring. Their house is one of five on an island between two branches of the Lamington River near the community of Pottersville, one of four historic sections of Bedminster. Ms. Dos Santos, 43, an executive assistant at Atalanta food importers who keeps chickens and three goats, said she loves to sit on the front porch or walk around the island, taking in the natural beauty: \"Your driveway might not be paved, and it will smell like horses when you open your windows, but you don't have to be a millionaire to enjoy this way of life.\" Bedminster is about 44 miles west of New York City, with several major highways running through it. That central location appeals to commuters and to the many pharmaceutical and communication companies in central New Jersey, said Brad Newman, who was a pharmaceutical sales rep for 17 years before switching to real estate last year. He and his wife, Maegan, bought a three-bedroom townhouse in the Hills two years ago, for just under $400,000, to shorten his wife's commute and to escape the maintenance that came with owning a three-acre property in Chester. With three children under 8, he said, the Hills has proved to be a great place to live. \"One thing about community living, your friends are your neighbors,\" said Mr. Newman, 50, a sales associate with Weichert Realtors. \"When the kids come home from school, they go across the street to be with their friends. You can walk to Starbucks and the grocery store, or to nature trails.\" While Bedminster lacks a central downtown, it has a number of shopping areas with restaurants and supermarkets, most in proximity to the Hills, which occupies 500 acres along a slope of Second Watchung Mountain, east of Route 202.\n\nIn late December, there were 159 properties for sale, including 96 single-family homes and 63 condominiums, according to the Garden State Multiple Listing Service. The highest priced was a 15,755-square-foot, eight-bedroom, 13-bathroom house on 50 acres, built in 2017 and listed for $9.995 million. At the low end was a one-bedroom, one-bathroom, 530-square-foot condominium built in 1988, listed for $160,000. Typical prices at the Hills run from $400,000 to $700,000 for two- or three-bedroom units, with more expensive properties higher up on the slope. The median sales price for a single-family home in Bedminster during the first nine months of 2019 was $675,000, down by almost 11 percent from the same period in 2018, when the median sales price was $758,000, according to the New Jersey Realtors association. Prices held steady in the condominium and townhouse market, with a median sales price through September 2019 of $315,000, compared to $316,500 in the same period of 2018.\n\nOutdoor activities abound in Bedminster, with some of the state's best trout fishing in the Lamington River; several horse farms where riders can take lessons, lease or board horses; and a network of public horse trails. Besides the Trump National Golf Course, there is another exclusive private course, Hamilton Farm Golf Club, home to the United States Equestrian Team. Straddling Bedminster, Peapack-Gladstone and Far Hills is Natirar, a 404-acre property bought in 2003 by Somerset County Parks from the estate of Hassan II, the King of Morocco, who died in 1999; it includes hiking trails, fishing and a resort hotel, spa and restaurant complex. Shoppers are about 15 minutes from the Bridgewater Commons mall, while the best night life can be found in Somerville, about 20 minutes away."
+      }
+    ],
+    "instance_type": "mm_news"
+  },
+  {
+    "id": "http://en.wikipedia.org/wiki/Martin_Gerstel",
+    "images": [
+      "aburns4/WikiWeb2M/images-86k/https_----upload.wikimedia.org--wikipedia--commons--b--b3--Martin_Gerstel_%28P71026-194220%29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the wiki pages."
+      },
+      {
+        "role": "assistant",
+        "content": "Martin Gerstel (born June 26, 1941) is an Israeli businessman. He was the CEO and co-chairman of Alza Corp. Martin Gerstel founded ALZA Corp. and Itamar Medical Ltd. M\n\nGerstel attended Yale University from which he received his undergraduate degree. He went on to receive an MBA from Stanford Graduate School of Business.\nGerstel held the position of Co-CEO of Compugen Ltd. and chairman for Keddem Bioscience Ltd. He founded ALZA Corp at which he was a chief executive and financial officer. He is the chairman of Compugen (Israeli company), Evogene, Keddem Bioscience, Mada Ltd.\nGerstel is the co-founder and co-chairman of Itamar Medical, and serves as a director of Yissum Research Development Company of Hebrew University Ltd., Yeda Ltd. and the Foundation for the U.S. National Medals of Science and Technology.\nGerstel is a member of the Board of Governors and the Executive Committee of the Weizmann Institute of Science and the Board of Governors of The Hebrew University of Jerusalem. He is an advisor to the Burrill Life Science Funds and the board of the Israel-U.S. Binational Industrial Research and Development Foundation (\"BIRD\").\nAs of 2019 Gerstel is the CFO and a director of a cybersecurity company preventing DDoS attacks, MazeBolt Technologies Ltd."
+      }
+    ],
+    "instance_type": "mm_wiki_pages"
+  },
+  {
+    "id": "00000001",
+    "images": [
+      "laion/conceptual-captions-12m-webdataset/images/00000001.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Please observe the image and generate a caption relevant to it."
+      },
+      {
+        "role": "assistant",
+        "content": "Use these great kitchen activities to teach your toddler the letter k"
+      }
+    ],
+    "instance_type": "image_caption"
+  },
+  {
+    "id": "000000052846",
+    "images": [
+      "lmms-lab/LLaVA-NeXT-Data/images/000000052846.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "<image>\nWhere is the cat positioned in the image?\nAnswer the question with GPT-T-COCO format."
+      },
+      {
+        "role": "assistant",
+        "content": "The cat is positioned on top of the back of the couch in the living room."
+      },
+      {
+        "role": "user",
+        "content": "What is the cat doing in the image?"
+      },
+      {
+        "role": "assistant",
+        "content": "The cat is coming out from some curtains onto the couch and is sitting or standing on top of it."
+      },
+      {
+        "role": "user",
+        "content": "What is the color of the curtains near the cat?"
+      },
+      {
+        "role": "assistant",
+        "content": "The color of the curtains near the cat is red."
+      },
+      {
+        "role": "user",
+        "content": "Besides the cat, what else can be seen on the couch?"
+      },
+      {
+        "role": "assistant",
+        "content": "There are lots of pillows on the couch besides the cat."
+      },
+      {
+        "role": "user",
+        "content": "What kind of room does the couch appear to be in?"
+      },
+      {
+        "role": "assistant",
+        "content": "The couch appears to be in a living room setting."
+      }
+    ],
+    "instance_type": "mm_conversation"
+  },
+  {
+    "id": "000000175217",
+    "images": [
+      "lmms-lab/LLaVA-NeXT-Data/images/000000175217.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "<image>\nWhat is the color of the sink and vanity in the bathroom?\nAnswer the question with GPT-T-COCO format."
+      },
+      {
+        "role": "assistant",
+        "content": "The sink and vanity in the bathroom are beige in color."
+      },
+      {
+        "role": "user",
+        "content": "What is the color of the toilet in the bathroom?"
+      },
+      {
+        "role": "assistant",
+        "content": "The toilet in the bathroom is white."
+      },
+      {
+        "role": "user",
+        "content": "Is there a painting hanging on the wall in the bathroom?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, there is a painting hanging on the wall in the bathroom."
+      },
+      {
+        "role": "user",
+        "content": "What type of fixtures or counters are used in the bathroom?"
+      },
+      {
+        "role": "assistant",
+        "content": "Marble fixtures or counters are used in the bathroom."
+      },
+      {
+        "role": "user",
+        "content": "In general, how is the bathroom decorated?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bathroom is well-decorated with artwork hanging on the wall and earth-toned tile and paint. The combination of a beige sink and vanity, white toilet, and marble counters or fixtures creates an elegant and inviting atmosphere in the bathroom. The presence of a painting on the wall adds a personal touch and contributes to the overall aesthetic of the space."
+      }
+    ],
+    "instance_type": "mm_conversation"
+  },
+  {
+    "id": "bd8647b3-8ec6-50aa-95cf-2b81ed12d2dd",
+    "images": [
+      "N24News/images/bd8647b3-8ec6-50aa-95cf-2b81ed12d2dd.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the news."
+      },
+      {
+        "role": "assistant",
+        "content": "If you follow space news and astronomy, the past year offered no shortage of highlights. Astronomers provided humanity's first glimpse of a black hole. China landed on the moon's far side. And the 50th anniversary of the Apollo 11 moon landing inspired us to look ahead to our future in space. The year to come will be no less eventful:\n* None No fewer than four missions to Mars could leave Earth this summer.\n* None NASA may finally launch astronauts into orbit aboard capsules built by SpaceX and Boeing.\n* None We expect to learn more secrets about the interstellar comet Borisov.\n* None And private companies are working to demonstrate new abilities in space. However much you love space and astronomy, it can be challenging to keep up with the latest news in orbit and beyond. That's why we've put dates for some of these events on The Times's Astronomy and Space Calendar, which has been updated for 2020. Subscribe on your personal digital calendar to be automatically synced with our updates all year long. (We promise not to collect any personal information from your private calendar when you sign up.) [Sync your calendar with the solar system.] Below are some of the launches, space science and other events to look forward to.\n\nRoughly every two years, the orbits of Earth and Mars come closer than usual. Space agencies on Earth often send missions to the red planet during that window, and in 2020 four such launches are scheduled. Three of the missions will carry rovers. The United States is launching the soon-to-be-renamed Mars 2020 rover, which also carries a small helicopter. It will try to land in Jezero Crater, which once contained a lake and could preserve evidence of life, if life ever existed there. Neither China, Europe nor Russia has deployed a rover on the Martian surface. But they will try, in a pair of missions. China's mission, its first on its own to the red planet, includes an orbiter in addition to a rover. The European Space Agency and Russia cooperated to build Rosalind Franklin, a rover named for the English chemist whose work was essential to finding the structure of DNA. The rovers could be joined on Mars by Hope, an orbiter commissioned by the United Arab Emirates. It is being built in Colorado, and is to be launched on a Japanese rocket. If it succeeds, it could represent a new model for space programs, of small, wealthy countries getting into orbit and beyond.\n\nSince the space shuttle's last flight, in 2011, NASA has relied on Russia's Soyuz spacecraft for trips to and from the International Space Station. In 2019, NASA hoped to begin flying astronauts aboard capsules built by two private companies, SpaceX and Boeing, but persistent delays knocked back the timeline another year. NASA's commercial crew program could finally achieve its goal in 2020. SpaceX's Crew Dragon is scheduled to conduct an uncrewed test of its in-flight abort system on Jan. 11. If the test succeeds, the capsule could carry astronauts to the space station not long after.\n\nVirgin Galactic, the space-plane company run by Richard Branson, conducted two successful test flights with crew aboard in the past 13 months. In the year to come, the company could carry its first passengers to the edge of space. Blue Origin, the company founded by Jeff Bezos of Amazon, may follow suit; it has conducted 12 crewless tests of its capsule for short tourist jumps to suborbital space. For now, only the very wealthy will be able to afford such jaunts.\n\nOther private companies are looking to Earth orbit for the future of internet service. SpaceX launched 120 Starlink satellites in 2019 and could launch many more in 2020. A competitor, OneWeb, could send more of its satellites to orbit in the coming year, too. These companies are blazing the trail for orbital internet -- a business that Amazon and Apple are also pursuing -- and upsetting astronomers, who fear that large constellations of internet satellites will imperil scientific study of the solar system and stars.\n\nJapan's Hayabusa2 spacecraft concluded several close encounters with Ryugu, a near-Earth asteroid, last year. It twice collected samples from Ryugu's surface, the second time after dropping what amounted to a bomb on the space rock's surface. At the end of 2019, the probe began its trip home. Near the end of this year, it will try to jettison its samples back to Earth's surface, in the Australian outback. Scientists hope to study the material for clues from the solar system's early days. Hayabusa2 wasn't the only spacecraft circling a space rock. NASA's Osiris-Rex spent the year completing a close survey of Bennu, a different, boulder-strewn asteroid. The mission's managers selected a site called Nightingale for a specimen-collection operation that they plan to carry out in August. That spacecraft will return its cargo to Earth in 2023."
+      }
+    ],
+    "instance_type": "mm_news"
+  },
+  {
+    "id": "00000008",
+    "images": [
+      "laion/conceptual-captions-12m-webdataset/images/00000008.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Please observe the image and generate a caption relevant to it."
+      },
+      {
+        "role": "assistant",
+        "content": "A picture of cabins in June Lake and a quote that says, ``Coming together is a beginning, keeping together is progress; working together is success.''"
+      }
+    ],
+    "instance_type": "image_caption"
+  },
+  {
+    "id": "000000575173",
+    "images": [
+      "lmms-lab/LLaVA-NeXT-Data/images/000000575173.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "<image>\nWhat type of aircraft is shown in the image?\nAnswer the question with GPT-T-COCO format."
+      },
+      {
+        "role": "assistant",
+        "content": "The image shows a large passenger jet belonging to China Airlines."
+      },
+      {
+        "role": "user",
+        "content": "Is the airplane in the air or on the ground?"
+      },
+      {
+        "role": "assistant",
+        "content": "The airplane is on the ground, as it is seen taxiing down the runway next to a body of water."
+      },
+      {
+        "role": "user",
+        "content": "What is the location of the harbor or body of water in relation to the airplane?"
+      },
+      {
+        "role": "assistant",
+        "content": "The body of water is located right next to the runway where the airplane is taxiing."
+      },
+      {
+        "role": "user",
+        "content": "What type of landscape is visible around the airplane?"
+      },
+      {
+        "role": "assistant",
+        "content": "The landscape visible around the airplane consists of a runway and a large body of water or lake located next to it."
+      }
+    ],
+    "instance_type": "mm_conversation"
+  },
+  {
+    "id": "00000005",
+    "images": [
+      "laion/conceptual-captions-12m-webdataset/images/00000005.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Please observe the image and generate a caption relevant to it."
+      },
+      {
+        "role": "assistant",
+        "content": "Stock Photo: Military Bedford vehicles line the roads waiting for shipping from the Vauxhall Factory in Luton during World War II."
+      }
+    ],
+    "instance_type": "image_caption"
+  },
+  {
+    "id": "ea265bd2-3c7a-5e5a-a05d-9a924269867b",
+    "images": [
+      "N24News/images/ea265bd2-3c7a-5e5a-a05d-9a924269867b.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the news."
+      },
+      {
+        "role": "assistant",
+        "content": "An exhibition at the Centre National du Costume de Scene in France considers the dialogue between the stage and the runway.\n\nMOULINS, France -- Soft jersey bathing suits, molded on the body, fitted pink cloche caps framing the face. These were Coco Chanel's simple yet revolutionary designs for the Ballets Russes's \"Le Train Bleu\" (1924), a dance about gilded youth at the seaside, doing calisthenics and playing tennis and golf. Chanel was just one of a star-studded artistic team: The scenario was by Cocteau, the front curtain by Picasso, the choreography by Bronislava Nijinska and the score by Darius Milhaud. But in choosing Chanel to design the costumes, Diaghilev, as so often, broke new ground. \"Chanel was the first couturier to create costumes for the stage,\" said Philippe Noisette, the curator of \"Couturiers de la Danse,\" an exhibition that continues through May 3 at the Centre National du Costume de Scene, or National Theatrical Costume Museum, here in the Auvergne region of France. Sportswear, Mr. Noisette noted, was a relatively new category of clothing, and Chanel's practical, stylish designs both surprised and inspired her audiences in this early crossover moment between ballet and fashion. One of the bathing outfits from \"Le Train Bleu\" is on prominent display in \"Couturiers de la Danse,\" which traces couturier-choreographer collaborations from 1924 to the present. The exhibition is organized by theme: \"Shapes,\" \"Second Skin,\" \"Not So Classical\" and \"Materials.\"\n\nMr. Noisette said the themes were \"a skeleton\" that allowed him to weave together images from ballet, contemporary dance and fashion shows and to juxtapose different epochs and innovations. Each section groups a breathtaking array of costumes by established designers like Balmain, Dior, Givenchy, Yves Saint Laurent and Karl Lagerfeld alongside pieces by a younger generation, including Iris van Herpen, Rick Owens, Gareth Pugh and Hedi Slimane. \"I'm really interested in the dialogue you often see between stage and runway,\" Mr. Noisette said. \"The stage can be a kind of laboratory, a sketch pad, for the designer. You sometimes see inventions in costumes that show up in the collections the next year. And sometimes pieces are tested in runway shows and then appear onstage.\" He quoted Chanel: \"Fashion doesn't only exist through the clothes; it's in the air.\" But what looks good on a runway doesn't necessarily translate directly to the stage. Dance costumes have to conform to the specific needs of the performers, choreography and theater, which even the most sophisticated couturier may have to learn. \"After you have designed a piece, you have to ask, can this be danced in?\" said Harriet Jung, who together with her design partner Reid Bartelme specializes in costumes for dance. \"If there is a lot of partnering, if they slide on the ground a lot, or are lifted in the air a lot, you have to think about how the fabric will handle it, whether it will be comfortable, flexible and not get in the way or between the dancers.\" Sometimes you learn this the hard way, Ms. Jung said, describing a boned corset, created for the ballerina Julie Kent, that broke into pieces during a rehearsal. (And other times, the designer overrules mere notions of practicality; in some of Walter Van Beirendonck's designs for the ballet \"Sous Apparence,\" the dancer \"can hardly see out of the eyeholes,\" Mr. Noisette said.)\n\nYou can learn the fundamentals of clothing construction through study, Mr. Bartelme wrote in an email. But understanding \"the mechanics of dance costume is learned through trial and error, and from the shops and makers who have done it before.\" Couturiers who sustain creative relationships with choreographers get a chance to learn those mechanics. Beyond its four themes, the exhibition also has sections devoted to specific choreographer-designer collaborations: Jean-Paul Gaultier and Regine Chopinot; Issey Miyake and William Forsythe; Gianni Versace and Maurice Bejart; and the eclectic design choices of the choreographer Daniel Larrieu. The exhibition has a decidedly European focus, a choice that was made partly for practical reasons, Mr. Noisette said, though he regretted among other gaps not having any costumes created for the Merce Cunningham Dance Company, especially the remarkable lumpy Rei Kawakubo pieces for \"Scenario.\" After a walk through the exhibition, Mr. Noisette talked about some of the costumes -- what they reveal about fashion and innovation and how they speak of dance in its time. Here are edited excerpts from that conversation.\n\nThis costume, designed by Walter Van Beirendonck, is one of half a dozen pieces, in different shapes and bright colors, in Marie-Agnes Gillot's \"Sous Apparence,\" which she created in 2012 for the Paris Opera Ballet. Most of the dancers in the work wear more conventional attire (although, unconventionally, the men were on point); these pieces, Mr. Noisette said, were like interventions in the ballet, \"blocks of color and geometric form which suddenly appeared.\" Like tutus, these costumes are made from tulle. But here the fabric is folded and pleated \"so that it becomes a carapace,\" Noisette said. This one is called the bee. Like the others it has a playful quality: one looks like a tree, another like a surfboard. It is \"a bit of a challenge to the spectator,\" Mr. Noisette said. \"At first the costumes look like pure shape, but when you look at it close up, you see how detailed the work is.\"\n\nThe Dutch designer Iris van Herpen is interested in the relationship between craftsmanship and technology. To create her intricately worked fabrics, she uses 3-D printers, laser cutting and heat bonding. \"Although it's all very technical,\" Mr. Noisette said, \"her clothes have a poetic quality that has a bit of a Japanese aspect. It's aesthetic but also all about the material.\" With this tutu for Benjamin Millepied's \"Clear, Loud, Bright, Forward,\" created for the Paris Opera Ballet in 2015, Ms. van Herpen has kept the traditional shape of the costume, but taken away the many layers of tulle that usually make up the skirt; it's almost an abstract idea of a tutu. \"I think it changes the way you look at this traditional female ballet costume,\" Mr. Noisette said. \"The ballerina is less objectified, in a different space.\"\n\nThis dress, by Maria Grazia Chiuri for Dior, is the newest costume in the exhibition, made in 2019 for the ballerina in Sebastien Bertaud's \"Nuit Blanche\" for the Rome Opera Ballet. \"This dress is a perfect example of couture in dance, due to the perfection and simplicity of its cut, and the detail and subtlety of its embroidery,\" Mr. Noisette said. Ms. Chiuri has used dance in her runway shows; this dress suggests that costumes are sometimes born from fashion as well as sometimes inspiring it. Here she uses a traditional style of Romantic-era ballet dress, which also refers to the Dior silhouettes of the late-'40s. Her Paris fashion-week show in September was inspired by Dior's love of flowers, and here they are layered into the costume. Made out of muslin, they are sewn between layers of mousseline and tulle, both on the bodice and the skirt. \"At the beginning, you don't really see them; they gradually reveal themselves through the movement,\" Mr. Noisette said. \"There is something very romantic and touching about it.\""
+      }
+    ],
+    "instance_type": "mm_news"
+  },
+  {
+    "id": "http://en.wikipedia.org/wiki/Russian_Bureau_of_Philately",
+    "images": [
+      "aburns4/WikiWeb2M/images-86k/https_----upload.wikimedia.org--wikipedia--commons--5--51--Stamp_Soviet_Russia_1921_200r_olivebrown.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the wiki pages."
+      },
+      {
+        "role": "assistant",
+        "content": "Russian Bureau of Philately (RBF; Russian: \u0420\u043e\u0441\u0441\u0438\u0301\u0439\u0441\u043a\u043e\u0435 \u0431\u044e\u0440\u043e\u0301 \u0444\u0438\u043b\u0430\u0442\u0435\u043b\u0438\u0301\u0438 (\u0420\u0411\u0424)) was a special organisation under the People's Commissariat for Posts and Telegraphs of the RSFSR in 1921\u20131924. This was the first Soviet government agency in charge of all matters of the organisation and development of philately.\n\nSoon after the Russian Civil War, Soviet governmental institutions were set up to conduct the activities and practices in the field of philately. In 1921, the People's Commissariat for Posts and Telegraphs of the RSFSR (Narkompochtel) founded a special organ, the Russian Bureau of Philately (RBF). It was aimed at dealing with all questions regarding the organisation and development of philately in Soviet Russia.\nIn 1921, a Narkompochtel representative Feodor Chuchin worked within the RBF and proposed change in the philatelic policy. According to this proposal, the monopoly on foreign trade should have been extended and included the traffic in postage stamps, the revenue being used to aid street children. In 1922, Chuchin was appointed to head the Organisation of the Commissioner for Philately and Scripophily.\nIn 1922, the Russian Bureau of Philately at the RSFSR People's Commissariat for Posts and Telegraphs supported an idea of establishing a new philatelic society, All-Russian Society of Philatelists.\nAt some point, the RBF aided in issuing stamps of Soviet Russia and the Ukrainian Soviet Socialist Republic.\nIn 1924, the RBF was closed and its functions were transferred to the Organisation of the Commissioner for Philately and Scripophily."
+      }
+    ],
+    "instance_type": "mm_wiki_pages"
+  },
+  {
+    "id": "e6c25b53-0416-5795-b0cf-e1243924dc79",
+    "images": [
+      "N24News/images/e6c25b53-0416-5795-b0cf-e1243924dc79.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the news."
+      },
+      {
+        "role": "assistant",
+        "content": "LINDA RONSTADT: THE SOUND OF MY VOICE (2019) 9 p.m. on CNN. \"If I were going to choose something to do, it would not be to stand up in front of a lot of people,\" the singer Linda Ronstadt says in this documentary. \"But I love to sing, I love to sing, I love music. So at some point, you do whatever you have to do to do music.\" That's not exactly a stereotypical rock-star outlook, but Ronstadt didn't have the typical rock star's career: After reaching arena-level success in rock in the 1970s, she moved across genres, releasing albums of pop standards and Mariachi songs. (\"People would think that I was trying to reinvent myself,\" she says in the documentary, \"but I never invented myself to start with.\") Her varied career is the focus here; it's discussed by both Ronstadt and by interviewees like Emmylou Harris, Bonnie Raitt, Cameron Crowe, Jackson Browne and Dolly Parton. \"The political intelligence and matter-of-fact feminism that emerge in this portrait are among its most intriguing aspects,\" A.O. Scott wrote in his review for The New York Times. He wrote that Ronstadt's \"cleareyed, down-to-earth thoughts on her profession, her family and American culture (musical and otherwise) make her someone you want to know better.\"\n\nDOCTOR WHO 8 p.m. on BBC America. Jodie Whittaker begins her second season as the Doctor in this first chapter of a two-part season opener, cheekily titled \"Spyfall.\" As ever, few details have been released, though it has been announced that Stephen Fry and the British comedian Lenny Henry will appear. Also in the season: fictionalized versions of Thomas Edison and Nikola Tesla, played by the actors Robert Glenister and Goran Visnjic. THE SHAWSHANK REDEMPTION (1994) 10 p.m. on TNT. The cinematographer Roger Deakins is back in the Oscar race this year with \"1917,\" a World War I movie directed by Sam Mendes that has inserted itself into awards-season conversations. In the 1990s, Deakins received his first Academy Award nomination for filming this classic Stephen King adaptation, about the camaraderie of two men (played by Tim Robbins and Morgan Freeman) at a fictional state prison in Maine.\n\nSPINNING OUT Stream on Netflix. Ice and melodrama coalesce in this soapy new Netflix series, which follows a professional figure skater (Kaya Scodelario) ready to call it quits after sustaining a serious injury in the rink. She returns to the ice after getting paired with a new partner (Evan Roderick); drama follows both on the ice and away from it. MONTY PYTHON AND THE HOLY GRAIL (1975) Stream on Netflix; rent on Amazon and iTunes. The British humorist and musician Neil Innes died on Sunday. See him pester Eric Idle as an inappropriately cheery balladeer in this Monty Python comedy, which turns 45 years old in a few months. Other highlights include the terrifying \"killer bunny,\" the \"holy hand grenade\" and a very dour set of chanting monks (Innes plays one of them, too)."
+      }
+    ],
+    "instance_type": "mm_news"
+  },
+  {
+    "id": "000000398214",
+    "images": [
+      "lmms-lab/LLaVA-NeXT-Data/images/000000398214.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "<image>\nWhat type of sign and traffic device can be seen in the image?\nAnswer the question with GPT-T-COCO format."
+      },
+      {
+        "role": "assistant",
+        "content": "In the image, there is a street sign and a traffic light above a city road."
+      },
+      {
+        "role": "user",
+        "content": "How many traffic lights are visible in the image?"
+      },
+      {
+        "role": "assistant",
+        "content": "There are a total of six traffic lights visible in the image."
+      },
+      {
+        "role": "user",
+        "content": "What is the current color of the traffic lights in the image?"
+      },
+      {
+        "role": "assistant",
+        "content": "All the traffic lights in the image are showing the color red at the same time."
+      },
+      {
+        "role": "user",
+        "content": "What kind of setting is the image taken in?"
+      },
+      {
+        "role": "assistant",
+        "content": "The image is taken in a big city setting with a city street, an overpass, and buildings in the distance."
+      },
+      {
+        "role": "user",
+        "content": "Are there any cars visible in the image?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, there are cars visible on the city street in the image."
+      }
+    ],
+    "instance_type": "mm_conversation"
+  },
+  {
+    "id": "http://en.wikipedia.org/wiki/Mahmud_Shah_Durrani",
+    "images": [
+      "aburns4/WikiWeb2M/images-86k/https_----upload.wikimedia.org--wikipedia--commons--6--6a--Mahmud_Shah_Durrani.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the wiki pages."
+      },
+      {
+        "role": "assistant",
+        "content": "Mahmud Shah Durrani (Persian:  \u0645\u062d\u0645\u0648\u062f \u0634\u0627\u06c1 \u062f\u0631\u0627\u0646\u06cc)\u00a0; 1769 \u2013 April 18, 1829), also known as Shah Mahmud, or Mahmud Shah Abdali, was the ruler of the Durrani Empire between 1801 and 1803, and again between 1809 and 1818. From 1818 to 1829, he was the ruler of Herat. An ethnic Sadduzai tribe section of the Popalzai sub clan of the Durrani Pashtuns, he was the son of Timur Shah Durrani and grandson of Ahmad Shah Durrani.\n\nMahmud Shah was born in 1769, to his father, Timur Shah Durrani, with his mother being an unknown Yusufzai lady. Mahmud was raised with his brothers, most prominently being, Zaman Shah Durrani, and Shah Shuja Durrani. Mahmud Shah was nominated by his father at 8 years old to govern Herat.\n\nTimur Shah died on May 20, 1793. This triggered a succession crisis in the Durrani Empire. Mahmud, the ruler of Herat, had aligned with his brother Humayun in Kandahar against his brother, Zaman Shah Durrani, the nominated successor of the Durrani Empire by Timur Shah, and brother of Shah Mahmud. Zaman Shah had summoned all of the rival claimants to his throne in Kabul. Zaman Shah had then locked up all his half brothers and rival claimants for 5 days, starving them until they would submit and recognize Zaman Shah as ruler of the Durrani Empire, which they finally submitted and recognized him as ruler, including Mahmud Shah.\nDespite Mahmud Shah's allegiance with Humayun, when Zaman Shah sent Shuja Shah Durrani to deal with Humayun, Mahmud Shah did not assist his ally and reassured his loyalty to Zaman Shah. Mahmud Shah would rule Herat under the conditions that he would be loyal to Zaman Shah and under his Suzerainty.\n\nMahmud Shah had ruled Herat under the suzerainty of Zaman Shah Durrani, however attempted multiple revolts and efforts for power during his rule of Herat.\n\nZaman Shah, seeing the threat of the Persians, as one year prior in 1795, they had demanded the complete lands of Mashad, Herat, and even balkh, had decided to try to regain control of Herat and establish a loyal governor against the Persians; as a result, he marched against Mahmud Shah and met him near Ghirisk, and had defeated Mahmud Shah. Zaman Shah went on to siege Herat; however, the city had held out, and the two brothers had held an agreement. Mahmud Shah would recognize Zaman Shah as ruler of the Durrani Empire, in return, Zaman Shah had recognized Mahmud Shah as the governor of Herat. They had agreed to these terms. However, nobody had informed Mahmud's son, Kamran Mirza, of the peace agreement; as a result, when he saw Zaman Shah withdrawing his armies, Kamran tailed his armies. However, once Kamran had left (with the main portion for the army off defending the city), Timuri Khan, the garrison commander, had led in open revolt, and opened the gates to Zaman Shah, having heard of this, Mahmud Shah and Kamran had fled to Tehran for shelter to the Persian court.\n\nDuring Zaman Shah's campaigns in Punjab against the Sikhs, the British had seen this as a threat, where Zaman Shah could align the Muslim powers of India against the British in a coalition, as a result, the British had given 10,000 rupees to the Shah of Persia. Seeing opportunity, Mahmud Shah, along with his brother, Firoz Mirza, had mobilized and marched on Farah and Herat. Instead of the Shah joining directly, he supported Mahmud and Firoz. The two princes captured Farah, and also defeated Qaizar Mirza, Zaman Shah's son, and also besieged Herat. Zaman Shah had abandoned his Punjab campaign and pulled back to Peshawar, the Sikhs recaptured Lahore as a result of this. Despite Herat in large support of Mahmud Shah, Qaizar had held out. In an attempt to undermine the Persian alliance, Qaizar's Wazir had sent a letter to Mahmud Shah's ally, Mir Ali, and had offered to assassinate Mahmud Shah. However Mahmud's spies intercepted this message, Mahmud Shah and Kamran were completely deceived, and fled in the dead of the night. The following morning, seeing that Mahmud and Kamran had fled, chaos erupted in the camp, and taking advantage of this, Qaizar had marched out, and routed the Persian army from besieging Herat. Following this victory, Zaman Shah had returned to Punjab, recapturing Lahore and also placed Ranjit Singh, as an attempt to divide the Sikhs as the nawab of Lahore, and Zaman had returned to Peshawar.\n\nAfter the execution of Payandah Khan Barakzai, his sons fled to the Persian court, pledging loyalty to Mahmud Shah and persuading him to take up in arms and attempt a second campaign against Zaman Shah. When Zaman Shah went to Lahore in the spring of 1800 to deal with the rebellious Ranjit Singh, Mahmud Shah, and his followers including Fateh Khan had marched on Ghirishk, they had raised an army of several thousands, prominently Barakzai tribesmen, and marched on Kandahar.  Zaman Shah made even more enemies after the governor of Kashmir had rebelled, but came to Peshawar under safe conduct to negotiate, however only to be tortured and executed. When Zaman Shah's brother, Saidal Khan, head of the defense of Kandahar had heard what Zaman Shah had done, he opened the gates of Kandahar to Mahmud Shah and his army. Mahmud Shah had reconsolidated, and marched on Ghazni against Mahmud Shah. Zaman Shah had returned to Kabul. However leaving most of his men and artillery in Peshawar. He realized the dire situation and reality of the revolt, Mahmud Shah and Zaman Shah had finally met at Muqur, a post between Kandahar and Ghazni. Before the battle started, Ahmad Khan, an ethnic Nurzai, had declared his support for Mahmud Shah and defected to Mahmud's side. The Ghilzais around Ghazni had also surrounded Zaman Shah's line of retreat, as a result, panic quickly spread and Zaman's army fell apart. Zaman Shah and fellow supporters had fled, taking asylum with Mullah Ashiq, a local Pir. Ashiq welcomed them, but had secretly sent a messenger to Mahmud Shah on their whereabouts. When Zaman Shah found out, he attempted to convince Ashiq, offering treasure and other rewards, however this was ignored. Realizing the fate that would come to him, Zaman Shah had still tried to deny Mahmud's legitimacy, hiding the Koh-i-Noor diamond in the wall of the Qal'a. Where it remained until Shuja Shah Durrani had recovered it years later. Payinda Khan's sons arrived later with a surgeon, and had lanced Zaman Shah's eyes.\n\nMahmud Shah had marched on Kabul, where he was then proclaimed King of the Durrani Empire in 1801. Zaman Shah was confined in the upper palace of the Bala Hissar, Kabul.\n\nBy the time Mahmud Shah had ascended to the Durrani throne, the Durrani Empire was in great disarray, with the kingdom divided into a plethora of semi independent chiefdoms. Zaman Shah had later escaped his prison and rejoiced with his brother, Shuja, where they both took up in arms from Peshawar, and tried to remove Mahmud from power, however Shah Mahmud had prevailed, and defeated the coalition. The Khan of Bukhara also attempted to invade Balkh, however this invasion attempt was repelled by Mahmud Shah. In the wake of this, Al-Rahim, a claimed descendant of Mirwais Hotak had declared open revolt against Mahmud Shah, occupied Kandahar, and besieged Ghazni. While a second army marched to attack Kabul. Both battles were met on the same day, in the first battle at Shewaki, Mahmud Shah's army had massacred the Tokhi Ghilzais, and made a skull pyramid to celebrate his victory. The Second battle took place at Pul-i-Sangi, on the road from Ghazni to Kabul. which led to the death of Al-Rahim and the destruction of the rebellion of the Ghilzais.\n\nin 1801, an Anglo-Persian treaty was signed, the treaty termed to prevent Afghan expansion into Punjab, and for the Persians to strike if they did. In 1803, the Persians had struck Mashhad, the seat of Durrani Empire in Khorasan. News of the loss had caused massive backlash among Sunni religious leaders in Kabul, who in return incited attacks on the Qizilbash, and different Shi'a communities in Afghanistan. The riots were used as an excuse to try to curtail power from the Turkic Qizilbash, who had great influence in the Durrani Empire at this point, mostly from Timur Shah and his efforts. Members of the Durrani court and council had referred to the Qizilbash as Persians, although rather being ethnically Turkic. The Sunni and Durrani council had argued that if Persia was to strike Herat, the predominantly Shi'a Qizilbash would rise up in effort against the Durrani Empire. These campaigns had torn the empire of its stability even more, with the dire situation it was in.\nIn the first week of 1803, while Fateh Khan and the Qizilbash were in Kandahar quelling rebellions and attempting to maintain the stability of the empire, prominent anti Shi'a figure Mukhtar Al-Daula, had denounced the Shi'a faith, regarding them as \"blasphemers and heretics\". And he called for the expulsion of all Qizilbash and Shi'as from the capital. This led to massive clashes with the Shi'a communities in Kabul and the Qizilbash. Mukhtar had declared a Fatwa against the Shi'as. The following Friday during congregational prayers, Khawaja Khanji had read the Fatwah out to the crowd. Once prayers had ended, the now forming mob had begun looting Shi'a and Qizilbash homes. Shah Mahmud was terrified of this, and had barricaded himself in the Bala Hisar, recalling Fateh Khan and his Qizilbash from Kandahar. When Mukhtar and Khawaja realized that Shah Mahmud was not going to quell the riots, they had begin calling upon their followers, as thousands of followers formulated with the mob, including the Ghilzai tribesmen. They poured into the city of Kabul and had marched on the stronghold of Chindawal. However, the Qizilbash were prepared and had fired from the Mahala. The siege would continue for a month in stalemate before Shah Mahmud had finally ordered the arrest of Mukhtar and other ring leaders. A prominent figure, Sher Mohammad Khan had known of Shah Mahmud's plans, and had ordered Khawaja to mount a diversionary attack on Chindawal and the Bala Hisar, he then escaped out of the city from this.\n\nSher Muhammad Khan has escaped from Mahmud Shah's grip, and went to Peshawar to meet with Shah Mahmud's brother, Shah Shujah Durrani. He offered to help Shujah to depose Shah Mahmud in exchange for being made Wazir of the Durrani Empire. Shuja had eventually agreed, and marched on Kabul, and on 12 July 1803, had defeated Shah Mahmud, aided by Durrani defectors and supporters of Khwaja Khanji. The day after his victory, Shah Shujah had entered the bala hissar, accompanied by Sher Muhammad Khan. Zaman Shah Durrani was also freed from prison, treated well by Shah Shujah, the pir who had also betrayed Shah Zaman was hunted down and executed. After Shah Shujah had restored order in the capital of Kabul. He sent nephew, Qaisar to Kandahar. Where Wazir Fateh khan and Shah Mahmud's son, Kamran was holding out  Fateh Khan had offered to submit to Shah Shujah if the king restored his confiscated estates and his family's tax-free status. Shah Shuja had agreed and Fateh Khan had surrendered Kandahar to him. However Kamran had fled to Herat.\n\nFrom 1807-08, Shah Shuja was forced into multiple campaigns around his kingdom to hold it apart, with Persian threats at Herat. Taking advantage of the Shah's absence, Mukhtar Al-Daula and Khwaja Khanji had revolted in Sindh. Kashmir had also revolted, and even Now Wazir Fateh Khan had deserted and pledged loyalty to Shah Qaisar. This rebel army was however defeated on 3 March 1808 outside of Peshawar, many of the ring leaders including Sher Muhammad Khan had been slain, likely amidst the battle. Khwaja and Qaisar had survived and fled to Kohistan, while Shah Mahmud had returned and joined forces with Fateh Khan in Kandahar. Kabul had fallen back to Shah Shuja's hands, and he defeated Shah Mahmud near Qalati Ghilji. Instead of pursuing and attacking Kandahar, Shah Shuja returned to Peshawar to meet with a British East India company diplomatic mission.\n\nShah Shuja did not trust many of his advisors, this had included Akram Khan, where he had believed that they may have been in touch with his rival, Mahmud Shah Durrani. Akram Khan was deployed to the rebellion of Kashmir, rather not deploying him to deal with Shah Mahmud's march on Kabul, fearing he might defect. The Kashmir campaign would end in disaster, due to the kings ally, the mutawalli of Muzaffarabad, had sent his men through a difficult mountainous path, which as a result his lines were cut off and his force was annihilated. The situation was worsened for Shah Shuja as Mahmud had marched and occupied Kabul. Shah Shujah gathered the remnants of his army, and in June 1809, set out to Jalalabad to confront Shah Mahmud in battle. Mahmud Shah confronted Shah Shujah on the old Kabul-Jalalabad Road and defeated Shah Shujah, who was forced to flee following this defeat. He made multiple attempts to try to recapture the throne, but had given up and had fled to British India.\n\nWith the victory of Shah Mahmud, Fateh Khan was re-appointed as wazir; he used this powerful position to dispose of his enemies and key governors, in turn he replaced them with close family of his, with his half-brother, Pur Dil Khan appointed as governor of Kandahar. Pur dil's full brothers were also appointed as governors of Ghazni, Bamyan, and Kalat. Pur Dil's youngest brother was also appointed as minister of foreign affairs to Shah Mahmud. Fateh Khan had also appointed  his younger full brother, Mohammad Azim Khan, as governor of Peshawar. Shah Mahmud had also led a campaign with the Sikhs to try to recapture Kashmir. He forged an alliance with Ranjit Sing, the ruler of the Sikh empire, and had offered him half of the provinces revenues for military assistance. Ranjit Singh had then double-crossed Shah Mahmud, forcing Attock to submit to his authority. When Fateh Khan heard of this, he attempted to recapture the city, but was repulsed by the Sikhs. Shah Mahmud's alliance with the Sikhs had also brought unpopularity and strife, as the Sunni faction at his court, as a result when Shah Mahmud and Fateh Khan were campaigning, followers of Khwaja Khanji, Sayyid 'Ata, and Sayyid Ashraf had rebelled and placed Abbas Mirza, another son of Timur Shah Durrani on the Durrani throne. The Qizilbash in Shah Mahmud's army mutinied when they heard of this coup, and returned to Kabul. Seeing their kingdom under threat, Shah Mahmud and Fateh Khan had to break off their campaigns against the Sikhs and had to return to Peshawar to mobilize a force to march to Kabul. Shah Mahmud sent them quickly to Kabul, where he had fought multiple skirmishes outside the capital, Shah Mahmud had emerged victorious and had defeated the rebellion against him. the ringleaders were captured and sentenced to death by execution by being crushed by an elephant. Khwaja Khanji escaped execution and fled to Kohistan. Fateh Khan's half-brother, Dost Mohammad Khan with a corps of Qizilbash to wipe out the remaining rebel pockets, and had laid waste to much of lands around Kohistan, burning crops and orchards. When Khwaja had still refused to submit, Dost used a sign of flattery, promising to pardon him and open a royal marriage, having lured Khwaja, Dost had beheaded Khwaja and other leaders of the movement. Khwaja's two sons had however, escaped this.\n\nin 1816, Firoz-Al-Din had revolted, capitalizing on Persia's weakened state after the Treaty of Gulistan. Firoz had occupied Ghurian, however, Fath-Ali Shah Qajar had marched out to meet him, and had regained control of Ghurian and forced Herat to recognize Persian Suzerainty. in 1818, Firoz had revolted again when Fath-Ali had demanded more tribute, Firoz would appeal to Shah Mahmud for assistance. Wazir Fateh Khan, seeing an opportunity to expand his power base more and continue the Barakzai monopoly over the Durrani Empire, had accepted Firoz's offer and marched to Herat with a raised army of 15,000. Also accompanied by Dost Mohammad Khan and the Dil brothers. Fateh had tricked Firoz into letting him and a contingent of soldiers to enter the city, where Fateh Khan had then ordered the arresting of Firoz, and the execution of many high officials. The city gates were opened, and Herat was sacked, with mass killings, and rapings in ordination from this. In a twist of events, one of Shah Mahmud's daughters were among the ones raped. Once order was re-established, Shah Mahmud's daughter sent a letter to Shah Mahmud himself, demanding that they uphold the family honor by taking revenge. Kamran, having heard of this had swore of revenge against Dost Mohammad Khan, however Dost had fleed to Kashmir for his life after hearing of Kamran's threat. Now ruler of Herat, Fateh Khan had expelled Persia's ambassador and had told him to inform Fath-Ali that Shah Mahmud was now the Sovereign. Shah Mahmud, having heard of this, was terrified that Persia might use this as a Casus belli against him to march on Herat. Shah Mahmud sent Kamran, repudicating Fateh Khan's behaviour and reinstating the ambassador as noted in the letter. However, the governor of Mashhad had marched out to reclaim Herat. In a engaged battle with the Persians, Fateh was knocked off his horse with a musket shot, his soldiers, believing he was dead had returned to Herat. The Persian army also retreated, waiting for reinforcements from Fath-Ali. Shah Mahmud's letter arrived on time and Fateh Khan had agreed to not engage the Persian army again, reinstating the Persian ambassador and reopening diplomatic relations. Kamran had then decreed that Fateh Khan would be stripped of the position of Wazir, and had ordered him to surrender the city. Fateh Khan, had however defied this, and had bragged, \"I twice placed Mahmud on the throne.\", adding on. \"and his kingdom is now in the hands of my kinsmen; who is Kamraun, therefore. That in a dream he should think of injuring me.\"\n\nAfter facing defiance by Fateh Khan to hand over Herat, Kamran had returned to Kabul, giving a detailed account of what occurred in Herat, with Fateh Khan's \"rebellion\", pillaging of Herat, and the rape of Shah Mahmud's daughter. Shah Mahmud, now furious of these accounted claims had ordered Kamran to set out for Herat to take the city by any means possible and to punish Fateh Khan. Kamran had mobilized a substantial army and marched to Herat, he also sent diplomatic envoys to Fateh Khan, pretending to be as a form of congratulation from Shah Mahmud on the conquest of the city and victory over Persia. Kamran Shah had arrived at Herat and invited Fateh Khan to a meal. Despite his advisors telling him not to attend, Fateh Khan had ignored this, knowing it would be disrespectful. Fateh Khan went to breakfast, and saw all his enemies there. Despite this, he did not leave and sat to eat. As the meal continued to progress, many of his enemies and the guests took turns insulting and hurling abuse at him. Fateh Khan had then stood and presented himself out as he did not want to stay among all this disrespect toward him, he was pinned toward a tablecloth, and 'Ata Mohammad Khan thrusted his dagger into the Wazir's eyes, blinding him. He was then thrown into prison a few days later, where his eyes were plucked out and his eye-sockets were cauterized with a red-hot iron. After months of prison, Fateh Khan was sent to Ghazni to be judged by Shah Mahmud himself. He appeared on trial before Shah Mahmud and many of his enemies from different chiefdoms. Shah Mahmud had ordered Fateh Khan to bring his brothers before him to swear fealty, promising he would spare his life on this condition. Fateh Khan, believing that his brothers would face the same fate as him refused and claimed that he never wanted to usurp the throne from Shah Mahmud. The King retaliated by striking Fateh Khan with his sword, whereupon many other members of the trial had taken turns cutting off Fateh Khan's limbs. Fateh Khan was said to not have uttered a single cry during this. Shah Mahmud had then cut off his head, putting Fateh Khan out of his misery, and his body was disposed of by being placed in a carpet and buried.\n\nWith the execution of Fateh Khan, Shah Mahmud's power, already fragile, had crumbled. Fateh Khan's brothers, who were prominently dispersed in governorship throughout the empire, rebelled when they heard of what happened.  Now determined to finally end the Sadozai Dynasty in Afghanistan. The headship of the Barakzai dynasty, better known as the Mohammadzai, had passed  down to Fateh Khan's brother, Mohammad Azim Khan. In further attempts to try to gain support or possibly to replace Shah Mahmud, he tried to enlist the help of Shah Shuja Durrani. But the ex-king had pressed heavy demands, so Azim Khan searched elsewhere, finding another of Timur Shah's sons, Ayub Shah Durrani. Ayub was reported to have said; \"Make me king, and permit money to be coined in my name and the whole power and resources of the kingdom may rest with yourself; my ambition will be satisfied with bread, and the title of King\". Azim Khan restarted war with the Sikhs in Kashmir as well. Dost Mohammad Khan, believing that deposing Shah Mahmud was more important, had marched on Kabul with a small force of Qizilbash While Azim Khan kept most of his army at Peshawar to continue war with the Sikhs. Shah Mahmud, having heard that Dost Mohammad was marching to Kabul, left Kandahar to defend his capital from the Barakzais. However, when he had reached Ghazni, news came that Kandahar fell to Sher Dil Khan. Seeing himself being slowly surrounded, Mahmud remained in Ghazni. Shah Mahmud sent Kamran's son, Jahangir Mirza, alongside 'Ata Mohammad Khan to Kabul. Unbeknownst to him was that 'Ata Khan was in contact with Dost Mohammad Khan, who offered to change sides on the condition that all of Payendah Khan's sons swear an oath on the Quran to not put him the death for putting out Fateh Khan's eyes. Dost Mohammad Khan sent him the oaths. 'Ata Khan had then left the Bala Hissar on the context of attacking the enemy lines, he then defected. However when he arrived to where Dost Mohammad Khan was alongside his camp, his eyes were gouged out with a dagger by Pir Mohammad Khan, the youngest of the Peshawar Sardars who did not sign the Oath. Dost Mohammad Khan then occupied the lower Bala Hissar, Jahangir had then escaped to Ghazni. Realizing the situation was not to his favour, Shah Mahmud had fled with his royal retainers and his family through fled to Herat through the Hazarajat. Ending Shah Mahmud's second reign.\n\n\n\nAfter the Barakzais expelled him from Qandahar in 1818, Mahmud Shah fled to Farah and then to Herat. Reportedly, he reached Herat with only 11 men under his command. Mahmud Shah, when reaching Herat, turned over its administration to his son Kamran, who also consulted him on political matters. Ata Mohammad Khan Alakozai also became the vazir of Herat.\nIn 1819, Saleh Khan, a noble who gained favour with Kamran, tried to convince him to reconquer Qandahar. However, Kamran said he didn't have enough money and blamed Saleh Khan for his past troubles. Mahmud and Kamran Shah both united to extort Saleh Khan, and in response Saleh Khan secretly sent a letter to Firuz al-Din Mirza (the previous ruler of Herat who was in exile in Mashhad), and invited him to claim the throne. Together they both marched on Farah, a city in the south controlled by a supporter of Kamran, and captured it. Saleh Khan was able to make a compromise where he would control Farah and Firuz al-Din Mirza would return into exile in Mashhad.\nEver since 1816, Herat had refused to pay tribute to Persia. Kamran Shah made excuse after excuse on why he wasn't able to pay. In addition to that, Herat had actively supported the revolt of Banyad Khan Hazara (the Hazara chieftain of Jam and Bakharz). On June 25, 1821, Qajar force of 3,000 shattered Banyad Khan's Jamshidi, Hazara, and Firozkohi troops at the battle of Kariz. He was pursued into the lands of the Chahar Aimaq. In 1822, Iranian forces invaded Herat and besieged the city, aiming to restore Firuz al-Din to the throne. In the process, Qilich Khan Timuri (one of the leaders on the Iranian side and the autonomous governor of Khvaf) was killed during a battle on May 22. (Ahmad Ali Kohzad reports the same thing except he falsely identifies Qilich Khan Timuri as Khalil Khan Taymani, while Karimi makes it clear it was Qilich Khan Timuri.) In the end, Herat withstood the siege by Iranian forces. However, although the Qajar troops had ravaged the province dearly it doesn't seem to have much of an effect on Kamran, as within a year or two he was to attack Qandahar.\n\nIn 1824, Kamran Shah attempted to conquer Qandahar, leaving the administration of Herat in the hands of Husain Khan and Mustafa Khan Zori. However, while Kamran was on route to Qandahar, allies of Firuz al-Din placed him back on the throne. However, Mahmud was soon able to convince them to desert Firuz and install him instead, thus ending Firuz al-Din's 18 day rule. When Kamran Shah returned from Qandahar, Mahmud refused to let him back in. As a result, Kamran, with the support of the Qandahar Sardars, besieged Herat. Mahmud then recruited the help of Saleh Khan, who sent Mustafa Khan Zori to break the siege of the city. They were successful, but Mustafa Khan then turned against his allies, imprisoned Saleh Khan, and forced Mahmud Shah out the city. However, Kamran and Mahmud Shah then united against Mustafa Khan and within a month deposed him. In the winter of 1824 Mustafa Khan was executed. After Mustafa Khan's death, Mahmud Shah and Kamran Shah immediately started fighting each other for control. Mahmud fled to Khwaja Ansari's tomb at Gazurgah, and then 6 months later fled across the Murghab to seek the aid of the Jamshidi tribes.\nKamran Shah needed help, so he requested the aid of Iran. In July 1826 Hasan Ali Mirza Qajar sent 6,000 or 10,000 men with 4 guns to the aid of Kamran Shah. When they reached Herat, they combined with 2,000 of Kamran's troops and marched towards the Murghab. However, spies leaked Kamran's plans to Mahmud, who set up an ambush. The Aimaqs and Uzbeks completely routed the Iranians, and Mahmud marched onward to Herat. However, Mahmud refused to storm the citadel, instead camping outside the citadel, meaning that \"all the benefit of the Badghis victory quickly dissipated\" and his siege of Herat failed. Mahmud fled to the Hazaras of Qala-e Naw but Kamran sent an army after him. The Herati army starved the Hazaras of supplied and forced into handing over Mahmud. However Mahmud fled to Lash rather than being taken by Kamran. In 1827 Kamran took pity on Mahmud and invited him back to Herat. In 1828-29 Ata Mohammad Khan Alakozai died. His son Sardar Din Mohammad Khan Alakozai then succeeded him as vazir. However, due to the courtiers being against this appointment, he was forced to give up the viziership to his cousin, Yar Mohammad Khan Alakozai. The first act Yar Mohammad Khan did in 1829 was to depose Mahmud Shah, who died shortly after. Kamran then became the ruler."
+      }
+    ],
+    "instance_type": "mm_wiki_pages"
+  },
+  {
+    "id": "00000000",
+    "images": [
+      "laion/conceptual-captions-12m-webdataset/images/00000000.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Please observe the image and generate a caption relevant to it."
+      },
+      {
+        "role": "assistant",
+        "content": "A letter S for squirrel stock illustration"
+      }
+    ],
+    "instance_type": "image_caption"
+  },
+  {
+    "id": "42d25485-0e48-50bf-8d16-948833b2a55d",
+    "images": [
+      "N24News/images/42d25485-0e48-50bf-8d16-948833b2a55d.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the news."
+      },
+      {
+        "role": "assistant",
+        "content": "The Trump administration is expected to announce this week that it will ban mint-, fruit- and dessert-flavored e-cigarette cartridges popular with teenagers, but allow menthol and tobacco flavors to remain on the market. Flavored liquid nicotine used in open tank systems can continue to be sold, according to two administration officials who have been briefed on the plan. It is an important concession to vape shops that have thrived alongside the booming e-cigarette business in recent years. President Trump acknowledged late Tuesday that the ban would be announced \"very shortly.\" But he indicated that it might be short-lived and he didn't say which flavors were involved.\n\nThe administration's decision is a partial retreat from a commitment it made in September to quickly devise a ban of all flavors except those that tasted like tobacco. Its plan to exempt menthol appeared to be an effort to dodge a bruising legal battle with the tobacco industry, and also reflected intense lobbying by the vaping industry. Administration officials also pointed to data that showed that teenagers aren't choosing menthol-flavored pods or cartridges. Public health experts said the government would be making a good start in banning flavors most alluring to youths. But they said they feared teenagers would switch to menthol rather than quit vaping. \"Flavors attract kids, and menthol is a flavor,\" said Erika Sward, a spokeswoman for the American Lung Association. \"It really helps to numb the senses and makes the poison go down easier.\"\n\nPresident Trump's hesitation to put in place a full ban has become increasingly clear in recent months. In a televised White House meeting in November, he said he was concerned that a full ban would drive people seeking flavors to unsafe, illicit products. And his advisers, including Brad Parscale, his re-election campaign manager, have warned him that a flavor ban would hurt him with his base and could depress turnout in battleground states. Tobacco and vaping companies have lobbied lawmakers and the White House against banning flavors, including menthol. They have argued that adult smokers need e-cigarette options to help them switch from cigarettes -- and that because 35 percent of cigarettes sold are menthol brands, taking menthol flavors off the market would pose a hardship for those smokers trying to quit. The companies also say that a full flavor ban would put thousands of vape shops out of business. Industry lobbyists seeking to protect flavors were joined by conservative organizations like Americans for Tax Reform, which opposed regulatory limits that they said would harm the small businesses that manufacture vaping flavors, retailers that sell them and adult consumers of e-cigarettes. Juul, which dominates the e-cigarette business, has largely stayed out of the fray amid public backlash over its role in the soaring rise of teenage vaping. Facing vociferous and legal opposition from parents, schools and public health experts, the company voluntarily took its fruit- and dessert-flavored products off the market, and has lost business to competitors selling flavors popular with teenagers, like mixed berry, watermelon and mango. Competitors have also been selling \"Juul-alikes,\" nicotine pods that fit Juul's devices in flavors like Strawberry Milk and Peach Madness. Earlier efforts to restrict sales of flavored e-cigarettes stalled even as the popularity of vaping nicotine grew among millions of young people. The Food and Drug Administration first sought to ban sales of flavors during the Obama administration, but was rebuffed by the White House after fierce lobbying by tobacco companies and retail shops.\n\nThe current debate over a flavor ban was set off by twin public health crises: soaring rates of youth vaping that experts feared was getting a new generation addicted to nicotine and the recent spate of severe lung injuries largely related to vaping THC, the high-inducing ingredient in marijuana. More than 2,500 people have been hospitalized since mid-August, and more than 54 people have died. The new restrictions on flavors will not extend to THC-vaping products, which are mainly regulated by states that have legalized marijuana. Alex M. Azar II, the secretary of health and human services, had announced in September after meeting Mr. Trump and his wife, Melania, that the F.D.A. would draft a ban on almost all e-cigarette flavors, including mint and menthol. At the time, Mr. Azar said those two flavors appeared to be popular with teenagers, especially since Juul had pulled its fruit and dessert flavors from shelves. A more recent survey found mint was far more popular than menthol with teenagers, but public health experts say that teenagers will switch to menthol -- which creates a cooling sensation -- if all other flavors, including mint and mango, are taken off the market. Juul, the nation's largest seller of e-cigarettes, has been the target of public and regulatory scrutiny over whether it marketed its products to lure teenagers and young adults to use them. Several investigations are underway into its sales and promotion practices. Some states have already imposed flavor bans, though some of those efforts have been forestalled because of legal challenges waged by the vaping industry and its tobacco company partners. In anticipation of a national ban, Juul had taken most of its flavors off the market. Until recently, mint-flavored products made up about 70 percent of its sales; menthol was 10 percent; and tobacco flavors accounted for 20 percent. Juul and Altria, the tobacco giant that bought a 35 percent stake in Juul last year, said they did not oppose the federal regulation of flavors."
+      }
+    ],
+    "instance_type": "mm_news"
+  },
+  {
+    "id": "000000334872",
+    "images": [
+      "lmms-lab/LLaVA-NeXT-Data/images/000000334872.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "<image>\nAre the people in the image skiing downhill or cross-country skiing?\nAnswer the question with GPT-T-COCO format."
+      },
+      {
+        "role": "assistant",
+        "content": "The people in the image are cross-country skiing in the woods, as they are skiing on a trail rather than a steep slope."
+      },
+      {
+        "role": "user",
+        "content": "How many people are in the image?"
+      },
+      {
+        "role": "assistant",
+        "content": "There are two people in the image, both on skis in the snow."
+      },
+      {
+        "role": "user",
+        "content": "What kind of environment are they skiing in?"
+      },
+      {
+        "role": "assistant",
+        "content": "They are skiing in a wooded environment, following a trail through the trees while surrounded by snow."
+      },
+      {
+        "role": "user",
+        "content": "Do the skiers have any additional gear with them besides their skis and poles?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the two male skiers are carrying backpacks while they ski through the woods. The backpacks might contain essentials for their skiing adventure, such as food, water, extra clothing, or safety equipment."
+      }
+    ],
+    "instance_type": "mm_conversation"
+  },
+  {
+    "id": "00000004",
+    "images": [
+      "laion/conceptual-captions-12m-webdataset/images/00000004.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Please observe the image and generate a caption relevant to it."
+      },
+      {
+        "role": "assistant",
+        "content": "As a commitment to community supported agriculture (CSA), Flow Kana created a company benefit to offer employees of a monthly box of fruits and vegetables grown locally in Mendocino, Humboldt and Lake Counties, as continued support of small food farmers, decentralized food systems and the local communities. Additionally, to encourage farmers to adopt more regenerative practices, Flow Kana also funds the newly created Local Food Systems Development Program in partnership with the local food hub. The program is designed, in phase 1, to offer support to cannabis farmers who want to diversify their crop portfolios by providing a guaranteed purchaser."
+      }
+    ],
+    "instance_type": "image_caption"
+  },
+  {
+    "id": "000000319154",
+    "images": [
+      "lmms-lab/LLaVA-NeXT-Data/images/000000319154.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "<image>\nWhat color is the dog in the image?\nAnswer the question with GPT-T-COCO format."
+      },
+      {
+        "role": "assistant",
+        "content": "The dog in the image is brown."
+      },
+      {
+        "role": "user",
+        "content": "What type of collar does the dog have?"
+      },
+      {
+        "role": "assistant",
+        "content": "The dog has a red collar."
+      },
+      {
+        "role": "user",
+        "content": "What is the dog's position behind the window?"
+      },
+      {
+        "role": "assistant",
+        "content": "The dog is sitting behind the window."
+      },
+      {
+        "role": "user",
+        "content": "How does the dog appear to feel as it looks out the window?"
+      },
+      {
+        "role": "assistant",
+        "content": "As the dog stares out the window, it appears to feel longingly, perhaps suggesting a desire to be outside or interacting with someone or something that has caught its attention."
+      },
+      {
+        "role": "user",
+        "content": "Can you describe the dog's fur?"
+      },
+      {
+        "role": "assistant",
+        "content": "The dog has shaggy, fuzzy, and furry brown fur, which makes it look cute and cuddly."
+      }
+    ],
+    "instance_type": "mm_conversation"
+  },
+  {
+    "id": "000000087286",
+    "images": [
+      "lmms-lab/LLaVA-NeXT-Data/images/000000087286.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "<image>\nWhat is hanging from the traffic light pole?\nAnswer the question with GPT-T-COCO format."
+      },
+      {
+        "role": "assistant",
+        "content": "A green street sign is hanging from the traffic light pole."
+      },
+      {
+        "role": "user",
+        "content": "How many stoplights are on the light post?"
+      },
+      {
+        "role": "assistant",
+        "content": "There are two stoplights on the light post."
+      },
+      {
+        "role": "user",
+        "content": "What is the background of the image where the street sign is situated?"
+      },
+      {
+        "role": "assistant",
+        "content": "The street sign on the pole is set against a backdrop of a daytime sky."
+      },
+      {
+        "role": "user",
+        "content": "What can you infer about the location of the street sign?"
+      },
+      {
+        "role": "assistant",
+        "content": "The location of the street sign in the picture is an urban or suburban setting, likely at an intersection. The presence of the traffic light pole and stoplights suggests that the street sign is meant to guide motorists and pedestrians in navigating the area. The daytime sky in the background indicates that the photo was captured during daylight hours, which can provide better visibility for those trying to read the street sign."
+      }
+    ],
+    "instance_type": "mm_conversation"
+  },
+  {
+    "id": "http://en.wikipedia.org/wiki/Rochebaudin",
+    "images": [
+      "aburns4/WikiWeb2M/images-86k/https_----upload.wikimedia.org--wikipedia--commons--9--97--Rochebaudin.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the wiki pages."
+      },
+      {
+        "role": "assistant",
+        "content": "Rochebaudin ([\u0281\u0254\u0283bod\u025b\u0303]) is a commune in the Dr\u00f4me department in southeastern France.\n\n"
+      }
+    ],
+    "instance_type": "mm_wiki_pages"
+  },
+  {
+    "id": "http://en.wikipedia.org/wiki/University_of_Cebu",
+    "images": [
+      "aburns4/WikiWeb2M/images-86k/http_----upload.wikimedia.org--wikipedia--commons--a--a6--University-of-Cebu-Logo.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the wiki pages."
+      },
+      {
+        "role": "assistant",
+        "content": "The University of Cebu (UC) (Cebuano: Unibersidad sa Sugbo; Filipino: Pamantasan ng Cebu) is a private, non-sectarian, coeducational basic and higher education institution in Cebu City, Philippines. It was founded in 1964 offering preschool, grade school, junior & senior high school, undergraduate degrees, and post-graduate degrees. It currently has five campuses.\n\nA group of young men headed by lawyer Augusto W. Go, formed an alliance and set up an educational institution of what was then called the Cebu College of Commerce, then later renamed Cebu Central Colleges (CCC). Starting with a handful of enrollees, the college was established in 1964. It grew over time and became the University of Cebu.\nThe University of Cebu has been recognized by the Philippine Association of Colleges and Universities Commission on Accreditation (PACU-COA).\n\nThe university currently has five campuses spread across Metro Cebu:\nMain Campus along Sanciangko St. and J. Alcantara St., Cebu City\nBanilad Campus along Gov. M. Cuenco Ave., Banilad, Cebu City\nLM Campus (stands for the cities of Lapu-Lapu and Mandaue) situated near the foot of the Mactan\u2013Mandaue Bridge, along A.C. Cortes Ave., Looc, Mandaue\nMETC Campus (stands for Maritime Education and Training Center), also known as Mambaling Campus, along Alumnos St., Mambaling, Cebu City\nPardo\u2013Talisay Campus (formerly the St. Paul College Foundation, Inc.) along N. Bacalso Ave., Bulacao Pardo, Cebu City\nAnother campus, the former UC South Campus also along Sanciangko St., was demolished and replaced by an expansion of UC's sister company Elizabeth Mall (E-Mall)."
+      }
+    ],
+    "instance_type": "mm_wiki_pages"
+  },
+  {
+    "id": "http://en.wikipedia.org/wiki/Benedek_Ol%C3%A1h",
+    "images": [
+      "aburns4/WikiWeb2M/images-86k/https_----upload.wikimedia.org--wikipedia--commons--2--2c--Benedek_olah-1596289943.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the wiki pages."
+      },
+      {
+        "role": "assistant",
+        "content": "Benedek Ol\u00e1h (born 29 March 1991) is a Finnish table tennis player. He competed at the 2016 Summer Olympics in the men's singles event, in which he was eliminated in the second round by Jonathan Groth. Ol\u00e1h was born to Hungarian parents in Kalajoki, Finland, but grew up in Sein\u00e4joki.\n\n\n\nOl\u00e1h entered WTT Doha 2021 with a world rank of 85. He upset world ranked 69 Chen Chien-An in the second round of the qualifying draw in the WTT Contender event. Ol\u00e1h would lose to World Ranked 144 Andreas Levenko in the next round; however, Levenko would go on to have a highly successful tournament, including an upset of world ranked number 15 Liam Pitchford."
+      }
+    ],
+    "instance_type": "mm_wiki_pages"
+  },
+  {
+    "id": "00000009",
+    "images": [
+      "laion/conceptual-captions-12m-webdataset/images/00000009.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Please observe the image and generate a caption relevant to it."
+      },
+      {
+        "role": "assistant",
+        "content": "Ocean Energy The ocean can produce two types of energy: thermal energy from the sun's heat, and mechanical energy from the tides and waves."
+      }
+    ],
+    "instance_type": "image_caption"
+  },
+  {
+    "id": "98c3d182-95ce-5244-9b9e-008a3dee7354",
+    "images": [
+      "N24News/images/98c3d182-95ce-5244-9b9e-008a3dee7354.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the news."
+      },
+      {
+        "role": "assistant",
+        "content": "As the number of travelers cruising Antarctica swells, polar expedition companies are launching sustainable vessels designed for these bucket-list trips. According to the International Association of Antarctica Tour Operators, approximately 56,000 tourists visited Antarctica in the 2018-2019 season, a 53 percent increase from the 2014-2015 season. \"Climate change is a chief reason for the increased interest in visiting Antarctica,\" said Mary Curry, a small ship cruise specialist and travel planner at Adventure Life. \"We truly don't know if the region will ever be as magnificent as it is now.\" \"Antarctica itineraries often sell out one or two years in advance, so travelers should be prepared to book early,\" she advised.\n\nInterested in seeing the southernmost continent? Here's a roundup of some of the tour operators planning itineraries for this year and next. In November, Antarctica21 debuted the world's first vessel purpose-built for Antarctic tourism: the 73-passenger Magellan Explorer, equipped with ice-detecting radar technology, a heat recycling system and a fleet of 10 Zodiac boats. A forward-facing observation deck and glass-enclosed lounge offer prime wildlife viewing, while designer guest rooms feature balconies and single cabins. Most itineraries, including the 8-day Classic Antarctica Air-Cruise, bypass the turbulent waters of the Drake Passage by flying from Punta Arenas to King George Island. From there, travelers cruise the South Shetland Islands and west coast of Antarctica to spot penguins, whales and other marine wildlife. Full board rates begin at $13,995 per person and include Antarctic flights and activities.\n\n\"We want to take conscious travelers closer to nature with a footprint we're proud of,\" said Daniel Skjeldam, the company's chief executive. The MS Fridtjof Nansen's Highlights of the Frozen Continent, a 12-day journey, explores some 20 sites across the Antarctic Peninsula, where guests can take a polar plunge and enter a lottery to camp overnight on the ice. Prices start at $7,875 per person with eight sailings from November 2020 to January 2021. In April, Lindblad Expeditions' new National Geographic Endurance vessel will hit the seas featuring 69 cabins, a science command center and a PC5 ice class -- it's the strongest ice-breaking expedition ship of its kind based on an international rating system for polar vessels. Additional amenities include two observation \"igloos,\" a spa with infinity Jacuzzis and a permanent polar art installation. The new 35-day Epic Antarctica voyage traverses the Antarctic Peninsula, the 200-foot Ross Ice Shelf and UNESCO sites on Australia and New Zealand's sub-Antarctic islands. Guests travel with a crew of veteran naturalists, a certified photo instructor, and an undersea specialist equipped with a hydrophone and underwater video camera. \"Travelers will encounter almost every imaginable form of ice and observe endemic species found nowhere else on earth,\" said Trey Byus, the company's chief expedition officer. All-inclusive rates from $48,800 with departures on December 27, 2021 and January 26, 2022. Astronomy buffs should keep their eyes on the 93-cabin Ocean Victory, launching this December. The travel outfitter Adventure Life is taking guests to witness next year's total solar eclipse on Dec. 4 at a prime position just east of South Orkney Island. (The rare celestial show won't happen again in this part of the world until 2061.) Other trip highlights include viewing breeding penguins on South Georgia Island, Weddell seals on Cuverville Island and Lemaire Channel's orca whales. \"There will always be a team of experts on board from historians to biologists to glaciologists to help educate guests on their surroundings,\" said Ms. Curry, Adventure Life's travel planner. The 15-day voyage starts at $13,000 per person on a full-board basis. Next year, Quark Expeditions will christen the 102-suite Ultramarine, and its two twin-engine helicopters and 20 easy-access Zodiac boats. Guests will be able to test their mettle on a variety of heli-adventures from hiking to flightseeing, all of which explore areas only accessible by air.\n\nOutdoor enthusiasts can also cross-country ski, paddle polar waters with stand-up boards and camp out in the icy wilderness. The tour operator Scott Dunn will be offering 11- to 23-night full-board trips to Antarctica on Ultramarine in 2021, starting at approximately $15,000 per person. The expedition cruise company Ponant plans to bring together travelers and scientists on a new electric hybrid vessel, the 135-stateroom Le Commandant Charcot, launching in May 2021. Fitted with modern oceanographic equipment and a research laboratory, guests will be able to assist scientists in research activities. \"A team of scientists can do a survey on the sea ice in an hour, but 200 passengers can do it 10 times more quickly,\" said Nicolas Dubreuil, director of expeditions and sustainability. The ship's bevy of polar toys, including hovercrafts, electric snowmobiles and a tethered hot air balloon, give guests a privileged vantage point of Antarctica's indelible and fragile beauty. All-inclusive prices for the 15-day Expedition to Charcot & Peter I Islands start at $16,480 per person for trips departing next fall and winter."
+      }
+    ],
+    "instance_type": "mm_news"
+  },
+  {
+    "id": "00000007",
+    "images": [
+      "laion/conceptual-captions-12m-webdataset/images/00000007.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Please observe the image and generate a caption relevant to it."
+      },
+      {
+        "role": "assistant",
+        "content": "Victorian dining room showcases hardwood flooring and glass paneled windows dressed in yellow valances. It has a warm chandelier and black dining set situated in between display cabinets."
+      }
+    ],
+    "instance_type": "image_caption"
+  },
+  {
+    "id": "04bc90f0-b20b-511c-b5bb-3ce13194163f",
+    "images": [
+      "N24News/images/04bc90f0-b20b-511c-b5bb-3ce13194163f.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the news."
+      },
+      {
+        "role": "assistant",
+        "content": "All year long as Earth revolves around the sun, it passes through streams of cosmic debris. The resulting meteor showers can light up night skies from dusk to dawn, and if you're lucky you might be able to catch one. If you spot a meteor shower, what you're really seeing is the leftovers of icy comets crashing into Earth's atmosphere. Comets are sort of like dirty snowballs: As they travel through the solar system, they leave behind a dusty trail of rocks and ice that lingers in space long after they leave. When Earth passes through these cascades of comet waste, the bits of debris -- which can be as small as grains of sand -- pierce the sky at such speeds that they burst, creating a celestial fireworks display. [Sign up to get reminders for space and astronomy events on your calendar.] A general rule of thumb with meteor showers: You are never watching the Earth cross into remnants from a comet's most recent orbit. Instead, the burning bits come from the previous passes. For example, during the Perseid meteor shower you are seeing meteors ejected from when its parent comet, Comet Swift-Tuttle, visited in 1862 or earlier, not from its most recent pass in 1992. That's because it takes time for debris from a comet's orbit to drift into a position where it intersects with Earth's orbit, according to Bill Cooke, an astronomer with NASA's Meteoroid Environment Office.\n\nThe name attached to a meteor shower is usually tied to the constellation in the sky from which they seem to originate, known as their radiant. For instance, the Orionid meteor shower can be found in the sky when stargazers have a good view of the Orion constellation. The best way to see a meteor shower is to get to a location that has a clear view of the entire night sky. Ideally, that would be somewhere with dark skies, away from city lights and traffic. To maximize your chances of catching the show, look for a spot that offers a wide, unobstructed view. Bits and pieces of meteor showers are visible for a certain period of time, but they really peak visibly from dusk to dawn on a given few days. Those days are when Earth's orbit crosses through the thickest part of the cosmic stream. Meteor showers can vary in their peak times, with some reaching their maximums for only a few hours and others for several nights. The showers tend to be most visible after midnight and before dawn. It is best to use your naked eye to spot a meteor shower. Binoculars or telescopes tend to limit your field of view. You might need to spend about half an hour in the dark to let your eyes get used to the reduced light. Stargazers should be warned that moonlight and the weather can obscure the shows. But if that happens, there are usually meteor livestreams like the ones hosted by NASA and by Slooh. While the International Meteor Organization lists a variety of meteor showers that could be seen, below you'll find the showers that are most likely to be visible in the sky this year.\n\nThe Eta Aquariids, also sometimes known as the Eta Aquarids, are one of two meteor showers from Halley's comet. Its sister shower, the Orionids, will peak in October. Specks from the Eta Aquariids streak through the sky at about 148,000 miles per hour, making it one of the fastest meteor showers. Its display is better seen from the Southern Hemisphere where people normally enjoy between 20 and 30 meteors per hour during its peak. The Northern Hemisphere tends to see about half as many. Active from July 12 to Aug. 23. Peaks around July 28-29.\n\nThe Perseids light up the night sky when Earth runs into pieces of cosmic debris left behind by Comet Swift-Tuttle. The dirty snowball is 17 miles wide and takes about 133 years to orbit the sun. Its last go-round was in 1992. Usually between 160 and 200 meteors dazzle in Earth's atmosphere every hour during the display's peak. They zoom through the atmosphere at around 133,000 miles per hour and burst about 60 miles overhead. Active from Oct. 2 to Nov. 7. Peaks around Oct. 19-20."
+      }
+    ],
+    "instance_type": "mm_news"
+  },
+  {
+    "id": "3102ac55-dd79-5ad6-b1f5-c2e4bd261e9b",
+    "images": [
+      "N24News/images/3102ac55-dd79-5ad6-b1f5-c2e4bd261e9b.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the news."
+      },
+      {
+        "role": "assistant",
+        "content": "This 19th-century home on three acres is in A Caniza, a municipality in the Galicia region of northwest Spain, about 10 miles north of the Portuguese border. The house was rebuilt in 2006 as an eight-bedroom, 10-bathroom villa with two one-bedroom cottages -- a total of 10,226 square feet of living space. The property, which has a saltwater swimming pool, gardens and balcony views of the Galician mountains and northern Portugal, has been used as an inn. \"The seller rebuilt the home, which dates to 1880, respecting its uniqueness,\" said Rafael R. Rosendo, director of the Galicia office of Lucas Fox International Properties, which has the listing. \"It belongs to the list of historical heritage properties of Galicia.\" The three-story villa was constructed of stone, granite, slate, wood and iron. The walls are mostly exposed stone, and the floors are oak, cedar and cherry wood. The frames on the double-glazed windows, the doors and the shutters are painted \"carriage red,\" Mr. Rosendo said.\n\n\"The lareira is a very large fireplace, historically used to cook, warm the house and gather together to enjoy lunches and dinners,\" Mr. Rosendo said. \"Some lareiras have a small oven, like this one.\" The living area connects to a dining room with beamed ceilings and a glass-encased balcony overlooking the Rio Minho valley to the south. This level also has four en suite bedrooms. (All of the furniture, a combination of custom-made pieces and 19th-century antiques, is included in the asking price.) On the third level is a living room with a vaulted ceiling and doors to a balcony, as well as an en suite bedroom and a self-contained two-bedroom apartment with a separate entrance, Mr. Rosendo said. On the ground floor is a commercial-grade kitchen with a center island, wood cabinets, Galician granite counters and German stainless-steel appliances. There is also a bedroom on this level.\n\nThe villa has a two-car garage, and there is parking for up to 12 vehicles on the property, Mr. Rosendo said. One of the cottages contains a wine bar and cellar. The small town of A Caniza, with about 5,200 residents, is in the Pontevedra province in southeastern Galicia. Vigo, the largest municipality in Galicia, with almost 300,000 residents, is about 35 miles west, on the Atlantic coast. Madrid is more than 300 miles southeast. Recreational activities in the area include hiking, horseback riding, rafting, canoeing, cycling and hunting, Mr. Rosendo said. The nearest airport is in Vigo, but international flights are more numerous at the airport in Santiago de Compostela, the Galician capital, about 85 miles north. Galicia, a remote, autonomous community with four provinces and about 2.7 million residents, has struggled since the global financial crisis of 2008, when home sales faltered and prices fell 50 to 80 percent in some areas, brokers said. \"The housing market in Galicia has been, and still is, slow,\" said John van der Weide, an agent with Galiciavista Inmo, noting that the rainy climate is a deterrent for foreign buyers. \"Few clients are buying vacation homes. Most people that buy want to live here permanently.\"\n\nVigo is seeing home prices approach the peaks of 2004-05, in large part because of the ongoing redevelopment of the city center and upgraded public transportation, including a high-speed train that promises to deliver passengers to Madrid in two and a half hours, Mr. Rosendo said. But in the suburbs, buyers are still offering and sellers are still accepting about 20 to 25 percent below list prices, he said. Some foreign buyers consider the prices in Galicia's coastal areas too high, said Mark Adkinson, the owner of Galician Country Homes. \"A lot of people are thinking about the coast, but it can be a lot more expensive. If you go down toward Pontevedra and Vigo, it's well over two or three times as much as it is in the countryside.\" Mr. Adkinson said he has seen foreign buyers gravitating toward the inland city of Lugo, where Galician Country Homes is based. The area \"is very natural, it's bigger houses, it's very good, solid houses,\" he said. \"They've got bigger plots of land, and a lot of people are thinking of living off the land, to some extent.\" Large villas, manors and monasteries tend to appeal to buyers less for their location, Mr. Rosendo said, than for their history, condition and land -- although location is still important. \"Close to the sea, or proximity to a city and airport, are a plus,\" he said. \"We're noticing many CEOs or business owners looking into these properties to hold events and invite client guests to stay. This is becoming a new trend.\" Also attractive to buyers are the many pilgrimage routes in Galicia, including the Camino de Santiago, popularized in the 2010 film \"The Way,\" brokers said. \"The coastal regions are the most in demand, but also properties on the Camino de Santiago, where clients like to start guesthouses,\" Mr. Van der Weide said.\n\nMost buyers are seeking apartments or houses for 300,000 to 600,000 euros ($336,000 to $672,000), Mr. Rosendo said. But depending on the location, there are much more affordable properties available, Mr. Adkinson noted, including homes in decent condition for as little as 80,000 euros ($90,000). There are also clients \"who buy properties to restore from 12,000 euros,\" Mr. Van der Weide said, or around $13,000. \"Building plots are also popular, especially those with sea views or close to the coast.\" Many buyers have a Galician background and are returning to the area, including expatriates moving back from countries like Venezuela and Mexico, Mr. Rosendo said. Others are Spaniards from elsewhere in the country seeking vacation homes in a less touristy area with milder summers. Foreign buyers, attracted by Galicia's lush, green landscape, tend to come from France, Germany and Scotland, he said. Mr. Adkinson said the majority of his foreign clients are from England, the Netherlands, Germany and the United States, with smaller numbers from South Africa, New Zealand and Australia. There are no restrictions on foreign home buyers in Spain, although noncitizens must obtain a tax identification number. They can also take advantage of the Golden Visa program, which offers residency status to those who spend at least 500,000 euros (about $560,000) to buy property."
+      }
+    ],
+    "instance_type": "mm_news"
+  },
+  {
+    "id": "589ba8f6-a8c0-57fb-9894-2d05c4b15f3d",
+    "images": [
+      "N24News/images/589ba8f6-a8c0-57fb-9894-2d05c4b15f3d.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the news."
+      },
+      {
+        "role": "assistant",
+        "content": "Credit...Erik Tanner for The New York Times\n\n\n\n\n\nI don't say this because of his memorably unusual features, though a long nose, full lips, and paintbrush flick of moles and freckles certainly help give Driver an outsized countenance. It's more that he has a manner so resolute that when some emotion does manage to escape -- whether through a glint in his eyes or the unpredictable undulations of his voice -- that transgression can't help but take you by surprise. This remains true no matter how often you watch him, and in 2019, you may have watched him quite a bit. In the spring, Driver could be seen simultaneously in \"Burn This\" on Broadway and Jim Jarmusch's zombie film, \"The Dead Don't Die,\" and three more of his movies spilled forth in the last two months: \"The Report,\" in which he played a Senate staffer investigating the government's use of torture; \"Star Wars: The Rise of Skywalker,\" featuring his third and final appearance as the tormented Kylo Ren; and \"Marriage Story,\" which cast him as a theater director navigating a custody dispute with his soon-to-be ex-wife.\n\nIt was during a clip of the latter that I watched Driver watch himself at the Gotham Awards in New York in early December, where he was nominated for best actor. Viewing his own work is not among his favorite activities, Driver had told me earlier that day: He can't help but become consumed with what he perceives as his mistakes, even though he knows deep down that with anyone else's work, it's the imperfections he always finds most fascinating.\n\n\"If he feels that it's going to be too much, I get it,\" Noah Baumbach, the writer-director of \"Marriage Story,\" would tell me later. \"I don't watch my movies after I finish them, either.\" At the Gothams, as Jennifer Lopez presented the nominees for best actor, the show cued a clip from \"Marriage Story,\" when Driver's character finally takes seriously the possibility that he will lose custody of his son. \"He needs to know I fought for him!\" he says, growing more agitated. In front of me, sitting at a table with his colleagues from the film, the real Driver watched the clip and looked impossibly still, his expression pure sphinx. Was he happy with what he saw of himself, or did he wonder why the choices he had made were engendering so much awards-season acclaim? Well, there was no time to dwell on it: Moments later, Lopez called his name as the winner.\n\nEARLIER THAT DAY at the Greenwich Hotel, as morning snow began to fall outside, Driver poured a cup of coffee and mulled months of potential awards-show appearances for \"Marriage Story.\" (He's since been nominated for a Golden Globe and a Screen Actors Guild Award, and is expected to earn a best-actor nod when the Oscar nominations are announced Jan. 13.) \"Acting is always filled with these weird juxtapositions,\" he said. \"It's not glamorous in its making, but in the selling of it, it seems like it is.\" Last year, Driver was nominated for his first Academy Award, for Lee's \"BlacKkKlansman,\" in which he played a Jewish detective helping infiltrate the Ku Klux Klan. \"It's incredibly flattering,\" Driver said of the Oscar nod, adding, \"I have no control over that.\" The only way he's been able to metabolize this sort of recognition is to think of his nomination as part of a team effort. \"I know lots of people who work really hard and they almost never get that acknowledgment, so I don't know how you process that or attach meaning to it,\" he said.\n\nIn person, Driver has the polite but firm bearing of the Marine he was before attending Juilliard, and he can't really be drawn into saying more just for the sake of it: At one point, after completing a thought, Driver informed me, \"That's the end of the sentence.\" The only time he was given to hemming, hawing or the occasional embarrassed smile was when we discussed the awards show he'd be attending that night. \"I think everybody, in every job, wants validation,\" he ultimately said, though he wondered whether that desire could be fraught for actors to acknowledge, since they have little to hide behind. \"It's not separate from who I am,\" Driver said. \"I don't have an instrument, I don't play the cello. It's yourself, so in a way, it's more vulnerable.\" At least he will be on this journey with Baumbach, the director who has become his most frequent and trusted collaborator. They have been working together since \"Frances Ha\" in 2012, when Baumbach found himself enamored with the way Driver, cast as a hipster clad in a cardigan and porkpie hat, managed to breathe unexpected life into his lines.\n\n\"There's a great quote about poetry, that it returns your own thoughts back to you with added majesty,\" Baumbach said. \"That's what working with Adam is like: It's both surprising and familiar.\" The two men continued to collaborate, in \"While We're Young\" and \"The Meyerowitz Stories (New and Selected),\" before Driver messaged his director with a suggestion: How would he feel about mounting a big-screen version of Stephen Sondheim's 1970 musical, \"Company\"? Baumbach was intrigued, and though he and Driver could never quite crack the adaptation, many of the things that interested them would find their way into \"Marriage Story,\" including a Sondheim song that Driver performs in full.\n\nWhile Bobby, the never-married protagonist of \"Company,\" would seem at first blush to have little in common with the divorcing Charlie in \"Marriage Story,\" Driver found both men had a stubborn unwillingness to really confront themselves. When \"Marriage Story\" begins, Charlie's wife, Nicole (Scarlett Johansson), has moved on and is moving out, but it takes Charlie ages to realize that things will never go back to normal, and that he is now shouldering a significant loss. \"He can't name the thing, he can't express it,\" Driver said. \"Only through an abstract way can he process it and grieve.\" That involves the indirect path of epiphany through Sondheim, though there is also the more time-tested model of a particularly brutal screaming fight. For most of the story, we have watched Charlie and Nicole talk in a furtive, curtailed way about the things that really bothered them -- broken promises, an infidelity, a partner's blinkered selfishness -- and instead rely on their lawyers to do the real mudslinging.\n\nBut late in the film, when the two of them are alone in his apartment and resume a familiar roundelay of arguing, the fight gets nastier and nastier until the levees finally break and Charlie screams at his ex-wife such breathtakingly awful things that he falls to his knees, shaken by how vicious his feelings have become. I was startled, too: In the scene, Driver reaches a state of rage so apoplectic that it seems to push beyond the boundaries of the film. His placid face, now reddened and twisted by anger, had contorted to a point where I felt I should look away. Driver is happy to talk about how the character arrives at such a moment, but he's less eager to talk about how he pushes himself to such an intimate place as an actor. \"We said it in the thing,\" he said, meaning everything he's got is all up there on the screen. \"So what would I add that would make it better? Nothing.\" He laughed. That was the end of that sentence."
+      }
+    ],
+    "instance_type": "mm_news"
+  },
+  {
+    "id": "7788f49b-abfd-561d-9000-9c8b72728101",
+    "images": [
+      "N24News/images/7788f49b-abfd-561d-9000-9c8b72728101.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the news."
+      },
+      {
+        "role": "assistant",
+        "content": "HONG KONG -- China on Wednesday moved to pump more cash into its financial system, suggesting that Beijing remained concerned about faltering growth despite signs that the world's second-largest economy was stabilizing. China's central bank, the People's Bank of China, announced that it would inject about $115 billion into the economy by freeing up banks to lend more money. The move comes after a similar action in September. The change, announced on the New Year's Day holiday, is likely to focus renewed attention on the health of the Chinese economy, a major driver of global growth. The move is relatively modest given the vast size of the Chinese economy, but the timing suggests that the country's leaders are on high alert for new evidence of a slowdown. It follows a recent meeting of the country's top economic planners and comes just weeks before Beijing releases closely watched estimates of year-end growth. China's leaders are contending with the country's slowest pace of growth in nearly three decades. The country's slowdown has sent ripples through the global economy. Germany narrowly avoided a recession last fall, and its manufacturing sector has slumped in part because of reduced demand from China. Other European countries have also seen growth slow and their industrial sectors contract.\n\nChina's struggles have spread to much of the rest of Asia, where it is the dominant economy, and also to Africa and Latin America, which have become increasingly reliant on Chinese investment. Australia, which has experienced a prolonged boom driven by Chinese demand for its natural resources, is now seeing its growth streak threatened. American manufacturers, too, have struggled in the face of cooling global demand, which has exacerbated the falloff in trade brought on by President Trump's various trade disputes. That could have political implications: The slowdown has been particularly acute in Midwestern swing states, which depend heavily on manufacturing and agriculture. Other major central banks have also taken steps to shore up their economies. A few months ago, the European Central Bank announced its own stimulus package, totaling 20 billion euros per month, or nearly $25 billion at current exchange rates. In the United States, the Federal Reserve cut interest rates three times last year to prevent the manufacturing slowdown from spreading to the rest of the economy. Dozens of other central banks around the world have taken similar steps. Jerome Powell, the Fed chair, said in March that there had been \"a synchronized slowdown in economic activity around the globe\" that was having an effect in the United States. China's latest stimulus effort comes in the form of a cut to the so-called reserve requirement ratio, the amount of money that commercial banks are required to stash away for a rainy day. The cut, which was expected by many economists and will take effect Monday, will effectively allow banks to lend an additional 800 billion yuan, or about $115 billion."
+      }
+    ],
+    "instance_type": "mm_news"
+  },
+  {
+    "id": "000000032286",
+    "images": [
+      "lmms-lab/LLaVA-NeXT-Data/images/000000032286.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "<image>\nHow many chocolate-covered doughnuts are there in the image?\nAnswer the question with GPT-T-COCO format."
+      },
+      {
+        "role": "assistant",
+        "content": "There are seven chocolate-covered doughnuts in the image."
+      },
+      {
+        "role": "user",
+        "content": "What is the color of the frosting on the doughnuts?"
+      },
+      {
+        "role": "assistant",
+        "content": "The frosting on the doughnuts is chocolate-colored."
+      },
+      {
+        "role": "user",
+        "content": "Where are the doughnuts placed?"
+      },
+      {
+        "role": "assistant",
+        "content": "The doughnuts are placed in a white box, which is sitting on top of a counter."
+      },
+      {
+        "role": "user",
+        "content": "What is the arrangement of the doughnuts?"
+      },
+      {
+        "role": "assistant",
+        "content": "The doughnuts are sitting together on a tray inside the white box."
+      },
+      {
+        "role": "user",
+        "content": "What type of counter is the box of doughnuts placed on?"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on the image, it is not possible to definitively determine the type of counter the box of doughnuts is placed on, as the focus is on the doughnuts themselves. The counter could be in a bakery, a supermarket, a cafe, or any other location where doughnuts are being sold or displayed."
+      }
+    ],
+    "instance_type": "mm_conversation"
+  },
+  {
+    "id": "00000003",
+    "images": [
+      "laion/conceptual-captions-12m-webdataset/images/00000003.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Please observe the image and generate a caption relevant to it."
+      },
+      {
+        "role": "assistant",
+        "content": "UCSF Benioff Children's Hospital Oakland Lower Body Stretches, Lower Leg Muscles, Ankle Mobility Exercises, Pediatric Physical Therapy, Find A Doctor, Heel Pain, Tendon, Sports Medicine, Childrens Hospital"
+      }
+    ],
+    "instance_type": "image_caption"
+  },
+  {
+    "id": "00000002",
+    "images": [
+      "laion/conceptual-captions-12m-webdataset/images/00000002.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Please observe the image and generate a caption relevant to it."
+      },
+      {
+        "role": "assistant",
+        "content": "The 2012 Ford E450 Cutaway Shuttle Shuttle BUS"
+      }
+    ],
+    "instance_type": "image_caption"
+  },
+  {
+    "id": "http://en.wikipedia.org/wiki/Lawndale,_North_Carolina",
+    "images": [
+      "aburns4/WikiWeb2M/images-86k/https_----upload.wikimedia.org--wikipedia--commons--a--a6--NCMap-doton-Lawndale.PNG"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Complete the wiki pages."
+      },
+      {
+        "role": "assistant",
+        "content": "Lawndale is a town in Cleveland County, North Carolina, United States, situated along the First Broad River. The population was 606 at the 2010 census.\n\nLawndale developed in the late 19th century around the Cleveland Mills plant established by Major H.F. Schenck.  The town was named for the green lawns of the houses where many of the mill's workers lived.  Schenck's daughter and son-in-law opened the Piedmont Academy in 1897, and rail service to Shelby began two years later.  Lawndale was incorporated in 1903.\n\nLawndale is located at 35\u00b024\u203254\u2033N 81\u00b033\u203244\u2033W (35.415039, -81.562250).\nAccording to the United States Census Bureau, the town has a total area of 0.9 square miles (2.3\u00a0km\u00b2), of which 0.8 square miles (2.1\u00a0km\u00b2)  is land and 0.1 square miles (0.26\u00a0km\u00b2)  (5.81%) is water.\n\nAt the 2000 census there were 642 people, 270 households, and 180 families in the town. The population density was 791.6 people per square mile (306.0/km\u00b2). There were 300 housing units at an average density of 369.9 per square mile (143.0/km\u00b2).  The racial makeup of the town was 74.45% White, 22.27% African American, 0.62% Asian, 2.34% from other races, and 0.31% from two or more races. Hispanic or Latino of any race were 2.80%.\nOf the 270 households 24.4% had children under the age of 18 living with them, 50.4% were married couples living together, 11.5% had a female householder with no husband present, and 33.0% were non-families. 30.4% of households were one person and 18.1% were one person aged 65 or older. The average household size was 2.38 and the average family size was 2.92.\nThe age distribution was 21.8% under the age of 18, 8.1% from 18 to 24, 26.3% from 25 to 44, 18.4% from 45 to 64, and 25.4% 65 or older. The median age was 41 years. For every 100 females, there were 85.0 males. For every 100 females age 18 and over, there were 81.2 males.\nThe median household income was $30,250 and the median family income  was $36,023. Males had a median income of $26,484 versus $19,792 for females. The per capita income for the town was $13,002. About 14.5% of families and 19.6% of the population were below the poverty line, including 27.5% of those under age 18 and 21.2% of those age 65 or over.\n\nAlicia Bridges - disco singer-songwriter"
+      }
+    ],
+    "instance_type": "mm_wiki_pages"
+  },
+  {
+    "id": "00000006",
+    "images": [
+      "laion/conceptual-captions-12m-webdataset/images/00000006.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Please observe the image and generate a caption relevant to it."
+      },
+      {
+        "role": "assistant",
+        "content": "Destination Summer Beach Vacation and Deckchair. On the beach with the beach chair and umbrella to enjoy the holiday. A holiday paradise for the tourists stock illustration"
+      }
+    ],
+    "instance_type": "image_caption"
+  },
+  {
+    "id": "000000520873",
+    "images": [
+      "lmms-lab/LLaVA-NeXT-Data/images/000000520873.jpg"
+    ],
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "<image>\nWhat is the girl eating in the image?\nAnswer the question with GPT-T-COCO format."
+      },
+      {
+        "role": "assistant",
+        "content": "The girl in the image is eating a dessert, which appears to be a graham cracker treat or a cookie sandwich."
+      },
+      {
+        "role": "user",
+        "content": "Describe the girl's hair color and clothing."
+      },
+      {
+        "role": "assistant",
+        "content": "The girl has blonde hair, and she is wearing a pink shirt."
+      },
+      {
+        "role": "user",
+        "content": "What color is the plate that the dessert is on?"
+      },
+      {
+        "role": "assistant",
+        "content": "The dessert is on a green plate."
+      },
+      {
+        "role": "user",
+        "content": "Is the girl looking at the camera or focusing on her dessert?"
+      },
+      {
+        "role": "assistant",
+        "content": "The girl is looking up at the camera while taking a bite of her dessert."
+      },
+      {
+        "role": "user",
+        "content": "Where is the girl eating her dessert?"
+      },
+      {
+        "role": "assistant",
+        "content": "The girl is eating her dessert at the table."
+      }
+    ],
+    "instance_type": "mm_conversation"
+  }
+]
