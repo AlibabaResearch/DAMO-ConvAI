@@ -1,0 +1,49 @@
+ray[default,cgraph]==2.48.0 # vllm required ray[default,cgraph]>=2.48.0
+numpy<2.0a0,>=1.25
+tensordict
+sympy
+modelscope
+datasets==3.1.0
+tqdm
+peft==0.12.0
+tyro>=0.5.7
+pydantic
+pytest
+loralib
+einops
+isort
+jsonlines
+deprecated
+trl==0.9.6
+# pyext
+dacite
+codetiming
+more_itertools
+pybase64
+sglang-router
+
+wandb
+swanlab
+
+math-verify
+openai
+langdetect
+nltk>=3.8
+
+gym
+gymnasium[toy-text]
+gym_sokoban
+
+# # for torch 280
+# gem-llm==0.0.4
+mcp==1.0.0
+
+hydra-core
+omegaconf
+latex2sympy2==1.5.4
+latex2sympy2_extended==1.10.1
+antlr4-python3-runtime==4.9.3
+
+./mcore_adapter
+
+-r requirements_vision.txt

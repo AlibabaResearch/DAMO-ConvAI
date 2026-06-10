@@ -1,0 +1,17 @@
+-r requirements_common.txt
+
+torch==2.10.0.*
+torchvision==0.25.0.* 
+torchaudio==2.10.0.*
+
+transformers==5.2.0
+deepspeed==0.16.4
+accelerate==1.7.0
+
+flash-attn
+
+# for GDN , eg: Qwen3Next
+flash-linear-attention
+
+--extra-index-url https://wheels.vllm.ai/nightly/cu130
+vllm

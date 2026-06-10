@@ -1,0 +1,13 @@
+*.pyo
+*.pyc
+.env
+.venv
+cython_debug/
+error_data/
+output/scripts/.ipynb_checkpoints/
+output/logs
+ActorWorker*.log
+EnvironmentWorker*.log
+.ipynb_checkpoints/
+examples/output/
+paper.md

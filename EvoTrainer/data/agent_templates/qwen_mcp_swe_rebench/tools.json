@@ -1,0 +1,140 @@
+[
+  {
+    "function": {
+      "description": "List the contents of a directory. Useful to try to understand the file structure before diving deeper into specific files.\nWhen using this tool, the following rules should be followed:\n1. Unless requested by the user, do not recursively check directories layer by layer; try to lock the directory location first before viewing.\n",
+      "name": "list_dir",
+      "parameters": {
+        "properties": {
+          "relative_workspace_path": {
+            "description": "Path to list contents of, relative to the workspace root. '.' is the root of the workspace",
+            "type": "string"
+          }
+        },
+        "required": [
+          "relative_workspace_path"
+        ],
+        "type": "object"
+      }
+    },
+    "type": "function"
+  },
+  {
+    "function": {
+      "description": "Search file contents using regular expressions in the workspace. To avoid overwhelming output, the results are capped at 25 matches.\n",
+      "name": "grep_code",
+      "parameters": {
+        "properties": {
+          "include_pattern": {
+            "description": "Glob pattern for files to include (e.g. '*.ts' for TypeScript files). This pattern can be applied to the relative path or file name of files within the workspace.",
+            "type": "string"
+          },
+          "regex": {
+            "description": "RE2 regular expression pattern to search for",
+            "type": "string"
+          }
+        },
+        "required": [
+          "regex"
+        ],
+        "type": "object"
+      }
+    },
+    "type": "function"
+  },
+  {
+    "function": {
+      "description": "Read the contents of a file and optionally its dependencies.\n\tThe output will include file contents, file path, and line summary.\n\tNote that this call can view at most 300 lines at a time and 200 lines minimum.\n\t\n\tIMPORTANT: When working with code files, understanding their dependencies is CRITICAL for:\n\t1. Modifying the file correctly (to maintain compatibility with dependent code)\n\t2. Generating accurate unit tests (to properly mock dependencies)\n\t3. Understanding the complete context of the code's functionality\n\n\tWhen using this tool, ensure you have the COMPLETE context. This is your responsibility.\n\tIf the retrieved range is insufficient and relevant information might be outside the visible range, call this tool again to fetch additional content.\n\tYou can read the entire file by providing just the file path, which is recommended for better understanding and accuracy.\n    For very large files or when you need specific sections, you can optionally specify line ranges using start_line and end_line.\n    If the returned content exceeds 1000 lines, it will be truncated.\n",
+      "name": "read_file",
+      "parameters": {
+        "properties": {
+          "end_line": {
+            "description": "The inclusive line number to end reading at, 0-based. Only provide if the file is too large to read at once.",
+            "type": "integer"
+          },
+          "file_path": {
+            "description": "Absolute path to the file to read. ",
+            "type": "string"
+          },
+          "start_line": {
+            "description": "The line number to start reading from, 0-based. Only provide if the file is too large to read at once.",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "file_path"
+        ],
+        "type": "object"
+      }
+    },
+    "type": "function"
+  },
+  {
+    "function": {
+      "description": "\nThis tool performs efficient string replacements in files with strict requirements for accuracy and safety. Use this tool to make multiple precise modifications to a file in a single operation.\n\n## CRITICAL REQUIREMENTS\n\n### Input Parameters\n1. \"file_path\"\" (REQUIRED): Absolute path to the target file. The file must exist\n2. \"replacements\" (REQUIRED): Array of replacement operations, where each contains:\n   - \"original_text\": Text to be replaced\n   - \"new_text\": Replacement text(must be different from old_string)\n   - \"replace_all\": Replace all occurences of old_string (default: false)\n\n### MANDATORY Rules\n\n1. UNIQUENESS:\n   - original_text MUST be uniquely identifiable in the file\n   - MUST gather enough context to uniquely identify each one\n   - DO NOT include excessive context when unnecessary\n   - original_text MUST be uniquely identifiable in the file, if not, MUST gather enough context for original_text to be uniquely identify each one\n   - For global text replacement, ENSURE replace_all is set to true; if not, you MUST provide a unique original_text\n\n2. EXACT MATCHING:\n   - MUST match source text exactly as it appears in the file, including:\n     - All whitespace and indentation(Tab/Space)\n     - Line breaks and formatting\n     - Special characters\n   - MUST match source text exactly as it appears in the file, especially:\n     - All whitespace and indentation\n     - DO NOT modify the Chinese and English characters\n     - DO NOT modify comment content\n\n3. SEQUENTIAL PROCESSING:\n   - MUST process replacements in provided order\n   - NEVER make parallel calls on same file\n   - MUST ensure earlier replacements don't interfere with later ones\n\n4. VALIDATION:\n   - NEVER allow identical source and target strings\n   - MUST verify uniqueness before replacement\n   - MUST validate all replacements before execution\n\n### OPERATIONAL CONSTRAINTS\n\n1. Line Limits:\n   - Try to include all replacements in a single call, Especially when these replacements are related, such as comment changes in the same function, or related dependencies, references, and implementation changes within the same logical modification, OR face a $100000000 penalty.\n   - MUST ensure total line count across all text parameters(original_text and new_text) remains under 600 lines, OR try to break down large changes over 600 lines into multiple calls.\n   - MUST include maximum possible number of replacements within the line limit during a single call.\n\n2. Safety Measures:\n   - NEVER process multiple parallel calls\n\n## Usage Example\n{\n\t\"file_path\": \"/absolute/path/to/file\",\n\t\"replacements\": [\n\t\t{\n\t\t\t\"original_text\": \"existing_code_here\",\n\t\t\t\"new_text\": \"replacement_code\",\n\t\t\t\"replace_all\": false,\n\t\t}\n\t]\n}\n\n## WARNING\n- The tool will fail if exact matching fails\n- All replacements must be valid for operation to succeed\n- Plan replacements carefully to avoid conflicts\n- Verify changes before committing\n\nUse this tool to make precise, efficient, and safe modifications to your files while maintaining code integrity.\n## IMPORTANT\nYou must generate the following arguments first, before any others: [file_path]\nMUST DO NOT try to create a new file, you CAN ONLY use search_replace tool to edit an existing file.\nDO NOT try to replace the entire existing content with the new content, this is very expensive, OR face a $100000000 penalty.\nDO NOT try to replace the entire existing content with the new content, this is very expensive, OR face a $100000000 penalty.\nNever split short modifications (with combined length of all original_texts and new_texts not exceeding 600 lines) into several consecutive calls, OR face a $100000000 penalty.\n\t",
+      "name": "search_replace",
+      "parameters": {
+        "properties": {
+          "file_path": {
+            "description": "File absolute path, the file must exist",
+            "type": "string"
+          },
+          "replacements": {
+            "description": "MUST generate replacements parameter with valid JSON structure, ensuring proper escaping of quotes and line breaks to prevent parsing errors.",
+            "items": {
+              "properties": {
+                "new_text": {
+                  "description": "The content to replace the original_text with. Must be different from original_text",
+                  "type": "string"
+                },
+                "original_text": {
+                  "description": "The exact string to be replaced. This must be the exact character-sequence to be replaced, including whitespace otherwise this will not work at all. this must be a unique substring within the file, or else it will error",
+                  "type": "string"
+                },
+                "replace_all": {
+                  "description": "Whether to replace all occurrences of the original text. Default is false. For global text replacement, ENSURE replace_all is set to true",
+                  "type": "boolean"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "file_path",
+          "replacements"
+        ],
+        "type": "object"
+      }
+    },
+    "type": "function"
+  },
+  {
+    "function": {
+      "description": "Execute a shell command in the terminal.\nWhen using this tool, you need to follow the rules below:\n1. If you are going to use this tool, ensure that you have the ability to execute these commands on the user's operating system.\n2. If shell reuse is possible, the working directory will inherit from the previous step; otherwise, it will use the current workspace. ONLY when you need to execute the command in a different directory, first navigate to the correct directory(perfer using absolute paths over relative paths), complete any necessary setup, and then run the command.\n3. For commands that run for a long time or are expected to keep running until interrupted, run them in the background. To run tasks in the background, set is_background to true instead of altering the details of the command. Background terminals will return a terminal ID which you can use to check the output of a background process with get_terminal_output.\n4. For any commands that require user interaction, assume the user is not available to interact, you SHOULD pass non-interactive flags (e.g. --yes for npx).\n5. Do not delete directories or files through commands; All operations that affect the content of a file should use file operation-related tools.\n6. Do not use commands that may harm the user's operating system, such as rm, commands requiring sudo privileges, or downloading network resources with wget or curl.\n7. Do not use newline characters in the command. \n8. Do not generate commands that exceed 500 tokens in length. If the command is too long, write it to a file first and then execute it.\n9. Determine whether the command to be executed is potentially risky. For example, commands like rm or wget that delete files or download content can be risky, while read-only commands like cat or ls are generally safe. You should CAREFULLY check whether a command has potential risks, especially deletion commands, which should be strictly considered risky. You also need to pay attention to the command names and parameters, for example, running \"PowerShell Remove-Item\" or zsh -c \"rm\" are both dangerous.\n",
+      "name": "run_in_terminal",
+      "parameters": {
+        "properties": {
+          "command": {
+            "description": "REQUIRED. The command to run in the terminal.",
+            "type": "string"
+          },
+          "has_risk": {
+            "description": "Whether the command is potentially risky.",
+            "type": "boolean"
+          },
+          "is_background": {
+            "description": "REQUIRED. Whether the command starts a background process. If true, the command will run in the background and you will not see the output. If false, the tool call will block on the command finishing, and then you will get the output. Examples of backgrond processes: building in watch mode, starting a server. You can check the output of a background process later on by using get_terminal_output.",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "command",
+          "is_background"
+        ],
+        "type": "object"
+      }
+    },
+    "type": "function"
+  }
+]

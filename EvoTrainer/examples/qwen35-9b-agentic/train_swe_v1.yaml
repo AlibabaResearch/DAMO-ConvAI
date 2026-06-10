@@ -1,0 +1,235 @@
+defaults:
+  - ../config/deepspeed_zero@_here_
+  - ../config/deepspeed_zero2@_here_
+  - ../config/deepspeed_zero3@_here_
+  - ../config/deepspeed_zero3_cpuoffload@_here_
+
+hydra:
+  run:
+    dir: .
+  output_subdir: null
+
+exp_name: "evotrainer_swe_9b"
+seed: 42
+logging_dir: ${OUTPUT_DIR:-./output}/${exp_name}/logs
+output_dir: ${OUTPUT_DIR:-./output}/${exp_name}
+render_save_dir: ${OUTPUT_DIR:-./output}/${exp_name}/render
+system_envs:
+  USE_MODELSCOPE: '1'
+  RAY_PROFILING: '1'
+  NVTE_TORCH_COMPILE: '0'
+  NVTE_FLASH_ATTN: '1'
+  NVTE_FUSED_ATTN: '0'
+  NVTE_UNFUSED_ATTN: '0'
+  NVTE_FLASH_MLA: '0'
+  NCCL_CUMEM_ENABLE: '1'
+  NVTE_BWD_LAYERNORM_SM_MARGIN: '64'
+  VLLM_USE_FLASHINFER_SAMPLER: '0'
+  VLLM_FLASH_ATTN_VERSION: '2'
+profiler_output_dir: ${OUTPUT_DIR:-./output}/${exp_name}/profile
+
+checkpoint_config:
+  type: file_system
+  output_dir: ${OUTPUT_DIR:-./output}/${exp_name}/models/
+
+rpc_timeout: 3600000
+ddp_timeout: 3600000
+
+track_with: tensorboard
+tracker_kwargs:
+  log_dir: ${OUTPUT_DIR:-./output}/tensorboard/${exp_name}/
+
+num_gpus_per_node: 8
+num_nodes: 20
+
+max_steps: 1000
+save_steps: 1000
+logging_steps: 1
+eval_steps: 25
+resume_from_checkpoint: false
+
+async_generation_ratio: 2
+force_disable_old_logprobs_recompute: true
+
+rollout_batch_size: 64
+val_batch_size: 616
+sequence_length: 131072
+skip_mock_system_prompt: true
+
+reward_clip: 2
+advantage_clip: 1.0
+ppo_epochs: 1
+adv_estimator: "grpo"
+ratio_type: "gspo"
+pg_clip: 0.2
+pg_clip_low: 0.2
+pg_clip_high: 0.27
+max_grad_norm: 1.0
+dual_clip_loss: true
+init_kl_coef: 0.0
+whiten_advantages: true
+add_length_bonus: false
+add_token_penalty: true
+divide_std: true
+entropy_loss_coef: 0
+loss_agg_mode: "token-mean"
+importance_sampling: manual_on_policy
+reward_normalization:
+  grouping: traj_group_id # options: tags(env_type) / traj_group_id(group) / batch(rollout_batch); group_by which to compute reward/adv
+  method: mean_std # asym_clip / identity / mean_std / mean
+  
+pretrain: ${MODEL_DIR:-./models}/Qwen3.5-9B/
+reward_pretrain: ${MODEL_DIR:-./models}/Qwen3.5-27B/
+actor_train:
+  model_args:
+    flash_attn: fa2
+    attn_implementation: fa2
+    disable_gradient_checkpointing: false
+    dtype: bf16
+    model_type: ~
+    freeze_module_prefix: model.visual
+  training_args:
+    learning_rate: 1.0e-6
+    weight_decay: 0
+    per_device_train_batch_size: 1
+    gradient_accumulation_steps: 64
+    warmup_steps: 20
+    ddp_timeout: 3600000
+  strategy_args:
+    strategy_name: megatron_train
+    strategy_config:
+      sequence_parallel: true
+      tensor_model_parallel_size: 1
+      context_parallel_size: 16
+      pipeline_model_parallel_size: 4
+      use_distributed_optimizer: true
+      moe_token_dispatcher_type: alltoall
+      recompute_granularity: full
+      bias_activation_fusion: true
+      apply_rope_fusion: true
+      moe_grouped_gemm: true
+      moe_shared_expert_overlap: true
+      bf16: true
+  device_mapping: list(range(0,64))
+  infer_batch_size: 1
+
+actor_infer:
+  model_args:
+    flash_attn: fa2
+    attn_implementation: fa2
+    disable_gradient_checkpointing: true
+    dtype: bf16
+  strategy_args:
+    strategy_name: vllm
+    strategy_config:
+      gpu_memory_utilization: 0.8
+      block_size: 16
+      max_model_len: 131072
+      load_format: auto
+      tensor_parallel_size: 2
+      optimization_level: 1
+      sleep_level: 2
+      enforce_eager: false
+      enable_prefix_caching: true
+  device_mapping: list(range(64,128))
+  infer_batch_size: 1
+
+reward:
+  model_args:
+    flash_attn: fa2
+    disable_gradient_checkpointing: true
+    dtype: bf16
+  generating_args:
+    max_length: 131072
+    max_new_tokens: 8192 # single-turn response length
+    top_p: 0.99
+    top_k: 100
+    num_beams: 1
+    temperature: 1.0
+    num_return_sequences: 1
+  strategy_args:
+    strategy_name: vllm
+    strategy_config:
+      gpu_memory_utilization: 0.8
+      block_size: 16
+      max_model_len: 131072
+      load_format: auto
+      tensor_parallel_size: 2
+      optimization_level: 1
+      sleep_level: 2
+      enforce_eager: false
+      enable_prefix_caching: true
+  device_mapping: list(range(128,160))
+  infer_batch_size: 1
+
+reference:
+  model_args:
+    flash_attn: fa2
+    attn_implementation: fa2
+    disable_gradient_checkpointing: false
+    dtype: bf16
+    model_type: ~
+    freeze_module_prefix: model.visual
+  strategy_args:
+    strategy_name: megatron_infer
+    strategy_config:
+      sequence_parallel: true
+      tensor_model_parallel_size: 1
+      context_parallel_size: 16
+      pipeline_model_parallel_size: 4
+      use_distributed_optimizer: true
+      moe_token_dispatcher_type: alltoall
+      recompute_granularity: full
+      bias_activation_fusion: true
+      apply_rope_fusion: true
+      moe_grouped_gemm: true
+      moe_shared_expert_overlap: true
+      bf16: true
+  device_mapping: list(range(0,64))
+  infer_batch_size: 1
+
+custom_envs:
+  qwen_mcp_swe_rebench:
+    tool_call_style: qwen3
+    env_type: qwen_mcp_swe
+    max_tokens_per_step: 8192
+    use_thread_lock : true
+    enable_thinking: true
+    env_manager_cls: roll.pipeline.agentic.env_manager.mcp_swe_env_manager.MCPSweEnvManager
+    env_config:
+      max_steps: 100
+      train_data_path: ${DATA_DIR:-./data}/swe-rebench-with-catalog-v6-train.sorted.jsonl
+      eval_data_path: ${DATA_DIR:-./data}/swe-rebench-with-catalog-v6-test.repeat_8.jsonl
+      user_template_path: ${DATA_DIR:-./data}/swe_issue_fix_template.jsonl
+      train_rollout_save_dir: ${OUTPUT_DIR:-./output}/${exp_name}/rollouts/qwen_mcp_swe_rebench/
+      train_mcp_save_dir: ${OUTPUT_DIR:-./output}/${exp_name}/mcps/qwen_mcp_swe_rebench/
+      agent_name: mcp-swe-agent
+      creator: ${exp_name}
+
+train_env_manager:
+  num_env_groups: 8
+  group_size: 8
+  tags: [qwen_mcp_swe_rebench]
+  num_groups_partition: [8]
+  max_env_num_per_worker: 1
+  generating_args:
+    max_new_tokens: 8192
+    top_p: 0.99
+    top_k: 100
+    num_beams: 1
+    temperature: 1.0
+    num_return_sequences: 1
+
+val_env_manager:
+  num_env_groups: 616
+  group_size: 1
+  tags: [qwen_mcp_swe_rebench]
+  num_groups_partition: [616]
+  max_env_num_per_worker: 1
+  generating_args:
+    max_new_tokens: 8192
+    top_p: 0.99
+    top_k: 100
+    num_beams: 1
+    temperature: 1.0
+    num_return_sequences: 1
