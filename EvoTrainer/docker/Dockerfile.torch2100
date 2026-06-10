@@ -1,0 +1,32 @@
+FROM nvcr.io/nvidia/pytorch:25.11-py3
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV TERM=xterm-256color
+ENV PIP_ROOT_USER_ACTION=ignore
+ENV PIP_CONSTRAINT=""
+
+RUN pip install --upgrade \
+    pip setuptools setuptools_scm wheel
+
+RUN pip uninstall -y torch torchvision torchao torch-tensorrt pytorch-triton transformer_engine
+
+RUN pip install torch==2.10.0 torchvision==0.25.0 torchaudio==2.10.0 --index-url https://download.pytorch.org/whl/cu130
+
+RUN apt-get update && apt-get install -y iproute2 tmux zip
+
+RUN apt-get install -y openjdk-21-jdk
+ENV JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+
+RUN pip install \
+    --no-build-isolation "megatron-core @ git+https://github.com/NVIDIA/Megatron-LM.git@core_dev_r0.16.0"
+
+RUN pip install \
+    "flash-linear-attention" "transformer-engine[pytorch]"
+# FIXME: [pytorch] will install core-cu12 by default, install [core-cu13] after [pytorch] to override core-cu12
+RUN pip install \
+    "transformer-engine[core-cu13]"
+
+RUN pip install --index-url https://wheels.vllm.ai/nightly/cu130 vllm
+# FIXME: vllm will downgrade transformers to <5
+RUN pip install \
+    -U transformers

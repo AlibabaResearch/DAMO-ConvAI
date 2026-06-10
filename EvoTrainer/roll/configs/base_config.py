@@ -1,0 +1,858 @@
+import dataclasses
+import os
+import sys
+from dataclasses import dataclass, field
+from datetime import datetime
+from typing import Dict, Literal, Optional, Union, List
+
+from roll.configs.worker_config import WorkerConfig, is_actor_infer_overlapping_with_any_cluster
+from roll.platforms import current_platform
+from roll.utils.config_utils import (calculate_megatron_dp_size,
+                                     validate_megatron_batch_size)
+from roll.utils.logging import get_logger
+
+logger = get_logger()
+
+@dataclass
+class RolloutMockConfig:
+    """Configuration for rollout dump/mock mechanism for precision alignment testing."""
+    enable: bool = field(
+        default=False,
+        metadata={"help": "Enable rollout dump/mock mechanism for precision alignment testing"}
+    )
+    mode: Literal["dump", "mock"] = field(
+        default="dump",
+        metadata={"help": "dump: save rollout data, mock: load pre-recorded data"}
+    )
+    dump_dir: str = field(
+        default="./rollout_mock_dumps",
+        metadata={"help": "Storage directory for rollout dump/mock data"}
+    )
+
+@dataclass
+class RouterArguments:
+    router_name: Literal[
+        "PromptAffinityRouter",
+        "EnvAffinityRouter",
+        "SglangRouter",
+    ] = field(
+        default=None,
+        metadata={
+            "help": "The name of the router."
+        },
+    )
+    router_config: Dict = field(
+        default_factory=dict,
+        metadata={"help": "Configuration dictionary for the router."},
+    )
+    max_running_requests: int = field(
+        default=128,
+        metadata={"help": "The maximum number of running requests."}
+    )
+
+@dataclass
+class ScheduleConfig:
+    generate_opt_level: int = field(
+        default=1,
+        metadata={
+            "help": "generate optimizing level: 0 use base batch generate interface, 1 use scheduler process requests"
+        },
+    )
+    is_num_return_sequences_expand: bool = field(
+        default=False,
+        metadata={"help": "whether replicate `num_return_sequences` times in prompts or not."}
+    )
+    max_running_requests: int = field(
+        default=128,
+        metadata={"help": "The maximum number of running requests."}
+    )
+    is_use_additional_prompts: bool = field(
+        default=False,
+        metadata={"help": "Whether to use additional prompts or not."}
+    )
+    max_additional_running_prompts: int = field(
+        default=16, metadata={"help": "The additional number of running prompts, beyond batch_size."}
+    )
+    user_defined_rollout_loop_cls: str = field(
+        default="roll.distributed.scheduler.user_defined_rollout_loop.UserDefinedRolloutLoop",
+        metadata={"help": "Path to class UserDefinedRolloutLoop."}
+    )
+    router_args: RouterArguments = field(
+        default=None,
+        metadata={"help": "The router configuration, encapsulated in a RouterArguments object."},
+    )
+
+
+@dataclass
+class BaseConfig(ScheduleConfig):
+
+    exp_name: str = field(
+        default=os.path.basename(sys.argv[0])[: -len(".py")],
+        metadata={"help": "The name of this experiment (defaults to the file name without the .py extension)."},
+    )
+    seed: int = field(
+        default=42,
+        metadata={"help": "Random seed for initializations."}
+    )
+    rpc_timeout: int = field(
+        default=3600,
+        metadata={"help": "Timeout duration for RPC calls in seconds."}
+    )
+    output_dir: str = field(
+        default="./output",
+        metadata={"help": "The output directory where the model predictions and checkpoints will be written."},
+    )
+    base_dir: str = field(
+        default="./output",
+        metadata={"help": "The base directory where the model predictions and checkpoints will be written."},
+    )
+    logging_dir: str = field(
+        default="./output/logs",
+        metadata={"help": "Directory to store logs."})
+    rollout_dump_dir: str = field(
+        default=None, metadata={"help": "saving actor_infer rollout to this dir"}
+    )
+    track_with: str = field(
+        default="tensorboard",
+        metadata={"help": "The type of tracker to be used for tracking, one of ['wandb', 'tensorboard', 'stdout', 'swanlab']."}
+    )
+    tracker_kwargs: dict = field(
+        default_factory=dict,
+        metadata={"help": "Additional keyword arguments to pass to the Tracker class."}
+    )
+    max_steps: int = field(
+        default=500,
+        metadata={"help": "If > 0: set total number of pipeline steps"},
+    )
+    save_steps: int = field(
+        default=50,
+        metadata={"help": "Save checkpoint every X update steps."}
+    )
+    max_ckpt_to_keep: int = field(
+        default=0,
+        metadata={"help": "Maximum number of checkpoints to keep. 0 means keep all checkpoints."}
+    )
+    logging_steps: int = field(
+        default=1,
+        metadata={"help": "Number of steps between logging information."}
+    )
+    eval_steps: int = field(
+        default=10,
+        metadata={"help": "Run an evaluation every X steps."},
+    )
+    rollout_batch_size: int = field(
+        default=128, metadata={"help": "The number of samples to rollout in each inference batch."}
+    )
+    max_running_requests: int = field(
+        default=128,
+        metadata={"help": "The maximum number of running requests."}
+    )
+    val_batch_size: int = field(
+        default=128,
+        metadata={"help": "The number of samples to rollout in each val batch."})
+    local_rank: int = field(
+        default=-1,
+        metadata={"help": "Local rank for distributed training; set to -1 if not applicable."}
+    )
+    resume_from_checkpoint: Union[bool, str] = field(
+        default=False,
+        metadata={"help": "load the last checkpoint in *output_dir* as saved by a previous instance or MOS URI."},
+    )
+    checkpoint_config: Optional[Dict] = field(
+        default_factory=dict,
+        metadata={"help": "Configuration checkpoint, this field will be written to worker_config."},
+    )
+    reward_system_config: Optional[Dict] = field(
+        default_factory=dict,
+        metadata={"help": "Configuration reward system, this field will be written to worker_config."},
+    )
+    prompt_length: Optional[int] = field(
+        default=1024,
+        metadata={"help": "The maximum length of a prompt to be padded."},
+    )
+    response_length: Optional[int] = field(
+        default=None,
+        metadata={"help": "The maximum length of the generated tokens to be padded."},
+    )
+    sequence_length: Optional[int] = field(
+        default=None,
+        metadata={"help": "The maximum length of the sequence to be padded."},
+    )
+    val_prompt_length: Optional[int] = field(
+        default=None,
+        metadata={"help": "The maximum length of a prompt to be padded."},
+    )
+    val_sequence_length: Optional[int] = field(
+        default=None,
+        metadata={"help": "The maximum length of the sequence to be padded."},
+    )
+    profiler_timeline: bool = field(default=False, metadata={"help": "Whether to use profiler mode or not."})
+    profiler_memory: bool = field(default=False, metadata={"help": "Whether to use profiler memory or not."})
+    report_length_and_rewards: bool = field(default=False, metadata={"help": "Whether to report lengths and rewards of prompts in each epoch."})
+
+    is_offload_states: bool = field(
+        default=False,
+        metadata={
+            "help": (
+                "Whether to offload model states to CPU to save GPU memory. "
+                "Models will be offloaded after each operation and reloaded before the next one. "
+                "Reduces GPU memory usage at the cost of CPU-GPU transfer overhead."
+            )
+        }
+    )
+    is_offload_optimizer_states_in_train_step: bool = field(
+        default=False,
+        metadata={
+            "help": (
+                "Whether to offload optimizer states to CPU during training to save GPU memory. "
+                "Optimizer states will be offloaded during forward/backward and reloaded for optimizer step. "
+                "Reduces GPU memory usage at the cost of CPU-GPU transfer overhead."
+            )
+        }
+    )
+
+    length_profiler_dir: str = field(
+        default='./output/profiler',
+        metadata={"help": "directory to write length and rewards metric of prompts"}
+    )
+
+    profiler_output_dir: str = field(
+        default="./output/profiler", metadata={"help": "Directory to write profiler logs."}
+    )
+    system_envs: dict = field(
+        default_factory=dict,
+        metadata={"help": "system environment variables."}
+    )
+    model_update_buffer_size_mb: int = field(
+        default=1024,
+        metadata={"help": "Buffer size in MB for model update operations (e.g., 1024 = 1GB)."}
+    )
+    num_nodes: int = field(
+        default=1,
+        metadata={"help": "Number of nodes available for distributed training."}
+    )
+    num_gpus_per_node: int = field(
+        default=8,
+        metadata={
+            "help": "Specifies the number of GPUs available per node. When the number of nodes is greater than 1, "
+                    "num_gpus_per_node should request the total number of GPUs in the entire node."
+                    "Ensure that GPU resource allocation aligns with the request in a multi-node setup."
+        }
+    )
+    model_download_type: Optional[str] = field(
+        default=None,
+        metadata={"help": "snapshot_download func source type, such as MODELSCOPE, HUGGINGFACE_HUB."},
+    )
+    rollout_mock: Optional[RolloutMockConfig] = field(
+        default=None,
+        metadata={"help": "Rollout mock configuration for precision alignment testing."}
+    )
+
+
+    def to_dict(self):
+        return dataclasses.asdict(self)
+
+    def __post_init__(self):
+
+        assert self.response_length or self.sequence_length, "response_length or sequence_length must be set"
+
+        if self.sequence_length is None:
+            self.sequence_length = self.response_length + self.prompt_length
+
+        if self.response_length is not None:
+            self.response_length = None
+
+        if self.val_prompt_length is None:
+            assert self.val_sequence_length is None, "val_prompt_length and val_sequence_length must be set simultaneously"
+            self.val_prompt_length = self.prompt_length
+            self.val_sequence_length = self.sequence_length
+
+        if self.val_prompt_length is not None:
+            assert self.val_sequence_length, "val_prompt_length and val_sequence_length must be set simultaneously"
+
+
+        if self.track_with == "tensorboard":
+            self.tracker_kwargs["log_dir"] = os.path.join(
+                self.tracker_kwargs.get("log_dir", self.output_dir), self.exp_name, datetime.now().strftime("%Y%m%d-%H%M%S")
+            )
+            logger.info(f"add timestamp to tensorboard log_dir {self.tracker_kwargs['log_dir']}")
+
+        self.logging_dir = os.path.join(self.logging_dir, self.exp_name)
+        logger.info(f"add exp_name to logging_dir {self.logging_dir}")
+        os.environ["ROLL_LOG_DIR"] = self.logging_dir
+        get_logger()
+
+        if self.model_download_type is not None:
+            os.environ["MODEL_DOWNLOAD_TYPE"] = self.model_download_type
+
+        upload_type = self.checkpoint_config.get("type", None)
+        if upload_type == "file_system":
+            output_dir = self.checkpoint_config.get("output_dir")
+            self.checkpoint_config["output_dir"] = os.path.join(output_dir, datetime.now().strftime("%Y%m%d-%H%M%S"))
+            logger.info(f"add timestamp to output_dir {self.checkpoint_config['output_dir']}")
+
+        for attribute_name in dir(self):
+            attribute = getattr(self, attribute_name)
+            if isinstance(attribute, WorkerConfig):
+                if hasattr(attribute, "checkpoint_config"):
+                    setattr(attribute, "checkpoint_config", self.checkpoint_config)
+
+            if isinstance(attribute, WorkerConfig):
+                if hasattr(attribute, "training_args"):
+                    setattr(attribute.training_args, "seed", self.seed)
+
+        assert not (
+            self.profiler_timeline and self.profiler_memory
+        ), f"ensure that only one profiling mode is enabled at a time"
+
+        self.profiler_output_dir = os.path.join(
+            self.profiler_output_dir, self.exp_name, datetime.now().strftime("%Y%m%d-%H%M%S")
+        )
+        self.length_profiler_dir = os.path.join(
+            self.length_profiler_dir, self.exp_name, datetime.now().strftime("%Y%m%d-%H%M%S")
+        )
+
+        os.environ["PROFILER_OUTPUT_DIR"] = self.profiler_output_dir
+        if self.profiler_timeline:
+            os.environ["PROFILER_TIMELINE"] = "1"
+        if self.profiler_memory:
+            os.environ["PROFILER_MEMORY"] = "1"
+        if self.rpc_timeout is not None:
+            os.environ["roll_RPC_TIMEOUT"] = str(self.rpc_timeout)
+        if self.report_length_and_rewards:
+            os.environ["REPORT_LENGTH_AND_REWARDS"] = "1"
+        os.environ.update(self.system_envs)
+
+        from ..platforms import current_platform
+        self.num_gpus_per_node = current_platform.device_count()
+
+        if hasattr(self, 'actor_train') and isinstance(self.actor_train, WorkerConfig):
+            self.actor_train.system_envs.update({k: v for k, v in self.system_envs.items() if k not in self.actor_train.system_envs})
+        if hasattr(self, 'actor_infer') and isinstance(self.actor_infer, WorkerConfig):
+            self.actor_infer.system_envs.update({k: v for k, v in self.system_envs.items() if k not in self.actor_infer.system_envs})
+        if hasattr(self, 'reference') and isinstance(self.reference, WorkerConfig):
+            self.reference.system_envs.update({k: v for k, v in self.system_envs.items() if k not in self.reference.system_envs})
+        if hasattr(self, 'critic') and isinstance(self.critic, WorkerConfig):
+            self.critic.system_envs.update({k: v for k, v in self.system_envs.items() if k not in self.critic.system_envs})
+
+        # Validate rollout_batch_size divisibility for Megatron data parallelism
+        if hasattr(self, 'actor_train') and isinstance(self.actor_train, WorkerConfig) and self.actor_train.strategy_args is not None:
+            strategy_name = self.actor_train.strategy_args.strategy_name
+
+            # Only validate for Megatron strategies
+            if 'megatron' in strategy_name.lower():
+                try:
+                    validate_megatron_batch_size(
+                        batch_size=self.rollout_batch_size,
+                        num_gpus=len(self.actor_train.device_mapping),
+                        strategy_config=self.actor_train.strategy_args.strategy_config,
+                    )
+                except ValueError as e:
+                    logger.error(f"Megatron DP validation failed: {e}")
+                    raise
+            else:
+                logger.debug(
+                    f"Skipping DP validation for non-Megatron actor_train strategy: {strategy_name}"
+                )
+
+        if hasattr(self, 'actor_infer') and isinstance(self.actor_infer, WorkerConfig) and self.actor_infer.strategy_args is not None:
+            strategy_name = self.actor_infer.strategy_args.strategy_name
+            assert strategy_name in ["vllm", "sglang"]
+            # Use max_running_requests+1 to reserve extra one for abort_requests.
+            # 1000 is ray_constants.DEFAULT_MAX_CONCURRENCY_ASYNC.
+            max_concurrency = max(self.max_running_requests + 1, 1000)
+            self.actor_infer.max_concurrency = max(self.actor_infer.max_concurrency, max_concurrency)
+            logger.info(f"Set max_concurrency of actor_infer to {self.actor_infer.max_concurrency}")
+
+        # the required num nodes
+        total_devices = []
+        for attribute_name in dir(self):
+            attribute = getattr(self, attribute_name)
+            if isinstance(attribute, WorkerConfig):
+                if attribute.device_mapping is not None:
+                    total_devices.extend(attribute.device_mapping)
+        if len(total_devices) > 0:
+            max_gpu_num = max(total_devices) + 1
+            if max_gpu_num <= self.num_gpus_per_node:
+                self.num_nodes = 1
+            else:
+                self.num_nodes = (max_gpu_num + self.num_gpus_per_node - 1) // self.num_gpus_per_node
+
+
+    def set_max_steps(self, max_steps: int):
+        for attribute_name in dir(self):
+            attribute = getattr(self, attribute_name)
+            if isinstance(attribute, WorkerConfig):
+                if hasattr(attribute, "training_args"):
+                    setattr(attribute.training_args, "max_steps", max_steps)
+
+@dataclass
+class TrainInferISWeightConfig:
+    enabled: bool = field(
+        default=False,
+        metadata={"help": "Whether to generate train-infer IS weight and store it into batch (train_infer_is_weight)."},
+    )
+    weight_type: Literal["token", "segment", "geometric", "sequence"] = field(
+        default="token",
+        metadata={"help": "Granularity for IS weight: token / segment / geometric / sequence."},
+    )
+    upper_bound: Optional[float] = field(
+        default=1.2,
+        metadata={"help": "Upper bound (clamp) for IS weight. Set to None to disable clamping."},
+    )
+    detach: bool = field(
+        default=True,
+        metadata={"help": "Detach IS weight tensor to prevent gradient flow (recommended)."},
+    )
+
+
+@dataclass
+class TrainInferFilterConfig:
+    enabled: bool = field(
+        default=False,
+        metadata={"help": "Whether to enable this filter rule (applied to response_mask)."},
+    )
+    agg_type: Literal["token", "segment", "geometric", "sequence"] = field(
+        default="token",
+        metadata={"help": "Aggregation level used for filtering: token / segment / geometric / sequence."},
+    )
+
+    ratio_enabled: bool = field(
+        default=True,
+        metadata={"help": "Whether to apply ratio-based filtering (exp(old_logp - infer_logp))."},
+    )
+    ratio_low: float = field(default=0.8, metadata={"help": "Lower threshold for ratio filtering."})
+    ratio_high: float = field(default=1.2, metadata={"help": "Upper threshold for ratio filtering."})
+
+    diff_enabled: bool = field(
+        default=False,
+        metadata={"help": "Whether to apply diff-based filtering (exp(old) - exp(infer))."},
+    )
+    diff_low: float = field(default=-0.2, metadata={"help": "Lower threshold for diff filtering."})
+    diff_high: float = field(default=0.2, metadata={"help": "Upper threshold for diff filtering."})
+
+
+@dataclass
+class TrainInferCorrectionConfig:
+    is_weight: TrainInferISWeightConfig = field(
+        default_factory=TrainInferISWeightConfig,
+        metadata={"help": "Config for generating train-infer IS weight (stored in batch)."},
+    )
+    filters: List[TrainInferFilterConfig] = field(
+        default_factory=list,
+        metadata={"help": "A list of filter rules applied sequentially to response_mask."},
+    )
+
+@dataclass
+class PPOConfig(BaseConfig):
+    # role related
+    pretrain: str = field(default=None, metadata={"help": "Path to pretrain model directory, if available."})
+    reward_pretrain: str = field(
+        default=None, metadata={"help": "Path to pretrain model directory for the reward model, if available."}
+    )
+    actor_train: WorkerConfig = field(
+        default_factory=WorkerConfig, metadata={"help": "Configuration for the actor's training role."}
+    )
+    actor_infer: WorkerConfig = field(
+        default_factory=WorkerConfig, metadata={"help": "Configuration for the actor's inference role."}
+    )
+    critic: WorkerConfig = field(
+        default_factory=WorkerConfig, metadata={"help": "Configuration for the critic's training role."}
+    )
+    reference: WorkerConfig = field(
+        default_factory=WorkerConfig, metadata={"help": "Configuration for the reference role."}
+    )
+    reward: WorkerConfig = field(
+        default_factory=WorkerConfig,
+        metadata={"help": "Configuration for the reward role."}
+    )
+
+    async_generation_ratio: float = field(
+        default=0,
+        metadata={
+            "help": "The ratio of ahead generation requests in pipeline, 0 means synchronous pipeline."
+        },
+    )
+
+    # PPO related
+    ppo_epochs: int = field(default=1, metadata={"help": "Number of optimisation epochs per batch of samples"})
+    max_grad_norm: float = field(default=1.0, metadata={"help": "Maximum norm"})
+    l2: float = field(default=0.0, metadata={"help": "L2 regularization"})
+    lambd: float = field(default=0.95, metadata={"help": "Lambda parameter for advantage calculation"})
+    gamma: float = field(default=1, metadata={"help": "Gamma parameter for advantage calculation"})
+    pg_clip: Optional[float] = field(default=0.2, metadata={"help": "Range for clipping in PPO policy gradient loss"})
+    use_pg_clip_range: bool = field(default=False, metadata={"help": "Use to change the clipping range of pg_clip"})
+    pg_clip_low: Optional[float] = field(
+        default=0.2, metadata={"help": "Range for clipping lower in PPO policy gradient loss"}
+    )
+    pg_clip_high: Optional[float] = field(
+        default=0.2, metadata={"help": "Range for clipping higher in PPO policy gradient loss"}
+    )
+
+    value_clip: Optional[float] = field(
+        default=None, metadata={"help": "Range for clipping values in loss calculation"}
+    )
+    kl_penalty: Literal["kl", "abs", "mse", "full"] = field(
+        default="kl",
+        metadata={
+            "help": "kl penalty options: 'kl': model_logp - ref_logp, 'abs': abs(kl), 'mse': "
+            "mean squared error mse(kl) and 'full': the actual kl for all tokens in the distribution"
+        },
+    )
+    target_kl: Optional[float] = field(default=None, metadata={"help": "Target KL value for adaptive KL control"})
+    init_kl_coef: float = field(
+        default=0.2, metadata={"help": "Initial KL penalty coefficient (used for adaptive and linear control)"}
+    )
+    kl_horizon: int = field(default=10000, metadata={"help": "Horizon for adaptive KL control"})
+    use_reward_scaling: bool = field(default=False, metadata={"help": "Use reward scaling"})
+    add_len_reward: bool = field(default=False)
+    reward_clip: float = field(default=None, metadata={"help": "reward clip value."})
+    use_reward_norm: bool = field(
+        default=False, metadata={"help": "Use reward normalization. Only applicable if use_reward_scaling is True."}
+    )
+    whiten_rewards: bool = field(default=False, metadata={"help": "Whiten the rewards before compute advantages."})
+    whiten_advantages: bool = field(default=False, metadata={"help": "Whiten the advantage."})
+    advantage_clip: float = field(default=None, metadata={"help": "advantage_clip value"})
+    adv_estimator: Literal["gae", "reinforce", "grpo", "gigpo", "step_reinforce", "agentic_reinforce"] = field(
+        default="gae", metadata={"help": "advantage estimator: gae (GAE)."}
+    )
+    norm_mean_type: Literal["batch", "group", "running", None] = field(
+        default=None,
+        metadata={
+            "help": "Mean type for reward normalization: 'batch' (normalize across batch), 'group' (normalize within prompt groups), 'running' (use running statistics), None (without subtracting mean)"
+        },
+    )
+    norm_std_type: Literal["batch", "group", "running", None] = field(
+        default=None,
+        metadata={
+            "help": "Std type for reward normalization: 'batch' (normalize across batch), 'group' (normalize within prompt groups), 'running' (use running statistics), None (without dividing by std)"
+        },
+    )
+    add_token_level_kl: bool = field(default=False, metadata={"help": "Add token level kl penalty"})
+    critic_warmup: int = field(
+        default=0,
+        metadata={"help": "Pre-training step for critic model"},
+    )
+    use_kl_loss: bool = field(default=False, metadata={"help": "Use kl loss"})
+    kl_loss_coef: float = field(default=0, metadata={"help": "Loss coefficient for kl loss"})
+    entropy_loss_coef: float = field(default=0, metadata={"help": "Loss coefficient for entropy loss"})
+    loss_agg_mode: Literal["token-mean", "seq-mean-token-sum", "seq-mean-token-mean", "seq-mean-token-sum-norm"] = (
+        field(default="seq-mean-token-mean", metadata={"help": "Loss aggregation mode"})
+    )
+    dual_clip_loss: bool = field(default=False, metadata={"help": "Use dual clip loss"})
+    enable_reference: bool = field(
+        default=False, metadata={"help": "Whether to enable reference cluster for computing ref_log_probs."}
+    )
+    enable_old_logprobs_recompute: bool = field(default=False, metadata={"help": "Enable old_logprobs computation optimization for disable caching"})
+    force_disable_old_logprobs_recompute: bool = field(default=False, metadata={"help": "Force disable old_logprobs computation optimization for disable caching, priority is higher than enable_old_logprobs_recompute"})
+
+    ###
+    add_length_bonus: bool = field(default=False, metadata={"help": "Add response level rewards baased on messages length"})
+    add_token_penalty: bool = field(default=False, metadata={"help": "token level rewards add penalty"})
+    divide_std: bool = field(default=True, metadata={"help": "If divide std when whiten advantage."})
+    importance_sampling: Literal["token", "seq", "manual_on_policy"] = (
+        field(default="token", metadata={"help": "policy importance sampling"})
+    )
+
+    train_infer_correction: TrainInferCorrectionConfig = field(
+        default_factory=TrainInferCorrectionConfig,
+        metadata={
+            "help": (
+                "Train-infer correction config for off-policy/mismatch handling. "
+                "Pipeline will compute train_infer_is_weight from old_log_probs vs infer_logprobs "
+                "and optionally apply filters to response_mask."
+            )
+        },
+    )
+
+    # OPD (On-Policy Distillation) Configuration
+    pure_opd_pipeline_type: Literal["rlvr", "agentic"] = field(
+        default="rlvr",
+        metadata={"help": "Pipeline type for pure On-Policy Distillation. Used by start_onpolicy_distill_pipeline.py "
+                 "to determine which config class and pipeline to use. "
+                 "'rlvr': RLVRConfig + RLVRPipeline, 'agentic': AgenticConfig + AgenticPipeline"}
+    )
+    teacher: WorkerConfig = field(
+        default_factory=WorkerConfig,
+        metadata={"help": "Configuration for the teacher role (used in OPD mode). "
+                 "When is_pure_opd=True or use_opd=True, teacher is automatically mapped to reference."}
+    )
+    student_train: WorkerConfig = field(
+        default_factory=WorkerConfig,
+        metadata={"help": "Configuration for the student training role (used in OPD mode). "
+                 "When configured, student_train is mapped to actor_train."}
+    )
+    student_infer: WorkerConfig = field(
+        default_factory=WorkerConfig,
+        metadata={"help": "Configuration for the student inference role (used in OPD mode). "
+                 "When configured, student_infer is mapped to actor_infer."}
+    )
+    is_pure_opd: bool = field(
+        default=False,
+        metadata={"help": "Enable pure On-Policy Distillation mode. "
+                 "In this mode, rewards come entirely from Teacher KL divergence. "
+                 "Automatically sets: gamma=0, adv_estimator='reinforce', critic_warmup=0. "
+                 "This is set by start_onpolicy_distill_pipeline.py automatically."}
+    )
+    use_opd: bool = field(
+        default=False,
+        metadata={"help": "Enable mixed OPD mode: add OPD KL penalty to token_level_reward. "
+                 "This allows combining RL reward with distillation signal. "
+                 "The OPD KL is computed as: reverse_kl = student_logp - teacher_logp, "
+                 "and added to token_level_rewards as: reward - opd_kl_coef * reverse_kl"}
+    )
+    opd_kl_coef: float = field(
+        default=1.0,
+        metadata={"help": "Coefficient for OPD KL penalty when use_opd=True. "
+                 "Controls the weight of distillation signal relative to RL reward."}
+    )
+
+    def __post_init__(self):
+        super().__post_init__()
+        assert self.async_generation_ratio == 0 or self.generate_opt_level == 1
+
+        if (
+            self.actor_train.model_args.model_name_or_path is None
+            or self.actor_infer.model_args.model_name_or_path is None
+            or self.reference.model_args.model_name_or_path is None
+        ):
+            self.actor_train.model_args.model_name_or_path = self.pretrain
+            self.actor_infer.model_args.model_name_or_path = self.pretrain
+            self.reference.model_args.model_name_or_path = self.pretrain
+
+        if self.critic.model_args.model_name_or_path is None:
+            self.critic.model_args.model_name_or_path = self.reward_pretrain
+
+        if self.reward.model_args.model_name_or_path is None:
+            self.reward.model_args.model_name_or_path = self.reward_pretrain
+
+        # 检查reward的device_mapping配置
+        if self.reward.device_mapping is None or len(self.reward.device_mapping) == 0:
+            logger.info("Reward device_mapping is None or empty - reward cluster will not be created")
+        else:
+            logger.info(f"Reward device_mapping configured: {self.reward.device_mapping}")
+
+
+        self.actor_train.training_args.output_dir = self.output_dir
+        self.actor_infer.training_args.output_dir = self.output_dir
+        self.critic.training_args.output_dir = self.output_dir
+
+        self.actor_infer.name = "actor_infer"
+        self.actor_train.name = "actor_train"
+        self.reference.name = "reference"
+        self.critic.name = "critic"
+        self.reward.name = "reward"
+
+        if self.use_kl_loss or self.init_kl_coef > 0:
+            logger.warning(f"use_kl_loss or init_kl_coef > 0, enable_reference = True")
+            self.enable_reference = True
+        if self.force_disable_old_logprobs_recompute:
+            self.enable_old_logprobs_recompute = False
+        elif self.adv_estimator in ['step_reinforce', "gigpo"]:
+            self.enable_old_logprobs_recompute = True
+        else:
+            self.set_old_logprobs_status()
+
+        logger.info(f"enable_old_logprobs_recompute: {self.enable_old_logprobs_recompute}\tenable_reference: {self.enable_reference}")
+
+    def _handle_opd_mapping(self):
+        """
+        Handle OPD (On-Policy Distillation) mode configuration mapping.
+
+        Pure OPD mode (is_pure_opd=True):
+        - Requires: student_train, student_infer, teacher
+        - Forbidden: reference
+        - Mapping: student_train → actor_train, student_infer → actor_infer, teacher → reference
+
+        Mixed OPD mode (use_opd=True):
+        - Requires: teacher
+        - Forbidden: reference
+        - Mapping: teacher → reference only
+        - actor_train/actor_infer are configured normally by user
+
+        This method is called at the beginning of __post_init__ before normal PPO initialization.
+        """
+        has_student_train = self.student_train.is_configured
+        has_student_infer = self.student_infer.is_configured
+        has_teacher = self.teacher.is_configured
+        has_reference_configured = self.reference.is_configured
+
+        # Mutual exclusion check
+        if self.is_pure_opd and self.use_opd:
+            raise ValueError(
+                "is_pure_opd=True and use_opd=True are mutually exclusive. "
+                "Use is_pure_opd=True for pure OPD mode (rewards from Teacher KL only), "
+                "or use_opd=True for mixed mode (external rewards + Teacher KL)."
+            )
+
+        # ========== Pure OPD mode ==========
+        if self.is_pure_opd:
+            # Validation: all student fields and teacher must be configured
+            if not (has_student_train and has_student_infer and has_teacher):
+                raise ValueError(
+                    "In pure OPD mode (is_pure_opd=True), 'student_train', 'student_infer' "
+                    "and teacher must be configured.\n"
+                )
+
+            # Perform mapping for pure OPD
+            logger.info(f"Pure OPD mode: mapping student_train to actor_train")
+            self.actor_train = self.student_train
+            logger.info(f"Pure OPD mode: mapping student_infer to actor_infer")
+            self.actor_infer = self.student_infer
+            logger.info(f"Pure OPD mode: mapping teacher to reference")
+            self.reference = self.teacher
+
+        # ========== Mixed OPD mode ==========
+        elif self.use_opd:
+            # Validation: teacher must be configured, reference should NOT be configured
+            if not has_teacher:
+                raise ValueError(
+                    "In mixed OPD mode (use_opd=True), 'teacher' must be configured.\n"
+                )
+            if has_reference_configured:
+                raise ValueError(
+                    "In mixed OPD mode (use_opd=True), 'reference' should NOT be configured. "
+                )
+
+            # Perform mapping for mixed OPD (only teacher → reference)
+            logger.info(f"Mixed OPD mode: mapping teacher to reference")
+            self.reference = self.teacher
+            # Note: actor_train and actor_infer are configured normally by user
+
+        # Enable reference for OPD mode (needed for both pure and mixed mode)
+        self.enable_reference = True
+
+    def set_max_steps(self, max_steps: int):
+        actor_backward_batch_size = (
+            self.actor_train.training_args.per_device_train_batch_size
+            * self.actor_train.training_args.gradient_accumulation_steps
+        )
+        critic_backward_batch_size = (
+            self.critic.training_args.per_device_train_batch_size
+            * self.critic.training_args.gradient_accumulation_steps
+        )
+        # 没有除dp_size，需要在分布式环境初始化后再除
+        # 先计算总的训练步数，最后再除以 backward_batch_size
+        self.actor_train.training_args.max_steps = max(1, (
+            max_steps
+            * self.rollout_batch_size
+            * self.actor_infer.generating_args.num_return_sequences
+            * self.ppo_epochs
+            // actor_backward_batch_size
+        ))
+        self.critic.training_args.max_steps = max(1, (
+            max_steps
+            * self.rollout_batch_size
+            * self.actor_infer.generating_args.num_return_sequences
+            // critic_backward_batch_size
+        ))
+
+        logger.info(f"pipeline max_steps: {self.max_steps} to {max_steps}")
+        logger.info(f"actor train max_steps without dp_size: {self.actor_train.training_args.max_steps}")
+        logger.info(f"critic train max_steps without dp_size: {self.critic.training_args.max_steps}")
+        self.max_steps = max_steps
+
+    def _get_effective_cp_size_ulysses(self, configured_ulysses_size: Optional[int]) -> int:
+        if not configured_ulysses_size or configured_ulysses_size <= 1:
+            return 1
+        if current_platform.apply_ulysses_patch() is not None:
+            return configured_ulysses_size
+        return 1
+
+    def set_old_logprobs_status(self):
+        batch_size = self.rollout_batch_size * self.actor_infer.generating_args.num_return_sequences
+        actor_backward_batch_size = (
+            self.actor_train.training_args.per_device_train_batch_size
+            * self.actor_train.training_args.gradient_accumulation_steps
+        )
+        dp_size = 1
+        if self.actor_train.strategy_args is not None:
+            if self.actor_train.strategy_args.strategy_name == "deepspeed_train":
+                configured_ulysses_size = getattr(self.actor_train.model_args, 'ulysses_size', None) or 1
+                cp_size = self._get_effective_cp_size_ulysses(configured_ulysses_size)
+                dp_size = len(self.actor_train.device_mapping) // cp_size
+            elif self.actor_train.strategy_args.strategy_name in ("fsdp2_train", "fsdp2_infer"):
+                configured_ulysses_size = getattr(self.actor_train.model_args, 'ulysses_size', None) or 1
+                cp_size = self._get_effective_cp_size_ulysses(configured_ulysses_size)
+                dp_size = len(self.actor_train.device_mapping) // cp_size
+            elif self.actor_train.strategy_args.strategy_name == "megatron_train":
+                strategy_config = self.actor_train.strategy_args.strategy_config
+                tp = strategy_config.get('tensor_model_parallel_size', 1)
+                pp = strategy_config.get('pipeline_model_parallel_size', 1)
+                cp = strategy_config.get('context_parallel_size', 1)
+                dp_size = calculate_megatron_dp_size(num_gpus=len(self.actor_train.device_mapping),
+                                                     tensor_parallel_size=tp,
+                                                     pipeline_parallel_size=pp,
+                                                     context_parallel_size=cp)
+
+        # Calculate backward steps per DP rank
+        backward_steps_per_rank = (batch_size // dp_size) // actor_backward_batch_size
+
+        # Disable optimization only when multiple backward steps in single training step
+        # Multi-epoch training is actually a key scenario for optimization
+        if backward_steps_per_rank > 1:
+            # Multiple backward steps means model parameters change during training
+            # Cannot reuse cached logprobs across backward passes
+            self.enable_old_logprobs_recompute = True
+
+        if self.init_kl_coef > 0:
+            logger.warning(f"init_kl_coef > 0, enable_old_logprobs_recompute = True")
+            self.enable_old_logprobs_recompute = True
+
+    @property
+    def async_pipeline(self) -> bool:
+        return self.async_generation_ratio > 0
+
+    @property
+    def is_actor_infer_colocated(self) -> bool:
+        """Whether actor_infer are colocated with any other clusters (exclude reward)."""
+        return is_actor_infer_overlapping_with_any_cluster(
+            actor_infer=self.actor_infer,
+            actor_train=self.actor_train,
+            reference=self.reference,
+            critic=self.critic
+        )
+
+    def _apply_opd_config(self):
+        """
+        Apply OPD-specific parameter overrides.
+
+        This method should be called at the end of __post_init__ in subclasses
+        (RLVRConfig, AgenticConfig) to apply OPD-specific settings.
+
+        Note: The mapping of student_*/teacher to actor_*/reference is already
+        handled by _handle_opd_mapping(). This method only applies OPD-specific
+        parameter overrides like gamma, adv_estimator, etc.
+
+        This method handles both pure OPD mode (is_pure_opd=True)
+        and mixed OPD mode (use_opd=True).
+        """
+        # Set worker names for OPD mode (override default names for both modes)
+        logger.warning("Applying pure OPD mode parameter overrides")
+        self.reference.name = "teacher"
+
+        # Pure OPD mode specific settings
+        if self.is_pure_opd:
+            self.actor_train.name = "student_train"
+            self.actor_infer.name = "student_infer"
+
+            # gamma=0: OPD's token_level_rewards has KL penalty at every token
+            # If gamma=1, compute_reinforce_return will accumulate KL values across entire sequence
+            self.gamma = 0
+
+            # Use reinforce as default advantage estimator (no GAE, no critic needed)
+            logger.warning("Pure OPD mode: set adv_estimator as 'reinforce'")
+            self.adv_estimator = "reinforce"
+
+            # No critic warmup needed (reinforce doesn't use critic)
+            self.critic_warmup = 0
+
+            # Disable KL loss (OPD handles KL through token_level_rewards)
+            self.use_kl_loss = False
+            self.add_token_level_kl = False
+
+            logger.info(f"Pure OPD mode configured: gamma={self.gamma}, adv_estimator={self.adv_estimator}")
+
+        # Mixed OPD mode doesn't need parameter overrides
+        elif self.use_opd:
+            logger.info(f"Mixed OPD mode configured: opd_kl_coef={self.opd_kl_coef}")

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvoTrainer: Co-Evolving LLM Policies and Training Harnesses</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero-title">EvoTrainer</h1>
+            <p class="hero-subtitle">Co-Evolving LLM Policies and Training Harnesses<br>for Autonomous Agentic Reinforcement Learning</p>
+            <p class="hero-authors">
+                Guhong Chen<sup>1</sup>, Yingcheng Shi<sup>2</sup>, Yongbin Li<sup>2</sup>, Binhua Li<sup>2</sup>, Xander Xu<sup>3</sup>,
+                Hu Wei<sup>3</sup>, Shiwen Ni<sup>4</sup>, Min Yang<sup>1,4</sup>, Jieping Ye<sup>2</sup>
+            </p>
+            <p class="hero-affiliations"><sup>1</sup>Anonymous Institution &nbsp; <sup>2</sup>Anonymous Industry Lab &nbsp; <sup>3</sup>Anonymous Industry Lab &nbsp; <sup>4</sup>Anonymous Institution</p>
+            <div class="hero-buttons">
+                <a href="https://arxiv.org/abs/2606.03108" class="btn btn-primary">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    Paper
+                </a>
+                <a href="https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/EvoTrainer" class="btn btn-outline">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                    Code
+                </a>
+                <a href="#demo" class="btn btn-outline">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                    Demo
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Teaser Figure -->
+    <section class="section" id="overview">
+        <div class="container">
+            <div class="teaser-figure">
+                <img src="static/teaser.png" alt="EvoTrainer overview: autonomous training framework that co-evolves LLM policies and training-side diagnostic harnesses">
+                <p class="figure-caption"><strong>Figure 1.</strong> EvoTrainer co-evolves LLM policies (upper loop) and a training-side diagnostic harness (middle loop), accumulating reusable skills and persistent memory (bottom layer) across versions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Abstract -->
+    <section class="section section-gray" id="abstract">
+        <div class="container">
+            <h2>Abstract</h2>
+            <p class="abstract-text">
+                Autonomous LLM training is often framed as recipe search, which leaves the training harness largely static. This limitation sharpens in agentic RL, where shifting bottlenecks and scalar rewards mask diverse failure modes. We introduce <strong>EvoTrainer</strong>, an autonomous training framework that co-evolves LLM policies and training-side harnesses through empirical feedback: it diagnoses rollout-level evidence, revises diagnostics, backtests interventions, and accumulates reusable skills. Evaluated on mathematical reasoning, competitive-programming code generation, and repository-level software engineering, EvoTrainer matches or exceeds the human-engineered RL references under the same data, codebase, and evaluation protocol, with the largest gain on long-horizon agentic SWE (<strong>+4.39 BC%</strong> over the human baseline).
+            </p>
+        </div>
+    </section>
+
+    <!-- SWE-9B Evolution Chart -->
+    <section class="section" id="evolution">
+        <div class="container">
+            <h2>SWE-9B: Autonomous Version Evolution</h2>
+            <p class="section-desc">EvoTrainer autonomously evolves a SWE agent across 8 versions, rejecting failed branches and accumulating improvements that exceed the human-engineered RL baseline.</p>
+            <div class="teaser-figure">
+                <img src="static/swe9b_evolution.png" alt="SWE-9B version evolution showing best-so-far envelope exceeding human-RL baseline">
+                <p class="figure-caption">SWE-9B evolution trajectory. Bold line: best-so-far envelope; dashed line: per-version BC%; red circles: explored but rejected branches; horizontal lines: baseline references. Annotations mark key interventions discovered by the trainer.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- All-Domain Trajectories -->
+    <section class="section section-gray" id="trajectories">
+        <div class="container">
+            <h2>Cross-Domain Version Trajectories</h2>
+            <div class="traj-layout">
+                <div class="traj-text">
+                    <p>EvoTrainer adapts to domain-specific bottlenecks rather than applying a single universal recipe:</p>
+                    <ul>
+                        <li><strong>SWE</strong> evolves toward behavior-sensitive reward design (SBE, ETT) and an instruction-following judge to rescue dead groups.</li>
+                        <li><strong>Math</strong> evolves toward computation-aware tool augmentation (Code Interpreter) after reward-side improvements plateau.</li>
+                        <li><strong>Coding</strong> evolves toward execution-aligned reward shaping (shaped CR) and cross-domain skill reuse (StdGroupFilter transferred from SWE).</li>
+                    </ul>
+                    <p class="traj-note">The retained strategies diverge substantially across domains, reflecting different bottleneck structures rather than a single fixed RL template.</p>
+                </div>
+                <div class="traj-figure">
+                    <img src="static/trajectories_paper.png" alt="Version trajectories across SWE-9B, SWE-4B, Math, and Coding">
+                </div>
+            </div>
+            <p class="figure-caption"><strong>Figure.</strong> Per-version score trajectories on the promoted path for each training condition. Stars mark the final retained version. Each domain's trajectory reflects a distinct evolution path shaped by its unique diagnostic bottlenecks.</p>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section class="section section-dark" id="demo">
+        <div class="container">
+            <h2>Demo: SWE-9B Autonomous Evolution</h2>
+            <p class="section-desc">Watch EvoTrainer autonomously diagnose, explore, reject failed branches, and evolve a SWE agent from 30.19% to 38.16% BC% across 8 versions.</p>
+            <div class="terminal">
+                <div class="terminal-header">
+                    <span class="terminal-dot red"></span>
+                    <span class="terminal-dot yellow"></span>
+                    <span class="terminal-dot green"></span>
+                    <span class="terminal-title">EvoTrainer &mdash; SWE-9B Diagnostic Loop</span>
+                </div>
+                <div class="terminal-body" id="terminal-output">
+                    <span class="cursor">_</span>
+                </div>
+                <div class="terminal-controls">
+                    <button id="btn-prev" class="term-btn">&laquo; Prev</button>
+                    <span id="scene-indicator">Scene 1 / 5</span>
+                    <button id="btn-next" class="term-btn">Next &raquo;</button>
+                    <button id="btn-play" class="term-btn">&#9654; Auto</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Results -->
+    <section class="section" id="results">
+        <div class="container">
+            <h2>Main Results</h2>
+            <p class="section-desc">EvoTrainer achieves the strongest score in every reported column across Math, Coding, and SWE.</p>
+            <div class="table-wrapper">
+                <table class="results-table">
+                    <thead>
+                        <tr>
+                            <th rowspan="2">Method</th>
+                            <th colspan="2">SWE Avg@8 BC%</th>
+                            <th colspan="3">Math Avg@8</th>
+                            <th rowspan="2">Coding Avg@8</th>
+                        </tr>
+                        <tr>
+                            <th>4B</th><th>9B</th>
+                            <th>AIME 24</th><th>AIME 25</th><th>CNMO 24</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="group-header"><td colspan="7">Reference Configurations</td></tr>
+                        <tr>
+                            <td>Base model (no RL)</td>
+                            <td>24.68</td><td>30.19</td>
+                            <td>77.50</td><td>67.50</td><td>75.00</td>
+                            <td>46.71</td>
+                        </tr>
+                        <tr>
+                            <td>Human-engineered RL</td>
+                            <td>31.17</td><td>33.77</td>
+                            <td>80.83</td><td>71.67</td><td>77.78</td>
+                            <td>50.71</td>
+                        </tr>
+                        <tr>
+                            <td>AutoResearch</td>
+                            <td>28.41</td><td>33.33</td>
+                            <td>78.33</td><td>70.42</td><td>78.47</td>
+                            <td>45.51</td>
+                        </tr>
+                        <tr class="group-header"><td colspan="7">Algorithmic Baselines</td></tr>
+                        <tr>
+                            <td>GSPO + Clip-Higher</td>
+                            <td>24.84</td><td>31.97</td>
+                            <td>79.17</td><td>70.00</td><td>76.39</td>
+                            <td>47.86</td>
+                        </tr>
+                        <tr>
+                            <td>GRPO + Clip-Higher</td>
+                            <td>25.49</td><td>32.79</td>
+                            <td>80.00</td><td>69.58</td><td>79.17</td>
+                            <td>48.57</td>
+                        </tr>
+                        <tr>
+                            <td>RAGEN v1 Filtering</td>
+                            <td>29.87</td><td>32.89</td>
+                            <td>80.42</td><td>70.83</td><td>77.78</td>
+                            <td>49.04</td>
+                        </tr>
+                        <tr>
+                            <td>RAGEN v2 SNR Filtering</td>
+                            <td>30.03</td><td>35.74</td>
+                            <td>81.67</td><td>72.50</td><td>80.56</td>
+                            <td>49.86</td>
+                        </tr>
+                        <tr>
+                            <td>Group-Variance Filtering</td>
+                            <td>29.06</td><td>32.31</td>
+                            <td>78.75</td><td>68.75</td><td>76.39</td>
+                            <td>48.21</td>
+                        </tr>
+                        <tr class="group-header"><td colspan="7">EvoTrainer</td></tr>
+                        <tr class="highlight-row">
+                            <td><strong>EvoTrainer best</strong></td>
+                            <td><strong>31.49</strong> <span class="gain">+6.81</span></td>
+                            <td><strong>38.16</strong> <span class="gain">+7.97</span></td>
+                            <td><strong>84.17</strong> <span class="gain">+6.67</span></td>
+                            <td><strong>73.33</strong> <span class="gain">+5.83</span></td>
+                            <td><strong>81.94</strong> <span class="gain">+6.94</span></td>
+                            <td><strong>51.29</strong> <span class="gain">+4.58</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Citation -->
+    <section class="section" id="citation">
+        <div class="container">
+            <h2>Citation</h2>
+            <pre class="bibtex"><code>@article{chen2025evotrainer,
+  title   = {EvoTrainer: Co-Evolving LLM Policies and Training
+             Harnesses for Autonomous Agentic Reinforcement Learning},
+  author  = {Chen, Guhong and Shi, Yingcheng and Li, Yongbin and
+             Li, Binhua and Xu, Xander and Wei, Hu and
+             Ni, Shiwen and Yang, Min and Ye, Jieping},
+  journal = {arXiv preprint arXiv:2606.03108},
+  year    = {2025}
+}</code></pre>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>EvoTrainer &copy; 2025</p>
+        </div>
+    </footer>
+
+    <script src="js/demo.js"></script>
+</body>
+</html>
