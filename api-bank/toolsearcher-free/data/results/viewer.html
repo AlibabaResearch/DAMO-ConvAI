@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>API-Bank ToolSearcher-free — trajectory viewer</title>
+<style>
+  :root { --ok:#1a7f37; --bad:#b42318; --part:#9a6700; --acc:#1a63d2; --bg:#f6f8fa; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif; margin:0; background:var(--bg); color:#1f2328; line-height:1.5; }
+  header { background:linear-gradient(135deg,#0f2a5f,#1a63d2); color:#fff; padding:18px 22px; position:sticky; top:0; z-index:5; }
+  header h1 { margin:0; font-size:18px; }
+  header .sub { opacity:.85; font-size:12.5px; margin-top:2px; }
+  .controls { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:10px; }
+  .controls select, .controls button { padding:6px 12px; border-radius:6px; border:1px solid #c8d1d9; font-size:13px; background:#fff; cursor:pointer; }
+  .controls button.active { background:var(--acc); color:#fff; border-color:var(--acc); }
+  .counts { font-size:12.5px; opacity:.95; }
+  main { max-width:1000px; margin:0 auto; padding:18px 16px 60px; }
+  .summary { display:flex; gap:12px; flex-wrap:wrap; margin:6px 0 18px; }
+  .summary .m { background:#fff; border:1px solid #e3e6ea; border-radius:8px; padding:8px 14px; font-size:13px; }
+  .dp { background:#fff; border:1px solid #e3e6ea; border-radius:10px; margin:14px 0; box-shadow:0 1px 2px rgba(0,0,0,.05); overflow:hidden; }
+  .dp-head { padding:10px 14px; font-size:13px; border-bottom:1px solid #e3e6ea; display:flex; justify-content:space-between; gap:10px; align-items:center; flex-wrap:wrap; cursor:pointer; }
+  .dp-head:hover { background:#f6f8fa; }
+  .dp-title b { color:#0f2a5f; }
+  .badge { display:inline-block; padding:2px 10px; border-radius:999px; font-size:12px; font-weight:600; }
+  .badge.ok { background:#d3f9d8; color:var(--ok); }
+  .badge.part { background:#fff3cd; color:var(--part); }
+  .badge.fail { background:#ffe3e3; color:var(--bad); }
+  .dp-body { display:none; padding:6px 14px 16px; }
+  .dp.open .dp-body { display:block; }
+  .turns { margin:8px 0; }
+  .turn { padding:7px 10px; border-radius:6px; margin:6px 0; font-size:13px; }
+  .turn .rl { font-weight:700; font-size:11px; text-transform:uppercase; letter-spacing:.03em; margin-right:8px; }
+  .turn.user { background:#eef4ff; } .turn.user .rl { color:#1a63d2; }
+  .turn.assistant { background:#f6f8fa; } .turn.assistant .rl { color:#57606a; }
+  .turn.tool { background:#f0fff4; font-family:ui-monospace,SFMono-Regular,Consolas,monospace; font-size:12px; white-space:pre-wrap; word-break:break-all; } .turn.tool .rl { color:#1a7f37; }
+  .turn.system { background:#fff; border:1px dashed #c8d1d9; } .turn.system .rl { color:#57606a; }
+  .step { border:1px solid #e3e6ea; border-radius:8px; margin:10px 0; padding:10px 12px; background:#fbfcfe; }
+  .step h4 { margin:0 0 8px; font-size:13px; display:flex; align-items:center; gap:8px; }
+  .call { font-family:ui-monospace,SFMono-Regular,Consolas,monospace; font-size:12.5px; padding:6px 9px; border-radius:6px; margin:4px 0; word-break:break-all; }
+  .call.gold { background:#fff; border:1px solid #d0d7de; }
+  .call.pred { background:#fff; border:1px solid #d0d7de; }
+  .call.inline { white-space:pre-wrap; }
+  .call b { color:#57606a; font-weight:600; }
+  .lb { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.04em; margin-right:8px; }
+  .lb.g { color:var(--ok); } .lb.p { color:var(--bad); }
+  .lay { font-size:12px; color:#57606a; margin:2px 0; }
+  .rev { font-size:11px; color:#57606a; }
+  .empty { text-align:center; color:#57606a; padding:40px; font-size:14px; }
+  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  @media (max-width:700px){ .grid2 { grid-template-columns:1fr; } }
+  details pre { background:#0d1117; color:#e6edf3; padding:10px; border-radius:6px; font-size:12px; overflow:auto; }
+  .syslink { font-size:12px; color:#c9d9f5; text-decoration:underline; cursor:pointer; }
+</style>
+</head>
+<body>
+<header>
+  <h1>API-Bank ToolSearcher-free — trajectory viewer</h1>
+  <div class="sub">Model: Qwen/Qwen3.6-35B-A3B-FP8 · mode: text (API-Request JSON) · step-replay grading</div>
+  <div class="controls">
+    <select id="levelSel">
+      <option value="1">Level 1 — given-desc (368 dps)</option>
+      <option value="2">Level 2 — dialogues (49 dps)</option>
+      <option value="3f">Level 3 — full conversations (50 dps)</option>
+      <option value="3b">Level 3 — batch per-step (121 dps)</option>
+    </select>
+    <button data-f="all" class="active">All</button>
+    <button data-f="ok">Successful</button>
+    <button data-f="part">Partial args</button>
+    <button data-f="fail">Unsuccessful</button>
+    <span class="counts" id="counts"></span>
+  </div>
+</header>
+<main>
+  <div class="summary" id="summary"></div>
+  <div id="list"></div>
+  <div class="empty" id="empty" style="display:none">Loading trajectories…</div>
+</main>
+
+<script>
+const DATA = [
+  { key:"1", level:1, file:"results/l1_text.json", proc:"processed/level-1.jsonl", label:"Level 1 — given-desc" },
+  { key:"2", level:2, file:"results/l2_text.json", proc:"processed/level-2.jsonl", label:"Level 2 — dialogues" },
+  { key:"3f", level:3, file:"results/l3_full_text.json", proc:"processed/level-3.jsonl", label:"Level 3 — full" },
+  { key:"3b", level:3, file:"results/l3_batch_text.json", proc:"processed/level-3-batch.jsonl", label:"Level 3 — batch" },
+];
+let cache = {};          // key -> {results, proc}
+let curKey = "1", filter = "all";
+
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+function callStr(name,args){
+  if(!name) return "(no call)";
+  const parts = Object.entries(args||{}).map(([k,v])=>k+"="+JSON.stringify(v));
+  return name+"("+parts.join(", ")+")";
+}
+function renderCall(label, cls, name, args){
+  return `<div class="call ${cls}"><span class="lb ${cls==='gold'?'g':'p'}">${label}</span>${esc(callStr(name,args))}</div>`;
+}
+
+async function load(key){
+  if(cache[key]) return cache[key];
+  const {file, proc} = DATA.find(d=>d.key===key);
+  const [rj, pj] = await Promise.all([
+    fetch(file).then(r=>r.ok?r.json():null),
+    fetch(proc).then(r=>r.ok?r.text():null),
+  ]);
+  const results = rj ? rj.results : [];
+  const procRows = pj ? pj.trim().split("\n").map(l=>JSON.parse(l)) : [];
+  cache[key] = {results, procRows};
+  return cache[key];
+}
+
+function turnsHtml(msgs){
+  return `<div class="turns">` + (msgs||[]).map(m=>{
+    const rl = m.role; const body = esc(m.content || "");
+    if(rl==="tool") return `<div class="turn tool"><span class="rl">tool ⟶ ${esc(m.name||"")}</span>${body}</div>`;
+    return `<div class="turn ${rl}"><span class="rl">${rl}</span>${body}</div>`;
+  }).join("") + `</div>`;
+}
+
+function stepVerdict(v){
+  const {name_ok, args_exact, args_partial, args_fraction} = v;
+  if(name_ok && args_exact) return {cls:"ok", label:"SUCCESS", why:`tool + args exact (${args_fraction})`};
+  if(name_ok && args_partial) return {cls:"part", label:"PARTIAL ARGS", why:`tool correct, ${args_fraction|0*100}% of args match`};
+  if(name_ok) return {cls:"fail", label:"UNSUCCESSFUL (args)", why:`tool correct, <50% args match (${args_fraction})`};
+  return {cls:"fail", label:"UNSUCCESSFUL (tool)", why:`predicted ${v.pred.tool_name||"<nothing>"} instead of ${v.gold.tool_name}`};
+}
+
+function dpSuccessClass(res){
+  let anyFail = false;
+  for(const v of res.verdicts){ if(!(v.name_ok && v.args_exact)){ anyFail = true; break; } }
+  return anyFail ? "fail" : "ok";
+}
+
+function buildItem(dc, res, proc){
+  const okPerStep = res.verdicts.filter(v=>v.name_ok && v.args_exact).length;
+  const anyPart = res.verdicts.some(v=>v.name_ok && !v.args_exact && v.args_partial);
+  let cls = dpSuccessClass(res);
+  if(cls==="fail") cls = anyPart ? "part" : "fail";
+  let label = cls==="ok" ? "SUCCESS" : (cls==="part" ? "PARTIAL" : "UNSUCCESSFUL");
+
+  // combine message turns with step verdicts for level-2/3 full (multi-step)
+  let turns = turnsHtml(proc ? proc.messages : []);
+  let stepsHtml = "";
+  const stepCount = res.verdicts.length;
+
+  const goldReturns = (proc && proc.gold_tool_returns) || [];
+  res.verdicts.forEach((v,i)=>{
+    const vd = stepVerdict(v);
+    const goldRet = goldReturns[i] != null ? goldReturns[i] : "";
+    stepsHtml += `
+      <div class="step">
+        <h4>Step ${v.step+1}/${stepCount} <span class="badge ${vd.cls}">${vd.label}</span></h4>
+        <div class="lay">${esc(vd.why||"")}</div>
+        <div class="grid2">
+          <div>
+            ${renderCall("gold","gold", v.gold.tool_name, v.gold.arguments)}
+            ${goldRet ? `<div class="call gold" style="margin-top:6px"><b>GOLD RETURN</b><div class="lay" style="white-space:pre-wrap;word-break:break-all">${esc(goldRet)}</div></div>` : ""}
+          </div>
+          <div>${renderCall("pred","pred", v.pred.tool_name, v.pred.arguments)}</div>
+        </div>
+      </div>`;
+  });
+
+  const sysNote = (proc && proc.system_prompt)
+    ? `<details><summary class="rev">show system prompt (${esc((proc.system_prompt||"").length)} chars)</summary><pre>${esc(proc.system_prompt||"").slice(0,12000)}</pre></details>`
+    : "";
+
+  return `
+  <div class="dp${""}">
+    <div class="dp-head">
+      <span class="dp-title"><b>#${res.id}</b> · <span class="badge ${cls}">${label}</span> ·
+        ${stepCount} step${stepCount>1?"s":""} · ${okPerStep}/${stepCount} exact</span>
+      <span class="rev">${esc(res.source_file||"")}</span>
+    </div>
+    <div class="dp-body">
+      <details open><summary class="rev">conversation / context</summary>${turns}</details>
+      ${sysNote}
+      ${stepsHtml}
+      ${res.no_call ? `<div class="step"><h4><span class="badge fail">NO CALL</span></h4><div class="lay">model produced no parseable tool call</div></div>` : ""}
+      ${res.error ? `<div class="step"><h4><span class="badge fail">LLM ERROR</span></h4><div class="lay">${esc(res.error)}</div></div>` : ""}
+    </div>
+  </div>`;
+}
+
+async function render(){
+  const {results, procRows} = await load(curKey);
+  // index procRows by id
+  const procById = {};
+  procRows.forEach(p=>{ procById[p.id] = p; });
+  const all = results.map(r=>({...r, _proc: procById[r.id]}));
+
+  let list = all.filter(r=>{
+    if(filter==="all") return true;
+    const cls = dpSuccessClass(r);
+    if(filter==="ok") return cls==="ok";
+    if(filter==="fail") return cls==="fail";
+    if(filter==="part") return cls==="fail" && r.verdicts.some(v=>v.name_ok && !v.args_exact && v.args_partial);
+    return true;
+  });
+
+  // decorate each with per-dp class for color chips
+  const okN = all.filter(r=>dpSuccessClass(r)==="ok").length;
+  const failN = all.length - okN;
+  const partN = all.filter(r=>dpSuccessClass(r)==="fail" && r.verdicts.some(v=>v.name_ok && !v.args_exact && v.args_partial)).length;
+
+  document.getElementById("summary").innerHTML = `
+    <div class="m">datapoints: <b>${all.length}</b></div>
+    <div class="m">successful: <b>${okN}</b> (${all.length?Math.round(100*okN/all.length):0}%)</div>
+    <div class="m">partial args: <b>${partN}</b></div>
+    <div class="m">unsuccessful: <b>${failN}</b></div>`;
+
+  const listEl = document.getElementById("list");
+  if(list.length===0){
+    document.getElementById("empty").style.display="block";
+    document.getElementById("empty").textContent="No datapoints match this filter.";
+    listEl.innerHTML="";
+  } else {
+    document.getElementById("empty").style.display="none";
+    listEl.innerHTML = list.map(r=>buildItem(this, r, r._proc)).join("");
+  }
+
+  // expand all toggle
+  const heads = listEl.querySelectorAll(".dp-head");
+  heads.forEach(h=>h.addEventListener("click", ()=>h.parentElement.classList.toggle("open")));
+  // expand first N
+  heads.forEach((h,i)=>{ if(i<3) h.parentElement.classList.add("open"); });
+
+  document.getElementById("counts").textContent =
+    `${list.length} / ${all.length} datapoints shown`;
+}
+
+document.getElementById("levelSel").addEventListener("change", e=>{
+  curKey = e.target.value; filter="all";
+  document.querySelectorAll(".controls button").forEach(b=>b.classList.toggle("active", b.dataset.f==="all"));
+  render();
+});
+document.querySelectorAll(".controls button[data-f]").forEach(b=>{
+  b.addEventListener("click", ()=>{
+    filter = b.dataset.f;
+    document.querySelectorAll(".controls button[data-f]").forEach(x=>x.classList.toggle("active", x===b));
+    render();
+  });
+});
+
+render();
+</script>
+</body>
+</html>
