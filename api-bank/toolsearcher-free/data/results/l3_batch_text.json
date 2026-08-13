@@ -1,0 +1,3968 @@
+{
+  "endpoint": "https://176.108.242.226:443/v1/chat/completions",
+  "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+  "mode": "text",
+  "level": 3,
+  "variant": "batch",
+  "datapoints_graded": 121,
+  "results": [
+    {
+      "id": 1,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "QueryMeeting",
+            "arguments": {
+              "user_name": "John"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryMeeting",
+            "arguments": {
+              "token": "placeholder_token",
+              "meeting_topic": "John",
+              "start_time": "2023-10-01 09:00:00",
+              "end_time": "2023-10-01 10:00:00",
+              "location": "Conference Room A",
+              "attendees": [
+                "John"
+              ]
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 3,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "EmailReminder",
+            "arguments": {
+              "content": "Meeting with the client will be held at Room 1. Please be there on time.",
+              "time": "2021-01-01 10:00:00",
+              "location": "Room 1",
+              "recipient": "john@example.com"
+            }
+          },
+          "pred": {
+            "tool_name": "EmailReminder",
+            "arguments": {
+              "content": "Meeting with the client",
+              "time": "2021-01-01 10:00:00",
+              "location": "Room 1",
+              "recipient": "john@example.com"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": true,
+          "args_fraction": 0.75,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 4,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "EmailReminder",
+            "arguments": {
+              "content": "Meeting about the new project will be held at Room 2. Please be there on time.",
+              "time": "2021-01-02 10:00:00",
+              "location": "Room 2",
+              "recipient": "john@example.com"
+            }
+          },
+          "pred": {
+            "tool_name": "EmailReminder",
+            "arguments": {
+              "content": "Meeting about the new project will be held at Room 2. Please be there on time.",
+              "time": "2021-01-02 10:00:00",
+              "location": "Room 2",
+              "recipient": "john@example.com"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 6,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "QueryMeeting",
+            "arguments": {
+              "user_name": "Mary"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryMeeting",
+            "arguments": {
+              "token": "dummy_token",
+              "meeting_topic": "Mary",
+              "start_time": "2023-10-01 09:00:00",
+              "end_time": "2023-10-01 10:00:00",
+              "location": "Conference Room A",
+              "attendees": [
+                "Mary"
+              ]
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 8,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "EmailReminder",
+            "arguments": {
+              "content": "Meeting with the client will be held at Room 1. Please be there on time.",
+              "time": "2021-01-01 10:00:00",
+              "location": "Room 1",
+              "recipient": "mary@example.com"
+            }
+          },
+          "pred": {
+            "tool_name": "EmailReminder",
+            "arguments": {
+              "content": "Meeting with the client",
+              "time": "2021-01-01 10:00:00",
+              "location": "Room 1",
+              "recipient": "mary@example.com"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": true,
+          "args_fraction": 0.75,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 10,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "QueryMeeting",
+            "arguments": {
+              "user_name": "Peter"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryMeeting",
+            "arguments": {
+              "token": "user_token",
+              "meeting_topic": "Peter",
+              "start_time": "2023-10-01 09:00:00",
+              "end_time": "2023-10-01 10:00:00",
+              "location": "Conference Room A",
+              "attendees": [
+                "Peter"
+              ]
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 12,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "EmailReminder",
+            "arguments": {
+              "content": "Meeting with the client will be held at Room 1. Please be there on time.",
+              "time": "2021-01-01 10:00:00",
+              "location": "Room 1",
+              "recipient": "peter@example.com"
+            }
+          },
+          "pred": {
+            "tool_name": "EmailReminder",
+            "arguments": {
+              "content": "Meeting with the client",
+              "time": "2021-01-01 10:00:00",
+              "location": "Room 1",
+              "recipient": "peter@example.com"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": true,
+          "args_fraction": 0.75,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 14,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "QueryMeeting",
+            "arguments": {
+              "user_name": "Tom"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryMeeting",
+            "arguments": {
+              "token": "TomToken",
+              "meeting_topic": "Tom Meeting",
+              "start_time": "2023-10-01 09:00:00",
+              "end_time": "2023-10-01 10:00:00",
+              "location": "Conference Room A",
+              "attendees": [
+                "Tom"
+              ]
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 16,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "EmailReminder",
+            "arguments": {
+              "content": "Meeting will be held at Room 1. Please be there on time.",
+              "time": "2021-01-01 10:00:00",
+              "location": "Room 1",
+              "recipient": "tom@example.com"
+            }
+          },
+          "pred": {
+            "tool_name": "EmailReminder",
+            "arguments": {
+              "content": "Meeting: Meeting, Time: 2021-01-01 10:00:00, Location: Room 1",
+              "time": "2021-01-01 10:00:00",
+              "location": "Room 1",
+              "recipient": "tom@example.com"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": true,
+          "args_fraction": 0.75,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 18,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "QueryMeeting",
+            "arguments": {
+              "user_name": "Jerry"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryMeeting",
+            "arguments": {
+              "token": "JerryToken",
+              "meeting_topic": "Jerry Meeting",
+              "start_time": "2023-10-01 09:00:00",
+              "end_time": "2023-10-01 10:00:00",
+              "location": "Conference Room A",
+              "attendees": [
+                "Jerry"
+              ]
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 20,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "EmailReminder",
+            "arguments": {
+              "content": "Meeting will be held at Room 1. Please be there on time.",
+              "time": "2021-01-01 10:00:00",
+              "location": "Room 1",
+              "recipient": "jerry@example.com"
+            }
+          },
+          "pred": {
+            "tool_name": "EmailReminder",
+            "arguments": {
+              "content": "Meeting: Meeting, Time: 2021-01-01 10:00:00, Location: Room 1",
+              "time": "2021-01-01 10:00:00",
+              "location": "Room 1",
+              "recipient": "jerry@example.com"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": true,
+          "args_fraction": 0.75,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 22,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": "40.7128",
+              "longitude": "74.0060"
+            }
+          },
+          "pred": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": 40.7128,
+              "longitude": 74.006
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 24,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "ClothingRecommendation",
+            "arguments": {
+              "temperature": "10",
+              "humidity": "0.5",
+              "weather_conditions": "Clear"
+            }
+          },
+          "pred": {
+            "tool_name": "ClothingRecommendation",
+            "arguments": {
+              "temperature": 10.0,
+              "humidity": 0.5,
+              "weather_conditions": "Clear"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 26,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": "37.7749",
+              "longitude": "122.4194"
+            }
+          },
+          "pred": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": 37.7749,
+              "longitude": 122.4194
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 28,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "ClothingRecommendation",
+            "arguments": {
+              "temperature": "20",
+              "humidity": "0.8",
+              "weather_conditions": "Cloudy"
+            }
+          },
+          "pred": {
+            "tool_name": "ClothingRecommendation",
+            "arguments": {
+              "temperature": 20.0,
+              "humidity": 0.8,
+              "weather_conditions": "Cloudy"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 30,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": "51.5074",
+              "longitude": "0.1278"
+            }
+          },
+          "pred": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": 51.5074,
+              "longitude": 0.1278
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 32,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "ClothingRecommendation",
+            "arguments": {
+              "temperature": "5",
+              "humidity": "0.9",
+              "weather_conditions": "Rainy"
+            }
+          },
+          "pred": {
+            "tool_name": "ClothingRecommendation",
+            "arguments": {
+              "temperature": 5.0,
+              "humidity": 0.9,
+              "weather_conditions": "Rainy"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 34,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": "48.8566",
+              "longitude": "2.3522"
+            }
+          },
+          "pred": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": 48.8566,
+              "longitude": 2.3522
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 36,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "ClothingRecommendation",
+            "arguments": {
+              "temperature": "15",
+              "humidity": "0.7",
+              "weather_conditions": "Sunny"
+            }
+          },
+          "pred": {
+            "tool_name": "ClothingRecommendation",
+            "arguments": {
+              "temperature": 15.0,
+              "humidity": 70.0,
+              "weather_conditions": "Sunny"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": true,
+          "args_fraction": 0.667,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 38,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": "35.6762",
+              "longitude": "139.6503"
+            }
+          },
+          "pred": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": 35.6762,
+              "longitude": 139.6503
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 40,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "ClothingRecommendation",
+            "arguments": {
+              "temperature": "25",
+              "humidity": "0.6",
+              "weather_conditions": "Rainy"
+            }
+          },
+          "pred": {
+            "tool_name": "ClothingRecommendation",
+            "arguments": {
+              "temperature": 25.0,
+              "humidity": 0.6,
+              "weather_conditions": "Rainy"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 42,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "OrganizationMembers",
+            "arguments": {
+              "organization": "Alibaba"
+            }
+          },
+          "pred": {
+            "tool_name": "OrganizationMembers",
+            "arguments": {
+              "organization": "Alibaba"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 44,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "John"
+            }
+          },
+          "pred": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "John"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 45,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Mary"
+            }
+          },
+          "pred": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Mary"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 46,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Peter"
+            }
+          },
+          "pred": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Peter"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 50,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "OrganizationMembers",
+            "arguments": {
+              "organization": "Tencent"
+            }
+          },
+          "pred": {
+            "tool_name": "OrganizationMembers",
+            "arguments": {
+              "organization": "Tencent"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 52,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Tom"
+            }
+          },
+          "pred": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Tom"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 53,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Jerry"
+            }
+          },
+          "pred": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Jerry"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 57,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "OrganizationMembers",
+            "arguments": {
+              "organization": "Baidu"
+            }
+          },
+          "pred": {
+            "tool_name": "OrganizationMembers",
+            "arguments": {
+              "organization": "Baidu"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 59,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Jack"
+            }
+          },
+          "pred": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Jack"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 60,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Rose"
+            }
+          },
+          "pred": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Rose"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 64,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "OrganizationMembers",
+            "arguments": {
+              "organization": "ByteDance"
+            }
+          },
+          "pred": {
+            "tool_name": "OrganizationMembers",
+            "arguments": {
+              "organization": "ByteDance"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 66,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Bob"
+            }
+          },
+          "pred": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Bob"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 67,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Alice"
+            }
+          },
+          "pred": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Alice"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 71,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "OrganizationMembers",
+            "arguments": {
+              "organization": "JD"
+            }
+          },
+          "pred": {
+            "tool_name": "OrganizationMembers",
+            "arguments": {
+              "organization": "JD"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 73,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Mike"
+            }
+          },
+          "pred": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Mike"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 74,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 0,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "TravelStatus",
+            "arguments": {
+              "member_name": "Jane"
+            }
+          },
+          "pred": {
+            "tool_name": null,
+            "arguments": {}
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": true,
+      "error": null
+    },
+    {
+      "id": 78,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "Geocoding",
+            "arguments": {
+              "address": "New York City"
+            }
+          },
+          "pred": {
+            "tool_name": "NearbyRestaurants",
+            "arguments": {
+              "latitude": 40.7128,
+              "longitude": -74.006,
+              "distance": 1000
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 80,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "NearbyRestaurants",
+            "arguments": {
+              "latitude": "40.7128",
+              "longitude": "74.0060",
+              "distance": "1000"
+            }
+          },
+          "pred": {
+            "tool_name": "NearbyRestaurants",
+            "arguments": {
+              "latitude": 40.7128,
+              "longitude": -74.006,
+              "distance": 1000
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": true,
+          "args_fraction": 0.667,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 82,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "Geocoding",
+            "arguments": {
+              "address": "San Francisco"
+            }
+          },
+          "pred": {
+            "tool_name": "NearbyRestaurants",
+            "arguments": {
+              "latitude": 37.7749,
+              "longitude": -122.4194,
+              "distance": 1000
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 84,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "NearbyRestaurants",
+            "arguments": {
+              "latitude": "37.7749",
+              "longitude": "122.4194",
+              "distance": "1000"
+            }
+          },
+          "pred": {
+            "tool_name": "NearbyRestaurants",
+            "arguments": {
+              "latitude": 37.7749,
+              "longitude": -122.4194,
+              "distance": 1000
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": true,
+          "args_fraction": 0.667,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 86,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "Geocoding",
+            "arguments": {
+              "address": "London"
+            }
+          },
+          "pred": {
+            "tool_name": "NearbyRestaurants",
+            "arguments": {
+              "latitude": 51.5074,
+              "longitude": -0.1278,
+              "distance": 1000
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 88,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "NearbyRestaurants",
+            "arguments": {
+              "latitude": "51.5074",
+              "longitude": "0.1278",
+              "distance": "1000"
+            }
+          },
+          "pred": {
+            "tool_name": "NearbyRestaurants",
+            "arguments": {
+              "latitude": 51.5074,
+              "longitude": 0.1278,
+              "distance": 1000
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 90,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "Geocoding",
+            "arguments": {
+              "address": "Paris"
+            }
+          },
+          "pred": {
+            "tool_name": "NearbyRestaurants",
+            "arguments": {
+              "latitude": 48.8566,
+              "longitude": 2.3522,
+              "distance": 1000
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 92,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "NearbyRestaurants",
+            "arguments": {
+              "latitude": "48.8566",
+              "longitude": "2.3522",
+              "distance": "1000"
+            }
+          },
+          "pred": {
+            "tool_name": "NearbyRestaurants",
+            "arguments": {
+              "latitude": 48.8566,
+              "longitude": 2.3522,
+              "distance": 1000
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 94,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "Geocoding",
+            "arguments": {
+              "address": "Tokyo"
+            }
+          },
+          "pred": {
+            "tool_name": "NearbyRestaurants",
+            "arguments": {
+              "latitude": 35.6762,
+              "longitude": 139.6503,
+              "distance": 1000
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 96,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "NearbyRestaurants",
+            "arguments": {
+              "latitude": "35.6762",
+              "longitude": "139.6503",
+              "distance": "1000"
+            }
+          },
+          "pred": {
+            "tool_name": "NearbyRestaurants",
+            "arguments": {
+              "latitude": 35.6762,
+              "longitude": 139.6503,
+              "distance": 1000
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 98,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "UserMoviePreferences",
+            "arguments": {
+              "user_name": "John"
+            }
+          },
+          "pred": {
+            "tool_name": "UserMoviePreferences",
+            "arguments": {
+              "user_name": "John"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 100,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "UserWatchedMovies",
+            "arguments": {
+              "user_name": "John"
+            }
+          },
+          "pred": {
+            "tool_name": "UserWatchedMovies",
+            "arguments": {
+              "user_name": "John"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 104,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "UserMoviePreferences",
+            "arguments": {
+              "user_name": "Mary"
+            }
+          },
+          "pred": {
+            "tool_name": "UserMoviePreferences",
+            "arguments": {
+              "user_name": "Mary"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 106,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 0,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "UserWatchedMovies",
+            "arguments": {
+              "user_name": "Mary"
+            }
+          },
+          "pred": {
+            "tool_name": null,
+            "arguments": {}
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": true,
+      "error": null
+    },
+    {
+      "id": 110,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "UserMoviePreferences",
+            "arguments": {
+              "user_name": "Peter"
+            }
+          },
+          "pred": {
+            "tool_name": "UserMoviePreferences",
+            "arguments": {
+              "user_name": "Peter"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 112,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 0,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "UserWatchedMovies",
+            "arguments": {
+              "user_name": "Peter"
+            }
+          },
+          "pred": {
+            "tool_name": null,
+            "arguments": {}
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": true,
+      "error": null
+    },
+    {
+      "id": 116,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "UserMoviePreferences",
+            "arguments": {
+              "user_name": "Tom"
+            }
+          },
+          "pred": {
+            "tool_name": "UserMoviePreferences",
+            "arguments": {
+              "user_name": "Tom"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 118,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 0,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "UserWatchedMovies",
+            "arguments": {
+              "user_name": "Tom"
+            }
+          },
+          "pred": {
+            "tool_name": null,
+            "arguments": {}
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": true,
+      "error": null
+    },
+    {
+      "id": 122,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "UserMoviePreferences",
+            "arguments": {
+              "user_name": "Jerry"
+            }
+          },
+          "pred": {
+            "tool_name": "UserMoviePreferences",
+            "arguments": {
+              "user_name": "Jerry"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 124,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 0,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "UserWatchedMovies",
+            "arguments": {
+              "user_name": "Jerry"
+            }
+          },
+          "pred": {
+            "tool_name": null,
+            "arguments": {}
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": true,
+      "error": null
+    },
+    {
+      "id": 128,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "UserPosts",
+            "arguments": {
+              "user_id": "2"
+            }
+          },
+          "pred": {
+            "tool_name": "UserPosts",
+            "arguments": {
+              "user_id": 2
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 130,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "4"
+            }
+          },
+          "pred": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "4"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 131,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "5"
+            }
+          },
+          "pred": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "5"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 132,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "6"
+            }
+          },
+          "pred": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "6"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 134,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "Calculator",
+            "arguments": {
+              "formula": "40+50+60"
+            }
+          },
+          "pred": {
+            "tool_name": "Calculator",
+            "arguments": {
+              "formula": "40 + 50 + 60"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 136,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "UserPosts",
+            "arguments": {
+              "user_id": "1"
+            }
+          },
+          "pred": {
+            "tool_name": "UserPosts",
+            "arguments": {
+              "user_id": 1
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 138,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "1"
+            }
+          },
+          "pred": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "1"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 139,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "2"
+            }
+          },
+          "pred": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "2"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 140,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "3"
+            }
+          },
+          "pred": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "3"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 142,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "Calculator",
+            "arguments": {
+              "formula": "(10+20+30)"
+            }
+          },
+          "pred": {
+            "tool_name": "Calculator",
+            "arguments": {
+              "formula": "10 + 20 + 30"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 144,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "UserPosts",
+            "arguments": {
+              "user_id": "3"
+            }
+          },
+          "pred": {
+            "tool_name": "UserPosts",
+            "arguments": {
+              "user_id": 3
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 146,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "7"
+            }
+          },
+          "pred": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "7"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 147,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "8"
+            }
+          },
+          "pred": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "8"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 148,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "9"
+            }
+          },
+          "pred": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "9"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 150,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "Calculator",
+            "arguments": {
+              "formula": "30 / 3"
+            }
+          },
+          "pred": {
+            "tool_name": "Calculator",
+            "arguments": {
+              "formula": "70 + 80 + 90"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 152,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "UserPosts",
+            "arguments": {
+              "user_id": "4"
+            }
+          },
+          "pred": {
+            "tool_name": "UserPosts",
+            "arguments": {
+              "user_id": 4
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 154,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "10"
+            }
+          },
+          "pred": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": 10
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 155,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "11"
+            }
+          },
+          "pred": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "11"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 156,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "12"
+            }
+          },
+          "pred": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "12"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 158,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "UserPosts",
+            "arguments": {
+              "user_id": "5"
+            }
+          },
+          "pred": {
+            "tool_name": "UserPosts",
+            "arguments": {
+              "user_id": 5
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 160,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "13"
+            }
+          },
+          "pred": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "13"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 161,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "14"
+            }
+          },
+          "pred": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "14"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 162,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "15"
+            }
+          },
+          "pred": {
+            "tool_name": "LikeCount",
+            "arguments": {
+              "post_id": "15"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 164,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "Calculator",
+            "arguments": {
+              "formula": "130+140+150"
+            }
+          },
+          "pred": {
+            "tool_name": "Calculator",
+            "arguments": {
+              "formula": "130 + 140 + 150"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 166,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "Geocoding",
+            "arguments": {
+              "address": "New York City"
+            }
+          },
+          "pred": {
+            "tool_name": "Geocoding",
+            "arguments": {
+              "address": "New York City"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 168,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": "40.7128",
+              "longitude": "74.0060"
+            }
+          },
+          "pred": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": 40.7128,
+              "longitude": -74.006
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": true,
+          "args_fraction": 0.5,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 170,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "Geocoding",
+            "arguments": {
+              "address": "San Francisco"
+            }
+          },
+          "pred": {
+            "tool_name": "Geocoding",
+            "arguments": {
+              "address": "San Francisco"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 172,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": "37.7749",
+              "longitude": "122.4194"
+            }
+          },
+          "pred": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": 37.7749,
+              "longitude": -122.4194
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": true,
+          "args_fraction": 0.5,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 174,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "Geocoding",
+            "arguments": {
+              "address": "London"
+            }
+          },
+          "pred": {
+            "tool_name": "Geocoding",
+            "arguments": {
+              "address": "London"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 176,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": "51.5074",
+              "longitude": "0.1278"
+            }
+          },
+          "pred": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": 51.5074,
+              "longitude": 0.1278
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 178,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "Geocoding",
+            "arguments": {
+              "address": "Paris"
+            }
+          },
+          "pred": {
+            "tool_name": "Geocoding",
+            "arguments": {
+              "address": "Paris"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 180,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": "48.8566",
+              "longitude": "2.3522"
+            }
+          },
+          "pred": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": 48.8566,
+              "longitude": 2.3522
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 182,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "Geocoding",
+            "arguments": {
+              "address": "Tokyo"
+            }
+          },
+          "pred": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": 35.6762,
+              "longitude": 139.6503
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 184,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": "35.6762",
+              "longitude": "139.6503"
+            }
+          },
+          "pred": {
+            "tool_name": "GetWeatherForCoordinates",
+            "arguments": {
+              "latitude": 35.6762,
+              "longitude": 139.6503
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 186,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "FlightSearch",
+            "arguments": {
+              "source": "New York",
+              "destination": "San Francisco",
+              "travel_dates": "2022-01-01"
+            }
+          },
+          "pred": {
+            "tool_name": "FlightSearch",
+            "arguments": {
+              "source": "New York",
+              "destination": "Los Angeles",
+              "travel_dates": "2023-12-01"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.333,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 188,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "HotelAvailability",
+            "arguments": {
+              "destination": "San Francisco",
+              "check_in_date": "2022-01-01",
+              "check_out_date": "2022-01-02"
+            }
+          },
+          "pred": {
+            "tool_name": "HotelAvailability",
+            "arguments": {
+              "destination": "San Francisco",
+              "check_in_date": "2022-01-01",
+              "check_out_date": "2022-01-02"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 190,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "FlightSearch",
+            "arguments": {
+              "source": "Los Angeles",
+              "destination": "San Francisco",
+              "travel_dates": "2022-01-02"
+            }
+          },
+          "pred": {
+            "tool_name": "FlightSearch",
+            "arguments": {
+              "source": "Los Angeles",
+              "destination": "San Francisco",
+              "travel_dates": "2022-01-02"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 192,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "HotelAvailability",
+            "arguments": {
+              "destination": "San Francisco",
+              "check_in_date": "2022-01-02",
+              "check_out_date": "2022-01-03"
+            }
+          },
+          "pred": {
+            "tool_name": "HotelAvailability",
+            "arguments": {
+              "destination": "San Francisco",
+              "check_in_date": "2022-01-02",
+              "check_out_date": "2022-01-03"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 194,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "FlightSearch",
+            "arguments": {
+              "source": "London",
+              "destination": "San Francisco",
+              "travel_dates": "2022-01-03"
+            }
+          },
+          "pred": {
+            "tool_name": "FlightSearch",
+            "arguments": {
+              "source": "London",
+              "destination": "San Francisco",
+              "travel_dates": "2022-01-03"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 196,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "HotelAvailability",
+            "arguments": {
+              "destination": "San Francisco",
+              "check_in_date": "2022-01-03",
+              "check_out_date": "2022-01-04"
+            }
+          },
+          "pred": {
+            "tool_name": "HotelAvailability",
+            "arguments": {
+              "destination": "San Francisco",
+              "check_in_date": "2022-01-03",
+              "check_out_date": "2022-01-04"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 198,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "FlightSearch",
+            "arguments": {
+              "source": "New York",
+              "destination": "London",
+              "travel_dates": "2022-01-04"
+            }
+          },
+          "pred": {
+            "tool_name": "FlightSearch",
+            "arguments": {
+              "source": "New York",
+              "destination": "London",
+              "travel_dates": "2022-01-04"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 200,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "HotelAvailability",
+            "arguments": {
+              "destination": "London",
+              "check_in_date": "2022-01-04",
+              "check_out_date": "2022-01-05"
+            }
+          },
+          "pred": {
+            "tool_name": "HotelAvailability",
+            "arguments": {
+              "destination": "London",
+              "check_in_date": "2022-01-04",
+              "check_out_date": "2022-01-05"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 202,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "FlightSearch",
+            "arguments": {
+              "source": "New York",
+              "destination": "Los Angeles",
+              "travel_dates": "2022-01-05"
+            }
+          },
+          "pred": {
+            "tool_name": "FlightSearch",
+            "arguments": {
+              "source": "New York",
+              "destination": "Los Angeles",
+              "travel_dates": "2022-01-05"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 204,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "HotelAvailability",
+            "arguments": {
+              "destination": "Los Angeles",
+              "check_in_date": "2022-01-05",
+              "check_out_date": "2022-01-06"
+            }
+          },
+          "pred": {
+            "tool_name": "HotelAvailability",
+            "arguments": {
+              "destination": "Los Angeles",
+              "check_in_date": "2022-01-05",
+              "check_out_date": "2022-01-06"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 206,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetOccupationSalary",
+            "arguments": {
+              "occupation": "Financial Analyst"
+            }
+          },
+          "pred": {
+            "tool_name": "GetOccupationSalary",
+            "arguments": {
+              "occupation": "Financial Analyst"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 208,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "TaxCalculator",
+            "arguments": {
+              "salary": "100000"
+            }
+          },
+          "pred": {
+            "tool_name": "TaxCalculator",
+            "arguments": {
+              "salary": 100000
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 210,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetOccupationSalary",
+            "arguments": {
+              "occupation": "Software Engineer"
+            }
+          },
+          "pred": {
+            "tool_name": "GetOccupationSalary",
+            "arguments": {
+              "occupation": "Software Engineer"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 212,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "TaxCalculator",
+            "arguments": {
+              "salary": "120000"
+            }
+          },
+          "pred": {
+            "tool_name": "TaxCalculator",
+            "arguments": {
+              "salary": 120000
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 214,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetOccupationSalary",
+            "arguments": {
+              "occupation": "Data Scientist"
+            }
+          },
+          "pred": {
+            "tool_name": "GetOccupationSalary",
+            "arguments": {
+              "occupation": "Data Scientist"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 216,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "TaxCalculator",
+            "arguments": {
+              "salary": "150000"
+            }
+          },
+          "pred": {
+            "tool_name": "TaxCalculator",
+            "arguments": {
+              "salary": 150000
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 218,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetOccupationSalary",
+            "arguments": {
+              "occupation": "Product Manager"
+            }
+          },
+          "pred": {
+            "tool_name": "GetOccupationSalary",
+            "arguments": {
+              "occupation": "Product Manager"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 220,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "TaxCalculator",
+            "arguments": {
+              "salary": "130000"
+            }
+          },
+          "pred": {
+            "tool_name": "TaxCalculator",
+            "arguments": {
+              "salary": 130000
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 222,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetOccupationSalary",
+            "arguments": {
+              "occupation": "Doctor"
+            }
+          },
+          "pred": {
+            "tool_name": "GetOccupationSalary",
+            "arguments": {
+              "occupation": "Doctor"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 224,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "TaxCalculator",
+            "arguments": {
+              "salary": "200000"
+            }
+          },
+          "pred": {
+            "tool_name": "TaxCalculator",
+            "arguments": {
+              "salary": 200000
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 226,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "AccountInfo",
+            "arguments": {
+              "username": "John",
+              "password": "123456"
+            }
+          },
+          "pred": {
+            "tool_name": "PersonalInfoUpdate",
+            "arguments": {
+              "username": "John",
+              "password": "123456",
+              "address": "123 Main St"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 228,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "PersonalInfoUpdate",
+            "arguments": {
+              "username": "John",
+              "password": "123456",
+              "address": "123 Main St"
+            }
+          },
+          "pred": {
+            "tool_name": "PersonalInfoUpdate",
+            "arguments": {
+              "username": "John",
+              "password": "123456",
+              "address": "123 Main St"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 230,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "AccountInfo",
+            "arguments": {
+              "username": "Mary",
+              "password": "abcdef"
+            }
+          },
+          "pred": {
+            "tool_name": "PersonalInfoUpdate",
+            "arguments": {
+              "username": "Mary",
+              "password": "abcdef",
+              "address": "456 Main St"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 232,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "PersonalInfoUpdate",
+            "arguments": {
+              "username": "Mary",
+              "password": "abcdef",
+              "address": "456 Main St"
+            }
+          },
+          "pred": {
+            "tool_name": "PersonalInfoUpdate",
+            "arguments": {
+              "username": "Mary",
+              "password": "abcdef",
+              "address": "456 Main St"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 234,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "AccountInfo",
+            "arguments": {
+              "username": "Peter",
+              "password": "qwerty"
+            }
+          },
+          "pred": {
+            "tool_name": "PersonalInfoUpdate",
+            "arguments": {
+              "username": "Peter",
+              "password": "qwerty",
+              "address": "789 Main St"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 236,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "PersonalInfoUpdate",
+            "arguments": {
+              "username": "Peter",
+              "password": "qwerty",
+              "address": "789 Main St"
+            }
+          },
+          "pred": {
+            "tool_name": "PersonalInfoUpdate",
+            "arguments": {
+              "username": "Peter",
+              "password": "qwerty",
+              "address": "789 Main St"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 238,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "AccountInfo",
+            "arguments": {
+              "username": "Tom",
+              "password": "asdfgh"
+            }
+          },
+          "pred": {
+            "tool_name": "PersonalInfoUpdate",
+            "arguments": {
+              "username": "Tom",
+              "password": "asdfgh",
+              "address": "012 Main St"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 240,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "PersonalInfoUpdate",
+            "arguments": {
+              "username": "Tom",
+              "password": "asdfgh",
+              "address": "012 Main St"
+            }
+          },
+          "pred": {
+            "tool_name": "PersonalInfoUpdate",
+            "arguments": {
+              "username": "Tom",
+              "password": "asdfgh",
+              "address": "012 Main St"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 242,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "AccountInfo",
+            "arguments": {
+              "username": "Jerry",
+              "password": "zxcvbn"
+            }
+          },
+          "pred": {
+            "tool_name": "PersonalInfoUpdate",
+            "arguments": {
+              "username": "Jerry",
+              "password": "zxcvbn",
+              "address": "345 Main St"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 244,
+      "level": 3,
+      "source_file": "level-3-batch",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "PersonalInfoUpdate",
+            "arguments": {
+              "username": "Jerry",
+              "password": "zxcvbn",
+              "address": "345 Main St"
+            }
+          },
+          "pred": {
+            "tool_name": "PersonalInfoUpdate",
+            "arguments": {
+              "username": "Jerry",
+              "password": "zxcvbn",
+              "address": "345 Main St"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,2015 @@
+{
+  "endpoint": "https://176.108.242.226:443/v1/chat/completions",
+  "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+  "mode": "text",
+  "level": 2,
+  "variant": "full",
+  "datapoints_graded": 49,
+  "results": [
+    {
+      "id": 0,
+      "level": 2,
+      "source_file": "QueryHistoryToday-level-3-3.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "QueryHistoryToday",
+            "arguments": {
+              "date": "10-06"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryHistoryToday",
+            "arguments": {
+              "date": "10-06"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 1,
+      "level": 2,
+      "source_file": "QueryReminder-level-3-1.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "user2",
+              "password": "user2pass"
+            }
+          },
+          "pred": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "user2",
+              "password": "user2pass"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 2,
+      "level": 2,
+      "source_file": "QueryStock-level-3-1.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "QueryStock",
+            "arguments": {
+              "stock_code": "MSFT",
+              "date": "2022-02-04"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryStock",
+            "arguments": {
+              "stock_code": "MSFT",
+              "date": "2022-02-04"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 3,
+      "level": 2,
+      "source_file": "DeleteAgenda-level-3-1.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 2,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "JohnDoe",
+              "password": "pass123"
+            }
+          },
+          "pred": {
+            "tool_name": "DeleteAgenda",
+            "arguments": {
+              "token": "user_token",
+              "content": "meeting with the client",
+              "time": "2024-03-18 14:00:00",
+              "location": "123 Main St"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "DeleteAgenda",
+            "arguments": {
+              "token": "a9s8d7f6g5h4j3k2l1",
+              "content": "Meeting with client",
+              "time": "2023-03-18 14:00:00",
+              "location": "123 Main St"
+            }
+          },
+          "pred": {
+            "tool_name": "DeleteAgenda",
+            "arguments": {
+              "token": "a9s8d7f6g5h4j3k2l1",
+              "content": "meeting with the client",
+              "time": "2024-03-18 14:00:00",
+              "location": "123 Main St"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": true,
+          "args_fraction": 0.5,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 4,
+      "level": 2,
+      "source_file": "Calculator-level-3-2.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "Calculator",
+            "arguments": {
+              "formula": "8*8"
+            }
+          },
+          "pred": {
+            "tool_name": "Calculator",
+            "arguments": {
+              "formula": "8 * 8"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 5,
+      "level": 2,
+      "source_file": "GetToday-level-3-1.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetToday",
+            "arguments": {}
+          },
+          "pred": {
+            "tool_name": "GetToday",
+            "arguments": {}
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 6,
+      "level": 2,
+      "source_file": "AddAlarm-level-3-1.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 2,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "user4",
+              "password": "user4pass"
+            }
+          },
+          "pred": {
+            "tool_name": "AddAlarm",
+            "arguments": {
+              "token": "user_token",
+              "time": "2023-07-15 09:00:00"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "AddAlarm",
+            "arguments": {
+              "token": "q9w8e7r6t5y4u3i2o1",
+              "time": "2023-07-15 09:00:00"
+            }
+          },
+          "pred": {
+            "tool_name": "AddAlarm",
+            "arguments": {
+              "token": "q9w8e7r6t5y4u3i2o1",
+              "time": "2023-07-15 09:00:00"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 7,
+      "level": 2,
+      "source_file": "AddAgenda-level-3-1.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 2,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "newuser",
+              "password": "newpass"
+            }
+          },
+          "pred": {
+            "tool_name": "AddAgenda",
+            "arguments": {
+              "token": "user_token",
+              "content": "Meeting with Client A",
+              "time": "2023-07-15 14:00:00",
+              "location": "Client A office"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "AddAgenda",
+            "arguments": {
+              "token": "l9k8j7h6g5f4d3s2a1",
+              "content": "Meeting with Client A",
+              "time": "2023-07-15 14:00:00",
+              "location": "Client"
+            }
+          },
+          "pred": {
+            "tool_name": "AddAgenda",
+            "arguments": {
+              "token": "l9k8j7h6g5f4d3s2a1",
+              "content": "Meeting with Client A",
+              "time": "2023-07-15 14:00:00",
+              "location": "Client A office"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": true,
+          "args_fraction": 0.75,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 8,
+      "level": 2,
+      "source_file": "ModifyRegistration-level-3-1.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "ModifyRegistration",
+            "arguments": {
+              "appointment_id": "34567890",
+              "new_appointment_date": "2023-03-28",
+              "new_appointment_doctor": "Dr. Lee"
+            }
+          },
+          "pred": {
+            "tool_name": "ModifyRegistration",
+            "arguments": {
+              "appointment_id": "34567890",
+              "new_appointment_date": "2023-03-28",
+              "new_appointment_doctor": "Dr. Lee"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 9,
+      "level": 2,
+      "source_file": "QueryReminder-level-3-2.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 2,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "user2",
+              "password": "user2pass"
+            }
+          },
+          "pred": {
+            "tool_name": "AddReminder",
+            "arguments": {
+              "token": "user_token",
+              "content": "Book flight tickets",
+              "time": "2023-03-22 08:00:00"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "QueryReminder",
+            "arguments": {
+              "token": "o9i8u7y6t5r4e3w2q1",
+              "content": "Book flight tickets",
+              "time": "2023-03-22 08:00:00"
+            }
+          },
+          "pred": {
+            "tool_name": "AddReminder",
+            "arguments": {
+              "token": "o9i8u7y6t5r4e3w2q1",
+              "content": "Book flight tickets",
+              "time": "2023-03-22 08:00:00"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 10,
+      "level": 2,
+      "source_file": "QueryHealthData-level-3-1.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "QueryHealthData",
+            "arguments": {
+              "user_id": "F24681",
+              "start_time": "2023-03-13 08:00:00",
+              "end_time": "2023-03-14 18:00:00"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryHealthData",
+            "arguments": {
+              "user_id": "F24681",
+              "start_time": "2023-03-13 00:00:00",
+              "end_time": "2023-03-20 23:59:59"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.333,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 11,
+      "level": 2,
+      "source_file": "DeleteReminder-level-3-1.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 2,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "admin",
+              "password": "adminpass"
+            }
+          },
+          "pred": {
+            "tool_name": "AddReminder",
+            "arguments": {
+              "token": "",
+              "content": "pay bills",
+              "time": "2023-03-20 12:00:00"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "DeleteReminder",
+            "arguments": {
+              "token": "m9n8b7v6c5x4z3a2s1",
+              "content": "Pay bills",
+              "time": "2023-03-20 12:00:00"
+            }
+          },
+          "pred": {
+            "tool_name": "AddReminder",
+            "arguments": {
+              "token": "m9n8b7v6c5x4z3a2s1",
+              "content": "pay bills",
+              "time": "2024-03-20 12:00:00"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 12,
+      "level": 2,
+      "source_file": "QueryHistoryToday-level-3-2.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "QueryHistoryToday",
+            "arguments": {
+              "date": "10-06"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryHistoryToday",
+            "arguments": {
+              "date": "10-06"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 13,
+      "level": 2,
+      "source_file": "DeleteAgenda-level-3-2.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "JohnDoe",
+              "password": "pass123"
+            }
+          },
+          "pred": {
+            "tool_name": "DeleteMeeting",
+            "arguments": {
+              "token": "user_token",
+              "meeting_topic": "client",
+              "start_time": "2024-03-18 14:00:00",
+              "end_time": "2024-03-18 15:00:00",
+              "location": "123 Main St",
+              "attendees": [
+                "client"
+              ]
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "DeleteAgenda",
+            "arguments": {
+              "token": "a9s8d7f6g5h4j3k2l1",
+              "content": "Meeting with client",
+              "time": "2023-03-18 14:00:00",
+              "location": "123 Main St"
+            }
+          },
+          "pred": {
+            "tool_name": null,
+            "arguments": {}
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 14,
+      "level": 2,
+      "source_file": "Calculator-level-3-1.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "Calculator",
+            "arguments": {
+              "formula": "25*3+7/3"
+            }
+          },
+          "pred": {
+            "tool_name": "Calculator",
+            "arguments": {
+              "formula": "25*3+7/3"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 15,
+      "level": 2,
+      "source_file": "QueryAlarm-level-3-1.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 2,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "user4",
+              "password": "user4pass"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryAlarm",
+            "arguments": {
+              "token": "user_token",
+              "time": "2023-10-01 08:00:00"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "QueryAlarm",
+            "arguments": {
+              "token": "q9w8e7r6t5y4u3i2o1",
+              "time": "2023-03-25 14:10:00"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryAlarm",
+            "arguments": {
+              "token": "q9w8e7r6t5y4u3i2o1",
+              "time": "2023-10-01 08:00:00"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": true,
+          "args_fraction": 0.5,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 16,
+      "level": 2,
+      "source_file": "AddAgenda-level-3-2.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "newuser",
+              "password": "newpass"
+            }
+          },
+          "pred": {
+            "tool_name": "AddMeeting",
+            "arguments": {
+              "token": "",
+              "meeting_topic": "",
+              "start_time": "2023-07-15 15:00:00",
+              "end_time": "",
+              "location": "conference room",
+              "attendees": []
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "AddAgenda",
+            "arguments": {
+              "token": "l9k8j7h6g5f4d3s2a1",
+              "content": "Meeting in conference room",
+              "time": "2023-07-15 15:00:00",
+              "location": "conference room"
+            }
+          },
+          "pred": {
+            "tool_name": null,
+            "arguments": {}
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 17,
+      "level": 2,
+      "source_file": "AddReminder-level-3-1.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 2,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "newuser",
+              "password": "newpass"
+            }
+          },
+          "pred": {
+            "tool_name": "AddReminder",
+            "arguments": {
+              "token": "",
+              "content": "sales report",
+              "time": "2023-01-05 15:00:00"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "AddReminder",
+            "arguments": {
+              "token": "l9k8j7h6g5f4d3s2a1",
+              "content": "sales report",
+              "time": "2023-01-05 15:00:00"
+            }
+          },
+          "pred": {
+            "tool_name": "AddReminder",
+            "arguments": {
+              "token": "l9k8j7h6g5f4d3s2a1",
+              "content": "sales report",
+              "time": "2023-01-05 15:00:00"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 18,
+      "level": 2,
+      "source_file": "AddAlarm-level-3-2.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 2,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "user4",
+              "password": "user4pass"
+            }
+          },
+          "pred": {
+            "tool_name": "AddAlarm",
+            "arguments": {
+              "token": "user_token",
+              "time": "2023-01-07 08:00:00"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "AddAlarm",
+            "arguments": {
+              "token": "q9w8e7r6t5y4u3i2o1",
+              "time": "2023-01-07 08:00:00"
+            }
+          },
+          "pred": {
+            "tool_name": "AddAlarm",
+            "arguments": {
+              "token": "q9w8e7r6t5y4u3i2o1",
+              "time": "2023-01-07 08:00:00"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 19,
+      "level": 2,
+      "source_file": "EmergencyKnowledge-level-3-1.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "EmergencyKnowledge",
+            "arguments": {
+              "symptom": "nausea"
+            }
+          },
+          "pred": {
+            "tool_name": "SymptomSearch",
+            "arguments": {
+              "symptom": "nauseous"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 20,
+      "level": 2,
+      "source_file": "QueryRegistration-level-3-2.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "QueryRegistration",
+            "arguments": {
+              "patient_name": "John Doe",
+              "date": "2023-04-12"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryRegistration",
+            "arguments": {
+              "patient_name": "John Doe",
+              "date": "2023-04-12"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 21,
+      "level": 2,
+      "source_file": "SymptomSearch-level-3-2.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "SymptomSearch",
+            "arguments": {
+              "symptom": "rash"
+            }
+          },
+          "pred": {
+            "tool_name": "SymptomSearch",
+            "arguments": {
+              "symptom": "red, bumpy rash on arm"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 22,
+      "level": 2,
+      "source_file": "BookHotel-level-3-2.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "BookHotel",
+            "arguments": {
+              "hotel_name": "Hilton",
+              "check_in_time": "2023-07-15",
+              "check_out_time": "2023-07-16",
+              "room_count": "1",
+              "adult_count": "2",
+              "child_count": "2"
+            }
+          },
+          "pred": {
+            "tool_name": "BookHotel",
+            "arguments": {
+              "hotel_name": "Hilton",
+              "check_in_time": "2023-07-15",
+              "check_out_time": "2023-07-16",
+              "room_count": 2,
+              "adult_count": 4,
+              "child_count": 0
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": true,
+          "args_fraction": 0.5,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 23,
+      "level": 2,
+      "source_file": "DeleteAccount-level-3-2.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 2,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "user2",
+              "password": "user2pass"
+            }
+          },
+          "pred": {
+            "tool_name": "GetToday",
+            "arguments": {}
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "DeleteAccount",
+            "arguments": {
+              "token": "o9i8u7y6t5r4e3w2q1"
+            }
+          },
+          "pred": {
+            "tool_name": "DeleteAccount",
+            "arguments": {
+              "token": "o9i8u7y6t5r4e3w2q1"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 24,
+      "level": 2,
+      "source_file": "RecordHealthData-level-3-2.jsonl",
+      "gold_call_count": 0,
+      "pred_call_count": 0,
+      "verdicts": [],
+      "no_call": true,
+      "error": null
+    },
+    {
+      "id": 25,
+      "level": 2,
+      "source_file": "AddMeeting-level-3-2.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "JohnDoe",
+              "password": "pass123"
+            }
+          },
+          "pred": {
+            "tool_name": "GetToday",
+            "arguments": {}
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 26,
+      "level": 2,
+      "source_file": "ModifyMeeting-level-3-1.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "user4",
+              "password": "user4pass"
+            }
+          },
+          "pred": {
+            "tool_name": "ModifyMeeting",
+            "arguments": {
+              "token": "user_token",
+              "meeting_topic": "Product Development Meeting",
+              "start_time": "2023-03-29 10:00:00",
+              "end_time": "2023-03-29 11:00:00",
+              "location": "Research and Development Department",
+              "attendees": [
+                "Robert Lee",
+                "Anna Zhang",
+                "Tony Wang"
+              ]
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 27,
+      "level": 2,
+      "source_file": "DeleteAlarm-level-3-1.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 2,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "JaneSmith",
+              "password": "password"
+            }
+          },
+          "pred": {
+            "tool_name": "DeleteAlarm",
+            "arguments": {
+              "token": "user_token",
+              "time": "2023-03-20 06:30:00"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "DeleteAlarm",
+            "arguments": {
+              "token": "o8i7u6y5t4r3e2w1q0",
+              "time": "2023-03-20 06:30:00"
+            }
+          },
+          "pred": {
+            "tool_name": "DeleteAlarm",
+            "arguments": {
+              "token": "o8i7u6y5t4r3e2w1q0",
+              "time": "2024-03-20 06:30:00"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": true,
+          "args_fraction": 0.5,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 28,
+      "level": 2,
+      "source_file": "DeleteMeeting-level-3-1.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "admin",
+              "password": "adminpass"
+            }
+          },
+          "pred": {
+            "tool_name": "DeleteMeeting",
+            "arguments": {
+              "token": "user_token",
+              "meeting_topic": "Board Meeting",
+              "start_time": "2023-04-05 15:00:00",
+              "end_time": "2023-04-05 16:00:00",
+              "location": "Conference Room A",
+              "attendees": [
+                "John Doe",
+                "Jane Smith"
+              ]
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 29,
+      "level": 2,
+      "source_file": "SymptomSearch-level-3-4.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "SymptomSearch",
+            "arguments": {
+              "symptom": "rash"
+            }
+          },
+          "pred": {
+            "tool_name": "SymptomSearch",
+            "arguments": {
+              "symptom": "rash"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 30,
+      "level": 2,
+      "source_file": "QueryBalance-level-3-1.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 2,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "foo",
+              "password": "bar"
+            }
+          },
+          "pred": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "foo",
+              "password": "bar"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "QueryBalance",
+            "arguments": {
+              "token": "z9x8c7v6b5n4m3q2w1"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryBalance",
+            "arguments": {
+              "token": "z9x8c7v6b5n4m3q2w1"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 31,
+      "level": 2,
+      "source_file": "QueryMeeting-level-3-1.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "testuser",
+              "password": "testpass"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryMeeting",
+            "arguments": {
+              "token": "user_token",
+              "meeting_topic": "Marketing Campaign Planning",
+              "start_time": "2023-03-22 09:00:00",
+              "end_time": "2023-03-22 10:00:00",
+              "location": "Marketing Department",
+              "attendees": []
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 32,
+      "level": 2,
+      "source_file": "QueryRegistration-level-3-1.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "QueryRegistration",
+            "arguments": {
+              "patient_name": "John Doe",
+              "date": "2023-04-12"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryRegistration",
+            "arguments": {
+              "patient_name": "12345678",
+              "date": "2023-04-12"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": true,
+          "args_fraction": 0.5,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 33,
+      "level": 2,
+      "source_file": "AppointmentRegistration-level-3-1.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "AppointmentRegistration",
+            "arguments": {
+              "patient_name": "John Doe",
+              "date": "2023-07-10",
+              "doctor_name": "Dr. Smith"
+            }
+          },
+          "pred": {
+            "tool_name": "GetToday",
+            "arguments": {}
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 34,
+      "level": 2,
+      "source_file": "DeleteAccount-level-3-3.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 2,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "user2",
+              "password": "user2pass"
+            }
+          },
+          "pred": {
+            "tool_name": "DeleteAccount",
+            "arguments": {
+              "token": ""
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "DeleteAccount",
+            "arguments": {
+              "token": "o9i8u7y6t5r4e3w2q1"
+            }
+          },
+          "pred": {
+            "tool_name": "DeleteAccount",
+            "arguments": {
+              "token": "o9i8u7y6t5r4e3w2q1"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 35,
+      "level": 2,
+      "source_file": "ModifyReminder-level-3-1.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 2,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "JohnDoe",
+              "password": "pass123"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryReminder",
+            "arguments": {
+              "token": "user_token",
+              "content": "call my mom",
+              "time": "2023-03-17 14:00:00"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "ModifyReminder",
+            "arguments": {
+              "token": "a9s8d7f6g5h4j3k2l1",
+              "content": "Call mom",
+              "time": "2023-03-17 14:30:00"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryReminder",
+            "arguments": {
+              "token": "a9s8d7f6g5h4j3k2l1",
+              "content": "call my mom",
+              "time": "2023-03-17 14:00:00"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 36,
+      "level": 2,
+      "source_file": "SymptomSearch-level-3-1.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "SymptomSearch",
+            "arguments": {
+              "symptom": "rash"
+            }
+          },
+          "pred": {
+            "tool_name": "SymptomSearch",
+            "arguments": {
+              "symptom": "rash"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 37,
+      "level": 2,
+      "source_file": "BookHotel-level-3-3.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "BookHotel",
+            "arguments": {
+              "hotel_name": "Hilton Hotel",
+              "check_in_time": "2023-07-10",
+              "check_out_time": "2023-07-15",
+              "room_count": "1",
+              "adult_count": "2",
+              "child_count": "1"
+            }
+          },
+          "pred": {
+            "tool_name": "BookHotel",
+            "arguments": {
+              "hotel_name": "Hilton Hotel",
+              "check_in_time": "2023-07-10",
+              "check_out_time": "2023-07-15",
+              "room_count": 1,
+              "adult_count": 2,
+              "child_count": 1
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 38,
+      "level": 2,
+      "source_file": "RecordHealthData-level-3-3.jsonl",
+      "gold_call_count": 0,
+      "pred_call_count": 0,
+      "verdicts": [],
+      "no_call": true,
+      "error": null
+    },
+    {
+      "id": 39,
+      "level": 2,
+      "source_file": "RecordHealthData-level-3-1.jsonl",
+      "gold_call_count": 0,
+      "pred_call_count": 0,
+      "verdicts": [],
+      "no_call": true,
+      "error": null
+    },
+    {
+      "id": 40,
+      "level": 2,
+      "source_file": "AddMeeting-level-3-1.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "JohnDoe",
+              "password": "pass123"
+            }
+          },
+          "pred": {
+            "tool_name": "AddMeeting",
+            "arguments": {
+              "token": "user_token",
+              "meeting_topic": "Project Update",
+              "start_time": "2023-03-15 15:00:00",
+              "end_time": "2023-03-15 16:00:00",
+              "location": "Conference Room A",
+              "attendees": [
+                "John",
+                "Jane"
+              ]
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 41,
+      "level": 2,
+      "source_file": "SymptomSearch-level-3-3.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "SymptomSearch",
+            "arguments": {
+              "symptom": "rash"
+            }
+          },
+          "pred": {
+            "tool_name": "SymptomSearch",
+            "arguments": {
+              "symptom": "rash"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 42,
+      "level": 2,
+      "source_file": "BookHotel-level-3-1.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "BookHotel",
+            "arguments": {
+              "hotel_name": "Grand Hotel",
+              "check_in_time": "2023-10-05",
+              "check_out_time": "2023-10-07",
+              "room_count": "1",
+              "adult_count": "2",
+              "child_count": "1"
+            }
+          },
+          "pred": {
+            "tool_name": "BookHotel",
+            "arguments": {
+              "hotel_name": "Grand Hotel",
+              "check_in_time": "2023-10-05",
+              "check_out_time": "2023-10-07",
+              "room_count": 1,
+              "adult_count": 2,
+              "child_count": 1
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 43,
+      "level": 2,
+      "source_file": "DeleteAccount-level-3-1.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 2,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "user2",
+              "password": "user2pass"
+            }
+          },
+          "pred": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "user",
+              "password": "pass"
+            }
+          },
+          "name_ok": true,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "DeleteAccount",
+            "arguments": {
+              "token": "o9i8u7y6t5r4e3w2q1"
+            }
+          },
+          "pred": {
+            "tool_name": "DeleteAccount",
+            "arguments": {
+              "token": "o9i8u7y6t5r4e3w2q1"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 44,
+      "level": 2,
+      "source_file": "DeleteMeeting-level-3-2.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "admin",
+              "password": "adminpass"
+            }
+          },
+          "pred": {
+            "tool_name": "DeleteMeeting",
+            "arguments": {
+              "token": "user_token",
+              "meeting_topic": "Board Meeting",
+              "start_time": "2024-04-05 15:00:00",
+              "end_time": "2024-04-05 16:00:00",
+              "location": "Boardroom",
+              "attendees": [
+                "Board Members"
+              ]
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 45,
+      "level": 2,
+      "source_file": "ModifyAgenda-level-3-1.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 2,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "foo",
+              "password": "bar"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryAgenda",
+            "arguments": {
+              "token": "user_token",
+              "content": "grocery shopping",
+              "time": "2023-03-17 10:00:00",
+              "location": "store"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "ModifyAgenda",
+            "arguments": {
+              "token": "z9x8c7v6b5n4m3q2w1",
+              "content": "Shopping for groceries",
+              "time": "2023-03-17 00:00:00",
+              "location": "Walmart"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryAgenda",
+            "arguments": {
+              "token": "z9x8c7v6b5n4m3q2w1",
+              "content": "grocery shopping",
+              "time": "2023-03-17 10:00:00",
+              "location": "Supermarket"
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 46,
+      "level": 2,
+      "source_file": "QueryMeeting-level-3-2.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "testuser",
+              "password": "testpass"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryMeeting",
+            "arguments": {
+              "token": "",
+              "meeting_topic": "Marketing Campaign Planning",
+              "start_time": "2023-03-22 09:00:00",
+              "end_time": "2023-03-22 11:00:00",
+              "location": "Marketing Department",
+              "attendees": [
+                "Karen Zhang",
+                "Mark Brown",
+                "Timothy Lee"
+              ]
+            }
+          },
+          "name_ok": false,
+          "args_exact": false,
+          "args_partial": false,
+          "args_fraction": 0.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 47,
+      "level": 2,
+      "source_file": "QueryBalance-level-3-2.jsonl",
+      "gold_call_count": 2,
+      "pred_call_count": 2,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "foo",
+              "password": "bar"
+            }
+          },
+          "pred": {
+            "tool_name": "GetUserToken",
+            "arguments": {
+              "username": "foo",
+              "password": "bar"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        },
+        {
+          "step": 1,
+          "gold": {
+            "tool_name": "QueryBalance",
+            "arguments": {
+              "token": "z9x8c7v6b5n4m3q2w1"
+            }
+          },
+          "pred": {
+            "tool_name": "QueryBalance",
+            "arguments": {
+              "token": "z9x8c7v6b5n4m3q2w1"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    },
+    {
+      "id": 48,
+      "level": 2,
+      "source_file": "SymptomSearch-level-3-5.jsonl",
+      "gold_call_count": 1,
+      "pred_call_count": 1,
+      "verdicts": [
+        {
+          "step": 0,
+          "gold": {
+            "tool_name": "SymptomSearch",
+            "arguments": {
+              "symptom": "rash"
+            }
+          },
+          "pred": {
+            "tool_name": "SymptomSearch",
+            "arguments": {
+              "symptom": "rash"
+            }
+          },
+          "name_ok": true,
+          "args_exact": true,
+          "args_partial": true,
+          "args_fraction": 1.0,
+          "error": null
+        }
+      ],
+      "no_call": false,
+      "error": null
+    }
+  ]
+}

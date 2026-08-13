@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>API-Bank → ToolSearcher-Free Benchmark — Conversion &amp; Eval Overview</title>
+<style>
+  :root { --accent:#1a63d2; --good:#1a7f37; --bad:#b42318; --warn:#b7791f; --muted:#666; --bg:#fafbfc; --card:#fff; --line:#e3e6ea; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; margin:0; background:var(--bg); color:#1f2328; line-height:1.55; }
+  header { background:linear-gradient(135deg,#0f2a5f,#1a63d2); color:#fff; padding:34px 28px; }
+  header h1 { margin:0 0 6px; font-size:24px; }
+  header p { margin:2px 0; opacity:.92; font-size:14px; }
+  main { max-width:1060px; margin:0 auto; padding:24px 20px 60px; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:22px 24px; margin:22px 0; box-shadow:0 1px 2px rgba(0,0,0,.04); }
+  h2 { margin:0 0 4px; font-size:19px; color:#0f2a5f; }
+  h3 { font-size:15px; margin:18px 0 8px; color:#1f2328; }
+  .sub { color:var(--muted); font-size:13px; margin:0 0 14px; }
+  table { border-collapse:collapse; width:100%; font-size:13px; margin:10px 0; }
+  th,td { border:1px solid var(--line); padding:7px 10px; text-align:left; vertical-align:top; }
+  th { background:#f0f3f6; font-weight:600; }
+  td.num, th.num { text-align:right; }
+  .chip { display:inline-block; padding:2px 9px; border-radius:999px; font-size:12px; font-weight:600; }
+  .yes { background:#d3f9d8; color:var(--good); }
+  .no  { background:#ffe3e3; color:var(--bad); }
+  .warn{ background:#fff3cd; color:var(--warn); }
+  pre { background:#0d1117; color:#e6edf3; padding:12px 14px; border-radius:8px; overflow:auto; font-size:12.5px; line-height:1.5; }
+  code { font-family:"SFMono-Regular",Consolas,monospace; }
+  .msg { border-left:3px solid #c8d1d9; padding:2px 0 2px 10px; margin:6px 0; font-size:13px; }
+  .msg b { color:#0f2a5f; }
+  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  .grid2 > div { border:1px solid var(--line); border-radius:8px; padding:12px 14px; background:#fbfcfe; }
+  .card-label { font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.03em; color:var(--muted); margin-bottom:8px; }
+  .metric-row { display:flex; flex-wrap:wrap; gap:14px; }
+  .metric { flex:1 1 150px; border:1px solid var(--line); border-radius:8px; padding:12px 14px; text-align:center; background:#fff; }
+  .metric .v { font-size:22px; font-weight:700; color:var(--accent); }
+  .metric .l { font-size:11.5px; color:var(--muted); margin-top:2px; }
+  .foot { color:var(--muted); font-size:12px; margin-top:24px; text-align:center; }
+  .arrow { color:var(--accent); font-weight:700; }
+  .badge-removed { background:#ffe3e3; color:var(--bad); } .badge-kept { background:#d3f9d8; color:var(--good); }
+  .inline-diff del { background:#ffe3e3; color:var(--bad); text-decoration:none; padding:0 3px; border-radius:3px; }
+  .inline-diff ins { background:#d3f9d8; color:var(--good); text-decoration:none; padding:0 3px; border-radius:3px; }
+  ul.loose li { margin:5px 0; font-size:13.5px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>API-Bank → ToolSearcher-Free Benchmark</h1>
+  <p>Conversion of the upstream API-Bank eval data (ToolSearcher removed, all tool definitions inlined in the system prompt) + graded results with <code>Qwen/Qwen3.6-35B-A3B-FP8</code>.</p>
+  <p>Reference: <code>DAMO-ConvAI/api-bank</code> · HuggingFace split <code>liminghao1630/API-Bank</code> · arXiv:2304.08244</p>
+</header>
+<main>
+
+  <!-- ================================================================ -->
+  <section>
+    <h2>1. What was done</h2>
+    <p class="sub">Reproduce the original harness &amp; evaluation data, then convert it to a benchmark that needs no tool-retrieval meta-tool.</p>
+    <ul class="loose">
+      <li><b>Smoke-tested the original upstream harness</b> for all three levels (<code>scripts/grade_upstream_original.py</code>) against the proxy — L1 given-desc, L2 toolsearcher, L3 lv3 batch-inference. This confirmed the original data + grading code works and gave a baseline.</li>
+      <li><b>Harvested a tool catalog</b> from the eight <code>test-data/*.json</code> files: <b>67 real tools</b> (ToolSearcher excluded), normalised into <code>tool_catalog.json</code>.</li>
+      <li><b>Rewrote every trajectory</b> (<code>scripts/convert_apibank.py</code>): placed all 67 tool definitions directly in the system prompt and stripped <b>all</b> ToolSearcher calls, return values and spec blobs. Result: <code>level-1</code> (368 single-turn), <code>level-2</code> (49 dialogues), <code>level-3</code> (50 conversations), <code>level-3-batch</code>/<code>-icl</code> (121 per-step rows each).</li>
+      <li><b>Validated the conversion</b> (<code>scripts/validate_apibank_conversion.py</code>, 1,887 checks) — the processed data differs from upstream <b>only</b> in the ToolSearcher part plus the technical role/format changes. See §4.</li>
+      <li><b>Graded all levels</b> (<code>scripts/grade_apibank.py</code>, <code>--mode text</code>) with step-replay semantics. Final metrics in §3.</li>
+    </ul>
+  </section>
+
+  <!-- ================================================================ -->
+  <section>
+    <h2>2. How the benchmark changed</h2>
+    <p class="sub">The exchange rate is unchanged: same conversations, same gold calls, same gold returns. Only the discovery mechanism (ToolSearcher) is gone; every tool is advertised up-front in the system prompt.</p>
+
+    <div class="grid2">
+      <div>
+        <div class="card-label">Upstream (original API-Bank)</div>
+        <pre>User: Query meeting of John and send email
+      reminder to john@example.com.
+
+[1] ToolSearcher(keywords='QueryMeeting')
+    -&gt; {"name":"QueryMeeting", ...}
+[2] QueryMeeting(user_name='John')
+    -&gt; {"meetings": [...]}
+[3] ToolSearcher(keywords='EmailReminder')
+    -&gt; {"name":"EmailReminder", ...}
+[4] EmailReminder(content='Meeting with the
+      client ...', time='...', location='...',
+      recipient='john@example.com')
+    -&gt; "success"</pre>
+        <p style="font-size:12.5px;color:var(--muted)">The model only sees a <b>ToolSearcher</b> spec in the prompt and must retrieve tool definitions at runtime.</p>
+      </div>
+      <div>
+        <div class="card-label">ToolSearcher-free (this work)</div>
+        <pre>SYSTEM — all 67 tool specs listed
+        (QueryMeeting, EmailReminder, ...)
+
+User: Query meeting of John and send email
+      reminder to john@example.com.
+
+[1] QueryMeeting(user_name='John')
+    -&gt; {"meetings": [...]}
+[2] EmailReminder(content='Meeting with the
+      client ...', time='...', location='...',
+      recipient='john@example.com')
+    -&gt; "success"</pre>
+        <p style="font-size:12.5px;color:var(--muted)">ToolSearcher steps and their returns removed; the model picks the right tool directly from the system prompt.</p>
+      </div>
+    </div>
+
+    <h3>Technical changes (beyond ToolSearcher removal)</h3>
+    <ul class="loose">
+      <li><b>API (tool) outputs change role:</b> upstream renders API results as <code>system</code> turns; we surface them as OpenAI <b><code>tool</code></b> messages (<code>role:"tool", name:&lt;tool&gt;</code>). Qwen3.6's chat template rejects multiple <code>system</code> messages ("System message must be at the beginning"), so this role mapping is required for the target model. Content is identical.</li>
+      <li><b>System prompt</b> is one fixed block listing every tool in API-Bank's <code>API descriptions</code> format, with an instruction telling the model every tool is already available (no searching).</li>
+      <li><b>Step-replay grading:</b> after each predicted call, the dialogue advances with the <b>gold</b> call + gold return, so per-step accuracy is independent of earlier model mistakes (matches the upstream eval's per-step oracle-replay semantics).</li>
+      <li><b>Gold carries</b> <code>gold_tool_calls</code> (ordered calls) + <code>gold_tool_returns</code> (ordered returns) instead of upstream's interleaved ToolSearcher spec strings.</li>
+      <li><b>10 unparseable batch rows dropped:</b> level-3-batch gold calls that embed a Python-list literal inside a quoted argument (e.g. <code>attendees='['Mary', 'Peter']'</code>) cannot be parsed by the canonical <code>[Tool(...)]</code> parser and were excluded (131 → 121 rows). That is a parsing limitation, not a ToolSearcher difference.</li>
+    </ul>
+  </section>
+
+  <!-- ================================================================ -->
+  <section>
+    <h2>3. Final metrics (ToolSearcher-free, <code>--mode text</code>)</h2>
+    <p class="sub">Model: <code>Qwen/Qwen3.6-35B-A3B-FP8</code> via the LLM proxy, <code>temperature=0</code>, thinking disabled, output parsed from <code>API-Request: [Tool(key='v', ...)]</code> lines.</p>
+
+    <table>
+      <thead><tr>
+        <th>Variant</th><th class="num">Datapoints</th><th class="num">Gold calls</th>
+        <th class="num">Tool-name</th><th class="num">Args exact*</th><th class="num">Args partial†</th><th class="num">Mean args frac</th><th class="num">No-call DP</th>
+      </tr></thead>
+      <tbody>
+        <tr><td>Level 1 (given-desc)</td><td class="num">368</td><td class="num">368</td>
+            <td class="num"><b>91.3%</b></td><td class="num">78.3%</td><td class="num">87.8%</td><td class="num">0.846</td><td class="num">0</td></tr>
+        <tr><td>Level 2 (tool-search-gone dialogues)</td><td class="num">49</td><td class="num">64</td>
+            <td class="num">53.1%</td><td class="num">37.5%</td><td class="num">46.9%</td><td class="num">0.431</td><td class="num">3</td></tr>
+        <tr><td>Level 3 full (50 conversations)</td><td class="num">50</td><td class="num">131</td>
+            <td class="num">66.4%</td><td class="num">62.6%</td><td class="num">62.6%</td><td class="num">0.630</td><td class="num">0</td></tr>
+        <tr><td>Level 3 batch (per-step)</td><td class="num">121</td><td class="num">121</td>
+            <td class="num"><b>86.8%</b></td><td class="num">70.2%</td><td class="num">78.5%</td><td class="num">0.761</td><td class="num">5</td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:12px;color:var(--muted)">
+      * args exact = same tool <i>and</i> identical argument dict (normalised). † args partial = same tool and ≥50% of gold keys match.
+      Step-replay grading: each predicted call compared to the gold call, then the dialogue advances using the gold call + gold return.
+    </p>
+  </section>
+
+  <!-- ================================================================ -->
+  <section>
+    <h2>3b. Baseline vs ToolSearcher-free (smoke comparisons)</h2>
+    <p class="sub">Same model, same proxy, same grading logic. The original-harness runs use the upstream prompt format (which includes ToolSearcher); the converted runs use all-tools-in-system-prompt.</p>
+    <table>
+      <thead><tr><th>Config</th><th class="num">Tool-name</th><th class="num">Args exact</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td>L1 original harness (6-call smoke)</td><td class="num">66.7%</td><td class="num">66.7%</td>
+            <td>upstream <code>evaluator.py</code>, sample of 6</td></tr>
+        <tr><td><b>L1 ToolSearcher-free (368 calls)</b></td><td class="num"><b>91.3%</b></td><td class="num"><b>78.3%</b></td>
+            <td>full run</td></tr>
+        <tr><td>L2 original harness (6-call smoke)</td><td class="num">16.7%</td><td class="num">16.7%</td>
+            <td>model must guess ToolSearcher keywords exactly</td></tr>
+        <tr><td><b>L2 ToolSearcher-free (64 calls)</b></td><td class="num"><b>53.1%</b></td><td class="num"><b>37.5%</b></td>
+            <td>full run</td></tr>
+        <tr><td>L3 original harness (6-step smoke)</td><td class="num">33.3%</td><td class="num">33.3%</td>
+            <td>lv3 batch-inf prompt format</td></tr>
+        <tr><td><b>L3 ToolSearcher-free batch (121 calls)</b></td><td class="num"><b>86.8%</b></td><td class="num"><b>70.2%</b></td>
+            <td>full run</td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:12.5px">Removing the retrieval hop makes the task much more tractable for the open-weight target model — it no longer has to predict exact ToolSearcher keywords or depend on retrieval quality. (The original-harness numbers come from small 6-item smoke runs, so treat them as directional, not matched-size baselines.)</p>
+  </section>
+
+  <!-- ================================================================ -->
+  <section>
+    <h2>4. Conversion validation</h2>
+    <p class="sub"><code>scripts/validate_apibank_conversion.py</code> — 1,887 automated checks, <b>all pass</b>.</p>
+    <div class="metric-row">
+      <div class="metric"><div class="v">1,887</div><div class="l">checks passed</div></div>
+      <div class="metric"><div class="v">0</div><div class="l">ToolSearcher refs left</div></div>
+      <div class="metric"><div class="v">67</div><div class="l">tools in catalog</div></div>
+      <div class="metric"><div class="v">1,887/1,887</div><div class="l">OK ratio</div></div>
+    </div>
+    <h3>What the validation proves</h3>
+    <ul class="loose">
+      <li><b>TS-FREE</b> — literally no <code>ToolSearcher</code> string anywhere in the processed benchmark (messages, system prompt, gold calls/returns).</li>
+      <li><b>GOLD-PRESERVED</b> — for every datapoint, the ordered <code>gold_tool_calls</code> equals the upstream ordered real-tool calls (ToolSearcher dropped, consecutive duplicates collapsed) — for levels 1, 2 and 3 including batch.</li>
+      <li><b>TEXT-PRESERVED</b> — after removing ToolSearcher artefacts and normalising <code>API-Request: [..]-&gt;{..}</code> into (assistant call, tool result) pairs, the user/assistant <i>text stream</i> of each processed conversation is byte-for-byte the same as upstream. The converter deleted retrieval steps but rewrote/invented nothing else.</li>
+    </ul>
+    <p style="font-size:12.5px;color:var(--muted)">The <code>system</code>-→-<code>tool</code> role remapping and the fixed all-tools system prompt are declared technical changes and are deliberately not treated as "differences". The only conversion loss is the 10 unparseable level-3-batch rows described in §2.</p>
+  </section>
+
+  <!-- ================================================================ -->
+  <section>
+    <h2>5. Datapoint examples</h2>
+
+    <h3>5.1 Level 1 — single-turn call (upstream vs processed)</h3>
+    <div class="grid2">
+      <div>
+        <div class="card-label">Upstream row (<code>ModifyRegistration-...-level-2-2.jsonl</code>)</div>
+        <pre>User: Can you please modify my appointment
+  scheduled for March 25th with Dr. Kim
+  to March 26th with Dr. Lee?
+AI: Sure... please provide the appointment
+  ID and the new date and doctor's name.
+User: The appointment ID is 34567890 and the
+  new date is March 26th with Dr. Lee.
+AI: Alright. I'll modify your appointment now.
+Generate API Request:
+
+expected_output:
+  API-Request: [ModifyRegistration(
+    appointment_id='34567890',
+    new_appointment_date='2023-03-26',
+    new_appointment_doctor='Dr. Lee')]</pre>
+      </div>
+      <div>
+        <div class="card-label">Processed (all tools preloaded in system prompt)</div>
+        <pre>SYSTEM
+  You are an API-assistant... every available
+  tool is already listed.  [67 tool specs]
+  API descriptions:
+    {"name":"ModifyRegistration",
+      "description":"Modify an appointment...",
+      "input_parameters":{...}, ...}
+    {... 66 more tools ...}
+
+User: Can you please modify my appointment...
+AI: Sure... (etc.)
+User: Generate the next API Request.
+
+gold_tool_calls = [ModifyRegistration(
+  appointment_id='34567890',
+  new_appointment_date='2023-03-26',
+  new_appointment_doctor='Dr. Lee')]</pre>
+      </div>
+    </div>
+
+    <h3>5.2 Model output — level 1</h3>
+    <table>
+      <thead><tr><th>dp</th><th>Gold</th><th>Model prediction</th><th>Name</th><th>Args exact</th></tr></thead>
+      <tbody>
+        <tr><td>0</td><td><code>ModifyRegistration(appointment_id='34567890', new_appointment_date='2023-03-26', new_appointment_doctor='Dr. Lee')</code></td>
+            <td><code>ModifyRegistration(appointment_id='34567890', new_appointment_date='2023-03-26', new_appointment_doctor='Dr. Lee')</code></td>
+            <td><span class="chip yes">yes</span></td><td><span class="chip yes">yes</span></td></tr>
+        <tr><td>1</td><td><code>QueryHealthData(user_id='J46801', start_time='2023-03-05 00:00:00', end_time='2023-03-12 00:00:00')</code></td>
+            <td><code>QueryHealthData(user_id='J46801', start_time='2023-03-05 00:00:00', end_time='2023-03-12 23:59:59')</code></td>
+            <td><span class="chip yes">yes</span></td><td><span class="chip no">no</span><div style="font-size:11px;color:var(--muted)">end_time differs</div></td></tr>
+        <tr><td>8</td><td><code>SymptomSearch(symptom='fatigue')</code></td>
+            <td><code>Wiki(keyword='Chronic fatigue syndrome')</code></td>
+            <td><span class="chip no">no</span></td><td><span class="chip no">no</span></td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:12.5px;color:var(--muted)">Typical error modes: right tool with an off-by-one time boundary, or paraphrasing a symptom into a different (but related) tool.</p>
+
+    <h3>5.3 Level 2 — multi-turn with step-replay</h3>
+    <div class="grid2">
+      <div>
+        <div class="card-label">Upstream (ToolSearcher present)</div>
+        <pre>User: Can you tell me what happened on
+  October 6th in history?
+AI: Sure, let me search for relevant tools
+  in the library.
+API-Request: [ToolSearcher(keywords='history
+  October 6th')]-&gt;{"name":"QueryHistoryToday",...}
+Generate API Request:</pre>
+      </div>
+      <div>
+        <div class="card-label">Processed (dp 0 — correct)</div>
+        <pre>SYSTEM ... [67 tools, incl. QueryHistoryToday] ...
+User: Can you tell me what happened on
+  October 6th in history?
+AI: Sure, let me search for relevant tools
+  in the library.
+User: Generate the next API Request.
+
+-- model: API-Request: [QueryHistoryToday(date='10-06')] --
+gold = QueryHistoryToday(date='10-06')
+= name ✓ args exact ✓</pre>
+      </div>
+    </div>
+    <p style="font-size:12.5px;color:var(--muted)">Example of a step-replay error (dp 3, <code>DeleteAgenda-level-3-1.jsonl</code>): gold <code>GetUserToken(username='JohnDoe', password='pass123')</code> vs predicted <code>DeleteAgenda(...)</code> — wrong tool; the dialogue then advances with the gold call + return so later steps are not poisoned.</p>
+
+    <h3>5.4 Level 3 — full conversation (upstream vs processed)</h3>
+    <div class="grid2">
+      <div>
+        <div class="card-label">Upstream (conv 0, 5 steps)</div>
+        <pre>Query meeting of John and send email
+  reminder to john@example.com.
+
+step0 ToolSearcher(keywords='QueryMeeting')
+step1 QueryMeeting(user_name='John')
+step2 ToolSearcher(keywords='EmailReminder')
+step3 EmailReminder(content='Meeting with the
+        client ...', time, location,
+        recipient=...)
+step4 EmailReminder(content='Meeting about the
+        new project ...', ...)</pre>
+      </div>
+      <div>
+        <div class="card-label">Processed (conv 0, 3 gold calls)</div>
+        <pre>user: Query meeting of John and send email
+       reminder to john@example.com.
+assistant: API-Request: [QueryMeeting(user_name="John")]
+tool: {"meetings": [...]}
+assistant: API-Request: [EmailReminder(content=...)]
+tool: "success"
+assistant: API-Request: [EmailReminder(content=...)]
+tool: "success"
+assistant: (final NL answer)</pre>
+      </div>
+    </div>
+    <table>
+      <thead><tr><th>Gold</th><th>Model prediction</th><th>Name</th><th>Args exact</th></tr></thead>
+      <tbody>
+        <tr><td><code>QueryMeeting(user_name='John')</code></td>
+            <td><code>EmailReminder(content='Meeting about the new project...')</code></td>
+            <td><span class="chip no">no</span></td><td><span class="chip no">no</span></td></tr>
+        <tr><td><code>EmailReminder(content='Meeting with the client...', time='2021-01-01 10:00:00', location='Room 1', recipient='john@example.com')</code></td>
+            <td>identical</td>
+            <td><span class="chip yes">yes</span></td><td><span class="chip yes">yes</span></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ================================================================ -->
+  <section>
+    <h2>6. Files &amp; reproducibility</h2>
+    <table>
+      <thead><tr><th>Path</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>scripts/convert_apibank.py</code></td><td>Catalog harvest + ToolSearcher-free conversion for all levels and batch variants.</td></tr>
+        <tr><td><code>scripts/grade_apibank.py</code></td><td>OpenAI-compatible grader, <code>--mode text|tools|qwen</code>, step-replay scoring. Tools/qwen modes need a function-calling-enabled server.</td></tr>
+        <tr><td><code>scripts/validate_apibank_conversion.py</code></td><td>1,887 automated checks: TS-free, gold-preserved, text-preserved.</td></tr>
+        <tr><td><code>scripts/grade_upstream_original.py</code></td><td>Original-harness smoke driver (upstream evaluator/lv3 logic, Qwen-safe message roles).</td></tr>
+        <tr><td><code>data/apibank/processed/*</code></td><td><code>tool_catalog.json</code> (67), <code>openai_tools.json</code>, <code>system_prompt.txt</code>, <code>level-{1,2,3}{,-batch,-batch-icl}.jsonl</code>, <code>manifest.json</code>.</td></tr>
+        <tr><td><code>data/apibank/results/*.{json,md}</code></td><td>Per-datapoint verdicts + aggregate summaries for every graded run.</td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:12.5px;color:var(--muted)">Endpoints used: proxy <code>https://176.108.242.226/v1</code> · model <code>Qwen/Qwen3.6-35B-A3B-FP8</code> · <code>chat_template_kwargs.enable_thinking=false</code> · temperature 0.</p>
+  </section>
+
+  <p class="foot">API-Bank ToolSearcher-free conversion &amp; evaluation report — generated 2026-08-12.<br>
+  Level 1 ✓ · Level 2 ✓ · Level 3 ✓ · Level 3 batch ✓ · validation 1,887/1,887 ✓</p>
+</main>
+</body>
+</html>
