@@ -39,6 +39,12 @@ data/
   removed; trajectories collapsed to the real-tool sequence).
 - **level-3-batch{,-icl}.jsonl**: 121 per-step datapoints each (gold calls
   that embed an unparseable list-literal argument are dropped → 131→121).
+- **data/results/viewer.html**: trajectory viewer. Serves each graded
+  conversation with its gold calls, gold returns and the model's predicted
+  call, marking every prediction **SUCCESS / PARTIAL / UNSUCCESSFUL**, with
+  filters by level and success state. Run `python3 -m http.server 8123
+  --directory data` in this directory and open
+  `http://localhost:8123/results/viewer.html`.
 
 ## Reproduce
 

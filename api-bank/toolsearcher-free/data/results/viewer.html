@@ -79,10 +79,10 @@
 
 <script>
 const DATA = [
-  { key:"1", level:1, file:"results/l1_text.json", proc:"processed/level-1.jsonl", label:"Level 1 — given-desc" },
-  { key:"2", level:2, file:"results/l2_text.json", proc:"processed/level-2.jsonl", label:"Level 2 — dialogues" },
-  { key:"3f", level:3, file:"results/l3_full_text.json", proc:"processed/level-3.jsonl", label:"Level 3 — full" },
-  { key:"3b", level:3, file:"results/l3_batch_text.json", proc:"processed/level-3-batch.jsonl", label:"Level 3 — batch" },
+  { key:"1", level:1, file:"./l1_text.json", proc:"../processed/level-1.jsonl", label:"Level 1 — given-desc" },
+  { key:"2", level:2, file:"./l2_text.json", proc:"../processed/level-2.jsonl", label:"Level 2 — dialogues" },
+  { key:"3f", level:3, file:"./l3_full_text.json", proc:"../processed/level-3.jsonl", label:"Level 3 — full" },
+  { key:"3b", level:3, file:"./l3_batch_text.json", proc:"../processed/level-3-batch.jsonl", label:"Level 3 — batch" },
 ];
 let cache = {};          // key -> {results, proc}
 let curKey = "1", filter = "all";
