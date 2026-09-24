@@ -98,7 +98,7 @@ def generate_schema_prompt(db_path, num_rows=None):
 
 def generate_comment_prompt(question, knowledge=None):
     pattern_prompt_no_kg = "-- Using valid SQLite, answer the following questions for the tables provided above."
-    pattern_prompt_kg = "-- Using valid SQLite and understading External Knowledge, answer the following questions for the tables provided above."
+    pattern_prompt_kg = "-- Using valid SQLite and understanding External Knowledge, answer the following questions for the tables provided above."
     # question_prompt = "-- {}".format(question) + '\n SELECT '
     question_prompt = "-- {}".format(question)
     knowledge_prompt = "-- External Knowledge: {}".format(knowledge)
