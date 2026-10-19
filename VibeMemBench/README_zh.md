@@ -128,7 +128,7 @@ pip install "pandas<=2.2.3" "pyarrow<=17.0.0" PyYAML python-dotenv
 **3. 把数据集下载到 `benchmark/`。**
 
 ```bash
-hf download <org>/VibeMemBench --repo-type dataset --local-dir benchmark
+hf download Tongyi-ConvAI/VibeMemBench --repo-type dataset --local-dir benchmark
 ```
 
 `local_dir="benchmark"` 会把文件放到代码正好查找的位置。完整下载选项（含只下某一种语言）见
@@ -155,8 +155,8 @@ API_KEY=sk-...
 
 ## 数据集
 
-数据集位于 `benchmark/`，将发布在 Hugging Face 的
-`https://huggingface.co/datasets/<org>/VibeMemBench`（链接待补）。完整参考见数据集说明卡
+数据集位于 `benchmark/`，已发布在 Hugging Face 的
+[`Tongyi-ConvAI/VibeMemBench`](https://huggingface.co/datasets/Tongyi-ConvAI/VibeMemBench)。完整参考见数据集说明卡
 [`benchmark/README.md`](benchmark/README.md)。
 
 ### 数量

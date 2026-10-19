@@ -132,7 +132,7 @@ pip install "pandas<=2.2.3" "pyarrow<=17.0.0" PyYAML python-dotenv
 **3. Download the dataset into `benchmark/`.**
 
 ```bash
-hf download <org>/VibeMemBench --repo-type dataset --local-dir benchmark
+hf download Tongyi-ConvAI/VibeMemBench --repo-type dataset --local-dir benchmark
 ```
 
 `local_dir="benchmark"` puts the files exactly where the code looks for them. Full download
@@ -160,9 +160,9 @@ Stage 2 runs each target inside its Docker sandbox image, so Docker must be avai
 
 ## The dataset
 
-The dataset lives in `benchmark/` and will be published on Hugging Face at
-`https://huggingface.co/datasets/<org>/VibeMemBench` (link forthcoming). The dataset card in
-[`benchmark/README.md`](benchmark/README.md) is the full reference.
+The dataset lives in `benchmark/` and is published on Hugging Face at
+[`Tongyi-ConvAI/VibeMemBench`](https://huggingface.co/datasets/Tongyi-ConvAI/VibeMemBench). The
+dataset card in [`benchmark/README.md`](benchmark/README.md) is the full reference.
 
 ### Counts
 
